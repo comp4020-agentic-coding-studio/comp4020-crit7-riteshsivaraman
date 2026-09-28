@@ -160,3 +160,17 @@ following existing Astro `APIRoute` conventions.
 - Redeploy to Fly (`mise exec -- flyctl deploy --remote-only --ha=false -a
   comp4020-crit7-riteshsivaraman`, already authenticated) and re-check the
   live URL once the feature is in a demoable state.
+
+## Design system
+
+- Every page uses `src/layouts/Base.astro` (props: `title`, optional
+  `current: "plan" | "graph"`) and styles only via the tokens and classes in
+  `src/styles/anu.css` (container, page-heading, data-table, panel, btn-primary/
+  btn-secondary, field/label/input/select, badge-satisfied/pending/unmet,
+  alert-*). The graph uses `--status-satisfied|pending|unmet` for node/edge
+  colours.
+- No ad-hoc colours, fonts, shadows or radii in page markup or `<style>`
+  blocks. Only structural layout (grid/flex arrangement) may be page-local.
+- If a builder needs a style that doesn't exist, report it as missing
+  rather than adding it; the foundation owner adds it to `anu.css`.
+- No real ANU crest/logo or trademarked imagery; the wordmark is plain text.

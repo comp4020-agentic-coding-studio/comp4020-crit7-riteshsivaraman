@@ -4,30 +4,16 @@
 // satisfied/violated badge per placed course via isSatisfied(). See
 // PLAN.md's "Pages" section. Kept minimal for now so the build/invariants
 // stay green while the schema and rule engine land first.
+import Base from "../layouts/Base.astro";
 import { listCourses } from "../lib/db";
-import "../styles.css";
 
 const courses = listCourses();
 ---
 
-<!doctype html>
-<html lang="en-AU">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ANU degree planner</title>
-  </head>
-  <body>
-    <nav aria-label="site">
-      <a href="/">Plan builder</a>
-      <a href="/readme/">About</a>
-    </nav>
-    <main>
-      <h1>ANU degree planner</h1>
-      <p>Plan builder --- under construction.</p>
-      <ul>
-        {courses.map((course) => <li>{course.code}: {course.title}</li>)}
-      </ul>
-    </main>
-  </body>
-</html>
+<Base title="Plan builder" current="plan">
+  <h1 class="page-heading">ANU degree planner</h1>
+  <p>Plan builder --- under construction.</p>
+  <ul>
+    {courses.map((course) => <li>{course.code}: {course.title}</li>)}
+  </ul>
+</Base>
