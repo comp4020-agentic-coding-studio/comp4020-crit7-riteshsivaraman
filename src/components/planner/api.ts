@@ -2,7 +2,7 @@
 // Planner island only, reads no environment variables, imports no server
 // modules. Planner.tsx is the only caller of the mutating functions.
 import type { ApiError, CourseDetailPayload, Plan, PlannerState, PlanPeriod, SearchResult } from "../../lib/contracts";
-import { firstFreeSlot } from "../../lib/engine/index";
+import { firstFreeSlot, type LoadOf } from "../../lib/engine/index";
 
 export type ApiResult<T> = { ok: true; data: T } | { ok: false; error: ApiError };
 
@@ -61,14 +61,15 @@ const FULL: ApiError = { error: "SLOT_TAKEN", message: "That semester is full." 
 
 /** Graph add (GraphViewProps.onAddEntry): first free slot in the term; a full
  *  term resolves to SLOT_TAKEN without a request. */
-export function addToTerm(plan: Plan, code: string, year: number, period: PlanPeriod): Promise<ApiResult<PlannerState>> {
-  const slot = firstFreeSlot(plan, year, period);
+export function addToTerm(plan: Plan, code: string, year: number, period: PlanPeriod, loads?: LoadOf): Promise<ApiResult<PlannerState>> {
+  const slot = firstFreeSlot(plan, year, period, loads?.(code), loads);
   if (slot === null) return Promise.resolve({ ok: false, error: FULL });
   return api.addEntry(code, year, period, slot);
 }
 /** Graph move (GraphViewProps.onMoveEntry): first free slot in the target term. */
-export function moveToTerm(plan: Plan, entryId: number, year: number, period: PlanPeriod): Promise<ApiResult<PlannerState>> {
-  const slot = firstFreeSlot(plan, year, period);
+export function moveToTerm(plan: Plan, entryId: number, year: number, period: PlanPeriod, loads?: LoadOf): Promise<ApiResult<PlannerState>> {
+  const code = plan.entries.find((e) => e.id === entryId)?.code ?? "";
+  const slot = firstFreeSlot(plan, year, period, loads?.(code), loads, entryId);
   if (slot === null) return Promise.resolve({ ok: false, error: FULL });
   return api.moveEntry(entryId, year, period, slot);
 }
@@ -84,6 +85,8 @@ export function termShort(year: number, period: PlanPeriod): string {
 
 /** The plain-English line for an API error, for inline messages. */
 export function errorText(verb: "add" | "move" | "remove", code: string, e: ApiError): string {
+  // footprint clashes carry their own specific reason from the server
+  if (e.error === "SLOT_TAKEN" && e.message.startsWith("There isn't room")) return e.message;
   const why: Record<ApiError["error"], string> = {
     SLOT_TAKEN: "that slot is already taken",
     ALREADY_PLANNED: "it's already in your plan",

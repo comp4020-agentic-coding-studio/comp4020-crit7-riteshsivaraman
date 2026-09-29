@@ -115,14 +115,16 @@
   font: 500 10px/1 var(--font-code); color: var(--ink-2);
 }
 
+/* Top-left, above the legend (bottom-left), so the graph's centre and right
+   stay clear; it scrolls rather than growing into the legend. */
 .graph-panel {
-  position: absolute; top: var(--s-3); right: var(--s-3); max-height: calc(100% - 72px);
-  width: 320px; overflow: auto;
+  position: absolute; top: var(--s-3); left: var(--s-3); max-height: calc(55% - var(--s-3));
+  width: 280px; overflow: auto;
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg);
   box-shadow: var(--shadow-2);
   animation: graph-panel-in var(--d-base) var(--ease) both;
 }
-@keyframes graph-panel-in { from { opacity: 0; transform: translateX(8px); } }
+@keyframes graph-panel-in { from { opacity: 0; transform: translateX(-8px); } }
 .graph-panel__inner { display: flex; flex-direction: column; gap: var(--s-3); padding: var(--s-4); }
 .graph-panel__status { font: 500 var(--t-xs) var(--font-ui); color: var(--muted); }
 .graph-panel__status strong { color: var(--ink); font-weight: 600; }

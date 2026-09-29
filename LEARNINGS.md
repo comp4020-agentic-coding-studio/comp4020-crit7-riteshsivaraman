@@ -175,3 +175,10 @@ the full run showed it. Fix: `extractCourse` closes its window and
 `scrapeCourse` ends every course with `await new Promise(r =>
 setImmediate(r))`. Sensor: the heap test in `scripts/scrape-catalogue.test.ts`
 (no event-loop turn before its gc(), which is the batch loop's situation).
+
+## Full-suite timeouts under parallel load are not failures of the code under test (2026-09-30)
+
+`spec/boot-sync.test.ts` ("keeps v1's entries under plan 'legacy'") timed out at
+30 s once during a full `pnpm test` while a dev server was also running, then
+passed alone and on the next full run. Re-run the single file before chasing a
+bug; if it recurs, raise that test's timeout rather than the global one.

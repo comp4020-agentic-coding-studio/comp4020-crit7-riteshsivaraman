@@ -136,8 +136,13 @@ export function fitMessage(code: string, load: Load, anchor: PlanPeriod, fit: Ex
     terms === 2 || width > 1
       ? ` ${code} needs ${width} slot${width === 1 ? "" : "s"}${terms === 2 ? " in each of two consecutive semesters" : ""}.`
       : "";
-  const where = `Year ${fit.cell.year} ${fit.cell.period === "SUMMER" ? "Summer" : fit.cell.period} slot ${fit.cell.slot + 1}`;
-  const why = fit.reason === "outside" ? `${where} is outside your plan` : `${where} is taken by ${fit.by?.code ?? "another course"}`;
+  const term = `Year ${fit.cell.year} ${fit.cell.period === "SUMMER" ? "Summer" : fit.cell.period}`;
+  const why =
+    fit.reason === "taken"
+      ? `${term} slot ${fit.cell.slot + 1} is taken by ${fit.by?.code ?? "another course"}`
+      : fit.cell.slot >= SLOTS[fit.cell.period]
+        ? `it would run past the last slot of ${term}`
+        : `${term} isn't in your plan`;
   return `There isn't room for ${code} there.${need} ${why}.`;
 }
 

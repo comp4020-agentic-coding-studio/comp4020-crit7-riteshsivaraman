@@ -14,6 +14,7 @@ import type { GraphViewProps, MutationOutcome, PlanPeriod } from "../../lib/cont
 import "../../styles/graph.css";
 import { Button, IconButton, IconFit, IconList, IconGraph, IconPlus, IconSearch, IconZoomIn, IconZoomOut, Popover, Sheet } from "../ui";
 import Legend from "./Legend";
+import { loadOf } from "../../lib/engine";
 import { buildGraph, courseSentence, neighbourhood, pickerTerms, termLabel, type GraphEdge, type GraphNode } from "./model";
 import { SemesterPicker } from "./SemesterPicker";
 import TextView from "./TextView";
@@ -521,7 +522,7 @@ export default function GraphView(props: GraphViewProps) {
         anchor={picking?.from === "panel" ? actionBtn : addBtn}
         code={picking?.code ?? ""}
         verb={picking?.mode === "move" ? "Move" : "Add"}
-        terms={pickerTerms(state.plan, movingEntry)}
+        terms={pickerTerms(state.plan, movingEntry, picking ? loadOf(catalogue.byCode.get(picking.code)) : undefined, (c) => loadOf(catalogue.byCode.get(c)))}
         onChoose={onChoose}
         onClose={() => setPicking(null)}
       />

@@ -5,7 +5,7 @@
 // Browser code (ships in the GraphView chunk) --- reads no environment variables.
 
 import { SLOTS, type CatalogueIndex, type ClauseResult, type Plan, type PlanEntry, type PlannerState, type PlanPeriod, type Rule, type TermKey, type TriState } from "../../lib/contracts";
-import { firstFreeSlot, planTerms, termKey } from "../../lib/engine";
+import { firstFreeSlot, planTerms, termKey, type Load, type LoadOf } from "../../lib/engine";
 
 export type NodeKind = "course" | "or" | "and" | "units";
 export type EdgeKind = "prereq" | "coreq" | "incompatible";
@@ -230,11 +230,11 @@ export const termLongLabel = (year: number, period: PlanPeriod) =>
   `Year ${year}, ${period === "SUMMER" ? "Summer" : `Semester ${period.slice(1)}`}`;
 
 /** Every placeable term; full ones disabled; for a move, the entry's own term too. */
-export function pickerTerms(plan: Plan, moving?: PlanEntry): PickerTerm[] {
+export function pickerTerms(plan: Plan, moving?: PlanEntry, load?: Load, loads?: LoadOf): PickerTerm[] {
   return planTerms(plan).map(({ year, period }) => {
     const used = plan.entries.filter((e) => e.year === year && e.period === period).length;
     const current = !!moving && moving.year === year && moving.period === period;
-    const full = firstFreeSlot(plan, year, period) === null;
+    const full = firstFreeSlot(plan, year, period, load, loads, moving?.id) === null;
     return {
       year,
       period,

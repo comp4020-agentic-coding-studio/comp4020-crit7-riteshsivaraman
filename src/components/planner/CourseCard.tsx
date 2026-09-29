@@ -20,11 +20,14 @@ export interface CourseCardProps {
   fresh: boolean;
   onTrace(code: string | null): void;
   onRemove(entry: PlanEntry): void;
+  /** multi-slot / two-term courses: slots this card spans in its row, and
+   *  which of two semesters this card is (null for a one-term course) */
+  span?: { width: number; part: 1 | 2 | null; other: string; unitsHere: number };
 }
 
 const TRACE_TAG: Partial<Record<NonNullable<Trace>, string>> = { needs: "needed", unlocks: "unlocks", clashes: "clashes" };
 
-export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, onRemove }: CourseCardProps) {
+export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, onRemove, span }: CourseCardProps) {
   const ref = useRef<HTMLElement>(null);
   const [open, setOpen] = useState(false);
   // pinned = opened on purpose (Enter/Space or a tap): a focus-trapping dialog,
@@ -39,9 +42,10 @@ export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, 
   const problems = issues.filter((i) => i.severity !== "info");
   const infos = issues.filter((i) => i.severity === "info");
   const state = status?.state ?? "ok";
-  const titleId = `card-${entry.id}-title`;
-  const issuesId = `card-${entry.id}-issues`;
-  const detailId = `card-${entry.id}-detail`;
+  const idBase = `card-${entry.id}${span?.part === 2 ? "-p2" : ""}`;
+  const titleId = `${idBase}-title`;
+  const issuesId = `${idBase}-issues`;
+  const detailId = `${idBase}-detail`;
   const where = termLabel(entry.year, entry.period);
 
   const show = (delay: number) => {
@@ -58,7 +62,7 @@ export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, 
   };
 
   const [dragging, setDragging] = useState(false);
-  const classes = ["card", state !== "ok" && `card--${state}`, fresh && "card--fresh", dragging && "card--dragging"].filter(Boolean).join(" ");
+  const classes = ["card", state !== "ok" && `card--${state}`, fresh && "card--fresh", dragging && "card--dragging", span?.part && "card--span", span?.part === 2 && "card--cont"].filter(Boolean).join(" ");
   const inPeriod = entry.period;
   return (
     <article
@@ -66,6 +70,8 @@ export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, 
       class={classes}
       data-entry-id={entry.id}
       data-code={entry.code}
+      data-part={span?.part ?? undefined}
+      style={span && span.width > 1 ? { gridColumn: `span ${span.width}` } : undefined}
       draggable
       onDragStart={(e) => {
         if (!e.dataTransfer) return;
@@ -119,10 +125,15 @@ export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, 
       <div class="card__row1">
         <span class="code card__code" id={titleId}>
           {entry.code}
-          <span class="visually-hidden">, {course?.title ?? ""}, {where}</span>
+          <span class="visually-hidden">, {course?.title ?? ""}, {where}{span?.part ? `, part ${span.part} of 2, ${span.part === 1 ? "continues in" : "started in"} ${span.other}` : ""}</span>
         </span>
-        <span class="num card__units" aria-hidden="true">{course?.units ?? 6}u</span>
+        <span class="num card__units" aria-hidden="true">{span?.unitsHere ?? course?.units ?? 6}u</span>
       </div>
+      {span?.part && (
+        <p class="card__part" aria-hidden="true">
+          Part {span.part} of 2 · {span.part === 1 ? "continues" : "from"} {span.other}
+        </p>
+      )}
       <p class="card__title" aria-hidden="true">{course?.title ?? "Course details unavailable"}</p>
       {course && course.offered.length > 0 && (
         <div class="card__offer" aria-hidden="true">

@@ -16,7 +16,7 @@ import type {
   PlanPeriod,
   Rule,
 } from "../../lib/contracts";
-import { dependentsOf, firstFreeSlot, indexCatalogue } from "../../lib/engine/index";
+import { dependentsOf, firstFreeSlot, indexCatalogue, loadOf } from "../../lib/engine/index";
 import { Popover } from "../ui";
 import { addToTerm, api, errorText, moveToTerm, termLabel, type ApiResult } from "./api";
 import type { Trace } from "./CourseCard";
@@ -159,14 +159,15 @@ export default function Planner({ bootstrap, initialView }: PlannerProps) {
   };
 
   // --- graph callbacks (GraphViewProps) -------------------------------
+  const loads = (code: string) => loadOf(cat.byCode.get(code));
   const onAddEntry = async (code: string, year: number, period: PlanPeriod): Promise<MutationOutcome> => {
-    const slot = firstFreeSlot(state.plan, year, period);
-    if (slot === null) return apply(await addToTerm(state.plan, code, year, period)); // SLOT_TAKEN, no request
+    const slot = firstFreeSlot(state.plan, year, period, loads(code), loads);
+    if (slot === null) return apply(await addToTerm(state.plan, code, year, period, loads)); // SLOT_TAKEN, no request
     return add(code, year, period, slot);
   };
   const onMoveEntry = async (entryId: number, year: number, period: PlanPeriod): Promise<MutationOutcome> => {
     const entry = state.plan.entries.find((e) => e.id === entryId);
-    const out = apply(await moveToTerm(state.plan, entryId, year, period));
+    const out = apply(await moveToTerm(state.plan, entryId, year, period, loads));
     if (out.ok && entry) setLive(`${entry.code} moved to ${termLabel(year, period)}.`);
     return out;
   };

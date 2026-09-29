@@ -222,6 +222,9 @@
 /* --------------------------------------------------------------- card */
 
 .card[draggable="true"] { cursor: grab; }
+.card__part { margin: 0; font: 500 var(--t-xs) var(--font-ui); color: var(--gold-text); }
+.card--span { border-left: 3px solid var(--gold); }
+.card--cont { background: var(--gold-wash); }
 .card--dragging { opacity: 0.45; }
 .card {
   position: relative;
