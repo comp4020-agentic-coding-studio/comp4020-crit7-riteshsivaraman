@@ -18,6 +18,10 @@ const synth = (code: string, rule: CatalogueCourse["rule"], extra: Partial<Catal
 const extras: CatalogueCourse[] = [
   synth("COMP2120", { kind: "COURSE", code: "COMP2100", concurrent: true }),
   synth("COMP4610", { kind: "UNITS", min: 6, from: ["COMP3600", "COMP2100"], concurrent: false }),
+  synth("COMP3900", { kind: "OR", children: [
+    { kind: "AND", children: [{ kind: "COURSE", code: "COMP2100", concurrent: false }, { kind: "COURSE", code: "COMP1600", concurrent: false }] },
+    { kind: "COURSE", code: "COMP3600", concurrent: false },
+  ] }),
   synth("COMP1110", { kind: "COURSE", code: "COMP1100", concurrent: false }, { incompatible: ["COMP1140"] }),
 ];
 const cat = indexCatalogue([...mini.courses, ...extras], mini.version);
@@ -48,6 +52,15 @@ describe("graph model: rule shapes", () => {
     expect(m.nodes.some((n) => n.kind === "and")).toBe(false);
     // COMP2100 = AND(OR(..), UNITS): two arrows arrive at the course itself
     expect(into(m, "COMP2100")).toHaveLength(2);
+  });
+
+  it("an AND that is one alternative of an OR gets its own ALL hub", () => {
+    const g = buildGraph(cat, stateFor([["COMP3900", 3, "S1"]]));
+    const and = g.nodes.filter((n) => n.kind === "and");
+    expect(and).toHaveLength(1);
+    expect(into(g, and[0].id).map((e) => e.source).sort()).toEqual(["COMP1600", "COMP2100"]);
+    const or = g.nodes.find((n) => n.kind === "or")!;
+    expect(into(g, or.id).map((e) => e.source).sort()).toEqual([and[0].id, "COMP3600"].sort());
   });
 
   it("UNITS -> a units hub with its label", () => {

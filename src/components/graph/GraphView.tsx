@@ -113,7 +113,7 @@ export default function GraphView(props: GraphViewProps) {
 
     simRef.current?.stop();
     const sim = forceSimulation<SimNode, SimLink>(nodes)
-      .force("link", forceLink<SimNode, SimLink>(links).id((d) => d.id).distance((l) => (isHubLink(l) ? 40 : l.edge.kind === "incompatible" ? 60 : 70)).strength((l) => (l.edge.kind === "incompatible" ? 0.25 : 0.7)))
+      .force("link", forceLink<SimNode, SimLink>(links).id((d) => d.id).distance((l) => (isHubLink(l) ? 40 : l.edge.kind === "incompatible" ? 80 : 70)).strength((l) => (l.edge.kind === "incompatible" ? 0.25 : 0.7)))
       .force("charge", forceManyBody<SimNode>().strength(-260).distanceMax(320))
       .force("collide", forceCollide<SimNode>((d) => d.w / 2 + 8))
       .force("x", forceX<SimNode>((d) => levelX(d.level)).strength(0.06))
@@ -122,14 +122,16 @@ export default function GraphView(props: GraphViewProps) {
     simRef.current = sim;
 
     const fresh = prev.size === 0;
-    if (reduced) {
+    // Reduced motion, or a hidden tab (rAF paused, so d3's timer never fires):
+    // settle synchronously and paint once.
+    if (reduced || document.visibilityState === "hidden") {
       sim.tick(300);
       setFrame((f) => f + 1);
       if (fresh || !interacted.current) requestAnimationFrame(() => fit(false));
       return () => sim.stop();
     }
     sim.alpha(fresh ? 1 : 0.5);
-    if (fresh) sim.tick(80); // a calmer first paint
+    sim.tick(fresh ? 120 : 40); // most of the settling before first paint; the rest animates
     let raf = 0;
     sim.on("tick", () => {
       if (!raf) raf = requestAnimationFrame(() => { raf = 0; setFrame((f) => f + 1); });
