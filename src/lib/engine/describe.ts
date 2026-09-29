@@ -111,3 +111,61 @@ export function missingShort(rule: Rule): string {
       return "Requisites not met";
   }
 }
+
+type InfoRule = Extract<Rule, { kind: "INFO" }>;
+
+/** Short phrase for the missing part of one checkable branch, or null if it has no compact form. */
+function branchPhrase(rule: Rule): string | null {
+  switch (rule.kind) {
+    case "COURSE":
+      return rule.code;
+    case "UNITS":
+      if (rule.from) return null;
+      return `${rule.min} ${rule.subject ? `${rule.subject} ` : ""}units`;
+    case "OR": {
+      const codes = rule.children.flatMap((c) => (c.kind === "COURSE" ? [c.code] : []));
+      return codes.length === rule.children.length ? list(codes, "or") : null;
+    }
+    default:
+      return null;
+  }
+}
+
+function infoLabel(rule: InfoRule, specific: boolean): string {
+  switch (rule.info) {
+    case "PROGRAM":
+      return specific && rule.programs?.length === 1 ? `program ${rule.programs[0]}` : "a program";
+    case "PERMISSION":
+      return specific ? "a permission code" : "permission";
+    case "GRADE":
+      return specific && rule.wam !== undefined ? `WAM ${rule.wam}+` : "a WAM";
+  }
+}
+
+/**
+ * Card string for an UNVERIFIED_REQUISITE: an OR met only through an INFO
+ * branch. `missing` is the unmet part of each checkable branch.
+ */
+export function unverifiedShort(missing: Rule[], infos: InfoRule[]): string {
+  const first = infos[0]!;
+  const specific = infoLabel(first, infos.length === 1);
+  const generic = infoLabel(first, false);
+  const phrases = missing.map(branchPhrase);
+  const candidates: string[] = [];
+  if (phrases.every((p): p is string => p !== null)) {
+    const text = list(phrases, "or");
+    candidates.push(`Needs ${text} or ${specific}`, `Needs ${text} or ${generic}`);
+  }
+  candidates.push(`Needs requisites or ${generic}`);
+  return candidates.find((c) => c.length <= SHORT_MAX) ?? "Requisite not verifiable";
+}
+
+/** Popover text: the unmet checkable alternatives, then the unverifiable ones. */
+export function unverifiedDetail(checkable: Rule[], infos: InfoRule[]): string {
+  const unmet = list(
+    checkable.map((c) => describeNode(c, true)),
+    "or",
+  );
+  const via = list(infos.map(infoText), "or");
+  return `None of the checkable options is in the plan: ${unmet}. It can only be met by ${via}.`;
+}

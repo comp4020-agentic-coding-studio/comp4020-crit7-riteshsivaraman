@@ -21,7 +21,7 @@ import type {
   TermKey,
   TriState,
 } from "../contracts";
-import { describeRule, fitShort, missingShort } from "./describe";
+import { describeRule, fitShort, missingShort, unverifiedDetail, unverifiedShort } from "./describe";
 import { planTerms, termKey, termOrder } from "./terms";
 
 interface Placed {
@@ -61,6 +61,16 @@ function or(states: TriState[]): TriState {
   return "unmet";
 }
 
+// OR results whose checkable branches are all unmet and that could only be met
+// through an INFO branch (or a nested OR of this kind). They evaluate
+// "unknown" so AND/OR propagate them like an unverifiable clause: an unmet
+// sibling in an AND still makes the AND unmet (a red error for that part).
+const unverified = new WeakSet<ClauseResult>();
+
+function viaInfo(c: ClauseResult): boolean {
+  return c.rule.kind === "INFO" || unverified.has(c);
+}
+
 export function evalRule(rule: Rule, ctx: Ctx): ClauseResult {
   const english = describeRule(rule, ctx.cat);
   switch (rule.kind) {
@@ -83,11 +93,20 @@ export function evalRule(rule: Rule, ctx: Ctx): ClauseResult {
       }
       return { rule, state: total >= rule.min ? "met" : "unmet", english };
     }
-    case "AND":
+    case "AND": {
+      const children = rule.children.map((c) => evalRule(c, ctx));
+      return { rule, state: and(children.map((c) => c.state)), english, children };
+    }
     case "OR": {
       const children = rule.children.map((c) => evalRule(c, ctx));
-      const states = children.map((c) => c.state);
-      return { rule, state: rule.kind === "AND" ? and(states) : or(states), english, children };
+      const checkable = children.filter((c) => !viaInfo(c));
+      if (checkable.length > 0 && checkable.length < children.length && checkable.every((c) => c.state === "unmet")) {
+        for (const c of children) if (c.rule.kind === "INFO") c.state = "unknown";
+        const result: ClauseResult = { rule, state: "unknown", english, children };
+        unverified.add(result);
+        return result;
+      }
+      return { rule, state: or(children.map((c) => c.state)), english, children };
     }
     case "INFO":
       return { rule, state: "met", english };
@@ -109,6 +128,41 @@ function missingOf(result: ClauseResult): Rule {
 function collect(result: ClauseResult, kind: "INFO" | "UNMODELLED", out: ClauseResult[]): void {
   if (result.rule.kind === kind) out.push(result);
   for (const c of result.children ?? []) collect(c, kind, out);
+}
+
+/** Outermost unverified ORs, looking only inside clauses that are not met. */
+function collectUnverified(result: ClauseResult, out: ClauseResult[]): void {
+  if (result.state === "met") return;
+  if (unverified.has(result)) {
+    out.push(result);
+    return;
+  }
+  for (const c of result.children ?? []) collectUnverified(c, out);
+}
+
+/** Flatten an unverified OR (and unverified ORs nested in it) into its branches. */
+function branchesOf(result: ClauseResult, checkable: ClauseResult[], infos: Extract<Rule, { kind: "INFO" }>[]): void {
+  for (const c of result.children ?? []) {
+    if (c.rule.kind === "INFO") infos.push(c.rule);
+    else if (unverified.has(c)) branchesOf(c, checkable, infos);
+    else checkable.push(c);
+  }
+}
+
+function unverifiedIssue(result: ClauseResult): Issue {
+  const checkable: ClauseResult[] = [];
+  const infos: Extract<Rule, { kind: "INFO" }>[] = [];
+  branchesOf(result, checkable, infos);
+  return {
+    kind: "UNVERIFIED_REQUISITE",
+    severity: "warning",
+    short: unverifiedShort(checkable.map(missingOf), infos),
+    missing: result.rule,
+    detail: unverifiedDetail(
+      checkable.map((c) => c.rule),
+      infos,
+    ),
+  };
 }
 
 const INFO_SHORT: Record<InfoKind, string> = {
@@ -145,6 +199,9 @@ function statusFor(
         const missing = missingOf(clauses);
         issues.push({ kind: "MISSING_REQUISITE", severity: "error", short: missingShort(missing), missing });
       }
+      const pending: ClauseResult[] = [];
+      collectUnverified(clauses, pending);
+      for (const u of pending) issues.push(unverifiedIssue(u));
       if (clauses.state !== "met") {
         const seen = new Set<string>();
         const unmodelled: ClauseResult[] = [];
