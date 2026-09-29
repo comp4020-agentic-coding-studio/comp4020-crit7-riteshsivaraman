@@ -1,7 +1,8 @@
 // Plan + catalogue HTTP client (PLAN.md §3.2). Browser code: runs in the
 // Planner island only, reads no environment variables, imports no server
 // modules. Planner.tsx is the only caller of the mutating functions.
-import type { ApiError, CourseDetailPayload, PlannerState, PlanPeriod, SearchResult } from "../../lib/contracts";
+import type { ApiError, CourseDetailPayload, Plan, PlannerState, PlanPeriod, SearchResult } from "../../lib/contracts";
+import { firstFreeSlot } from "../../lib/engine/index";
 
 export type ApiResult<T> = { ok: true; data: T } | { ok: false; error: ApiError };
 
@@ -14,7 +15,8 @@ async function call<T>(method: string, url: string, body?: unknown, signal?: Abo
       method,
       signal,
       credentials: "same-origin",
-      headers: body === undefined ? { accept: "application/json" } : { "content-type": "application/json", accept: "application/json" },
+      // every mutating route requires a JSON content type (the CSRF defence, §3.2), DELETE included
+      headers: method === "GET" ? { accept: "application/json" } : { "content-type": "application/json", accept: "application/json" },
       body: body === undefined ? undefined : JSON.stringify(body),
     });
   } catch (err) {
@@ -51,6 +53,22 @@ export const api = {
   },
   course: (code: string) => call<CourseDetailPayload>("GET", `/api/courses/${encodeURIComponent(code)}`),
 };
+
+const FULL: ApiError = { error: "SLOT_TAKEN", message: "That semester is full." };
+
+/** Graph add (GraphViewProps.onAddEntry): first free slot in the term; a full
+ *  term resolves to SLOT_TAKEN without a request. */
+export function addToTerm(plan: Plan, code: string, year: number, period: PlanPeriod): Promise<ApiResult<PlannerState>> {
+  const slot = firstFreeSlot(plan, year, period);
+  if (slot === null) return Promise.resolve({ ok: false, error: FULL });
+  return api.addEntry(code, year, period, slot);
+}
+/** Graph move (GraphViewProps.onMoveEntry): first free slot in the target term. */
+export function moveToTerm(plan: Plan, entryId: number, year: number, period: PlanPeriod): Promise<ApiResult<PlannerState>> {
+  const slot = firstFreeSlot(plan, year, period);
+  if (slot === null) return Promise.resolve({ ok: false, error: FULL });
+  return api.moveEntry(entryId, year, period, slot);
+}
 
 /** "Year 2, Semester 1" / "Year 1, Summer" */
 export function termLabel(year: number, period: PlanPeriod): string {

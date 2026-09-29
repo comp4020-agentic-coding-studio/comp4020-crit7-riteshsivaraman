@@ -6,7 +6,6 @@
 import type { ComponentType } from "preact";
 import { useCallback, useEffect, useMemo, useRef, useState } from "preact/hooks";
 import type {
-  ApiError,
   CatalogueCourse,
   GraphSearchProps,
   GraphViewProps,
@@ -19,7 +18,7 @@ import type {
 } from "../../lib/contracts";
 import { dependentsOf, firstFreeSlot, indexCatalogue } from "../../lib/engine/index";
 import { Popover } from "../ui";
-import { api, termLabel, type ApiResult } from "./api";
+import { addToTerm, api, errorText, moveToTerm, termLabel, type ApiResult } from "./api";
 import type { Trace } from "./CourseCard";
 import { CourseDetail } from "./CourseDetail";
 import { FirstRun, Guide } from "./FirstRun";
@@ -39,8 +38,6 @@ function ruleCodes(rule: Rule | null, out = new Set<string>()): Set<string> {
   else if (rule.kind === "UNITS") (rule.from ?? []).forEach((c) => out.add(c));
   return out;
 }
-
-const FULL: ApiError = { error: "SLOT_TAKEN", message: "That semester is full." };
 
 export default function Planner({ bootstrap, initialView }: PlannerProps) {
   const [state, setState] = useState<PlannerState>(bootstrap.state);
@@ -115,9 +112,12 @@ export default function Planner({ bootstrap, initialView }: PlannerProps) {
     const before = problemsOf(state);
     const res = await api.removeEntry(entry.id);
     if (!res.ok) {
-      setLive(res.error.message);
+      const msg = errorText("remove", entry.code, res.error);
+      setLive(msg);
+      setStartError(msg);
       return;
     }
+    setStartError(null);
     apply(res);
     const newly = [...problemsOf(res.data)].filter((c) => !before.has(c));
     setLive(`${entry.code} removed.${newly.length ? ` ${newly.join(", ")} now ${newly.length === 1 ? "has a problem" : "have problems"}.` : ""}`);
@@ -139,14 +139,12 @@ export default function Planner({ bootstrap, initialView }: PlannerProps) {
   // --- graph callbacks (GraphViewProps) -------------------------------
   const onAddEntry = async (code: string, year: number, period: PlanPeriod): Promise<MutationOutcome> => {
     const slot = firstFreeSlot(state.plan, year, period);
-    if (slot === null) return { ok: false, error: FULL };
+    if (slot === null) return apply(await addToTerm(state.plan, code, year, period)); // SLOT_TAKEN, no request
     return add(code, year, period, slot);
   };
   const onMoveEntry = async (entryId: number, year: number, period: PlanPeriod): Promise<MutationOutcome> => {
-    const slot = firstFreeSlot(state.plan, year, period);
-    if (slot === null) return { ok: false, error: FULL };
     const entry = state.plan.entries.find((e) => e.id === entryId);
-    const out = apply(await api.moveEntry(entryId, year, period, slot));
+    const out = apply(await moveToTerm(state.plan, entryId, year, period));
     if (out.ok && entry) setLive(`${entry.code} moved to ${termLabel(year, period)}.`);
     return out;
   };

@@ -272,8 +272,17 @@
 .card__strip--info { background: var(--info-wash); color: var(--info); font-weight: 500; }
 .card__more { margin-left: auto; flex: none; font-weight: 500; opacity: 0.85; }
 
-.card--violation { border-color: var(--danger-line); box-shadow: inset 3px 0 0 var(--danger-line); }
-.card--violation:hover { box-shadow: var(--shadow-2); }
+.card--violation { border-color: var(--danger-line); }
+.card--violation::before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  bottom: -1px;
+  width: 3px;
+  border-radius: var(--r-md) 0 0 var(--r-md);
+  background: var(--danger-line);
+}
 .card--warning { border-style: dashed; border-color: var(--warn-line); }
 
 .card__remove { position: absolute; top: 6px; right: 6px; opacity: 0; transition: opacity var(--d-fast) var(--ease); }

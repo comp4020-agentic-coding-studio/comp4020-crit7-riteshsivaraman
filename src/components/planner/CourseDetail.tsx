@@ -137,7 +137,7 @@ export function CourseDetail({ course, status, cat }: CourseDetailProps) {
         </details>
       )}
       <a class="detail__link" href={course.sourceUrl} target="_blank" rel="noopener noreferrer">
-        View on Programs and Courses <IconExternal size={12} />
+        Full description on Programs &amp; Courses <IconExternal size={12} />
         <span class="visually-hidden"> (opens in a new tab)</span>
       </a>
     </div>

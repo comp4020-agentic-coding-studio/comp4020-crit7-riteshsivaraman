@@ -27,6 +27,10 @@ const TRACE_TAG: Partial<Record<NonNullable<Trace>, string>> = { needs: "needed"
 export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, onRemove }: CourseCardProps) {
   const ref = useRef<HTMLElement>(null);
   const [open, setOpen] = useState(false);
+  // pinned = opened on purpose (Enter/Space or a tap): a focus-trapping dialog,
+  // so keyboard users can reach the P&C link inside it
+  const [pinned, setPinned] = useState(false);
+  const justClosed = useRef(false); // focus returning from a pinned dialog must not reopen the hover card
   const openTimer = useRef<number | undefined>(undefined);
   const closeTimer = useRef<number | undefined>(undefined);
   useEffect(() => () => { window.clearTimeout(openTimer.current); window.clearTimeout(closeTimer.current); }, []);
@@ -47,6 +51,7 @@ export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, 
     else openTimer.current = window.setTimeout(() => setOpen(true), delay);
   };
   const hide = (delay = 120) => {
+    if (pinned) return;
     window.clearTimeout(openTimer.current);
     window.clearTimeout(closeTimer.current);
     closeTimer.current = window.setTimeout(() => setOpen(false), delay);
@@ -78,6 +83,7 @@ export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, 
       onFocus={(e) => {
         if (e.target !== e.currentTarget) return;
         onTrace(entry.code);
+        if (justClosed.current) { justClosed.current = false; return; }
         // keyboard focus opens the hover card; on phones (sheet mode) and
         // after a mouse click only a tap opens it, so a sheet never ambushes
         if (e.currentTarget.matches(":focus-visible") && !window.matchMedia("(max-width: 640px)").matches) show(0);
@@ -90,7 +96,15 @@ export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, 
       }}
       onClick={(e) => {
         if ((e.target as HTMLElement).closest("button, a")) return;
-        setOpen((o) => !o);
+        window.clearTimeout(openTimer.current);
+        setPinned(!(open && pinned));
+        setOpen(!(open && pinned));
+      }}
+      onKeyDown={(e) => {
+        if (e.target !== e.currentTarget || (e.key !== "Enter" && e.key !== " ")) return;
+        e.preventDefault();
+        setOpen(false);
+        window.setTimeout(() => { setPinned(true); setOpen(true); }, 0);
       }}
     >
       <div class="card__row1">
@@ -139,11 +153,11 @@ export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, 
         <Popover
           open={open}
           anchor={ref}
-          onClose={() => setOpen(false)}
-          role="none"
+          onClose={() => { if (pinned) justClosed.current = true; setOpen(false); setPinned(false); }}
+          role={pinned ? "dialog" : "none"}
           id={detailId}
-          initialFocus="none"
-          returnFocus={false}
+          initialFocus={pinned ? "first" : "none"}
+          returnFocus={pinned ? ref : false}
           placement="bottom-start"
           width={340}
           label={`${entry.code} details`}
