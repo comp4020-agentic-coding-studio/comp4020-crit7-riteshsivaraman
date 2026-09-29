@@ -235,7 +235,7 @@ export type Rule =
       concurrent: boolean;        // same-term courses count
     }
   | {
-      kind: "INFO";               // warn-only: evaluates as met, surfaces an info badge
+      kind: "INFO";               // not checkable: met + info badge; an OR met only via INFO is an amber warning
       info: InfoKind;
       text: string;               // verbatim clause
       programs?: string[];        // PROGRAM only, e.g. ["HCOMP", "AACOM"]
@@ -297,6 +297,8 @@ export type Issue =
   | { kind: "NOT_OFFERED"; severity: "warning"; short: string; period: PlanPeriod } // "Not offered in S2"
   | { kind: "NO_OFFERING_LISTED"; severity: "warning"; short: string }              // "No 2026 offering listed"
   | { kind: "UNMODELLED"; severity: "warning"; short: string; text: string }        // "Check official requisites"
+  | { kind: "UNVERIFIED_REQUISITE"; severity: "warning"; short: string;
+      missing: Rule; detail: string }                                               // "Needs COMP2100 or a program"
   | { kind: "RETIRED"; severity: "warning"; short: string }                         // "No longer in catalogue"
   | { kind: "INFO"; severity: "info"; short: string; info: InfoKind; text: string };// "Permission code needed"
 
@@ -343,8 +345,21 @@ Evaluation semantics (B's tests pin every line):
   (if given). A course never counts toward its own requisite.
 - `AND`: unmet if any child unmet; else unknown if any unknown; else met.
   `OR`: met if any child met; else unknown if any unknown; else unmet.
-- `INFO` → met + an `INFO` issue. `UNMODELLED` → unknown + an `UNMODELLED`
-  warning. A root that evaluates `unknown` yields a warning, never an error.
+- `INFO` → met + an `INFO` issue, when it stands alone (or in an `AND`, or
+  in an `OR` whose children are all `INFO`). An `OR` with at least one
+  checkable (non-`INFO`) branch, where every checkable branch is unmet and
+  an `INFO` branch remains, is satisfiable only through something the
+  engine can't verify: it evaluates `unknown`, its `INFO` children show
+  `unknown` in the clause tree, and the entry gets one amber
+  `UNVERIFIED_REQUISITE` warning per outermost such `OR` (`missing` = that
+  `OR`; `short` like "Needs COMP2100 or program HCOMP"; `detail` names the
+  unmet checkable branches in plain English and the `INFO` ones as
+  "(not checked)"). Nested unverified `OR`s flatten into their parent's
+  warning. If any checkable branch is met, the `OR` is met as before.
+  Being `unknown`, it propagates like one: `AND` with an unmet sibling is
+  still unmet (red error for that sibling, plus the amber warning).
+- `UNMODELLED` → unknown + an `UNMODELLED` warning. A root that evaluates
+  `unknown` yields a warning, never an error.
 - Incompatible: error if any code in `incompatible` is placed in **any** term.
 - Offerings: `NOT_OFFERED` if `offered` is non-empty and lacks the period;
   `NO_OFFERING_LISTED` if `offered` is empty.
@@ -1088,3 +1103,4 @@ downstream tracks rebase before continuing.)
 - 2026-09-30, after W0: incompatibility-only text -> parseStatus 'parsed'; contracts-fixture test owned by A (orchestrator).
 - 2026-09-30, after C: class contract + added tokens recorded; --warn-line darkened to meet 3:1 (orchestrator).
 - 2026-09-30, after B: v1 requisites.ts/terms.ts deletion moved to D; INFO nodes evaluate as met, so an OR with a program/permission branch never errors and shows an info note instead (orchestrator).
+- 2026-09-30: OR satisfiable only via an unverifiable branch → amber warning (Ritesh). `Issue` gains `UNVERIFIED_REQUISITE` (warning, `missing: Rule`, `detail: string`); §3.1 INFO semantics rewritten. Affects B (engine), D/E (render the new kind: `short` on the card, `detail` in the popover).
