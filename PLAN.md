@@ -34,6 +34,10 @@ data/engine upgrade second.
 5. **Graph as a view toggle** inside the planner (grid ↔ graph), force-directed
    (d3-force), drag/zoom/pan, hover highlights a neighbourhood, arrows show
    direction, AND/OR/incompatibility each visibly distinct, with a legend.
+   The graph shows the plan only: planned courses as full nodes, courses
+   their rules reference as faded ghost nodes. Courses can be **added** from
+   the graph (search, then pick a semester) and **moved** to another
+   semester from a node's side panel.
 6. **Every ANU course** (all subjects, undergraduate and postgraduate ---
    expect ~3,000--5,000), scraped once from programsandcourses.anu.edu.au
    into committed seed data, synced into the DB on every boot (upsert).
@@ -54,8 +58,11 @@ data/engine upgrade second.
   (offerings in those sessions are shown as text, not placeable rows).
 - Program/major structures (majors, minors, specialisations) as objects ---
   only courses are scraped.
-- Overloading a semester beyond 4 slots; drag-and-drop between slots (moving
-  is "remove and re-add" plus the optional PATCH below).
+- Overloading a semester beyond 4 slots; drag-and-drop between slots or
+  onto graph positions. Moving a course is the graph side panel's "Move to
+  semester…" action (`PATCH /api/plan/entries/:id`, first free slot in the
+  target term); in the grid it is remove and re-add.
+- A subject-wide graph (all of COMP, all of MATH). The graph is plan-only.
 - Dark mode. Tokens are structured so it can be added later; not built now.
 - A no-JS editing path. SSR renders the plan read-only without JS; editing
   needs the Preact islands.
@@ -308,12 +315,20 @@ export interface PlanEvaluation {
   catalogueVersion: string;
 }
 export function evaluatePlan(plan: Plan, cat: CatalogueIndex): PlanEvaluation;
+export type PlacementPreview = { state: EntryStatus["state"]; issues: Issue[] };
 export function previewPlacement(code: string, year: number, period: PlanPeriod,
-  plan: Plan, cat: CatalogueIndex): { state: EntryStatus["state"]; issues: Issue[] };
+  plan: Plan, cat: CatalogueIndex): PlacementPreview;
 export function dependentsOf(code: string, cat: CatalogueIndex): string[];  // reverse index, built in indexCatalogue
 export function describeRule(rule: Rule, cat: CatalogueIndex): string;  // plain English
 export function parseRequisiteText(raw: string): { rule: Rule | null; incompatible: string[]; status: ParseStatus };
+// Lowest free slot index in (year, period), or null if full. Doesn't check the
+// term exists in the plan; callers do. D uses it for graph add/move, E to
+// disable full semesters in its picker.
+export function firstFreeSlot(plan: Plan, year: number, period: PlanPeriod): number | null;
 ```
+
+All types above and in §3.2--§3.4 are declared in `src/lib/contracts.ts`;
+`engine/index.ts` implements the functions and re-exports the engine types.
 
 Evaluation semantics (B's tests pin every line):
 
@@ -363,17 +378,16 @@ re-derive state locally.
 | `PATCH /api/plan` | `{ years?: number; summerYears?: number[]; discardEntries?: boolean }` | 200 | 400 `INVALID`; 409 `YEAR_NOT_EMPTY` (`entries` = count that would be lost) unless `discardEntries: true` |
 | `DELETE /api/plan` | --- | 200 (entries cleared, shape reset to default) | --- |
 | `POST /api/plan/entries` | `{ code; year; period; slot }` | 201 | 400 `INVALID` (bad term/slot, year > years, SUMMER year not in summerYears), 404 `UNKNOWN_COURSE` (incl. retired), 409 `SLOT_TAKEN`, 409 `ALREADY_PLANNED` |
-| `PATCH /api/plan/entries/:id` | `{ year; period; slot }` | 200 | 400, 404 `NOT_FOUND` (id not in *this* plan), 409 `SLOT_TAKEN` |
+| `PATCH /api/plan/entries/:id` | `{ year; period; slot }` | 200 | 400 `INVALID` (same checks as POST), 404 `NOT_FOUND` (id not in *this* plan), 409 `SLOT_TAKEN`. **Required**: the graph's "Move to semester…" uses it (client picks the first free slot) |
 | `DELETE /api/plan/entries/:id` | --- | 200 | 404 `NOT_FOUND` |
-| `GET /api/courses/search?q=&year=&period=&limit=` | --- | 200 `{ results: SearchResult[] }` (limit ≤ 20, default 8) | 400 `INVALID` |
+| `GET /api/courses/search?q=&year=&period=&limit=` | --- | 200 `{ results: SearchResult[] }` (limit ≤ 20, default 8). `year` + `period` are both given (grid slot) or both omitted (graph "Add course"); omitted → every `preview` is `null` | 400 `INVALID` (incl. only one of `year`/`period`) |
 | `GET /api/courses/:code` | --- | 200 `CourseDetailPayload` | 404 `UNKNOWN_COURSE` |
-| `GET /api/courses?subject=COMP` | --- | 200 `{ courses: CatalogueCourse[]; neighbours: CatalogueCourse[] }` (graph subject scope; no descriptions) | 404 unknown subject |
 | `GET /api/events` | --- | 200 `text/event-stream`: one `: ok` comment line, then close. **Stub only** --- exists solely for the CI deploy check in `.github/workflows/checks.yml` (reads the first bytes); the app never calls it | --- |
 
 ```ts
 export interface SearchResult {
   course: CatalogueCourse;                     // no description
-  preview: { state: EntryStatus["state"]; issues: Issue[] }; // previewPlacement for (year, period) vs this cookie's plan
+  preview: PlacementPreview | null;            // previewPlacement for (year, period) vs this cookie's plan; null without a term
   inPlan: TermKey | null;
 }
 export interface CourseDetailPayload {
@@ -389,7 +403,9 @@ per keystroke is trivial; no FTS table). Empty `q` returns suggestions:
 plan** (COMP if the plan is empty), lowest level first. Ranking lives in
 `src/lib/course-search.ts` (A): exact code → code prefix → subject match
 (`MATH` lists MATH courses) → title word prefix → title contains; ties:
-`Ready` first, then level, then code.
+`Ready` first, then level, then code. Without a term (graph search) there
+is no `Ready`: the tie-break drops it, and empty-`q` suggestions are
+not-yet-planned courses from the plan's subjects, lowest level first.
 
 Removing a summer row with entries uses the same `YEAR_NOT_EMPTY` flow.
 Requisite violations **never** reject a request --- the plan is the
@@ -438,10 +454,16 @@ src/pages/index.astro (D)       h1, toolbar SSR shell, <Planner client:load>
    └─ graph/GraphView.tsx (E)   lazy: import("./graph/GraphView")
        ├─ graph/model.ts (E)    pure: catalogue + evaluation → nodes/edges
        ├─ graph/Legend.tsx (E)
-       └─ graph/TextView.tsx (E) accessible edge list / SSR fallback
+       ├─ graph/SemesterPicker.tsx (E) year+period chooser for add/move; full terms disabled
+       ├─ graph/TextView.tsx (E) accessible edge list / SSR fallback
+       └─ (renders D's SearchPopover via renderSearch, D's CourseDetail via renderDetail)
 ```
 
 ```ts
+// D performs every mutation; E only reads the outcome (close picker / show error).
+export type MutationOutcome = { ok: true } | { ok: false; error: ApiError };
+// What E hands D's SearchPopover through renderSearch: a term-less search.
+export interface GraphSearchProps { onPick(code: string): void; onClose(): void }
 // GraphView props (E implements, D renders)
 export interface GraphViewProps {
   catalogue: CatalogueIndex;
@@ -449,13 +471,23 @@ export interface GraphViewProps {
   focusCode: string | null;              // shared with grid: the course being traced
   onFocusCode(code: string | null): void;
   renderDetail(code: string): preact.ComponentChild;  // D passes <CourseDetail/>
+  renderSearch(props: GraphSearchProps): preact.ComponentChild; // D passes <SearchPopover/> (term-less)
+  // D picks firstFreeSlot and POSTs /api/plan/entries; a full term resolves
+  // to SLOT_TAKEN without a request.
+  onAddEntry(code: string, year: number, period: PlanPeriod): Promise<MutationOutcome>;
+  // D picks firstFreeSlot in the target term and PATCHes /api/plan/entries/:id.
+  onMoveEntry(entryId: number, year: number, period: PlanPeriod): Promise<MutationOutcome>;
 }
 // CourseDetail props (D implements, E renders via renderDetail)
 export interface CourseDetailProps { course: CatalogueCourse; status: EntryStatus | null; cat: CatalogueIndex }
 ```
 
 `focusCode` lives in `Planner.tsx`, so tracing a course in the grid and
-switching to graph keeps it highlighted (and vice versa).
+switching to graph keeps it highlighted (and vice versa). Planner.tsx is the
+only file that calls the plan API: the graph adds and moves courses through
+`onAddEntry` / `onMoveEntry`, and gets the new state back as its `state`
+prop. `SearchPopover` gets a term-less mode for `renderSearch` (no status
+pills; `In plan · Y1 S2` rows still disabled).
 
 ## 4. Design spec
 
@@ -683,14 +715,22 @@ popover.
 `--surface`, `--r-lg`. SVG rendered by Preact; `d3-force` computes
 positions; `d3-zoom` (wheel/pinch/drag-pan) and `d3-drag` (node drag, pins
 while dragging, releases on drop) attach behaviour.
-- Scope control (top-left, small segmented): `My plan` (default: planned
-  courses + every course/hub their rules reference + their incompatibles)
-  / `Subject` (type a subject code, e.g. `COMP` or `MATH`; loads it via
-  `GET /api/courses?subject=` plus the out-of-subject courses its rules
-  name, drawn faded). Node search box: type a code → centre + focus it.
+- Scope: the plan only, no scope control. Planned courses are full nodes;
+  unplanned courses their rules reference (prerequisites, corequisites,
+  `from`-list members) and their incompatibles are **ghost** nodes; hubs as
+  below. Dependents-only courses are not drawn. Everything comes from the
+  embedded neighbourhood (§3.3); the graph makes no catalogue requests. Node
+  search box (top-left): type a code → centre + focus it.
+- **Add course** (button, top-left beside the node search): opens D's
+  SearchPopover via `renderSearch`; picking a course opens `SemesterPicker`
+  (every placeable term in the plan, `Y1 S1` … incl. summer rows; full
+  terms disabled with "Full"); choosing a term calls `onAddEntry` → first
+  free slot. Errors show inline in the picker ("Couldn't add COMP2100:
+  that semester is full.").
 - **Course node:** pill, height 28px, padding 0 10px, code in
-  `--font-code` 12px 600. Planned = `--ink` fill, white text. Not planned =
-  `--surface` fill, 1px `--line-strong`, `--ink-2` text. Planned with
+  `--font-code` 12px 600. Planned = `--ink` fill, white text. Ghost (not
+  planned) = `--surface` fill, 1px dashed `--line-strong`, `--ink-2` text,
+  whole node at 55 % opacity (full on hover/focus). Planned with
   violation = + 2px `--danger-line` ring; warning = + 2px dashed
   `--warn-line` ring. Hover/focus = 2px `--gold` ring, cursor grab.
 - **OR hub:** 18px circle, `--surface`, 1px `--ink-2`, label `OR` 9px 600.
@@ -706,7 +746,7 @@ while dragging, releases on drop) attach behaviour.
   - corequisite (`concurrent`): dashed `4 3`, arrowhead, label-less (legend
     explains "can be taken together").
   - incompatible: `--danger-line` dotted `1 4`, **no arrowhead**, a `⊘`
-    marker at the midpoint; one edge per pair, always shown in both scopes
+    marker at the midpoint; one edge per pair, always shown
     when either end is visible. Solid red + thicker (2.5px) when both are
     planned.
   - colour by state: `--edge-met` when satisfied by the plan, `--edge-unmet`
@@ -721,10 +761,13 @@ while dragging, releases on drop) attach behaviour.
 - **Hover/focus a node:** its node, direct requisite nodes, hubs, dependents
   and incompatibles stay full opacity with their edges thickened; all else
   fades to 15 %. The side panel (right, 320px; bottom sheet < 768px)
-  renders `renderDetail(code)`. Click pins the focus; Esc or background
+  renders `renderDetail(code)` plus one action under it: planned node →
+  **Move to semester…** (SemesterPicker; its current term and full terms
+  disabled; → `onMoveEntry`); ghost node → **Add to semester…**
+  (SemesterPicker → `onAddEntry`). Click pins the focus; Esc or background
   click clears it. Shares `focusCode` with the grid.
 - **Legend** (bottom-left floating card, collapsible, open by default on
-  first graph visit per session): Planned course · Not planned · Needs
+  first graph visit per session): Planned course · Not in plan (faded) · Needs
   (solid arrow) · Can take together (dashed arrow) · One of (OR hub) · Units
   rule · Can't take both (red dotted ⊘) · Satisfied / Missing / Not yet
   relevant colours.
@@ -773,7 +816,9 @@ paint and does not animate (drag still works, without re-heat drift).
 - Graph: the SVG is `role="application"` with an `aria-label`; one node in
   tab order (roving tabindex), arrow keys move to the nearest node in that
   direction, Enter pins focus, Esc clears. The Text view is the full
-  non-visual equivalent and is one click away.
+  non-visual equivalent and is one click away. SemesterPicker is a
+  listbox of terms (disabled terms `aria-disabled`); Enter chooses, Esc
+  closes and returns focus to the button that opened it.
 - A polite `aria-live` region in `Planner.tsx` announces results: "COMP2100
   added to Year 2, Semester 1. 1 problem: Needs COMP1100 first." /
   "COMP2100 removed. COMP3600 now has a problem."
@@ -861,7 +906,8 @@ integration) and is then removed.
 - `spec/search.test.ts`: ranking order in §3.2; `MATH` returns MATH
   courses; empty query suggests only `Ready` + offered courses from the
   plan's subjects; previews are per cookie (two jars, same query, different
-  previews).
+  previews); no `year`/`period` → every `preview` is `null`; only one of
+  them → 400.
 - `spec/boot-sync.test.ts`: spawns the built server against (a) an empty DB
   and (b) a DB left by the v1 schema with 3 legacy entries; asserts course
   count, `meta.catalogue_version`, legacy entries under plan `legacy`, and
@@ -869,7 +915,8 @@ integration) and is then removed.
 - `spec/plan-api.test.ts`: two cookie jars get independent plans; add →
   GET shows it; restart the server process on the same DB → still there;
   415 on form content type; every 4xx in §3.2; a violation still returns
-  201. Assertions scoped to the entry (`plan.entries[].id`), not substring
+  201; `PATCH /api/plan/entries/:id` moves an entry to another term and the
+  move survives a server restart (checked on the entry's `year`/`period`). Assertions scoped to the entry (`plan.entries[].id`), not substring
   matches (weak-assertion learning).
 - sqlite3: after a browser add, `sqlite3 .data/app.db "PRAGMA
   wal_checkpoint(FULL); SELECT plan_id, course_code, year, period, slot FROM
@@ -919,6 +966,10 @@ integration) and is then removed.
   bootstrap payload ≤ 150 KB with a 24-course plan, and it does **not**
   contain a course unrelated to the plan (guards against someone embedding
   the whole catalogue).
+- Implements `onAddEntry` / `onMoveEntry` (first free slot via
+  `firstFreeSlot`; full term → `SLOT_TAKEN` without a request) and the
+  term-less SearchPopover for `renderSearch`. A test drives both callbacks
+  against the built server and checks the returned plan, not just `ok`.
 - Real browser, fresh profile, **keyboard only**: Tab to Y1S1 slot → Enter
   → type "1100" → Enter → card appears, focus on it; add COMP1110 to Y1S1 →
   red "Needs…" strip; move nothing, add COMP1130 → both clash; hover trace
@@ -934,14 +985,21 @@ integration) and is then removed.
 - `spec/graph-model.test.ts` (pure): OR rule → one hub, n in-edges, 1 out;
   AND → n direct edges, no hub; `concurrent` → `coreq` edge kind; UNITS →
   units hub; incompatibility → exactly one undirected edge per pair even
-  though both courses list it; `My plan` scope includes planned + referenced
-  + incompatibles only; OR branch goes idle once the OR is met.
+  though both courses list it; the graph includes planned courses as full
+  nodes and referenced/incompatible unplanned courses as ghosts, and nothing
+  else (a dependents-only course is absent); OR branch goes idle once the
+  OR is met; SemesterPicker's term list marks full terms disabled and, for
+  a move, the entry's own term.
 - `spec/routes.ts`: `["/", "/readme/", "/?view=graph"]`; a test asserts
   `GET /graph/` → 301 `Location: /?view=graph`.
 - Real browser: toggle Grid → Graph → reload keeps graph; drag a node,
   wheel-zoom, pan, Fit; hover COMP2100 → neighbourhood highlighted + side
   panel text; with COMP1100 and COMP1130 planned, the red ⊘ edge between
-  them is visible in both scopes; legend readable; keyboard node navigation;
+  them is visible; Add course → search → pick semester → node turns
+  planned; ghost node → Add to semester…; planned node → Move to semester…
+  → grid shows it in the new term and `sqlite3` shows the new
+  `year`/`period`; a full semester is disabled in the picker; legend
+  readable; keyboard node navigation;
   reduced-motion emulation → no drift; 375px pinch/pan works, no page
   scroll hijack; axe in-page 0 violations. d3 is absent from the grid
   view's initial JS (check network panel: GraphView chunk loads only on
@@ -972,9 +1030,12 @@ integration) and is then removed.
   doesn't build, stop before any island is written.
 - *Repo/image size.* Subject JSON likely totals 5--15 MB; fine for git and
   the image, but measure after the trial run and record it.
-- *Graph hairball* in a big subject scope (COMP ~200 nodes). Default scope
-  is `My plan`; subject scope is opt-in. Timebox E's force tuning; the Text
-  view is the fallback.
+- *Graph hairball.* Mostly gone now the graph is plan-only (a 24-course
+  plan plus its ghosts and hubs is well under 100 nodes). Still timebox E's
+  force tuning; the Text view is the fallback.
+- *Move/add races.* The client picks the first free slot from its copy of
+  the plan; if another tab filled it, the server's 409 `SLOT_TAKEN` comes
+  back through `MutationOutcome` and the picker shows it. No retry loop.
 - *WAL + sqlite3.* Always `PRAGMA wal_checkpoint(FULL)` before trusting a
   sqlite3 read right after a write. Never `rm -rf .data` under a running
   dev server.
@@ -997,3 +1058,11 @@ downstream tracks rebase before continuing.)
   scope.
 - 2026-09-30, before any build: `GET /api/events` added as a stub for the
   CI deploy check (Ritesh); the workflow is left untouched.
+- 2026-09-30, W0: graph shows plan-only + ghost nodes; add/move from graph
+  (Ritesh). Subject scope and `GET /api/courses?subject=` dropped;
+  `GraphViewProps` gains `renderSearch`, `onAddEntry`, `onMoveEntry`
+  (`MutationOutcome`, `GraphSearchProps`); engine gains `firstFreeSlot`;
+  `PATCH /api/plan/entries/:id` is required; search `year`/`period` become
+  optional as a pair and `SearchResult.preview` is `null` without them;
+  `PlacementPreview` names the preview shape. Affects A (search, PATCH
+  tests), B (`firstFreeSlot`), D (callbacks, term-less search), E.

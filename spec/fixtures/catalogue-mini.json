@@ -1,0 +1,312 @@
+{
+  "version": "0165a956",
+  "scrapedAt": "2026-09-30T00:00:00.000Z",
+  "source": "https://programsandcourses.anu.edu.au/2026",
+  "subjects": [
+    {
+      "subject": "COMP",
+      "name": "Computer Science",
+      "count": 6
+    },
+    {
+      "subject": "MATH",
+      "name": "Mathematics",
+      "count": 2
+    }
+  ],
+  "courses": [
+    {
+      "code": "COMP1100",
+      "subject": "COMP",
+      "number": 1100,
+      "level": 1000,
+      "title": "Programming as Problem Solving",
+      "units": 6,
+      "summary": "This course is the first of three core computer science courses on programming.",
+      "offered": [
+        "S1",
+        "S2"
+      ],
+      "requisiteText": "Incompatible with COMP1130.",
+      "rule": null,
+      "parseStatus": "parsed",
+      "incompatible": [
+        "COMP1130"
+      ],
+      "origin": "catalogue",
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP1100",
+      "catalogueYear": 2026,
+      "retired": false,
+      "description": "This course is the first of three core computer science courses on programming. It introduces students to the field of computer science as a discipline for solving problems through computation and provides the foundation for more advanced courses on programming and software development. Data structures and algorithms, the key concepts at the core of computer science, receive their first treatment in this course.\nThe course covers functional programming in depth, developing the core idea of functions operating on data structures. Students learn the organization of programming languages using types, how programs are evaluated (reduction), functional composition, recursive functions, algebraic data types, pattern matching, parametric polymorphism, higher-order functions. Students also gain exposure to asymptotic analysis of basic data structures, abstract data types, modules, laziness, and streams. The functional paradigm demonstrates elegant solutions to many programming problems.\nThe course also introduces students to standard productivity tools for software development that will be used throughout the course and remainder of the computer science degree. These include distributed software revision control systems.\nThe Advanced version of this course covers these topics in more depth, allowing students to deepen their understanding and experience."
+    },
+    {
+      "code": "COMP1130",
+      "subject": "COMP",
+      "number": 1130,
+      "level": 1000,
+      "title": "Programming as Problem Solving (Advanced)",
+      "units": 6,
+      "summary": "This course is a variation on Programming for Problem Solving (COMP1100 ). It covers the same topics in more depth, requiring addtional contact hours to allow students to deepen their understanding and experience.",
+      "offered": [
+        "S1"
+      ],
+      "requisiteText": "Incompatible with COMP1100.",
+      "rule": null,
+      "parseStatus": "parsed",
+      "incompatible": [
+        "COMP1100"
+      ],
+      "origin": "catalogue",
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP1130",
+      "catalogueYear": 2026,
+      "retired": false,
+      "description": "This course is a variation on Programming for Problem Solving (COMP1100 ). It covers the same topics in more depth, requiring addtional contact hours to allow students to deepen their understanding and experience. They will understand the foundations of program semantics, program proof, and implementation of the programming language features that they have learned in the course. As the advanced version of the course the first six Learning Outcomes are the same as for COMP1100."
+    },
+    {
+      "code": "COMP1140",
+      "subject": "COMP",
+      "number": 1140,
+      "level": 1000,
+      "title": "Structured Programming (Advanced)",
+      "units": 6,
+      "summary": "This course is an advanced variation of Structured Programming (COMP1110), and as such, teaches the same concepts in more depth, with corresponding additional content and assessment.",
+      "offered": [
+        "S2"
+      ],
+      "requisiteText": "To enrol in this course you must have successfully completed COMP1130. Incompatible with COMP1110 or COMP6710 or COMP7710.",
+      "rule": {
+        "kind": "COURSE",
+        "code": "COMP1130",
+        "concurrent": false
+      },
+      "parseStatus": "parsed",
+      "incompatible": [
+        "COMP1110",
+        "COMP6710",
+        "COMP7710"
+      ],
+      "origin": "catalogue",
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP1140",
+      "catalogueYear": 2026,
+      "retired": false,
+      "description": "This course is an advanced variation of Structured Programming (COMP1110), and as such, teaches the same concepts in more depth, with corresponding additional content and assessment.\nThis programming course teaches basic concepts in imperative and object-oriented programming and corresponding data structures.\nStudents will learn to use an industrial-strength object-oriented programming language and form basic mental models of how computer programs execute and interact with their environment. The course focuses on key aspects of solving programming problems: reasoning about a problem description to design appropriate data representations and function/method descriptions, to find examples, to write, test, debug, and otherwise evaluate the relevant code, and to present and defend their approach.\nStudents will learn to effectively use a large standard library and key standard data structures, including lists, trees, hash tables, and graphs. The course also introduces the basics of reasoning about the time and space complexity of algorithms, in particular as related to the above data structures.\nStudents can start in COMP1140 and then drop back to COMP1110 during the semester. You cannot change into COMP1140 after week 2.\nThis course is an Advanced Studies Extension Course (ASE), with the additional work required for an ASE built into the COMP1140 assessment."
+    },
+    {
+      "code": "COMP1600",
+      "subject": "COMP",
+      "number": 1600,
+      "level": 1000,
+      "title": "Foundations of Computing",
+      "units": 6,
+      "summary": "This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of software and for mathematically rigorous arguments about program properties.",
+      "offered": [
+        "S2"
+      ],
+      "requisiteText": "To enrol in this course you must have completed: 6 units of MATH courses and COMP1100 or COMP1130. It is incompatible with COMP6260.",
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "UNITS",
+            "min": 6,
+            "subject": "MATH",
+            "concurrent": false
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP1100",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP1130",
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      },
+      "parseStatus": "parsed",
+      "incompatible": [
+        "COMP6260"
+      ],
+      "origin": "catalogue",
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP1600",
+      "catalogueYear": 2026,
+      "retired": false,
+      "description": "This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of software and for mathematically rigorous arguments about program properties. The following areas of study constitute the backbone of the course: predicate calculus and natural deduction, inductive definitions of data types as a basis for recursive functions and structural induction, specification languages and their use in program verification."
+    },
+    {
+      "code": "COMP2100",
+      "subject": "COMP",
+      "number": 2100,
+      "level": 2000,
+      "title": "Software Construction",
+      "units": 6,
+      "summary": "This course extensively explores the fundamental principles and practices necessary for creating medium-scale software projects, with a specific focus on the object-oriented programming paradigm.",
+      "offered": [
+        "S1",
+        "S2"
+      ],
+      "requisiteText": "To enrol in this course you must have successfully completed: COMP1110 or COMP1140 AND 6 units of 1000 level MATH. You are not able to enrol in this course if you have completed COMP6442.",
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP1110",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP1140",
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "kind": "UNITS",
+            "min": 6,
+            "subject": "MATH",
+            "levels": [
+              1000
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "parseStatus": "parsed",
+      "incompatible": [
+        "COMP6442"
+      ],
+      "origin": "catalogue",
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP2100",
+      "catalogueYear": 2026,
+      "retired": false,
+      "description": "This course extensively explores the fundamental principles and practices necessary for creating medium-scale software projects, with a specific focus on the object-oriented programming paradigm. By blending theoretical understanding with hands-on practice, students establish a robust foundation in software construction, drawing from their prior programming experience. Key topics, including programming techniques at large, life cycle models, data manipulation techniques, and GUI concepts, are highlighted to foster a comprehensive grasp of software development. Ultimately, the course empowers students with the skills to construct medium-scale software projects efficiently, ethically, and in alignment with industry standards."
+    },
+    {
+      "code": "COMP3600",
+      "subject": "COMP",
+      "number": 3600,
+      "level": 3000,
+      "title": "Algorithms",
+      "units": 6,
+      "summary": "Algorithms are the foundation of Computer Science. They enable advances in Artificial Intelligence, Machine Learning, Cybersecurity, Distributed, Mobile, and Cloud Computing, Computer Graphics and Animation, and many more.",
+      "offered": [
+        "S2"
+      ],
+      "requisiteText": "To enrol in this course you must have completed the following: 24 units of COMP coded courses AND (6 units of MATH OR COMP1600) You are not able to enrol in this course if you have successfully completed COMP6466.",
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "UNITS",
+            "min": 24,
+            "subject": "COMP",
+            "concurrent": false
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "UNITS",
+                "min": 6,
+                "subject": "MATH",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP1600",
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      },
+      "parseStatus": "parsed",
+      "incompatible": [
+        "COMP6466"
+      ],
+      "origin": "catalogue",
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3600",
+      "catalogueYear": 2026,
+      "retired": false,
+      "description": "Algorithms are the foundation of Computer Science. They enable advances in Artificial Intelligence, Machine Learning, Cybersecurity, Distributed, Mobile, and Cloud Computing, Computer Graphics and Animation, and many more. These advances have made Computer Science an indispensable part of our everyday life.\nThe main goal of this course is to familiarize students with basic concepts in the design and analysis of algorithms and data structures. It focuses on fundamental computing problems such as sorting and searching. The students will learn how to use different algorithm design methods and data structures to solve such problems efficiently, as well as basic performance measures and analysis techniques."
+    },
+    {
+      "code": "MATH1013",
+      "subject": "MATH",
+      "number": 1013,
+      "level": 1000,
+      "title": "Mathematics and Applications 1",
+      "units": 6,
+      "summary": "This course covers single-variable calculus and introductory linear algebra.",
+      "offered": [
+        "S1",
+        "S2"
+      ],
+      "requisiteText": "You are not able to enrol in this course if you have previously completed, or are attempting to concurrently enrol in, MATH1113 or MATH1115.",
+      "rule": null,
+      "parseStatus": "parsed",
+      "incompatible": [
+        "MATH1113",
+        "MATH1115"
+      ],
+      "origin": "catalogue",
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH1013",
+      "catalogueYear": 2026,
+      "retired": false,
+      "description": "This course covers single-variable calculus and introductory linear algebra. The emphasis is on understanding the material such that it both can be applied across a range of fields including the physical and biological sciences, engineering and information technologies, economics and commerce, and can also serve as a base for future mathematics courses. Many applications and connections with other fields will be discussed although not developed in detail. Not all the material will be developed in a rigorous theorem-proof style, although students will see some examples of this and may work some examples themselves. Students interested in a deeper understanding of mathematics and more mathematical/theoretical aspects of topics (including those students who are interested in the more theoretical aspects from engineering, computing, science, and economics) should enrol in MATH1115.\nTopics to be covered include:\nCalculus - Limits, including infinite limits and limits at infinity. Continuity and global properties of continuous functions. Differentiation, including mean value theorem, chain rule, implicit differentiation, inverse functions, antiderivatives and basic ideas about differential equations. Transcendental functions: exponential and logarithmic functions and their connection with integration, growth and decay, hyperbolic functions. Local and absolute extrema, concavity and inflection points. L'Hopital's rule. Riemann integration and the Fundamental Theorem of Calculus. Techniques of integration including the method of substitution and integration by parts. Volumes.\nLinear Algebra - Solution of linear systems of equations. Matrix algebra including matrix inverses, linear transformations, matrix factorisation and subspaces. Determinants. Example applications including computer graphics, the Leontief Input-Output Model, and various linear models in science and engineering. Complex numbers."
+    },
+    {
+      "code": "MATH1014",
+      "subject": "MATH",
+      "number": 1014,
+      "level": 1000,
+      "title": "Mathematics and Applications 2",
+      "units": 6,
+      "summary": "This course continues on from MATH1013.",
+      "offered": [
+        "S1",
+        "S2"
+      ],
+      "requisiteText": "To enrol in this course you must have completed MATH1013 or MATH1115 or MATH1113. You are not able to enrol in this course if you have previously completed MATH1116.",
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "MATH1013",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "MATH1115",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "MATH1113",
+            "concurrent": false
+          }
+        ]
+      },
+      "parseStatus": "parsed",
+      "incompatible": [
+        "MATH1116"
+      ],
+      "origin": "catalogue",
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH1014",
+      "catalogueYear": 2026,
+      "retired": false,
+      "description": "This course continues on from MATH1013. It emphasises an understanding of the fundamental results from calculus and linear algebra which both can be applied across a range of fields including the physical and biological sciences, engineering and information technologies, economics and commerce, and can also serve as a base for future mathematics courses. Many applications and connections with other fields will be discussed although not developed in detail.\nTopics to be covered include:\nCalculus - Integration and techniques of integration, including multiple and iterated integrals. Sequences and series. Functions of several variables - visualisation, continuity, partial derivatives, and directional derivatives. Lagrange multipliers.\nLinear Algebra - theory and application of Euclidean vector spaces. Vector spaces: linear independence, bases and dimension; eigenvalues and eigenvectors; orthogonality and least squares."
+    }
+  ]
+}
