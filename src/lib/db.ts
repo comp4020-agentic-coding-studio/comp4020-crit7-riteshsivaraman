@@ -12,7 +12,6 @@ import { indexCatalogue } from "./engine/index";
 import {
   courses,
   type Course as V1Course,
-  type Incompatibility as V1Incompatibility,
   plans,
   planEntries,
   type PlanEntry as V1PlanEntry,
@@ -197,11 +196,6 @@ export function listCourses(): V1Course[] {
 // v1 shim, see above.
 export function listRequisiteNodes(): V1RequisiteNode[] {
   return [];
-}
-// v1 shim, see above.
-export function listIncompatibilities(): V1Incompatibility[] {
-  let id = 0;
-  return catalogueCourses.flatMap((c) => c.incompatible.map((other) => ({ id: ++id, courseCode: c.code, blockedByCode: other })));
 }
 // v1 shim, see above.
 export function listPlanEntries(): V1PlanEntry[] {
