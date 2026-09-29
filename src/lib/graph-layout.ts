@@ -11,6 +11,8 @@ export interface GraphEdge {
   to: string; // dependent course
   // The AND/OR node directly above this leaf, if any (for the junction label).
   junction: "AND" | "OR" | null;
+  // Id of that AND/OR node (null for a bare root COURSE requisite).
+  groupId: number | null;
   status: EdgeStatus;
 }
 
@@ -45,7 +47,7 @@ export function courseEdges(nodes: RequisiteNode[]): Omit<GraphEdge, "status">[]
     .map((n) => {
       const parent = n.parentId === null ? undefined : byId.get(n.parentId);
       const junction = parent && (parent.kind === "AND" || parent.kind === "OR") ? parent.kind : null;
-      return { from: n.refCourseCode as string, to: n.courseCode, junction };
+      return { from: n.refCourseCode as string, to: n.courseCode, junction, groupId: junction ? n.parentId : null };
     });
 }
 
@@ -112,8 +114,20 @@ export function layoutGraph(courses: Course[], nodes: RequisiteNode[], plan: Pla
   const maxRows = Math.max(1, ...rows.values());
   return {
     nodes: positioned,
-    edges: raw.map((e) => ({ ...e, status: edgeStatus(e.from, e.to, plan) })),
+    edges: resolveOrGroups(raw.map((e) => ({ ...e, status: edgeStatus(e.from, e.to, plan) }))),
     width: PAD * 2 + (maxDepth + 1) * NODE_W + maxDepth * COL_GAP,
     height: PAD * 2 + maxRows * NODE_H + (maxRows - 1) * ROW_GAP,
   };
+}
+
+// OR groups are judged as a group: once any branch is satisfied, the other
+// branches aren't needed, so they drop from "unmet" to "pending" rather than
+// showing red. AND groups (and bare requisites) stay per-edge.
+export function resolveOrGroups(edges: GraphEdge[]): GraphEdge[] {
+  const satisfiedOrGroups = new Set(
+    edges.filter((e) => e.junction === "OR" && e.status === "satisfied").map((e) => e.groupId),
+  );
+  return edges.map((e) =>
+    e.junction === "OR" && e.status === "unmet" && satisfiedOrGroups.has(e.groupId) ? { ...e, status: "pending" } : e,
+  );
 }

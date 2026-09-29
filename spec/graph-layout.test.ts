@@ -39,4 +39,23 @@ describe("graph layout", () => {
     const depth = (c: string) => layout.nodes.find((n) => n.code === c)?.depth;
     expect([depth("COMP1130"), depth("COMP1140"), depth("COMP2100"), depth("COMP3600")]).toEqual([0, 1, 2, 1]);
   });
+
+  it("does not mark an OR branch unmet when a sibling branch satisfies the group", () => {
+    const plan = [
+      { id: 1, courseCode: "COMP1130", termIndex: 0 },
+      { id: 2, courseCode: "COMP1140", termIndex: 1 },
+      { id: 3, courseCode: "COMP2100", termIndex: 2 },
+    ];
+    const status = (from: string) =>
+      layoutGraph(seedCourses, seedRequisiteNodes, plan).edges.find((e) => e.from === from && e.to === "COMP2100")
+        ?.status;
+    expect(status("COMP1140")).toBe("satisfied");
+    expect(status("COMP1100")).toBe("pending");
+  });
+
+  it("still marks every OR branch unmet when no branch is satisfied", () => {
+    const plan = [{ id: 1, courseCode: "COMP2100", termIndex: 0 }];
+    const edges = layoutGraph(seedCourses, seedRequisiteNodes, plan).edges.filter((e) => e.to === "COMP2100");
+    expect(edges.map((e) => e.status)).toEqual(["unmet", "unmet"]);
+  });
 });
