@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, inject, it } from "vitest";
-import { buildGraph, courseSentence, neighbourhood, pickerTerms, type GraphModel } from "../src/components/graph/model";
+import { buildGraph, courseSentence, layoutColumns, neighbourhood, pickerTerms, type GraphModel } from "../src/components/graph/model";
 import type { CatalogueCourse, CatalogueFile, Plan, PlannerState } from "../src/lib/contracts";
 import { evaluatePlan, indexCatalogue } from "../src/lib/engine";
 
@@ -154,6 +154,33 @@ describe("graph model: edge state", () => {
     const g = buildGraph(cat, stateFor([["COMP1600", 1, "S2"]]));
     const hub = g.nodes.find((n) => n.kind === "or")!;
     expect(into(g, hub.id).map((e) => e.state)).toEqual(["unmet", "unmet"]);
+  });
+});
+
+describe("graph model: layered layouts", () => {
+  it("by semester: planned courses in their term's column, a requisite ghost one column before, hubs half a column before their owner", () => {
+    const st = stateFor([["COMP1100", 1, "S1"], ["COMP2100", 2, "S1"]]);
+    const g = buildGraph(cat, st);
+    const { col, labels } = layoutColumns(g, st.plan, "semester");
+    expect(col.get("COMP1100")).toBe(0); // Y1 S1
+    expect(col.get("COMP2100")).toBe(2); // Y2 S1 (Y1 S2 is column 1)
+    expect(labels.get(2)).toBe("Y2 S1");
+    expect(col.get("COMP1110")).toBe(1); // feeds COMP2100 through its OR hub
+    const or = g.nodes.find((n) => n.kind === "or")!;
+    expect(col.get(or.id)).toBe(1.5);
+  });
+
+  it("by semester: an incompatible-only ghost sits beside its planned partner", () => {
+    const st = stateFor([["COMP1100", 1, "S2"]]);
+    const { col } = layoutColumns(buildGraph(cat, st), st.plan, "semester");
+    expect(col.get("COMP1130")).toBe(1);
+  });
+
+  it("by level: one column per thousand", () => {
+    const st = stateFor([["COMP1100", 1, "S1"], ["COMP2100", 2, "S1"]]);
+    const { col, labels } = layoutColumns(buildGraph(cat, st), st.plan, "level");
+    expect([col.get("COMP1100"), col.get("COMP2100")]).toEqual([0, 1]);
+    expect(labels.get(1)).toBe("2000-level");
   });
 });
 

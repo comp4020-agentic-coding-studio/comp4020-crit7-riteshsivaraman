@@ -11,6 +11,12 @@
 .graph__find-input { width: 170px; padding-left: 28px; }
 .graph__count { font: 400 var(--t-xs) var(--font-ui); margin-left: var(--s-2); }
 .graph__mode { margin-left: auto; }
+.graph__layouts { display: inline-flex; border: 1px solid var(--line); border-radius: var(--r-md); overflow: hidden; margin-left: var(--s-2); }
+.graph__layout { padding: var(--s-1) var(--s-2); border: 0; background: var(--surface); font: 500 var(--t-xs) var(--font-ui); color: var(--muted); cursor: pointer; }
+.graph__layout + .graph__layout { border-left: 1px solid var(--line); }
+.graph__layout[aria-pressed="true"] { background: var(--gold-wash); color: var(--gold-text); }
+.graph__layout:focus-visible { outline: none; box-shadow: var(--focus); }
+.gcols__label { font: 600 var(--t-xs) var(--font-code); fill: var(--muted); }
 .graph__toggle { display: inline-flex; align-items: center; gap: var(--s-1); font: 400 var(--t-xs) var(--font-ui); color: var(--muted); cursor: pointer; margin-left: var(--s-2); }
 .graph__toggle input { accent-color: var(--gold); margin: 0; }
 

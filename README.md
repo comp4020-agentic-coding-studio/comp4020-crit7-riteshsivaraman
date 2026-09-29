@@ -19,13 +19,24 @@ so it is tied to this browser.
    offered in). An amber border means the planner cannot check the rule
    itself, for example a permission code or a program enrolment, so you
    should check it by hand.
-3. Hover or focus a card to see its full requisites, the semesters it is
+3. Some courses are bigger than one slot. An ANU "annual course" such as
+   COMP3770 (6+6 units) runs over two consecutive semesters, so placing it in
+   Semester 1 also fills the same slot in Semester 2. COMP4550 (12+12) takes
+   two slots in each. Any other course over 6 units is split the same way
+   (12 units takes one slot in each of two semesters, 24 units takes two).
+   If there isn't room, the planner says which slot is in the way. Removing
+   or dragging either half moves the whole course, and it only counts as
+   completed after its second semester.
+4. Hover or focus a card to see its full requisites, the semesters it is
    offered in, its units and a short summary.
-4. Switch to Graph to see the whole plan. Planned courses are solid nodes,
+5. Switch to Graph to see the whole plan. Planned courses are solid nodes,
    and courses their rules mention are faded "ghost" nodes. A red edge with
    a ⊘ marks two incompatible courses. Untick "Incompatible courses" to hide
    the faded courses that only appear because they clash with your plan.
-   Missing prerequisites and clashes inside your plan stay visible. You can add a course from the graph,
+   Missing prerequisites and clashes inside your plan stay visible. The
+   layout buttons switch between Force (a free-floating web), By semester (a
+   left-to-right flowchart with one column per semester) and By level (one
+   column per 1000-level band). You can add a course from the graph,
    add a ghost course to a semester, or move a planned course to another
    semester from its side panel.
 

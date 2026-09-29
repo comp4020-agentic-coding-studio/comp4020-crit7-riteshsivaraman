@@ -182,6 +182,65 @@ export function buildGraph(cat: CatalogueIndex, state: PlannerState, opts: Graph
   return { nodes: [...nodes.values()], edges: [...edges.values()] };
 }
 
+// ---------------------------------------------------------------------------
+// Layered layouts: "By semester" (a left-to-right flowchart, one column per
+// plan term) and "By level" (1000, 2000, ... columns). Force needs none.
+// ---------------------------------------------------------------------------
+
+export type GraphLayout = "force" | "semester" | "level";
+
+export interface Columns {
+  /** node id -> column (hubs sit half a column before the course they feed) */
+  col: Map<string, number>;
+  /** column index -> header text; a "Not in plan" column may sit at -1 */
+  labels: Map<number, string>;
+}
+
+/** Owner course of a hub id ("or:COMP2100:r.0" -> "COMP2100"). */
+const ownerOf = (id: string) => (id.includes(":") ? id.split(":")[1] : id);
+
+export function layoutColumns(model: GraphModel, plan: Plan, layout: Exclude<GraphLayout, "force">): Columns {
+  const col = new Map<string, number>();
+  const labels = new Map<number, string>();
+  const courses = model.nodes.filter((n) => n.kind === "course");
+
+  if (layout === "level") {
+    for (const n of courses) {
+      const c = Math.max(0, Math.round(n.level / 1000) - 1);
+      col.set(n.id, c);
+      labels.set(c, `${(c + 1) * 1000}-level`);
+    }
+  } else {
+    const terms = planTerms(plan);
+    const index = new Map(terms.map((t, i) => [termKey(t.year, t.period), i] as const));
+    terms.forEach((t, i) => labels.set(i, termLabel(t.year, t.period)));
+    for (const n of courses) if (n.planned && n.term !== undefined) col.set(n.id, index.get(n.term) ?? 0);
+    // an unplanned course sits one column before the earliest course it feeds,
+    // or beside the planned course it clashes with; "Not in plan" if neither
+    const feedsCol = (id: string): number | undefined => {
+      const cols = model.edges
+        .filter((e) => e.source === id && e.kind !== "incompatible")
+        .map((e) => col.get(ownerOf(e.target)))
+        .filter((c): c is number => c !== undefined);
+      return cols.length ? Math.min(...cols) : undefined;
+    };
+    for (const n of courses) {
+      if (col.has(n.id)) continue;
+      const fed = feedsCol(n.id);
+      if (fed !== undefined) { col.set(n.id, fed - 1); continue; }
+      const partner = model.edges.find((e) => e.kind === "incompatible" && (e.source === n.id || e.target === n.id));
+      const pc = partner ? col.get(partner.source === n.id ? partner.target : partner.source) : undefined;
+      col.set(n.id, pc ?? -1);
+    }
+    if ([...col.values()].some((c) => c < 0)) labels.set(-1, "Not in plan");
+  }
+  for (const n of model.nodes) {
+    if (n.kind === "course") continue;
+    col.set(n.id, (col.get(ownerOf(n.id)) ?? 0) - 0.5);
+  }
+  return { col, labels };
+}
+
 /**
  * The hover/focus neighbourhood of a node: what it needs (upstream, through
  * hubs), what it unlocks (downstream, through hubs) and what it clashes with.

@@ -15,7 +15,7 @@ import "../../styles/graph.css";
 import { Button, IconButton, IconFit, IconList, IconGraph, IconPlus, IconSearch, IconZoomIn, IconZoomOut, Popover, Sheet } from "../ui";
 import Legend from "./Legend";
 import { loadOf } from "../../lib/engine";
-import { buildGraph, courseSentence, neighbourhood, pickerTerms, termLabel, type GraphEdge, type GraphNode } from "./model";
+import { buildGraph, courseSentence, layoutColumns, neighbourhood, pickerTerms, termLabel, type Columns, type GraphEdge, type GraphLayout, type GraphNode } from "./model";
 import { SemesterPicker } from "./SemesterPicker";
 import TextView from "./TextView";
 
@@ -68,6 +68,13 @@ function edgeGeometry(s: SimNode, t: SimNode, bend: number) {
 }
 
 const INCOMPAT_KEY = "dp-graph-incompatible";
+const LAYOUT_KEY = "dp-graph-layout";
+const COL_W = 190; // px between columns in the layered layouts
+const LAYOUTS: { id: GraphLayout; label: string }[] = [
+  { id: "force", label: "Force" },
+  { id: "semester", label: "By semester" },
+  { id: "level", label: "By level" },
+];
 
 export default function GraphView(props: GraphViewProps) {
   const { catalogue, state, focusCode, onFocusCode } = props;
@@ -89,6 +96,29 @@ export default function GraphView(props: GraphViewProps) {
     }
   };
   const model = useMemo(() => buildGraph(catalogue, state, { incompatibleGhosts: showIncompat }), [catalogue, state, showIncompat]);
+  // Layout choice: a per-browser display preference (localStorage).
+  const [layout, setLayoutState] = useState<GraphLayout>("force");
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(LAYOUT_KEY);
+      if (saved === "semester" || saved === "level") setLayoutState(saved);
+    } catch {
+      /* storage blocked: keep default */
+    }
+  }, []);
+  const setLayout = (l: GraphLayout) => {
+    interacted.current = false; // refit to the new shape
+    setLayoutState(l);
+    try {
+      localStorage.setItem(LAYOUT_KEY, l);
+    } catch {
+      /* ignore */
+    }
+  };
+  const columns: Columns | null = useMemo(
+    () => (layout === "force" ? null : layoutColumns(model, state.plan, layout)),
+    [model, state.plan, layout],
+  );
   const reduced = useMedia("(prefers-reduced-motion: reduce)");
   const small = useMedia("(max-width: 767px)");
 
@@ -133,11 +163,12 @@ export default function GraphView(props: GraphViewProps) {
 
     simRef.current?.stop();
     const sim = forceSimulation<SimNode, SimLink>(nodes)
-      .force("link", forceLink<SimNode, SimLink>(links).id((d) => d.id).distance((l) => (isHubLink(l) ? 40 : l.edge.kind === "incompatible" ? 80 : 70)).strength((l) => (l.edge.kind === "incompatible" ? 0.25 : 0.7)))
-      .force("charge", forceManyBody<SimNode>().strength(-260).distanceMax(320))
-      .force("collide", forceCollide<SimNode>((d) => d.w / 2 + 8))
-      .force("x", forceX<SimNode>((d) => levelX(d.level)).strength(0.06))
-      .force("y", forceY<SimNode>(0).strength(0.08))
+      .force("link", forceLink<SimNode, SimLink>(links).id((d) => d.id).distance((l) => (isHubLink(l) ? 40 : l.edge.kind === "incompatible" ? 80 : 70)).strength((l) => (columns ? 0.05 : l.edge.kind === "incompatible" ? 0.25 : 0.7)))
+      .force("charge", forceManyBody<SimNode>().strength(columns ? -120 : -260).distanceMax(320))
+      .force("collide", forceCollide<SimNode>((d) => (columns ? d.h / 2 + 14 : d.w / 2 + 8)))
+      // layered layouts pin x to the node's column; force keeps a weak level drift
+      .force("x", columns ? forceX<SimNode>((d) => (columns.col.get(d.id) ?? 0) * COL_W).strength(1) : forceX<SimNode>((d) => levelX(d.level)).strength(0.06))
+      .force("y", forceY<SimNode>(0).strength(columns ? 0.04 : 0.08))
       .stop();
     simRef.current = sim;
 
@@ -162,7 +193,7 @@ export default function GraphView(props: GraphViewProps) {
     setFrame((f) => f + 1);
     if (fresh) requestAnimationFrame(() => fit(false));
     return () => { sim.stop(); cancelAnimationFrame(raf); };
-  }, [model, reduced]);
+  }, [model, reduced, columns]);
 
   // --- zoom / pan -----------------------------------------------------------
   useEffect(() => {
@@ -375,6 +406,13 @@ export default function GraphView(props: GraphViewProps) {
         <span class="graph__count muted num">
           {plannedCount} planned · {ghostCount} referenced
         </span>
+        <div class="graph__layouts" role="group" aria-label="Graph layout">
+          {LAYOUTS.map((l) => (
+            <button key={l.id} type="button" class="graph__layout" aria-pressed={layout === l.id} onClick={() => setLayout(l.id)}>
+              {l.label}
+            </button>
+          ))}
+        </div>
         <label class="graph__toggle">
           <input type="checkbox" checked={showIncompat} onChange={(e) => toggleIncompat((e.currentTarget as HTMLInputElement).checked)} />
           Incompatible courses
@@ -410,6 +448,17 @@ export default function GraphView(props: GraphViewProps) {
               ))}
             </defs>
             <g transform={transform.toString()}>
+              {columns && (() => {
+                const ys = [...nodesRef.current.values()].map((n) => (n.y ?? 0) - n.h / 2);
+                const top = (ys.length ? Math.min(...ys) : 0) - 36;
+                return (
+                  <g class="gcols" aria-hidden="true">
+                    {[...columns.labels].sort((a, b) => a[0] - b[0]).map(([c, text]) => (
+                      <text key={c} class="gcols__label" x={c * COL_W} y={top} text-anchor="middle">{text}</text>
+                    ))}
+                  </g>
+                );
+              })()}
               <g class="graph__edges">
                 {model.edges.map((e) => {
                   const s = nodesRef.current.get(e.source), t = nodesRef.current.get(e.target);
