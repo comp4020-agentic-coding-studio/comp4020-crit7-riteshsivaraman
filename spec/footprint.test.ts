@@ -92,3 +92,11 @@ describe("evaluatePlan with a two-term course", () => {
     expect(after.entries[2].state).toBe("ok");
   });
 });
+
+describe("inCareer", () => {
+  it("1000-4000 undergraduate, 6000+ postgraduate, 5000 exchange placeholders both", async () => {
+    const { inCareer } = await import("../src/lib/career");
+    expect([1000, 4000, 5000, 6000, 9000].map((l) => inCareer(l, "ug"))).toEqual([true, true, true, false, false]);
+    expect([1000, 4000, 5000, 6000, 9000].map((l) => inCareer(l, "pg"))).toEqual([false, false, true, true, true]);
+  });
+});

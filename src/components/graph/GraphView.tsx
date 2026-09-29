@@ -68,24 +68,39 @@ function edgeGeometry(s: SimNode, t: SimNode, bend: number) {
 }
 
 /**
- * Right-angle connector (the "Elbow" edge style): leaves the source through
- * the side facing the target, turns once halfway, and enters the target the
- * same way. Mostly-horizontal pairs go H-V-H, mostly-vertical ones V-H-V.
- * (qx, qy) is the middle of the crossing segment, for the ⊘ marker.
+ * Soft right-angle connector (the "Elbow" edge style): leaves the source
+ * through the side facing the target, turns twice with rounded corners
+ * (radius up to ELBOW_R, smaller when the jog is short), and enters the
+ * target the same way. Mostly-horizontal pairs go H-V-H, mostly-vertical
+ * ones V-H-V. (qx, qy) is the middle of the crossing run, for the ⊘ marker.
  */
+const ELBOW_R = 14;
 function elbowGeometry(s: SimNode, t: SimNode) {
   const sx = s.x ?? 0, sy = s.y ?? 0, tx = t.x ?? 0, ty = t.y ?? 0;
   const f = (v: number) => v.toFixed(1);
-  if (Math.abs(tx - sx) >= Math.abs(ty - sy)) {
-    const dir = tx >= sx ? 1 : -1;
-    const ax = sx + dir * (s.w / 2 + 1), bx = tx - dir * (t.w / 2 + 2);
+  const horizontal = Math.abs(tx - sx) >= Math.abs(ty - sy);
+  if (horizontal) {
+    const dx = tx >= sx ? 1 : -1, dy = ty >= sy ? 1 : -1;
+    const ax = sx + dx * (s.w / 2 + 1), bx = tx - dx * (t.w / 2 + 2);
     const mx = (ax + bx) / 2;
-    return { d: `M${f(ax)},${f(sy)} H${f(mx)} V${f(ty)} H${f(bx)}`, qx: mx, qy: (sy + ty) / 2 };
+    const r = Math.min(ELBOW_R, Math.abs(ty - sy) / 2, Math.abs(mx - ax));
+    if (r < 1) return { d: `M${f(ax)},${f(sy)} H${f(bx)}`, qx: mx, qy: sy };
+    return {
+      d: `M${f(ax)},${f(sy)} H${f(mx - dx * r)} Q${f(mx)},${f(sy)} ${f(mx)},${f(sy + dy * r)} V${f(ty - dy * r)} Q${f(mx)},${f(ty)} ${f(mx + dx * r)},${f(ty)} H${f(bx)}`,
+      qx: mx,
+      qy: (sy + ty) / 2,
+    };
   }
-  const dir = ty >= sy ? 1 : -1;
-  const ay = sy + dir * (s.h / 2 + 1), by = ty - dir * (t.h / 2 + 2);
+  const dx = tx >= sx ? 1 : -1, dy = ty >= sy ? 1 : -1;
+  const ay = sy + dy * (s.h / 2 + 1), by = ty - dy * (t.h / 2 + 2);
   const my = (ay + by) / 2;
-  return { d: `M${f(sx)},${f(ay)} V${f(my)} H${f(tx)} V${f(by)}`, qx: (sx + tx) / 2, qy: my };
+  const r = Math.min(ELBOW_R, Math.abs(tx - sx) / 2, Math.abs(my - ay));
+  if (r < 1) return { d: `M${f(sx)},${f(ay)} V${f(by)}`, qx: sx, qy: my };
+  return {
+    d: `M${f(sx)},${f(ay)} V${f(my - dy * r)} Q${f(sx)},${f(my)} ${f(sx + dx * r)},${f(my)} H${f(tx - dx * r)} Q${f(tx)},${f(my)} ${f(tx)},${f(my + dy * r)} V${f(by)}`,
+    qx: (sx + tx) / 2,
+    qy: my,
+  };
 }
 
 type EdgeStyle = "curved" | "elbow";
@@ -93,7 +108,7 @@ const EDGE_KEY = "dp-graph-edges";
 
 const INCOMPAT_KEY = "dp-graph-incompatible";
 const LAYOUT_KEY = "dp-graph-layout";
-const COL_W = 190; // px between columns in the layered layouts
+const COL_W = 230; // px between columns in the layered layouts
 const LAYOUTS: { id: GraphLayout; label: string }[] = [
   { id: "force", label: "Force" },
   { id: "semester", label: "By semester" },
@@ -206,7 +221,7 @@ export default function GraphView(props: GraphViewProps) {
     const sim = forceSimulation<SimNode, SimLink>(nodes)
       .force("link", forceLink<SimNode, SimLink>(links).id((d) => d.id).distance((l) => (isHubLink(l) ? 40 : l.edge.kind === "incompatible" ? 80 : 70)).strength((l) => (columns ? 0.05 : l.edge.kind === "incompatible" ? 0.25 : 0.7)))
       .force("charge", forceManyBody<SimNode>().strength(columns ? -120 : -260).distanceMax(320))
-      .force("collide", forceCollide<SimNode>((d) => (columns ? d.h / 2 + 14 : d.w / 2 + 8)))
+      .force("collide", forceCollide<SimNode>((d) => (columns ? d.h / 2 + 22 : d.w / 2 + 12)))
       // layered layouts pin x to the node's column; force keeps a weak level drift
       .force("x", columns ? forceX<SimNode>((d) => (columns.col.get(d.id) ?? 0) * COL_W).strength(1) : forceX<SimNode>((d) => levelX(d.level)).strength(0.06))
       .force("y", forceY<SimNode>(0).strength(columns ? 0.04 : 0.08))

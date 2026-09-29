@@ -39,6 +39,7 @@ export const api = {
     call<PlannerState>("POST", "/api/plan/entries", { code, year, period, slot }),
   moveEntry: (id: number, year: number, period: PlanPeriod, slot: number) =>
     call<PlannerState>("PATCH", `/api/plan/entries/${id}`, { year, period, slot }),
+  replaceEntry: (id: number, code: string) => call<PlannerState>("PATCH", `/api/plan/entries/${id}`, { code }),
   removeEntry: (id: number) => call<PlannerState>("DELETE", `/api/plan/entries/${id}`),
   patchPlan: (body: { years?: number; summerYears?: number[]; discardEntries?: boolean; career?: "ug" | "pg" }) =>
     call<PlannerState>("PATCH", "/api/plan", body),

@@ -21,6 +21,7 @@ export interface TermRowProps {
   onAdd(code: string, year: number, period: PlanPeriod, slot: number): Promise<MutationOutcome>;
   onMove(entryId: number, year: number, period: PlanPeriod, slot: number): Promise<MutationOutcome>;
   onRemove(entry: PlanEntry): void;
+  onReplace(entry: PlanEntry, code: string): Promise<MutationOutcome>;
 }
 
 const LABEL: Record<PlanPeriod, string> = { S1: "S1", S2: "S2", SUMMER: "Summer" };
@@ -58,6 +59,7 @@ export function TermRow(p: TermRowProps) {
         onRemove={p.onRemove}
         span={{ width, part: terms === 2 ? (anchorRow ? 1 : 2) : null, other, unitsHere: unitsPerTerm }}
         career={p.state.plan.career}
+        onReplace={p.onReplace}
       />,
     );
   }

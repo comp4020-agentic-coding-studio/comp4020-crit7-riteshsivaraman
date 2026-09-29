@@ -4,9 +4,10 @@
 // Hover (300ms) or focus opens CourseDetail; hovering also drives the
 // requisite trace through onTrace. Browser + SSR safe: no environment variables.
 import { useEffect, useRef, useState } from "preact/hooks";
-import type { CatalogueCourse, CatalogueIndex, EntryStatus, PlanEntry } from "../../lib/contracts";
-import { IconButton, IconInfo, IconX, Popover } from "../ui";
-import { DRAG_ENTRY, termLabel } from "./api";
+import type { CatalogueCourse, CatalogueIndex, EntryStatus, MutationOutcome, PlanEntry } from "../../lib/contracts";
+import { IconButton, IconInfo, IconPencil, IconX, Popover } from "../ui";
+import { SearchPopover } from "./SearchPopover";
+import { DRAG_ENTRY, errorText, termLabel } from "./api";
 import { CourseDetail, IssueIcon } from "./CourseDetail";
 
 export type Trace = "self" | "needs" | "unlocks" | "clashes" | "dim" | null;
@@ -24,11 +25,25 @@ export interface CourseCardProps {
    *  which of two semesters this card is (null for a one-term course) */
   span?: { width: number; part: 1 | 2 | null; other: string; unitsHere: number };
   career?: "ug" | "pg" | null;
+  /** the pencil: swap this card's course in place (same term and slot) */
+  onReplace?(entry: PlanEntry, code: string): Promise<MutationOutcome>;
 }
 
 const TRACE_TAG: Partial<Record<NonNullable<Trace>, string>> = { needs: "needed", unlocks: "unlocks", clashes: "clashes" };
 
-export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, onRemove, span, career }: CourseCardProps) {
+export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, onRemove, span, career, onReplace }: CourseCardProps) {
+  const [editOpen, setEditOpen] = useState(false);
+  const [editBusy, setEditBusy] = useState(false);
+  const [editMsg, setEditMsg] = useState<string | null>(null);
+  const replace = async (code: string) => {
+    if (!onReplace) return;
+    setEditBusy(true);
+    setEditMsg(`Changing to ${code}…`);
+    const out = await onReplace(entry, code);
+    setEditBusy(false);
+    if (out.ok) { setEditMsg(null); setEditOpen(false); }
+    else setEditMsg(errorText("add", code, out.error));
+  };
   const ref = useRef<HTMLElement>(null);
   const [open, setOpen] = useState(false);
   // pinned = opened on purpose (Enter/Space or a tap): a focus-trapping dialog,
@@ -128,6 +143,17 @@ export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, 
           {entry.code}
           <span class="visually-hidden">, {course?.title ?? ""}, {where}{span?.part ? `, part ${span.part} of 2, ${span.part === 1 ? "continues in" : "started in"} ${span.other}` : ""}</span>
         </span>
+        {onReplace && (
+          <IconButton
+            class="card__edit"
+            size="sm"
+            label={`Change ${entry.code} to another course`}
+            icon={<IconPencil size={14} />}
+            aria-haspopup="dialog"
+            aria-expanded={editOpen}
+            onClick={() => { setOpen(false); setPinned(false); setEditMsg(null); setEditOpen((o) => !o); }}
+          />
+        )}
         <span class="num card__units" aria-hidden="true">{span?.unitsHere ?? course?.units ?? 6}u</span>
       </div>
       {span?.part && (
@@ -170,9 +196,20 @@ export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, 
         icon={<IconX size={14} />}
         onClick={() => onRemove(entry)}
       />
+      {onReplace && (
+        <SearchPopover
+          open={editOpen}
+          anchor={ref}
+          term={{ year: entry.year, period: entry.period }}
+          busy={editBusy}
+          message={editMsg}
+          onPick={replace}
+          onClose={() => setEditOpen(false)}
+        />
+      )}
       {course && (
         <Popover
-          open={open}
+          open={open && !editOpen}
           anchor={ref}
           onClose={() => { if (pinned) justClosed.current = true; setOpen(false); setPinned(false); }}
           role={pinned ? "dialog" : "none"}

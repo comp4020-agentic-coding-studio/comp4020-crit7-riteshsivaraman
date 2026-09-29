@@ -146,6 +146,12 @@ export function moveEntry(planId: string, id: number, to: { year: number; period
   touch(planId);
 }
 
+/** Swap the course of an entry in place (same term and slot). */
+export function replaceEntryCode(planId: string, id: number, code: string): void {
+  db.update(planEntries).set({ courseCode: code }).where(and(eq(planEntries.id, id), eq(planEntries.planId, planId))).run();
+  touch(planId);
+}
+
 /** Returns false when `id` is not an entry of this plan. */
 export function deleteEntry(planId: string, id: number): boolean {
   const res = db.delete(planEntries).where(and(eq(planEntries.id, id), eq(planEntries.planId, planId))).run();

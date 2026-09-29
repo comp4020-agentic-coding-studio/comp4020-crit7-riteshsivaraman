@@ -13,7 +13,8 @@ so it is tied to this browser.
 ## How to use it
 
 1. Click any empty slot and search for a course by code or name. To move a
-   course, drag its card to another empty slot.
+   course, drag its card to another empty slot. To swap a course for a
+   different one in the same slot, use the pencil on its card.
 2. Read the card. A red border means something needs fixing (a missing
    prerequisite, an incompatible course, or a semester the course is not
    offered in). An amber border means the planner cannot check the rule
@@ -40,7 +41,9 @@ so it is tied to this browser.
    right-angle lines.
 6. On your first visit, choose undergraduate or postgraduate. An
    undergraduate plan only accepts 1000 to 4000-level courses and a
-   postgraduate plan only 5000-level and above, in search and on the server.
+   postgraduate plan only 6000-level and above, in search and on the server.
+   ANU has no taught 5000 level; its few 5000 codes are exchange placeholders,
+   open to both.
    The other career's incompatible courses are hidden too, since a clash with
    a course you could never take is noise. Switching later (at the top of
    the page) asks first, then clears the plan. You can add a course from the graph,

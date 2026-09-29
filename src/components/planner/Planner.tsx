@@ -156,6 +156,21 @@ export default function Planner({ bootstrap, initialView }: PlannerProps) {
     return out;
   };
 
+  /** The card's pencil: swap the course in place (same term and slot). */
+  const replace = async (entry: PlanEntry, code: string): Promise<MutationOutcome> => {
+    const res = await api.replaceEntry(entry.id, code);
+    const out = apply(res);
+    if (res.ok) {
+      const st = res.data.evaluation.entries[entry.id];
+      const probs = st?.issues.filter((i) => i.severity !== "info") ?? [];
+      setLive(`${entry.code} changed to ${code}. ${probs.length === 0 ? "No problems." : `${probs.length} problem${probs.length === 1 ? "" : "s"}: ${probs.map((p) => p.short).join("; ")}.`}`);
+      if (focusCode === entry.code) setFocusCode(null);
+      setFresh(entry.id);
+      focusCard(entry.id);
+    }
+    return out;
+  };
+
   const onShape = async (change: ShapeChange): Promise<MutationOutcome> => {
     const out = apply(await api.patchPlan(change));
     if (out.ok) setLive("Plan updated.");
@@ -264,6 +279,7 @@ export default function Planner({ bootstrap, initialView }: PlannerProps) {
               onAdd={add}
               onMove={moveTo}
               onRemove={remove}
+              onReplace={replace}
               onShape={onShape}
             />
           </>

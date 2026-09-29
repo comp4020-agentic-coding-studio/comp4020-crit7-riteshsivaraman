@@ -151,13 +151,13 @@ describe.skipIf(!ENGINE_READY)("GET /api/courses/search (needs the engine)", () 
   const search = async (cookie: string, qs: string) =>
     (await (await fetch(`${base}/api/courses/search?${qs}`, { headers: { cookie } })).json()) as { results: SearchResult[] };
 
-  it("career=ug returns only 1000-4000 level courses, career=pg only 5000+", async () => {
+  it("career=ug returns no 6000+ courses, career=pg no 1000-4000 ones (5000 = exchange, both)", async () => {
     const cookie = await jar();
     const ug = (await search(cookie, "q=COMP&limit=20&career=ug")).results.map((r) => r.course.level);
     const pg = (await search(cookie, "q=COMP&limit=20&career=pg")).results.map((r) => r.course.level);
     expect(ug.length).toBeGreaterThan(0);
     expect(pg.length).toBeGreaterThan(0);
-    expect(ug.every((l) => l < 5000)).toBe(true);
+    expect(ug.every((l) => l < 6000)).toBe(true);
     expect(pg.every((l) => l >= 5000)).toBe(true);
   });
 

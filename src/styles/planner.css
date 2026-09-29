@@ -301,6 +301,9 @@
 .card__remove { position: absolute; top: 6px; right: 6px; opacity: 0; transition: opacity var(--d-fast) var(--ease); }
 .card:hover .card__remove, .card:focus-within .card__remove, .card__remove:focus-visible { opacity: 1; }
 @media (hover: none), (pointer: coarse) { .card__remove { opacity: 1; } }
+/* pencil sits inline right after the course code; quiet until hovered */
+.card__edit { margin: -4px auto -4px calc(4px - var(--s-2)); align-self: center; color: var(--muted); opacity: 0.7; }
+.card__edit:hover, .card__edit:focus-visible { opacity: 1; color: var(--gold-text); }
 
 /* the requisite trace (signature, §4.1) */
 .card[data-trace="dim"] { opacity: 0.45; }

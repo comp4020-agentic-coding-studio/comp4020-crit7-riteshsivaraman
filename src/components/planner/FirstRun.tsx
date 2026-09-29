@@ -22,7 +22,7 @@ export function CareerChoice({ onChoose }: { onChoose(c: Career): void }) {
     <section class="first-run career-choice" aria-labelledby="career-choice-title">
       <h2 class="first-run__title" id="career-choice-title">Are you an undergraduate or a postgraduate student?</h2>
       <p class="career-choice__text">
-        Undergraduate plans use 1000 to 4000-level courses; postgraduate plans use 5000-level and above. You can switch later,
+        Undergraduate plans use 1000 to 4000-level courses; postgraduate plans use 6000-level and above. You can switch later,
         but switching clears your plan.
       </p>
       <div class="first-run__foot">

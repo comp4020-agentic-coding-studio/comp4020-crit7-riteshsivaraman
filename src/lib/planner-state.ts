@@ -13,6 +13,7 @@ import type {
 } from "./contracts";
 import { MAX_YEARS, SLOTS } from "./contracts";
 import { catalogueMeta, getCatalogue, getCourse, getPlan } from "./db";
+import { inCareer } from "./career";
 import { dependentsOf, evaluatePlan, fitMessage, fits, loadOf, type LoadOf } from "./engine/index";
 
 // ---------------------------------------------------------------------------
@@ -182,6 +183,16 @@ export function assertFits(plan: Plan, code: string, pos: { year: number; period
   const load = serverLoadOf(code);
   const fit = fits(plan, pos, load, serverLoadOf, ignoreId);
   if (!fit.ok) throw new ApiFailure("SLOT_TAKEN", fitMessage(code, load, pos.period, fit));
+}
+
+/** Throws WRONG_CAREER when a course is outside the plan's chosen career. */
+export function assertCareer(plan: Plan, code: string, level: number): void {
+  if (plan.career && !inCareer(level, plan.career)) {
+    throw new ApiFailure(
+      "WRONG_CAREER",
+      `${code} is a ${level >= 6000 ? "postgraduate" : "undergraduate"} course, and this plan is ${plan.career === "ug" ? "undergraduate" : "postgraduate"}.`,
+    );
+  }
 }
 
 export function parseEntryId(raw: string | undefined): number {

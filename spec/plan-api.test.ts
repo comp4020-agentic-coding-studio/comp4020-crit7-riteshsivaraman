@@ -324,7 +324,7 @@ describe.skipIf(!ENGINE_READY)("plan API (needs the engine)", { timeout: 30_000 
     expect(ug.status).toBe(201);
     // search follows the plan's career, whatever the query says
     const found = (await (await jar.send("GET", "/api/courses/search?q=COMP&limit=20&career=pg")).json()) as { results: { course: { level: number } }[] };
-    expect(found.results.every((r) => r.course.level < 5000)).toBe(true);
+    expect(found.results.every((r) => r.course.level < 6000)).toBe(true);
 
     const bad = await jar.send("PATCH", "/api/plan", { career: "phd" });
     expect([bad.status, (await errorOf(bad)).error]).toEqual([400, "INVALID"]);
@@ -337,6 +337,30 @@ describe.skipIf(!ENGINE_READY)("plan API (needs the engine)", { timeout: 30_000 
     expect(sqlite("SELECT COUNT(*) AS n FROM plan_entries WHERE plan_id = ?", jar.cookie)).toEqual([{ n: 0 }]);
     await restart();
     expect((await jar.state()).plan.career).toBe("pg");
+  });
+
+  it("PATCH { code } swaps a course in place, with the same checks as adding", async () => {
+    const jar = new Jar();
+    await jar.send("PATCH", "/api/plan", { career: "ug" });
+    const s = (await (await jar.send("POST", "/api/plan/entries", { code: "COMP1100", year: 1, period: "S1", slot: 2 })).json()) as PlannerState;
+    const id = s.plan.entries[0].id;
+    await jar.send("POST", "/api/plan/entries", { code: "COMP1600", year: 1, period: "S2", slot: 2 });
+
+    const swapped = await jar.send("PATCH", `/api/plan/entries/${id}`, { code: "comp1130" });
+    expect(swapped.status).toBe(200);
+    expect(((await swapped.json()) as PlannerState).plan.entries.find((e) => e.id === id)).toMatchObject({ code: "COMP1130", year: 1, period: "S1", slot: 2 });
+    expect(sqlite("SELECT course_code FROM plan_entries WHERE id = ?", id)).toEqual([{ course_code: "COMP1130" }]);
+
+    const dup = await jar.send("PATCH", `/api/plan/entries/${id}`, { code: "COMP1600" });
+    expect([dup.status, (await errorOf(dup)).error]).toEqual([409, "ALREADY_PLANNED"]);
+    const pg = await jar.send("PATCH", `/api/plan/entries/${id}`, { code: "COMP6710" });
+    expect([pg.status, (await errorOf(pg)).error]).toEqual([409, "WRONG_CAREER"]);
+    // an annual course needs Y1 S2 slot 3 too, which COMP1600 holds
+    const big = await jar.send("PATCH", `/api/plan/entries/${id}`, { code: "COMP3770" });
+    expect([big.status, (await errorOf(big)).error]).toEqual([409, "SLOT_TAKEN"]);
+    const unknown = await jar.send("PATCH", `/api/plan/entries/${id}`, { code: "ZZZZ9999" });
+    expect([unknown.status, (await errorOf(unknown)).error]).toEqual([404, "UNKNOWN_COURSE"]);
+    expect(sqlite("SELECT course_code FROM plan_entries WHERE id = ?", id)).toEqual([{ course_code: "COMP1130" }]);
   });
 
   it("DELETE /api/plan/entries/:id removes only this plan's entry; 404 otherwise", async () => {

@@ -26,6 +26,8 @@ function Svg({ size = 16, children, ...rest }: IconProps & { children: Component
 }
 
 export const IconPlus = (p: IconProps) => <Svg {...p}><path d="M8 3.5v9M3.5 8h9" /></Svg>;
+/** pencil: change the course in a card */
+export const IconPencil = (p: IconProps) => <Svg {...p}><path d="M10.5 3.5l2 2L6 12H4v-2l6.5-6.5z" /><path d="M9.5 4.5l2 2" /></Svg>;
 export const IconX = (p: IconProps) => <Svg {...p}><path d="M4.5 4.5l7 7M11.5 4.5l-7 7" /></Svg>;
 export const IconCheck = (p: IconProps) => <Svg {...p}><path d="M3.5 8.5l3 3 6-7" /></Svg>;
 /** error: circle with a cross (pairs with the "⨯" strip glyph) */
