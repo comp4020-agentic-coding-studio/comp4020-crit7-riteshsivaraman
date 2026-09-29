@@ -16,7 +16,7 @@
  *                       warn/warn-wash 5.14  info/info-wash 9.50
  *                       muted/info-wash 6.12
  *   on --ink #111       on-ink 18.88  on-ink-muted 7.37  gold 5.79
- *   non-text vs white   gold 3.26  danger-line 4.83  warn-line 2.995 (dashed + icon: never the only signal)
+ *   non-text vs white   gold 3.26  danger-line 4.83  warn-line 3.01 (dashed + icon: never the only signal)
  *                       (gold is NEVER text on white: 3.26 < 4.5)
  *   white on --ink-2 10.44 (primary hover), white on --danger 6.57
  */
@@ -39,7 +39,7 @@
   --danger-line: #d92d20;
   --danger-wash: #fef3f2;
   --warn: #b54708;
-  --warn-line: #e07b12;
+  --warn-line: #df7b12;
   --warn-wash: #fff8eb;
   --info: #3f3f46;
   --info-wash: #f4f4f5;

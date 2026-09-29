@@ -139,12 +139,10 @@ describe("design tokens: anu.css", () => {
     expect(contrast(fg, bg)).toBeGreaterThanOrEqual(floor);
   });
 
-  // §4.2 gives --warn-line as "3:1+"; measured it is 2.995:1, a hair under.
-  // Kept as specified (a contract value) because the warning border is never
-  // the only signal: it is dashed, and the strip carries a ▲ icon + text.
-  // This pins it so a further lightening is caught.
-  it("--warn-line stays within rounding of 3:1 (reported to Ritesh)", () => {
-    expect(contrast("warn-line", "surface")).toBeGreaterThan(2.99);
+  // §4.2 promises --warn-line at 3:1+. The original #E07B12 measured 2.995,
+  // so it was darkened to #DF7B12 (3.01). Floor is a hard 3.0.
+  it("--warn-line clears 3:1 on white", () => {
+    expect(contrast("warn-line", "surface")).toBeGreaterThanOrEqual(3.0);
   });
 
   it("keeps gold out of text on white (it can't clear 4.5:1)", () => {
