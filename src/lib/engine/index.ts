@@ -1,21 +1,11 @@
-// Requisite engine public API (PLAN.md §3.1). WAVE 0 STUB: every function
-// has its contract signature and throws until track B implements it; track B
-// owns this file from Wave 1.
+// Requisite engine public API (PLAN.md §3.1). Track B owns src/lib/engine/**.
 //
 // Pure by contract: no `node:` imports, no DB, no environment variables. The server
 // runs it against the full catalogue and the islands may run it against the
-// embedded neighbourhood, so it must stay browser-safe.
+// embedded neighbourhood, so it must stay browser-safe (spec/requisites.test.ts
+// greps every engine file for this).
 
-import type {
-  CatalogueCourse,
-  CatalogueIndex,
-  ParseStatus,
-  Plan,
-  PlanEvaluation,
-  PlanPeriod,
-  PlacementPreview,
-  Rule,
-} from "../contracts";
+import type { CatalogueCourse, CatalogueIndex, Rule } from "../contracts";
 
 export type {
   CatalogueIndex,
@@ -29,76 +19,56 @@ export type {
   TriState,
 } from "../contracts";
 
-function notImplemented(name: string): never {
-  throw new Error(`engine.${name} is a Wave 0 stub (track B implements it)`);
+export { termOrder, termKey, planTerms, firstFreeSlot } from "./terms";
+export { evaluatePlan, previewPlacement } from "./evaluate";
+export { describeRule } from "./describe";
+export { parseRequisiteText } from "./parse";
+
+// The reverse index lives beside the CatalogueIndex rather than on it (the
+// contract type is { byCode, version }). Built eagerly by indexCatalogue and
+// lazily for an index someone assembled by hand.
+const dependents = new WeakMap<CatalogueIndex, Map<string, string[]>>();
+
+function referencedCodes(rule: Rule, out: Set<string>): Set<string> {
+  switch (rule.kind) {
+    case "COURSE":
+      out.add(rule.code);
+      break;
+    case "UNITS":
+      for (const c of rule.from ?? []) out.add(c);
+      break;
+    case "AND":
+    case "OR":
+      for (const c of rule.children) referencedCodes(c, out);
+      break;
+  }
+  return out;
 }
 
-/** Y1S1 < Y1S2 < Y1SUMMER < Y2S1 */
-export function termOrder(year: number, period: PlanPeriod): number {
-  void year;
-  void period;
-  return notImplemented("termOrder");
+function buildDependents(cat: CatalogueIndex): Map<string, string[]> {
+  const map = new Map<string, string[]>();
+  for (const course of cat.byCode.values()) {
+    if (!course.rule) continue;
+    for (const code of referencedCodes(course.rule, new Set())) {
+      if (code === course.code) continue;
+      const list = map.get(code) ?? [];
+      list.push(course.code);
+      map.set(code, list);
+    }
+  }
+  for (const list of map.values()) list.sort();
+  dependents.set(cat, map);
+  return map;
 }
 
 export function indexCatalogue(courses: CatalogueCourse[], version: string): CatalogueIndex {
-  void courses;
-  void version;
-  return notImplemented("indexCatalogue");
+  const cat: CatalogueIndex = { byCode: new Map(courses.map((c) => [c.code, c] as const)), version };
+  buildDependents(cat);
+  return cat;
 }
 
-export function evaluatePlan(plan: Plan, cat: CatalogueIndex): PlanEvaluation {
-  void plan;
-  void cat;
-  return notImplemented("evaluatePlan");
-}
-
-export function previewPlacement(
-  code: string,
-  year: number,
-  period: PlanPeriod,
-  plan: Plan,
-  cat: CatalogueIndex,
-): PlacementPreview {
-  void code;
-  void year;
-  void period;
-  void plan;
-  void cat;
-  return notImplemented("previewPlacement");
-}
-
-/** Reverse index, built in indexCatalogue. */
+/** Courses whose rule names `code` (as a COURSE or in a UNITS `from` list), sorted. */
 export function dependentsOf(code: string, cat: CatalogueIndex): string[] {
-  void code;
-  void cat;
-  return notImplemented("dependentsOf");
-}
-
-/** Plain English. */
-export function describeRule(rule: Rule, cat: CatalogueIndex): string {
-  void rule;
-  void cat;
-  return notImplemented("describeRule");
-}
-
-export function parseRequisiteText(raw: string): {
-  rule: Rule | null;
-  incompatible: string[];
-  status: ParseStatus;
-} {
-  void raw;
-  return notImplemented("parseRequisiteText");
-}
-
-/**
- * Lowest free slot index in (year, period), or null if the term is full.
- * Does not check that the term exists in the plan (year <= years, SUMMER year
- * in summerYears); callers do. Used by D for graph add/move and by E to
- * disable full semesters (contract changelog, W0).
- */
-export function firstFreeSlot(plan: Plan, year: number, period: PlanPeriod): number | null {
-  void plan;
-  void year;
-  void period;
-  return notImplemented("firstFreeSlot");
+  const map = dependents.get(cat) ?? buildDependents(cat);
+  return [...(map.get(code) ?? [])];
 }

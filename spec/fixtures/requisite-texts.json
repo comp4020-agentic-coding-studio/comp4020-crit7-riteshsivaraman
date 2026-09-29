@@ -1,0 +1,2417 @@
+[
+  {
+    "id": "COMP1140-fragment",
+    "source": "REQUISITES.md §2 (quoted fragment)",
+    "text": "must have completed COMP1130",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "COURSE",
+        "code": "COMP1130",
+        "concurrent": false
+      }
+    }
+  },
+  {
+    "id": "COMP1110-fragment",
+    "source": "REQUISITES.md §2 (quoted fragment)",
+    "text": "COMP1100 OR COMP1130 OR COMP1730",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "COMP1100",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP1130",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP1730",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP2100-fragment",
+    "source": "REQUISITES.md §2 (quoted fragment)",
+    "text": "COMP1110 or COMP1140 AND 6 units of 1000 level MATH",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP1110",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP1140",
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "kind": "UNITS",
+            "min": 6,
+            "subject": "MATH",
+            "levels": [
+              1000
+            ],
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP3600-fragment",
+    "source": "REQUISITES.md §2 (quoted fragment)",
+    "text": "24 units of COMP coded courses",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "UNITS",
+        "min": 24,
+        "subject": "COMP",
+        "concurrent": false
+      }
+    }
+  },
+  {
+    "id": "COMP2700-fragment",
+    "source": "REQUISITES.md §2 (quoted fragment)",
+    "text": "12 units of 2000 level COMP courses",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "UNITS",
+        "min": 12,
+        "subject": "COMP",
+        "levels": [
+          2000
+        ],
+        "concurrent": false
+      }
+    }
+  },
+  {
+    "id": "COMP4610-fragment",
+    "source": "REQUISITES.md §2 (quoted fragment)",
+    "text": "6 units of (COMP3600 OR COMP3540 OR COMP3900 OR COMP3320)",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "UNITS",
+        "min": 6,
+        "from": [
+          "COMP3600",
+          "COMP3540",
+          "COMP3900",
+          "COMP3320"
+        ],
+        "concurrent": false
+      }
+    }
+  },
+  {
+    "id": "COMP2120-fragment",
+    "source": "REQUISITES.md §2 (quoted fragment)",
+    "text": "have successfully completed or be currently studying COMP2100",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "COURSE",
+        "code": "COMP2100",
+        "concurrent": true
+      }
+    }
+  },
+  {
+    "id": "COMP1100-fragment",
+    "source": "REQUISITES.md §2 (quoted fragment)",
+    "text": "Incompatible with COMP1130",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP1130"
+      ],
+      "rule": null
+    }
+  },
+  {
+    "id": "COMP2300-fragment",
+    "source": "REQUISITES.md §2 (quoted fragment)",
+    "text": "Incompatible with COMP6300, ENGN2219 and COMP6719",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP6300",
+        "ENGN2219",
+        "COMP6719"
+      ],
+      "rule": null
+    }
+  },
+  {
+    "id": "COMP4450-fragment",
+    "source": "REQUISITES.md §2 (quoted fragment)",
+    "text": "must be enrolled in the: Bachelor of Computing (Honours) (HCOMP)... or Bachelor of Advanced Computing (AACOM), with 24 units of COMP-coded courses already passed",
+    "expected": {
+      "status": "unparsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "UNMODELLED",
+        "text": "must be enrolled in the: Bachelor of Computing (Honours) (HCOMP)... or Bachelor of Advanced Computing (AACOM), with 24 units of COMP-coded courses already passed"
+      }
+    }
+  },
+  {
+    "id": "COMP3710-fragment",
+    "source": "REQUISITES.md §2 (quoted fragment)",
+    "text": "You will need to contact the School of Computing to request a permission code",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "INFO",
+        "info": "PERMISSION",
+        "text": "You will need to contact the School of Computing to request a permission code"
+      }
+    }
+  },
+  {
+    "id": "COMP4550-fragment",
+    "source": "REQUISITES.md §2 (quoted fragment)",
+    "text": "have a weighted average mark equivalent to an ANU 70 per cent",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "INFO",
+        "info": "GRADE",
+        "text": "have a weighted average mark equivalent to an ANU 70 per cent",
+        "wam": 70
+      }
+    }
+  },
+  {
+    "id": "COMP8715-fragment",
+    "source": "REQUISITES.md §2 (quoted fragment)",
+    "text": "Master of Computing: completed COMP6442 or COMP2100, plus COMP8260 or COMP8280",
+    "expected": {
+      "status": "unparsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "UNMODELLED",
+        "text": "Master of Computing: completed COMP6442 or COMP2100, plus COMP8260 or COMP8280"
+      }
+    }
+  },
+  {
+    "id": "COMP1100-assumed-fragment",
+    "source": "REQUISITES.md §2 (quoted fragment)",
+    "text": "ACT Maths Methods major or NSW Mathematics or equivalent",
+    "expected": {
+      "status": "unparsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "UNMODELLED",
+        "text": "ACT Maths Methods major or NSW Mathematics or equivalent"
+      }
+    }
+  },
+  {
+    "id": "BIOL2001",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/BIOL2001 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed BIOL1020 or BIOL1030 (or BIOL1003 or BIOL1004 for those who commenced prior to 2026) Incompatible with BIOL2202 or BIOL6200.",
+    "expected": {
+      "status": "partial",
+      "incompatible": [
+        "BIOL2202",
+        "BIOL6200"
+      ],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "BIOL1020",
+            "concurrent": false
+          },
+          {
+            "kind": "UNMODELLED",
+            "text": "BIOL1030 (or BIOL1003 or BIOL1004 for those who commenced prior to 2026)"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "BUSN3001",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/BUSN3001 (fetched 2026-09-30)",
+    "text": "To enrol in this course, you must have completed BUSN1002.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "COURSE",
+        "code": "BUSN1002",
+        "concurrent": false
+      }
+    }
+  },
+  {
+    "id": "CHEM2208",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/CHEM2208 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed CHEM1201 and BIOL1004. Incompatible CHEM6228",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "CHEM6228"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "CHEM1201",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "BIOL1004",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP1110",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP1110 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed: COMP1100 OR COMP1130 OR COMP1730. You are not able to enrol in this course if you have completed COMP1140 or COMP6710 or COMP7710.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP1140",
+        "COMP6710",
+        "COMP7710"
+      ],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "COMP1100",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP1130",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP1730",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP1600",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP1600 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed: 6 units of MATH courses and COMP1100 or COMP1130. It is incompatible with COMP6260.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP6260"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "UNITS",
+            "min": 6,
+            "subject": "MATH",
+            "concurrent": false
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP1100",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP1130",
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP1730",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP1730 (fetched 2026-09-30)",
+    "text": "You are not able to enrol in this course if you have successfully completed one of the following courses: COMP1100, COMP1130, COMP1110, COMP1140, COMP6730 or COMP7710.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP1100",
+        "COMP1130",
+        "COMP1110",
+        "COMP1140",
+        "COMP6730",
+        "COMP7710"
+      ],
+      "rule": null
+    }
+  },
+  {
+    "id": "COMP2100",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP2100 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have successfully completed: COMP1110 or COMP1140 AND 6 units of 1000 level MATH. You are not able to enrol in this course if you have completed COMP6442.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP6442"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP1110",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP1140",
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "kind": "UNITS",
+            "min": 6,
+            "subject": "MATH",
+            "levels": [
+              1000
+            ],
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP2120",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP2120 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have successfully completed or be currently studying COMP2100. Incompatible with COMP2130, COMP6120 and COMP6311.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP2130",
+        "COMP6120",
+        "COMP6311"
+      ],
+      "rule": {
+        "kind": "COURSE",
+        "code": "COMP2100",
+        "concurrent": true
+      }
+    }
+  },
+  {
+    "id": "COMP2300",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP2300 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed: (COMP1100 OR COMP1130 OR COMP1730) AND 6 units of 1000-level MATH courses. Incompatible with COMP6300, ENGN2219 and COMP6719.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP6300",
+        "ENGN2219",
+        "COMP6719"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP1100",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP1130",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP1730",
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "kind": "UNITS",
+            "min": 6,
+            "subject": "MATH",
+            "levels": [
+              1000
+            ],
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP2310",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP2310 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed: COMP1110 or COMP1140 AND COMP2300 or ENGN2219. Incompatible with COMP6310.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP6310"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP1110",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP1140",
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP2300",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "ENGN2219",
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP2400",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP2400 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have successfully completed: COMP1100 or COMP1130 or INFS1001 or COMP1730 You are not able to enrol in this course if you have successfully completed COMP6240.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP6240"
+      ],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "COMP1100",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP1130",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "INFS1001",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP1730",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP2550",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP2550 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must be enrolled in the Bachelor of Advanced Computing (Research and Development) (Honours) AND have completed COMP1110 or COMP1140. Incompatible with COMP4450.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP4450"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "INFO",
+            "info": "PROGRAM",
+            "text": "Bachelor of Advanced Computing (Research and Development) (Honours)"
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP1110",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP1140",
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP2620",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP2620 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed 6 units of MATH courses OR COMP1600. Incompatible with PHIL2080 or COMP6262.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "PHIL2080",
+        "COMP6262"
+      ],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "UNITS",
+            "min": 6,
+            "subject": "MATH",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP1600",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP2700",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP2700 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed: (COMP1100 or COMP1130) AND (COMP1600 or 6 units MATH code course)",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP1100",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP1130",
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP1600",
+                "concurrent": false
+              },
+              {
+                "kind": "UNITS",
+                "min": 6,
+                "subject": "MATH",
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP3300",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP3300 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have successfully completed COMP2310. Incompatible with COMP6330.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP6330"
+      ],
+      "rule": {
+        "kind": "COURSE",
+        "code": "COMP2310",
+        "concurrent": false
+      }
+    }
+  },
+  {
+    "id": "COMP3310",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP3310 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed COMP2100 or COMP2300. AND 6 units of COMP2000-level courses. Incompatible with COMP6331, ENGN3539 and ENGN6539.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP6331",
+        "ENGN3539",
+        "ENGN6539"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP2100",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP2300",
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "kind": "UNITS",
+            "min": 6,
+            "subject": "COMP",
+            "levels": [
+              2000
+            ],
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP3320",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP3320 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed: (COMP2100 or COMP2300 or ENGN2219) AND (COMP1600 or 6 units of MATH courses (excluding MATH1003)) Incompatible with COMP6464.",
+    "expected": {
+      "status": "partial",
+      "incompatible": [
+        "COMP6464"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP2100",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP2300",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "ENGN2219",
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP1600",
+                "concurrent": false
+              },
+              {
+                "kind": "UNMODELLED",
+                "text": "6 units of MATH courses (excluding MATH1003)"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP3425",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP3425 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed 6 units from COMP1100 or COMP1130 or COMP1730; AND COMP2400 Incompatible with COMP3420, COMP8400, COMP8410 and COMP8910.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP3420",
+        "COMP8400",
+        "COMP8410",
+        "COMP8910"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "UNITS",
+            "min": 6,
+            "from": [
+              "COMP1100",
+              "COMP1130",
+              "COMP1730"
+            ],
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP2400",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP3430",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP3430 (fetched 2026-09-30)",
+    "text": "Students are required to have completed introductory courses on databases, programming and algorithms. To enrol in this course you must have completed 6 units from COMP 1030 or COMP1100 or COMP1130 or COMP1730; AND 6 units from COMP 1040 or COMP1110 or COMP1140; AND COMP2400 Incompatible with COMP8430 and COMP8930.",
+    "expected": {
+      "status": "partial",
+      "incompatible": [
+        "COMP8430",
+        "COMP8930"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "UNMODELLED",
+            "text": "Students are required to have completed introductory courses on databases, programming and algorithms"
+          },
+          {
+            "kind": "UNITS",
+            "min": 6,
+            "from": [
+              "COMP1030",
+              "COMP1100",
+              "COMP1130",
+              "COMP1730"
+            ],
+            "concurrent": false
+          },
+          {
+            "kind": "UNITS",
+            "min": 6,
+            "from": [
+              "COMP1040",
+              "COMP1110",
+              "COMP1140"
+            ],
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP2400",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP3500",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP3500 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener. You must also be studying: Bachelor of Engineering (Honours) in Software Engineering (AENSE) OR Bachelor of Computing (BCOMP) AND have completed: COMP2100 AND COMP2120 You are not able to enrol in this course if you have previously completed COMP3100 or if you have previously or are currently enrolled in COMP3820 or COMP4500 or COMP4820.",
+    "expected": {
+      "status": "partial",
+      "incompatible": [
+        "COMP3100",
+        "COMP3820",
+        "COMP4500",
+        "COMP4820"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "UNMODELLED",
+            "text": "To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener"
+          },
+          {
+            "kind": "INFO",
+            "info": "PROGRAM",
+            "text": "Bachelor of Engineering (Honours) in Software Engineering (AENSE) or Bachelor of Computing (BCOMP)",
+            "programs": [
+              "AENSE",
+              "BCOMP"
+            ]
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP2100",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP2120",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP3600",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP3600 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed the following: 24 units of COMP coded courses AND (6 units of MATH OR COMP1600) You are not able to enrol in this course if you have successfully completed COMP6466.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP6466"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "UNITS",
+            "min": 24,
+            "subject": "COMP",
+            "concurrent": false
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "UNITS",
+                "min": 6,
+                "subject": "MATH",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP1600",
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP3610",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP3610 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed: COMP2100 and (COMP1600 or 6 units of MATHS excluding MATH1003) Incompatible with COMP6361.",
+    "expected": {
+      "status": "partial",
+      "incompatible": [
+        "COMP6361"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "COMP2100",
+            "concurrent": false
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP1600",
+                "concurrent": false
+              },
+              {
+                "kind": "UNMODELLED",
+                "text": "6 units of MATHS excluding MATH1003"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP3620",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP3620 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed: COMP1110/1140 AND COMP2620. Incompatible with COMP6320.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP6320"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP1110",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP1140",
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP2620",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP3630",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP3630 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed: 24 units of COMP coded courses AND (6 units of MATH OR COMP1600) Incompatible with COMP6363.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP6363"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "UNITS",
+            "min": 24,
+            "subject": "COMP",
+            "concurrent": false
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "UNITS",
+                "min": 6,
+                "subject": "MATH",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP1600",
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP3670",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP3670 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed COMP1110 or COMP1140. Incompatible with COMP6670.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP6670"
+      ],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "COMP1110",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP1140",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP3770",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP3770 (fetched 2026-09-30)",
+    "text": "To enrol you must: be studying Bachelor of Advanced Computing (Research and Development) AND have successfully completed COMP2550 AND find a project/supervisor AND have received a permission code by having completed all the steps required for Enrolling in student projects including completing the Student Project Registration Form. Finding a project/supervisor is best done before the start of the semester you are intending to do this course.",
+    "expected": {
+      "status": "partial",
+      "incompatible": [],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "INFO",
+            "info": "PROGRAM",
+            "text": "Bachelor of Advanced Computing (Research and Development)"
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP2550",
+            "concurrent": false
+          },
+          {
+            "kind": "UNMODELLED",
+            "text": "find a project/supervisor"
+          },
+          {
+            "kind": "INFO",
+            "info": "PERMISSION",
+            "text": "have received a permission code by having completed all the steps required for Enrolling in student projects including completing the Student Project Registration Form"
+          },
+          {
+            "kind": "UNMODELLED",
+            "text": "Finding a project/supervisor is best done before the start of the semester you are intending to do this course"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP3900",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP3900 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed 12 units of 2000 level COMP courses. Incompatible with COMP6390.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP6390"
+      ],
+      "rule": {
+        "kind": "UNITS",
+        "min": 12,
+        "subject": "COMP",
+        "levels": [
+          2000
+        ],
+        "concurrent": false
+      }
+    }
+  },
+  {
+    "id": "COMP4020",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP4020 (fetched 2026-09-30)",
+    "text": "To enrol in this course, you must have completed COMP3900. Additional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the prerequisites can request a permission code from the College.",
+    "expected": {
+      "status": "partial",
+      "incompatible": [],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "COMP3900",
+            "concurrent": false
+          },
+          {
+            "kind": "UNMODELLED",
+            "text": "Additional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced"
+          },
+          {
+            "kind": "INFO",
+            "info": "PERMISSION",
+            "text": "Students who meet the prerequisites can request a permission code from the College"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP4300",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP4300 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed COMP2310. Incompatible with COMP8300.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP8300"
+      ],
+      "rule": {
+        "kind": "COURSE",
+        "code": "COMP2310",
+        "concurrent": false
+      }
+    }
+  },
+  {
+    "id": "COMP4450",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP4450 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must be enrolled in the: Bachelor of Computing (Honours) (HCOMP) OR Bachelor of Applied Data Analytics (Honours) (HADAN) OR Computer Science Honours Specialisation (COMP-HSPC) OR (Bachelor of Advanced Computing (AACOM) AND have successfully completed 24 units of COMP coded courses) Incompatible with COMP2550 and COMP6445.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP2550",
+        "COMP6445"
+      ],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "INFO",
+            "info": "PROGRAM",
+            "text": "Bachelor of Computing (Honours) (HCOMP) or Bachelor of Applied Data Analytics (Honours) (HADAN) or Computer Science Honours Specialisation (COMP-HSPC)",
+            "programs": [
+              "HCOMP",
+              "HADAN",
+              "COMP-HSPC"
+            ]
+          },
+          {
+            "kind": "AND",
+            "children": [
+              {
+                "kind": "INFO",
+                "info": "PROGRAM",
+                "text": "Bachelor of Advanced Computing (AACOM)",
+                "programs": [
+                  "AACOM"
+                ]
+              },
+              {
+                "kind": "UNITS",
+                "min": 24,
+                "subject": "COMP",
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP4500",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP4500 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener. You also must be studying: Bachelor of Advanced Computing (AACOM) AND have completed: COMP2120 AND 12 units of 3000 and/or 4000 level courses. OR Bachelor of Engineering (Honours) in Software Engineering (AENSE) AND have completed: COMP3500. Incompatible with COMP4540 and COMP4550 and COMP4810 and COMP4820.",
+    "expected": {
+      "status": "partial",
+      "incompatible": [
+        "COMP4540",
+        "COMP4550",
+        "COMP4810",
+        "COMP4820"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "UNMODELLED",
+            "text": "To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener"
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "AND",
+                "children": [
+                  {
+                    "kind": "INFO",
+                    "info": "PROGRAM",
+                    "text": "Bachelor of Advanced Computing (AACOM)",
+                    "programs": [
+                      "AACOM"
+                    ]
+                  },
+                  {
+                    "kind": "COURSE",
+                    "code": "COMP2120",
+                    "concurrent": false
+                  },
+                  {
+                    "kind": "UNITS",
+                    "min": 12,
+                    "levels": [
+                      3000,
+                      4000
+                    ],
+                    "concurrent": false
+                  }
+                ]
+              },
+              {
+                "kind": "AND",
+                "children": [
+                  {
+                    "kind": "INFO",
+                    "info": "PROGRAM",
+                    "text": "Bachelor of Engineering (Honours) in Software Engineering (AENSE)",
+                    "programs": [
+                      "AENSE"
+                    ]
+                  },
+                  {
+                    "kind": "COURSE",
+                    "code": "COMP3500",
+                    "concurrent": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP4550",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP4550 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must: Have completed or be currently enrolled in COMP4450 AND find a project/supervisor AND have a weighted average mark equivalent to an ANU 70 per cent calculated from the 36 units of courses with the highest marks in cognate disciplines (excluding 1000-level courses) AND have received a permission code by having completed all the steps required for Enrolling in student projects including completing the Student Project Registration Form. Incompatible with COMP4500 and COMP4560 and COMP4810 and COMP4820.",
+    "expected": {
+      "status": "partial",
+      "incompatible": [
+        "COMP4500",
+        "COMP4560",
+        "COMP4810",
+        "COMP4820"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "COMP4450",
+            "concurrent": true
+          },
+          {
+            "kind": "UNMODELLED",
+            "text": "find a project/supervisor AND have a weighted average mark equivalent to an ANU 70 per cent calculated from the 36 units of courses with the highest marks in cognate disciplines (excluding 1000-level courses)"
+          },
+          {
+            "kind": "INFO",
+            "info": "PERMISSION",
+            "text": "have received a permission code by having completed all the steps required for Enrolling in student projects including completing the Student Project Registration Form"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP4610",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP4610 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed: COMP2100 AND 6 units of (COMP3600 OR COMP3540 OR COMP3900 OR COMP3320). You are not able to enrol in this course if you have successfully completed COMP6461 or COMP8610.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP6461",
+        "COMP8610"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "COMP2100",
+            "concurrent": false
+          },
+          {
+            "kind": "UNITS",
+            "min": 6,
+            "from": [
+              "COMP3600",
+              "COMP3540",
+              "COMP3900",
+              "COMP3320"
+            ],
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP4620",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP4620 (fetched 2026-09-30)",
+    "text": "12 units of 3000 and/or 4000 level COMP courses. Additional Prerequisite courses for the Advanced Topic will be listed on the SoCo website (Special Topics in Computing page) when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions for Enrolling in CSS courses . Incompatible with COMP8620.",
+    "expected": {
+      "status": "partial",
+      "incompatible": [
+        "COMP8620"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "UNITS",
+            "min": 12,
+            "subject": "COMP",
+            "levels": [
+              3000,
+              4000
+            ],
+            "concurrent": false
+          },
+          {
+            "kind": "UNMODELLED",
+            "text": "Additional Prerequisite courses for the Advanced Topic will be listed on the SoCo website (Special Topics in Computing page) when the course topic is announced"
+          },
+          {
+            "kind": "INFO",
+            "info": "PERMISSION",
+            "text": "Students who meet the pre-requisites can request a permission code following the instructions for Enrolling in CSS courses"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP4650",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP4650 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed : (COMP1600 OR COMP2100) AND 12 units of 3000/4000 level (COMP OR INFS courses). Incompatible with COMP6490.",
+    "expected": {
+      "status": "partial",
+      "incompatible": [
+        "COMP6490"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "COMP1600",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "COMP2100",
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "kind": "UNMODELLED",
+            "text": "12 units of 3000/4000 level (COMP OR INFS courses)"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP4670",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP4670 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed: COMP3670 OR (COMP1110/COMP1140 AND MATH1014 OR MATH1115 OR MATH1116) Incompatible with COMP8600 and COMP8960.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP8600",
+        "COMP8960"
+      ],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "COMP3670",
+            "concurrent": false
+          },
+          {
+            "kind": "AND",
+            "children": [
+              {
+                "kind": "OR",
+                "children": [
+                  {
+                    "kind": "COURSE",
+                    "code": "COMP1110",
+                    "concurrent": false
+                  },
+                  {
+                    "kind": "COURSE",
+                    "code": "COMP1140",
+                    "concurrent": false
+                  }
+                ]
+              },
+              {
+                "kind": "OR",
+                "children": [
+                  {
+                    "kind": "COURSE",
+                    "code": "MATH1014",
+                    "concurrent": false
+                  },
+                  {
+                    "kind": "COURSE",
+                    "code": "MATH1115",
+                    "concurrent": false
+                  },
+                  {
+                    "kind": "COURSE",
+                    "code": "MATH1116",
+                    "concurrent": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP4680",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP4680 (fetched 2026-09-30)",
+    "text": "12 units of 3000 and/or 4000 level COMP courses. Additional Prerequisite courses for the Advanced Topic will be listed on the SoCo website (Special Topics in Computing page ) when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions for Enrolling in CECC courses. Incompatible with COMP8650.",
+    "expected": {
+      "status": "partial",
+      "incompatible": [
+        "COMP8650"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "UNITS",
+            "min": 12,
+            "subject": "COMP",
+            "levels": [
+              3000,
+              4000
+            ],
+            "concurrent": false
+          },
+          {
+            "kind": "UNMODELLED",
+            "text": "Additional Prerequisite courses for the Advanced Topic will be listed on the SoCo website (Special Topics in Computing page ) when the course topic is announced"
+          },
+          {
+            "kind": "INFO",
+            "info": "PERMISSION",
+            "text": "Students who meet the pre-requisites can request a permission code following the instructions for Enrolling in CECC courses"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP6442",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6442 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have either: completed (COMP6710 OR COMP7710 OR COMP1110 OR COMP1140); AND have completed or be currently enrolled in (MATH6005 OR COMP6260 OR MATH1005 OR COMP1600); OR be enrolled in the Master of Machine Learning and Computer Vision AND have completed (COMP6710 or COMP7710 or COMP1110 or COMP1140) OR be enrolled in the Master of Computing (Advanced). Incompatible with COMP2100.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP2100"
+      ],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "AND",
+            "children": [
+              {
+                "kind": "OR",
+                "children": [
+                  {
+                    "kind": "COURSE",
+                    "code": "COMP6710",
+                    "concurrent": false
+                  },
+                  {
+                    "kind": "COURSE",
+                    "code": "COMP7710",
+                    "concurrent": false
+                  },
+                  {
+                    "kind": "COURSE",
+                    "code": "COMP1110",
+                    "concurrent": false
+                  },
+                  {
+                    "kind": "COURSE",
+                    "code": "COMP1140",
+                    "concurrent": false
+                  }
+                ]
+              },
+              {
+                "kind": "OR",
+                "children": [
+                  {
+                    "kind": "COURSE",
+                    "code": "MATH6005",
+                    "concurrent": true
+                  },
+                  {
+                    "kind": "COURSE",
+                    "code": "COMP6260",
+                    "concurrent": true
+                  },
+                  {
+                    "kind": "COURSE",
+                    "code": "MATH1005",
+                    "concurrent": true
+                  },
+                  {
+                    "kind": "COURSE",
+                    "code": "COMP1600",
+                    "concurrent": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "AND",
+            "children": [
+              {
+                "kind": "INFO",
+                "info": "PROGRAM",
+                "text": "Master of Machine Learning and Computer Vision"
+              },
+              {
+                "kind": "OR",
+                "children": [
+                  {
+                    "kind": "COURSE",
+                    "code": "COMP6710",
+                    "concurrent": false
+                  },
+                  {
+                    "kind": "COURSE",
+                    "code": "COMP7710",
+                    "concurrent": false
+                  },
+                  {
+                    "kind": "COURSE",
+                    "code": "COMP1110",
+                    "concurrent": false
+                  },
+                  {
+                    "kind": "COURSE",
+                    "code": "COMP1140",
+                    "concurrent": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "INFO",
+            "info": "PROGRAM",
+            "text": "Master of Computing (Advanced)"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "COMP6710",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6710 (fetched 2026-09-30)",
+    "text": "You are not able to enrol in this course if you are enrolled in the Master of Computing (Advanced). Incompatible with COMP1110 OR COMP1140 OR COMP7710.",
+    "expected": {
+      "status": "unparsed",
+      "incompatible": [
+        "COMP1110",
+        "COMP1140",
+        "COMP7710"
+      ],
+      "rule": {
+        "kind": "UNMODELLED",
+        "text": "You are not able to enrol in this course if you are enrolled in the Master of Computing (Advanced)"
+      }
+    }
+  },
+  {
+    "id": "COMP8715",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8715 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener. To enrol in this course you must: be enrolled in the Master of Computing AND have successfully completed: COMP6442 or COMP2100 AND (COMP8260 or COMP8280) OR be enrolled in the Master of Machine Learning and Computer Vision AND have successfully completed: (COMP6442 or COMP2100) AND (COMP6250 or COMP8260 or COMP8280) Incompatible with COMP8755 and COMP8830 and COMP8800",
+    "expected": {
+      "status": "partial",
+      "incompatible": [
+        "COMP8755",
+        "COMP8830",
+        "COMP8800"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "UNMODELLED",
+            "text": "To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener"
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "AND",
+                "children": [
+                  {
+                    "kind": "INFO",
+                    "info": "PROGRAM",
+                    "text": "Master of Computing"
+                  },
+                  {
+                    "kind": "OR",
+                    "children": [
+                      {
+                        "kind": "COURSE",
+                        "code": "COMP6442",
+                        "concurrent": false
+                      },
+                      {
+                        "kind": "COURSE",
+                        "code": "COMP2100",
+                        "concurrent": false
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "OR",
+                    "children": [
+                      {
+                        "kind": "COURSE",
+                        "code": "COMP8260",
+                        "concurrent": false
+                      },
+                      {
+                        "kind": "COURSE",
+                        "code": "COMP8280",
+                        "concurrent": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "AND",
+                "children": [
+                  {
+                    "kind": "INFO",
+                    "info": "PROGRAM",
+                    "text": "Master of Machine Learning and Computer Vision"
+                  },
+                  {
+                    "kind": "OR",
+                    "children": [
+                      {
+                        "kind": "COURSE",
+                        "code": "COMP6442",
+                        "concurrent": false
+                      },
+                      {
+                        "kind": "COURSE",
+                        "code": "COMP2100",
+                        "concurrent": false
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "OR",
+                    "children": [
+                      {
+                        "kind": "COURSE",
+                        "code": "COMP6250",
+                        "concurrent": false
+                      },
+                      {
+                        "kind": "COURSE",
+                        "code": "COMP8260",
+                        "concurrent": false
+                      },
+                      {
+                        "kind": "COURSE",
+                        "code": "COMP8280",
+                        "concurrent": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ECON1102",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/ECON1102 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed or concurrent enrolment in ECON1101. Incompatible with ECON1100.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "ECON1100"
+      ],
+      "rule": {
+        "kind": "COURSE",
+        "code": "ECON1101",
+        "concurrent": true
+      }
+    }
+  },
+  {
+    "id": "ECON2101",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/ECON2101 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed ECON1101 Microeconomics 1",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "COURSE",
+        "code": "ECON1101",
+        "concurrent": false
+      }
+    }
+  },
+  {
+    "id": "ECON3101",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/ECON3101 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed ECON2101. You must also have completed at least one of EMET1001, MATH1014, or MATH1116.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "ECON2101",
+            "concurrent": false
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "EMET1001",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "MATH1014",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "MATH1116",
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ENGN2219",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/ENGN2219 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed one of: COMP1100 - Programming as Problem Solving COMP1130 - Programming as Problem Solving (Advanced) COMP1730 - Programming for Scientists Incompatible with: COMP2300 - Computer Organisation COMP6300 - Computer Organisation COMP6719 - Computer Systems & Organisation",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "COMP2300",
+        "COMP6300",
+        "COMP6719"
+      ],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "COMP1100",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP1130",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP1730",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ENGN4213",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/ENGN4213 (fetched 2026-09-30)",
+    "text": "To enrol in this course, you must have completed ENGN2218 or ENGN2219 or COMP2300. It should be noted that students who have done COMP2300 and have no engineering background may need to undertake some independent review of introductory electrical knowledge such as basic physics and circuit theory. Incompatible with ENGN6213.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "ENGN6213"
+      ],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "ENGN2218",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "ENGN2219",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP2300",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ENVS2015",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/ENVS2015 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed 24 units towards a degree. Incompatible with ENVS6015.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "ENVS6015"
+      ],
+      "rule": {
+        "kind": "UNITS",
+        "min": 24,
+        "concurrent": false
+      }
+    }
+  },
+  {
+    "id": "INFS2024",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/INFS2024 (fetched 2026-09-30)",
+    "text": "To enrol in this course, you must have completed at least one of the following courses: INFS1001 - Business Information Systems COMP1100 - Programming as Problem Solving COMP1710 - Web Development and Design COMP1720 - Art and Interaction Computing .",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "INFS1001",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP1100",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP1710",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "COMP1720",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "LAWS1203",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/LAWS1203 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must be studying a Bachelor of Laws (ALLB) and have completed or be currently completing LAWS1201 Foundations of Australian Law.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "INFO",
+            "info": "PROGRAM",
+            "text": "Bachelor of Laws (ALLB)",
+            "programs": [
+              "ALLB"
+            ]
+          },
+          {
+            "kind": "COURSE",
+            "code": "LAWS1201",
+            "concurrent": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "LING2010",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/LING2010 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have successfully completed LING1001, or gained permission from the course convenor. You are not able to enrol in this course if you have previously completed any of the following courses: LING1004, LING2004, LING1010 or LING6010.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "LING1004",
+        "LING2004",
+        "LING1010",
+        "LING6010"
+      ],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "LING1001",
+            "concurrent": false
+          },
+          {
+            "kind": "INFO",
+            "info": "PERMISSION",
+            "text": "gained permission from the course convenor"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "MATH1014",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/MATH1014 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed MATH1013 or MATH1115 or MATH1113. You are not able to enrol in this course if you have previously completed MATH1116.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "MATH1116"
+      ],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "MATH1013",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "MATH1115",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "MATH1113",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "MATH1116",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/MATH1116 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed MATH1115 with a mark of 60 or above or MATH1113 with a mark of 80 or above. You may not enrol in MATH1116 if you have previously completed, or are attempting to concurrently enrol in, MATH1014. You may not enrol in MATH1116 if you have previously completed MATH1014.",
+    "expected": {
+      "status": "unparsed",
+      "incompatible": [
+        "MATH1014"
+      ],
+      "rule": {
+        "kind": "UNMODELLED",
+        "text": "To enrol in this course you must have completed MATH1115 with a mark of 60 or above or MATH1113 with a mark of 80 or above"
+      }
+    }
+  },
+  {
+    "id": "MATH2301",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/MATH2301 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed MATH1005, MATH1013, MATH1113, or MATH1115.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "MATH1005",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "MATH1013",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "MATH1113",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "MATH1115",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "MATH2320",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/MATH2320 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have successfully completed MATH1116 with a mark of 60 or above. You are not able to enrol in this course if you have previously completed MATH3116.",
+    "expected": {
+      "status": "unparsed",
+      "incompatible": [
+        "MATH3116"
+      ],
+      "rule": {
+        "kind": "UNMODELLED",
+        "text": "To enrol in this course you must have successfully completed MATH1116 with a mark of 60 or above"
+      }
+    }
+  },
+  {
+    "id": "MATH3320",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/MATH3320 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have successfully completed MATH2320 with a mark of 60 or above. Incompatible: MATH6212",
+    "expected": {
+      "status": "unparsed",
+      "incompatible": [
+        "MATH6212"
+      ],
+      "rule": {
+        "kind": "UNMODELLED",
+        "text": "To enrol in this course you must have successfully completed MATH2320 with a mark of 60 or above"
+      }
+    }
+  },
+  {
+    "id": "MUSI2201",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/MUSI2201 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must be enrolled in a Bachelor of Music (BMUSI) and have completed MUSI1102, or with consent of the convener.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "AND",
+            "children": [
+              {
+                "kind": "INFO",
+                "info": "PROGRAM",
+                "text": "Bachelor of Music (BMUSI)",
+                "programs": [
+                  "BMUSI"
+                ]
+              },
+              {
+                "kind": "COURSE",
+                "code": "MUSI1102",
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "kind": "INFO",
+            "info": "PERMISSION",
+            "text": "with consent of the convener"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "PHYS1201",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/PHYS1201 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed PHYS1101 or be doing it concurrently. You should have completed either MATH1013 or MATH1115 or be doing them concurrently",
+    "expected": {
+      "status": "partial",
+      "incompatible": [],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "PHYS1101",
+            "concurrent": true
+          },
+          {
+            "kind": "UNMODELLED",
+            "text": "You should have completed either MATH1013 or MATH1115 or be doing them concurrently"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "PHYS2013",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/PHYS2013 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed PHYS1101 and PHYS1201 and either MATH1013 or MATH1014 or MATH1115 or MATH1116.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "PHYS1101",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "PHYS1201",
+            "concurrent": false
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "MATH1013",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "MATH1014",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "MATH1115",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "MATH1116",
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "PSYC2009",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/PSYC2009 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed: PSYC1003 and PSYC1004, or be enrolled in the BPNP and have completed PSYC1003 and PNPI1001, or with permission from the course convener for students who have an appropriate methodological background.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "AND",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "PSYC1003",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "PSYC1004",
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "kind": "AND",
+            "children": [
+              {
+                "kind": "INFO",
+                "info": "PROGRAM",
+                "text": "BPNP",
+                "programs": [
+                  "BPNP"
+                ]
+              },
+              {
+                "kind": "COURSE",
+                "code": "PSYC1003",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "PNPI1001",
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "kind": "INFO",
+            "info": "PERMISSION",
+            "text": "with permission from the course convener for students who have an appropriate methodological background"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "SOCY2038",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/SOCY2038 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed 24 units of tertiary study or 12 units in the relevant field/discipline.",
+    "expected": {
+      "status": "partial",
+      "incompatible": [],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "UNITS",
+            "min": 24,
+            "concurrent": false
+          },
+          {
+            "kind": "UNMODELLED",
+            "text": "12 units in the relevant field/discipline"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "STAT2001",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/STAT2001 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have have completed STAT1003 or STAT1008 or be enrolled in the Bachelor of Applied Data Analytics; and have completed MATH1113 or MATH1115 or have completed or be concurrently enrolled in MATH1014. Incompatible with STAT2013 and STAT6013.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "STAT2013",
+        "STAT6013"
+      ],
+      "rule": {
+        "kind": "AND",
+        "children": [
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "STAT1003",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "STAT1008",
+                "concurrent": false
+              },
+              {
+                "kind": "INFO",
+                "info": "PROGRAM",
+                "text": "Bachelor of Applied Data Analytics"
+              }
+            ]
+          },
+          {
+            "kind": "OR",
+            "children": [
+              {
+                "kind": "COURSE",
+                "code": "MATH1113",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "MATH1115",
+                "concurrent": false
+              },
+              {
+                "kind": "COURSE",
+                "code": "MATH1014",
+                "concurrent": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "STAT3011",
+    "source": "https://programsandcourses.anu.edu.au/2026/course/STAT3011 (fetched 2026-09-30)",
+    "text": "To enrol in this course you must have completed STAT1003 or STAT1008 or STAT2001. Incompatible with STAT4026 and STAT6026.",
+    "expected": {
+      "status": "parsed",
+      "incompatible": [
+        "STAT4026",
+        "STAT6026"
+      ],
+      "rule": {
+        "kind": "OR",
+        "children": [
+          {
+            "kind": "COURSE",
+            "code": "STAT1003",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "STAT1008",
+            "concurrent": false
+          },
+          {
+            "kind": "COURSE",
+            "code": "STAT2001",
+            "concurrent": false
+          }
+        ]
+      }
+    }
+  }
+]
