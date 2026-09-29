@@ -1,19 +1,97 @@
 ---
-// TODO(plan-builder-page): replace this stub with the real plan builder ---
-// one column per term, a form to add a seeded course into a term, and a
-// satisfied/violated badge per placed course via isSatisfied(). See
-// PLAN.md's "Pages" section. Kept minimal for now so the build/invariants
-// stay green while the schema and rule engine land first.
 import Base from "../layouts/Base.astro";
-import { listCourses } from "../lib/db";
+import { listCourses, listIncompatibilities, listPlanEntries, listRequisiteNodes } from "../lib/db";
+import { isSatisfied } from "../lib/requisites";
+import { TERMS } from "../lib/terms";
 
 const courses = listCourses();
+const requisiteNodes = listRequisiteNodes();
+const incompatibilities = listIncompatibilities();
+const planEntries = listPlanEntries();
+
+const courseByCode = new Map(courses.map((course) => [course.code, course] as const));
+
+const termColumns = TERMS.map((label, termIndex) => ({
+  label,
+  termIndex,
+  entries: planEntries
+    .filter((entry) => entry.termIndex === termIndex)
+    .map((entry) => ({
+      entry,
+      course: courseByCode.get(entry.courseCode),
+      status: isSatisfied(entry.courseCode, termIndex, requisiteNodes, incompatibilities, courses, planEntries),
+    })),
+}));
 ---
 
 <Base title="Plan builder" current="plan">
   <h1 class="page-heading">ANU degree planner</h1>
-  <p>Plan builder --- under construction.</p>
-  <ul>
-    {courses.map((course) => <li>{course.code}: {course.title}</li>)}
-  </ul>
+  <p class="muted">
+    A static seeded slice of the CS major, not the live catalogue --- see the <a href="/readme/">README</a> for
+    scope. Badges reflect whether each course's real prerequisites (and incompatibilities) are satisfied by
+    courses placed in <em>earlier</em> terms. Link to the <a href="/graph/">dependency graph</a> for the same
+    state visualised.
+  </p>
+
+  <section aria-labelledby="add-course-heading" class="panel" style="margin-bottom: var(--space-6);">
+    <h2 id="add-course-heading" class="panel__title">Add a course to a term</h2>
+    <form class="form-row" method="post" action="/api/plan-entries">
+      <div class="field">
+        <label class="label" for="courseCode">Course</label>
+        <select class="select" id="courseCode" name="courseCode" required>
+          {courses.map((course) => (
+            <option value={course.code}>{course.code} --- {course.title}</option>
+          ))}
+        </select>
+      </div>
+      <div class="field">
+        <label class="label" for="termIndex">Term</label>
+        <select class="select" id="termIndex" name="termIndex" required>
+          {TERMS.map((label, termIndex) => (
+            <option value={termIndex}>{label}</option>
+          ))}
+        </select>
+      </div>
+      <button class="btn btn-primary" type="submit">Add to plan</button>
+    </form>
+  </section>
+
+  <h2 class="section-heading">Plan</h2>
+  <div class="table-wrap">
+    <div style="display: flex; gap: var(--space-4); align-items: flex-start;">
+      {termColumns.map((column) => (
+        <div class="panel" style="min-width: 12rem; flex: 1;">
+          <h3 class="panel__title">{column.label}</h3>
+          {column.entries.length === 0 ? (
+            <p class="muted">No courses planned.</p>
+          ) : (
+            <ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--space-2);">
+              {column.entries.map(({ entry, course, status }) => (
+                <li>
+                  <div style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-2);">
+                    <span>
+                      <strong>{entry.courseCode}</strong>
+                      <br />
+                      <span class="muted">{course?.title}</span>
+                    </span>
+                    {status.blockedBy ? (
+                      <span class="badge badge-unmet" title={`Incompatible with ${status.blockedBy}`}>Unmet</span>
+                    ) : status.requisitesSatisfied ? (
+                      <span class="badge badge-satisfied">Satisfied</span>
+                    ) : (
+                      <span class="badge badge-unmet">Unmet</span>
+                    )}
+                  </div>
+                  <form method="post" action="/api/plan-entries/remove" style="margin-top: var(--space-1);">
+                    <input type="hidden" name="id" value={entry.id} />
+                    <button class="btn btn-secondary" type="submit">Remove</button>
+                  </form>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
 </Base>
