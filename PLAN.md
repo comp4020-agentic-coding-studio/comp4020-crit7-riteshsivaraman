@@ -368,6 +368,7 @@ re-derive state locally.
 | `GET /api/courses/search?q=&year=&period=&limit=` | --- | 200 `{ results: SearchResult[] }` (limit ≤ 20, default 8) | 400 `INVALID` |
 | `GET /api/courses/:code` | --- | 200 `CourseDetailPayload` | 404 `UNKNOWN_COURSE` |
 | `GET /api/courses?subject=COMP` | --- | 200 `{ courses: CatalogueCourse[]; neighbours: CatalogueCourse[] }` (graph subject scope; no descriptions) | 404 unknown subject |
+| `GET /api/events` | --- | 200 `text/event-stream`: one `: ok` comment line, then close. **Stub only** --- exists solely for the CI deploy check in `.github/workflows/checks.yml` (reads the first bytes); the app never calls it | --- |
 
 ```ts
 export interface SearchResult {
@@ -854,6 +855,9 @@ integration) and is then removed.
   every `COURSE`/`from` code in a rule exists in the catalogue or is listed
   dead in the report; incompatibility is symmetric; COMP1100↔COMP1130 and
   MATH1013 present; `version` matches the subject files.
+- `src/pages/api/events.ts` stub (§3.2); `spec/plan-api.test.ts` asserts it
+  returns `text/event-stream` with a non-empty body (the same condition the
+  CI step checks), and is listed in `spec/routes.ts`.
 - `spec/search.test.ts`: ranking order in §3.2; `MATH` returns MATH
   courses; empty query suggests only `Ready` + offered courses from the
   plan's subjects; previews are per cookie (two jars, same query, different
@@ -978,13 +982,8 @@ integration) and is then removed.
   README; accepted for v2.
 
 **Questions for Ritesh**
-1. **CI deploy check hits `/api/events`.** The app doesn't need it
-   (per-browser plans; every save returns the new state, so nothing needs
-   pushing). But `.github/workflows/checks.yml` verifies the starter's SSE
-   stream, which v1 already deleted, so the first CI deploy after `/ship`
-   will fail. Either keep a ~5-line `/api/events` stub that sends one
-   comment line (owned by A), or remove that step from the course-managed
-   workflow. Which does the course allow?
+- None open. (Resolved: `/api/events` is kept as a stub owned by A so the
+  course-managed CI deploy check passes unmodified --- Ritesh, 2026-09-30.)
 
 ## Contract changelog
 
@@ -996,3 +995,5 @@ downstream tracks rebase before continuing.)
   search, previews and detail became server APIs (§3.2); bootstrap embeds
   the plan neighbourhood only; graph "All COMP" scope became subject
   scope.
+- 2026-09-30, before any build: `GET /api/events` added as a stub for the
+  CI deploy check (Ritesh); the workflow is left untouched.
