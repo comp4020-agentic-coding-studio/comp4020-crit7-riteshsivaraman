@@ -58,3 +58,53 @@ Stop it with `pnpm exec astro dev stop` (it prints the pid it stopped), then
 confirm with `lsof -nP -i :4411` that nothing is in `LISTEN` (a browser's
 leftover `CLOSE_WAIT` sockets are fine). Same bug class as the orphaned dev
 server entry above, with a new way in.
+
+## An `.astro` page's `<style>` doesn't reach markup rendered by a Preact island
+
+In the W1 kit page, classes defined in `kit.astro`'s `<style>` styled the
+Astro markup but not identical class names rendered inside the
+`client:load` island: Astro scopes page styles with a `data-astro-cid-*`
+attribute that island output never carries, and nothing warns. Shared
+classes belong in `src/styles/anu.css` (or `planner.css`/`graph.css`); a
+page-local `<style>` that must reach an island needs `is:global`.
+
+## Browser checks at 375px: the Chrome window won't resize that small, and effects lag
+
+`resize_window` to 375×812 left `innerWidth` at 1512 (the window has a
+minimum width), so a "375px screenshot" of the page would have silently been
+the desktop layout. Check `innerWidth` after resizing; to get a real 375px
+viewport, load the page in a same-origin `<iframe>` 375×812 (media queries
+follow the iframe). Separately, in the automated tab Preact `useEffect`s
+(scheduled on animation frames) ran up to ~1s late, so a focus/unmount
+assertion read immediately after a key press looked failed when it wasn't.
+Wait ~1s before asserting focus return, and re-read before calling a bug.
+
+## Two redundant guards hide each other from mutation testing
+
+In the B engine, `previewPlacement` dropped the course's own existing entry
+*and* the UNITS/COURSE counter skipped same-code entries. Mutating either
+one alone left every test green, because the other still did the job; a
+first mutation pass reported both as survivors. Fix was to keep one guard
+(the self-exclusion in the counter) and add tests that only it can pass
+(a retake entry in an earlier term; previewing a move of a planned
+course). Lesson: a mutation that survives may mean a redundant defence,
+not a missing test; decide which one owns the rule and delete the other,
+or the suite can never show that the rule is enforced.
+
+## `vitest run` on one spec file still boots the built server
+
+`vitest.config.ts` sets `globalSetup: spec/global-setup.ts`, which spawns
+`dist/server/entry.mjs`, so even a pure unit spec fails (or runs slow) with
+no fresh build. For fast parser/engine loops use a scratch config outside
+the repo with only `test.include` set, e.g. `pnpm exec vitest run --config
+/tmp/x/vitest.config.ts --root . spec/parser.test.ts`, then finish with
+`rm -rf dist && pnpm check` as usual. (vitest 4 has no `--globalSetup` CLI
+flag to override it.)
+
+## P&C course pages not offered in 2026 answer 302, not 404
+
+Fetching `programsandcourses.anu.edu.au/2026/course/<CODE>` for codes such
+as COMP2420, COMP3120, POLS2011, ACCT2101 returned HTTP 302 (a redirect)
+rather than 404. A scraper that only treats 404 as "missing, fall back to
+2025" would follow the redirect and parse whatever page it lands on. Treat
+a 3xx on a course URL as missing for that year.

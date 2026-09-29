@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Degree Planner mark: a planned node (black) with a gold requisite edge.
+       Not the ANU crest or logo. -->
+  <rect width="32" height="32" rx="8" fill="#111111"/>
+  <path d="M9 11.5 L22 16 M9 20.5 L22 16" stroke="#BE830E" stroke-width="2.25" stroke-linecap="round"/>
+  <circle cx="9" cy="11.5" r="3" fill="#FFFFFF"/>
+  <circle cx="9" cy="20.5" r="3" fill="#FFFFFF"/>
+  <circle cx="22.5" cy="16" r="4" fill="#BE830E"/>
+</svg>

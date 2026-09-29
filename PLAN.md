@@ -537,7 +537,7 @@ read like part numbers, and it makes `COMP2100` vs `COMP2120` scannable.
 --danger-line:    #D92D20;  /* violation border (3:1+ non-text) */
 --danger-wash:    #FEF3F2;
 --warn:           #B54708;  /* warning text 5.4:1 --- deliberately more orange than gold */
---warn-line:      #E07B12;
+--warn-line:      #DF7B12;
 --warn-wash:      #FFF8EB;
 --info:           #3F3F46;  /* info badges are neutral, not coloured */
 --info-wash:      #F4F4F5;
@@ -780,6 +780,22 @@ while dragging, releases on drop) attach behaviour.
   1000-level MATH (missing). Can't be taken with COMP6442." This is also
   the SSR output for `?view=graph` before the island hydrates.
 
+### Class contract (from track C)
+
+All defined in `src/styles/anu.css`:
+
+- `.btn` + `--primary|secondary|ghost|danger|text|sm|block`
+- `.icon-btn` + `--sm|raised|danger`
+- `.chip` + `--gold|danger|warn|info|outline|lg`
+- `.input`
+- `.popover` with `__header|__body|__footer`; `.sheet`; `.scrim`
+- `.tooltip`; `.segmented`
+- `.code`, `.num`, `.muted`, `.visually-hidden`
+- `.app-bar`, `.page`, `.prose`
+
+Added tokens: `--on-ink`, `--on-ink-muted`, `--scrim`, `--lift`, `--enter-y`,
+`--enter-scale`, `--content-max`, `--gutter`, `--app-bar-h`.
+
 ### 4.5 Responsive (verify at 375 × 812 in a real browser)
 
 - ≤ 640px: term row becomes label-above-slots; slots in a 2 × 2 grid
@@ -838,9 +854,9 @@ paint and does not animate (drag still works, without re-heat drift).
 |---|---|
 | **W0 contracts** | `src/lib/contracts.ts`; `package.json` + `pnpm-lock.yaml` (installs `@astrojs/preact`, `preact`, `d3-force`, `d3-zoom`, `d3-drag`, `d3-selection`, `@types/d3-*`, `@fontsource-variable/geist`, `@fontsource-variable/geist-mono`); `astro.config.ts` (add preact integration); `tsconfig.json` (jsx settings); `spec/fixtures/catalogue-mini.json` (v1's 8 courses in the new shape); stubs: `src/lib/engine/index.ts`, `src/components/graph/GraphView.tsx` --- ownership of the two stubs passes to B and E at Wave 1. |
 | **A data** | `scripts/scrape-catalogue.ts`, `scripts/build-catalogue.ts`, `catalogue/**` (subject files, `index.json`, `raw/<SUBJECT>.json`, `report.json`), `src/lib/course-search.ts`, `spec/search.test.ts`, `.dockerignore`, `src/lib/schema.ts`, `drizzle/**`, `src/lib/db.ts`, `src/lib/catalogue-sync.ts`, `src/lib/planner-state.ts`, `src/middleware.ts`, `src/env.d.ts`, `src/pages/api/**` (deletes v1 routes), `src/lib/seed-data.ts` (delete), `Dockerfile`, `.gitignore`, `spec/catalogue.test.ts`, `spec/boot-sync.test.ts`, `spec/plan-api.test.ts`, `spec/plan.test.ts` (delete), `spec/contracts-fixture.test.ts` |
-| **B engine** | `src/lib/engine/**` (index, evaluate, describe, parse, terms), `src/lib/requisites.ts` + `src/lib/terms.ts` (delete), `spec/requisites.test.ts`, `spec/parser.test.ts`, `spec/fixtures/requisite-texts.json` |
+| **B engine** | `src/lib/engine/**` (index, evaluate, describe, parse, terms), `spec/requisites.test.ts`, `spec/parser.test.ts`, `spec/fixtures/requisite-texts.json` |
 | **C design** | `src/styles/anu.css`, `src/styles.css` (delete), `src/layouts/Base.astro`, `src/pages/readme.astro` (move onto Base; fix "Guestbook" nav), `src/components/ui/**` (Button, IconButton, Chip, Popover/Sheet primitive with positioning + focus return, SegmentedControl, Tooltip), `public/` icons, `src/pages/kit.astro` (branch-only, deleted before merge), `spec/design-tokens.test.ts` |
-| **D planner** | `src/pages/index.astro`, `src/components/planner/**` (Planner, Toolbar, FirstRun, GridView, TermRow, Slot, CourseCard, SearchPopover, CourseDetail, api client), `src/styles/planner.css`, `spec/planner-ssr.test.ts` |
+| **D planner** | `src/pages/index.astro`, `src/components/planner/**` (Planner, Toolbar, FirstRun, GridView, TermRow, Slot, CourseCard, SearchPopover, CourseDetail, api client), `src/styles/planner.css`, `spec/planner-ssr.test.ts`, `src/lib/requisites.ts` + `src/lib/terms.ts` (v1; deletes once the last import is gone: D's `index.astro` and A's `plan-entries.ts` are the last importers, A deletes `plan-entries.ts` as planned) |
 | **E graph** | `src/components/graph/**`, `src/styles/graph.css`, `src/lib/graph-layout.ts` (delete), `src/pages/graph/index.astro` (becomes a 301 to `/?view=graph`), `spec/graph-layout.test.ts` (delete), `spec/graph-model.test.ts`, `spec/routes.ts` |
 | **F integrate** | `README.md`, `PROCESS.md`, `reflections/**`, `LEARNINGS.md` appends (any track may *append* to LEARNINGS.md --- append-only makes this safe; nobody edits existing entries), deploy + prod checks |
 
@@ -1070,3 +1086,5 @@ downstream tracks rebase before continuing.)
   `PlacementPreview` names the preview shape. Affects A (search, PATCH
   tests), B (`firstFreeSlot`), D (callbacks, term-less search), E.
 - 2026-09-30, after W0: incompatibility-only text -> parseStatus 'parsed'; contracts-fixture test owned by A (orchestrator).
+- 2026-09-30, after C: class contract + added tokens recorded; --warn-line darkened to meet 3:1 (orchestrator).
+- 2026-09-30, after B: v1 requisites.ts/terms.ts deletion moved to D; INFO nodes evaluate as met, so an OR with a program/permission branch never errors and shows an info note instead (orchestrator).
