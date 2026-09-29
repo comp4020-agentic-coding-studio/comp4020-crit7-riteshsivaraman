@@ -109,9 +109,11 @@ async function fetchCoursePage(code: string, year: number): Promise<PageResult> 
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
       const res = await politeFetch(`${BASE}/${year}/course/${code}`);
-      // P&C answers a missing course with a 302 to /Error/Index/404
+      // P&C answers a missing course (or one not offered that year) with a
+      // 302, usually to /Error/Index/404: any 3xx on a course URL is
+      // "missing for this year", never followed (LEARNINGS: P&C 302)
       const location = res.headers.get("location") ?? "";
-      if (res.status === 404 || (res.status >= 300 && res.status < 400 && /error/i.test(location))) {
+      if (res.status === 404 || (res.status >= 300 && res.status < 400)) {
         writeFileSync(missPath, location);
         return { kind: "notfound" };
       }

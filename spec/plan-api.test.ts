@@ -133,9 +133,12 @@ describe("identity and plumbing (no engine needed)", () => {
     expect(jar.cookie).toBe(first);
   });
 
-  it("GET-only visitors create no plans row", async () => {
+  it("GET-only visitors create no plans row (the page, the plan, a search)", async () => {
     const jar = new Jar();
     await jar.send("GET", "/");
+    expect((await jar.send("GET", "/api/plan")).status).toBeLessThan(500);
+    await jar.send("GET", "/api/courses/search?q=comp&year=1&period=S1");
+    expect(jar.cookie).toMatch(/^[A-Za-z0-9_-]{22}$/);
     expect(sqlite("SELECT id FROM plans WHERE id = ?", jar.cookie)).toEqual([]);
   });
 

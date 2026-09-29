@@ -75,9 +75,10 @@ describe("ranking", () => {
     expect(codes(noTerm).slice(0, 2)).toEqual(["ALGO1000", "ALGO2000"]);
   });
 
-  it("'MATH' returns MATH courses", () => {
-    const r = searchCourses(FIXTURE, "MATH", { plan: EMPTY, term: null, limit: 8, preview: () => ok });
-    expect(codes(r)).toEqual(["MATH1013", "MATH1014"]);
+  it("'MATH' returns MATH courses, ahead of other subjects that only mention maths in the title", () => {
+    const more = [...FIXTURE, course("MATH2320", "Linear Algebra"), course("PHYS1101", "Mathematical Physics")];
+    const r = searchCourses(more, "MATH", { plan: EMPTY, term: null, limit: 8, preview: () => ok });
+    expect(codes(r)).toEqual(["MATH1013", "MATH1014", "MATH2320", "PHYS1101"]);
   });
 
   it("never offers a retired course, and honours the limit", () => {
