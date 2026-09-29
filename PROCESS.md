@@ -1,54 +1,35 @@
 # Process overview
 
-<!-- TEMPLATE: this file is a shape to fill in, not a form. Replace everything
-     in it with your own overview, and delete this comment — `pnpm
-     check:evidence` will remind you if it's still here. -->
-
-Written by you, for a reader: how you got from the brief to the harness and
-agentic workflow behind this submission. Markers read this file and follow its
-citations; they don't trawl the repo for evidence you didn't point at.
-
-This file is the shape; the course site's
-[assessment page](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/topics/assessment/#what-you-submit)
-is the requirement, and its
-[word counts](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/topics/assessment/#word-counts)
-cover every deliverable.
-
 ## What I built
 
-A sentence or two. `README.md` is where the account of what the app is and what
-good means here lives; this file is how you got there.
+Programs and Courses shows requisites as prose, one course page at a time,
+so checking a degree plan means opening every page and working the order out
+by hand. This is why I built a degree planner. A student places courses into
+a grid of semesters, and each card says in plain English what is missing,
+what clashes and when the course is offered. It covers course selection,
+wired end to end. Plans live in SQLite through Drizzle and migrations, and I
+checked the live rows with `sqlite3` after a reload, a restart and a
+redeploy.
 
-## How I got here
+## The moments that mattered
 
-The account of the process: how the work actually went, and how you knew the
-result was right. Tell it in whatever order makes it clear. A weekly prototype
-needs a paragraph or two; an assignment needs more.
+### 1. The scraper that hung
 
-Cite the record as you go, as links whose text is the commit hash or range and
-whose target is this repo's commit or compare URL, so a reader clicks straight
-to the evidence:
+The first full scrape sat for 57 minutes with nothing written. I reported
+only that, and the cause was a `fetch` with no timeout. The sensor came
+before the fix, a local server that never replies
+([`309fa2a`](https://github.com/comp4020-agentic-coding-studio/comp4020-crit7-riteshsivaraman/commit/309fa2a)).
+The resumed run then ran out of memory at course 740, which only the full run
+could show
+([`a791b2c`](https://github.com/comp4020-agentic-coding-studio/comp4020-crit7-riteshsivaraman/commit/a791b2c)).
 
-- one commit: [`a1b2c3d`](https://github.com/YOUR-ORG/YOUR-REPO/commit/a1b2c3d)
-- a range:
-  [`a1b2c3d...e4f5a6b`](https://github.com/YOUR-ORG/YOUR-REPO/compare/a1b2c3d...e4f5a6b)
+### 2. Planning my own degree in it
 
-To pair a prompt with the commit it produced, quote the prompt (curated, not a
-full transcript) next to the citation:
-
-> the prompt, verbatim
-
-Screenshots are welcome where one carries the point better than a sentence does.
-Commit the file to this repo and link it with a **relative** path, which is what
-makes it render on GitHub: `![alt text](docs/before.png)`. Images don't count
-towards the word count and don't replace the citation.
-
-## Before you ship
-
-`pnpm check:evidence` verifies that this comment is gone, that your citations
-resolve to real commits, that a crit week's reflection entry is in
-`reflections/`, and that your `CLAUDE.md` is there. It checks that your account
-is traceable, not that it is good: that is the marker's call.
-
-Images aren't checked: unlike a citation whose SHA doesn't resolve, a broken
-image is visible the moment this file is rendered on GitHub.
+With the suite passing, I planned my own degree in the app. The agent said
+COMP3770 was 6 units, because the catalogue says so. However, I knew it was
+12, and its summary calls it an "Annual course (6+6)". This became the rule
+for courses that span two semesters
+([`338b6e9`](https://github.com/comp4020-agentic-coding-studio/comp4020-crit7-riteshsivaraman/commit/338b6e9)).
+Postgraduate clashes also cluttered my undergraduate plan, so a plan now
+stores the student's level and the server enforces it
+([`19b9899`](https://github.com/comp4020-agentic-coding-studio/comp4020-crit7-riteshsivaraman/commit/19b9899)).
