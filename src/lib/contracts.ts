@@ -42,7 +42,7 @@ export type Rule =
       concurrent: boolean; // same-term courses count
     }
   | {
-      kind: "INFO"; // warn-only: evaluates as met, surfaces an info badge
+      kind: "INFO"; // not checkable: met + info badge; an OR met only via INFO is an amber warning
       info: InfoKind;
       text: string; // verbatim clause
       programs?: string[]; // PROGRAM only, e.g. ["HCOMP", "AACOM"]
@@ -97,6 +97,9 @@ export type Issue =
   | { kind: "NOT_OFFERED"; severity: "warning"; short: string; period: PlanPeriod } // "Not offered in S2"
   | { kind: "NO_OFFERING_LISTED"; severity: "warning"; short: string } // "No 2026 offering listed"
   | { kind: "UNMODELLED"; severity: "warning"; short: string; text: string } // "Check official requisites"
+  // An OR whose checkable branches are all unmet, satisfiable only via an INFO
+  // branch. `missing` is that OR; `detail` is plain English for the popover.
+  | { kind: "UNVERIFIED_REQUISITE"; severity: "warning"; short: string; missing: Rule; detail: string } // "Needs COMP2100 or a program"
   | { kind: "RETIRED"; severity: "warning"; short: string } // "No longer in catalogue"
   | { kind: "INFO"; severity: "info"; short: string; info: InfoKind; text: string }; // "Permission code needed"
 

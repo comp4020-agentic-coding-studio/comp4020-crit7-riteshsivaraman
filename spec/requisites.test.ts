@@ -241,10 +241,6 @@ describe("INFO and UNMODELLED", () => {
     ]);
   });
 
-  it("an OR with an INFO branch is met even when the other branch is unmet", () => {
-    const s = statusOf([course("PPPP3000", { rule: { kind: "OR", children: [C("NNNN1000"), info] } })], "PPPP3000", ["PPPP3000", 1, "S1"]);
-    expect(s.state).not.toBe("violation");
-  });
 
   it("UNMODELLED is unknown: a warning with the verbatim text, never an error", () => {
     const s = statusOf([course("QQQQ3000", { rule: un })], "QQQQ3000", ["QQQQ3000", 1, "S1"]);
@@ -258,6 +254,102 @@ describe("INFO and UNMODELLED", () => {
     const s = statusOf(cat, "QQQQ3000", ["MMMM1000", 1, "S1"], ["QQQQ3000", 2, "S1"]);
     expect(s.state).toBe("warning");
     expect(s.issues.map((i) => i.kind)).toEqual(["UNMODELLED"]);
+  });
+});
+
+describe("OR satisfiable only via an INFO branch (amber warning)", () => {
+  const texts = JSON.parse(readFileSync(new URL("./fixtures/requisite-texts.json", import.meta.url), "utf8")) as {
+    id: string;
+    expected: { rule: Rule | null; incompatible: string[] };
+  }[];
+  const ruleOf = (id: string) => texts.find((t) => t.id === id)!.expected.rule!;
+  const program: Rule = { kind: "INFO", info: "PROGRAM", text: "Bachelor of Computing (Honours) (HCOMP)", programs: ["HCOMP"] };
+  const orRule: Rule = { kind: "OR", children: [C("COMP2100"), program] };
+  const unverified = (s: { issues: { kind: string }[] }) => s.issues.filter((i) => i.kind === "UNVERIFIED_REQUISITE");
+
+  it("checkable branch unmet: a warning (not ok, not an error) naming both alternatives", () => {
+    const s = statusOf([course("COMP2100"), course("PPPP3000", { rule: orRule })], "PPPP3000", ["PPPP3000", 1, "S1"]);
+    expect(s.clauses!.state).toBe("unknown");
+    expect(s.state).toBe("warning");
+    expect(s.issues[0]).toEqual({
+      kind: "UNVERIFIED_REQUISITE",
+      severity: "warning",
+      short: "Needs COMP2100 or program HCOMP",
+      missing: orRule,
+      detail: "None of the checkable options is in the plan: COMP2100. It can only be met by enrolment in HCOMP (not checked).",
+    });
+    expect(s.issues[0]!.short.length).toBeLessThanOrEqual(32);
+  });
+
+  it("checkable branch met: the OR is met exactly as before (ok, info note only)", () => {
+    const s = statusOf([course("COMP2100"), course("PPPP3000", { rule: orRule })], "PPPP3000", ["COMP2100", 1, "S1"], ["PPPP3000", 2, "S1"]);
+    expect(s.clauses!.state).toBe("met");
+    expect(s.state).toBe("ok");
+    expect(s.issues.map((i) => i.kind)).toEqual(["INFO"]);
+  });
+
+  it("COMP4450: no COMP units is a warning; 24 COMP units meets it", () => {
+    const cat = [course("COMP4450", { rule: ruleOf("COMP4450") }), ...["COMP1100", "COMP1110", "COMP2100", "COMP2120"].map((c) => course(c))];
+    const none = statusOf(cat, "COMP4450", ["COMP4450", 3, "S1"]);
+    expect(none.state).toBe("warning");
+    expect(unverified(none)).toHaveLength(1);
+    expect(none.issues[0]).toMatchObject({ kind: "UNVERIFIED_REQUISITE", short: "Needs 24 COMP units or a program" });
+    expect((none.issues[0] as { detail: string }).detail).toBe(
+      "None of the checkable options is in the plan: (enrolment in AACOM (not checked) and 24 units of COMP courses). " +
+        "It can only be met by enrolment in HCOMP, HADAN or COMP-HSPC (not checked).",
+    );
+    const enough = statusOf(cat, "COMP4450", ["COMP1100", 1, "S1"], ["COMP1110", 1, "S2"], ["COMP2100", 2, "S1"], ["COMP2120", 2, "S1"], ["COMP4450", 3, "S1"]);
+    expect(enough.state).toBe("ok");
+    expect(unverified(enough)).toEqual([]);
+  });
+
+  it("COMP6442: none of the course paths is a warning; COMP1110 + MATH1005 meets it", () => {
+    const cat = [course("COMP6442", { rule: ruleOf("COMP6442") }), course("COMP1110"), course("MATH1005")];
+    const none = statusOf(cat, "COMP6442", ["COMP6442", 2, "S1"]);
+    expect(none.state).toBe("warning");
+    expect(none.issues[0]).toMatchObject({ kind: "UNVERIFIED_REQUISITE", short: "Needs requisites or a program" });
+    const detail = (none.issues[0] as { detail: string }).detail;
+    expect(detail).toContain("COMP6710, COMP7710, COMP1110 or COMP1140");
+    expect(detail).toContain("It can only be met by program enrolment: “Master of Computing (Advanced)” (not checked).");
+    const met = statusOf(cat, "COMP6442", ["COMP1110", 1, "S1"], ["MATH1005", 1, "S1"], ["COMP6442", 2, "S1"]);
+    expect(met.state).toBe("ok");
+    // MMLCV branch: its checkable half met, so the OR is met via that branch (info note only)
+    const mmlcv = statusOf(cat, "COMP6442", ["COMP1110", 1, "S1"], ["COMP6442", 2, "S1"]);
+    expect(mmlcv.state).toBe("ok");
+  });
+
+  it("AND(unverified OR, unmet course): red error for the course part, amber for the OR", () => {
+    const rule: Rule = { kind: "AND", children: [orRule, C("COMP1600")] };
+    const cat = [course("COMP2100"), course("COMP1600"), course("PPPP3000", { rule })];
+    const s = statusOf(cat, "PPPP3000", ["PPPP3000", 1, "S1"]);
+    expect(s.state).toBe("violation");
+    expect(s.issues[0]).toMatchObject({ kind: "MISSING_REQUISITE", short: "Needs COMP1600 first", missing: C("COMP1600") });
+    expect(s.issues.map((i) => i.kind)).toEqual(["MISSING_REQUISITE", "UNVERIFIED_REQUISITE", "INFO"]);
+    // the course part met: only the amber warning is left
+    const half = statusOf(cat, "PPPP3000", ["COMP1600", 1, "S1"], ["PPPP3000", 2, "S1"]);
+    expect(half.state).toBe("warning");
+    expect(half.issues.map((i) => i.kind)).toEqual(["UNVERIFIED_REQUISITE", "INFO"]);
+  });
+
+  it("nested OR(OR(COMP2100, program), COMP1600) flattens into one warning naming both courses", () => {
+    const rule: Rule = { kind: "OR", children: [orRule, C("COMP1600")] };
+    const cat = [course("COMP2100"), course("COMP1600"), course("PPPP3000", { rule })];
+    const s = statusOf(cat, "PPPP3000", ["PPPP3000", 1, "S1"]);
+    expect(s.state).toBe("warning");
+    expect(unverified(s)).toHaveLength(1);
+    expect(s.issues[0]).toMatchObject({ short: "Needs requisites or a program" });
+    expect((s.issues[0] as { detail: string }).detail).toBe(
+      "None of the checkable options is in the plan: COMP2100 or COMP1600. It can only be met by enrolment in HCOMP (not checked).",
+    );
+    expect(statusOf(cat, "PPPP3000", ["COMP1600", 1, "S1"], ["PPPP3000", 2, "S1"]).state).toBe("ok");
+  });
+
+  it("a lone INFO and an all-INFO OR keep the plain info behaviour", () => {
+    const allInfo: Rule = { kind: "OR", children: [program, { kind: "INFO", info: "PERMISSION", text: "permission code" }] };
+    const s = statusOf([course("PPPP3000", { rule: allInfo })], "PPPP3000", ["PPPP3000", 1, "S1"]);
+    expect(s.clauses!.state).toBe("met");
+    expect(s.state).toBe("ok");
+    expect(s.issues.every((i) => i.kind === "INFO")).toBe(true);
   });
 });
 
