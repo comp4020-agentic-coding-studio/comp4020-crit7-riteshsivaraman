@@ -251,7 +251,21 @@ export function extractCourse(
   origin: RawCourse["origin"],
   listing?: ListingItem,
 ): RawCourse {
-  const doc = new JSDOM(html).window.document;
+  const dom = new JSDOM(html);
+  try {
+    return extractFromDocument(dom.window.document, code, year, origin, listing);
+  } finally {
+    dom.window.close();
+  }
+}
+
+function extractFromDocument(
+  doc: Document,
+  code: string,
+  year: number,
+  origin: RawCourse["origin"],
+  listing?: ListingItem,
+): RawCourse {
   const summary = doc.querySelector(".degree-summary");
   const title = (doc.querySelector(".intro__degree-title__component")?.textContent ?? listing?.Name ?? "")
     .replace(/\s+/g, " ")
@@ -299,6 +313,36 @@ export function extractCourse(
 // ---------------------------------------------------------------------------
 // run
 // ---------------------------------------------------------------------------
+
+export type CourseResult =
+  | { kind: "ok"; year: number; course: RawCourse }
+  | { kind: "error"; year: number; error: string }
+  | { kind: "notfound" };
+
+/** One course, trying each year in turn (2026, then the 2025 fallback). */
+export async function scrapeCourse(
+  code: string,
+  origin: RawCourse["origin"],
+  years: number[],
+  listing?: ListingItem,
+  cfg: FetchConfig = DEFAULT_FETCH,
+): Promise<CourseResult> {
+  try {
+    for (const y of years) {
+      const page = await fetchCoursePage(code, y, cfg);
+      if (page.kind === "ok") return { kind: "ok", year: y, course: extractCourse(page.html, code, y, origin, listing) };
+      if (page.kind === "error") return { kind: "error", year: y, error: page.error };
+    }
+    return { kind: "notfound" };
+  } finally {
+    // A JSDOM window (~6 MB for a P&C page) is only reclaimed after a
+    // macrotask turn, even once closed. A run of cache hits never yields one
+    // (awaiting a resolved promise runs microtasks only), so without this the
+    // --all run kept every page alive and hit the 4 GB heap limit at ~740.
+    // (LEARNINGS: per-item resources in batch jobs.)
+    await new Promise((r) => setImmediate(r));
+  }
+}
 
 function parseArgs(argv: string[]): { scope: "all" | string[]; year: number } {
   let scope: "all" | string[] | null = null;
@@ -349,24 +393,18 @@ async function main(): Promise<void> {
   };
 
   const scrapeOne = async (code: string, origin: RawCourse["origin"], years: number[]): Promise<void> => {
-    const outcome = await scrapeYears(code, origin, years);
-    progress(code, outcome);
-  };
-  const scrapeYears = async (code: string, origin: RawCourse["origin"], years: number[]): Promise<string> => {
-    for (const y of years) {
-      const page = await fetchCoursePage(code, y);
-      if (page.kind === "ok") {
-        scraped.set(code, extractCourse(page.html, code, y, origin, listed.get(code)));
-        if (y !== years[0]) fellBackTo2025.push(code);
-        return `ok ${y}`;
-      }
-      if (page.kind === "error") {
-        failures.push({ code, error: page.error });
-        return `FAILED ${y}: ${page.error}`;
-      }
+    const r = await scrapeCourse(code, origin, years, listed.get(code));
+    if (r.kind === "ok") {
+      scraped.set(code, r.course);
+      if (r.year !== years[0]) fellBackTo2025.push(code);
+      progress(code, `ok ${r.year}`);
+    } else if (r.kind === "error") {
+      failures.push({ code, error: r.error });
+      progress(code, `FAILED ${r.year}: ${r.error}`);
+    } else {
+      notFound.push({ code, triedYears: years, referencedBy: [] });
+      progress(code, `not found in ${years.join("/")}`);
     }
-    notFound.push({ code, triedYears: years, referencedBy: [] });
-    return `not found in ${years.join("/")}`;
   };
 
   let n = 0;

@@ -158,3 +158,20 @@ watchdog `STALL:` line, so a hang shows in the log within minutes.
 Sensor: `scripts/scrape-catalogue.test.ts` runs a local server that accepts
 and never responds (and one that stalls mid-body) and requires the fetch to
 give up, having retried, within a bound.
+
+## A JSDOM window is only freed after a macrotask turn, so a loop of cache hits leaks every page
+
+With fetch deadlines fixed, the resumed `--all` run died of a V8 heap OOM
+(4 GB) at course ~740, while every page was still coming from the
+`.cache/pandc/` cache. Each `new JSDOM(html)` of a P&C page holds ~6 MB, and
+it is not reclaimed until the event loop takes a macrotask turn, even after
+`window.close()`. A loop over cache hits never yields one: awaiting an
+already-resolved promise only drains microtasks. Measured over 60 pages:
+520 MB retained with neither fix, 74 MB with `close()` alone, 41 MB with
+the yield alone, 11.5 MB with both. Bug class: per-item resources that need
+explicit release (or an event-loop turn) in long-running batch jobs. The
+trial runs over 3 subjects (~260 pages) never came near the limit, so only
+the full run showed it. Fix: `extractCourse` closes its window and
+`scrapeCourse` ends every course with `await new Promise(r =>
+setImmediate(r))`. Sensor: the heap test in `scripts/scrape-catalogue.test.ts`
+(no event-loop turn before its gc(), which is the batch loop's situation).
