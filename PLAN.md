@@ -34,8 +34,12 @@ data/engine upgrade second.
 5. **Graph as a view toggle** inside the planner (grid ↔ graph), force-directed
    (d3-force), drag/zoom/pan, hover highlights a neighbourhood, arrows show
    direction, AND/OR/incompatibility each visibly distinct, with a legend.
-6. **Full COMP catalogue**, scraped once from programsandcourses.anu.edu.au
+6. **Every ANU course** (all subjects, undergraduate and postgraduate ---
+   expect ~3,000--5,000), scraped once from programsandcourses.anu.edu.au
    into committed seed data, synced into the DB on every boot (upsert).
+   Because the catalogue is too big to ship to the browser, **search,
+   placement previews and course detail are server-side API calls**; the
+   page embeds only the plan's neighbourhood (§3.3).
 7. **Richer requisites**: level-scoped unit counts, corequisites, unit counts
    from a named list; warn-only info for permission code / program / WAM.
    Anything else stays unmodelled with the official text shown. Never guessed.
@@ -48,7 +52,8 @@ data/engine upgrade second.
 - Accounts, plan sharing links, multiple plans per browser, export.
 - Live catalogue fetching at runtime; winter/autumn/spring sessions as rows
   (offerings in those sessions are shown as text, not placeable rows).
-- Non-COMP courses beyond the one hop needed by COMP requisites (see §6 Q1).
+- Program/major structures (majors, minors, specialisations) as objects ---
+  only courses are scraped.
 - Overloading a semester beyond 4 slots; drag-and-drop between slots (moving
   is "remove and re-add" plus the optional PATCH below).
 - Dark mode. Tokens are structured so it can be added later; not built now.
@@ -61,7 +66,7 @@ data/engine upgrade second.
 
 | State | Lives in | Survives reload / restart / redeploy? |
 |---|---|---|
-| Catalogue (courses, rules, offerings) | `src/data/catalogue.json` (committed) → synced to `courses` table on boot | yes (rebuilt from the file every boot) |
+| Catalogue (courses, rules, offerings) | `catalogue/<SUBJECT>.json` + `catalogue/index.json` at repo root (committed) → synced to `courses` table on boot | yes (rebuilt from the file every boot) |
 | Catalogue version | `meta` row `catalogue_version` | yes |
 | Browser identity | `dp_plan` cookie (httpOnly) | yes, until the browser clears cookies |
 | Plan shape (years, summer rows) | `plans` row keyed by cookie value | yes (volume) |
@@ -96,7 +101,7 @@ export const courses = sqliteTable("courses", {
   origin: text().notNull(),              // "catalogue" | "referenced"
   sourceUrl: text("source_url").notNull(),
   catalogueYear: int("catalogue_year").notNull(),       // 2026, or 2025 fallback
-  retired: int().notNull().default(0),   // 1 = no longer in catalogue.json
+  retired: int().notNull().default(0),   // 1 = no longer in catalogue/
 });
 
 export const plans = sqliteTable("plans", {
@@ -167,13 +172,22 @@ export function syncCatalogue(db: DB, file: CatalogueFile): SyncReport;
 export interface SyncReport { upserted: number; retired: number; version: string; changed: boolean }
 ```
 
-- One transaction: upsert every course in `catalogue.json` with
+- One transaction: upsert every course in `catalogue/` with
   `retired = 0`; set `retired = 1` for any `courses` row whose code is not in
   the file (never delete --- `plan_entries` references it); write
   `meta.catalogue_version = file.version` and `catalogue_synced_at`.
-- Always runs (it's ~200 rows; idempotent). `changed` is whether the version
-  differed from the stored one. Logs one line:
-  `catalogue sync: 187 upserted, 0 retired, version ab12cd34 (changed)`.
+- Runs every boot but **skips the upsert when `meta.catalogue_version`
+  already equals `index.json`'s version** (thousands of rows; keeps cold
+  starts on the auto-stopping 256 MB machine fast). A version change
+  upserts everything in one transaction with a prepared statement (target
+  < 2 s for 5,000 rows; measured, and noted in LEARNINGS.md if slower).
+  Logs one line:
+  `catalogue sync: 4213 upserted, 0 retired, version ab12cd34 (changed)` or
+  `catalogue sync: up to date (ab12cd34)`.
+- Catalogue files are read with `fs` from `./catalogue/` relative to the
+  process cwd (`/app` in the image), not `import`ed, so the multi-MB JSON is
+  never bundled into the server entry. The Dockerfile copies `catalogue/`
+  into the runtime stage next to `drizzle/`. No `process.env` involved.
 - After sync, `db.ts` loads the catalogue once into an in-memory
   `CatalogueIndex` (immutable at runtime); requests read that, which came
   from the DB, which came from the file.
@@ -233,11 +247,15 @@ export interface CatalogueCourse {
   catalogueYear: number;
   retired: boolean;
 }
-// catalogue.json on disk: { version: string /* sha256 of courses, first 8 hex */,
-//   scrapedAt: string, source: string, courses: (CatalogueCourse & { description: string })[] }
-export type CatalogueFile = {
-  version: string; scrapedAt: string; source: string;
-  courses: (CatalogueCourse & { description: string })[];
+// On disk: catalogue/index.json = CatalogueIndexFile; catalogue/<SUBJECT>.json =
+//   (CatalogueCourse & { description: string })[] sorted by code.
+export type CatalogueIndexFile = {
+  version: string;               // sha256 over all subject files, first 8 hex
+  scrapedAt: string; source: string;
+  subjects: { subject: string; name: string; count: number }[];
+};
+export type CatalogueFile = CatalogueIndexFile & {
+  courses: (CatalogueCourse & { description: string })[];   // what the loader assembles
 };
 ```
 
@@ -251,9 +269,10 @@ verbatim clause. Assumed-knowledge text is not a rule and is dropped from
 
 ### 3.1 Engine API (`src/lib/engine/index.ts`, B; stubbed in Wave 0)
 
-Isomorphic: no `node:` imports, no DB --- the same code runs on the server
-(source of truth for stored evaluation) and in the browser (search-result
-previews only).
+Pure: no `node:` imports, no DB. With the full catalogue it runs on the
+server (the browser never holds the whole catalogue); staying pure keeps it
+unit-testable and lets the graph island evaluate its embedded
+neighbourhood if needed.
 
 ```ts
 export type TermKey = `Y${number}-${PlanPeriod}`;          // "Y2-S1"
@@ -291,6 +310,7 @@ export interface PlanEvaluation {
 export function evaluatePlan(plan: Plan, cat: CatalogueIndex): PlanEvaluation;
 export function previewPlacement(code: string, year: number, period: PlanPeriod,
   plan: Plan, cat: CatalogueIndex): { state: EntryStatus["state"]; issues: Issue[] };
+export function dependentsOf(code: string, cat: CatalogueIndex): string[];  // reverse index, built in indexCatalogue
 export function describeRule(rule: Rule, cat: CatalogueIndex): string;  // plain English
 export function parseRequisiteText(raw: string): { rule: Rule | null; incompatible: string[]; status: ParseStatus };
 ```
@@ -317,7 +337,7 @@ Evaluation semantics (B's tests pin every line):
 ```ts
 export interface PlanEntry { id: number; code: string; year: number; period: PlanPeriod; slot: number }
 export interface Plan { years: number; summerYears: number[]; entries: PlanEntry[] }
-export interface PlannerState { plan: Plan; evaluation: PlanEvaluation }
+export interface PlannerState { plan: Plan; evaluation: PlanEvaluation; catalogueAdditions?: CatalogueCourse[] }
 export type ApiError = { error:
   "INVALID" | "UNKNOWN_COURSE" | "SLOT_TAKEN" | "ALREADY_PLANNED" | "YEAR_NOT_EMPTY" | "NOT_FOUND" | "UNSUPPORTED_MEDIA";
   message: string; entries?: number };
@@ -345,6 +365,30 @@ re-derive state locally.
 | `POST /api/plan/entries` | `{ code; year; period; slot }` | 201 | 400 `INVALID` (bad term/slot, year > years, SUMMER year not in summerYears), 404 `UNKNOWN_COURSE` (incl. retired), 409 `SLOT_TAKEN`, 409 `ALREADY_PLANNED` |
 | `PATCH /api/plan/entries/:id` | `{ year; period; slot }` | 200 | 400, 404 `NOT_FOUND` (id not in *this* plan), 409 `SLOT_TAKEN` |
 | `DELETE /api/plan/entries/:id` | --- | 200 | 404 `NOT_FOUND` |
+| `GET /api/courses/search?q=&year=&period=&limit=` | --- | 200 `{ results: SearchResult[] }` (limit ≤ 20, default 8) | 400 `INVALID` |
+| `GET /api/courses/:code` | --- | 200 `CourseDetailPayload` | 404 `UNKNOWN_COURSE` |
+| `GET /api/courses?subject=COMP` | --- | 200 `{ courses: CatalogueCourse[]; neighbours: CatalogueCourse[] }` (graph subject scope; no descriptions) | 404 unknown subject |
+
+```ts
+export interface SearchResult {
+  course: CatalogueCourse;                     // no description
+  preview: { state: EntryStatus["state"]; issues: Issue[] }; // previewPlacement for (year, period) vs this cookie's plan
+  inPlan: TermKey | null;
+}
+export interface CourseDetailPayload {
+  course: CatalogueCourse & { description: string };
+  english: string | null;                      // describeRule(rule)
+  dependents: string[];                        // courses this one unlocks
+}
+```
+
+Search is an in-memory scan of the `CatalogueIndex` (a few thousand titles
+per keystroke is trivial; no FTS table). Empty `q` returns suggestions:
+`Ready` + offered-this-period courses from the **subjects already in the
+plan** (COMP if the plan is empty), lowest level first. Ranking lives in
+`src/lib/course-search.ts` (A): exact code → code prefix → subject match
+(`MATH` lists MATH courses) → title word prefix → title contains; ties:
+`Ready` first, then level, then code.
 
 Removing a summer row with entries uses the same `YEAR_NOT_EMPTY` flow.
 Requisite violations **never** reject a request --- the plan is the
@@ -362,7 +406,9 @@ and `.../plan-entries/remove.ts` are deleted.
 // src/lib/planner-state.ts (A) --- server-only (imports db.ts; reads no process.env itself)
 export function getPlannerBootstrap(planId: string): PlannerBootstrap;
 export interface PlannerBootstrap {
-  catalogue: CatalogueCourse[];          // non-retired + any retired code in this plan; no `description`
+  catalogue: CatalogueCourse[];          // the plan's NEIGHBOURHOOD only: planned courses, every code
+                                         // their rules reference, their incompatibles, and their
+                                         // dependents (dependentsOf); no `description`
   catalogueMeta: { version: string; scrapedAt: string; source: string };
   state: PlannerState;
 }
@@ -370,8 +416,12 @@ export interface PlannerBootstrap {
 
 and passes it as the single prop of `<Planner client:load bootstrap={…}
 initialView={"grid" | "graph"} />`. Budget: serialized bootstrap ≤ 150 KB
-raw (checked by a D test). Full `description` is not embedded; the detail
-popover shows `summary` and links to `sourceUrl`.
+raw for a 24-course plan (checked by a D test). Because each mutation can
+change the neighbourhood, plan-route responses also carry
+`catalogueAdditions` (courses newly in the neighbourhood), which
+`Planner.tsx` merges into its index. Full `description` comes from `GET
+/api/courses/:code` when a detail popover first opens (cached in component
+state).
 
 ### 3.4 Component boundaries
 
@@ -381,7 +431,7 @@ src/pages/index.astro (D)       h1, toolbar SSR shell, <Planner client:load>
    ├─ Toolbar.tsx (D)           ViewToggle, units summary, problems chip, reset
    ├─ FirstRun.tsx (D)          empty-plan guide
    ├─ GridView.tsx (D)          YearBlock → TermRow → Slot | CourseCard
-   │   ├─ SearchPopover.tsx (D) combobox, uses engine.previewPlacement
+   │   ├─ SearchPopover.tsx (D) combobox → GET /api/courses/search
    │   └─ CourseCard.tsx (D)
    ├─ CourseDetail.tsx (D)      detail body, shared by card hover AND graph panel
    └─ graph/GraphView.tsx (E)   lazy: import("./graph/GraphView")
@@ -584,13 +634,14 @@ e.g. COMP2100 or algorithms". Results (max 8 visible, scrolls): `COMP2100`
 mono · title · `6u` · status pill:
 `Ready` (neutral ✓) / `Needs COMP1100` (`--danger`) / `Not offered S2`
 (`--warn`) / `Clashes with COMP1130` (`--danger`) / `In plan · Y1 S2`
-(disabled, not selectable). Status comes from `engine.previewPlacement` for
-this slot's term. Ranking: exact code → code prefix → title word prefix →
-title contains; ties broken by `Ready` first, then level ascending. Empty
-query shows **"Suggested for Year 2, Semester 1"**: `Ready` + offered-this-
-period courses, lowest level first, max 8. No results: "No course matches
-'xyz'. The catalogue holds every COMP course plus the courses their
-requisites name." Placing: optimistic insert of a skeleton card, then
+(disabled, not selectable). Results and statuses come from `GET
+/api/courses/search` for this slot's term (ranking in §3.2), debounced
+120ms, stale requests aborted; while loading, previous results stay and a
+2px gold progress line runs under the input (nothing shown under 200ms).
+Empty query shows **"Suggested for Year 2, Semester 1"**. No results: "No
+ANU course matches 'xyz'. Try a code like MATH1013 or a word from the
+title." Network error: "Search is unavailable. Check your connection and
+try again." with a Retry button. Placing: optimistic insert of a skeleton card, then
 replace with server state; on API error, revert and show an inline message
 in the row ("Couldn't add COMP2100: that slot is already taken.").
 
@@ -633,7 +684,9 @@ positions; `d3-zoom` (wheel/pinch/drag-pan) and `d3-drag` (node drag, pins
 while dragging, releases on drop) attach behaviour.
 - Scope control (top-left, small segmented): `My plan` (default: planned
   courses + every course/hub their rules reference + their incompatibles)
-  / `All COMP`. Node search box: type a code → centre + focus it.
+  / `Subject` (type a subject code, e.g. `COMP` or `MATH`; loads it via
+  `GET /api/courses?subject=` plus the out-of-subject courses its rules
+  name, drawn faded). Node search box: type a code → centre + focus it.
 - **Course node:** pill, height 28px, padding 0 10px, code in
   `--font-code` 12px 600. Planned = `--ink` fill, white text. Not planned =
   `--surface` fill, 1px `--line-strong`, `--ink-2` text. Planned with
@@ -735,10 +788,10 @@ paint and does not animate (drag still works, without re-heat drift).
 | Track | Owns (create / edit / delete) |
 |---|---|
 | **W0 contracts** | `src/lib/contracts.ts`; `package.json` + `pnpm-lock.yaml` (installs `@astrojs/preact`, `preact`, `d3-force`, `d3-zoom`, `d3-drag`, `d3-selection`, `@types/d3-*`, `@fontsource-variable/geist`, `@fontsource-variable/geist-mono`); `astro.config.ts` (add preact integration); `tsconfig.json` (jsx settings); `spec/fixtures/catalogue-mini.json` (v1's 8 courses in the new shape); stubs: `src/lib/engine/index.ts`, `src/components/graph/GraphView.tsx` --- ownership of the two stubs passes to B and E at Wave 1. |
-| **A data** | `scripts/scrape-catalogue.ts`, `scripts/build-catalogue.ts`, `src/data/catalogue-raw.json`, `src/data/catalogue.json`, `src/data/catalogue-report.json`, `src/lib/schema.ts`, `drizzle/**`, `src/lib/db.ts`, `src/lib/catalogue-sync.ts`, `src/lib/planner-state.ts`, `src/middleware.ts`, `src/env.d.ts`, `src/pages/api/**` (deletes v1 routes), `src/lib/seed-data.ts` (delete), `Dockerfile`, `.gitignore`, `spec/catalogue.test.ts`, `spec/boot-sync.test.ts`, `spec/plan-api.test.ts`, `spec/plan.test.ts` (delete) |
+| **A data** | `scripts/scrape-catalogue.ts`, `scripts/build-catalogue.ts`, `catalogue/**` (subject files, `index.json`, `raw/<SUBJECT>.json`, `report.json`), `src/lib/course-search.ts`, `spec/search.test.ts`, `.dockerignore`, `src/lib/schema.ts`, `drizzle/**`, `src/lib/db.ts`, `src/lib/catalogue-sync.ts`, `src/lib/planner-state.ts`, `src/middleware.ts`, `src/env.d.ts`, `src/pages/api/**` (deletes v1 routes), `src/lib/seed-data.ts` (delete), `Dockerfile`, `.gitignore`, `spec/catalogue.test.ts`, `spec/boot-sync.test.ts`, `spec/plan-api.test.ts`, `spec/plan.test.ts` (delete) |
 | **B engine** | `src/lib/engine/**` (index, evaluate, describe, parse, terms), `src/lib/requisites.ts` + `src/lib/terms.ts` (delete), `spec/requisites.test.ts`, `spec/parser.test.ts`, `spec/fixtures/requisite-texts.json` |
 | **C design** | `src/styles/anu.css`, `src/styles.css` (delete), `src/layouts/Base.astro`, `src/pages/readme.astro` (move onto Base; fix "Guestbook" nav), `src/components/ui/**` (Button, IconButton, Chip, Popover/Sheet primitive with positioning + focus return, SegmentedControl, Tooltip), `public/` icons, `src/pages/kit.astro` (branch-only, deleted before merge), `spec/design-tokens.test.ts` |
-| **D planner** | `src/pages/index.astro`, `src/components/planner/**` (Planner, Toolbar, FirstRun, GridView, TermRow, Slot, CourseCard, SearchPopover, CourseDetail, api client, search ranking), `src/styles/planner.css`, `spec/planner-ssr.test.ts`, `spec/search.test.ts` |
+| **D planner** | `src/pages/index.astro`, `src/components/planner/**` (Planner, Toolbar, FirstRun, GridView, TermRow, Slot, CourseCard, SearchPopover, CourseDetail, api client), `src/styles/planner.css`, `spec/planner-ssr.test.ts` |
 | **E graph** | `src/components/graph/**`, `src/styles/graph.css`, `src/lib/graph-layout.ts` (delete), `src/pages/graph/index.astro` (becomes a 301 to `/?view=graph`), `spec/graph-layout.test.ts` (delete), `spec/graph-model.test.ts`, `spec/routes.ts` |
 | **F integrate** | `README.md`, `PROCESS.md`, `reflections/**`, `LEARNINGS.md` appends (any track may *append* to LEARNINGS.md --- append-only makes this safe; nobody edits existing entries), deploy + prod checks |
 
@@ -759,7 +812,7 @@ W3  F integrate                               ← one session
 - In W1, A builds and tests against `spec/fixtures/catalogue-mini.json`
   (the v1 8 courses in the new shape, written in W0) until B's parser
   lands, then runs `build-catalogue` for real. B needs only raw strings (the
-  REQUISITES.md examples + `catalogue-raw.json` once A commits it).
+  REQUISITES.md examples + `catalogue/raw/*.json` once A commits it).
 - D and E may start W2 as soon as A's API routes and B's `evaluatePlan`
   pass their tests; C's primitives can land during W2 (D/E code against the
   class names in §4.2/§4.4).
@@ -780,19 +833,31 @@ type in §2.5/§3 verbatim; a Preact "hello" island renders in dev (proves the
 integration) and is then removed.
 
 **A data.**
-- Scraper discovers every COMP course for 2026 (search JSON endpoint if the
-  catalogue page uses one --- inspect its network requests --- else HTML
-  listing), fetches each course page at ≤ 1 req/s with an identifying
-  User-Agent, caches raw HTML in `.cache/pandc/` (gitignored), falls back to
-  2025 on 404 and records `catalogueYear`, and follows one hop into non-COMP
-  codes named in requisites (`origin: "referenced"`). Codes that 404 in both
-  years are listed in the report, never fabricated.
-- `catalogue-report.json` lists counts by `parseStatus` and every
-  partial/unparsed course with its text, for Ritesh to eyeball.
-- `spec/catalogue.test.ts`: ≥ 100 COMP courses; every course has units > 0,
-  level matches code; every `COURSE`/`from` code in a rule exists in the
-  catalogue; incompatibility is symmetric; COMP1100↔COMP1130 present;
-  `version` equals the hash of `courses`.
+- Scraper discovers **every course in the 2026 catalogue, all subjects**
+  (the catalogue search's JSON endpoint if it has one --- inspect its network
+  requests --- else the paged HTML listing), records the listing total in
+  `report.json`, fetches each course page at ≤ 1 req/s with an identifying
+  User-Agent (~1--1.5 h for ~4,000 pages), caches raw HTML in
+  `.cache/pandc/` (gitignored) so the run is **resumable**, and falls back
+  to 2025 on 404, recording `catalogueYear`. Requisite codes outside the
+  2026 listing are fetched too (`origin: "referenced"`). Codes that 404 in
+  both years are listed in the report, never fabricated.
+  `catalogue/raw/<SUBJECT>.json` commits the *extracted text fields* only
+  (not HTML), so parser re-runs never hit the network.
+- Trial on 3 subjects (COMP, MATH, ENGN) end to end first; only then launch
+  the full run in the background and monitor it.
+- `report.json`: totals, fetch failures, counts by `parseStatus` **per
+  subject**, and every partial/unparsed course with its text, for Ritesh to
+  eyeball.
+- `spec/catalogue.test.ts`: course count = listing total − reported
+  failures, failures ≤ 1 %; every course has units > 0, level matches code;
+  every `COURSE`/`from` code in a rule exists in the catalogue or is listed
+  dead in the report; incompatibility is symmetric; COMP1100↔COMP1130 and
+  MATH1013 present; `version` matches the subject files.
+- `spec/search.test.ts`: ranking order in §3.2; `MATH` returns MATH
+  courses; empty query suggests only `Ready` + offered courses from the
+  plan's subjects; previews are per cookie (two jars, same query, different
+  previews).
 - `spec/boot-sync.test.ts`: spawns the built server against (a) an empty DB
   and (b) a DB left by the v1 schema with 3 legacy entries; asserts course
   count, `meta.catalogue_version`, legacy entries under plan `legacy`, and
@@ -847,9 +912,9 @@ integration) and is then removed.
   adding COMP1110 alone, SSR shows a card for that entry with the text
   "Needs" in its issue strip (scoped to the card's `data-entry-id`); after
   adding COMP1100 + COMP1130, both cards show "Incompatible with";
-  bootstrap payload ≤ 150 KB.
-- `spec/search.test.ts`: ranking (exact code > prefix > title), suggested
-  list only contains `Ready` + offered courses.
+  bootstrap payload ≤ 150 KB with a 24-course plan, and it does **not**
+  contain a course unrelated to the plan (guards against someone embedding
+  the whole catalogue).
 - Real browser, fresh profile, **keyboard only**: Tab to Y1S1 slot → Enter
   → type "1100" → Enter → card appears, focus on it; add COMP1110 to Y1S1 →
   red "Needs…" strip; move nothing, add COMP1130 → both clash; hover trace
@@ -884,7 +949,7 @@ integration) and is then removed.
 - Deploy (`mise exec -- flyctl deploy --remote-only --ha=false -a
   comp4020-crit7-riteshsivaraman`); boot log shows the sync line; prod
   `sqlite3 /data/app.db "SELECT value FROM meta WHERE key='catalogue_version'"`
-  matches `catalogue.json`; the browser flow from D repeated on the live URL;
+  matches `catalogue/index.json`; the browser flow from D repeated on the live URL;
   entry survives a `flyctl machine restart` and a redeploy (checked in
   sqlite3, not just the page).
 
@@ -892,16 +957,19 @@ integration) and is then removed.
 
 **Risks**
 - *P&C scrape shape.* The site may render course lists client-side or
-  rate-limit. Mitigation: raw cache, 1 req/s, commit `catalogue-raw.json`
-  so the scrape happens once. If discovery fails, A stops and reports ---
+  rate-limit, and ~4,000 pages is a long run. Mitigation: resumable raw
+  cache, 1 req/s, 3-subject trial first, commit `catalogue/raw/` so the
+  scrape happens once. If discovery fails, A stops and reports ---
   no hand-typed catalogue.
-- *Parser coverage.* Real requisite prose is irregular; expect a large
-  `partial` share. That's acceptable by design (amber "check official
+- *Parser coverage.* Requisite prose varies a lot between colleges, far
+  less uniform than COMP's; expect a large `partial` share outside CECC. That's acceptable by design (amber "check official
   requisites" + verbatim text), and the report makes it visible.
 - *`@astrojs/preact` vs Astro 7.* W0 proves the integration first; if it
   doesn't build, stop before any island is written.
-- *Graph hairball* in `All COMP` scope (~200 nodes). Default scope is `My
-  plan`; `All COMP` is labelled as such. Timebox E's force tuning; the Text
+- *Repo/image size.* Subject JSON likely totals 5--15 MB; fine for git and
+  the image, but measure after the trial run and record it.
+- *Graph hairball* in a big subject scope (COMP ~200 nodes). Default scope
+  is `My plan`; subject scope is opt-in. Timebox E's force tuning; the Text
   view is the fallback.
 - *WAL + sqlite3.* Always `PRAGMA wal_checkpoint(FULL)` before trusting a
   sqlite3 read right after a write. Never `rm -rf .data` under a running
@@ -910,17 +978,21 @@ integration) and is then removed.
   README; accepted for v2.
 
 **Questions for Ritesh**
-1. **Non-COMP courses.** v2 only has COMP + the courses COMP requisites name
-   (e.g. MATH1005). A real plan's other slots (electives, other majors) can't
-   be filled. Add a generic "Other course (6u)" placeholder card? It would
-   count toward unit totals but not satisfy any named requisite.
-2. **CI deploy check hits `/api/events`.** `.github/workflows/checks.yml`
-   verifies the starter's SSE stream, which v1 already deleted --- the first
-   CI deploy after `/ship` will fail. Either keep a trivial `/api/events`
-   endpoint that emits one comment, or edit the course-managed workflow.
-   Which does the course allow?
+1. **CI deploy check hits `/api/events`.** The app doesn't need it
+   (per-browser plans; every save returns the new state, so nothing needs
+   pushing). But `.github/workflows/checks.yml` verifies the starter's SSE
+   stream, which v1 already deleted, so the first CI deploy after `/ship`
+   will fail. Either keep a ~5-line `/api/events` stub that sends one
+   comment line (owned by A), or remove that step from the course-managed
+   workflow. Which does the course allow?
 
 ## Contract changelog
 
 (Append here when a track needs a contract in §2.5/§3 changed; all
 downstream tracks rebase before continuing.)
+
+- 2026-09-30, before any build: scope widened from COMP-only to every ANU
+  course (Ritesh). Catalogue moved to `catalogue/`, sharded by subject;
+  search, previews and detail became server APIs (§3.2); bootstrap embeds
+  the plan neighbourhood only; graph "All COMP" scope became subject
+  scope.
