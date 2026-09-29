@@ -58,3 +58,23 @@ Stop it with `pnpm exec astro dev stop` (it prints the pid it stopped), then
 confirm with `lsof -nP -i :4411` that nothing is in `LISTEN` (a browser's
 leftover `CLOSE_WAIT` sockets are fine). Same bug class as the orphaned dev
 server entry above, with a new way in.
+
+## An `.astro` page's `<style>` doesn't reach markup rendered by a Preact island
+
+In the W1 kit page, classes defined in `kit.astro`'s `<style>` styled the
+Astro markup but not identical class names rendered inside the
+`client:load` island: Astro scopes page styles with a `data-astro-cid-*`
+attribute that island output never carries, and nothing warns. Shared
+classes belong in `src/styles/anu.css` (or `planner.css`/`graph.css`); a
+page-local `<style>` that must reach an island needs `is:global`.
+
+## Browser checks at 375px: the Chrome window won't resize that small, and effects lag
+
+`resize_window` to 375×812 left `innerWidth` at 1512 (the window has a
+minimum width), so a "375px screenshot" of the page would have silently been
+the desktop layout. Check `innerWidth` after resizing; to get a real 375px
+viewport, load the page in a same-origin `<iframe>` 375×812 (media queries
+follow the iframe). Separately, in the automated tab Preact `useEffect`s
+(scheduled on animation frames) ran up to ~1s late, so a focus/unmount
+assertion read immediately after a key press looked failed when it wasn't.
+Wait ~1s before asserting focus return, and re-read before calling a bug.

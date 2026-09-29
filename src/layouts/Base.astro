@@ -1,16 +1,28 @@
 ---
-// Shared page shell. Every page uses this + src/styles/anu.css tokens/classes.
+// Shared page shell (PLAN.md §4.3/§4.4 AppBar): app bar, skip link, main,
+// footer, self-hosted fonts and the design tokens. Pages render their own
+// single <h1>; this layout renders none.
+import "@fontsource-variable/geist/wght.css";
+import "@fontsource-variable/geist-mono/wght.css";
 import "../styles/anu.css";
 
 interface Props {
   title: string;
-  current?: "plan" | "graph";
+  /** Which nav item is the current page. "plan"/"graph" mark nothing (the
+   *  planner is the home page; the wordmark links to it). */
+  current?: "plan" | "graph" | "about";
+  /** Skip-link text; the planner keeps the default. */
+  skipLabel?: string;
+  /** Page width: "wide" is the planner's 1120px column, "prose" is 720px. */
+  width?: "wide" | "prose";
+  /** catalogue/index.json `scrapedAt` (ISO date); the footer omits the date when absent. */
+  scrapedAt?: string;
 }
-const { title, current } = Astro.props;
-const links = [
-  { key: "plan", href: "/", label: "Plan" },
-  { key: "graph", href: "/graph/", label: "Requisite graph" },
-] as const;
+const { title, current, skipLabel = "Skip to plan", width = "wide", scrapedAt } = Astro.props;
+
+const scraped = scrapedAt
+  ? new Date(scrapedAt).toLocaleDateString("en-AU", { day: "numeric", month: "long", year: "numeric", timeZone: "Australia/Sydney" })
+  : null;
 ---
 
 <!doctype html>
@@ -18,29 +30,36 @@ const links = [
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title} | ANU Degree Planner</title>
   </head>
   <body>
-    <header class="site-header">
-      <div class="site-header__inner">
-        <a class="site-header__wordmark" href="/">ANU Degree Planner</a>
-        <nav class="site-nav" aria-label="Main">
+    <a class="skip-link" href="#main">{skipLabel}</a>
+    <header class="app-bar">
+      <div class="app-bar__inner">
+        <a class="app-bar__wordmark" href="/"><span class="app-bar__anu">ANU</span>Degree Planner</a>
+        <nav class="app-nav" aria-label="Main">
           <ul>
-            {links.map((l) => (
-              <li>
-                <a href={l.href} aria-current={current === l.key ? "page" : undefined}>{l.label}</a>
-              </li>
-            ))}
+            <li>
+              <!-- The planner island intercepts [data-how-it-works] to open the
+                   FirstRun guide as a popover; without JS it scrolls to it. -->
+              <a href="/#how-it-works" data-how-it-works>How it works</a>
+            </li>
+            <li>
+              <a href="/readme/" aria-current={current === "about" ? "page" : undefined}>About</a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
-    <main class="container">
+    <main id="main" class:list={["page", width === "prose" && "page--prose"]} tabindex="-1">
       <slot />
     </main>
     <footer class="site-footer">
       <div class="site-footer__inner">
-        Student-built prototype, not an official ANU service. Requisite data is a static slice. <a href="/readme/">About</a>
+        Student-built, not an official ANU service. Catalogue from{" "}
+        <a href="https://programsandcourses.anu.edu.au/">Programs and Courses</a>{scraped ? `, scraped ${scraped}` : ""}.
       </div>
     </footer>
   </body>

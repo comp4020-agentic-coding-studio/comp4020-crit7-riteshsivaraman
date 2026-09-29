@@ -537,7 +537,7 @@ read like part numbers, and it makes `COMP2100` vs `COMP2120` scannable.
 --danger-line:    #D92D20;  /* violation border (3:1+ non-text) */
 --danger-wash:    #FEF3F2;
 --warn:           #B54708;  /* warning text 5.4:1 --- deliberately more orange than gold */
---warn-line:      #E07B12;
+--warn-line:      #DF7B12;
 --warn-wash:      #FFF8EB;
 --info:           #3F3F46;  /* info badges are neutral, not coloured */
 --info-wash:      #F4F4F5;
@@ -779,6 +779,22 @@ while dragging, releases on drop) attach behaviour.
   course, "COMP2100 needs: COMP1110 or COMP1140 (met); 6 units of
   1000-level MATH (missing). Can't be taken with COMP6442." This is also
   the SSR output for `?view=graph` before the island hydrates.
+
+### Class contract (from track C)
+
+All defined in `src/styles/anu.css`:
+
+- `.btn` + `--primary|secondary|ghost|danger|text|sm|block`
+- `.icon-btn` + `--sm|raised|danger`
+- `.chip` + `--gold|danger|warn|info|outline|lg`
+- `.input`
+- `.popover` with `__header|__body|__footer`; `.sheet`; `.scrim`
+- `.tooltip`; `.segmented`
+- `.code`, `.num`, `.muted`, `.visually-hidden`
+- `.app-bar`, `.page`, `.prose`
+
+Added tokens: `--on-ink`, `--on-ink-muted`, `--scrim`, `--lift`, `--enter-y`,
+`--enter-scale`, `--content-max`, `--gutter`, `--app-bar-h`.
 
 ### 4.5 Responsive (verify at 375 × 812 in a real browser)
 
@@ -1070,3 +1086,4 @@ downstream tracks rebase before continuing.)
   `PlacementPreview` names the preview shape. Affects A (search, PATCH
   tests), B (`firstFreeSlot`), D (callbacks, term-less search), E.
 - 2026-09-30, after W0: incompatibility-only text -> parseStatus 'parsed'; contracts-fixture test owned by A (orchestrator).
+- 2026-09-30, after C: class contract + added tokens recorded; --warn-line darkened to meet 3:1 (orchestrator).
