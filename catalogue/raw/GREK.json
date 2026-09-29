@@ -13,7 +13,7 @@
   "subjectName": "Greek",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course introduces students to the study of Ancient Greek. It consists of a series of carefully graded readings drawn (for the most part in modified form) from the writers of the Greek world, including Aristophanes and Plato. As students work through these readings they are introduced to the fundamental grammatical principles that underpin Greek and to a basic working vocabulary in Greek.",
+  "summary": "",
   "requisiteText": "This course is for complete beginners. You are not able to enrol if you have completed prior Ancient Greek study at ANU or if you have studied Year 12 Ancient Greek (in which case you should enrol in GREK3125: Advanced Ancient Greek)."
  },
  {
@@ -30,7 +30,7 @@
   "subjectName": "Greek",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course continues the study of this key Classical language as students consolidate the basic elements covered in Continuing Ancient Greek, expand their working vocabulary, and are introduced to more advanced grammatical principles. Background information on the literature, culture and history of ancient Greece is woven into the subject matter throughout the semester. Upon completion of the course, students should have sufficient expertise to read texts of moderate difficulty with assistance. Students who complete this course are eligible to progress to Intermediate Ancient Greek.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed GREK1001: Introductory Ancient Greek or have gained the permission of the convenor on the basis of other prior Ancient Greek study."
  },
  {
@@ -47,7 +47,7 @@
   "subjectName": "Greek",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course continues the study of this key Classical language as students consolidate the basic elements covered in Continuing Ancient Greek, expand their working vocabulary, and are introduced to more advanced grammatical principles. Background information on the literature, culture and history of ancient Greece is woven into the subject matter throughout the semester. Upon completion of the course, students should have sufficient expertise to read texts of moderate difficulty with assistance. Students who complete this course are eligible to progress to Intermediate Ancient Greek II.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed GREK2119: Continuing Greek or have gained the permission of the convenor on the basis of other prior Ancient Greek study."
  },
  {
@@ -65,7 +65,7 @@
   "subjectName": "Greek",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course offers students the chance to explore the literary, historical and cultural contexts of Ancient Greece though the close study of a text or series of texts read in the original language. Each iteration of the course is designed around a single author, genre, or theme. There will be further tuition in and revision of the grammar and syntax of Ancient Greek.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed either GREK2121: Intermediate Ancient Greek or Year 12 Ancient Greek (or its equivalent)."
  }
 ]

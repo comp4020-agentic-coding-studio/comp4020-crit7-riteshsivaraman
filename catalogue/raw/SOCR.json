@@ -13,7 +13,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course examines key issues and assumptions in social research. It covers areas such as: formulating social research questions; operationalisation of concepts; validity; theory testing and theory construction; and strategies of analysis of social research.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -30,7 +30,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course will provide students with an understanding of how data is currently used to inform decision making and how data might be used more effectively to inform business, service delivery and policy questions. The course will build on student knowledge across a range of analytical techniques with a focus on the practical application of these techniques to real world problems. It is structured around a number of case studies drawn from business, the community sector and the public sector. Key themes include:\n\nthe ways in which data and empirical analysis can help inform real world decisions;\n\nstrengths and weaknesses of different types of data and empirical evidence;\n\nthe assumptions underlying some of the main analytical techniques used in decision making; and,\n\nhow to use data persuasively- how to used data in a tactical and strategic way.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed at least one of STAT1003, STAT2001, STAT2008, STAT3011, STAT3040, POLS2044, SOCY2038 or with permission of the convenor."
  },
  {
@@ -47,7 +47,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course provides an introduction to basic statistics with an emphasis on statistical concepts and methods commonly applied in social research. Lecture topics cover measurement scales, frequency distributions, measures of central location and dispersion, sampling distribution of statistics, confidence intervals and hypothesis test, Chi-squared test, correlation and linear regression. Teaching is provided through lectures and computer training sessions. No previous knowledge of statistics is assumed, however, a sound knowledge of basic mathematics and spreadsheets is required. The course will equip students with the skills required to assess the validity of common statistical tests used in quantitative research.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be studying a Bachelor of Arts Honours (HARTS or HART2), Bachelor of Criminology Honours (HCRIM), Bachelor of International Relations Honours (HIR), Bachelor of Middle Eastern and Central Asian Studies Honours (HMECA), Bachelor of Music Honours (HMUSI), Bachelor of Political Science Honours (HPLSC), Bachelor of Policy Studies (HPOLS), Bachelor of Asian Studies Honours (HASIA), Bachelor of International Security Studies Honours (HINSS), Bachelor of Philosophy Honours - Asia and the Pacific (APASP), or completion of 144 units towards the Bachelor of Philosophy Honours (Arts) (APHAR or APNAR).\n\nYou are not able to enrol in this course if you have previously completed SOCR8001."
  },
  {
@@ -64,7 +64,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course is designed to equip participants with the necessary skills to analyse large survey data sets to answer research and policy questions. Students will be introduced to a number of multivariate statistical methods for analysing numeric, nominal and ordinal data. Methods covered include Ordinary Least Squares regression, multinomial and ordinal logistic regression, and principal component and factor analysis. Participants will use a major computer statistical software package such as Stata to apply the methods to survey data and to interpret and discuss the results of their data analysis.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be studying a Bachelor of Arts Honours (HARTS or HART2), Bachelor of Criminology Honours (HCRIM), Bachelor of International Relations Honours (HIR), Bachelor of Middle Eastern and Central Asian Studies Honours (HMECA), Bachelor of Music Honours (HMUSI), Bachelor of Political Science Honours (HPLSC), Bachelor of Policy Studies (HPOLS), Bachelor of Asian Studies Honours (HASIA),Bachelor of International Security Studies (Honours) (HINSS), Bachelor of Philosophy (Honours) - Asia and the Pacific (APASP) or completion of 144 units towards the Bachelor of Philosophy Honours (Arts) (APHAR or APNAR).\n\nTo enrol in this course you must have successfully completed SOCR4001 or have the permission of the course convener.\nYou are not able to enrol in this course if you have previously completed SOCR8002"
  },
  {
@@ -81,7 +81,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course equips participants with the necessary skills to analyse and interpret qualitative data to answer research and policy questions. Students will build on previous experience in designing qualitative research methods and data collection and will develop skills in using in-text analysis software, interpreting and discussing the results of their data analysis, and the process of writing and publishing qualitative research. The course will provide students with the skills necessary to undertake a range of different types of qualitative data analysis which may be applied in areas of social science research such as population health, demography, medicine, communication, political science and sociology.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be studying a Bachelor of Arts Honours (HARTS or HART2), Bachelor of Criminology Honours (HCRIM), Bachelor of International Relations Honours (HIR), Bachelor of Middle Eastern and Central Asian Studies Honours (HMECA), Bachelor of Music Honours (HMUSI), Bachelor of Political Science Honours (HPLSC), Bachelor of Policy Studies (HPOLS) or Bachelor of Asian Studies Honours (HASIA), Bachelor of International Security Studies (Honours) (HINSS), Bachelor of Philosophy Honours- Asia and the Pacific (APASP) or completion of 144 units towards the Bachelor of Philosophy Honours (Arts) (APHAR or APNAR).\n\nTo enrol in this course you must have completed SOCR4008 or SOCR8008.\n\nYou are not able to enrol in this course if you have previously completed SOCR8003"
  },
  {
@@ -98,7 +98,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "The Internet is increasingly a source of data for social science research and this course provides students with training in online research methods for social research, with an emphasis on quantitative methods. The course focuses on unobtrusive/non-reactive methods involving socially-generated digital trace data (networks and text) from sources such as websites, social networking sites such as Facebook, microblogs such as Twitter and discussion environments such as Reddit. In this computer-lab based course, students will gain an introduction to coding and will undertake social network analysis and quantitative text analysis using the R statistical software. There is also an overview of obtrusive/reactive social research methods, including both quantitative methods (online surveys, online experiments) and qualitative methods (online focus groups and interviews, online field research).",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in the Bachelor of Arts Honours (HARTS or HART2), Bachelor of Criminology Honours (HCRIM), Bachelor of International Relations Honours (HIR), Bachelor of Middle Eastern and Central Asian Studies Honours (HMECA), Bachelor of Music Honours (HMUSI), Bachelor of Political Science Honours (HPLSC), Bachelor of Policy Studies Honours (HPOLS), Bachelor of Asian Studies Honours (HASIA), Bachelor of International Security Studies Honours (HINSS), or completed 144 units towards the Bachelor of Philosophy Honours (Asia and the Pacific) (APASP), or the Bachelor of Philosophy Honours (Arts) (APHAR or APNAR).\n\nTo enrol in this course you must have completed 6 units of: Statistics (STAT), Econometrics (EMET) or SOCY2038 Introduction to Quantitative Research Methods. Students not satisfying the above condition (regarding STAT or EMET or SOCY2038 course) may request permission to enrol from the convener.\n\nYou are not able to enrol in this course if you have previously completed SOCY2169, SOCY3169 or SOCR8006."
  },
  {
@@ -115,7 +115,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course provides a broad overview of the theory of qualitative research, and examines the basic skills involved in the application of these methods in social research, demography and population studies. Qualitative methods are defined, and their uses and limitations explored. Qualitative methods are compared with quantitative methods, and approaches to the integration of qualitative data are reviewed. Strong emphasis is given to practical exercises in the collection, analysis and reporting of qualitative data. In analysing textual data, the use of NVivo will be introduced.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be studying a Bachelor of Arts Honours (HARTS or HART2), Bachelor of Criminology Honours (HCRIM), Bachelor of International Relations Honours (HIR), Bachelor of Middle Eastern and Central Asian Studies Honours (HMECA), Bachelor of Music Honours (HMUSI), Bachelor of Political Science Honours (HPLSC), Bachelor of Policy Studies (HPOLS) or Bachelor of Asian Studies Honours (HASIA), or completion of 144 units towards the Bachelor of Philosophy Honours (Arts) (APHAR or APNAR).\n\nYou are not able to enrol in this course if you have previously completed SOCR8008."
  },
  {
@@ -132,7 +132,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "This course provides an introduction to basic statistics with an emphasis on statistical concepts and methods commonly applied in social research. Lecture topics cover measurement scales, frequency distributions, measures of central location and dispersion, sampling distribution of statistics, confidence intervals and hypothesis test, Chi-squared test, correlation and linear regression. Teaching is provided through lectures and computer training sessions. No previous knowledge of statistics is assumed, however, a sound knowledge of basic mathematics and spreadsheets is required. The course will equip students with the skills required to assess the validity of common statistical tests used in quantitative research.",
+  "summary": "",
   "requisiteText": "You are not able to enrol in this course if you have previously completed SOCR4001"
  },
  {
@@ -149,7 +149,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "This course is designed to equip participants with the necessary skills to analyse large survey data sets to answer research and policy questions. Students will be introduced to a number of multivariate statistical methods for analysing numeric, nominal and ordinal data. Methods covered include Ordinary Least Squares regression, multinomial and ordinal logistic regression, and principal component and factor analysis. Participants will use a major computer statistical software package such as Stata to apply the methods to survey data and to interpret and discuss the results of their data analysis.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed or have concurrent enrolment in SOCR8001, LING8027 or STAT7055, or have the permission of the course convener.\n\nYou are not able to enrol in this course if you have previously completed SOCR4002."
  },
  {
@@ -166,7 +166,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": null,
-  "description": "This course equips participants with the necessary skills to analyse and interpret qualitative data to answer research and policy questions. Students will build on previous experience in designing qualitative research methods and data collection and will develop skills in using in-text analysis software, interpreting and discussing the results of their data analysis, and the process of writing and publishing qualitative research. The course will provide students with the skills necessary to undertake a range of different types of qualitative data analysis which may be applied in areas of social science research such as population health, demography, medicine, communication, political science and sociology.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed SOCR4008 or SOCR8008.\nYou are not able to enrol in this course if you have previously completed SOCR4003."
  },
  {
@@ -183,7 +183,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "This course is used for two purposes.\n\n1. To run special courses that may be offered only once (for example, due to the availability of an academic visitor). Assessment will be set by the lecturer and may include assignments, essays, exams and presentations.\n\n2. To allow outstanding students to conduct independent research programs in consultation with a supervising academic. Assessment will be negotiated between the student and supervisor.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in the Master of Social Research (MSRES) or Master of Social Research (Advanced) (VSRES), or with permission of the convenor."
  },
  {
@@ -200,7 +200,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "The Internet is increasingly a source of data for social science research and this course provides students with training in online research methods for social research, with an emphasis on quantitative methods. The course focuses on unobtrusive/non-reactive methods involving socially-generated digital trace data (networks and text) from sources such as websites, social networking sites such as Facebook, microblogs such as Twitter and discussion environments such as Reddit. In this computer-lab based course, students will gain an introduction to coding and will undertake social network analysis and quantitative text analysis using the R statistical software. There is also an overview of obtrusive/reactive social research methods, including both quantitative methods (online surveys, online experiments) and qualitative methods (online focus groups and interviews, online field research).",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed:\n\n6 units (6000 or 8000 level) of: Statistics (STAT), Econometrics (EMET) or SOCR8001 Statistics for Social Scientists.\n\nStudents not satisfying the above condition may request permission to enrol from the convenor.\n\nYou are not able to enrol in this course if you have previously completed SOCY2169, SOCY3169 or SOCR4006."
  },
  {
@@ -217,7 +217,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "This course provides a broad overview of the theory of qualitative research, and examines the basic skills involved in the application of these methods in social research, demography and population studies. Qualitative methods are defined, and their uses and limitations explored. Qualitative methods are compared with quantitative methods, and approaches to the integration of qualitative data are reviewed. Strong emphasis is given to practical exercises in the collection, analysis and reporting of qualitative data. In analyzing textual data, the use of NVivo will be introduced.",
+  "summary": "",
   "requisiteText": "You are not able to enrol in this course if you have previously completed SOCR4008."
  },
  {
@@ -235,7 +235,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "This course provides students with an introduction to advanced topics in survey data analysis and will provide several important extensions: (1) dealing with sample selection bias and endogeneity bias in survey data (instrumental variable regression and Heckman selection correction); (2) using panel data to control for unobserved heterogeneity (fixed effects and random effects models); (3) modelling the time to an event (survival analysis) and (4) multi-level modelling for hierarchical or clustered data. Students will gain experience in using the Stata statistical software package to apply these methods to survey data.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed DEMO8007/SOCR8001 and DEMO8014/SOCR8002, or with permission of the convenor. You are not able to enrol in this course if you have previously completed SOCR8007."
  },
  {
@@ -250,7 +250,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "This course is designed to give students an overview of the use of quantitative, qualitative and mixed methods for social research. Quantitative methods focus on objective measurements and the statistical, mathematical, or numerical analysis of data collected through polls, questionnaires, and surveys, or from existing administrative sources. Qualitative methods, on the other hand, rely on more in depth analysis, and focus on direct observation and/or the analysis of words, images or other text. While many research questions can be answered by using either quantitative or qualitative research methods, most research questions seeking to understand complex social phenomena are best approached by using a mixed methods design.\nThis course summarises the key aspects of quantitative and qualitative mixed methods, and uses a number of example research projects to discuss how they can be combined to answer key social research questions. Upon completion, students will be able to design, evaluate and analyse data using mixed methods approaches to social research. No prior knowledge in either quantitative or qualitative research methods is assumed.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -265,7 +265,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "The ability to conduct rigorous research in applied settings constitutes a set of skills that remain highly sought by government and non-government agencies, industry, and academia more generally. An appreciation of ethical conduct throughout the research process is a fundamental part of research projects.\n\nThis course aims to provide students with a solid understanding of the principles and practical aspects of ethical conduct in social science research. It seeks to provide the framework to help social science students critically assess their own ethical behaviour throughout the life span of a project - beyond merely complying with regulatory bodies such as HREC.\n\nThe course is in two parts. Part I sets out first principles of ethical behaviour according to the National Statement of Ethical Conduct in Human Research, as developed by the National Health and Medical Research Council (NHMRC). A brief overview of (a) ethical approaches; (b) ethical controversies, and (c) processes of research governance and ethical review, and common antagonisms between researchers and HRECs, is also offered. Part II adopts a narrow-and-deep focus by examining ethical considerations to specific types of participants (eg., Aboriginal and Torres Strait Islander Peoples; children and young people, etc)\n\nThe course is largely applied in nature (research led problem-based learning), and seeks to complement related research methods courses offered in the Master of Social Research degree, and courses taught in other ANU colleges.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -282,7 +282,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "Close links exist between policy, practice and research. Yet data is often not available to help inform policy and/or practice. The ability to conduct high quality research in applied settings constitutes a set of skills that continue to be highly sought by government and non-government agencies, industry, and academia more generally.\n\nThis course aims to provide students with a solid understanding of each phase in the life of a research project­ (conception, scoping, planning, doing, and finalisation)­ and the way in which the components within each phase fit together. The course is applied in nature, and seeks to complement research methodology courses. It aims to provide the conceptual framework to help students develop and manage their own research projects (for post-graduate research or for use in the workplace) or to be able to commission or manage research by others.",
+  "summary": "",
   "requisiteText": "You are not able to enrol in this course if you have previously completed DEMO8082."
  },
  {
@@ -299,7 +299,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "This course provides an introduction to the main empirical social science methods, types of data, and techniques for collecting social science data. The course will provide students with the skills to apply social science methods to the generation and analysis of data to inform policy, business and service delivery decisions.\n\nContent will cover: overview of main social and behavioural theories (rational choice; nudge and behavioural insights; complexity theory), introduction to research design (observational designs; intervention and experimental designs and action research), techniques for collecting data (quantitative surveys; qualitative interviews; behavioural and experience methods), measurement issues, participatory approaches to research, vulnerable populations, and ethics and privacy considerations.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in one of the following programs: Graduate Certificate of Applied Data Analytics (CADAN), Graduate Certificate of Social Research (CSRES), Graduate Diploma of Applied Data Analytics (DADAN), Master of Applied Data Analytics (MADAN), Master of Social Research (MSRES), Master of Social Research (Advanced) (VSRES), Master of Social Research Methods (MSRM), Master of Social Research Methods (Advanced) (VSRM), or with permission of the convener."
  },
  {
@@ -316,7 +316,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "This course will provide students with a range of analytical techniques that can be used to answer policy and service delivery questions and how to measure the impact of policy. It will cover four key aspects of policy evaluations\n- Causation: Did the program or policy have a direct impact on the outcome or outcomes of interest?\n- Attribution: What was it about the program or policy that led to that impact?\n- Implementation: What can be learned about how was the program or policy delivered?\n- Documentation: How can key aspects of the evaluation be reported to an academic and policy audience?",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -331,7 +331,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "This course will provide students with a detailed understanding of the main techniques for the collection of social science data that is relevant to policy, business and service delivery decisions. Students will be well placed to design and undertaken their own research and to commission others to undertake design, fieldwork and analysis.\n\nContent will cover quantitative surveys (questionnaire design, fieldwork techniques (CATI, online, f2f), cognitive testing) and qualitative methods (in-depth interviews, focus groups, observational techniques), sampling, weighting and assessing representativeness of data, total survey error, creation of data sets for analysis using administrative data, cross-sectional versus longitudinal data.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed SOCR8201, or with permission of the convenor."
  },
  {
@@ -346,7 +346,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "Course will provide an advanced treatment of how social science approaches can be used to inform policy, business and service delivery decisions. This course will cover state-of-the-art social science techniques using a range of data sources. Content includes panel data analysis, evaluation methods, use of machine learning in social sciences, prediction, use of administrative data, text as data, rapid review and meta-analysis and cost-benefit analysis.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed SOCR8202, or with permission of the convener."
  },
  {
@@ -363,7 +363,7 @@
   "subjectName": "Social Research",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "This course assists CSRM students in the design and early research stages of their HDR thesis. Participants will be guided by their Primary Supervisor and Advisory Panel.",
+  "summary": "",
   "requisiteText": null
  }
 ]

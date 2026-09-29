@@ -14,7 +14,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course equips students with mathematical skills to prepare them for graduate-level study in economics at the Crawford School of Public Policy. The course introduces and reviews fundamental mathematical techniques used in applied economics, including linear algebra, use of vectors, calculus, optimisation, and integration.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -32,7 +32,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "The aim of this course is to prepare students for IDEC8017 Econometric Techniques and other postgraduate courses in economics and econometrics. The course provides fundamental knowledge in probability theory, statistics, and econometric techniques, supplemented by software applications using Stata. As a preparatory course, classes will be designed to help students become familiar with the ANU teaching environment and the requirements of formal coursework. In-class exercises and discussions will be an important component of the course.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -49,7 +49,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course tackles the big questions of economic growth, inequality, and sustainability. It introduces students to a range of contemporary debates, frameworks, and insights and helps students to apply them to produce technically sound and politically attractive policy advice on real-world problems. Through a mix of lectures, interactive case workshops, and the writing of case papers, the course exposes students to the key policy debates of our time and helps them to improve their analytical and writing skills.",
+  "summary": "",
   "requisiteText": "Students who have completed CRWF8000 cannot undertake this course."
  },
  {
@@ -66,7 +66,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course introduces students to the main classes of models in modern macroeconomics. The course is aimed at providing students with a sound knowledge of modern macroeconomic theory, an ability to formulate and solve problems analytically, and a general appreciation of how policymakers can use macroeconomic analysis in practice. The first half of the course will be devoted to growth models while the second half will deal with cyclical fluctuations and also monetary and fiscal policy.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -83,7 +83,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course explores and analyses the key issues in economic development. Students will develop descriptive skills and apply theoretical models to understand and analyse key issues in the field of development economics. The course will draw on experiences from developing economies in the Asia-Pacific and beyond, with a focus on policy approaches able to boost development outcomes.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -100,7 +100,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course covers a range of topics driving the research agenda in modern macroeconomics. Topics include international finance and open economy macroeconomics, macroeconomic dynamics, population and development, finance and investment, macroeconomic policy under uncertainty, and globalisation, trade and development. The course is aimed at providing students with a comprehensive knowledge of modern macroeconomic theory in a way that develops intuition and a technical ability to apply macroeconomic theory in practice. Students will be equipped with the key tools needed to formulate and solve problems analytically and provided with an appreciation of how these tools can be used to understand real world events and policy.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed or be completing IDEC8002 or equivalent."
  },
  {
@@ -117,7 +117,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course will introduce students to quantitative and modelling techniques employed in global trade analysis. The course consists of two main parts. The first introduces important concepts and provides theoretical foundations for understanding flows and patterns of trade across countries. The second deals with structural and econometric modelling and empirical measurement of the links between trade and economic welfare. Topics covered will include regional economic integration, exchange rates and trade, trade policy and economic welfare, trade and environment, and trade, economic growth and poverty reduction. Students will complete a research paper as part of the course.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed or be completing IDEC8017 or equivalent."
  },
  {
@@ -135,7 +135,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course allows the student to pursue independent research on a topic of their choice in economics under the guidance of an academic economist at ANU. Usually, the essay will be quantitative in nature, although theoretical or other contributions are also possible. The student must develop a strong research question, bring evidence to bear on this question, and clearly and concisely provide detail on the research design, results, implications, and limitations. The essay will be written in the style of a journal article typical in economics and should not exceed 7,000 words.",
+  "summary": "",
   "requisiteText": "To enrol in this course students must be currently enrolled in the Master of International and Development Economics or the Master of Environmental and Resource Economics and need to have successfully completed or be completing each of the following courses:\n\nCRWF7900 Graduate Academic and Research Skills for Public Policy or equivalent, and\n\nIDEC8002 Macroeconomic Analysis and Policy or equivalent, and\n\nIDEC8015 Mathematical Methods in Applied Economics or equivalent, and\n\nIDEC8016 Microeconomic Analysis and Policy or equivalent, and\n\nIDEC8017 Econometric Techniques or equivalent.\n\nYou are unable to enrol in this course if you have completed or are currently completing IDEC8033 Research Project."
  },
  {
@@ -152,7 +152,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "Quantitative assessment plays an important role in macroeconomics and macroeconomic policymaking. This course will provide students with skills in two major analytical tools for quantitative evaluation in macroeconomics, particularly monetary policy: vector autoregressive (VAR) and dynamic stochastic general equilibrium (DSGE) models. These tools are heavily used in the academic literature and in policy analysis in central banks and international organisations. Students will use these methods to be able to identify the sources of macroeconomic fluctuations, gauge how structural shocks affect macroeconomic variables dynamically (impulse responses), forecast, and explore optimal policies.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed or be completing IDEC8017 or equivalent."
  },
  {
@@ -169,7 +169,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course introduces students to a range of mathematical techniques and concepts required for modelling and analysing economic problems. Topics include matrix algebra, calculus, static unconstrained and constrained optimisation, non-linear programming, difference and differential equations, optimal control theory, and dynamic programming. The mathematical methods and techniques will be applied to specific problems from various areas of economics.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -186,7 +186,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This is a Master-level course in modern microeconomic theory. The course covers consumption theory, production theory, theories of the competitive market, general equilibrium theory, and externalities and public goods. Principles will be applied to important policy areas such as tax policy, the role of government, and management of the environment. The course will equip students with the essential tools of microeconomics that provide a lens to apply to case studies such as poverty and inequality reduction, climate change policy, and pandemic responses. The course will help students understand how decisions are made by individuals and businesses in everyday life and how economic actors respond to economic policies.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -203,7 +203,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course introduces students to the techniques of econometrics. The emphasis is on the essential ideas and applications of econometric methods, with the material derived using a mixture of rigour and intuition. The course covers appropriate tools for cross-sectional (observations on several economic units - usually countries, firms or households - at a single point in time), time series (observations for one economic unit over time), and panel (observations for multiple units followed through time) datasets. It starts with the linear regression model and then moves to introductions of micro-econometric and macro-econometric techniques.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -220,7 +220,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "The course provides training in the economics of natural resource management and agriculture. The first part introduces the key models and techniques of resource economics and applies them to non-renewable resources such as minerals and energy and renewable resources such as fisheries, forests, and water, as well as the analysis of sustainability. Managing these resources requires optimisation across time periods. Students will learn how to develop and numerically solve intertemporal resource allocation models. The second part turns to agricultural economics, with a particular focus on developing economies. Topics include technological change, food security, agricultural trade, and the role of agriculture in economic development.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -237,7 +237,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This is a Masters and HDR level course in applied economic dynamics, designed to introduce students to a range of concepts and techniques required for modelling and analysing economic problems. Topics include time-series econometrics, transitional dynamics, optimal control theory, and recursive dynamic programming. The methods will be applied to analyse issues in natural resource economics, ecological dynamics, macroeconomic dynamics, financial planning, and economic growth. In addition to pen-and-paper analysis, students will use computers to carry out infectious disease simulation and analyse dynamic problems in fisheries management.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -252,7 +252,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "Since Deng Xiaoping initiated the process of 'reform and opening up' in the late 1970s, China has emerged as the second largest and one of the most dynamic economies in the world. China's domestic economic reforms and integration into the global economy raise countless questions about the nature of China's economic growth and development process in the past, present, and future: Has China's transition from central planning to an increasingly market-based economy been successful? What kind of capitalist system is China becoming, if becoming capitalist at all? What are the major challenges facing the current generation of leaders under President Xi Jinping, and what are the prospects for inclusive economic growth in the future? How has China been transformed by, and in turn transformed, the global economy and how are other nations responding to these twin transformations?\n\nThis course will provide students with the knowledge and skills to address these questions and more through a series of lectures and tutorials that begin with China under Mao, before exploring the major features of the reform period, from gradual experimentalism and unbalanced investment- and export-led growth to Xi Jinping's 'New Era' of Socialism with Chinese characteristics. The course will then focus on the key challenges facing China today, including income inequality, the need for low-carbon “green” growth, and an ageing population. It will also explore China’s quest to become a global technology superpower, the deterioration in US-China relations through the lens of geoeconomics, and the Australia-China economic relationship.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -269,7 +269,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "The course deals with essential issues related to economic development and sustainability with the objective of developing advanced skills for policy-oriented economics research in development economics. The approach is to present state-of-art economic development theories and models, investigate their empirical validity and the underlying pre-requisite conditions, and draw out the implications for institutional and policy designs. Major issues related to economic development and sustainability are discussed and illustrated using the experiences and lessons of selected countries and regions. Relevant economic theories and models are employed to explain these issues and to inform policy making, followed by a thorough discussion of existing case studies from around the world. Students will gain experience using modern statistical tools to analyse development issues and policy responses in developing economies.",
+  "summary": "",
   "requisiteText": "Students must have successfully completed IDEC8016 or ECON7073 or equivalent."
  },
  {
@@ -286,7 +286,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "In this course, students will produce a substantial and original piece of research work based on replicating and extending an applied econometric case study. This will be structured with the goal of generating new knowledge while simultaneously aiding students in their ability to conduct and analyse research. The course will be built around recent empirical examples from applied econometrics. The course will both boost understanding of the use of econometric techniques and develop research skills in applied econometrics.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed or be completing IDEC8017 or equivalent."
  },
  {
@@ -303,7 +303,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course explores the economic analysis of tax systems and income transfer programs. The emphasis is understanding how, and the extent to which, individuals and firms react to those policies – the central question addressed in the growing field of empirical public finance. This understanding is crucial to the optimal design of tax and transfer systems. The course will cover tax incidence, efficiency and optimal taxation, income taxation and labour supply, taxes on consumption, taxes on savings, taxes on investment, and corporate taxation. Particular attention will be paid to the application of quasi-experimental methods to public finance, with students exposed to a variety of estimation techniques. By reading articles that apply quasi-experiments for most topics, students are expected to develop a practical understanding of issues involved in applying econometric models to derive understanding from tax and transfer program data. Examples will be drawn from taxes and income transfer programs implemented in Australia and internationally.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -320,7 +320,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course is an introduction to rigorous and policy-relevant quantitative impact evaluation techniques for postgraduate students in economics and public policy. The main emphasis is evaluating the causal effect of a policy, naturally occurring event, or intervention on the economic and social wellbeing of individuals, using large scale data. Students will learn the conceptual underpinnings of various causal impact evaluation techniques. The course has a strong focus on applications and involves preparing a research paper.",
+  "summary": "",
   "requisiteText": "Students must have completed or be completing IDEC8017 or equivalent to enrol in this course."
  },
  {
@@ -335,7 +335,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course provides an in-depth exploration of the empirical estimation of well-being indicators at the individual and household levels, along with the microeconomic models that underlie these indicators. Through a series of lectures, students will be introduced to the key international development indicators that are widely used by researchers in the field of development microeconomics. The course delves into a broad range of empirical studies that address critical issues in microeconomic development, drawing on high-quality research from around the world. These studies will be examined not only for their methodological rigour but also for their real-world policy implications, which will be a focal point of discussion throughout the course. Students will engage in hands-on econometric analysis of pressing microeconomic issues in development, applying theoretical knowledge to analyse and interpret data. The course will cover a variety of topics central to development economics, including inequality, poverty, health, education, gender and disability inclusivity, and food security. Students will gain both a solid theoretical foundation and practical analytical skills that are essential for conducting research and informing policy in the field of development microeconomics.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed or be completing IDEC8017 or equivalent."
  },
  {
@@ -352,7 +352,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course will explore decision-making by individuals and firms in the context of real-world situations in which behaviour is often strategic in nature and information is imperfect. The course covers a set of key topics in microeconomics, including game theory, decision making under uncertainty, monopoly, imperfect competition, situations of asymmetric information, and an introduction to behavioural economics. A range of policy options available to governments will be analysed.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -367,7 +367,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course provides detailed coverage of key issues and models in international macroeconomics. Students will study and analyse open-economy models to understand the determination of current account balances, international capital flows, the real exchange rate, the nominal exchange rate, implications of exchange rate regimes, and fiscal and monetary policies in open economies. The course further extends the models to analyse international impacts of contemporary global issues including sovereign debt, population ageing, resource booms and busts, and climate policies.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -385,7 +385,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course allows students to pursue a substantive piece of independent research on a topic of their choice in economics under the guidance of an academic economist at ANU. Usually the research project will be quantitative in nature, although theoretical or other contributions are also possible. The student must develop a strong research question, bring evidence to bear on this question, and clearly and concisely provide detail on the research design, results, implications, and limitations. The course is taken over two consecutive semesters, and the dissertation is due at the end of the second semester of enrolment. The dissertation should not exceed 15,000 words.",
+  "summary": "",
   "requisiteText": "To enrol in this course students must be currently enrolled in the Master of International and Development Economics or the Master of Environmental and Resource Economics; have successfully completed CRWF7900 Graduate Academic and Research Skills for Public Policy or equivalent, IDEC8002 Macroeconomic Analysis and Policy or equivalent, IDEC8015 Mathematical Methods in Applied Economics or equivalent, IDEC8016 Microeconomic Analysis and Policy or equivalent, and IDEC8017 Econometric Techniques or equivalent; have maintained an average of 70% in their courses in the program or equivalent; and provide written consent from a supervisor.\n\nYou are unable to enrol in this course if you have previously completed or are currently enrolled in IDEC8011 Research Essay.\n\nYou will need to contact the Crawford School of Public Policy to request a permission code to enrol in this course."
  },
  {
@@ -400,7 +400,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course provides a comparative analysis of the economic development of Middle Eastern economies. The course deals primarily with the determinants of each country's economic development and the roles of historical, cultural, institutional, social, and political factors. The main focus will be identifying and comparing the relative importance of those factors that appear to have hindered or promoted economic development in each of the studied economies. Among the main themes to be explored are the roles of natural resource rents and state-led development, historical and institutional influences affecting economic growth, industrialisation efforts, foreign influence, conflicts, and intra-regional trade and investments. Analytical emphasis will be on identifying and comparing long-run determinants of each country's success (or lack of it) in achieving economic development. The knowledge gained from this course will facilitate successful employment in the private or public sector in economics, finance, trade, and investment in the Middle East.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -415,7 +415,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course examines key concepts and ideas within the field of Islamic economics and finance and how they relate to contemporary economic and banking practices. It provides students with an in-depth understanding of the Islamic economic systems and their contemporary applications in various Muslim majority countries. The course pays close attention to the emergence of Islamic finance, as well as introducing key ideas and common products in Islamic banking. The course covers topics such as the avoidance of interest in Islamic banking, Islamic bond markets and financial instruments, the modern Waqf (or Islamic endowment) system and charities, Islamic insurance instruments, and fintech applications in Islamic finance. The course will also examine the development of Islamic economics and finance practices in key Muslim majority economies such as Indonesia, Malaysia, Saudi Arabia, Turkey, and the United Arab Emirates. It will also assess the challenges and opportunities associated with Islamic finance in Australia and the global stage.\n\nThe course is designed to enable students to acquire practical, policy, and industry-specific skills suitable for Islamic-compliant businesses and to help clients in non-majority Islamic states with their understanding and dealings with Islamic financial institutions and capital markets. The knowledge gained will help to facilitate students' successful transition into careers in Islamic business, finance, and public policy in Australia or Islamic majority countries. The course is designed to be accessible to students from diverse disciplinary backgrounds.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -432,7 +432,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "The Pacific island region is unique in many ways, and this is reflected in the economies in the region. The geographical disadvantages and governance weaknesses of the region interact with each other and combine to make development a daunting task. While some Pacific islands have become high-income countries, most have not. For none of them is a conventional path to development a likely prospect. This course will expose students to the economic issues facing the Pacific island region, including Papua New Guinea and Timor-Leste. It will also relate economic performance to underlying political features and challenges. It will explore both the distinctive features of the various Pacific island economies and some of the common challenges they face and strategies they can adopt in relation to migration and aid. Models and topics covered will include the resource curse; aid dependency; migration and development; the economics of remoteness and isolation; clientelism, governance and political determinants of development; and institutional theories of development.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -447,7 +447,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course provides a broad coverage of environmental economics for Master and PhD-level students. The course covers market failure, the economics of pollution control, market-based instruments, environmental cost-benefit analysis, environmental valuation, the environment and the economy, global environmental problems, and other topics. Students will apply economic approaches to analyse policy options to better manage the environment at the local, national, and global levels.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -464,7 +464,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This is a Master- and PhD-level course covering a range of topics in applied microeconomics. The course introduces a series of microeconomics research tools and applies them to undertake quantitative analysis. Applications include preference and welfare analysis, productivity and efficiency measures, partial and general equilibrium, the management of open-access resources, and non-market valuation. In addition to paper-and-pen exercises, students will perform analysis such as evaluating policy impacts with computable general equilibrium models, evaluating optimal timing for infrastructure investments, comparing firm productivity levels, and estimating the willingness-to-pay for ecological services.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed or be concurrently enrolled in IDEC8016 or equivalent."
  },
  {
@@ -481,7 +481,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "The course is open to students from both economics and non-economics backgrounds who are interested in the diverse experiences of Asian economies. The course aims to give students the analytical skills to compare and contrast the multiple paths to prosperity and critically assess the prospects and challenges for Asian economies and their citizens to thrive in the future. The course moves beyond the mainstream approach to assessing country-level economic performance by incorporating seven ways to think like a 21st-century economist, as explained in the book Doughnut Economics, in a holistic exploration of the economic growth and development patterns in the dynamic Asian region. These include shifting the goal beyond GDP to broader measures of sustainable development and human well-being; understanding the importance of economic and political systems beyond the textbook 'free market'; recognising the critical role of governments in supporting equitable and regenerative development; and questioning whether the 20th-century obsession with economic growth is compatible with 21st-century development challenges.\n\nDrawing on the diverse lessons offered by Japan's early industrialisation and the East Asian 'miracle', 'socialism with Chinese characteristics', India's population dynamics, Bhutan's gross national happiness, and more, the course will use both analytical and comparative methods to cover topics including inequality, 'green' development, the winners and losers of globalisation, the links between population and growth, and the economics of happiness.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have successfully completed 24 units of courses."
  },
  {
@@ -498,7 +498,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "The key concerns of this course are to understand how institutions evolve in response to changes in incentives and how institutions affect economic performance over time. The course introduces the essential theories of institutional economics and the key methods applied in the field, explores historical and empirical evidence in institutional economics, explores how individuals, firms, and states respond to changes in institutions, and analyses the role of institutions in influencing economic performance and transition. The course will apply case study methods that rely on institutional theories, contextual knowledge of the situation and history, and context-specific modelling.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -515,7 +515,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "This course aims to equip students with the knowledge and skills to understand, apply, and critically evaluate cost-benefit analysis (CBA) in public policy decision-making. Students will learn the fundamental purpose of CBA in assessing the social value of government initiatives and master key concepts and tools for evaluating government activities, including methods for handling uncertainty. The course emphasises practical applications through real-world case studies, primarily focusing on energy, environmental, and transportation policies. Students will examine recent CBAs conducted by government agencies, explore key issues such as distributional effects, and develop the ability to communicate CBA findings effectively. By the end of the course, students will be prepared to contribute to informed decision-making in public policy, equipped with a solid understanding of current CBA practices and challenges.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -532,7 +532,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "The course examines the role of energy in the economy, economic methods of assessing and modelling energy, the economics of various sources of energy, electricity markets, and other key topics in energy economics. Fossil fuel, renewable, and nuclear energy sources will each be studied, as will energy efficiency, security, and sustainability. The course will examine key challenges and opportunities in the energy sector in Australia and overseas.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -549,7 +549,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "In this course Master of Philosophy (MPhil) students will develop a proposal or first paper for their Higher Degree Research (HDR) thesis in economics at the Crawford School of Public Policy. Students will work on framing a sharp research question or questions, developing a tractable research framework to answer those questions, and identifying a practical timeline for thesis preparation. Initial research will be carried out that will be able to be incorporated into the subsequent HDR thesis.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be completing a Crawford MPhil"
  },
  {
@@ -566,7 +566,7 @@
   "subjectName": "International and Developmental Economics",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Postgraduate",
-  "description": "In this course students will develop a proposal or first paper for their PhD thesis in economics at the Crawford School of Public Policy. Students will work on framing a sharp research question or questions, developing a tractable research framework to answer those questions, and identifying a practical timeline for thesis preparation. Initial research will be carried out that will be able to be incorporated into the subsequent PhD thesis.",
+  "summary": "",
   "requisiteText": null
  }
 ]

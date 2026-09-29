@@ -14,7 +14,7 @@
   "subjectName": "Final Honours Grade",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course is to be enrolled in by honours students in their final semester of study. The purpose of this course is to award the final honours mark and class of honours. The final honours mark will be based on all of the courses taken towards the honours plan and be calculated as follows:\n\nΣ (mark x units) / Σ units, giving NCN and WN a nominal mark of zero\n\nThere is no work or assessment for this course in addition to that for other courses taken as part of the honours plan: it is purely an administrative mechanism for determining and awarding the overall honours mark and of the class of honours.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -32,7 +32,7 @@
   "subjectName": "Final Honours Grade",
   "college": "ANU College of Law, Governance and Policy",
   "career": "Undergraduate",
-  "description": "",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -51,7 +51,7 @@
   "subjectName": "Final Honours Grade",
   "college": "ANU College of Science and Medicine",
   "career": "Undergraduate",
-  "description": "This course is to be enrolled in by honours students in their final semester of study. The purpose of this course is to award the final honours mark and class of honours. The final honours mark will be based on all of the courses taken towards the honours plan and be calculated as follows:\n\nΣ (mark x units) / Σ units, giving NCN and WN a nominal mark of zero\n\nThere is no work or assessment for this course in addition to that for other courses taken as part of the honours plan: it is purely an administrative mechanism for determining and awarding the overall honours mark and of the class of honours.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -70,7 +70,7 @@
   "subjectName": "Final Honours Grade",
   "college": "ANU College of Science and Medicine",
   "career": "Undergraduate",
-  "description": "This course is to be enrolled in by honours students in their final semester of study. The purpose of this course is to award the final honours mark and class of honours. The final honours mark will be based on all of the courses taken towards the honours plan and be calculated as follows:\n\nΣ (mark x units) / Σ units, giving NCN and WN a nominal mark of zero\n\nThere is no work or assessment for this course in addition to that for other courses taken as part of the honours plan: it is purely an administrative mechanism for determining and awarding the overall honours mark and of the class of honours.",
+  "summary": "",
   "requisiteText": null
  }
 ]

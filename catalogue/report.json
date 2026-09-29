@@ -24,7 +24,7 @@
   },
   "missingCollegeField": []
  },
- "version": "84be3f66",
+ "version": "c3b2bf97",
  "scrapedAt": "2026-09-29T16:48:11.797Z",
  "listingEndpoint": "https://programsandcourses.anu.edu.au/data/CourseSearch/GetCourses?ShowAll=true&PageIndex=0&MaxPageSize=10&PageSize=10&SelectedYear=2026&SearchText=&CollegeName=All+Colleges&ModeOfDelivery=All+Modes",
  "listingTotal": 852,
@@ -7030,7 +7030,7 @@
    "raw": "Quarter 4 2026"
   }
  ],
- "noDescription": [
+ "noSummary": [
   "CBEA5920",
   "CBEA5921",
   "ENGN4520",

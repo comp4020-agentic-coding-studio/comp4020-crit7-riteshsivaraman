@@ -6,7 +6,7 @@
   "level": 1000,
   "title": "The Australian Economy: Past and Present",
   "units": 6,
-  "summary": "The course explores the Australian economy in a historical context.  It will examine aspects of the history of the Australian economy from early Indigenous society through to the present.  It is intended for students who are seeking a broad understanding of how the economy works.",
+  "summary": "The course explores the Australian economy in a historical context.",
   "offered": [
    "S1"
   ],
@@ -22,7 +22,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECHI1006",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The course explores the Australian economy in a historical context. It will examine aspects of the history of the Australian economy from early Indigenous society through to the present. It is intended for students who are seeking a broad understanding of how the economy works. The approach adopted will emphasise that the present Australian economy needs to be seen in the context of the historical pattern of development and change. While the course deals primarily with economic factors, social and political contexts and connections will also be considered."
+  "description": ""
  },
  {
   "code": "ECHI3009",
@@ -71,7 +71,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECHI3009",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course analyzes historical major economic, political, and social changes in the world economy. These include factors contributing to increases in economic performance, changes in the form of government, technological change (including industrialization), and episodes of integration and disintegration of the global economy. Emphasis is on institutional changes in how societies organize economic and political activities and variation in development among geographic regions."
+  "description": ""
  },
  {
   "code": "ECHI6009",
@@ -92,6 +92,6 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECHI6009",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course analyzes major historical economic, political, and social changes in the world economy. These include factors contributing to increases in economics performance, changes in the form of government, technological change (including industrialization), and episodes of integration and disintegration of the global economy. Emphasis is on institutional changes in how societies organize economic and political activities as well as on variation in development among geographic regions."
+  "description": ""
  }
 ]

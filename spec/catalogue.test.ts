@@ -115,6 +115,22 @@ describe("committed catalogue", () => {
     expect(report.collegeFilter?.keptCourses).toBe(courses.length);
   });
 
+  it("republishes no ANU description text: every description is empty, summary is one short sentence, sourceUrl links to P&C", () => {
+    if (report.mode === "fixture") return;
+    for (const c of courses) {
+      expect(c.description, c.code).toBe("");
+      expect(c.summary.length, c.code).toBeLessThanOrEqual(160);
+      expect(c.sourceUrl.startsWith("https://programsandcourses.anu.edu.au/"), c.code).toBe(true);
+    }
+    // raw is committed too: it must not carry description text either
+    for (const f of readdirSync(new URL("../catalogue/raw/", import.meta.url)).filter((f) => /^[A-Z]{4}\.json$/.test(f))) {
+      for (const r of JSON.parse(read(`raw/${f}`)) as Record<string, unknown>[]) {
+        expect("description" in r, `${f} ${String(r.code)}`).toBe(false);
+        expect(String(r.summary ?? "").length, `${f} ${String(r.code)}`).toBeLessThanOrEqual(160);
+      }
+    }
+  });
+
   it("holds COMP1100 <-> COMP1130 and MATH1013", () => {
     expect(byCode.get("COMP1100")?.incompatible).toContain("COMP1130");
     expect(byCode.get("COMP1130")?.incompatible).toContain("COMP1100");

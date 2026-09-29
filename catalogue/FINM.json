@@ -6,7 +6,7 @@
   "level": 1000,
   "title": "Foundations of Finance",
   "units": 6,
-  "summary": "This course is designed to familiarise students with the components of the financial system as well as to introduce them to the three basic ideas underpinning finance, namely the time value of money, diversification and arbitrage.",
+  "summary": "This course is designed to familiarise students with the components of the financial system as well as to introduce them to the three basic ideas underpinning…",
   "offered": [
    "S1",
    "S2"
@@ -35,7 +35,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM1001",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is designed to familiarise students with the components of the financial system as well as to introduce them to the three basic ideas underpinning finance, namely the time value of money, diversification and arbitrage. In doing so, the course provides students with introductory exposure to financial transactions, institutions and markets including money markets, stock markets, foreign exchange and derivative markets and the instruments traded therein. It also provides students with a solid foundation for later studies in finance."
+  "description": ""
  },
  {
   "code": "FINM2001",
@@ -44,7 +44,7 @@
   "level": 2000,
   "title": "Corporate Finance",
   "units": 6,
-  "summary": "This course focuses on tools and techniques used in modern financial management.  Material in the course has an applied focus and is designed to provide students with the knowledge and skills required for understanding, exploring and analysing financial management issues.",
+  "summary": "This course focuses on tools and techniques used in modern financial management.",
   "offered": [
    "S1",
    "S2"
@@ -83,7 +83,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM2001",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course focuses on tools and techniques used in modern financial management. Material in the course has an applied focus and is designed to provide students with the knowledge and skills required for understanding, exploring and analysing financial management issues. The course draws upon topical material in order to contextualise theoretical discussion, and present students with examples in practice.\n\nSpecific topics to be covered include: financial mathematics, security valuation, techniques for capital investment decisions, financial decision making, corporate capital structure, cost of capital, dividend decision and policy, leasing decision and the analysis of mergers and acquisitions."
+  "description": ""
  },
  {
   "code": "FINM2002",
@@ -92,7 +92,7 @@
   "level": 2000,
   "title": "Derivatives",
   "units": 6,
-  "summary": "This unit is designed to further students’ understanding of futures and options contracts and their use in managing risk.  It builds upon material covered in FINM1001.",
+  "summary": "This unit is designed to further students’ understanding of futures and options contracts and their use in managing risk.",
   "offered": [
    "S1",
    "S2"
@@ -131,7 +131,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM2002",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This unit is designed to further students’ understanding of futures and options contracts and their use in managing risk. It builds upon material covered in FINM1001. FINM2002 provides an overview of options, futures, forwards and swaps on a range of underlying assets/commodities including stocks, interest rates, foreign exchange as well as more exotic instruments such as weather and electricity derivatives. The models used for pricing these instruments will be covered as well as techniques used for risk management."
+  "description": ""
  },
  {
   "code": "FINM2003",
@@ -177,7 +177,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/FINM2003",
   "catalogueYear": 2025,
   "retired": false,
-  "description": "This course is designed to prepare students for designing investment portfolios. It covers duties to clients, types of investment products, explores links between investment risk and return, introduces tools for use in portfolio construction, brings in analysis of fixed income products and introduces techniques to evaluate past investment performance."
+  "description": ""
  },
  {
   "code": "FINM3003",
@@ -186,7 +186,7 @@
   "level": 3000,
   "title": "Continuous Time Finance",
   "units": 6,
-  "summary": "Continuous Time Finance provides an introduction to the theory and practice of derivative pricing and hedging.  The aim of this course is to provide students with the mathematical skills needed for the valuation of derivatives.",
+  "summary": "Continuous Time Finance provides an introduction to the theory and practice of derivative pricing and hedging.",
   "offered": [
    "S1"
   ],
@@ -214,7 +214,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM3003",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Continuous Time Finance provides an introduction to the theory and practice of derivative pricing and hedging. The aim of this course is to provide students with the mathematical skills needed for the valuation of derivatives. Focus will be on both the application of results and the underlying mathematical theory. These tools will be applied to derive the famous Black-Scholes formula, to price options on equities, currencies and interest-rate derivatives."
+  "description": ""
  },
  {
   "code": "FINM3005",
@@ -223,7 +223,7 @@
   "level": 3000,
   "title": "Corporate Valuation",
   "units": 6,
-  "summary": "Corporate Valuation is a course that draws on core corporate finance principles, theories and methods previously studied.  Students will work in teams to value an existing company, present their analysis and investment recommendation.",
+  "summary": "Corporate Valuation is a course that draws on core corporate finance principles, theories and methods previously studied.",
   "offered": [
    "S1",
    "S2"
@@ -250,7 +250,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM3005",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Corporate Valuation is a course that draws on core corporate finance principles, theories and methods previously studied. Students will work in teams to value an existing company, present their analysis and investment recommendation. The techniques covered include discounted cash flow, multiple-based and asset-based valuations. Because of the richness of the approach, most of the focus will be on discounted cash flow analysis. While this entails more work and requires significant student initiative, this type of ‘learning by doing’ should provide a lasting framework."
+  "description": ""
  },
  {
   "code": "FINM3006",
@@ -276,7 +276,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM3006",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course covers the theory and practice of financial intermediation, broadly construed to include banks, savings institutions and investment/merchant banks. Topics will include the role of banking firms in a developed capital market, their impact on corporate financial decisions for non-banking firms, and the regulation of banks. The course includes a comprehensive analysis of the role of financial intermediaries in the development of fixed-income markets and provides an analysis of fixed income securities. Additional topics include models and techniques used for managing credit risk, interest rate risk and liquidity risk. These are applied to maturity matching, duration and immunization, loan sales, securitization, collateralized debt obligations (CDOs), and collateralized mortgage obligations (CMOs)."
+  "description": ""
  },
  {
   "code": "FINM3007",
@@ -303,7 +303,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM3007",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This is an advanced course in derivatives pricing and hedging, and their applications. The aim is to cover advanced topics in the Black-Scholes model such as optimal stopping theory for pricing and hedging American options, change of numeraire methods, derivatives dependent on one or more Brownian motions, pricing options on correlated assets and various exotic options. In addition, the course also covers alternatives to the Black-Scholes model such as local volatility, jump diffusion and GARCH models, and concepts from risk management such as credit risk. Some time will be spent on the mathematical foundations necessary for understanding these and other applications."
+  "description": ""
  },
  {
   "code": "FINM3008",
@@ -312,7 +312,7 @@
   "level": 3000,
   "title": "Portfolio Construction",
   "units": 6,
-  "summary": "Portfolio Construction draws on core investment principles, theories and techniques previously studied.  The objective of this course is to introduce students to portfolio construction and asset allocation.  It will focus on gaps in theory and how they can be managed in practice.",
+  "summary": "Portfolio Construction draws on core investment principles, theories and techniques previously studied.",
   "offered": [
    "S1",
    "S2"
@@ -350,7 +350,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM3008",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Portfolio Construction draws on core investment principles, theories and techniques previously studied. The objective of this course is to introduce students to portfolio construction and asset allocation. It will focus on gaps in theory and how they can be managed in practice. Examples include challenges/realities in estimating and implementing portfolio optimisation programs, role of liquidity, and importance of plan governance. Topics will include: types of investors and their objectives; dimensions of risk; asset allocation; the nature and role of various asset classes (equity, fixed income, alternative assets, FX); building multi-manager portfolios, and implementation issues."
+  "description": ""
  },
  {
   "code": "FINM3009",
@@ -359,7 +359,7 @@
   "level": 3000,
   "title": "Student Managed Fund",
   "units": 6,
-  "summary": "Students in this course will receive training in the management of the Student Managed Fund (SMF), under the guidance of course conveners and students enrolled in Student Managed Fund Extension.",
+  "summary": "Students in this course will receive training in the management of the Student Managed Fund (SMF), under the guidance of course conveners and students…",
   "offered": [
    "S1",
    "S2"
@@ -372,7 +372,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM3009",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Students in this course will receive training in the management of the Student Managed Fund (SMF), under the guidance of course conveners and students enrolled in Student Managed Fund Extension. The primary task of students will be to provide support in formulating investment recommendations to be reviewed and endorsed by an Investment Advisory Committee that includes industry practitioners and ANU staff. The students will also be responsible for assisting in the day-to-day functions typical of a managed fund. An SMF Charter and Governance Structure Statement sets out the policies and procedures under which the SMF operates.\n\nAdmission to the course will be selective, with the expectation that students who successfully complete the Student Managed Fund course will continue to the Student Managed Fund Extension course. To ensure continuity, students enrolled in the Student Managed Fund Extension course will adopt senior managerial and decision-making roles; and will be responsible for training the students enrolled in the Student Managed Fund course so that they can progress to the senior roles when enrolled in the Student Managed Fund Extension course. Student learning occurs through assisting in the management the SMF and its activities, and in undertaking research in support of investment recommendations and design of investment processes. The course is essentially an advanced form of activity-based learning, where teaching staff provide direction and support through workshops and consultations rather than formal lectures."
+  "description": ""
  },
  {
   "code": "FINM3010",
@@ -394,7 +394,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM3010",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Students in this course will be responsible for the management of the Student Managed Fund (SMF), under the guidance of course convenors. The primary task of students will be to make investment recommendations to be reviewed and endorsed by an Investment Advisory Committee that includes industry practitioners and ANU staff. Another key role of students enrolled in the course is to undertake management roles and be responsible for the day-to-day functions typical of a managed fund. An SMF Charter and Governance Structure sets out the policies and procedures under which the SMF operates.\n\nAdmission to the course will be restricted to those students who have completed the Student Managed Fund Course with a grade of at least a credit. To ensure continuity, students enrolled in the Student Managed Fund Extension course will adopt senior managerial and decision-making roles; and will be responsible for training the students enrolled in the Student Managed Fund course. Students learning occurs through being responsible for managing the SMF and its activities, and undertaking research in order to formulate investment recommendations and design investment processes. The course is essentially an advanced form of activity-based learning, where teaching staff provide direction and support through workshops and consultations rather than formal lectures."
+  "description": ""
  },
  {
   "code": "FINM3011",
@@ -423,7 +423,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM3011",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is designed to prepare students for designing investment portfolios. It covers duties to clients, types of investment products, explores links between investment risk and return, introduces tools for use in portfolio construction, brings in analysis of fixed income products and introduces techniques to evaluate past investment performance."
+  "description": ""
  },
  {
   "code": "FINM3015",
@@ -467,7 +467,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM3015",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The course provides an introduction to novel financial technology. It is intended for students wishing to explore the ways in which new technologies are disrupting the financial services industry, driving material change in business models, products, applications and customer user interfaces. The course will discuss how the competitive landscape is shaping the adoption of new technologies in the field of finance. The course will focus on blockchain technology, cryptography, cryptoassets and their impact on payments, capital markets, trading, lending and insurance."
+  "description": ""
  },
  {
   "code": "FINM3045",
@@ -494,7 +494,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM3045",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides an overview of current Asian capital markets. The growth of Asian economies has been spectacular in the past 60 years; the advancement of Japan from the 1950s until the beginning of 1990s, the emerging Asian Tigers (Hong Kong, Korea, Singapore, Taiwan) in the 1980s, and the rapid transformation and growth of China and India since the 1990s. Asian capital markets are quite diverse as they consist of emerging markets at different stages of development as well as mature markets. Therefore, it is not easy to view Asian capital markets through a single lens. However, this course not only introduces students to capital markets in various Asian countries but also attempts at introducing a unified conceptual framework to understand markets in these countries. The framework focuses on institutional environments (such as legal systems) in different countries and their impacts on corporate behaviour. We also present empirical evidence that such a framework might not necessarily explain the recent developments in China and India. Two of the important features in Asian capital markets, which contrast those of capital markets in UK-US, are the roles played by the State and closely tied families, which we will discuss in detail. The globalization of the world economy in the past two decades has affected the developments of Asian capital markets. Although our course may discuss the development of capital markets of individual countries, we will discuss Asian economies in the global context and will explore the increasing weight of Asia in the world economy."
+  "description": ""
  },
  {
   "code": "FINM4015",
@@ -503,7 +503,7 @@
   "level": 4000,
   "title": "Advanced Corporate Finance",
   "units": 6,
-  "summary": "This course introduces students to the academic research in corporate finance.  Corporate finance theory deals with the roles of corporations in the capital market and the interactions between investors, managers, regulators and other stakeholders.",
+  "summary": "This course introduces students to the academic research in corporate finance.",
   "offered": [
    "S1",
    "S2"
@@ -521,7 +521,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM4015",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces students to the academic research in corporate finance. Corporate finance theory deals with the roles of corporations in the capital market and the interactions between investors, managers, regulators and other stakeholders. The objectives of this course are to learn the theories of corporate finance, analyse the research questions, and critically evaluate the academic papers.\n\nThis course focuses on selected classic and contemporary theoretical and empirical academic papers and provides students with an advanced and rigorous background in mainstream issues in modern corporate finance research.\n\nAt the end of the course, it is expected that the students have developed an appreciation of the role of theory in corporate finance research, an in-depth knowledge of the research methods and philosophies employed in researching a wide range of corporate finance problems and issues, and an ability to critically analyse, and evaluate the literature in corporate finance."
+  "description": ""
  },
  {
   "code": "FINM4017",
@@ -530,7 +530,7 @@
   "level": 4000,
   "title": "Trading and Markets",
   "units": 6,
-  "summary": "Most finance courses assume that markets are efficient and that securities can be issued and traded easily and at no cost.  In practice markets are more complex and there are substantial costs associated with issuing and trading securities.",
+  "summary": "Most finance courses assume that markets are efficient and that securities can be issued and traded easily and at no cost.",
   "offered": [],
   "requisiteText": "To enrol in this course you must be completing the Finance honours specialisation.",
   "rule": {
@@ -545,7 +545,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM4017",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Most finance courses assume that markets are efficient and that securities can be issued and traded easily and at no cost. In practice markets are more complex and there are substantial costs associated with issuing and trading securities. This course therefore explores (i) how markets are organised; (ii) how trading is conducted in these markets; (iii) the role of different types of market participants; and (iv) how markets are regulated. It considers how these factors influence price formation, investment returns and capital raising."
+  "description": ""
  },
  {
   "code": "FINM4106",
@@ -554,7 +554,7 @@
   "level": 4000,
   "title": "Advanced Investments",
   "units": 6,
-  "summary": "The objective of this course is to familiarise students with the seminal and contemporary literature on selected topics in theoretical, empirical and applied finance as it relates to investment analysis.",
+  "summary": "The objective of this course is to familiarise students with the seminal and contemporary literature on selected topics in theoretical, empirical and applied…",
   "offered": [
    "S1",
    "S2"
@@ -582,7 +582,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM4106",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The objective of this course is to familiarise students with the seminal and contemporary literature on selected topics in theoretical, empirical and applied finance as it relates to investment analysis. The material and structure of the course is designed to provide students with an advanced understanding of investment decision making. The course is directed at postgraduate and honours students and is designed for students wishing to pursue higher level studies or a career relating to investment analysis and decision making. The course material builds on undergraduate studies in the area of investments. The material is heavily orientated to research issues and their practical problems."
+  "description": ""
  },
  {
   "code": "FINM4500",
@@ -591,7 +591,7 @@
   "level": 4000,
   "title": "Finance Honours Thesis",
   "units": 24,
-  "summary": "This course requires students to complete a 24-unit Honours thesis in Finance.  Students will undertake independent research in finance under the guidance of a supervisor.",
+  "summary": "This course requires students to complete a 24-unit Honours thesis in Finance.",
   "offered": [
    "S1",
    "S2"
@@ -604,7 +604,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM4500",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course requires students to complete a 24-unit Honours thesis in Finance. Students will undertake independent research in finance under the guidance of a supervisor. At completion of this thesis course, students will have developed the capacity to perform high-level independent research, and have an in-depth knowledge of their chosen research topic."
+  "description": ""
  },
  {
   "code": "FINM4600",
@@ -613,7 +613,7 @@
   "level": 4000,
   "title": "Special Topics in Finance",
   "units": 6,
-  "summary": "The content for this Special Topics course is not fixed, but will be determined by the lecturer(s) of the course. Details for a specific offering of the course can be found in the class summary.",
+  "summary": "The content for this Special Topics course is not fixed, but will be determined by the lecturer(s) of the course.",
   "offered": [],
   "requisiteText": null,
   "rule": null,
@@ -623,7 +623,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM4600",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The content for this Special Topics course is not fixed, but will be determined by the lecturer(s) of the course. Details for a specific offering of the course can be found in the class summary."
+  "description": ""
  },
  {
   "code": "FINM6005",
@@ -632,7 +632,7 @@
   "level": 6000,
   "title": "Applied Valuation",
   "units": 6,
-  "summary": "Applied Valuation is a “capstone” finance course that draws on core corporate finance principles, theories and methods previously studied.  Students will work in teams to value an existing company, present their analysis and investment recommendation.",
+  "summary": "Applied Valuation is a “capstone” finance course that draws on core corporate finance principles, theories and methods previously studied.",
   "offered": [
    "S1",
    "S2"
@@ -648,7 +648,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM6005",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Applied Valuation is a “capstone” finance course that draws on core corporate finance principles, theories and methods previously studied. Students will work in teams to value an existing company, present their analysis and investment recommendation. The techniques covered include discounted cash flow, multiple-based and asset-based valuations. Because of the richness of the approach, most of the focus will be on discounted cash flow analysis. While this entails more work and requires significant student initiative, this type of ‘learning by doing’ should provide a lasting framework."
+  "description": ""
  },
  {
   "code": "FINM6006",
@@ -657,7 +657,7 @@
   "level": 6000,
   "title": "Continuous Time Finance",
   "units": 6,
-  "summary": "Continuous Time Finance provides an introduction to the theory and practice of derivative pricing and hedging.  The aim of this course is to provide students with the mathematical skills needed for the valuation of derivatives.",
+  "summary": "Continuous Time Finance provides an introduction to the theory and practice of derivative pricing and hedging.",
   "offered": [
    "S1"
   ],
@@ -695,7 +695,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM6006",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Continuous Time Finance provides an introduction to the theory and practice of derivative pricing and hedging. The aim of this course is to provide students with the mathematical skills needed for the valuation of derivatives. Focus will be on both the application of results and the underlying mathematical theory. These tools will be applied to derive the famous Black-Scholes formula, to price options on equities, currencies and interest-rate derivatives."
+  "description": ""
  },
  {
   "code": "FINM6007",
@@ -722,7 +722,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM6007",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This is an advanced course in derivatives pricing and hedging, and their applications. The aim is to cover advanced topics in the Black-Scholes model such as optimal stopping theory for pricing and hedging American options, change of numeraire methods, derivatives dependent on one or more Brownian motions, pricing options on correlated assets and various exotic options. In addition, the course also covers alternatives to the Black-Scholes model such as local volatility, jump diffusion and GARCH models, and concepts from risk management such as credit risk. Some time will be spent on the mathematical foundations necessary for understanding these and other applications."
+  "description": ""
  },
  {
   "code": "FINM6009",
@@ -731,7 +731,7 @@
   "level": 6000,
   "title": "Student Managed Fund",
   "units": 6,
-  "summary": "Students in this course will receive training in the management of the Student Managed Fund (SMF), under the guidance of course conveners and students enrolled in Student Managed Fund Extension.",
+  "summary": "Students in this course will receive training in the management of the Student Managed Fund (SMF), under the guidance of course conveners and students…",
   "offered": [
    "S1",
    "S2"
@@ -744,7 +744,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM6009",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Students in this course will receive training in the management of the Student Managed Fund (SMF), under the guidance of course conveners and students enrolled in Student Managed Fund Extension. The primary task of students will be to provide support in formulating investment recommendations to be reviewed and endorsed by an Investment Advisory Committee that includes industry practitioners and ANU staff. The students will also be responsible for assisting in the day-to-day functions typical of a managed fund. An SMF Charter and Governance Structure Statement sets out the policies and procedures under which the SMF operates.\n\nAdmission to the course will be selective, with the expectation that students who successfully complete the Student Managed Fund course will continue to the Student Managed Fund Extension course. To ensure continuity, students enrolled in the Student Managed Fund Extension course will adopt senior managerial and decision-making roles; and will be responsible for training the students enrolled in the Student Managed Fund course so that they can progress to the senior roles when enrolled in the Student Managed Fund Extension course. Student learning occurs through assisting in the management the SMF and its activities, and in undertaking research in support of investment recommendations and design of investment processes. The course is essentially an advanced form of activity-based learning, where teaching staff provide direction and support through workshops and consultations rather than formal lectures."
+  "description": ""
  },
  {
   "code": "FINM6010",
@@ -766,7 +766,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM6010",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Students in this course will be responsible for the management of the Student Managed Fund (SMF), under the guidance of course conveners. The primary task of students will be to make investment recommendations to be reviewed and endorsed by an Investment Advisory Committee that includes industry practitioners and ANU staff. Another key role of students enrolled in the course is to undertake management roles and be responsible for the day-to-day functions typical of a managed fund. An SMF Charter and Governance Structure sets out the policies and procedures under which the SMF operates.\n\nAdmission to the course will be restricted to those students who have completed the Student Managed Fund Course with a grade of at least a credit. To ensure continuity, students enrolled in the Student Managed Fund Extension course will adopt senior managerial and decision-making roles; and will be responsible for training the students enrolled in the Student Managed Fund course. Students learning occurs through being responsible for managing the SMF and its activities, and undertaking research in order to formulate investment recommendations and design investment processes. The course is essentially an advanced form of activity-based learning, where teaching staff provide direction and support through workshops and consultations rather than formal lectures."
+  "description": ""
  },
  {
   "code": "FINM6015",
@@ -811,7 +811,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM6015",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The course provides an introduction to novel financial technology. It is intended for students wishing to explore the ways in which new technologies are disrupting the financial services industry, driving material change in business models, products, applications and customer user interfaces. The course will discuss how the competitive landscape is shaping the adoption of new technologies in the field of finance. The course will focus on blockchain technology, cryptography, cryptoassets and their impact on payments, capital markets, trading, lending and insurance."
+  "description": ""
  },
  {
   "code": "FINM6016",
@@ -839,7 +839,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM6016",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Applied Portfolio Construction draws on previously studied investment principles, theories and techniques. The objective of this course is to enable students to synthesize the acquired financial theories and knowledge in the context of portfolio construction and asset allocation. It focuses on gaps in theory and how they can be managed in practice. Examples include challenges/realities in estimating and implementing portfolio optimisation programs, role of liquidity, and importance of plan governance. It covers topics such as types of investors and their objectives; dimensions of risk; asset allocation; the nature and role of various asset classes (equity, fixed income, alternative assets, FX); building multi-manager portfolios, and implementation issues."
+  "description": ""
  },
  {
   "code": "FINM6041",
@@ -848,7 +848,7 @@
   "level": 6000,
   "title": "Applied Derivatives",
   "units": 6,
-  "summary": "This unit is designed to further students’ understanding of futures and options contracts and their use in managing risk.  It builds upon material covered in FINM7006 and STAT7055.",
+  "summary": "This unit is designed to further students’ understanding of futures and options contracts and their use in managing risk.",
   "offered": [
    "S1",
    "S2"
@@ -895,7 +895,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM6041",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This unit is designed to further students’ understanding of futures and options contracts and their use in managing risk. It builds upon material covered in FINM7006 and STAT7055. FINM6041 provides an overview of options, futures, forwards and swaps on a range of underlying assets/commodities including stocks, interest rates, foreign exchange as well as more exotic instruments. The models used for pricing these instruments will be examined as well as techniques used for risk management."
+  "description": ""
  },
  {
   "code": "FINM6045",
@@ -938,7 +938,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM6045",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides an overview of current Asian capital markets. The growth of Asian economies has been spectacular in the past 60 years; the advancement of Japan from the 1950s until the beginning of 1990s, the emerging Asian Tigers (Hong Kong, Korea, Singapore, Taiwan) in the 1980s, and the rapid transformation and growth of China and India since the 1990s. Asian capital markets are quite diverse as they consist of emerging markets at different stages of development as well as mature markets. Therefore, it is not easy to view Asian capital markets through a single lens. However, this course not only introduces students to capital markets in various Asian countries but also attempts at introducing a unified conceptual framework to understand markets in these countries. The framework focuses on institutional environments (such as legal systems) in different countries and their impacts on corporate behaviour. We also present empirical evidence that such a framework might not necessarily explain the recent developments in China and India. Two of the important features in Asian capital markets, which contrast those of capital markets in UK-US, are the roles played by the State and closely tied families, which we will discuss in detail. The globalization of the world economy in the past two decades has affected the developments of Asian capital markets. Although our course may discuss the development of capital markets of individual countries, we will discuss Asian economies in the global context and will explore the increasing weight of Asia in the world economy."
+  "description": ""
  },
  {
   "code": "FINM7006",
@@ -947,7 +947,7 @@
   "level": 7000,
   "title": "Applied Foundations of Finance",
   "units": 6,
-  "summary": "This course is designed to familiarise students with the components of the financial system as well as to introduce them to the three basic ideas underpinning finance: the time value of money, diversification, and arbitrage.",
+  "summary": "This course is designed to familiarise students with the components of the financial system as well as to introduce them to the three basic ideas underpinning…",
   "offered": [
    "S1",
    "S2"
@@ -962,7 +962,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM7006",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is designed to familiarise students with the components of the financial system as well as to introduce them to the three basic ideas underpinning finance: the time value of money, diversification, and arbitrage. The aim of the course is to provide students with introductory exposure to financial transactions, institutions and markets including money markets, stock markets, foreign exchange, derivative markets and contracts. It provides students with a solid foundation for later studies in finance."
+  "description": ""
  },
  {
   "code": "FINM7007",
@@ -971,7 +971,7 @@
   "level": 7000,
   "title": "Applied Corporate Finance",
   "units": 6,
-  "summary": "This course focuses on tools and techniques used in modern financial management.  Material in the course has an applied focus and is designed to provide students with the knowledge and skills required for understanding, exploring and analysing financial management issues.",
+  "summary": "This course focuses on tools and techniques used in modern financial management.",
   "offered": [
    "S1",
    "S2"
@@ -1018,7 +1018,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM7007",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course focuses on tools and techniques used in modern financial management. Material in the course has an applied focus and is designed to provide students with the knowledge and skills required for understanding, exploring and analysing financial management issues. The course draws upon topical material in order to contextualise theoretical discussion, and present students with examples in practice.\n\nSpecific topics to be covered include: financial mathematics, security valuation, techniques for capital investment decisions, financial decision making, corporate capital structure, cost of capital, dividend decision and policy, leasing decision and the analysis of mergers and acquisitions."
+  "description": ""
  },
  {
   "code": "FINM7008",
@@ -1086,7 +1086,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM7008",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course allows students to acquire and apply the skills needed to design investment portfolios. It covers duties to clients, types of investment products, explores links between investment risk and return, introduces tools for use in portfolio construction, brings in analysis of fixed income products and introduces techniques to evaluate past investment performance."
+  "description": ""
  },
  {
   "code": "FINM8004",
@@ -1095,7 +1095,7 @@
   "level": 8000,
   "title": "Advanced Corporate Finance",
   "units": 6,
-  "summary": "This course introduces students to the academic research in corporate finance.  Corporate finance theory deals with the roles of corporations in the capital market and the interactions between investors, managers, regulators and other stakeholders.",
+  "summary": "This course introduces students to the academic research in corporate finance.",
   "offered": [
    "S1",
    "S2"
@@ -1124,7 +1124,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM8004",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces students to the academic research in corporate finance. Corporate finance theory deals with the roles of corporations in the capital market and the interactions between investors, managers, regulators and other stakeholders. The objectives of this course are to learn the theories of corporate finance, analyse the research questions, and critically evaluate the academic papers.\n\nThis course focuses on selected classic and contemporary theoretical and empirical academic papers and provides students with an advanced and rigorous background in mainstream issues in modern corporate finance research.\n\nAt the end of the course, it is expected that the students have developed an appreciation of the role of theory in corporate finance research, an in-depth knowledge of the research methods and philosophies employed in researching a wide range of corporate finance problems and issues, and an ability to critically analyse, and evaluate the literature in corporate finance."
+  "description": ""
  },
  {
   "code": "FINM8006",
@@ -1133,7 +1133,7 @@
   "level": 8000,
   "title": "Advanced Investments",
   "units": 6,
-  "summary": "The objective of this course is to familiarise students with the seminal and contemporary literature on selected topics in theoretical, empirical and applied finance as it relates to investment analysis.",
+  "summary": "The objective of this course is to familiarise students with the seminal and contemporary literature on selected topics in theoretical, empirical and applied…",
   "offered": [
    "S1",
    "S2"
@@ -1196,7 +1196,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM8006",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The objective of this course is to familiarise students with the seminal and contemporary literature on selected topics in theoretical, empirical and applied finance as it relates to investment analysis. The material and structure of the course is designed to provide students with an advanced understanding of investment decision making. The course is directed at postgraduate and honours students and is designed for students wishing to pursue higher level studies or a career relating to investment analysis and decision making. The course material builds on undergraduate studies in the area of investments. The material is heavily orientated to research issues and their practical problems."
+  "description": ""
  },
  {
   "code": "FINM8007",
@@ -1205,7 +1205,7 @@
   "level": 8000,
   "title": "Topics in International Finance",
   "units": 6,
-  "summary": "This course is designed to provide students with the theoretical and analytical skills necessary to understand and evaluate key financial issues in the international finance and capital markets.",
+  "summary": "This course is designed to provide students with the theoretical and analytical skills necessary to understand and evaluate key financial issues in the…",
   "offered": [
    "S1",
    "S2"
@@ -1232,7 +1232,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM8007",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is designed to provide students with the theoretical and analytical skills necessary to understand and evaluate key financial issues in the international finance and capital markets. Students will be introduced to fundamental principles of international financial management, and also become familiar with financial hedging strategies. Main topics include the international money market, international banking, exchange rate determination and purchasing power parity, effects of financial globalization, as well as financial risk management methodologies."
+  "description": ""
  },
  {
   "code": "FINM8014",
@@ -1269,7 +1269,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM8014",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course covers the theory and practice of financial intermediation, broadly construed to include banks, savings institutions and investment/merchant banks. Topics will include the role of banking firms in a developed capital market, their impact on corporate financial decisions for non-banking firms, and the regulation of banks. The course includes a comprehensive analysis of the role of financial intermediaries in the development of fixed income markets and provides an analysis of fixed income securities. Additional topics include models and techniques used for managing credit risk, interest rate risk and liquidity risk. These are applied to maturity matching, duration and immunization, loan sales, securitization, collateralized debt obligations (CDOs), and collateralized mortgage obligations (CMOs)."
+  "description": ""
  },
  {
   "code": "FINM8017",
@@ -1278,7 +1278,7 @@
   "level": 8000,
   "title": "Trading and Markets",
   "units": 6,
-  "summary": "Most finance courses assume that markets are efficient and that securities can be issued and traded easily and at no cost.  In practice markets are more complex and there are substantial costs associated with issuing and trading securities.",
+  "summary": "Most finance courses assume that markets are efficient and that securities can be issued and traded easily and at no cost.",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed FINM7007 and FINM7008. Incompatible with FINM4017",
   "rule": {
@@ -1304,7 +1304,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM8017",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Most finance courses assume that markets are efficient and that securities can be issued and traded easily and at no cost. In practice markets are more complex and there are substantial costs associated with issuing and trading securities. This course therefore explores (i) how markets are organised; (ii) how trading is conducted in these markets; (iii) the role of different types of market participants; and (iv) how markets are regulated. It considers how these factors influence price formation, investment returns and capital raising."
+  "description": ""
  },
  {
   "code": "FINM8018",
@@ -1313,7 +1313,7 @@
   "level": 8000,
   "title": "Doctoral Studies in Asset Pricing",
   "units": 6,
-  "summary": "This course develops modern asset pricing theory and provides students with an in-depth knowledge of asset pricing models.  It explains how to use discrete-time and continuous-time models.",
+  "summary": "This course develops modern asset pricing theory and provides students with an in-depth knowledge of asset pricing models.",
   "offered": [
    "S2"
   ],
@@ -1341,7 +1341,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM8018",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course develops modern asset pricing theory and provides students with an in-depth knowledge of asset pricing models. It explains how to use discrete-time and continuous-time models. We preview the classic issues in finance and think about asset pricing in a simple economic equilibrium. We study contingent claims and learn how to value them using discount factors. We explore the mean-variance frontier and beta representations, and study the classic linear models such as CAPM, ICAPM and APT. We value options and bonds, learn about portfolio theory and explore the intersection of asset pricing and macro-economics. In-class learning is augmented with tailored homework assignments, the reading, presentation and discussion of related frontier research, and a hands-on, research-focused final project that prepares students for independent future work."
+  "description": ""
  },
  {
   "code": "FINM8019",
@@ -1350,7 +1350,7 @@
   "level": 8000,
   "title": "Doctoral Studies in Corporate Finance",
   "units": 6,
-  "summary": "This course provides an overview of modern corporate finance.  The growth of corporate finance has been spectacular since Modigliani and Miller developed the capital-structure irrelevance proposition in 1958.",
+  "summary": "This course provides an overview of modern corporate finance.",
   "offered": [
    "S2"
   ],
@@ -1378,7 +1378,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM8019",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides an overview of modern corporate finance. The growth of corporate finance has been spectacular since Modigliani and Miller developed the capital-structure irrelevance proposition in 1958. After reviewing Modigliani and Miller (1958), we study the optimal capital structure under the presence of various frictions in which capital structure affects firm value. We cover the static trade-off theory, agency problem, principal-agent model, mechanism design approach of capital structure, and incomplete contracts. In addition, we cover the literature on investment and banking. Lastly, we cover modern empirical methods to test various hypotheses in corporate finance. In particular, we focus on quasi-experimental and structural approaches."
+  "description": ""
  },
  {
   "code": "FINM8020",
@@ -1411,7 +1411,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM8020",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This research level course introduces students in finance and related fields to current asset pricing research, both applied theoretical and empirical. The focus will be on learning how to implement recent advances in the area, and to help develop ideas for new high-quality research. To achieve this, the course will involve a combination of readings, discussions, and implementation."
+  "description": ""
  },
  {
   "code": "FINM8021",
@@ -1444,7 +1444,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM8021",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course will cover a wide range of topics in empirical corporate finance. The material covered in this course will provide students with: (i) rigorous understanding and ability to apply various empirical methods used in corporate finance research; and (ii) interesting and exciting topics to consider for their dissertation."
+  "description": ""
  },
  {
   "code": "FINM8100",
@@ -1453,7 +1453,7 @@
   "level": 8000,
   "title": "Applied Project in Finance",
   "units": 6,
-  "summary": "This course provides an opportunity for students to work on an applied project in finance. Students will work on one of a range of possible topics, each of which are motivated by recent innovations in financial markets.",
+  "summary": "This course provides an opportunity for students to work on an applied project in finance.",
   "offered": [
    "S1",
    "S2"
@@ -1493,7 +1493,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM8100",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides an opportunity for students to work on an applied project in finance. Students will work on one of a range of possible topics, each of which are motivated by recent innovations in financial markets."
+  "description": ""
  },
  {
   "code": "FINM8500",
@@ -1502,7 +1502,7 @@
   "level": 8000,
   "title": "Finance Masters Thesis",
   "units": 12,
-  "summary": "This course requires students to complete a 12 to 24-unit masters thesis in the field of Finance.  The course is available to excellent students enrolled in the Master of Finance or the Master of Financial Economics who wish to progress to PhD study.",
+  "summary": "This course requires students to complete a 12 to 24-unit masters thesis in the field of Finance.",
   "offered": [
    "S1",
    "S2"
@@ -1531,6 +1531,6 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FINM8500",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course requires students to complete a 12 to 24-unit masters thesis in the field of Finance. The course is available to excellent students enrolled in the Master of Finance or the Master of Financial Economics who wish to progress to PhD study. Students will undertake independent research under the guidance of a supervisor. At completion of this thesis course, students will have developed the capacity to perform high-level independent research, and have an in-depth knowledge of their chosen research topic."
+  "description": ""
  }
 ]

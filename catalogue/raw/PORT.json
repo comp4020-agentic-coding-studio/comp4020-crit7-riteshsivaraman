@@ -11,7 +11,7 @@
   "subjectName": "Portuguese",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course offers a practical introduction to the Portuguese language. It is designed to develop basic listening, speaking, reading and writing skills at the novice level through a communicative and culture-based approach. Students acquire the language largely through simulated real-life situations in the classroom and beyond. By immersing themselves in the language, they develop a knowledge and understanding of culture and traditions in Portuguese-speaking countries around the world.",
+  "summary": "",
   "requisiteText": "You are not able to enrol in this course if you have previously completed any of the following courses: PORT1002, PORT2001, PORT2002, PORT6501, PORT6502, PORT6503 or PORT6504."
  },
  {
@@ -26,7 +26,7 @@
   "subjectName": "Portuguese",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course builds on Introductory Portuguese I, and develops further the students' reading, writing and conversational skills at an advanced beginner's level with Portuguese as the medium of instruction. Teaching is based on a communicative approach to language learning simulating real-life situations in the classroom and beyond. The course also continues to introduce and expands on cultural aspects and traditional knowledge related the Portuguese speaking world through the language classes.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed PORT1001, or have equivalent level of language proficiency as demonstrated by placement test, or with permission of the convener.\nYou are not able to enrol in this course if you have previously completed any of the following courses: PORT2001, PORT2002, PORT6502, PORT6503 or PORT6504."
  }
 ]
