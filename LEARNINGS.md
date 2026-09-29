@@ -47,3 +47,14 @@ Lesson: always stop any dev server you started before finishing a task, and
 before any `rm -rf .data` (or similar), check `lsof -i` for listeners on the
 ports this project uses and treat a hit as a stop-and-report, not something
 to delete under.
+
+## Astro 7's `astro dev` daemonizes: the shell command returns while the server keeps running
+
+In W0, `pnpm dev --port 4411` printed "Dev server running at
+http://localhost:4411 (pid N)" and exited 0 straight away, with the server
+still listening in the background. So a backgrounded `pnpm dev` finishing
+does not mean the server stopped, and killing the shell doesn't stop it.
+Stop it with `pnpm exec astro dev stop` (it prints the pid it stopped), then
+confirm with `lsof -nP -i :4411` that nothing is in `LISTEN` (a browser's
+leftover `CLOSE_WAIT` sockets are fine). Same bug class as the orphaned dev
+server entry above, with a new way in.
