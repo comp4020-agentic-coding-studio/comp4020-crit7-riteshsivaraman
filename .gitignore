@@ -24,3 +24,7 @@ mise.local.toml
 # your course API key, and this repo goes public when you ship. Your tracked
 # harness is CLAUDE.md (and any AGENTS.md), not this directory.
 .claude/
+
+# the scraper's raw HTML cache (scripts/scrape-catalogue.ts) --- makes a run
+# resumable; only the extracted text in catalogue/raw/ is committed
+.cache/

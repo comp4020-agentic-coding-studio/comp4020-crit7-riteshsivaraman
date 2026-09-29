@@ -1,0 +1,381 @@
+[
+ {
+  "code": "SCNC1002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC1002",
+  "title": "Global Experiences in Science",
+  "unitsText": "0 to 12 units",
+  "units": 0,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "Winter Session 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Not available for general enrolment.\n\nThis course allows individuals or small groups of students to study a Science topic abroad under the guidance of an ANU academic. Part of the course may be delivered at ANU before departure. Delivery of the course will potentially be a combination of lectures, field trips, workshops and/or practical work. The subject of topics will vary depending on offerings from the College of Science.\n\nPrevious Topics have included (but not limited to) support of the ACICIS study abroad experiences:\n\nACICIS - Public Health Study Tour\n\nACICIS - Public Health Immersion Program\n\nACICIS - Agriculture Professional Practicum",
+  "requisiteText": null
+ },
+ {
+  "code": "SCNC1022",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC1022",
+  "title": "Special Topics in Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course is intended to provide flexible options for individuals or small groups of students to undertake a hands on experience in the field, lab or workshop within any science discipline usually not covered in courses delivered elsewhere within the University. Delivery of the course will potentially be a combination of lectures, field trips, workshops or practical work. The subject of topics will vary depending on offerings from the College of Health and Medicine or the College of Science.\n\nThe details of the topic will be negotiated between the student and the supervisor/s and be approved by the relevant Associate Director (Education).",
+  "requisiteText": null
+ },
+ {
+  "code": "SCNC2000",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC2000",
+  "title": "Science Internship",
+  "unitsText": "6 to 12 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course provides an opportunity for high-achieving science students to apply and develop professional skills and attributes in an area of their choice. This course offers opportunities to network with professional organisations such as local and national government and industry, and to acquire skills, knowledge and professional attributes which will facilitate future employment and career outcomes. The internship will be under the direct supervision of a workplace professional, with access to an appropriate academic within the ANU College of Science or ANU College of Health and Medicine. Students are generally expected to have already completed Science courses relevant to their placement topic. The internship is expected to be on a topic of professional interest to the student and the supervising workplace.",
+  "requisiteText": null
+ },
+ {
+  "code": "SCNC2021",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC2021",
+  "title": "Science Research Project",
+  "unitsText": "6 to 12 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The course allows students to pursue a research project on a topic that extends coursework learning. The course is centred on conducting original research under an academic supervisor, in order to develop independent research skills and experience.\n\nThe details of the project will be negotiated between the student and the supervisor/s and be approved by the relevant School’s Associate Director (Science Education) prior to enrolment. The research project may be conducted within a research group or in collaboration with an industry or government body. The project may be on a topic that is of interest to and/or encompasses multiple disciplines in science.\n\nNote: This is an Honours Pathway Course (HPC)",
+  "requisiteText": "To enrol in this course you must have completed 48 units toward a Science undergraduate degree."
+ },
+ {
+  "code": "SCNC2022",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC2022",
+  "title": "Special Topics in Science",
+  "unitsText": "6 to 12 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course allows students to pursue a special topic of individual or small-group study in order to gain particular or additional knowledge in a science topic, usually not covered in courses taught elsewhere in the University. Depending on the topic, students may be required to develop and implement a research plan under the supervision of an academic member of staff; to pursue a guided reading program; to develop and implement a project with external stakeholders and/or practitioners under the supervision of an academic member of staff; and/or to take part in selected lectures, workshops, tutorials, seminars, discussion groups, field trips and other activities.\n\nThe details of the topic will be negotiated between the student and the supervisor/s and be approved by the relevant Associate Director (Education).",
+  "requisiteText": "To enrol in this course you must have completed a minimum of 72 units of courses offered by the College of Science or the College of Health and Medicine, or with permission of the course convener, or have met the perquisites identified in the class summary for the relevant offering.\n\nPlease submit a permission code request to the ANU College of Science to enrol in this course."
+ },
+ {
+  "code": "SCNC2101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC2101",
+  "title": "Advanced Studies Course",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This is an Advanced Studies Course (ASC) within the PhB (Hons) - Science degree. Students do multiple ASCs during their degree studies, each specifically designed to provide a strong research focus customised to each student. These courses are taken under the direction of the academic supervisor of a student in the PhB (Hons) - Science degree, but may involve teaching and learning from a very wide variety of sources. The program of study and/or research is approved by the relevant PhB School Discipline Coordinator and the PhB Convenor on the recommendation of the student's academic supervisor. The sources include but are not limited to:\n\n* Involvement in current research at the University or CSIRO\n\n* Special lecture courses\n\n* Reading courses/ literature surveys\n\n* Specially designed courses of field work or laboratory work\n\n* Development of problems for competitions like the Australian Mathematics Competition\n\n* A program designed in conjunction with one of the organisations working with Australia's teams in the Science and Mathematics Olympiads\n\n* A program of mentoring for other students that involves both production, for example on the web, and delivery of teaching materials",
+  "requisiteText": "To enrol in this course you must be studying the program 4660 or 4661"
+ },
+ {
+  "code": "SCNC2201",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC2201",
+  "title": "Optimism and Agency in Times of Change",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Systems and Society",
+  "career": "Undergraduate",
+  "description": "Would you like to make a difference to the world, but are not sure how, or where to start?\n\nThis course invites students into a workshop environment with guest speakers from inside and outside the university. You will learn about the wide range of ways of contributing to global challenges, helping you to find directions that fit with your strengths and interests and to develop a sense of agency and empowerment. The focus of the course is on positive engagement with issues (not lectures on problems) and on solution-oriented action. You will come away from the course with increased clarity about the directions available to you, and an increased capacity to make a difference.",
+  "requisiteText": "To enrol in this course you must have successfully completed 24 units towards a degree."
+ },
+ {
+  "code": "SCNC3000",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC3000",
+  "title": "Science Internship",
+  "unitsText": "6 to 12 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course provides an opportunity for high-achieving science students to apply and develop professional skills and attributes in an area of their choice. This course offers opportunities to network with professional organisations such as local and national government and industry, and to acquire skills, knowledge and professional attributes which will facilitate future employment and career outcomes. The internship will be under the direct supervision of a workplace professional, with access to an appropriate academic within the ANU College of Science or ANU College of Health and Medicine. Students are generally expected to have already completed Science courses relevant to their placement topic. The internship is expected to be on a topic of professional interest to the student and the supervising workplace.",
+  "requisiteText": "Students must be enrolled in a science degree and have completed a minimum of 96 units with at least a Credit average in Science courses (5.0 GPA). Enrolment will be dependent on a suitable placement and the availability of both an external and internal (ANU) supervisor."
+ },
+ {
+  "code": "SCNC3021",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC3021",
+  "title": "Science Research Project",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The course allows students to pursue a research project on a topic that extends coursework learning. The course is centred on conducting original research under an academic supervisor, in order to develop independent research skills and experience.\n\nThe details of the project will be negotiated between the student and the supervisor/s and be approved by the relevant School’s Associate Director (Science Education) prior to enrolment. The research project may be conducted within a research group or in collaboration with an industry or government body. The project may be on a topic that is of interest to and/or encompasses multiple disciplines in science.\n\nNote: This is an Honours Pathway Course (HPC)",
+  "requisiteText": "To enrol in this course you must have completed 96 units toward a Science undergraduate degree"
+ },
+ {
+  "code": "SCNC3022",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC3022",
+  "title": "Special Topics in Science",
+  "unitsText": "6 to 12 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course allows students to pursue a special topic of individual or small-group study in order to gain particular or additional knowledge in a science topic, usually not covered in courses taught elsewhere in the University. Depending on the topic, students may be required to develop and implement a research plan under the supervision of an academic member of staff; to pursue a guided reading program; to develop and implement a project with external stakeholders and/or practitioners under the supervision of an academic member of staff; and/or to take part in selected lectures, workshops, tutorials, seminars, discussion groups, field trips and other activities.\n\nThe details of the topic will be negotiated between the student and the supervisor/s and be approved by the relevant Associate Director(Education).",
+  "requisiteText": "To enrol in this course you must have completed a minimum of 72 units of courses offered by the College of Science or the College of Health and Medicine, or with permission of the course convener, or have met the perquisites identified in the class summary for the relevant offering.\n\nPlease submit a permission code request to the ANU College of Science to enrol in this course."
+ },
+ {
+  "code": "SCNC3101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC3101",
+  "title": "Advanced Studies Course",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This is an Advanced Studies Course (ASC) within the PhB (Hons) - Science degree. Students do multiple ASCs during their degree studies, each specifically designed to provide a strong research focus customised to each student. These courses are taken under the direction of the academic supervisor of a student in the PhB (Hons) - Science degree, but may involve teaching and learning from a very wide variety of sources.\n\nThe program of study and/or research is approved by the relevant PhB School Discipline Coordinator and the PhB Convenor on the recommendation of the student's academic supervisor.\n\nThe sources include but are not limited to:\n\n* Involvement in current research at the University or CSIRO\n\n* Special lecture courses\n\n* Reading courses/ literature surveys\n\n* Specially designed courses of field work or laboratory work\n\n* Development of problems for competitions like the Australian Mathematics Competition\n\n* A program designed in conjunction with one of the organisations working with Australia's teams in the Science and Mathematics Olympiads\n\n* A program of mentoring for other students that involves both production, for example on the web, and delivery of teaching materials",
+  "requisiteText": "To enrol in this course you must be studying the program 4660 or 4661 and:\nYou must have successfully completed SCNC2101 at least once and 72 units towards a degree OR\nYou must have successfully completed SCNC2101 at least three times OR\nYou must have successfully completed 96 units."
+ },
+ {
+  "code": "SCNC4000",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC4000",
+  "title": "Science Honours",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The science honours course is intended for students who have a broad and interdisciplinary training in science and are interested in undertaking an independent research project that crosses standard disciplinary boundaries. The science honours course is usually taken full time for two consecutive semesters and includes research training, in-depth analysis of current concepts in the fields as well as a substantial research project culminating in the production of a thesis. Honours is a solid foundation in the basics of research and can be an entry into many careers both within and outside of science.",
+  "requisiteText": null
+ },
+ {
+  "code": "SCNC5920",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC5920",
+  "title": "Exchange Program for Science Students (Band 2)",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Winter Session 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Exchange course - administrative course",
+  "requisiteText": null
+ },
+ {
+  "code": "SCNC8000",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC8000",
+  "title": "Science Internship",
+  "unitsText": "6 to 12 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course provides an opportunity for high-achieving graduate science students to apply and develop professional skills and attributes in an area of their choice. This course offers opportunities to network with professional organisations such as local and national government and industry, and to acquire skills, knowledge and professional attributes which will facilitate future employment and career outcomes. The internship will be under the direct supervision of a workplace professional, with access to an appropriate academic within the ANU Colleges of Science. Students are generally expected to have already completed Science courses relevant to their placement topic. The internship is expected to be on a topic of professional interest to the student and the supervising workplace.",
+  "requisiteText": "Students must be enrolled into a Masters-level program and have completed at least one semester at ANU before applying."
+ },
+ {
+  "code": "SCNC8001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC8001",
+  "title": "Science Higher Degree by Research Internship",
+  "unitsText": "3 to 24 units",
+  "units": 3,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course provides an opportunity for HDR students to apply and develop professional skills and attributes in an area of their choice. This course offers opportunities to network with professional organisations such as local and national government and industry, and to acquire skills, knowledge and professional attributes which will facilitate future employment and career outcomes. The internship will be under the mentorship of a workplace professional, with access to an appropriate academic within the ANU Colleges. Students are generally expected to undertake an internship that is broadly relevant to their research field.",
+  "requisiteText": null
+ },
+ {
+  "code": "SCNC8021",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC8021",
+  "title": "Science Research Project",
+  "unitsText": "3 to 24 units",
+  "units": 3,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "The course allows students to pursue a research project on a topic that extends coursework learning. The course is centred on conducting original research under an academic supervisor, in order to develop independent research skills and experience.\n\nThe details of the project will be negotiated between the student and the supervisor/s and be approved by the relevant School’s Associate Director (Science Education) prior to enrolment. The research project may be conducted within a research group or in collaboration with an industry or government body. The project may be on a topic that is of interest to and/or encompasses multiple disciplines in science.",
+  "requisiteText": "Enrolment will be dependent on the approval of the relevant graduate program convenor."
+ },
+ {
+  "code": "SCNC8022",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC8022",
+  "title": "Special Topics in Science",
+  "unitsText": "6 to 12 units",
+  "units": 6,
+  "offeredRaw": [
+   "Autumn Session 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course allows students to pursue a special topic of individual or small-group study in order to gain particular or additional knowledge in a science topic, usually not covered in courses taught elsewhere in the University. Depending on the topic, students may be required to develop and implement a research plan under the supervision of an academic member of staff; to pursue a guided reading program; to develop and implement a project with external stakeholders and/or practitioners under the supervision of an academic member of staff; and/or to take part in selected lectures, workshops, tutorials, seminars, discussion groups, field trips, training and other activities.\n\nThe details of the topic will be negotiated between the student and the supervisor/s and be approved by the relevant Associate Director (Education).",
+  "requisiteText": null
+ },
+ {
+  "code": "SCNC8820",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC8820",
+  "title": "Exchange Program for Graduate Science Students",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Not required - Administrative course",
+  "requisiteText": null
+ },
+ {
+  "code": "SCNC9820",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCNC9820",
+  "title": "Non Award Science Research Course for Exchange Students",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "Quarter 1 2026",
+   "First Semester 2026",
+   "Quarter 2 2026",
+   "Quarter 3 2026",
+   "Second Semester 2026",
+   "Quarter 4 2026"
+  ],
+  "subjectName": "Faculty of Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Research",
+  "description": "Exchange course - administrative course",
+  "requisiteText": null
+ }
+]

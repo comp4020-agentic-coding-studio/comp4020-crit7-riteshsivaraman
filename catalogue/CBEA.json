@@ -1,0 +1,348 @@
+[
+ {
+  "code": "CBEA2000",
+  "subject": "CBEA",
+  "number": 2000,
+  "level": 2000,
+  "title": "Employability Fundamentals for Professional Practice",
+  "units": 6,
+  "summary": "This course is designed to raise students' awareness of the necessary knowledge for a successful pursuit of career opportunities.",
+  "offered": [],
+  "requisiteText": "To enrol in the course, students must have completed a minimum 24 units of their undergraduate studies",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in the course, students must have completed a minimum 24 units of their undergraduate studies"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CBEA2000",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course is designed to raise students' awareness of the necessary knowledge for a successful pursuit of career opportunities. Students will undertake practical training on how to develop employability skills and capabilities by taking advantage of available resources and services in preparation for the future world of work. By completing this course, students will achieve an in-depth understanding of modern recruitment practices, gain a rich exposure to industry expectations across different professions, incorporate their learning into their chosen career paths, and execute their job search and application process for success. Students will enjoy learning from academics with expertise in employability, career specialists and industry experts."
+ },
+ {
+  "code": "CBEA2001",
+  "subject": "CBEA",
+  "number": 2001,
+  "level": 2000,
+  "title": "Australian Indigenous Perspectives in Business and Economics",
+  "units": 6,
+  "summary": "This course aims to introduce students to Australia's Indigenous history and cultures as relevant to understanding and undertaking business opportunities and policy development within the Australian context.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "24 units of study and must be enrolled in a CBE degree.\n\nPlease note if you’re in a Flexible Double Degree with a CBE program, you will need a permission code to enrol into this course, please contact info.cbe@anu.edu.au",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "24 units of study and must be enrolled in a CBE degree"
+    },
+    {
+     "kind": "INFO",
+     "info": "PERMISSION",
+     "text": "Please note if you’re in a Flexible Double Degree with a CBE program, you will need a permission code to enrol into this course, please contact info.cbe@anu.edu.au"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CBEA2001",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course aims to introduce students to Australia's Indigenous history and cultures as relevant to understanding and undertaking business opportunities and policy development within the Australian context. An overview of Aboriginal and Torres Strait Islander history and cultural identity will be interwoven with perspectives and integration in areas such as economics, accounting, marketing, management and finance. Students will gain an understanding of the rightful place of Australia's Indigenous peoples, an appreciation of key areas and interests in the business world as pertaining to Aboriginal and Torres Strait Island peoples, and an understanding of working alongside communities for business development and relationship building."
+ },
+ {
+  "code": "CBEA3001",
+  "subject": "CBEA",
+  "number": 3001,
+  "level": 3000,
+  "title": "College of Business and Economics Special Industry Project",
+  "units": 6,
+  "summary": "Work integrated learning is the core component of the Special Industry Project course.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To be eligible for the Special Industry Project course, a student must be a current undergraduate student enrolled in an ANU academic program (including single or double degrees). The student must have completed a minimum of 72 units of their undergraduate studies. Students must not undertake CBEA3001 and CBEA3070/ANIP3003/ANIP3005/ANIP3007/VCUG3200 concurrently.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "To be eligible for the Special Industry Project course, a student must be a current undergraduate student enrolled in an ANU academic program (including single or double degrees)"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "The student must have completed a minimum of 72 units of their undergraduate studies"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Students must not undertake CBEA3001 and CBEA3070/ANIP3003/ANIP3005/ANIP3007/VCUG3200 concurrently"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CBEA3001",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Work integrated learning is the core component of the Special Industry Project course. The course provides a group of undergraduate students across the university with the opportunity to work in a small cross-disciplinary team setting and solve a business problem presented by a live business client. The academic component of the course is comprised of a series of master classes delivered by academic experts and industry professionals. Under the supervision of the course convenor and the support of designated industry mentors, students will apply their theoretical knowledge in practice by working on innovative solutions that address the specified business issue from the live business client that is located in Australia or overseas. The Special Industry Project course facilitates undergraduate students’ development of professional skills important for their job market readiness."
+ },
+ {
+  "code": "CBEA3003",
+  "subject": "CBEA",
+  "number": 3003,
+  "level": 3000,
+  "title": "Australian and First Nations Business Immersion",
+  "units": 6,
+  "summary": "This course aims to expose students to the distinctive industry environments of selected regions in Australia through site visits to local government agencies, businesses, and communities.",
+  "offered": [],
+  "requisiteText": "This course is open to all ANU undergraduate students who are currently enrolled in an ANU College of Business and Economics program. Students will be selected to enrol in the course following a competitive application process. Preference will be given to CBE students who have completed at least 96 units of their program at the time of applying. In addition to course tuition fees, a participation fee is required for the industry and community immersion component of the course.\n\nThe course will be incompatible with CBE Global Business Immersion (CBEA3066).",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "This course is open to all ANU undergraduate students who are currently enrolled in an ANU College of Business and Economics program"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Students will be selected to enrol in the course following a competitive application process"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Preference will be given to CBE students who have completed at least 96 units of their program at the time of applying"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "In addition to course tuition fees, a participation fee is required for the industry and community immersion component of the course"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "The course will be incompatible with CBE Global Business Immersion (CBEA3066)"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CBEA3003",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course aims to expose students to the distinctive industry environments of selected regions in Australia through site visits to local government agencies, businesses, and communities. It will also allow students to explore the unique context of First Nations businesses and communities, examining their roles, challenges, and strengths within these industry environments. For example, students could consider how the traditional owners could balance economic independence with industry requirements, government legislation and cultural obligations. The over-arching goal of the course is to showcase the importance of using local resources and expertise to sustain local economies and promote equity for businesses and communities.\n\nThis course will also emphasise personal and professional development in key areas such as leadership, management, marketing, entrepreneurship and business. The course will typically involve a visit of up to 5 days in the selected regions in Australia. Students will be selected to enrol in the course following a competitive application process.\n\nSpecific details for each immersion program will be published on the College of Business and Economics website.\n\nStudents will only be permitted to travel upon completion of ANU required documentation, including, where required, the travel to a high risk destination form and the approval of all documentation by the relevant delegate.\n\nDisclaimer: Applicants are advised that due to circumstances beyond the University's control (for example, specific security concerns and health crises), it may not be possible for students to commence or complete this course as advertised."
+ },
+ {
+  "code": "CBEA3066",
+  "subject": "CBEA",
+  "number": 3066,
+  "level": 3000,
+  "title": "Global Business Immersion",
+  "units": 6,
+  "summary": "The over-arching goal of this in-country intensive course is to provide students with an exposure to the business environment of the selected country through site visits to corporations, NGOs and government agencies.",
+  "offered": [],
+  "requisiteText": "This course is open to all ANU undergraduate students who are currently enrolled in an ANU College of Business and Economics program. Students will be selected to enrol in the course following competitive application process. Preference will be given to CBE students who have completed at least 96 units of their program at the time of applying. In addition to course tuition fees, a participation fee is required for the in-country immersion component of the course.\n\nIncompatible with CBEA3002 Social Enterprise Experience and CBEA3002 Australian and First Nations Business Immersion.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "This course is open to all ANU undergraduate students who are currently enrolled in an ANU College of Business and Economics program"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Students will be selected to enrol in the course following competitive application process"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Preference will be given to CBE students who have completed at least 96 units of their program at the time of applying"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "In addition to course tuition fees, a participation fee is required for the in-country immersion component of the course"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "CBEA3002"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CBEA3066",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The over-arching goal of this in-country intensive course is to provide students with an exposure to the business environment of the selected country through site visits to corporations, NGOs and government agencies. It will also provide an opportunity to understand the cultural and historical dimensions that shape business practice. This course will also emphasise personal and professional development in key areas such as leadership, management, marketing, entrepreneurship and international business. The course will typically involve a visit of up to 10 days in the selected country. Students will be selected to enrol in the course following a competitive application process.\n\nSpecific details for each in-country program will be published on the College of Business and Economics website.\n\nStudents will only be permitted to travel upon completion of ANU required documentation including, where required, the travel to a high risk destination form, and the approval of all documentation by the relevant delegate.\n\nDisclaimer: Applicants are advised that due to circumstances beyond the University's control (for example, specific international security concerns and international health crises) it may not be possible for students to commence or complete this course as advertised."
+ },
+ {
+  "code": "CBEA3070",
+  "subject": "CBEA",
+  "number": 3070,
+  "level": 3000,
+  "title": "ANU College of Business and Economics Internship Program (UG)",
+  "units": 6,
+  "summary": "The College of Business and Economics (CBE) Internship Program provides students with an opportunity to gain real-world experience in an organisation through a workplace internship.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To be eligible for the CBE Internship Program, students must be a current undergraduate student enrolled in a CBE academic program (including single or double degrees).\n\nThe student must have completed a minimum 72 units of their undergraduate studies with GPA of 5.0 for their entire academic career.\n\nA student with a fail grade (N, NCN, WN) in the preceding semester is ineligible to apply. Any unresolved grades will be dealt with on a case-by-case basis. Students must not undertake CBEA3070 and CBEA3001 concurrently.\n\nNon-award and Exchange students are not eligible to apply for this course.\n\nPermission codes to enrol in the course will only be issued to students who are offered an internship placement through a competitive application process. Calls for applications are made approximately 3-4 months before the beginning of the semester. To apply for an internship, each prospective student must meet the eligibility requirements and have sufficient space in their programs of study for this course. To confirm eligibility, please contact the CBE Student Services team on info.cbe@anu.edu.au.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "To be eligible for the CBE Internship Program, students must be a current undergraduate student enrolled in a CBE academic program (including single or double degrees)"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "The student must have completed a minimum 72 units of their undergraduate studies with GPA of 5.0 for their entire academic career"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "A student with a fail grade (N, NCN, WN) in the preceding semester is ineligible to apply"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Any unresolved grades will be dealt with on a case-by-case basis"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Students must not undertake CBEA3070 and CBEA3001 concurrently"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Non-award and Exchange students are not eligible to apply for this course"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Permission codes to enrol in the course will only be issued to students who are offered an internship placement through a competitive application process"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Calls for applications are made approximately 3-4 months before the beginning of the semester"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "To apply for an internship, each prospective student must meet the eligibility requirements and have sufficient space in their programs of study for this course"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "To confirm eligibility, please contact the CBE Student Services team on info.cbe@anu.edu.au"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CBEA3070",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The College of Business and Economics (CBE) Internship Program provides students with an opportunity to gain real-world experience in an organisation through a workplace internship. The work placement component of the course, either 120 hours (6 units) or 240 hours (12 units), can be carried out in-person, in hybrid mode or virtually. The placement will make a significant contribution to improving students' employability through a well-designed internship project and reinforces the relationships CBE entertains and engages in with industry partners. The internship project has a strong focus on developing students’ capabilities in terms of their professionalism, teamwork, communication and problem-solving skills. Each intern will show evidence of competencies and skills acquired through close working relationships and collaboration with professional colleagues, a workplace supervisor and academic advisor. The internship program offers industry collaborators the opportunity to co-create value through students’ application of their theoretical knowledge and capabilities developed throughout their programs and get access to ANU talents."
+ },
+ {
+  "code": "CBEA5920",
+  "subject": "CBEA",
+  "number": 5920,
+  "level": 5000,
+  "title": "Exchange Program ANU College of Business and Economics - Band 2",
+  "units": 6,
+  "summary": "",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CBEA5920",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": ""
+ },
+ {
+  "code": "CBEA5921",
+  "subject": "CBEA",
+  "number": 5921,
+  "level": 5000,
+  "title": "Exchange – ANU College of Business and Economics _ Bachelor of Social Sciences (Honours)",
+  "units": 6,
+  "summary": "",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CBEA5921",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": ""
+ },
+ {
+  "code": "CBEA6070",
+  "subject": "CBEA",
+  "number": 6070,
+  "level": 6000,
+  "title": "ANU College of Business and Economics Internship Program (PG)",
+  "units": 6,
+  "summary": "The College of Business and Economics (CBE) Internship Program provides students with an opportunity to gain real-world experience in an organisation through a workplace internship.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To be eligible for the CBE Internship Program, students must be a current postgraduate student enrolled in an eligible CBE academic program.\n\nAt the time of application, students must be enrolled in or have completed 24 units of study at the ANU. Students enrolled in an eligible 1 year Master program can only apply for a 6 unit internship.\n\nNon-award and Exchange students are not eligible to apply for this course.\n\nPermission codes to enrol in the course will only be issued to students who are offered an internship placement through a competitive application process. Calls for applications are made approximately 3-4 months before the beginning of the semester. To apply for an internship, each prospective student must meet the eligibility requirements and have sufficient space in their programs of study for this elective. To confirm eligibility, please contact the CBE Student Services team on info.cbe@anu.edu.au.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "To be eligible for the CBE Internship Program, students must be a current postgraduate student enrolled in an eligible CBE academic program"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "At the time of application, students must be enrolled in or have completed 24 units of study at the ANU"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Students enrolled in an eligible 1 year Master program can only apply for a 6 unit internship"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Non-award and Exchange students are not eligible to apply for this course"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Permission codes to enrol in the course will only be issued to students who are offered an internship placement through a competitive application process"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Calls for applications are made approximately 3-4 months before the beginning of the semester"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "To apply for an internship, each prospective student must meet the eligibility requirements and have sufficient space in their programs of study for this elective"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "To confirm eligibility, please contact the CBE Student Services team on info.cbe@anu.edu.au"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CBEA6070",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The College of Business and Economics (CBE) Internship Program provides students with an opportunity to gain real-world experience in an organisation through a workplace internship. The work placement component of the course, either 120 hours (6 units) or 240 hours (12 units), can be carried out in-person, in hybrid mode or virtually. The placement will make a significant contribution to improving students' employability through a well-designed internship project and reinforces the relationships CBE entertains and engages in with industry partners. The internship project has a strong focus on developing students’ capabilities in terms of their professionalism, teamwork, communication and problem-solving skills. Each intern will show evidence of competencies and skills acquired through close working relationships and collaboration with professional colleagues, a workplace supervisor and academic advisor. The internship program offers industry collaborators the opportunity to co-create value through students’ application of their theoretical knowledge and capabilities developed throughout their programs and get access to ANU talents."
+ }
+]

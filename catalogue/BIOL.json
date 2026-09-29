@@ -1,0 +1,105 @@
+[
+ {
+  "code": "BIOL3178",
+  "subject": "BIOL",
+  "number": 3178,
+  "level": 3000,
+  "title": "Recovering Threatened Species and Ecosystems",
+  "units": 6,
+  "summary": "The media and scientific literature is full of information about the increasingly desperate plight of our native plants and animals.",
+  "offered": [],
+  "requisiteText": "To enrol in this course, students must have successfully completed 72 units towards a degree including:\nat least one of: BIOL2131 or BIOL2114 or BIOL2151 or ENVS2001, and\none of: BIOL2001 or BIOL2202 or ENVS1003.\nIncompatible with BIOL6178",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "OR",
+     "children": [
+      {
+       "kind": "UNMODELLED",
+       "text": "72 units towards a degree including: at least one of: BIOL2131"
+      },
+      {
+       "kind": "COURSE",
+       "code": "BIOL2114",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "BIOL2151",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "ENVS2001",
+       "concurrent": false
+      }
+     ]
+    },
+    {
+     "kind": "OR",
+     "children": [
+      {
+       "kind": "COURSE",
+       "code": "BIOL2001",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "BIOL2202",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "ENVS1003",
+       "concurrent": false
+      }
+     ]
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "BIOL6178"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BIOL3178",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The media and scientific literature is full of information about the increasingly desperate plight of our native plants and animals. What you hear less about is the extraordinary efforts underway to reverse declines in biodiversity and how new scientific knowledge and tools are being applied to this end. That is the subject of this course, with a focus on recovering populations of threatened species and rebuilding functional ecological communities.\n\nThis course will introduce you to advanced concepts and tools for managing threatened species and ecosystems. Building on key concepts introduced in 2nd year courses, this course will provide you with an understanding of advanced concepts and tools, and the skills, to enable employment by conservation agencies/NGOs/consultants or to take further research in this area. It will focus on the interface between advances in science and practical management of threatened biodiversity with hands-on experience in ACT conservation reserves.\n\nHonours Pathway Option: an HPO is available for this course, this may be in the form of and enrichment extension of research projects. Please talk to the course convener.\n\nExpression of Interest required: Due to fieldwork restrictions, places are limited and an EOI is required by early January for consideration - see \"Other Information\" below for details."
+ },
+ {
+  "code": "BIOL6178",
+  "subject": "BIOL",
+  "number": 6178,
+  "level": 6000,
+  "title": "Recovering Threatened Species and Ecosystems",
+  "units": 6,
+  "summary": "The media and scientific literature is full of information about the increasingly desperate plight of our native plants and animals.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Biological Sciences or the Master of Science (Advanced) in Biological Sciences, Master of Environmental Science, Master of Environmental Science (Advanced), Master of Environment, Master of Environment (Advanced).\nIncompatible with BIOL3178",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "be active in the Master of Science in Biological Sciences"
+    },
+    {
+     "kind": "INFO",
+     "info": "PROGRAM",
+     "text": "the Master of Science (Advanced) in Biological Sciences or Master of Environmental Science or Master of Environmental Science (Advanced) or Master of Environment or Master of Environment (Advanced)"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "BIOL3178"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BIOL6178",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The media and scientific literature is full of information about the increasingly desperate plight of our native plants and animals. What you hear less about is the extraordinary efforts underway to reverse declines in biodiversity and how new scientific knowledge and tools are being applied to this end. That is the subject of this course, with a focus on recovering populations of threatened species and rebuilding functional ecological communities.\n\nThis course will introduce you to advanced concepts and tools for managing threatened species and ecosystems. Building on key concepts introduced in 2nd year courses, this course will provide you with an understanding of advanced concepts and tools, and the skills, to enable employment by conservation agencies/NGOs/consultants or to take further research in this area. It will focus on the interface between advances in science and practical management of threatened biodiversity with hands-on experience in ACT conservation reserves.\n\nNote: This course is co-taught with undergraduate students but assessed separately.\n\nExpression of Interest required: Please note that there are limited spaces and an EOI is required in early January for consideration - see \"Other Information\" below for details"
+ }
+]

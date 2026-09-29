@@ -108,3 +108,70 @@ as COMP2420, COMP3120, POLS2011, ACCT2101 returned HTTP 302 (a redirect)
 rather than 404. A scraper that only treats 404 as "missing, fall back to
 2025" would follow the redirect and parse whatever page it lands on. Treat
 a 3xx on a course URL as missing for that year.
+
+## better-sqlite3 turns foreign keys ON by default, so a table rebuild fails inside migrate()
+
+Migration 0001 rebuilds `courses` (create `__new_courses`, copy, drop,
+rename). Against a v1 database it failed at `DROP TABLE courses` because
+`plan_entries` references it: better-sqlite3 is compiled with
+`SQLITE_DEFAULT_FOREIGN_KEYS=1`, so FKs were on even though v1 never set the
+pragma (the "v1 FKs were decorative" note in PLAN.md §2.3 is wrong --- they
+were enforced all along). The sqlite3 CLI defaults them OFF, so the same SQL
+applied fine by hand, which hid it. And `PRAGMA foreign_keys` is a no-op
+inside a transaction, which drizzle's migrator opens, so the SQL file can't
+fix it itself. Fix: `db.ts` sets `foreign_keys = OFF` before `migrate()`,
+`ON` after, then runs `PRAGMA foreign_key_check` and refuses to boot on any
+row. Only an empty-DB test would never have seen this; the boot-sync test
+against a synthesized v1 DB is what caught it.
+
+## Astro answers a form-typed request with no/foreign Origin with 403 before your handler runs
+
+A test that POSTs `application/x-www-form-urlencoded` to check the app's own
+415 `UNSUPPORTED_MEDIA` got 403 instead: Astro's `checkOrigin` rejects
+form content types from a missing or foreign `Origin` first. The 415 path
+is only reachable same-origin, so the test sends `Origin: <base>` like a
+browser would. Both layers are real defences; just know which one a test is
+exercising.
+
+## A catalogue sensor can be pre-empted by the boot guard it duplicates
+
+Mutating `catalogue/*.json` (a 0-unit course, an unknown period, a wrong
+subject count) made `spec/catalogue.test.ts` "not go red" in a mutation
+harness --- because `global-setup.ts`'s server refused to boot first
+(`catalogue-sync.ts` validates every course), so no test ran at all. The
+suite was red, but not for the reason being checked. Re-run such mutations
+with a scratch config that has no `globalSetup` (see the vitest entry above)
+to see the data test itself go red.
+
+## Network I/O without deadlines in long-running batch jobs
+
+The first `scrape-catalogue.ts --all` run sat for 57 minutes with flat CPU,
+no file written, and one ESTABLISHED socket to the P&C host: Node's `fetch`
+has no default timeout, so one request the server accepted and never
+answered blocked the whole sequential batch forever. The retry/backoff loop
+never ran because nothing ever threw. Bug class: any network call in a
+batch job with no deadline (headers *or* body). Fix: every request gets
+`AbortSignal.timeout(...)` (the signal also covers reading the body, so
+"headers then silence" is cut off too), the resulting TimeoutError feeds the
+existing retry loop, and the job prints one timestamped line per item plus a
+watchdog `STALL:` line, so a hang shows in the log within minutes.
+Sensor: `scripts/scrape-catalogue.test.ts` runs a local server that accepts
+and never responds (and one that stalls mid-body) and requires the fetch to
+give up, having retried, within a bound.
+
+## A JSDOM window is only freed after a macrotask turn, so a loop of cache hits leaks every page
+
+With fetch deadlines fixed, the resumed `--all` run died of a V8 heap OOM
+(4 GB) at course ~740, while every page was still coming from the
+`.cache/pandc/` cache. Each `new JSDOM(html)` of a P&C page holds ~6 MB, and
+it is not reclaimed until the event loop takes a macrotask turn, even after
+`window.close()`. A loop over cache hits never yields one: awaiting an
+already-resolved promise only drains microtasks. Measured over 60 pages:
+520 MB retained with neither fix, 74 MB with `close()` alone, 41 MB with
+the yield alone, 11.5 MB with both. Bug class: per-item resources that need
+explicit release (or an event-loop turn) in long-running batch jobs. The
+trial runs over 3 subjects (~260 pages) never came near the limit, so only
+the full run showed it. Fix: `extractCourse` closes its window and
+`scrapeCourse` ends every course with `await new Promise(r =>
+setImmediate(r))`. Sensor: the heap test in `scripts/scrape-catalogue.test.ts`
+(no event-loop turn before its gc(), which is the batch loop's situation).

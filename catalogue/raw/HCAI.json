@@ -1,0 +1,53 @@
+[
+ {
+  "code": "HCAI9002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HCAI9002",
+  "title": "Writing for Publication: Developing an Academic Paper",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Humanities and Creative Arts Integration",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "This course will facilitate the writing and submission of a journal article, based on an existing draft piece of writing such as a thesis chapter or conference paper. Through a series of discussions, exercises and activities, including peer review of drafts, students will learn to structure a journal article, position their article in relation to current research, distill a cogent and compelling argument with sufficient evidence, and find an appropriate journal. As part of the course, students will become familiar with the peer review and publishing processes used by scholarly journals, and will critically examine scholarship on academic writing and publishing.",
+  "requisiteText": "To enrol in this course, students must be enrolled in a CASS PhD program and must have completed their Confirmation of Candidature milestone."
+ },
+ {
+  "code": "HCAI9010",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HCAI9010",
+  "title": "Creative Practice as Research",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Humanities and Creative Arts Integration",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Research",
+  "description": "A distinguishing characteristic of research in the creative arts is that its outputs can be creative outputs, for instance a work or a performance. This course provides researchers in creative arts practice with an introduction to the theories and methodologies underpinning creative practice as research. The course draws on written studies on creative practice as research, exegeses, creative outputs, and case studies. It will provide understandings and tools for the writing of an exegesis.",
+  "requisiteText": null
+ },
+ {
+  "code": "HCAI9104",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HCAI9104",
+  "title": "Thesis Writing Workshop: The Five Essential Elements of a Thesis",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Humanities and Creative Arts Integration",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "‘The Five Essential Elements of a Thesis’ workshop is designed to facilitate the initial phase of designing and planning an HDR-level research project in the Humanities, by giving students a clear overview of the basic elements common to a thesis in Humanities disciplines. The course will introduce the Five Essential Elements of a Thesis (issue, contexts, texts, methodology and voice). After introducing these concepts, the workshop will give students the opportunity to articulate these concepts in their own projects, and to receive feedback from staff and students in the course. The course will also include a session on ‘Developing an Argument’, which develops the skills of identifying the basic elements of description, analysis and argument, and incorporating these elements in their own writing practice. The ‘Five Essential Elements of a Thesis’ aims to help students prepare for their Thesis Proposal Review, while ‘Developing an Argument’ aids students in the writing process.",
+  "requisiteText": "To enrol in this course, students must be enrolled in a CASS PhD program."
+ }
+]

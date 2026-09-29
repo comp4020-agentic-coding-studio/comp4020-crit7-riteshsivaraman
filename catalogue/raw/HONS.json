@@ -1,0 +1,76 @@
+[
+ {
+  "code": "HONS4100",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HONS4100",
+  "title": "Final Honours Grade",
+  "unitsText": "0 units",
+  "units": 0,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Final Honours Grade",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course is to be enrolled in by honours students in their final semester of study. The purpose of this course is to award the final honours mark and class of honours. The final honours mark will be based on all of the courses taken towards the honours plan and be calculated as follows:\n\nΣ (mark x units) / Σ units, giving NCN and WN a nominal mark of zero\n\nThere is no work or assessment for this course in addition to that for other courses taken as part of the honours plan: it is purely an administrative mechanism for determining and awarding the overall honours mark and of the class of honours.",
+  "requisiteText": null
+ },
+ {
+  "code": "HONS4300",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HONS4300",
+  "title": "Final Honours Grade",
+  "unitsText": "0 units",
+  "units": 0,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Final Honours Grade",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Undergraduate",
+  "description": "",
+  "requisiteText": null
+ },
+ {
+  "code": "HONS4601",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HONS4601",
+  "title": "Final Honours Grade",
+  "unitsText": "0 units",
+  "units": 0,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Final Honours Grade",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course is to be enrolled in by honours students in their final semester of study. The purpose of this course is to award the final honours mark and class of honours. The final honours mark will be based on all of the courses taken towards the honours plan and be calculated as follows:\n\nΣ (mark x units) / Σ units, giving NCN and WN a nominal mark of zero\n\nThere is no work or assessment for this course in addition to that for other courses taken as part of the honours plan: it is purely an administrative mechanism for determining and awarding the overall honours mark and of the class of honours.",
+  "requisiteText": null
+ },
+ {
+  "code": "HONS4602",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HONS4602",
+  "title": "Final Honours Grade",
+  "unitsText": "0 units",
+  "units": 0,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Final Honours Grade",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course is to be enrolled in by honours students in their final semester of study. The purpose of this course is to award the final honours mark and class of honours. The final honours mark will be based on all of the courses taken towards the honours plan and be calculated as follows:\n\nΣ (mark x units) / Σ units, giving NCN and WN a nominal mark of zero\n\nThere is no work or assessment for this course in addition to that for other courses taken as part of the honours plan: it is purely an administrative mechanism for determining and awarding the overall honours mark and of the class of honours.",
+  "requisiteText": null
+ }
+]

@@ -1104,3 +1104,4 @@ downstream tracks rebase before continuing.)
 - 2026-09-30, after C: class contract + added tokens recorded; --warn-line darkened to meet 3:1 (orchestrator).
 - 2026-09-30, after B: v1 requisites.ts/terms.ts deletion moved to D; INFO nodes evaluate as met, so an OR with a program/permission branch never errors and shows an info note instead (orchestrator).
 - 2026-09-30: OR satisfiable only via an unverifiable branch → amber warning (Ritesh). `Issue` gains `UNVERIFIED_REQUISITE` (warning, `missing: Rule`, `detail: string`); §3.1 INFO semantics rewritten. Affects B (engine), D/E (render the new kind: `short` on the card, `detail` in the popover).
+- 2026-09-30: catalogue scoped to CSS + CBE colleges (Ritesh); raw scrape kept for all.

@@ -1,0 +1,81 @@
+[
+ {
+  "code": "SCRN2003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCRN2003",
+  "title": "Film and History: Hollywood and Beyond",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Screen Studies",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course examines the relationship between history and the moving image in two ways: by studying the history of film as well as history on film, from the beginnings of cinema to the ever-present screens of today. It begins with an analysis of the rise of Hollywood as an industrial and cultural institution, and explores the complex relationship and interaction between American and European cinema during the 20th century. At the same time, the course considers how history has been represented on screen, considering questions of authenticity, historical and national contexts, genre and production frameworks. From the Lumière brothers to the sword-and-sandal epics of Classical Hollywood and the historical reimaginings of Netflix series, we will investigate what formal strategies films and television series employ to depict historical events, places and the people within them.",
+  "requisiteText": "To enrol in this course you must have completed 12 units of 1000 level courses, or with permission of the convenor. You are not able to enrol in this course if you have previously completed FILM2006."
+ },
+ {
+  "code": "SCRN2005",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCRN2005",
+  "title": "Screen Cultures",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Screen Studies",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This topics course examines the intersections between culture, language and cinema or other screen-based media. Each topic provides students with an in-depth examination of a specific set of national, transnational or linguistic screen cultures. Students will watch a variety of feature films, employing the tools of film analysis to explore broader issues of history, culture, society and politics. While cinema is often considered through the lens of the national, this course considers the role of film in crossing borders, shaping identities and challenging assumptions about nation, language and culture.\n\nThe course can be taken more than once and individual topics will canvass questions such as the relationship between fiction and history, gender, sexuality and agency, language and colonialism, and dealing with traumatic pasts.\n\nTopics include (See Class tab for scheduling details):\n\nGerman Film since the Berlin Wall\n\nItaly on Screen\n\nPicturing Latin America and Spain\n\nFilms of the French-Speaking World\n\nAustralian Cinema\n\nMoving Bodies: Aesthetics and Performance in German Cinema from 1900-1945",
+  "requisiteText": null
+ },
+ {
+  "code": "SCRN2107",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCRN2107",
+  "title": "Picturing Latin America and Spain",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Screen Studies",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "From the mean streets of Buenos Aires to México City’s Colonia Roma, from the labyrinthine Paraguayan markets in Asunción to the revolutionary corners of 1960s Havana, from the oppressive atmosphere of Francoist Spain to modern-day Chile —in this course, we will watch a variety of feature films from across Latin America and Spain, examining how they picture socio-political as well as aesthetic turning points in Hispanic film history. We will read these audio-visual texts through a series of intersections such as aesthetical and political representation; fiction and history; masculinity and violence; feminism and agency; gender and class; Spanish and Indigenous languages and cultures. These diverse lenses will help us enhance our understanding of the Hispanic world and its filmic traditions.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed any of the following courses SCRN6107, FILM2013, FILM6013, SPAN2107 or SPAN6517."
+ },
+ {
+  "code": "SCRN3001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCRN3001",
+  "title": "Transnational Screens: Crossing Borders and Identities",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Screen Studies",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This team-taught course introduces students to a range of national and transnational filmmaking developments from the late 20th to early 21st centuries. Particular emphasis will be on the intersection of social identities shaped by aspects such as race, class, gender, sexuality, and migration, and students will develop an understanding of how screen-based cultural productions including film, television, and other digital media contribute to understandings of identity, belonging, and citizenship at the local, national, and global levels. They will develop their familiarity with a wide range of global cinematic traditions, and further their techniques in analyzing screen-based media, including questions of transnational production, distribution, and reception.",
+  "requisiteText": null
+ },
+ {
+  "code": "SCRN3003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCRN3003",
+  "title": "Screen Studies Capstone Project",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Screen Studies",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course is designed for students majoring in Screen Studies. It comprises a supervised problem-based research project that will demonstrate integration of learning across the major. It will focus on intensive study of one or more topics in Screen Studies through a combination of application of theoretical frameworks and practical issues concerning cinema, television, social media and streaming platforms.",
+  "requisiteText": "Students must contact the School of Literature, Languages and Linguistics to request a permission code to enrol in this course."
+ }
+]

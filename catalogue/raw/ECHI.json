@@ -1,0 +1,53 @@
+[
+ {
+  "code": "ECHI1006",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECHI1006",
+  "title": "The Australian Economy: Past and Present",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Economic History",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "The course explores the Australian economy in a historical context. It will examine aspects of the history of the Australian economy from early Indigenous society through to the present. It is intended for students who are seeking a broad understanding of how the economy works. The approach adopted will emphasise that the present Australian economy needs to be seen in the context of the historical pattern of development and change. While the course deals primarily with economic factors, social and political contexts and connections will also be considered.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed ECHI1001 or ECHI1003 or ECHI1004."
+ },
+ {
+  "code": "ECHI3009",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECHI3009",
+  "title": "World Economy Since 1800",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Economic History",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course analyzes historical major economic, political, and social changes in the world economy. These include factors contributing to increases in economic performance, changes in the form of government, technological change (including industrialization), and episodes of integration and disintegration of the global economy. Emphasis is on institutional changes in how societies organize economic and political activities and variation in development among geographic regions.",
+  "requisiteText": "To enrol in this course, you must have completed ECON2101 and ECON2102 or ECON2016. You cannot enrol in this course if you have completed ECHI2006, ECHI2016, or ECHI3019."
+ },
+ {
+  "code": "ECHI6009",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECHI6009",
+  "title": "The World Economy Since 1800",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Economic History",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course analyzes major historical economic, political, and social changes in the world economy. These include factors contributing to increases in economics performance, changes in the form of government, technological change (including industrialization), and episodes of integration and disintegration of the global economy. Emphasis is on institutional changes in how societies organize economic and political activities as well as on variation in development among geographic regions.",
+  "requisiteText": null
+ }
+]

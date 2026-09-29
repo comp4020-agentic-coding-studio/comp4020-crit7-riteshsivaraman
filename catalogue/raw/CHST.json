@@ -1,0 +1,36 @@
+[
+ {
+  "code": "CHST3211",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHST3211",
+  "title": "Reading China: Past and Present",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chinese Studies in Language",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "This is an advanced reading course offered in modern Chinese language to explore China’s modern history and contemporary society through intensive and extensive readings. The course aims to develop and enhance students' critical thinking through a series of thinking processes, including contextualising, interpreting, evaluating, and analysing the reading materials. It selects ten crucial themes including the New Culture Movement, gender, political campaigns, population policies, and rural issues. Students will engage with a wide range of reading materials including autobiography, novels, and journal articles to understand China from multiple perspectives. The course is organised in a chronological way with the first half of the course on Republican period (1912-1949) and the second on contemporary Chinese society (1949-present). This course helps students to develop and form their own arguments for research related to China. It is suitable for heritage learners or students who have an advanced level of proficiency in spoken and written Chinese (completion of Modern Chinese B CHIN3025).",
+  "requisiteText": "This course is suitable for native Chinese speakers or advanced Chinese language students.\nThis course is incompatible with CHIN3211, CHIN6211 and CHST6211."
+ },
+ {
+  "code": "CHST3212",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHST3212",
+  "title": "Reading Chinese Literature: Theory and Criticism",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chinese Studies in Language",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Taught entirely in Chinese in the Australian context, this course trains students in critical analysis and discussion of the most famous classical Chinese novel Hongloumeng and its brilliant English translation The Story of the Stone by David Hawkes and John Minford. Through minute textual analysis this course will explore this Chinese literary classic and its translation from an interdisciplinary perspective, aiming at training students to become more competent bilingual readers. The goal of the course is to engage with literary texts and critical thinking to develop independent research and academic writing skills, meanwhile emphasizing the idea of translation as a dialogue between the original and the translated text, between the translator and his former self, and a learning process both for the translator and the reader of his translation.",
+  "requisiteText": "This course is suitable for native Chinese speakers or advanced Chinese language students. This course is incompatible with CHIN3212, CHIN6212 and CHST6212."
+ }
+]

@@ -1,0 +1,36 @@
+[
+ {
+  "code": "RUSS1101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/RUSS1101",
+  "title": "Introductory Russian Studies I",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Russian",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course is designed to develop basic listening, speaking, reading, and writing skills in the Russian language. Students are introduced to life and culture of the Russian-speaking societies and principles of intercultural communication. The course incorporates principles of communicative and task-based language teaching.",
+  "requisiteText": "You cannot enrol in this course if you have already previously taken RUSS1102."
+ },
+ {
+  "code": "RUSS1102",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/RUSS1102",
+  "title": "Introductory Russian Studies II",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Russian",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "In this second introductory course students continue to develop basic listening, speaking, reading, and writing skills in the Russian language. Students are introduced to further aspects of life and culture of the Russian-speaking societies. The course incorporates principles of communicative and task-based language teaching.",
+  "requisiteText": "To enrol in this course you must have completed RUSS1101 (previously RUSS1003), or have equivalent level of language proficiency as demonstrated by placement test, or with permission of the convener."
+ }
+]

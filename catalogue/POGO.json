@@ -1,0 +1,23 @@
+[
+ {
+  "code": "POGO8138",
+  "subject": "POGO",
+  "number": 8138,
+  "level": 8000,
+  "title": "Science, Technology and Public Policy",
+  "units": 6,
+  "summary": "Science and technology (S&T) play a key role in shaping public policy issues in practically every sector.",
+  "offered": [],
+  "requisiteText": "This course is incompatible with VCPG8138 Science, Technology and Public Policy.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "VCPG8138"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POGO8138",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Science and technology (S&T) play a key role in shaping public policy issues in practically every sector. National governments and multilateral agencies (e.g., the United Nations) have high expectations of technological solutions to major policy problems related to the economy, public health, education, energy, agriculture, environment, defence and more. Yet, novel technologies also demand government intervention such as regulation in the public good. Likewise, developments in scientific knowledge have paradoxical effects. Science may be expected to resolve political conflicts by providing incontrovertible evidence to underpin policy, but novel science may equally create new uncertainties and disagreement amongst experts. Added to these challenges are emerging concerns about the ability of digital media to spread misinformation to the detriment of policy objectives.\n\nThis course provides concepts and frameworks for systematically exploring the interactions between science, technology and public policy. Drawing on the interface between science and technology studies (STS) and public policy studies, and employing a range of case studies, the course is delivered by a partnership between the Australian National Centre for Public Awareness of Science (CPAS, ANU College of Science) and the Crawford School."
+ }
+]

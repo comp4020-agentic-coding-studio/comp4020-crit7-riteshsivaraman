@@ -1,0 +1,66 @@
+[
+ {
+  "code": "SOCS9011",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SOCS9011",
+  "title": "Mixed Methods Social Research",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Social Sciences",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "This course is designed to give students an overview of the use of quantitative, qualitative and mixed methods for social research. Quantitative methods focus on objective measurements and the statistical, mathematical, or numerical analysis of data collected through polls, questionnaires, and surveys, or from existing administrative sources. Qualitative methods, on the other hand, rely on more in depth analysis, and focus on direct observation and/or the analysis of words, images or other text. While many research questions can be answered by using either quantitative or qualitative research methods, most research questions seeking to understand complex social phenomena are best approached by using a mixed methods design.\nThis course summarises the key aspects of quantitative and qualitative mixed methods, and uses a number of example research projects to discuss how they can be combined to answer key social research questions. Upon completion, students will be able to design, evaluate and analyse data using mixed methods approaches to social research. No prior knowledge in either quantitative or qualitative research methods is assumed.",
+  "requisiteText": null
+ },
+ {
+  "code": "SOCS9015",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SOCS9015",
+  "title": "Human Research Ethics and Integrity: Principles and Practice",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Social Sciences",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "Ethical conduct is a fundamental part of the research process. Australia has some of the world’s most rigorous ethics regulatory frameworks that seek to continually underwrite a high standard of research conduct--as evidenced by the National Statement on Ethical Conduct in Human Research (NHMRC et al, 2023), the Australian Code for the Responsible Conduct of Research (NHMRC et al, 2018), and the AIATSIS Code of Ethics (2020). This course aims to provide students with a solid understanding of the principles and practical aspects of ethical conduct in social science research. It seeks to examine various ethical framework to help social science doctoral students critically assess their own ethical behaviour throughout the life span of a project - beyond merely complying with regulatory bodies such as the ANU Human Research Ethics Committee (HREC).\n\nThe course is in two parts. Part I sets out first principles of ethical behaviour according to the National Statement, the Code of Responsible Conduct, and the AIATSIS Code. A brief overview of (a) ethical approaches; (b) ethical controversies, and (c) processes of research governance and ethical review, and common antagonisms between researchers and HRECs, is also offered. Part II adopts a narrow-and-deep focus by examining ethical considerations to specific types of participants (e.g. Aboriginal and Torres Strait Islander Peoples; children and young people, etc).\n\nThe course is largely applied in nature (research led problem-based learning), and seeks to complement other research methods courses available to HDR students.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed SOCR8015."
+ },
+ {
+  "code": "SOCS9082",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SOCS9082",
+  "title": "Social Research Practice",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Social Sciences",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "Close links exist between policy, practice and research. Yet data is often not available to help inform policy and/or practice. The ability to conduct high quality research in applied settings constitutes a set of skills that continue to be highly sought by government and non-government agencies, industry, and academia more generally.\n\nThis course aims to provide students with a solid understanding of each phase in the life of a research project (conception, scoping, planning, doing, and finalisation) and the way in which the components within each phase fit together. The course is applied in nature, and seeks to complement research methodology courses. It aims to provide the conceptual framework to help students develop and manage their own research projects (for post-graduate research or for use in the workplace) or to be able to commission or manage research by others.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed DEMO8082."
+ },
+ {
+  "code": "SOCS9101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SOCS9101",
+  "title": "The Craft of History: Approaches, Themes, Methods",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Social Sciences",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Research",
+  "description": "History is a discipline rooted in ancient intellectual traditions and responsive to scholarly innovations in method and approach. This course will expose students to a wide range of methods, themes and approaches in current historical research practice (which may include biographical, cultural, environmental, gender, indigenous, international, intellectual, legal, military, oral, political, popular, post-colonial, public, social, and technological history) and address questions of method and theory. It will focus, as well, on relevant interdisciplinary approaches, such as historical memory studies and ethnohistory. Central to all historical practice is the archive. Through critical readings and workshops, the course will provide opportunities for students to engage with the question of how to construct an archive for their own research projects.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed HIST8101 and HIST8102."
+ }
+]

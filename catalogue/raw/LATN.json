@@ -1,0 +1,71 @@
+[
+ {
+  "code": "LATN1001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/LATN1001",
+  "title": "Introductory Latin",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Latin",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course introduces students to the study of Latin. It consists of a series of carefully graded readings drawn (for the most part in modified form) from the writers of the Roman world, especially Plautus. As students work through these readings they are introduced to the fundamental grammatical principles that underpin Latin and to a basic working vocabulary in Latin.",
+  "requisiteText": null
+ },
+ {
+  "code": "LATN2119",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/LATN2119",
+  "title": "Continuing Latin",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Latin",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course continues the study of this key Classical language as students consolidate the basic elements covered in Introductory Latin, expand their working vocabulary, and are introduced to more advanced grammatical principles. Background information on Roman literature, culture and history is woven into the subject matter throughout the semester. Upon completion of the course, students should have sufficient expertise to read texts of moderate difficulty with assistance. Students who complete this course are eligible to progress to Intermediate Latin.",
+  "requisiteText": "To enrol in this course you must have completed LATN1001: Introductory Latin or have gained the permission of the convenor based on prior Latin study."
+ },
+ {
+  "code": "LATN2121",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/LATN2121",
+  "title": "Intermediate Latin",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Latin",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course continues the study of this key Classical language as students consolidate the basic elements covered in Continuing Latin, expand their working vocabulary, and are introduced to more advanced grammatical principles. Background information on Roman literature, culture and history is woven into the subject matter throughout the semester. Upon completion of the course, students should have sufficient expertise to read texts of moderate difficulty with assistance. Students who complete this course are eligible to progress to Intermediate Latin II.",
+  "requisiteText": "To enrol in this course you must have completed LATN2119: Continuing Latin or have gained the permission of the convenor based on prior Latin study."
+ },
+ {
+  "code": "LATN3125",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/LATN3125",
+  "title": "Advanced Latin",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Latin",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "Students continue their study of Latin literature, culture, history and language through the close study of a single author, a genre, or a theme. The special topic for each course (one per semester) will be announced each semester. The class will read the prescribed text(s) in class. Topics for discussion will emerge from the reading. There will be further tuition in and revision of the grammar and syntax of Latin.",
+  "requisiteText": "To enrol in this course you must have completed either LATN2121: Intermediate Latin at ANU or Year 12 Latin (or its equivalent)."
+ }
+]

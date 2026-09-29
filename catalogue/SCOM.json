@@ -1,0 +1,1168 @@
+[
+ {
+  "code": "SCOM1001",
+  "subject": "SCOM",
+  "number": 1001,
+  "level": 1000,
+  "title": "Science Communication 1: Introduction to Science Communication",
+  "units": 6,
+  "summary": "Introduction to Science Communication (SCOM1001) offers a smorgasbord of all things science communication!",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM1001",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Introduction to Science Communication (SCOM1001) offers a smorgasbord of all things science communication! Broken into three core elements - concepts, skills and contexts - and featuring diverse guest lectures, science communication methods, and much more, this foundation course is designed to help you taste a little bit of everything and discover the flavours of science communication.\n\nSCOM1001 is an excellent complement to any STEM, environment, psychology, health, or medicine degree. It gives students fundamental concepts and approaches to effectively communicate internally and externally from their core discipline to beyond. This is useful for cross-disciplinary research and problem solving, job or grant applications, stakeholder and public engagement, and many other tasks in professional science and technology contexts. It is also suitable for students from social science and arts disciplines who would like to build bridges to all things science.\n\nThe course provides an introduction to contemporary social and communication issues in science, technology, and society. It explore questions such as:\n\nConcepts\n\nhow did science communication evolve and how does its history inform practice today?\n\nwhat are the fundamental models and where are they useful?\n\nhow do the wider public view and engage with science, and how can you connect with them as a communicator?\n\nhow can we make messages relevant, convey complex ideas effectively, and tap into people's emotions?\n\nhow can science and science communication be more ethical, inclusive, and equitable?\n\nSkills\n\nhow can we use storytelling, podcasts and other narrative forms to engage?\n\nhow can we communicate through words, presentations, performances - even ideas from improv theatre?\n\nhow can we employ hands-on methods or live demonstrations used in science centres like Questacon and other informal science learning settings?\n\nContexts\n\nhow can we best communicate in the media or online?\n\ncan science communication enhance policy making and better bring science into the political sphere?\n\nwhere does science and its communication fit into areas like science fiction, comics and pop culture more broadly?\n\nwhat role can science communication play in addressing issues like health, sustainability, climate change, or responsible AI?\n\nNote the exact contexts explored in the course may vary from year to year based on guest lecture availability.\n\nFocusing on current events and issues facing scientists, science communicators, policy makers, and the community, SCOM1001 students are encouraged to discuss their own perceptions of science and technology in the context of society, and the problems with (and solutions to) communicating science with non-expert audiences. A strong emphasis is placed on collaboration with other students, and students are expected to take an active approach to learning."
+ },
+ {
+  "code": "SCOM1002",
+  "subject": "SCOM",
+  "number": 1002,
+  "level": 1000,
+  "title": "Science Communication 2: Evidence and Social Change",
+  "units": 6,
+  "summary": "Social change – even when science and other evidence seem to clearly point the way – is complex, hard and messy.  While experts present the ‘facts’ illuminating the optimal path forward, how people interpret, twist, use and misuse that evidence is as nuanced as society itself.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM1002",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Social change – even when science and other evidence seem to clearly point the way – is complex, hard and messy. While experts present the ‘facts’ illuminating the optimal path forward, how people interpret, twist, use and misuse that evidence is as nuanced as society itself. Scientific and other evidence is viewed and often distorted through cultural, political, corporate and economic lenses, with different stakeholders using it – explicitly or covertly – to advance their own interests. These are sometimes at odds with the public good, but science communication can offer insight and action to address this.\n\nIf you’ve ever lamented why we can’t ‘fix’ climate change despite overwhelming evidence telling us how to – or similar confounding issues – and want tools to deeply understand STEM issues and make a difference, then this is the course for you!\n\nWe explore social change and societal transitions through three key foci: the evidence, stakeholders involved, and media and public discourse. These aspects provide means for analysing complex cases of social change and better charting effective, inclusive solutions – an area where science communication can help. Learning experiences will help you deeply engage with science and technology related social change issues, broaden your insights through understanding others' perspectives, and generate solutions.\n\nWe’ll cover fundamental theory and social change models for STEM-related issues, then extend into diverse case studies across nature and sustainability, climate and energy transitions, and society, equity and justice. Students will hear from domain experts – astronomy, sustainability, health, law, electric skateboarding and many more (note guest content varies year to year) – and engage in dynamic, conversational lectures."
+ },
+ {
+  "code": "SCOM2003",
+  "subject": "SCOM",
+  "number": 2003,
+  "level": 2000,
+  "title": "Science in Film and Fiction",
+  "units": 6,
+  "summary": "How real are aliens, and how does it shape the scientific study of astrobiology?  What role did Star Trek's Lt Uhura play in recruiting astronauts to the NASA space program?  How might The Day After Tomorrow impact the public understanding of climate change?",
+  "offered": [
+   "SUMMER"
+  ],
+  "requisiteText": "To enrol in this course you must have completed 24 units of any courses.\n\nIncompatible with SCOM6003.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed 24 units of any courses"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "SCOM6003"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM2003",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "How real are aliens, and how does it shape the scientific study of astrobiology? What role did Star Trek's Lt Uhura play in recruiting astronauts to the NASA space program? How might The Day After Tomorrow impact the public understanding of climate change? How did the movie Interstellar make scientific discoveries? Do medical dramas on television do harm for the public perception of and interaction with healthcare?\n\nThis course provides an introduction to the impact of representations of science and scientists in film, television, fiction, and other media, and their public perceptions of science. It introduces research, theory, and methods as applied to this growing area. This course looks at the topic from multiple disciplines and methods from science, to social science, and arts. Using specific areas and contexts, including cultural, societal, and political issues, we look at how the public interacts with science and popular science media.\n\nStudents are encouraged to share their own experiences of science-based film, games, television, literature, and more to pursue their areas of interest through assessment. The intensive contact week has a mixture of lectures, classroom activities, and group interaction to explore these areas.\n\nThe major piece of assessment is a research project testing students' hypotheses about the impact that a work of fiction might have on public perceptions of science, and can employ science, social science, and/or art methods.\n\nThis course is co-taught with postgraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM2006",
+  "subject": "SCOM",
+  "number": 2006,
+  "level": 2000,
+  "title": "Science, Humour and Popular Culture",
+  "units": 6,
+  "summary": "How can humour – and what kind of humour – be used in science communication?  What does comic performance offer to understanding the public image and pop cultural narratives of science?  What can we learn from comic scientists about science?",
+  "offered": [
+   "WINTER"
+  ],
+  "requisiteText": "To enrol in this course you must have completed 24 units of tertiary study.\n\nIncompatible with SCOM6006.\n\nPlease apply for permission to enrol via the permission code portal.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNITS",
+     "min": 24,
+     "concurrent": false
+    },
+    {
+     "kind": "INFO",
+     "info": "PERMISSION",
+     "text": "Please apply for permission to enrol via the permission code portal"
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM6006"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM2006",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "How can humour – and what kind of humour – be used in science communication? What does comic performance offer to understanding the public image and pop cultural narratives of science? What can we learn from comic scientists about science? Humour, this course elucidates, is not only one of the most powerful tools in communication, but it also shapes – and has been shaping – cultural ideas of sciences. The course thus investigates both, the ways science has influenced and generated rich and fascinating comic traditions in popular culture, and how humour and comic performance have shaped cultural ideas of sciences and ‘science humour’. It looks at the exchange between popular entertainment and science in various media (e.g. comics, film, fiction) over the last 150 years and clarifies the power of humour for bringing science and scientists into the general public discussion.\n\nThis course is part of the teaching, research and engagement activities of the Popsicule, ANU's Science in Popular Culture and Entertainment Hub (https://popsicule.weblogs.anu.edu.au/). The Popsicule explores the cultural meanings of science with the aim to better understand how pop cultural narratives about science have affected the public discourse and understanding of science, and thus our science-society relationship.\n\nNote: This course is co-taught with postgraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM2015",
+  "subject": "SCOM",
+  "number": 2015,
+  "level": 2000,
+  "title": "Public Speaking About Science",
+  "units": 6,
+  "summary": "This is a practical course which aims to develop public speaking skills.  The emphasis is on presenting science live to a range of scientific and non-scientific audiences.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have completed 24 units of tertiary courses, or 12 units of SCOM coded courses, or have permission from the convener.\n\nIncompatible with SCOM2001 Practical Skills for Communicating Science and SCOM6015, except with permission of the convener.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "UNITS",
+     "min": 24,
+     "concurrent": false
+    },
+    {
+     "kind": "UNITS",
+     "min": 12,
+     "subject": "SCOM",
+     "concurrent": false
+    },
+    {
+     "kind": "INFO",
+     "info": "PERMISSION",
+     "text": "have permission from the convener"
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM2001",
+   "SCOM6015"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM2015",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This is a practical course which aims to develop public speaking skills. The emphasis is on presenting science live to a range of scientific and non-scientific audiences. Students learn to adapt presentation skills for different audiences, different aims, diverse scientific content and various time limits.\n\nAs the course is focused on public speaking skills, live in-person attendance during scheduled class time is very much recommended."
+ },
+ {
+  "code": "SCOM2016",
+  "subject": "SCOM",
+  "number": 2016,
+  "level": 2000,
+  "title": "Science, Journalism and Society",
+  "units": 6,
+  "summary": "For many people, the media is the only way they interact with any kind of scientific information.  However the way science is presented by media outlets can influence the way society perceives issues, and consequently how they respond to them.",
+  "offered": [
+   "WINTER"
+  ],
+  "requisiteText": "To enrol in this course you must have completed a minimum of 24 units of undergraduate courses.\nIncompatible with SCOM3002 and SCOM6016.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed a minimum of 24 units of undergraduate courses"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "SCOM3002",
+   "SCOM6016"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM2016",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "For many people, the media is the only way they interact with any kind of scientific information. However the way science is presented by media outlets can influence the way society perceives issues, and consequently how they respond to them. This course examines the roles and relationships between science, journalists and society and the factors which influence them. Through this course you will learn how to critically appraise how information is presented in news media, as well as how to write for the media. This course will equip you with practical skills to make science relevant and engaging in a range of contexts, far beyond the media. It will also help you to understand why some scientific issues are so polarising, and how to effectively communicate in contested spaces.\n\nHonours Pathway Option\n\nSubject to the approval of the course convenor, students may elect to take this as an HPO course. Under this option, students will complete a research report instead of the report or portfolio. Students must confirm which path they wish to take by week 4 of semester."
+ },
+ {
+  "code": "SCOM2031",
+  "subject": "SCOM",
+  "number": 2031,
+  "level": 2000,
+  "title": "Science, Risk, and Misinformation",
+  "units": 6,
+  "summary": "Uncertainty is everywhere.  We casually, often unknowingly, take risks and accept uncertainty many times a day without a second thought.  However, in the sciences, and in science communication, we cannot afford to be blasé.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have completed a minimum of 24 units of tertiary courses, or a minimum of 12 units of SCOM coded courses.\n\nIncompatible with SCOM3001 and SCOM6031",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "UNITS",
+     "min": 24,
+     "concurrent": false
+    },
+    {
+     "kind": "UNITS",
+     "min": 12,
+     "subject": "SCOM",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM3001",
+   "SCOM6031"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM2031",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Uncertainty is everywhere. We casually, often unknowingly, take risks and accept uncertainty many times a day without a second thought. However, in the sciences, and in science communication, we cannot afford to be blasé. The ramifications of poor risk communication can and do have dramatic, global consequences.\n\nFor years, issues around challenges like climate change, enhancing health and wellbeing and gene/ nanotechnologies have regularly highlighted the need for society to meaningfully communicate and debate the myriad risks associated with the appreciation and application of science, even when the various stakeholders involved are doing their best and acting in good faith. But what about when they aren't?\n\nIn the early 2020s, the COVID pandemic and its ongoing aftermath provided a vivid, global example of what can happen when accidentally, at times deliberately, false information is promoted and shared. Misinformation and disinformation swiftly became a core feature of the already complex environment of risk communication around the pandemic.\n\nIn this course, science communication is analysed from risk communication and ethical perspectives, with particular focus on the phenomenal rise of mis- and dis- information in public discourse. In the course we will examine and critically consider such questions as:\n\nWhat is risky, to whom, and why?\n\nHow is risk understood by experts?\n\nHow does it manifest in public domains?\n\nWhen does a risk become acceptable?\n\nIs it possible to speak about “real” or “true” science-based risks?\n\nHow can we analyse and conduct effective science communication work in a world where misinformation and disinformation are ubiquitous?\n\nWhat strategies and tactics exist to counter communication environments in which people wilfully aim to misinform, or are at least unconcerned about the veracity of their claims?\n\nTo what extent can ethics help us better critique, and then guide, positive risk communication efforts for science communicators?\n\nThroughout the course, significant attention is devoted to the consideration of clear and effective ways to characterise and communicate controversial, risky, and ethically charged science-based matters in the public sphere, especially when mis- and dis- information are at play."
+ },
+ {
+  "code": "SCOM3003",
+  "subject": "SCOM",
+  "number": 3003,
+  "level": 3000,
+  "title": "Science Communication Research Project",
+  "units": 6,
+  "summary": "In this course, academics at the Australian National Centre for the Public Awareness of Science (CPAS) offer supervision for an original research project to motivated third year students undertaking a Science Communication Major (SCOM-MAJ) or Science Communication Minor…",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have completed a minimum of 72 units of tertiary study, of which 12 units need to be SCOM-coded courses.\n\nStudents will need to contact the Centre for the Public Awareness of Science to discuss project ideas and supervisors with the convener and to request a permission code to enrol in this course.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "To enrol in this course you must have completed a minimum of 72 units of tertiary study, of which 12 units need to be SCOM-coded courses"
+    },
+    {
+     "kind": "INFO",
+     "info": "PERMISSION",
+     "text": "Students will need to contact the Centre for the Public Awareness of Science to discuss project ideas and supervisors with the convener and to request a permission code to enrol in this course"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM3003",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "In this course, academics at the Australian National Centre for the Public Awareness of Science (CPAS) offer supervision for an original research project to motivated third year students undertaking a Science Communication Major (SCOM-MAJ) or Science Communication Minor (SCOM-MIN). Students will devise their own science communication research project in collaboration with the supervisor, or can pursue a topic already offered by the supervisor.\n\nThe course can be taken as 6 or 12 units:\n\nA 6-unit project can take the form of a comprehensive literature review, a content analysis, the creation and evaluation of a science communication tool or artefact, or similar - research projects that do not involve human participants except in some cases a small pilot test.\n\nThe 12-unit version of the course is reserved for projects that involve a prominent human participant component and therefore require the student to apply for, and receive, ethics approval. This includes all focus group, survey and interview-based projects. In rare cases students may be offered the 12 unit version if there are other methodological reasons that necessitate more time be devoted to the project. Each project must be completed within a single semester, with the rare exception of longitudinal human participant studies for which a longer time frame is genuinely required to complete the project.\n\nOnly the 6-unit version of SCOM3003 can count towards SCOM-MIN; either the 6-unit version or the 12-unit version can count towards SCOM-MAJ.\n\nIf the work produced is of a sufficient standard, students may be offered the opportunity to co-publish it with their supervisor. All research projects must be undertaken with appropriate ethics approval to facilitate potential future publication of data.\n\nStudents must discuss their project ideas (and potential supervisors) with the course convener prior to enrolling in the course to ensure they enrol in the appropriate version and that a supervisor is available.\n\nThis is an Honours Pathway Course."
+ },
+ {
+  "code": "SCOM3004",
+  "subject": "SCOM",
+  "number": 3004,
+  "level": 3000,
+  "title": "Science Communication Internship",
+  "units": 6,
+  "summary": "The aim of this course is to use an internship experience to enable students to apply their science communication knowledge, skills and principles within a professional organisation.",
+  "offered": [
+   "SUMMER",
+   "S1",
+   "AUTUMN",
+   "WINTER",
+   "S2",
+   "SPRING"
+  ],
+  "requisiteText": "You are not able to enrol in this course if you have completed SCOM6004. At a minimum students will be required to have completed at least two SCOM-coded courses at the 2000 or 3000 level.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "At a minimum students will be required to have completed at least two SCOM-coded courses at the 2000 or 3000 level"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "SCOM6004"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM3004",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The aim of this course is to use an internship experience to enable students to apply their science communication knowledge, skills and principles within a professional organisation. Students will be placed in a government, education, industry or non-government organisation for approximately one day per week, and will produce science communication materials, science communication events and/or other science communication outputs. Students will experience a real-life science communication workplace and understand how their science communication and professional skills and knowledge can be utilised there. They will also be able to demonstrate functioning science communication knowledge, both new and existing, and identify areas of further development for their future careers. Internships may be completed online subject to availability and agreement of the host organisation."
+ },
+ {
+  "code": "SCOM3005",
+  "subject": "SCOM",
+  "number": 3005,
+  "level": 3000,
+  "title": "Special Topics in Science Communication",
+  "units": 6,
+  "summary": "This course allows a special topic of study for individuals or small groups of students who wish to gain particular knowledge in a topic in science communication not covered in other courses taught in CPAS or elsewhere in the University.",
+  "offered": [
+   "SUMMER",
+   "S1",
+   "AUTUMN",
+   "WINTER",
+   "S2",
+   "SPRING"
+  ],
+  "requisiteText": "To enrol in this course you must have completed a minimum of 72 units of tertiary study, which must include a minimum of 12 units of SCOM-coded courses.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed a minimum of 72 units of tertiary study, which must include a minimum of 12 units of SCOM-coded courses"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM3005",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course allows a special topic of study for individuals or small groups of students who wish to gain particular knowledge in a topic in science communication not covered in other courses taught in CPAS or elsewhere in the University. Permission must be sought from the convener before enrolment. It is expected that students in this course will be working towards completing a major or minor in Science Communication. The course will include at least two assessment activities; the student and convenor discuss and agree on the format and requirements of the assessment activities at the start of the course."
+ },
+ {
+  "code": "SCOM3007",
+  "subject": "SCOM",
+  "number": 3007,
+  "level": 3000,
+  "title": "From Creativity to Impact: Science Communication Project Design",
+  "units": 6,
+  "summary": "This course is about creating your own science communication passion project!  Using design thinking and inspiration from diverse guest presenters, you’ll develop a project idea, pilot it in a supportive real-world context, then report on your pilot.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have 24 units of science communication (SCOM) or STEM/community engagement courses, 72 units of tertiary courses, or have permission from the convener.\n\nThis course is incompatible with SCOM8007 and SCOM6007.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have 24 units of science communication (SCOM) or STEM/community engagement courses, 72 units of tertiary courses, or have permission from the convener"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "SCOM6007",
+   "SCOM8007"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM3007",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course is about creating your own science communication passion project! Using design thinking and inspiration from diverse guest presenters, you’ll develop a project idea, pilot it in a supportive real-world context, then report on your pilot. Lectures and interactive workshops will share approaches to help you get creative, find your purpose, discover diverse methods, create effective partnerships, source funding (if required), and manage and evaluate your project. You may work individually or in a group - and feel free to bring your friends/collaborators! Don't worry if you don't have a project idea, the intensive will guide you through the creative process and give you practical experience with common methods you can readily adapt to your audience of choice (e.g. hands-on workshops for schools/youth groups). You may opt to integrate the course with your employment or freelance activity where suitable. Students receive ongoing support to implement their projects following the intensive, scaffolded by assessment and the convenor. Many past students’ ideas have turned into funded, real-world, ongoing projects that have had national and global impacts, so don’t underestimate what you might achieve if you make the most of it!\n\nThis is an authentic opportunity to develop real-world skills, networks and grow your ideas into realities, so if you have a science communication approach you want to let loose on the the world - or want to create a new one - this is the course for you!"
+ },
+ {
+  "code": "SCOM3012",
+  "subject": "SCOM",
+  "number": 3012,
+  "level": 3000,
+  "title": "Communicating Science Online",
+  "units": 6,
+  "summary": "The internet and social media sit at the heart of the modern communication of scientific information.  But are you using the web in the best possible ways to communicate?",
+  "offered": [
+   "AUTUMN"
+  ],
+  "requisiteText": "To enrol in this course you must have completed 72 units of tertiary courses.\n\nIncompatible with SCOM6012.",
+  "rule": {
+   "kind": "UNITS",
+   "min": 72,
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM6012"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM3012",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The internet and social media sit at the heart of the modern communication of scientific information. But are you using the web in the best possible ways to communicate?\n\nThis intensive course focuses on providing you with the skills and knowledge so you can understand - and excel at - communicating science online.\n\nTopics include how to make content that engages, an exploration of the techno-sociology of the internet, and economic, cultural and political trends in platforms."
+ },
+ {
+  "code": "SCOM3027",
+  "subject": "SCOM",
+  "number": 3027,
+  "level": 3000,
+  "title": "Science Politics",
+  "units": 6,
+  "summary": "The interface between evidence and political decision making is of fundamental importance to modern society.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have completed 72 units of tertiary courses.\n\nIncompatible with SCOM6027.",
+  "rule": {
+   "kind": "UNITS",
+   "min": 72,
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM6027"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM3027",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The interface between evidence and political decision making is of fundamental importance to modern society. Yet while our techniques of enquiry have allowed us to learn ever more about the world - and our collective ability to enact change has become ever more powerful - the relationship between evidence and action has never been entirely smooth. Indeed, things may even be getting worse. This course traces the dynamics, contours and fractures of the interface between science and politics. Topics covered include: uses of science in political decision making; differing attitudes to scientific advice and the values underpinning them; ways of countering hostility to science; the role of new technology in changing the dynamics of the relationship between science and politics."
+ },
+ {
+  "code": "SCOM3029",
+  "subject": "SCOM",
+  "number": 3029,
+  "level": 3000,
+  "title": "Science Communication and Planetary Crises",
+  "units": 6,
+  "summary": "The world's challenges appear to be increasingly complex.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have completed 72 units of tertiary study.\n\nIncompatible with SCOM6029.",
+  "rule": {
+   "kind": "UNITS",
+   "min": 72,
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM6029"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM3029",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The world's challenges appear to be increasingly complex. Environmental, social and economic challenges are now recognised to be highly interdependent, with some commentators describing a state of polycrisis: where many crises - such as climate change, economic inequality, biodiversity loss and food security - all occur at once, and also have highly interconnected and compounding effects. Scientific and other forms of knowledge are critical for effectively addressing these challenges, but doing so is likely to require more than the documentation of disasters, the development of technical solutions, and the setting of deadlines. Science communication in the context of planetary crisis demands meaningful dialogue between science and society to develop more just and sustainable futures.\n\nThis course explores challenges and opportunities for science communication in the context of planetary crisis. In doing so, it will provide students with knowledge and skills to think critically about the sustainability challenges confronting societies around the world (especially in relation to the UN Sustainable Development Goals) and helps students to develop a more robust transdisciplinary understanding of science communication in this context.\n\nThe course will cover a range of topics, such as understanding the historical context of science communication, planetary crises and environmental expertise, the need to grapple with challenges of complexity and diversity when thinking at global scales, the foundations for recognising and engaging with different knowledge-systems, and the importance and options for dialogical, participatory and inclusive science communication. The course will allow students to develop skills that they can carry forward into further studies and employment, where they may seek to apply science communication concepts and approaches to engage publics, journalists, governments, industry professionals and other scientists in discussions and practices that enable the emergence of desirable futures for both people and the planet.\n\nThis course is co-taught with postgraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM3032",
+  "subject": "SCOM",
+  "number": 3032,
+  "level": 3000,
+  "title": "Making Modern Science",
+  "units": 6,
+  "summary": "Modern science reaches way beyond laboratories and scholarly institutions.  It is part of an integrated world where scientists routinely explain their work to non-scientists – to secure funding, or drive policy, or build a career.",
+  "offered": [],
+  "requisiteText": "Students must have completed 72 units of tertiary study or have the permission of the convener. Incompatible with SCOM6032.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "UNITS",
+     "min": 72,
+     "concurrent": false
+    },
+    {
+     "kind": "INFO",
+     "info": "PERMISSION",
+     "text": "have the permission of the convener"
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM6032"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM3032",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Modern science reaches way beyond laboratories and scholarly institutions. It is part of an integrated world where scientists routinely explain their work to non-scientists – to secure funding, or drive policy, or build a career. Scientists communicate beyond their scientific colleagues to promote innovations, to improve how we live, or secure justice. By communicating with the public, scientists affect how science is done, how it impacts our lives, and who gets to do it. Communicating creates a feedback loop between science and the world, conveying science to the public and affecting scientific practice.\n\nThis course is about the history of science communication and the ways in which talking to non-scientists about science has contributed to scientific endeavour and its impact on society. It traces developments in science communication from 19th century science showmen whose public demonstrations built scientists’ professional standing, through the use of communication to gain support for ‘big science’, like the space race in the 20th century, through to the need for scientists to communicate with influence to address serious challenges, such as climate change. On the way, the course traverses key questions, theories and critical moments in the global history of science, to explore topics including communicating science in the law and in public health, through pop culture and science fiction, and hijacking science communication, as in the case of the tobacco wars.\n\nCourse assessment emphasises reflection on the integral role of science communication in modern science and its global history, as well as developing research skills."
+ },
+ {
+  "code": "SCOM3033",
+  "subject": "SCOM",
+  "number": 3033,
+  "level": 3000,
+  "title": "Health Promotion Principles and Practice",
+  "units": 6,
+  "summary": "This interdisciplinary course will provide students with an overview of the factors that influence health in society, and how knowledge of these factors is used to create intervention programs to improve public health.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have completed 72 units towards a degree, or have permission from the convener.\n\nIncompatible with POPH6115.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "UNITS",
+     "min": 72,
+     "concurrent": false
+    },
+    {
+     "kind": "INFO",
+     "info": "PERMISSION",
+     "text": "have permission from the convener"
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "POPH6115"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM3033",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This interdisciplinary course will provide students with an overview of the factors that influence health in society, and how knowledge of these factors is used to create intervention programs to improve public health. Students will learn how public health campaigns are planned, implemented and evaluated and will have the opportunity to engage with and learn from practitioners in the field. Each student will work within a group to identify a particular health issue and then develop, deliver and evaluate a specific health promotion initiative. This course emphasises the practical application of theory, aiming to equip students with hands on experience in the work of a health promotion professional."
+ },
+ {
+  "code": "SCOM3088",
+  "subject": "SCOM",
+  "number": 3088,
+  "level": 3000,
+  "title": "Science in Government",
+  "units": 6,
+  "summary": "Governments around the world are increasingly confronted with a complex interplay of environmental, social, and economic challenges at both global and local levels.",
+  "offered": [
+   "WINTER"
+  ],
+  "requisiteText": "To enrol in this course you must have completed 72 units of tertiary courses.\nIncompatible with SCOM6088 and SCOM8088.",
+  "rule": {
+   "kind": "UNITS",
+   "min": 72,
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM6088",
+   "SCOM8088"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM3088",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Governments around the world are increasingly confronted with a complex interplay of environmental, social, and economic challenges at both global and local levels. Changes in politics are putting pressure on democratic institutions and political norms, including growing struggles over the legitimacy of science as a trusted source of knowledge to guide policy action. Yet, it remains a truism that effective government decision-making relies upon access to relevant and timely information. However, evidence-informed policy cannot be taken for granted. It requires concerted work both by policy professionals and academic researchers, and other knowledge holders, to ensure that the right information gets to the right people at the right time.\n\nThis course explores past, present and future challenges and opportunities for science in government. In doing so, it will provide students with the knowledge and skills to think critically about the role of knowledge in democratic societies and act more decisively in interpreting, commissioning, and promoting the use of research evidence in policy settings.\n\nThe course is appropriate for a range of students. These include: students from STEM backgrounds seeking to better understand how STEM research can be designed and promoted to reach policy audiences; students interested in careers in public policy (e.g. the Australian Public Service) or governance (e.g. United Nations, Non-Governmental Organisations, etc.) who will be expected to access, interpret and use research evidence in their roles; and students from social sciences and humanities seeking to deepen their critical understanding of how knowledge of different kinds come to matter in democratic societies.\n\nThe course will cover a range of topics, including understanding the political nature of knowledge; the role and interaction of different knowledge systems; barriers to, and enablers of, knowledge exchange among scientists and decision-makers; political challenges to the use of evidence; the production of expertise and scientific advice; and the means by which governments justify their decisions to a public audience. The course will allow students to develop skills in synthesising scientific knowledge focusing on contemporary sustainability issues, producing engagement outputs for a policy audience, and developing strategies to improve the uptake of research in decision-making.\n\nThis course is co-taught with postgraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM3501",
+  "subject": "SCOM",
+  "number": 3501,
+  "level": 3000,
+  "title": "Science Communication Strategy and Leadership",
+  "units": 6,
+  "summary": "This course focuses on strategically communicating science to achieve organisational outcomes and to achieve measurable impact.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed 24 units of SCOM-coded courses.\n\nIncompatible with SCOM6501.",
+  "rule": {
+   "kind": "UNITS",
+   "min": 24,
+   "subject": "SCOM",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM6501"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM3501",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course focuses on strategically communicating science to achieve organisational outcomes and to achieve measurable impact. It provides participants with a thorough and practical understanding of the process used in leading the development of a communication strategy, including the development of a strategic framework and accompanying action plan that allocates resources, responsibilities and timeframes. It has a strong emphasis on relating theory from a range of disciplines to current industry best practice in implementing a strategic approach to planning communication activities. The major project component is based upon developing a communication strategy for a real science-based organisation. We encourage students to discuss contemporary communication strategy-related opportunities and challenges from different perspectives using their diverse experiences and academic backgrounds."
+ },
+ {
+  "code": "SCOM4005",
+  "subject": "SCOM",
+  "number": 4005,
+  "level": 4000,
+  "title": "Thesis and Seminar in Science Communication",
+  "units": 6,
+  "summary": "The Bachelor of Science Honours (BSc Hons) in Science Communication is a one year program completed as an adjunct year at the end of a Bachelor of Science degree.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you must be undertaking the Science Communication Honours specialisation (SCOM-HSPC)",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course, you must be undertaking the Science Communication Honours specialisation (SCOM-HSPC)"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM4005",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The Bachelor of Science Honours (BSc Hons) in Science Communication is a one year program completed as an adjunct year at the end of a Bachelor of Science degree.\n\nIt is a unique opportunity to investigate how an aspect of science that you are passionate about:\n\nhas been communicated in the public arena.\n\nmight be communicated better.\n\nis affected by such things as government policy and community opinion.\n\nThere is considerable flexibility in choosing project topics, and students usually develop their own topic ideas in consultation with their supervisor. Co-supervision across more than one ANU department is sometimes possible.\n\nFor more detailed information about past projects and topic ideas, see the Honours information page at the Australian National Centre for the Public Awareness of Science website."
+ },
+ {
+  "code": "SCOM4014",
+  "subject": "SCOM",
+  "number": 4014,
+  "level": 4000,
+  "title": "Communicating Science with the Public",
+  "units": 6,
+  "summary": "This course dives into the history, theory and practice of science communication at an advanced level.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Ordinarily, to be eligible to enrol in this course you would be undertaking the Science Communication Honours specialisation (SCOM-HSPC). However, advanced undergraduates in other disciplines may be considered by the convener for approval to enrol.\n\nIncompatible with SCOM8014.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "Ordinarily, to be eligible to enrol in this course you would be undertaking the Science Communication Honours specialisation (SCOM-HSPC)"
+    },
+    {
+     "kind": "INFO",
+     "info": "PERMISSION",
+     "text": "However, advanced undergraduates in other disciplines may be considered by the convener for approval to enrol"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "SCOM8014"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM4014",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course dives into the history, theory and practice of science communication at an advanced level. It covers contemporary competing theories in science communication, the historical roots of the discipline, and a deep understanding of science communication professional practice. It is targeted at students specialising in science communication and provides a solid foundation for further studies in science communication, touching on multiple communication mediums, considerations of different aims and audiences, and some specifics of communicating particular kinds of scientific information. Students will develop foundational science communication conceptual and research skills in this course.\n\nThe course is compulsory for students pursuing the Science Communication Honours specialisation (SCOM-HSPC); it may also be suitable for advanced undergraduates in other disciplines, particularly in the sciences, who would benefit from its overview of the current science communication landscape.\n\nThis course is co-taught with postgraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM4019",
+  "subject": "SCOM",
+  "number": 4019,
+  "level": 4000,
+  "title": "Research Methods for Science Communication",
+  "units": 6,
+  "summary": "This course will provide students with an introduction to transdisciplinary research methods as they relate to the fields of science communication and engagement.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Ordinarily, to be eligible to enrol in this course you would be undertaking the Science Communication Honours specialisation (SCOM-HSPC). However, advanced undergraduates in other disciplines may be considered by the convener for approval to enrol.\n\nIncompatible with SCOM8019.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "Ordinarily, to be eligible to enrol in this course you would be undertaking the Science Communication Honours specialisation (SCOM-HSPC)"
+    },
+    {
+     "kind": "INFO",
+     "info": "PERMISSION",
+     "text": "However, advanced undergraduates in other disciplines may be considered by the convener for approval to enrol"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "SCOM8019"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM4019",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course will provide students with an introduction to transdisciplinary research methods as they relate to the fields of science communication and engagement. This will include, qualitative and mixed methods approaches to data collection and analysis as well as methods of data presentation and co-design. The course has been structured to provide students with an in-depth theoretical understanding of each research method, in order to gain experience in designing research projects in the fields of science communication and engagement. The course will also introduce students to the critical ethical considerations associated with undertaking scientific research.\n\nThe course is compulsory for students pursuing the Science Communication Honours specialisation (SCOM-HSPC); it may also be suitable for advanced undergraduates in other disciplines who would benefit from the overview of science communication research methods.\n\nThis course is co-taught with postgraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM6001",
+  "subject": "SCOM",
+  "number": 6001,
+  "level": 6000,
+  "title": "Fundamentals of Science Communication and Engagement",
+  "units": 6,
+  "summary": "Science and technology topics are core elements of modern life but which provoke a range of reactions and responses.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6001",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Science and technology topics are core elements of modern life but which provoke a range of reactions and responses. Understanding why people react to issues they way that they do and, crucially, how to continue to facilitate meaningful conversations to build towards a consensus position is a skill vital to anyone wanting to work in any context involving people, especially science, business and policy. This course will provide students with the ability to identify areas of both contention and consensus and the skills to ensure constructive engagement and collaboration. Marrying theory and practice in each session, students will gain experience in different modes and models of public engagement as both participant and organiser."
+ },
+ {
+  "code": "SCOM6003",
+  "subject": "SCOM",
+  "number": 6003,
+  "level": 6000,
+  "title": "Science in Film and Fiction",
+  "units": 6,
+  "summary": "How real are aliens, and how does it shape the scientific study of astrobiology?  What role did Star Trek's Lt Uhura play in recruiting astronauts to the NASA space program?  How might The Day After Tomorrow impact the public understanding of climate change?",
+  "offered": [
+   "SUMMER"
+  ],
+  "requisiteText": "Incompatible with SCOM2003",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM2003"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6003",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "How real are aliens, and how does it shape the scientific study of astrobiology? What role did Star Trek's Lt Uhura play in recruiting astronauts to the NASA space program? How might The Day After Tomorrow impact the public understanding of climate change? How did the movie Interstellar make scientific discoveries? Do medical dramas on television do harm for the public perception of and interaction with healthcare?\n\nThis course provides an introduction to the impact of representations of science and scientists in film, television, fiction, and other media, and their public perceptions of science. It introduces research, theory, and methods as applied to this growing area. This course looks at the topic from multiple disciplines and methods from science, to social science, and arts. Using specific areas and contexts, including cultural, societal, and political issues, we look at how the public interacts with science and popular science media.\n\nStudents are encouraged to share their own experiences of science-based film, games, television, literature, and more to pursue their areas of interest through assessment. The intensive contact week has a mixture of lectures, classroom activities, and group interaction to explore these areas.\n\nThe major piece of assessment is a research project testing students' hypotheses about the impact that a work of fiction might have on public perceptions of science, and can employ science, social science, and/or art methods.\n\nThis course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM6004",
+  "subject": "SCOM",
+  "number": 6004,
+  "level": 6000,
+  "title": "Science Communication Internship",
+  "units": 6,
+  "summary": "The aim of this course is to use an internship experience to enable students to apply their science communication knowledge, skills and principles within a professional organisation.",
+  "offered": [
+   "SUMMER",
+   "S1",
+   "AUTUMN",
+   "WINTER",
+   "S2",
+   "SPRING"
+  ],
+  "requisiteText": "You are not able to enrol in this course if you have completed SCOM3004. At a minimum students will be required to have completed 12 units of SCOM-coded courses at the 6000 or 8000 level.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "At a minimum students will be required to have completed 12 units of SCOM-coded courses at the 6000 or 8000 level"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "SCOM3004"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6004",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The aim of this course is to use an internship experience to enable students to apply their science communication knowledge, skills and principles within a professional organisation. Students will be placed in a government, education, industry or non government organisation for approximately one day per week, and will produce science communication materials, science communication events and/or other science communication outputs. Students will experience a real-life science communication workplace and understand how their science communication and professional skills and knowledge can be utilised there. They will also be able to demonstrate functioning science communication knowledge, both new and existing, and identify areas of further development for their future careers. Internships may be completed online subject to availability and agreement of the host organisation."
+ },
+ {
+  "code": "SCOM6005",
+  "subject": "SCOM",
+  "number": 6005,
+  "level": 6000,
+  "title": "Special Topics in Science Communication",
+  "units": 6,
+  "summary": "This course allows a special topic of study for individuals or small groups of students who wish to gain particular knowledge in a topic in science communication not covered in other courses taught in CPAS or elsewhere in the University.",
+  "offered": [
+   "SUMMER",
+   "S1",
+   "AUTUMN",
+   "WINTER",
+   "S2",
+   "SPRING"
+  ],
+  "requisiteText": "Students must have completed at least 12 units of SCOM coded courses in order to enrol in this course.\n\nTo enrol in this course you must be active in the Master of Science Communication.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "Students must have completed at least 12 units of SCOM coded courses in order to enrol in this course"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "To enrol in this course you must be active in the Master of Science Communication"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6005",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course allows a special topic of study for individuals or small groups of students who wish to gain particular knowledge in a topic in science communication not covered in other courses taught in CPAS or elsewhere in the University. Permission must be sought from the convener before enrolment. The course will include at least two assessment activities; the student and convenor discuss and agree on the format and requirements of the assessment activities at the start of the course.\n\nThis course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM6006",
+  "subject": "SCOM",
+  "number": 6006,
+  "level": 6000,
+  "title": "Science, Humour and Popular Culture",
+  "units": 6,
+  "summary": "How can humour – and what kind of humour – be used in science communication?  What does comic performance offer to understanding the public image and pop cultural narratives of science?  What can we learn from comic scientists about science?",
+  "offered": [
+   "WINTER"
+  ],
+  "requisiteText": "In compatible: SCOM2006.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "In compatible: SCOM2006"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "SCOM2006"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6006",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "How can humour – and what kind of humour – be used in science communication? What does comic performance offer to understanding the public image and pop cultural narratives of science? What can we learn from comic scientists about science? Humour, this course elucidates, is not only one of the most powerful tools in communication, but it also shapes – and has been shaping – cultural ideas of sciences. The course thus investigates both, the ways science has influenced and generated rich and fascinating comic traditions in popular culture, and how humour and comic performance have shaped cultural ideas of sciences and ‘science humour’. It looks at the exchange between popular entertainment and science in various media (e.g. comics, film, fiction) over the last 150 years and clarifies the power of humour for bringing science and scientists into the general public discussion.\n\nThis course is part of the teaching, research and engagement activities of the Popsicule, ANU's Science in Popular Culture and Entertainment Hub (https://popsicule.weblogs.anu.edu.au/). The Popsicule explores the cultural meanings of science with the aim to better understand how pop cultural narratives about science have affected the public discourse and understanding of science, and thus our science-society relationship.\n\nNote: This course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM6007",
+  "subject": "SCOM",
+  "number": 6007,
+  "level": 6000,
+  "title": "From Creativity to Impact: Science Communication Project Design",
+  "units": 6,
+  "summary": "This course is about creating your own science communication passion project!  Using design thinking and inspiration from diverse guest presenters, you’ll develop a project idea, pilot it in a supportive real-world context, then report on your pilot.",
+  "offered": [],
+  "requisiteText": "This course is incompatible with SCOM8007 and SCOM3007.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM3007",
+   "SCOM8007"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6007",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course is about creating your own science communication passion project! Using design thinking and inspiration from diverse guest presenters, you’ll develop a project idea, pilot it in a supportive real-world context, then report on your pilot. Lectures and interactive workshops will share approaches to help you get creative, find your purpose, discover diverse methods, create effective partnerships, source funding (if required), and manage and evaluate your project. You may work individually or in a group - and feel free to bring your friends/collaborators! Don't worry if you don't have a project idea, the intensive will guide you through the creative process and give you practical experience with common methods you can readily adapt to your audience of choice (e.g. hands-on workshops for schools/youth groups). You may opt to integrate the course with your employment or freelance activity where suitable. Students receive ongoing support to implement their projects following the intensive, scaffolded by assessment and the convenor. Many past students’ ideas have turned into funded, real-world, ongoing projects that have had national and global impacts, so don’t underestimate what you might achieve if you make the most of it!\n\nThis is an authentic opportunity to develop real-world skills, networks and grow your ideas into realities, so if you have a science communication approach you want to let loose on the the world - or want to create a new one - this is the course for you!\n\nNote: This course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM6012",
+  "subject": "SCOM",
+  "number": 6012,
+  "level": 6000,
+  "title": "Communicating Science Online",
+  "units": 6,
+  "summary": "The internet and social media sit at the heart of the modern communication of scientific information.  But are you using the web in the best possible ways to communicate?",
+  "offered": [
+   "AUTUMN"
+  ],
+  "requisiteText": "You are not able to enrol in this course if you have completed SCOM3012.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM3012"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6012",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The internet and social media sit at the heart of the modern communication of scientific information. But are you using the web in the best possible ways to communicate?\n\nThis intensive course focuses on providing you with the skills and knowledge so you can understand - and excel at - communicating science online.\n\nTopics include how to make content that engages, an exploration of the techno-sociology of the internet, and economic, cultural and political trends in platforms.\n\nThis course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM6015",
+  "subject": "SCOM",
+  "number": 6015,
+  "level": 6000,
+  "title": "Public Speaking About Science",
+  "units": 6,
+  "summary": "This is a practical course which aims to develop public speaking skills.  The emphasis is on presenting science live to a general audience.  Students learn to adapt presentation skills for different audiences, different aims, diverse scientific content and various time limits.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "Incompatible with SCOM2015",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM2015"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6015",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This is a practical course which aims to develop public speaking skills. The emphasis is on presenting science live to a general audience. Students learn to adapt presentation skills for different audiences, different aims, diverse scientific content and various time limits.\n\nAs the course is focused on public speaking skills, live in-person attendance during scheduled class time is very much recommended.\n\nThis course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM6016",
+  "subject": "SCOM",
+  "number": 6016,
+  "level": 6000,
+  "title": "Science, Journalism and Society",
+  "units": 6,
+  "summary": "For many people, the media is the only way they interact with any kind of scientific information.  However the way science is presented by media outlets can influence the way society perceives issues, and consequently how they respond to them.",
+  "offered": [
+   "WINTER"
+  ],
+  "requisiteText": "Incompatible with SCOM2016",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM2016"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6016",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "For many people, the media is the only way they interact with any kind of scientific information. However the way science is presented by media outlets can influence the way society perceives issues, and consequently how they respond to them. This course examines the roles and relationships between science, journalists and society and the factors which influence them. Through this course you will learn how to critically appraise how information is presented in news media, as well as how to write for the media. This course will equip you with practical skills to make science relevant and engaging in a range of contexts, far beyond the media. It will also help you to understand why some scientific issues are so polarising, and how to effectively communicate in contested spaces.\n\nThis course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM6027",
+  "subject": "SCOM",
+  "number": 6027,
+  "level": 6000,
+  "title": "Science Politics",
+  "units": 6,
+  "summary": "The interface between evidence and political decision making is of fundamental importance to modern society.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "Incompatible: SCOM3027.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM3027"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6027",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The interface between evidence and political decision making is of fundamental importance to modern society. Yet while our techniques of enquiry have allowed us to learn ever more about the world - and our collective ability to enact change has become ever more powerful - the relationship between evidence and action has never been entirely smooth. Indeed, things may even be getting worse. This course traces the dynamics, contours and fractures of the interface between science and politics. Topics covered include: uses of science in political decision making; differing attitudes to scientific advice and the values underpinning them; ways of countering hostility to science; the role of new technology in changing the dynamics of the relationship between science and politics.\n\nNote: This course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM6029",
+  "subject": "SCOM",
+  "number": 6029,
+  "level": 6000,
+  "title": "Science Communication and Planetary Crises",
+  "units": 6,
+  "summary": "The world's challenges appear to be increasingly complex.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "Incompatible: SCOM3029",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM3029"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6029",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The world's challenges appear to be increasingly complex. Environmental, social and economic challenges are now recognised to be highly interdependent, with some commentators describing a state of polycrisis: where many crises - such as climate change, economic inequality, biodiversity loss and food security - all occur at once, and also have highly interconnected and compounding effects. Scientific and other forms of knowledge are critical for effectively addressing these challenges, but doing so is likely to require more than the documentation of disasters, the development of technical solutions, and the setting of deadlines. Science communication in the context of planetary crisis demands meaningful dialogue between science and society to develop more just and sustainable futures.\n\nThis course explores challenges and opportunities for science communication in the context of planetary crisis. In doing so, it will provide students with knowledge and skills to think critically about the sustainability challenges confronting societies around the world (especially in relation to the UN Sustainable Development Goals) and helps students to develop a more robust transdisciplinary understanding of science communication in this context.\n\nThe course will cover a range of topics, such as understanding the historical context of science communication, planetary crises and environmental expertise, the need to grapple with challenges of complexity and diversity when thinking at global scales, the foundations for recognising and engaging with different knowledge-systems, and the importance and options for dialogical, participatory and inclusive science communication. The course will allow students to develop skills that they can carry forward into further studies and employment, where they may seek to apply science communication concepts and approaches to engage publics, journalists, governments, industry professionals and other scientists in discussions and practices that enable the emergence of desirable futures for both people and the planet.\n\nThis course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM6031",
+  "subject": "SCOM",
+  "number": 6031,
+  "level": 6000,
+  "title": "Science, Risk, and Misinformation",
+  "units": 6,
+  "summary": "Uncertainty is everywhere.  We casually, often unknowingly, take risks and accept uncertainty many times a day without a second thought.  However, in the sciences, and in science communication, we cannot afford to be blasé.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Incompatible with SCOM8021 and SCOM2031 Science, Risk and Misinformation.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM2031",
+   "SCOM8021"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6031",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Uncertainty is everywhere. We casually, often unknowingly, take risks and accept uncertainty many times a day without a second thought. However, in the sciences, and in science communication, we cannot afford to be blasé. The ramifications of poor risk communication can and do have dramatic, global consequences.\n\nFor years, issues around challenges like climate change, enhancing health and wellbeing and gene/ nanotechnologies have regularly highlighted the need for society to meaningfully communicate and debate the myriad risks associated with the appreciation and application of science, even when the various stakeholders involved are doing their best and acting in good faith. But what about when they aren't?\n\nIn the early 2020s, the COVID pandemic and its ongoing aftermath provided a vivid, global example of what can happen when accidentally, at times deliberately, false information is promoted and shared. Misinformation and disinformation swiftly became a core feature of the already complex environment of risk communication around the pandemic.\n\nIn this course, science communication is analysed from risk communication and ethical perspectives, with particular focus on the phenomenal rise of mis- and dis- information in public discourse. In the course we will examine and critically consider such questions as:\n\nWhat is risky, to whom, and why?\n\nHow is risk understood by experts?\n\nHow does it manifest in public domains?\n\nWhen does a risk become acceptable?\n\nIs it possible to speak about “real” or “true” science-based risks?\n\nHow can we analyse and conduct effective science communication work in a world where misinformation and disinformation are ubiquitous?\n\nWhat strategies and tactics exist to counter communication environments in which people wilfully aim to misinform, or are at least unconcerned about the veracity of their claims?\n\nTo what extent can ethics help us better critique, and then guide, positive risk communication efforts for science communicators?\n\nThroughout the course, significant attention is devoted to the consideration of clear and effective ways to characterise and communicate controversial, risky, and ethically charged science-based matters in the public sphere, especially when mis- and dis- information are at play.\n\nNote: This course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM6032",
+  "subject": "SCOM",
+  "number": 6032,
+  "level": 6000,
+  "title": "Making Modern Science",
+  "units": 6,
+  "summary": "Modern science reaches way beyond laboratories and scholarly institutions.  It is part of an integrated world where scientists routinely explain their work to non-scientists – to secure funding, or drive policy, or build a career.",
+  "offered": [],
+  "requisiteText": "Incompatible with SCOM3032",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM3032"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6032",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Modern science reaches way beyond laboratories and scholarly institutions. It is part of an integrated world where scientists routinely explain their work to non-scientists – to secure funding, or drive policy, or build a career. Scientists communicate beyond their scientific colleagues to promote innovations, to improve how we live, or secure justice. By communicating with the public, scientists affect how science is done, how it impacts our lives, and who gets to do it. Communicating creates a feedback loop between science and the world, conveying science to the public and affecting scientific practice.\n\nThis course is about the history of science communication and the ways in which talking to non-scientists about science has contributed to scientific endeavour and its impact on society. It traces developments in science communication from 19th century science showmen whose public demonstrations built scientists’ professional standing, through the use of communication to gain support for ‘big science’, like the space race in the 20th century, through to the need for scientists to communicate with influence to address serious challenges, such as climate change. On the way, the course traverses key questions, theories and critical moments in the global history of science, to explore topics including communicating science in the law and in public health, through pop culture and science fiction, and hijacking science communication, as in the case of the tobacco wars.\n\nCourse assessment emphasises reflection on the integral role of science communication in modern science and its global history, as well as developing research skills.\n\nNote: This course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM6088",
+  "subject": "SCOM",
+  "number": 6088,
+  "level": 6000,
+  "title": "Science in Government",
+  "units": 6,
+  "summary": "Governments around the world are increasingly confronted with a complex interplay of environmental, social, and economic challenges at both global and local levels.",
+  "offered": [
+   "WINTER"
+  ],
+  "requisiteText": "Incompatible with SCOM3088 and SCOM8088.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM3088",
+   "SCOM8088"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6088",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Governments around the world are increasingly confronted with a complex interplay of environmental, social, and economic challenges at both global and local levels. Changes in politics are putting pressure on democratic institutions and political norms, including growing struggles over the legitimacy of science as a trusted source of knowledge to guide policy action. Yet, it remains a truism that effective government decision-making relies upon access to relevant and timely information. However, evidence-informed policy cannot be taken for granted. It requires concerted work both by policy professionals and academic researchers, and other knowledge holders, to ensure that the right information gets to the right people at the right time.\n\nThis course explores past, present and future challenges and opportunities for science in government. In doing so, it will provide students with the knowledge and skills to think critically about the role of knowledge in democratic societies and act more decisively in interpreting, commissioning, and promoting the use of research evidence in policy settings.\n\nThe course is appropriate for a range of students. These include: students from STEM backgrounds seeking to better understand how STEM research can be designed and promoted to reach policy audiences; students interested in careers in public policy (e.g. the Australian Public Service) or governance (e.g. United Nations, Non-Governmental Organisations, etc.) who will be expected to access, interpret and use research evidence in their roles; and students from social sciences and humanities seeking to deepen their critical understanding of how knowledge of different kinds come to matter in democratic societies.\n\nThe course will cover a range of topics, including understanding the political nature of knowledge; the role and interaction of different knowledge systems; barriers to, and enablers of, knowledge exchange among scientists and decision-makers; political challenges to the use of evidence; the production of expertise and scientific advice; and the means by which governments justify their decisions to a public audience. The course will allow students to develop skills in synthesising scientific knowledge focusing on contemporary sustainability issues, producing engagement outputs for a policy audience, and developing strategies to improve the uptake of research in decision-making.\n\nThis course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM6501",
+  "subject": "SCOM",
+  "number": 6501,
+  "level": 6000,
+  "title": "Science Communication Strategy and Leadership",
+  "units": 6,
+  "summary": "This course focuses on strategically communicating science to achieve organisational outcomes and to achieve measurable impact.",
+  "offered": [],
+  "requisiteText": "Incompatible with SCOM3501",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "SCOM3501"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM6501",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course focuses on strategically communicating science to achieve organisational outcomes and to achieve measurable impact. It provides participants with a thorough and practical understanding of the process used in leading the development of a communication strategy, including the development of a strategic framework and accompanying action plan that allocates resources, responsibilities and timeframes. It has a strong emphasis on relating theory from a range of disciplines to current industry best practice in implementing a strategic approach to planning communication activities. The major project component is based upon developing a communication strategy for a real science-based organisation. We encourage students to discuss contemporary communication strategy-related opportunities and challenges from different perspectives using their diverse experiences and academic backgrounds.\n\nThis course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM8000",
+  "subject": "SCOM",
+  "number": 8000,
+  "level": 8000,
+  "title": "Master of Science Communication Research Project",
+  "units": 6,
+  "summary": "The Master of Science Communication Research Project involves a substantive investigation of an approved topic in science communication.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must be enrolled in the Master of Science Communication program.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must be enrolled in the Master of Science Communication program"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM8000",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The Master of Science Communication Research Project involves a substantive investigation of an approved topic in science communication.\n\nStudents devise their own science communication research project in collaboration with the supervisor, or can pursue a topic already offered by the supervisor. The project should be devised and conducted with journal publication in mind as the desired end goal.\n\nThe course can be taken as 18 or 24 units completed within a single semester, or two consecutive semesters. Students will complete a minimum of 18 units in this course, but students who hope to use the Master of Science Communication program as a stepping stone to higher degree research are advised to complete a total of 24 units. The course convener can advise on this decision.\n\nThe 18-unit version of the course entails a research project with a significant original component, aspiring to professional-level data collection and analysis. The project chosen should not require ethics approval for a human participant element.\n\nThe 24-unit version of the course involves a research project as for the 18-unit version, plus compulsory research methods training. This training could involve completing specific, externally provided research training activities (such as the online courses offered by the Statistical Consulting Unit) to an acceptable standard, or completing a 4000 word literature review on relevant research methods to an acceptable standard, or similar. The research methods training is a hurdle requirement which doesn't contribute to the final mark, but has to be completed to pass the course. The course convener will set and assess this item, in consultation with the supervisor and student.\n\nStudents must discuss their project ideas and study plan for this course with the course convener prior to enrolling in the course to ensure they enrol in the appropriate version and that an appropriate supervisor can be found."
+ },
+ {
+  "code": "SCOM8004",
+  "subject": "SCOM",
+  "number": 8004,
+  "level": 8000,
+  "title": "Science Communication Fieldwork Placement",
+  "units": 6,
+  "summary": "Students in this course develop their science communication skills in authentic science engagement settings, creating real-world impact and building networks and pathways to support career development.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must be enrolled in the Master of Science Communication program.\n\nThis course must be taken twice in consecutive semesters (12+12, or 12+6) within the same calendar year and with the same fieldwork host.\n\nStudents must be concurrently enrolled in or have completed SCOM8014, which provides deeper conceptual background to enhance the fieldwork placement. This course is incompatible with SCOM8004A and SCOM8004B.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "To enrol in this course you must be enrolled in the Master of Science Communication program"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "This course must be taken twice in consecutive semesters (12+12, or 12+6) within the same calendar year and with the same fieldwork host"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Students must be concurrently enrolled in or have completed SCOM8014, which provides deeper conceptual background to enhance the fieldwork placement"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "This course is incompatible with SCOM8004A and SCOM8004B"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM8004",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Students in this course develop their science communication skills in authentic science engagement settings, creating real-world impact and building networks and pathways to support career development. The course allows students to choose from a range of one-year intensive fieldwork placements at some of Australia’s leading science engagement organisations. Students explore the fundamental theory that underpins science communication in such settings, then apply it to deliver, evaluate and improve existing programs, develop novel programs and work on other suitable priorities of the fieldwork host – including working alongside and learning from their staff.\n\nTo see current fieldwork placement opportunities see the 'Class' tab. For more details, see all work-integrated learning opportunities the Australian National Centre for the Public Awareness of Science."
+ },
+ {
+  "code": "SCOM8014",
+  "subject": "SCOM",
+  "number": 8014,
+  "level": 8000,
+  "title": "Communicating Science with the Public",
+  "units": 6,
+  "summary": "This course dives into the history, theory and practice of science communication at an advanced level.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "This course is meant to be for those undertaking the Master of Science Communication program (MSCOM). However, other postgraduate students may be considered by the convener for approval to enrol.\n\nIncompatible with SCOM4014.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "This course is meant to be for those undertaking the Master of Science Communication program (MSCOM)"
+    },
+    {
+     "kind": "INFO",
+     "info": "PERMISSION",
+     "text": "However, other postgraduate students may be considered by the convener for approval to enrol"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "SCOM4014"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM8014",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course dives into the history, theory and practice of science communication at an advanced level. It covers contemporary competing theories in science communication, the historical roots of the discipline, and a deep understanding of science communication professional practice. It is targeted at students specialising in science communication and provides a solid foundation for further studies in science communication, touching on multiple communication mediums, considerations of different aims and audiences, and some specifics of communicating particular kinds of scientific information. Students will develop foundational science communication conceptual and research skills in this course.\n\nThe course is compulsory for students in the Master of Science Communication program (MSCOM); it may also be suitable for postgraduates in other disciplines, particularly in the sciences, who would benefit from its overview of the current science communication landscape.\n\nThis course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM8019",
+  "subject": "SCOM",
+  "number": 8019,
+  "level": 8000,
+  "title": "Research Methods for Science Communication",
+  "units": 6,
+  "summary": "This course will provide students with an introduction to transdisciplinary research methods as they relate to the fields of science communication and engagement.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Ordinarily, to be eligible to enrol in this course you would be undertaking the Master of Science Communication program (MSCOM) or the Graduate Certificate of Science Communication program (GCSCM). However, other postgraduate students may be considered by the convener for approval to enrol.\n\nIncompatible with SCOM4019.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "Ordinarily, to be eligible to enrol in this course you would be undertaking the Master of Science Communication program (MSCOM) or the Graduate Certificate of Science Communication program (GCSCM)"
+    },
+    {
+     "kind": "INFO",
+     "info": "PERMISSION",
+     "text": "However, other postgraduate students may be considered by the convener for approval to enrol"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "SCOM4019"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM8019",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course will provide students with an introduction to transdisciplinary research methods as they relate to the fields of science communication and engagement. This will include, qualitative and mixed methods approaches to data collection and analysis as well as methods of data presentation and co-design. The course has been structured to provide students with an in-depth theoretical understanding of each research method, in order to gain experience in designing research projects in the fields of science communication and engagement. The course will also introduce students to the critical ethical considerations associated with undertaking scientific research.\n\nThe course is particularly suitable for students in the Master of Science Communication program (MSCOM); it may also be suitable for postgraduates in other disciplines who would benefit from the overview of science communication research methods.\n\nThis course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "SCOM8088",
+  "subject": "SCOM",
+  "number": 8088,
+  "level": 8000,
+  "title": "Engagement for Policy Impact",
+  "units": 6,
+  "summary": "The contribution of scientific research to policy making is needed now more than ever in order to help governments improve the lives of citizens and navigate a wide array of pressing sustainability issues, from energy transitions to food security.",
+  "offered": [],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [
+   "SCOM3088",
+   "SCOM6088"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/SCOM8088",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The contribution of scientific research to policy making is needed now more than ever in order to help governments improve the lives of citizens and navigate a wide array of pressing sustainability issues, from energy transitions to food security. Yet, forging successful relationships between science and policy is not easy. This course will offer students the theory and practical knowledge to think about and operate more effectively at the science-policy interface. It will introduce students to current research from the fields of knowledge exchange and research impact, as well as develop practical strategies for enhancing tangible impacts from scientific research. The course will allow students to develop skills in synthesising scientific knowledge focusing on contemporary sustainability issues and producing engagement outputs for a policy audience."
+ }
+]

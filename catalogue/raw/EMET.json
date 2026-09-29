@@ -1,0 +1,412 @@
+[
+ {
+  "code": "EMET1001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET1001",
+  "title": "Foundations of Economic and Financial Models",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "The course teaches the mathematical foundations of models in economics, business and finance and its applications. Mathematical topics covered include set theory, functions, series, limits, univariate and multivariate calculus, unconstrained and constrained optimisation, matrix algebra. Applications include effective interest rates, present value, annuities, production functions, average and marginal cost functions, profit maximisation.",
+  "requisiteText": null
+ },
+ {
+  "code": "EMET2007",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET2007",
+  "title": "Econometrics I: Econometric Methods",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course provides an introduction to econometric methods and their applications. The main workhorse of applied econometrics is the linear regression model and the course will develop its theory and look at a wide range of applications. The course emphasizes intuitive and conceptual understanding as well as hands on econometric analysis using modern computer software on data sets from economics and business. Students learn how to conduct empirical studies, as well as how to analyze and interpret results from other empirical works. We cover a broad range of topics, including a brief review of basic statistics, ordinary least squares estimation and its properties, choice of functional form, departures from standard OLS assumptions, and time series analysis.\n\nThis is a hand-on course with a focus on applications in economics as well as business. A standard statistical software will be used during computer sessions, no special programming skills are required.",
+  "requisiteText": "To enrol in this course you must have completed or be currently enrolled in ECON1101.\n\nYou must also have completed at least one of EMET1001, MATH1014, or MATH1116.\n\nYou must also have completed either STAT1008 or STAT2001.\n\nIncompatible with EMET6007."
+ },
+ {
+  "code": "EMET3004",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET3004",
+  "title": "Econometrics II: Econometric Modelling",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "The course studies important extensions of the linear regression model. Topics include: endogeneity, binary dependent variables, time series regressions and panel data estimation. This is a hand-on course with a focus on applications in economics as well as business. A standard statistical software will be used during computer sessions, no special programming skills are required.",
+  "requisiteText": "To enrol in this course you must have completed ECON1101 Microeconomics 1; and have completed STAT2008 Regression Modelling or STAT2014 Regression Modelling for Actuaries or EMET2007 Econometrics I: Econometrics Methods. Incompatible with EMET6008."
+ },
+ {
+  "code": "EMET3006",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET3006",
+  "title": "Applied Micro-econometrics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course builds on the theoretical econometric tools students have learned in other courses, teaching them how to effectively use these tools to address economic questions using real data. It begins with data set evaluation and research design, then examines the pros and cons of various causal identification techniques, such as difference-in-differences, regression discontinuity, panel data methods, and instrumental variables.",
+  "requisiteText": "To enrol in this course you must have completed EMET2007, STAT2008 or STAT2014. Incompatible with EMET8001, EMET6001 and EMET4301."
+ },
+ {
+  "code": "EMET3007",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET3007",
+  "title": "Business and Economic Forecasting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "Accurate forecasting of future events and their outcomes is a crucial input into a successful business or economic planning process. This course provides an introduction to the application of various forecasting techniques. The methods include trend curve extrapolation smoothing, autoregressions, regression modelling, leading indicators. The course also looks at techniques for the evaluation of performance of forecasting methods and examines the role of forecasts in the decision making process. Students will learn how to use the various techniques in real world forecasting applications.",
+  "requisiteText": "To enrol in this course you must have completed EMET2007 Econometrics I: Econometric Methods or STAT2008 Regression Modelling or STAT2014 Regression Modelling for Actuaries. Incompatible with EMET8012."
+ },
+ {
+  "code": "EMET3008",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET3008",
+  "title": "Applied Macro and Financial Econometrics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course will examine modern applied research on macroeconomic and financial issues. The main objective is to allow students to understand and critically appraise applied work on macroeconomic and financial topics.",
+  "requisiteText": "To enrol in this course you must have completed EMET2007 or STAT2008.\n\nIncompatible with EMET6010, and EMET8010."
+ },
+ {
+  "code": "EMET4007",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET4007",
+  "title": "Econometrics I: Econometric Methods",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course provides an introduction to econometric methods and their applications. The main workhorse of applied econometrics is the linear regression model and the course will develop its theory and look at a wide range of applications. The course emphasizes intuitive and conceptual understanding as well as hands on econometric analysis using modern computer software on data sets from economics and business. Students learn how to conduct empirical studies, as well as how to analyze and interpret results from other empirical works. We cover a broad range of topics, including: brief review of basic statistics; ordinary least squares estimation and its properties; choice of functional form; departures from standard OLS assumptions; time series analysis.\n\nThis is a hand-on course with a focus on applications in economics as well as business. A standard statistical software will be used during computer sessions, no special programming skills are required.",
+  "requisiteText": null
+ },
+ {
+  "code": "EMET4301",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET4301",
+  "title": "Applied Micro-econometrics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course takes the theoretical econometric tools students have learned in other courses and teaches students how to use those tools properly to address economic questions using real data. Both classic and more recent academic journal articles will be used to investigate how various econometric tools are incorporated with data to examine economic questions.",
+  "requisiteText": "To enrol in this course, you must be enrolled in one of the following programs:\n\nBachelor of Commerce (Honours)\nBachelor of Economics (Honours)\n\nTo enrol in this course, you will need to contact the Research School of Economics (enquiries.rse@anu.edu.au) to request a permission code.\n\nIncompatible with EMET3006, EMET6001 and EMET8001."
+ },
+ {
+  "code": "EMET4308",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET4308",
+  "title": "Advanced Econometrics II",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This is an advanced course on econometric theory. It will provide students with grounding in the theory that underpins many standard econometric methods. It will stress fundamental ideas and general concepts so that students can draw connections between various methods presented in other courses, and learn to derive simple theoretical results from first principles and apply them to specific cases. The course does not attempt to provide details on the theory behind all possible econometric models, but instead seeks to ensure that students gain sufficient skills to allow them to understand the key issues and hence to be able to read and understand advanced texts and journal articles on current research that they may come across in their future studies or research.",
+  "requisiteText": null
+ },
+ {
+  "code": "EMET4310",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET4310",
+  "title": "Applied Macro & Financial Econometrics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course will examine modern applied research on macroeconomic and financial issues. The main objective is to allow students to understand, critically appraise and replicate applied work on macroeconomic and financial topics.",
+  "requisiteText": null
+ },
+ {
+  "code": "EMET4312",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET4312",
+  "title": "Business & Economic Forecasting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "Accurate forecasting of future events and their outcomes is a crucial input into a successful business or economic planning process. This course provides an introduction to the application of various forecasting techniques. The methods include trend curve extrapolation, smoothing, autoregressions, regression modelling, leading indicators. The course also looks at techniques for the evaluation of performance of forecasting methods and examines the role of forecasts in the decision making process. Students will learn how to use the various techniques in real world forecasting applications.",
+  "requisiteText": null
+ },
+ {
+  "code": "EMET4314",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET4314",
+  "title": "Advanced Econometrics I",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "The course covers advanced estimation methods in econometrics. Specific topics include: projections and ordinary least squares estimation; endogeneity; instrumental variables and two stage least squares estimation; maximum likelihood estimation of models with limited dependent variables. The course is primarily theoretical and looks at various estimators and their finite sample and asymptotic properties.",
+  "requisiteText": null
+ },
+ {
+  "code": "EMET6001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET6001",
+  "title": "Applied Micro-econometrics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course builds on the theoretical econometric tools students have learned in other courses, teaching them how to properly use these tools to address economic questions using real data. It begins with data set evaluation and research design, then examines the pros and cons of various causal identification techniques, such as difference-in-differences, regression discontinuity, panel data methods, and instrumental variables. Both classic and recent academic journal articles will be used to investigate how various econometric tools are incorporated with data to examine economic questions.",
+  "requisiteText": "To enrol in this course you must have completed EMET8005. Incompatible with EMET3006 and EMET4301."
+ },
+ {
+  "code": "EMET6007",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET6007",
+  "title": "Econometrics I: Econometric Methods",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course provides an introduction to econometric methods and their applications. The main workhorse of applied econometrics is the linear regression model and the course will develop its theory and look at a wide range of applications. The course emphasizes intuitive and conceptual understanding as well as hands on econometric analysis using modern computer software on data sets from economics and business. Students learn how to conduct empirical studies, as well as how to analyze and interpret results from other empirical works. We cover a broad range of topics, including: brief review of basic statistics; ordinary least squares estimation and its properties; choice of functional form; departures from standard OLS assumptions; time series analysis.\n\nThis is a hands-on course with a focus on applications in economics as well as business. A standard statistical software will be used during computer sessions, no special programming skills are required.",
+  "requisiteText": "To enrol in this course you must have completed at least one of the following courses:\nEMET1001\nEMET7001\nSTAT1008\nSTAT7055\nIncompatible with EMET2007"
+ },
+ {
+  "code": "EMET6008",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET6008",
+  "title": "Econometrics II: Econometric Modelling",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "The course studies important extensions of the linear regression model. Topics include: endogeneity, binary dependent variables, time series regressions and panel data estimation. This is a hand-on course with a focus on applications in economics as well as business. A standard statistical software will be used during computer sessions, no special programming skills are required.",
+  "requisiteText": "To enrol in this course you must have completed EMET2007 or EMET6007. Incompatible with EMET3004."
+ },
+ {
+  "code": "EMET6010",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET6010",
+  "title": "Applied Macro and Financial Econometrics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course will examine modern applied research on macroeconomic and financial issues. The main objective is to allow students to understand, critically appraise and replicate applied work on macroeconomic and financial topics.",
+  "requisiteText": "To enrol in this course you must have previously completed the equivalent of EMET8005. Incompatible with EMET3008, EMET4310, and EMET8010."
+ },
+ {
+  "code": "EMET6012",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET6012",
+  "title": "Business and Economic Forecasting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "Accurate forecasting of future events and their outcomes is a crucial input into a successful business or economic planning process. This course provides an introduction to the application of various forecasting techniques. The methods include trend curve extrapolation, smoothing, autoregressions, regression modelling, and leading indicators, as well as additional topics on forecasting. The course also looks at techniques for the evaluation of performance of forecasting methods and examines the role of forecasts in the decision making process. Students will learn how to use the various techniques in real world forecasting applications.",
+  "requisiteText": "To enrol in this course you must have completed or have concurrent enrolment in EMET8005, or EMET6007. Incompatible with EMET3007 and EMET8012."
+ },
+ {
+  "code": "EMET7001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET7001",
+  "title": "Mathematical Techniques for Economic Analysis",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "The course teaches the mathematical foundations of models in economics, business and finance and its applications. Mathematical topics covered include set theory, functions, series, limits, univariate and multivariate calculus, unconstrained and constrained optimisation, matrix algebra. Applications include effective interest rates, present value, annuities, production functions, average and marginal cost functions, profit maximisation.",
+  "requisiteText": null
+ },
+ {
+  "code": "EMET8001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET8001",
+  "title": "Applied micro-econometrics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course takes the theoretical econometric tools students have learned in other courses and teaches students how to apply those techniques to real world problems and data. The course focuses on the concept of causal inference and the different techniques used to causally identify the effect of treatments on outcomes. Using economic data and modern computer software, students learn how to conduct empirical studies by replicating well known econometric analyses. The techniques covered are: Regression Discontinuity Design, Panel Data Methods, Difference in difference analysis, Instrumental Variables, Synthetic Control, Bootstrapping and Randomisation Inference. Students will be required to present an econometric paper by summarising the hypothesis and results of the paper, placing it in the literature and critiquing the implementation of the paper.",
+  "requisiteText": "To enrol in this course you must have completed EMET8005. Incompatible with EMET4301."
+ },
+ {
+  "code": "EMET8002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET8002",
+  "title": "Case Studies in Applied Economic Analysis and Econometrics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "The philosophy of Case Studies is that the best way to learn how to research is to do research. Students conduct, under the supervision of faculty, their own research projects, culminating in the writing of a research paper. Lectures will be given on a selection of topics that can prove useful in research.",
+  "requisiteText": "To enrol in this course you must have completed or have concurrent enrolment in EMET8005, and ECON8025 and ECON8026."
+ },
+ {
+  "code": "EMET8005",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET8005",
+  "title": "Econometric Methods and Modelling",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This is a unit in basic econometrics, emphasising the problems involved in the empirical measurement of economic relationships and the techniques used to solve these problems. While the application of econometric techniques is of prime importance, the results are not just presented but derived using a mixture of rigour and intuition so as to leave as few loose ends as possible.",
+  "requisiteText": "To enrol in this course you must have completed or have concurrent enrolment in EMET7001 and STAT7055.\n\nStudents enrolled in the Master of Statistics, or the Master of Actuarial Studies, who have completed at least 48 units are considered to have met the pre-requisites."
+ },
+ {
+  "code": "EMET8008",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET8008",
+  "title": "Advanced Econometrics II",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This is an advanced course on econometric theory. It will provide students with grounding in the theory that underpins many standard econometric methods. It will stress fundamental ideas and general concepts so that students can draw connections between various methods presented in other courses, and learn to derive simple theoretical results from first principles and apply them to specific cases.\n\nThe course does not attempt to provide details on the theory behind all possible econometric models, but instead seeks to ensure that students gain sufficient skills to allow them to understand the key issues and hence to be able to read and understand advanced texts and journal articles on current research that they may come across in their future studies or research.",
+  "requisiteText": "To enrol in this course you must have previously completed EMET8014."
+ },
+ {
+  "code": "EMET8010",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET8010",
+  "title": "Applied Macro and Financial Econometrics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course will examine modern applied research on macroeconomic and financial issues. The main objective is to allow students to understand, critically appraise and replicate applied work on macroeconomic and financial topics.",
+  "requisiteText": "To enrol in this course you must have previously completed the equivalent of EMET8005. Incompatible with EMET3008."
+ },
+ {
+  "code": "EMET8012",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET8012",
+  "title": "Business and Economic Forecasting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "Accurate forecasting of future events and their outcomes is a crucial input into a successful business or economic planning process. This course provides an introduction to the application of various forecasting techniques. The methods include trend curve extrapolation, smoothing, autoregressions, regression modelling, leading indicators. The course also looks at techniques for the evaluation of performance of forecasting methods and examines the role of forecasts in the decision making process. Students will learn how to use the various techniques in real world forecasting applications.",
+  "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in EMET8005, or either EMET2007 or EMET6007 or STAT2008 or STAT2014. Incompatible with EMET3007."
+ },
+ {
+  "code": "EMET8014",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMET8014",
+  "title": "Advanced Econometrics I",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Econometrics",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "The course covers advanced estimation methods in econometrics. Specific topics include: projections and ordinary least squares estimation; endogeneity; instrumental variables and two stage least squares estimation; maximum likelihood estimation of models with limited dependent variables. The course is primarily theoretical and looks at various estimators and their finite sample and asymptotic properties.",
+  "requisiteText": "To enrol in this course you must have completed or have concurrent enrolment in EMET8005 and ECON8013.."
+ }
+]

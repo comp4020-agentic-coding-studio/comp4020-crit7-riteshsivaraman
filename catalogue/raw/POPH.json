@@ -1,0 +1,424 @@
+[
+ {
+  "code": "POPH3000",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH3000",
+  "title": "Introduction to Population Health",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Undergraduate",
+  "description": "The course will help students gain a broad understanding of the overarching principles of population health, and the role of the discipline in improving health and reducing health inequities. This course will provoke interest in undergraduates around population health and will introduce the subject to students interested in pursuing a career path in public health at the graduate level. It will also lead to an appreciation of population health within the context of other health sciences, thus broadening the foundation for students in other cognate disciplines. This course therefore covers community assessment, health systems in Australia, point of care data collection, preventive strategies, and population level health interventions.",
+  "requisiteText": "To enrol in this course you must have completed and passed 72 units of study."
+ },
+ {
+  "code": "POPH4005",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH4005",
+  "title": "Population Health Honours project",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Undergraduate",
+  "description": "The population health honours project is intended for students who have completed an undergraduate program with a major in population health or a cognate discipline. This project is taken over the course of the honours study and culminates in the production of a thesis. Honours is a solid foundation in the basics of research and can be an entry into many careers both within and outside of population health.",
+  "requisiteText": "To enrol in this course you must be studying Population Health Honours Specialisation (POPH-HSPC)."
+ },
+ {
+  "code": "POPH4100",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH4100",
+  "title": "Fundamentals of Epidemiology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Undergraduate",
+  "description": "Epidemiology is the study of the distribution and determinants of health in populations and the application of this study to improve health. The course will cover basic epidemiological concepts including study design; measures of disease frequency and association; bias, confounding and effect modification; causality; screening; and disease surveillance. The course will also introduce the basic tools necessary for using and interpreting population health data.",
+  "requisiteText": "To enrol in this course you must be studying Population Health Honours Specialisation (POPH-HSPC).\nThis course is incompatible with POPH8100."
+ },
+ {
+  "code": "POPH4101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH4101",
+  "title": "Biostatistics in Population Health",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Undergraduate",
+  "description": "This course will examine principles of biostatistics, in the context of real-world public health issues. The aim of the course is to help those without a specialised background to read and interpret biostatistical content in the medical and public health literature.\n\nTopics, chosen by frequency of occurrence in the literature, will include:\n\nIntroduction to sampling distributions, hypothesis tests and estimation\n\nAnalysis of normal data, including t-tests and linear regression\n\nAnalysis of binary data, including 2x2 tables, Mantel-Haenszel methods and logistic regression\n\nAnalysis of count data, including comparing rates between two groups\n\nPoisson regression\n\nThroughout the course, the emphasis will be on understanding the reasons why the techniques are appropriate, underlying assumptions, use of the statistical analysis package Stata and interpretation of results, rather than the mechanics of calculation. Each topic will draw upon one or two papers from the literature. Both online materials and drop-in help sessions in a computer lab will be used to facilitate learning and provide opportunities to explore specific topics in more detail.",
+  "requisiteText": "To enrol in this course you must be studying Population Health Honours Specialisation (POPH-HSPC). This course is incompatible with POPH8100."
+ },
+ {
+  "code": "POPH4315",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH4315",
+  "title": "Research Design and Methods",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Undergraduate",
+  "description": "The Research Design and Methods course teaches relevant theories, concepts, tools, and techniques in epidemiology to equip students with the knowledge and skills needed to undertake an applied epidemiological research study. The focus is on transforming a research question into a study that is appropriate for the setting and capable of answering the research question. Students apply the skills they learn by developing their own research proposal on a topic of their choosing. Teaching methods include case studies, lectures, and small group tutorials",
+  "requisiteText": "To enrol in this course you must be studying Population Health Honours Specialisation (POPH-HSPC).\nYou must also have completed or be currently studying POPH4100 and POPH4101.\nThis course is incompatible with POPH8315."
+ },
+ {
+  "code": "POPH6115",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH6115",
+  "title": "Health Promotion Principles and Practice",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "This interdisciplinary course examines the ways in which societies attempt to enhance and promote health in a range of settings, while critically assessing the associated risks and barriers. Students will learn how public health campaigns are planned, implemented and evaluated and will have the opportunity to engage with and learn from practitioners in the field. The course provides a sound theoretical understanding of dominant health promotion and protection theories and models, as they relate to contemporary health issues in Australia and internationally. It emphasises practical application of theory in problem based learning scenarios. Students gain a sound conceptual understanding enabling them to develop health initiatives and communicate effectively with specialist and non-specialist audiences.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed SCOM3033."
+ },
+ {
+  "code": "POPH8021",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8021",
+  "title": "Epidemiology and Population Health Research Project",
+  "unitsText": "6 to 12 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "The course enables students to undertake a research project that builds upon their coursework knowledge. It focuses on conducting original research under academic supervision to develop independent research skills and gain practical experience.\n\nBefore enrolment, students will negotiate the details of the project with their supervisor/s and obtain approval from the school. The research project may be carried out within a research group or in collaboration with an industry or government organisation. The project will focus on topics related to Epidemiology and Population Health or related areas of interest.",
+  "requisiteText": "To enrol in this course, you must maintain a Distinction average across at least one semester of courses in the Master of Public Health (MPUBH) or Master of Public Health (Advanced) (VPUBH). Enrolment will be dependent on the approval of the course convenor and the MPUBH program convenor as well as the availability of a suitable supervisor."
+ },
+ {
+  "code": "POPH8100",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8100",
+  "title": "Fundamentals of Epidemiology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "Epidemiology is the study of the distribution and determinants of health in populations and the application of this study to improve health. The course will cover basic epidemiological concepts including study design; measures of disease frequency and association; bias, confounding and effect modification; causality; screening; and disease surveillance. The course will also introduce the basic tools necessary for using and interpreting population health data.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed POPH4100."
+ },
+ {
+  "code": "POPH8101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8101",
+  "title": "Biostatistics in Population Health",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "This course will examine principles of biostatistics, in the context of real-world public health issues. The aim of the course is to help those without a specialised background to read and interpret biostatistical content in the medical and public health literature.\n\nTopics, chosen by frequency of occurrence in the literature, will include:\n\nIntroduction to sampling distributions, hypothesis tests and estimation\n\nAnalysis of normal data, including t-tests and linear regression\n\nAnalysis of binary data, including 2x2 tables, Mantel-Haenszel methods and logistic regression\n\nAnalysis of count data, including comparing rates between two groups\n\nPoisson regression\n\nThroughout the course, the emphasis will be on understanding the reasons why the techniques are appropriate, underlying assumptions, use of the statistical analysis package Stata and interpretation of results, rather than the mechanics of calculation. Each topic will draw upon one or two papers from the literature. Both online materials and drop-in help sessions in a computer lab will be used to facilitate learning and provide opportunities to explore specific topics in more detail.",
+  "requisiteText": "Incompatible: POPH4101"
+ },
+ {
+  "code": "POPH8102",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8102",
+  "title": "Global Population Health",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "This course introduces the field of Global Health, which is the health of populations at a global scale. Global Population Health provides a comprehensive understanding of the factors influencing the health and well-being of populations around the world. Students gain insights into the major global health challenges, such as infectious diseases, non-communicable diseases, maternal and child health, and mental health. They explore the burden of disease and risk factors associated with these conditions. This course focuses on health disparities and inequities within and between countries. Students learn about the organization and functioning of health systems worldwide. They examine health policy formulation, implementation, and evaluation, as well as the role of governance, financing, and human resources in achieving population health goals. The course covers various interventions and disease control strategies to improve population health on a global scale. Students learn effective strategies for communicating health information, promoting behaviour change, and advocating for population health at local, national, and international levels. This course also introduced implementation science and its roles in global health to the students to understand and address the unique challenges and complexities of implementing interventions in diverse settings with varying resources, cultures, and health systems.",
+  "requisiteText": null
+ },
+ {
+  "code": "POPH8103",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8103",
+  "title": "Introduction to Health Services Research and Policy",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "This course provides an introduction to health services research, health care systems, policy formulation and analysis. The overall aim of this course is to enable you to understand the principles of health services research and policy, including the frameworks for formulating and assessing health policy. The course aims to provide you with a broad overview of the structure and components of contemporary healthcare systems, methods and mechanisms in health services research and policy how they function. This includes equipping you with the capacities to draw on material from a wide range of sources. The course syllabus will include:\n\nIntroduction to health care systems\n\nHealth services, goals and research\n\nHealth policy formulation, analysis and implementation",
+  "requisiteText": null
+ },
+ {
+  "code": "POPH8106",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8106",
+  "title": "Public Health Research Project",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "This course provides students with an opportunity to undertake a public health research project, on a topic of their choice, by collecting data and analysing, presenting and writing up their research results. Students need to achieve a minimum Distinction grade in POPH8315 to enrol in this course and will benefit if they choose their project prior to starting POPH8315. Students' research projects are supervised by one, or more, specific supervisors and the course convenor facilitates and monitors the students progress.",
+  "requisiteText": "To enrol in this course you must have completed POPH8315 with a minimum grade of 70%, and be enrolled in the Master of Public Health (Advanced)."
+ },
+ {
+  "code": "POPH8108",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8108",
+  "title": "Social and Cultural Determinants of Health",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "Understanding the social determinants of health is important for health promotion, health prevention and also for crafting an approach to treatment and health care that considers people’s uneven exposures to social and cultural risks or resources. The social determinants of health are important from a public health perspective because they point to the causes of health risks and hence the necessary interventions; explain chronic disease policy failure; explain differentials in health outcomes; address questions posed in philosophy regarding pathways to equity and equality. The social determinants of health framework has been adopted by the World Health Organisation and governments, and this course aims to supply an in-depth understanding of the field and its importance.",
+  "requisiteText": null
+ },
+ {
+  "code": "POPH8313",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8313",
+  "title": "Analysis of Public Health Data",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "Data analysis is a central activity in applied epidemiology providing underlying evidence for public health policy formulation and action. Data may come from studies with survey, cohort or case control designs, or from health system surveillance or monitoring. The different types of data require different analytic methods appropriate to the form of the data and to the research question. This course aims to introduce students to some different types of quantitative public health data, with a focus on secondary dataset analysis, and to give students the opportunity for hands-on learning of epidemiological data analysis skills. The course is relevant to any student interested in a career in public health or health research, or to those wishing to extend their statistical skills to analysis of public health data.",
+  "requisiteText": "To enrol in this course you must have completed POPH8101 and POPH8100, or request a permission code via email study.nceph@anu.edu.au.\nYou are not able to enrol in this course if you have previously completed POPH8913."
+ },
+ {
+  "code": "POPH8315",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8315",
+  "title": "Research Design and Methods",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "The Research Design and Methods course teaches relevant theories, concepts, tools, and techniques in epidemiology to equip students with the knowledge and skills needed to undertake an applied epidemiological research study. The focus is on transforming a research question into a study that is appropriate for the setting and capable of answering the research question. Students apply the skills they learn by developing their own research proposal on a topic of their choosing. Teaching methods include case studies, lectures, and small group tutorials.",
+  "requisiteText": "To enrol in this course you must have completed or be currently studying POPH8100 and POPH8101, or request a permission code via email study.nceph@anu.edu.au.\nYou are not able to enrol in this course if you have previously completed POPH4315."
+ },
+ {
+  "code": "POPH8316",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8316",
+  "title": "Outbreak Investigation",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "Outbreak investigation is a central aspect of applied epidemiology which aims to control the outbreak and prevent future outbreaks. The Outbreak Investigation course is designed to equip students with the knowledge and skills to undertake outbreak investigations in the field. The course combines theory with outbreak investigation case studies based on real-life outbreaks.\n\nThis course may be delivered during a standard semester or as an intensive course. Please check yearly scheduling information for details.",
+  "requisiteText": "To enrol in this course you must have completed either POPH8100 or POPH8101, or request a permission code via email study.nceph@anu.edu.au."
+ },
+ {
+  "code": "POPH8317",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8317",
+  "title": "Public Health Surveillance",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "Public Health Surveillance is the collection, analysis and interpretation of health or related data for public health action. This course aims to teach students about public health surveillance in four domains: establishment, maintenance, reporting, and evaluation of surveillance systems.\n\nTopics will include:\n\nIntroduction to surveillance: Why do we have it?; Different types and uses\n\nLegislation and guidelines for public health surveillance\n\nSurveillance in Australia\n\nEstablishment of surveillance and how it can be enhanced surveillance\n\nAnalysis and reviewing outputs\n\nCommunicating results\n\nEvaluating surveillance systems\n\nSurveillance in special situations and populations, such as: humanitarian crises, public health emergencies, and mass gatherings.\n\nThe course will rely on understanding these concepts and skills by applying them to real-life surveillance settings managed by the course staff and invited guest lecturers. Teaching will be through case studies, lectures and online quizzes and activities.",
+  "requisiteText": "To enrol in this course you must have completed either POPH8100 or POPH8101, or request a permission code via email study.nceph@anu.edu.au.\nYou are not able to enrol in this course if you have previously completed POPH8917."
+ },
+ {
+  "code": "POPH8318",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8318",
+  "title": "Human Health, Environment and Climate Change",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "This course examines the fundamental concepts in environmental health, health needs assessment, and environmental risk assessment and management. This will include a range of environmental risks, including water and food quality, sanitation, air quality, occupational health, environmental toxicology and the built environment. This course will also examine the pathways through which climate change is likely to influence human health. These include the likely health effects of rising ambient temperatures, shifting patterns of vector-borne and food-borne diseases, physical and mental health risks of extreme weather events, potential food and water insecurity, occupational health risks, and the likely impacts of climate change on health equity, vulnerability and resilience.\n\nThis course will provide an introduction to research methodologies used to examine the relationships between environment and health, and examine the determinants and management of health protection. The emphasis will be on understanding the literature linking environment to health, the assessment of health risks and benefits associated with environmental factors, and the evaluation of frameworks designed to protect public health, including the risks and benefits associated with current and future climate change.",
+  "requisiteText": null
+ },
+ {
+  "code": "POPH8400",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8400",
+  "title": "Epidemiology and Population Health Internship",
+  "unitsText": "6 to 12 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "This course provides an opportunity for high-achieving graduate students in the Masters of Public Health (MPH) to apply and develop professional skills and attributes in an area of their choice. This course offers opportunities to network with professional organisations, local and national government and industry, and to acquire skills, knowledge and professional attributes which may facilitate future employment opportunities. The internship will be under the direct supervision of a workplace professional, with access to an appropriate academic within the National Centre for Epidemiology and Population Health. Students are generally expected to have already completed at least one semester of MPH courses relevant to their placement topic. The internship is expected to be on a topic of professional interest to the student and the supervising workplace.",
+  "requisiteText": "Students must maintain a Distinction average across at least one semester of courses in the Master of Public Health or Master of Public Health (Advanced) (VPUBH). Enrolment will be dependent on the approval of the MPH convenor as well as the availability of a suitable placement and both an external and internal (ANU) supervisor."
+ },
+ {
+  "code": "POPH8913",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8913",
+  "title": "Analysis of Public Health Data",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Quarter 3 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Research",
+  "description": "Data analysis is a central activity in applied epidemiology providing underlying evidence for public health policy formulation and action. The aim of the Analysis of Public Health Data course is to equip students with the knowledge and skills to analyse quantitative public health data. The course combines biostatistics theory with practical application of biostatistical methods.",
+  "requisiteText": "To enrol in this course, you must be active in the Master of Philosophy in Applied Epidemiology Program.\n\nIncompatible: POPH8313"
+ },
+ {
+  "code": "POPH8914",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8914",
+  "title": "Issues in Applied Epidemiology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "The aim of the Issues in Applied Epidemiology course is to introduce students to topical issues and advanced techniques in applied epidemiology and revise and cement writing skills, prepare for and prepare for and engage in peer-to-peer learning.",
+  "requisiteText": "To enrol in this course, you must be active in the Master of Philosophy in Applied Epidemiology Program"
+ },
+ {
+  "code": "POPH8915",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8915",
+  "title": "Research Design and Methods",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Quarter 3 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Research",
+  "description": "Research design is a plan to answer a research question and research method is a strategy used to implement that plan. The Research Design and Methods course is designed to equip students with the knowledge and skills required to undertake an applied epidemiological research study. The course will combine epidemiological theory and concepts with practical examples.",
+  "requisiteText": "To enrol in this course, you must be active in the Master of Philosophy in Applied Epidemiology Program"
+ },
+ {
+  "code": "POPH8916",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8916",
+  "title": "Outbreak Investigation",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "Outbreak investigation is a central aspect of applied epidemiology which aims to control the outbreak and prevent future outbreaks. The Outbreak Investigation course is designed to equip students with the knowledge and skills to undertake outbreak investigations in the field. The course combines theory with outbreak investigation case studies based on real-life outbreaks.",
+  "requisiteText": "To enrol in this course, you must be active in the Master of Philosophy in Applied Epidemiology Program\n\nIncompatible: POPH8316"
+ },
+ {
+  "code": "POPH8917",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/POPH8917",
+  "title": "Public Health Surveillance",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026"
+  ],
+  "subjectName": "Population Health",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "Surveillance is the collection, analysis and interpretation of health or related data for public health action. The Public Health Surveillance course is designed to equip students with the knowledge and skills in four domains: establishment, maintenance, reporting, and evaluation of public health surveillance systems.",
+  "requisiteText": "To enrol in this course, you must be active in the Master of Philosophy in Applied Epidemiology Program.\n\nIncompatible: POPH8317"
+ }
+]
