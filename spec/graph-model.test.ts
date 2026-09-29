@@ -99,6 +99,15 @@ describe("graph model: incompatibility", () => {
     expect(inc[0].clash).toBe(false);
   });
 
+  it("undergraduate view skips postgraduate incompatible ghosts; postgraduate view skips undergraduate ones", () => {
+    const st = stateFor([["COMP2100", 2, "S1"]]); // incompatible with COMP6442
+    expect(node(buildGraph(cat, st, { career: "ug" }), "COMP6442")).toBeUndefined();
+    expect(node(buildGraph(cat, st, { career: "pg" }), "COMP6442")).toMatchObject({ planned: false });
+    expect(node(buildGraph(cat, st), "COMP6442")).toBeDefined(); // no career: unchanged
+    // requisite ghosts are never filtered
+    expect(node(buildGraph(cat, st, { career: "pg" }), "COMP1110")).toBeDefined();
+  });
+
   describe("with incompatible ghosts hidden", () => {
     const hide = { incompatibleGhosts: false };
 

@@ -5,6 +5,7 @@
 // Browser code (ships in the GraphView chunk) --- reads no environment variables.
 
 import { SLOTS, type CatalogueIndex, type ClauseResult, type Plan, type PlanEntry, type PlannerState, type PlanPeriod, type Rule, type TermKey, type TriState } from "../../lib/contracts";
+import { inCareer, levelOfCode, type Career } from "../../lib/career";
 import { firstFreeSlot, planTerms, termKey, type Load, type LoadOf } from "../../lib/engine";
 
 export type NodeKind = "course" | "or" | "and" | "units";
@@ -67,6 +68,8 @@ export interface GraphOptions {
    *  incompatible with them, and ghost-to-ghost incompatible edges. Requisite
    *  ghosts and any clash touching a planned course stay. */
   incompatibleGhosts?: boolean;
+  /** undergraduate/postgraduate view: incompatible ghosts from the other one are skipped */
+  career?: Career;
 }
 
 export function buildGraph(cat: CatalogueIndex, state: PlannerState, opts: GraphOptions = {}): GraphModel {
@@ -165,7 +168,11 @@ export function buildGraph(cat: CatalogueIndex, state: PlannerState, opts: Graph
   // Incompatibles: every planned course's list adds ghosts (unless hidden); then one
   // undirected edge per pair among the visible course nodes.
   if (opts.incompatibleGhosts ?? true) {
-    for (const e of entries) for (const code of cat.byCode.get(e.code)?.incompatible ?? []) courseNode(code);
+    for (const e of entries) {
+      for (const code of cat.byCode.get(e.code)?.incompatible ?? []) {
+        if (nodes.has(code) || inCareer(cat.byCode.get(code)?.level ?? levelOfCode(code), opts.career)) courseNode(code);
+      }
+    }
   }
   for (const n of [...nodes.values()]) {
     if (n.kind !== "course") continue;

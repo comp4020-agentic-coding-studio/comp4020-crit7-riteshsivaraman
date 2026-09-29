@@ -67,6 +67,30 @@ function edgeGeometry(s: SimNode, t: SimNode, bend: number) {
   return { d: `M${ax.toFixed(1)},${ay.toFixed(1)} Q${cx.toFixed(1)},${cy.toFixed(1)} ${bx.toFixed(1)},${by.toFixed(1)}`, qx, qy };
 }
 
+/**
+ * Right-angle connector (the "Elbow" edge style): leaves the source through
+ * the side facing the target, turns once halfway, and enters the target the
+ * same way. Mostly-horizontal pairs go H-V-H, mostly-vertical ones V-H-V.
+ * (qx, qy) is the middle of the crossing segment, for the ⊘ marker.
+ */
+function elbowGeometry(s: SimNode, t: SimNode) {
+  const sx = s.x ?? 0, sy = s.y ?? 0, tx = t.x ?? 0, ty = t.y ?? 0;
+  const f = (v: number) => v.toFixed(1);
+  if (Math.abs(tx - sx) >= Math.abs(ty - sy)) {
+    const dir = tx >= sx ? 1 : -1;
+    const ax = sx + dir * (s.w / 2 + 1), bx = tx - dir * (t.w / 2 + 2);
+    const mx = (ax + bx) / 2;
+    return { d: `M${f(ax)},${f(sy)} H${f(mx)} V${f(ty)} H${f(bx)}`, qx: mx, qy: (sy + ty) / 2 };
+  }
+  const dir = ty >= sy ? 1 : -1;
+  const ay = sy + dir * (s.h / 2 + 1), by = ty - dir * (t.h / 2 + 2);
+  const my = (ay + by) / 2;
+  return { d: `M${f(sx)},${f(ay)} V${f(my)} H${f(tx)} V${f(by)}`, qx: (sx + tx) / 2, qy: my };
+}
+
+type EdgeStyle = "curved" | "elbow";
+const EDGE_KEY = "dp-graph-edges";
+
 const INCOMPAT_KEY = "dp-graph-incompatible";
 const LAYOUT_KEY = "dp-graph-layout";
 const COL_W = 190; // px between columns in the layered layouts
@@ -95,7 +119,24 @@ export default function GraphView(props: GraphViewProps) {
       /* ignore */
     }
   };
-  const model = useMemo(() => buildGraph(catalogue, state, { incompatibleGhosts: showIncompat }), [catalogue, state, showIncompat]);
+  const model = useMemo(() => buildGraph(catalogue, state, { incompatibleGhosts: showIncompat, career: props.career }), [catalogue, state, showIncompat, props.career]);
+  // Edge style: a per-browser display preference (localStorage).
+  const [edgeStyle, setEdgeStyleState] = useState<EdgeStyle>("curved");
+  useEffect(() => {
+    try {
+      if (localStorage.getItem(EDGE_KEY) === "elbow") setEdgeStyleState("elbow");
+    } catch {
+      /* storage blocked: keep default */
+    }
+  }, []);
+  const setEdgeStyle = (v: EdgeStyle) => {
+    setEdgeStyleState(v);
+    try {
+      localStorage.setItem(EDGE_KEY, v);
+    } catch {
+      /* ignore */
+    }
+  };
   // Layout choice: a per-browser display preference (localStorage).
   const [layout, setLayoutState] = useState<GraphLayout>("force");
   useEffect(() => {
@@ -413,6 +454,13 @@ export default function GraphView(props: GraphViewProps) {
             </button>
           ))}
         </div>
+        <div class="graph__layouts" role="group" aria-label="Edge style">
+          {(["curved", "elbow"] as const).map((v) => (
+            <button key={v} type="button" class="graph__layout" aria-pressed={edgeStyle === v} onClick={() => setEdgeStyle(v)}>
+              {v === "curved" ? "Curved" : "Elbow"}
+            </button>
+          ))}
+        </div>
         <label class="graph__toggle">
           <input type="checkbox" checked={showIncompat} onChange={(e) => toggleIncompat((e.currentTarget as HTMLInputElement).checked)} />
           Incompatible courses
@@ -463,7 +511,7 @@ export default function GraphView(props: GraphViewProps) {
                 {model.edges.map((e) => {
                   const s = nodesRef.current.get(e.source), t = nodesRef.current.get(e.target);
                   if (!s || !t || s.x === undefined || t.x === undefined) return null;
-                  const g = edgeGeometry(s, t, e.kind === "incompatible" ? 0 : 0.12);
+                  const g = edgeStyle === "elbow" ? elbowGeometry(s, t) : edgeGeometry(s, t, e.kind === "incompatible" ? 0 : 0.12);
                   const cls = ["gedge", `gedge--${e.kind}`, `gedge--${e.state}`, e.clash && "gedge--clash", nb && (nb.edges.has(e.id) ? "is-hot" : "is-faded")].filter(Boolean).join(" ");
                   return (
                     <g key={e.id} data-edge={e.id} class={cls}>

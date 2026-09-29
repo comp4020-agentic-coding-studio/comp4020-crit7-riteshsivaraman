@@ -2,7 +2,14 @@
 // Planner island only, reads no environment variables, imports no server
 // modules. Planner.tsx is the only caller of the mutating functions.
 import type { ApiError, CourseDetailPayload, Plan, PlannerState, PlanPeriod, SearchResult } from "../../lib/contracts";
+import type { Career } from "../../lib/career";
 import { firstFreeSlot, type LoadOf } from "../../lib/engine/index";
+
+/** The student's undergraduate/postgraduate view. Planner owns it (state +
+ *  localStorage) and writes it here so search requests can read it. */
+let careerNow: Career = "ug";
+export const setCareerNow = (c: Career) => { careerNow = c; };
+export const getCareer = (): Career => careerNow;
 
 export type ApiResult<T> = { ok: true; data: T } | { ok: false; error: ApiError };
 
@@ -44,7 +51,7 @@ export const api = {
     call<PlannerState>("PATCH", "/api/plan", body),
   resetPlan: () => call<PlannerState>("DELETE", "/api/plan"),
   search: (q: string, term: { year: number; period: PlanPeriod } | null, signal?: AbortSignal) => {
-    const p = new URLSearchParams({ q, limit: "12" });
+    const p = new URLSearchParams({ q, limit: "12", career: careerNow });
     if (term) {
       p.set("year", String(term.year));
       p.set("period", term.period);

@@ -131,7 +131,7 @@ const ENGINE_READY = (() => {
 
 describe("GET /api/courses/search validation (no engine needed)", () => {
   const base = inject("baseUrl");
-  it.each(["year=1", "period=S1", "year=1&period=WINTER", "year=9&period=S1", "limit=21", "limit=0", "limit=x"])(
+  it.each(["year=1", "period=S1", "year=1&period=WINTER", "year=9&period=S1", "limit=21", "limit=0", "limit=x", "career=phd"])(
     "400 INVALID for ?%s",
     async (qs) => {
       const res = await fetch(`${base}/api/courses/search?q=comp&${qs}`);
@@ -150,6 +150,16 @@ describe.skipIf(!ENGINE_READY)("GET /api/courses/search (needs the engine)", () 
   }
   const search = async (cookie: string, qs: string) =>
     (await (await fetch(`${base}/api/courses/search?${qs}`, { headers: { cookie } })).json()) as { results: SearchResult[] };
+
+  it("career=ug returns only 1000-4000 level courses, career=pg only 5000+", async () => {
+    const cookie = await jar();
+    const ug = (await search(cookie, "q=COMP&limit=20&career=ug")).results.map((r) => r.course.level);
+    const pg = (await search(cookie, "q=COMP&limit=20&career=pg")).results.map((r) => r.course.level);
+    expect(ug.length).toBeGreaterThan(0);
+    expect(pg.length).toBeGreaterThan(0);
+    expect(ug.every((l) => l < 5000)).toBe(true);
+    expect(pg.every((l) => l >= 5000)).toBe(true);
+  });
 
   it("previews are per cookie: same query, different plans, different previews", async () => {
     const a = await jar();

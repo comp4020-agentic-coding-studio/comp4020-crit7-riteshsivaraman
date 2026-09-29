@@ -18,7 +18,10 @@ import type {
 } from "../../lib/contracts";
 import { dependentsOf, firstFreeSlot, indexCatalogue, loadOf } from "../../lib/engine/index";
 import { Popover } from "../ui";
-import { addToTerm, api, errorText, moveToTerm, termLabel, type ApiResult } from "./api";
+import { addToTerm, api, errorText, moveToTerm, setCareerNow, termLabel, type ApiResult } from "./api";
+import { isCareer, type Career } from "../../lib/career";
+
+const CAREER_KEY = "dp-career";
 import type { Trace } from "./CourseCard";
 import { CourseDetail } from "./CourseDetail";
 import { FirstRun, Guide } from "./FirstRun";
@@ -50,6 +53,25 @@ export default function Planner({ bootstrap, initialView }: PlannerProps) {
   const [startError, setStartError] = useState<string | null>(null);
   const [Graph, setGraph] = useState<ComponentType<GraphViewProps> | null>(null);
   const [howOpen, setHowOpen] = useState(false);
+  // Undergraduate/postgraduate view: a per-browser preference (localStorage).
+  const [career, setCareerState] = useState<Career>("ug");
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(CAREER_KEY);
+      if (isCareer(saved)) { setCareerState(saved); setCareerNow(saved); }
+    } catch {
+      /* storage blocked: keep default */
+    }
+  }, []);
+  const setCareer = (c: Career) => {
+    setCareerState(c);
+    setCareerNow(c);
+    try {
+      localStorage.setItem(CAREER_KEY, c);
+    } catch {
+      /* ignore */
+    }
+  };
   const howAnchor = useRef<HTMLElement>(null);
 
   const cat = useMemo(() => indexCatalogue(courses, bootstrap.catalogueMeta.version), [courses]);
@@ -236,7 +258,7 @@ export default function Planner({ bootstrap, initialView }: PlannerProps) {
 
   return (
     <div class="planner" data-view={view}>
-      <Toolbar state={state} cat={cat} view={view} onView={changeView} onJump={jump} onReset={onReset} />
+      <Toolbar state={state} cat={cat} view={view} onView={changeView} onJump={jump} onReset={onReset} career={career} onCareer={setCareer} />
       <div id="planner-panel" role="tabpanel" aria-label={view === "grid" ? "Semester grid" : "Requisite graph"}>
         {view === "grid" ? (
           <>
@@ -264,6 +286,7 @@ export default function Planner({ bootstrap, initialView }: PlannerProps) {
             renderSearch={renderSearch}
             onAddEntry={onAddEntry}
             onMoveEntry={onMoveEntry}
+            career={career}
           />
         ) : (
           <p class="planner__loading">Loading the graph…</p>

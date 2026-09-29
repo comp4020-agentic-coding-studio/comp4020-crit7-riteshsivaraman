@@ -1,4 +1,5 @@
 import type { APIRoute } from "astro";
+import { inCareer, isCareer } from "../../../lib/career";
 import { searchCourses } from "../../../lib/course-search";
 import { getCatalogue, getCatalogueCourses, getPlan, subjectNames } from "../../../lib/db";
 import { previewPlacement } from "../../../lib/engine/index";
@@ -7,7 +8,8 @@ import { ApiFailure, handle, isPlanPeriod, json } from "../../../lib/planner-sta
 // GET ?q=&year=&period=&limit= --- server-side search over the in-memory
 // catalogue (the browser never holds it). year + period come as a pair (a
 // grid slot: previews against this cookie's plan) or not at all (graph
-// "Add course": every preview is null).
+// "Add course": every preview is null). career=ug|pg limits results to
+// 1000-4000 or 5000+ level courses (src/lib/career.ts); absent = all.
 export const GET: APIRoute = ({ url, locals }) =>
   handle(() => {
     const p = url.searchParams;
@@ -28,9 +30,13 @@ export const GET: APIRoute = ({ url, locals }) =>
       }
       term = { year, period: rawPeriod };
     }
+    const rawCareer = p.get("career");
+    if (rawCareer !== null && rawCareer !== "" && !isCareer(rawCareer)) throw new ApiFailure("INVALID", "career must be ug or pg.");
+    const career = isCareer(rawCareer) ? rawCareer : null;
     const plan = getPlan(locals.planId);
     const cat = getCatalogue();
-    const results = searchCourses(getCatalogueCourses(), q, {
+    const courses = career ? getCatalogueCourses().filter((c) => inCareer(c.level, career)) : getCatalogueCourses();
+    const results = searchCourses(courses, q, {
       plan,
       term,
       limit,

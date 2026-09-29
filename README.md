@@ -36,7 +36,14 @@ so it is tied to this browser.
    Missing prerequisites and clashes inside your plan stay visible. The
    layout buttons switch between Force (a free-floating web), By semester (a
    left-to-right flowchart with one column per semester) and By level (one
-   column per 1000-level band). You can add a course from the graph,
+   column per 1000-level band). Curved or Elbow switches the connectors between arcs and
+   right-angle lines.
+6. Choose Undergraduate or Postgraduate at the top. Undergraduate shows
+   1000 to 4000-level courses in search, postgraduate shows 5000-level and
+   above. The other career's incompatible courses are hidden too, since a
+   clash with a course you could never take is noise. Courses already in
+   your plan and missing prerequisites always stay visible, and a real clash
+   is always flagged. You can add a course from the graph,
    add a ghost course to a semester, or move a planned course to another
    semester from its side panel.
 

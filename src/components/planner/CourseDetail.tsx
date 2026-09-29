@@ -4,6 +4,8 @@
 // variables, no server imports, no fetches.
 import type { ClauseResult, CourseDetailProps, Issue } from "../../lib/contracts";
 import { describeRule } from "../../lib/engine/index";
+import { getCareer } from "./api";
+import { inCareer, levelOfCode } from "../../lib/career";
 import { IconCheck, IconError, IconExternal, IconInfo, IconQuestion, IconWarn } from "../ui";
 
 const PERIOD_NAME: Record<string, string> = { S1: "Sem 1", S2: "Sem 2", SUMMER: "Summer", WINTER: "Winter", AUTUMN: "Autumn", SPRING: "Spring" };
@@ -51,6 +53,8 @@ function Clause({ node, top }: { node: ClauseResult; top?: boolean }) {
 
 export function CourseDetail({ course, status, cat }: CourseDetailProps) {
   const placedClash = new Set(status?.issues.flatMap((i) => (i.kind === "INCOMPATIBLE" ? [i.with] : [])) ?? []);
+  // the other career's incompatibles are noise; a live clash always shows
+  const shownIncompat = course.incompatible.filter((c) => placedClash.has(c) || inCareer(levelOfCode(c), getCareer()));
   const problems = status?.issues.filter((i) => i.severity !== "info") ?? [];
   const infos = status?.issues.filter((i) => i.severity === "info") ?? [];
   const showOfficial = course.requisiteText && (course.parseStatus === "partial" || course.parseStatus === "unparsed" || problems.some((i) => i.kind === "UNVERIFIED_REQUISITE" || i.kind === "UNMODELLED"));
@@ -105,11 +109,11 @@ export function CourseDetail({ course, status, cat }: CourseDetailProps) {
         )}
       </section>
 
-      {course.incompatible.length > 0 && (
+      {shownIncompat.length > 0 && (
         <section class="detail__section">
           <h3 class="detail__label">Can't be taken with</h3>
           <div class="detail__chips">
-            {course.incompatible.map((c) => (
+            {shownIncompat.map((c) => (
               <span key={c} class={placedClash.has(c) ? "chip chip--danger" : "chip chip--outline"}>
                 {placedClash.has(c) && <IconError size={12} />}
                 <span class="code">{c}</span>

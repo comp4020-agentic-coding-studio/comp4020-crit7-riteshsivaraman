@@ -216,6 +216,8 @@ export interface GraphViewProps {
   onAddEntry(code: string, year: number, period: PlanPeriod): Promise<MutationOutcome>;
   // First free slot in the target term; D PATCHes /api/plan/entries/:id.
   onMoveEntry(entryId: number, year: number, period: PlanPeriod): Promise<MutationOutcome>;
+  /** undergraduate/postgraduate view: hides the other level's incompatible ghosts */
+  career?: "ug" | "pg";
 }
 // CourseDetail props (D implements, E renders via renderDetail)
 export interface CourseDetailProps {

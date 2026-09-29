@@ -5,6 +5,7 @@ import { useRef, useState } from "preact/hooks";
 import type { CatalogueIndex, PlannerState } from "../../lib/contracts";
 import { Button, Chip, IconButton, IconError, IconGraph, IconGrid, IconMore, IconWarn, Popover, SegmentedControl } from "../ui";
 import { termShort } from "./api";
+import { CAREERS, type Career } from "../../lib/career";
 
 export type View = "grid" | "graph";
 
@@ -15,9 +16,11 @@ export interface ToolbarProps {
   onView(v: View): void;
   onJump(entryId: number): void;
   onReset(): Promise<void>;
+  career: Career;
+  onCareer(c: Career): void;
 }
 
-export function Toolbar({ state, view, onView, onJump, onReset }: ToolbarProps) {
+export function Toolbar({ state, view, onView, onJump, onReset, career, onCareer }: ToolbarProps) {
   const { evaluation, plan } = state;
   const problemsRef = useRef<HTMLButtonElement>(null);
   const moreRef = useRef<HTMLButtonElement>(null);
@@ -55,6 +58,13 @@ export function Toolbar({ state, view, onView, onJump, onReset }: ToolbarProps) 
         <span class="muted">Saved in this browser</span>
       </p>
       <div class="toolbar__actions">
+        <div class="toolbar__career" role="group" aria-label="Show courses for">
+          {CAREERS.map((c) => (
+            <button key={c.id} type="button" class="toolbar__career-btn" aria-pressed={career === c.id} onClick={() => onCareer(c.id)}>
+              {c.label}
+            </button>
+          ))}
+        </div>
         <SegmentedControl<View>
           label="View"
           value={view}
