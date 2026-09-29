@@ -93,6 +93,7 @@ const STATUS: Record<ApiError["error"], number> = {
   ALREADY_PLANNED: 409,
   YEAR_NOT_EMPTY: 409,
   UNSUPPORTED_MEDIA: 415,
+  WRONG_CAREER: 409,
 };
 
 export class ApiFailure extends Error {

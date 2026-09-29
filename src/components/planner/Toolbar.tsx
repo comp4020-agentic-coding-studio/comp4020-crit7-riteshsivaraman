@@ -16,7 +16,7 @@ export interface ToolbarProps {
   onView(v: View): void;
   onJump(entryId: number): void;
   onReset(): Promise<void>;
-  career: Career;
+  career: Career | null;
   onCareer(c: Career): void;
 }
 
@@ -27,6 +27,12 @@ export function Toolbar({ state, view, onView, onJump, onReset, career, onCareer
   const [problemsOpen, setProblemsOpen] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
   const [confirmReset, setConfirmReset] = useState(false);
+  const [pendingCareer, setPendingCareer] = useState<Career | null>(null);
+  const pickCareer = (c: Career) => {
+    if (c === career) return;
+    if (plan.entries.length === 0) onCareer(c);
+    else setPendingCareer(c); // switching clears the plan: ask first
+  };
 
   const bad = plan.entries
     .map((e) => ({ e, s: evaluation.entries[e.id] }))
@@ -58,13 +64,15 @@ export function Toolbar({ state, view, onView, onJump, onReset, career, onCareer
         <span class="muted">Saved in this browser</span>
       </p>
       <div class="toolbar__actions">
-        <div class="toolbar__career" role="group" aria-label="Show courses for">
-          {CAREERS.map((c) => (
-            <button key={c.id} type="button" class="toolbar__career-btn" aria-pressed={career === c.id} onClick={() => onCareer(c.id)}>
-              {c.label}
-            </button>
-          ))}
-        </div>
+        {career && (
+          <div class="toolbar__career" role="group" aria-label="Student type">
+            {CAREERS.map((c) => (
+              <button key={c.id} type="button" class="toolbar__career-btn" aria-pressed={career === c.id} onClick={() => pickCareer(c.id)}>
+                {c.label}
+              </button>
+            ))}
+          </div>
+        )}
         <SegmentedControl<View>
           label="View"
           value={view}
@@ -77,6 +85,17 @@ export function Toolbar({ state, view, onView, onJump, onReset, career, onCareer
         <IconButton ref={moreRef} label="More actions" icon={<IconMore />} aria-haspopup="dialog" aria-expanded={moreOpen} onClick={() => { setConfirmReset(false); setMoreOpen((o) => !o); }} />
       </div>
 
+      {pendingCareer && (
+        <div class="confirm toolbar__confirm" role="alertdialog" aria-label="Switch student type">
+          <span class="confirm__text">
+            Switch to {pendingCareer === "ug" ? "undergraduate" : "postgraduate"}? This clears {plan.entries.length === 1 ? "the course" : `all ${plan.entries.length} courses`} in your plan.
+          </span>
+          <span class="confirm__actions">
+            <Button variant="danger" size="sm" onClick={() => { onCareer(pendingCareer); setPendingCareer(null); }}>Switch and clear</Button>
+            <Button variant="ghost" size="sm" onClick={() => setPendingCareer(null)}>Cancel</Button>
+          </span>
+        </div>
+      )}
       <Popover open={problemsOpen} anchor={problemsRef} onClose={() => setProblemsOpen(false)} label="Problems in your plan" width={380}>
         <div class="popover__header">Problems in your plan</div>
         <ul class="problems">

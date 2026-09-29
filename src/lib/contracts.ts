@@ -142,6 +142,8 @@ export interface Plan {
   years: number;
   summerYears: number[];
   entries: PlanEntry[];
+  /** "ug" | "pg" once the student has chosen; only that career's courses can be added */
+  career?: "ug" | "pg" | null;
 }
 export interface PlannerState {
   plan: Plan;
@@ -156,7 +158,8 @@ export type ApiError = {
     | "ALREADY_PLANNED"
     | "YEAR_NOT_EMPTY"
     | "NOT_FOUND"
-    | "UNSUPPORTED_MEDIA";
+    | "UNSUPPORTED_MEDIA"
+    | "WRONG_CAREER";
   message: string;
   entries?: number;
 };

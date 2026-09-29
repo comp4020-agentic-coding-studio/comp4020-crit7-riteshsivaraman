@@ -23,11 +23,12 @@ export interface CourseCardProps {
   /** multi-slot / two-term courses: slots this card spans in its row, and
    *  which of two semesters this card is (null for a one-term course) */
   span?: { width: number; part: 1 | 2 | null; other: string; unitsHere: number };
+  career?: "ug" | "pg" | null;
 }
 
 const TRACE_TAG: Partial<Record<NonNullable<Trace>, string>> = { needs: "needed", unlocks: "unlocks", clashes: "clashes" };
 
-export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, onRemove, span }: CourseCardProps) {
+export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, onRemove, span, career }: CourseCardProps) {
   const ref = useRef<HTMLElement>(null);
   const [open, setOpen] = useState(false);
   // pinned = opened on purpose (Enter/Space or a tap): a focus-trapping dialog,
@@ -186,7 +187,7 @@ export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, 
           onPointerLeave={(e) => { if (e.pointerType === "mouse") hide(); }}
         >
           <div class="popover__body">
-            <CourseDetail course={course} status={status ?? null} cat={cat} />
+            <CourseDetail course={course} status={status ?? null} cat={cat} career={career} />
           </div>
         </Popover>
       )}

@@ -18,10 +18,9 @@ import type {
 } from "../../lib/contracts";
 import { dependentsOf, firstFreeSlot, indexCatalogue, loadOf } from "../../lib/engine/index";
 import { Popover } from "../ui";
-import { addToTerm, api, errorText, moveToTerm, setCareerNow, termLabel, type ApiResult } from "./api";
-import { isCareer, type Career } from "../../lib/career";
-
-const CAREER_KEY = "dp-career";
+import { addToTerm, api, errorText, moveToTerm, termLabel, type ApiResult } from "./api";
+import type { Career } from "../../lib/career";
+import { CareerChoice } from "./FirstRun";
 import type { Trace } from "./CourseCard";
 import { CourseDetail } from "./CourseDetail";
 import { FirstRun, Guide } from "./FirstRun";
@@ -53,24 +52,12 @@ export default function Planner({ bootstrap, initialView }: PlannerProps) {
   const [startError, setStartError] = useState<string | null>(null);
   const [Graph, setGraph] = useState<ComponentType<GraphViewProps> | null>(null);
   const [howOpen, setHowOpen] = useState(false);
-  // Undergraduate/postgraduate view: a per-browser preference (localStorage).
-  const [career, setCareerState] = useState<Career>("ug");
-  useEffect(() => {
-    try {
-      const saved = localStorage.getItem(CAREER_KEY);
-      if (isCareer(saved)) { setCareerState(saved); setCareerNow(saved); }
-    } catch {
-      /* storage blocked: keep default */
-    }
-  }, []);
-  const setCareer = (c: Career) => {
-    setCareerState(c);
-    setCareerNow(c);
-    try {
-      localStorage.setItem(CAREER_KEY, c);
-    } catch {
-      /* ignore */
-    }
+  // Undergraduate/postgraduate: stored on the plan (plans.career). Chosen on
+  // entry; switching clears the plan (the Toolbar confirms first).
+  const career = state.plan.career ?? null;
+  const setCareer = async (c: Career) => {
+    const out = apply(await api.patchPlan({ career: c }));
+    if (out.ok) { setFocusCode(null); setLive(`Showing ${c === "ug" ? "undergraduate" : "postgraduate"} courses. Plan cleared.`); }
   };
   const howAnchor = useRef<HTMLElement>(null);
 
@@ -197,7 +184,7 @@ export default function Planner({ bootstrap, initialView }: PlannerProps) {
     const course = cat.byCode.get(code);
     if (!course) return null;
     const entry = state.plan.entries.find((e) => e.code === code);
-    return <CourseDetail course={course} status={entry ? (state.evaluation.entries[entry.id] ?? null) : null} cat={cat} />;
+    return <CourseDetail course={course} status={entry ? (state.evaluation.entries[entry.id] ?? null) : null} cat={cat} career={career} />;
   };
   const renderSearch = (p: GraphSearchProps) => <SearchPanel term={null} onPick={p.onPick} onClose={p.onClose} />;
 
@@ -251,18 +238,22 @@ export default function Planner({ bootstrap, initialView }: PlannerProps) {
     if (busy) return;
     setBusy(true);
     setStartError(null);
-    const out = await add("COMP1100", 1, "S1", 0);
+    const first = career === "pg" ? "COMP6710" : "COMP1100";
+    const out = await add(first, 1, "S1", 0);
     setBusy(false);
-    if (!out.ok) setStartError(`Couldn't add COMP1100: ${out.error.message}`);
+    if (!out.ok) setStartError(`Couldn't add ${first}: ${out.error.message}`);
   };
 
   return (
     <div class="planner" data-view={view}>
       <Toolbar state={state} cat={cat} view={view} onView={changeView} onJump={jump} onReset={onReset} career={career} onCareer={setCareer} />
       <div id="planner-panel" role="tabpanel" aria-label={view === "grid" ? "Semester grid" : "Requisite graph"}>
+        {career === null ? (
+          <CareerChoice onChoose={setCareer} />
+        ) : <>
         {view === "grid" ? (
           <>
-            {empty && <FirstRun onStart={start} busy={busy} />}
+            {empty && <FirstRun onStart={start} busy={busy} career={career} />}
             {startError && <p class="grid-view__error" role="alert">{startError}</p>}
             <GridView
               state={state}
@@ -291,6 +282,7 @@ export default function Planner({ bootstrap, initialView }: PlannerProps) {
         ) : (
           <p class="planner__loading">Loading the graph…</p>
         )}
+        </>}
       </div>
       <Popover open={howOpen} anchor={howAnchor} onClose={() => setHowOpen(false)} label="How it works" width={400} placement="bottom-end">
         <div class="popover__header">How it works</div>

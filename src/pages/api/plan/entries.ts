@@ -1,4 +1,5 @@
 import type { APIRoute } from "astro";
+import { inCareer } from "../../../lib/career";
 import { getCourse, getPlan, inTransaction, insertEntry } from "../../../lib/db";
 import {
   ApiFailure,
@@ -30,6 +31,12 @@ export const POST: APIRoute = ({ request, locals }) =>
         if (!course || course.retired) throw new ApiFailure("UNKNOWN_COURSE", `${code} is not in the catalogue.`);
         if (plan.entries.some((e) => e.code === code)) {
           throw new ApiFailure("ALREADY_PLANNED", `${code} is already in your plan.`);
+        }
+        if (plan.career && !inCareer(course.level, plan.career)) {
+          throw new ApiFailure(
+            "WRONG_CAREER",
+            `${code} is a ${course.level >= 5000 ? "postgraduate" : "undergraduate"} course, and this plan is ${plan.career === "ug" ? "undergraduate" : "postgraduate"}.`,
+          );
         }
         assertFits(plan, code, pos); // every cell of a multi-slot / two-term course
         insertEntry(planId, { code, ...pos });

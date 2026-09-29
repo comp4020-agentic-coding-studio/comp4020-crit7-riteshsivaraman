@@ -4,8 +4,7 @@
 // variables, no server imports, no fetches.
 import type { ClauseResult, CourseDetailProps, Issue } from "../../lib/contracts";
 import { describeRule } from "../../lib/engine/index";
-import { getCareer } from "./api";
-import { inCareer, levelOfCode } from "../../lib/career";
+import { inCareer, levelOfCode, type Career } from "../../lib/career";
 import { IconCheck, IconError, IconExternal, IconInfo, IconQuestion, IconWarn } from "../ui";
 
 const PERIOD_NAME: Record<string, string> = { S1: "Sem 1", S2: "Sem 2", SUMMER: "Summer", WINTER: "Winter", AUTUMN: "Autumn", SPRING: "Spring" };
@@ -51,10 +50,10 @@ function Clause({ node, top }: { node: ClauseResult; top?: boolean }) {
   );
 }
 
-export function CourseDetail({ course, status, cat }: CourseDetailProps) {
+export function CourseDetail({ course, status, cat, career }: CourseDetailProps & { career?: Career | null }) {
   const placedClash = new Set(status?.issues.flatMap((i) => (i.kind === "INCOMPATIBLE" ? [i.with] : [])) ?? []);
   // the other career's incompatibles are noise; a live clash always shows
-  const shownIncompat = course.incompatible.filter((c) => placedClash.has(c) || inCareer(levelOfCode(c), getCareer()));
+  const shownIncompat = course.incompatible.filter((c) => placedClash.has(c) || inCareer(levelOfCode(c), career));
   const problems = status?.issues.filter((i) => i.severity !== "info") ?? [];
   const infos = status?.issues.filter((i) => i.severity === "info") ?? [];
   const showOfficial = course.requisiteText && (course.parseStatus === "partial" || course.parseStatus === "unparsed" || problems.some((i) => i.kind === "UNVERIFIED_REQUISITE" || i.kind === "UNMODELLED"));

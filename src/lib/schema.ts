@@ -48,6 +48,7 @@ export const plans = sqliteTable("plans", {
   id: text().primaryKey(), // cookie value, 22-char base64url
   years: int().notNull().default(3), // 1..6
   summerYearsJson: text("summer_years_json").notNull().default("[]"), // JSON number[]
+  career: text(), // "ug" | "pg"; null until the student picks one (src/lib/career.ts)
   createdAt: int("created_at").notNull(),
   updatedAt: int("updated_at").notNull(),
 });

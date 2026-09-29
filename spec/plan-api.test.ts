@@ -179,7 +179,7 @@ describe("identity and plumbing (no engine needed)", () => {
 describe.skipIf(!ENGINE_READY)("plan API (needs the engine)", { timeout: 30_000 }, () => {
   it("an unknown id gets the default empty plan", async () => {
     const s = await new Jar().state();
-    expect(s.plan).toEqual({ years: 3, summerYears: [], entries: [] });
+    expect(s.plan).toEqual({ years: 3, summerYears: [], entries: [], career: null });
     expect(s.evaluation.totalUnits).toBe(0);
   });
 
@@ -304,6 +304,41 @@ describe.skipIf(!ENGINE_READY)("plan API (needs the engine)", { timeout: 30_000 
     expect([shrink.status, (await errorOf(shrink)).error]).toEqual([409, "YEAR_NOT_EMPTY"]);
   });
 
+  it("career: picking one for the first time keeps a plan made before careers existed", async () => {
+    const jar = new Jar();
+    await jar.send("POST", "/api/plan/entries", { code: "COMP1100", year: 1, period: "S1", slot: 0 });
+    const res = await jar.send("PATCH", "/api/plan", { career: "ug" });
+    expect(((await res.json()) as PlannerState).plan.entries.map((e) => e.code)).toEqual(["COMP1100"]);
+  });
+
+  it("career: stored on the plan, blocks the other career's courses, and switching clears the plan", async () => {
+    const jar = new Jar();
+    expect((await jar.state()).plan.career).toBeNull();
+    const set = await jar.send("PATCH", "/api/plan", { career: "ug" });
+    expect(set.status).toBe(200);
+    expect(((await set.json()) as PlannerState).plan.career).toBe("ug");
+
+    const pg = await jar.send("POST", "/api/plan/entries", { code: "COMP6710", year: 1, period: "S1", slot: 0 });
+    expect([pg.status, (await errorOf(pg)).error]).toEqual([409, "WRONG_CAREER"]);
+    const ug = await jar.send("POST", "/api/plan/entries", { code: "COMP1100", year: 1, period: "S1", slot: 0 });
+    expect(ug.status).toBe(201);
+    // search follows the plan's career, whatever the query says
+    const found = (await (await jar.send("GET", "/api/courses/search?q=COMP&limit=20&career=pg")).json()) as { results: { course: { level: number } }[] };
+    expect(found.results.every((r) => r.course.level < 5000)).toBe(true);
+
+    const bad = await jar.send("PATCH", "/api/plan", { career: "phd" });
+    expect([bad.status, (await errorOf(bad)).error]).toEqual([400, "INVALID"]);
+
+    const same = await jar.send("PATCH", "/api/plan", { career: "ug" });
+    expect(((await same.json()) as PlannerState).plan.entries).toHaveLength(1); // no change, nothing cleared
+    const sw = await jar.send("PATCH", "/api/plan", { career: "pg" });
+    expect(((await sw.json()) as PlannerState).plan).toMatchObject({ career: "pg", entries: [] });
+    expect(sqlite("SELECT career FROM plans WHERE id = ?", jar.cookie)).toEqual([{ career: "pg" }]);
+    expect(sqlite("SELECT COUNT(*) AS n FROM plan_entries WHERE plan_id = ?", jar.cookie)).toEqual([{ n: 0 }]);
+    await restart();
+    expect((await jar.state()).plan.career).toBe("pg");
+  });
+
   it("DELETE /api/plan/entries/:id removes only this plan's entry; 404 otherwise", async () => {
     const owner = new Jar();
     const other = new Jar();
@@ -352,7 +387,7 @@ describe.skipIf(!ENGINE_READY)("plan API (needs the engine)", { timeout: 30_000 
     await jar.send("POST", "/api/plan/entries", { code: "COMP1100", year: 1, period: "S1", slot: 0 });
     const res = await jar.send("DELETE", "/api/plan");
     expect(res.status).toBe(200);
-    expect(((await res.json()) as PlannerState).plan).toEqual({ years: 3, summerYears: [], entries: [] });
+    expect(((await res.json()) as PlannerState).plan).toEqual({ years: 3, summerYears: [], entries: [], career: null });
     expect(sqlite("SELECT id FROM plan_entries WHERE plan_id = ?", jar.cookie)).toEqual([]);
   });
 

@@ -32,8 +32,9 @@ export const GET: APIRoute = ({ url, locals }) =>
     }
     const rawCareer = p.get("career");
     if (rawCareer !== null && rawCareer !== "" && !isCareer(rawCareer)) throw new ApiFailure("INVALID", "career must be ug or pg.");
-    const career = isCareer(rawCareer) ? rawCareer : null;
     const plan = getPlan(locals.planId);
+    // the plan's own career wins; the query param only matters before one is chosen
+    const career = plan.career ?? (isCareer(rawCareer) ? rawCareer : null);
     const cat = getCatalogue();
     const courses = career ? getCatalogueCourses().filter((c) => inCareer(c.level, career)) : getCatalogueCourses();
     const results = searchCourses(courses, q, {

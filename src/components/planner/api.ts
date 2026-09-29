@@ -2,14 +2,7 @@
 // Planner island only, reads no environment variables, imports no server
 // modules. Planner.tsx is the only caller of the mutating functions.
 import type { ApiError, CourseDetailPayload, Plan, PlannerState, PlanPeriod, SearchResult } from "../../lib/contracts";
-import type { Career } from "../../lib/career";
 import { firstFreeSlot, type LoadOf } from "../../lib/engine/index";
-
-/** The student's undergraduate/postgraduate view. Planner owns it (state +
- *  localStorage) and writes it here so search requests can read it. */
-let careerNow: Career = "ug";
-export const setCareerNow = (c: Career) => { careerNow = c; };
-export const getCareer = (): Career => careerNow;
 
 export type ApiResult<T> = { ok: true; data: T } | { ok: false; error: ApiError };
 
@@ -47,11 +40,11 @@ export const api = {
   moveEntry: (id: number, year: number, period: PlanPeriod, slot: number) =>
     call<PlannerState>("PATCH", `/api/plan/entries/${id}`, { year, period, slot }),
   removeEntry: (id: number) => call<PlannerState>("DELETE", `/api/plan/entries/${id}`),
-  patchPlan: (body: { years?: number; summerYears?: number[]; discardEntries?: boolean }) =>
+  patchPlan: (body: { years?: number; summerYears?: number[]; discardEntries?: boolean; career?: "ug" | "pg" }) =>
     call<PlannerState>("PATCH", "/api/plan", body),
   resetPlan: () => call<PlannerState>("DELETE", "/api/plan"),
   search: (q: string, term: { year: number; period: PlanPeriod } | null, signal?: AbortSignal) => {
-    const p = new URLSearchParams({ q, limit: "12", career: careerNow });
+    const p = new URLSearchParams({ q, limit: "12" }); // the plan's career filters server-side
     if (term) {
       p.set("year", String(term.year));
       p.set("period", term.period);
@@ -101,6 +94,7 @@ export function errorText(verb: "add" | "move" | "remove", code: string, e: ApiE
     YEAR_NOT_EMPTY: "that year still has courses",
     NOT_FOUND: "it's no longer in your plan",
     UNSUPPORTED_MEDIA: "the request was malformed",
+    WRONG_CAREER: e.message.replace(/\.$/, ""),
     INVALID: e.message.replace(/\.$/, ""),
   };
   return `Couldn't ${verb} ${code}: ${why[e.error] ?? e.message}.`;

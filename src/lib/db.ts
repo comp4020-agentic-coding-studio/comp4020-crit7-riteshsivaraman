@@ -8,6 +8,7 @@ import { drizzle } from "drizzle-orm/better-sqlite3";
 import { migrate } from "drizzle-orm/better-sqlite3/migrator";
 import { formatSyncReport, loadCatalogueCourses, syncCatalogueFromDir, type SyncReport } from "./catalogue-sync";
 import type { CatalogueCourse, CatalogueIndex, CatalogueIndexFile, Plan, PlanEntry, PlanPeriod } from "./contracts";
+import { isCareer, type Career } from "./career";
 import { indexCatalogue } from "./engine/index";
 import {
   courses,
@@ -108,6 +109,7 @@ export function getPlan(planId: string): Plan {
     years: row?.years ?? DEFAULT_YEARS,
     summerYears: row ? (JSON.parse(row.summerYearsJson) as number[]) : [],
     entries,
+    career: isCareer(row?.career) ? row.career : null,
   };
 }
 
@@ -160,6 +162,16 @@ export function updatePlanShape(planId: string, shape: { years: number; summerYe
     .set({ years: shape.years, summerYearsJson: JSON.stringify(shape.summerYears), updatedAt: Date.now() })
     .where(eq(plans.id, planId))
     .run();
+}
+
+/** Sets the plan's career. Switching from one career to the other clears
+ *  every entry (the old plan was built from the other career's courses). */
+export function setCareer(planId: string, career: Career): void {
+  ensurePlan(planId);
+  const row = db.select().from(plans).where(eq(plans.id, planId)).get();
+  // only a real switch clears: a first pick (null) keeps what's already planned
+  if (row?.career && row.career !== career) db.delete(planEntries).where(eq(planEntries.planId, planId)).run();
+  db.update(plans).set({ career, updatedAt: Date.now() }).where(eq(plans.id, planId)).run();
 }
 
 export function resetPlan(planId: string): void {

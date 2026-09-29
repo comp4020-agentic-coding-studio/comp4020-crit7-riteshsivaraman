@@ -26,6 +26,12 @@ class Jar {
   async page(): Promise<Document> {
     return new JSDOM(await (await this.fetch("/")).text()).window.document;
   }
+  /** Pick undergraduate/postgraduate: until a plan has one, the page shows the chooser, not the grid. */
+  async career(c: "ug" | "pg" = "ug"): Promise<void> {
+    await this.fetch("/", {});
+    const res = await this.fetch("/api/plan", { method: "PATCH", headers: { "content-type": "application/json" }, body: JSON.stringify({ career: c }) });
+    expect(res.status, `career ${c}`).toBe(200);
+  }
   async add(code: string, year: number, period: string, slot: number): Promise<PlannerState> {
     const res = await this.fetch("/api/plan/entries", {
       method: "POST",
@@ -46,8 +52,16 @@ function card(doc: Document, state: PlannerState, code: string): HTMLElement {
 }
 
 describe("planner SSR", () => {
-  it("an empty plan renders the FirstRun guide and 6 term rows (3 years x S1/S2)", async () => {
+  it("a new visitor is asked undergraduate or postgraduate first, with no grid yet", async () => {
     const doc = await new Jar().page();
+    expect(doc.getElementById("career-choice-title")?.textContent).toMatch(/undergraduate or a postgraduate/);
+    expect(doc.querySelectorAll("[data-term]").length).toBe(0);
+  });
+
+  it("an empty plan renders the FirstRun guide and 6 term rows (3 years x S1/S2)", async () => {
+    const jar = new Jar();
+    await jar.career();
+    const doc = await jar.page();
     expect(doc.getElementById("how-it-works")).not.toBeNull();
     expect(doc.querySelectorAll("[data-term]").length).toBe(6);
     expect(doc.querySelectorAll("article[data-entry-id]").length).toBe(0);
@@ -56,7 +70,7 @@ describe("planner SSR", () => {
 
   it("COMP1110 alone: its card carries a red 'Needs' strip", async () => {
     const jar = new Jar();
-    await jar.page();
+    await jar.career();
     const state = await jar.add("COMP1110", 1, "S1", 0);
     const c = card(await jar.page(), state, "COMP1110");
     expect(c.classList.contains("card--violation")).toBe(true);
@@ -66,7 +80,7 @@ describe("planner SSR", () => {
 
   it("COMP1100 + COMP1130: both cards say 'Incompatible with'", async () => {
     const jar = new Jar();
-    await jar.page();
+    await jar.career();
     await jar.add("COMP1100", 1, "S1", 0);
     const state = await jar.add("COMP1130", 1, "S1", 1);
     const doc = await jar.page();
@@ -79,7 +93,7 @@ describe("planner SSR", () => {
     const codes = comp.slice(0, 24).map((c) => c.code);
     expect(codes.length).toBe(24);
     const jar = new Jar();
-    await jar.page();
+    await jar.career();
     let i = 0;
     for (const year of [1, 2, 3]) for (const period of ["S1", "S2"]) for (let slot = 0; slot < 4; slot++) await jar.add(codes[i++], year, period, slot);
     const doc = await jar.page();

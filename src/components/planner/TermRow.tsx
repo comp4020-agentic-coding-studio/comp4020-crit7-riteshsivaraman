@@ -57,6 +57,7 @@ export function TermRow(p: TermRowProps) {
         onTrace={p.onTrace}
         onRemove={p.onRemove}
         span={{ width, part: terms === 2 ? (anchorRow ? 1 : 2) : null, other, unitsHere: unitsPerTerm }}
+        career={p.state.plan.career}
       />,
     );
   }

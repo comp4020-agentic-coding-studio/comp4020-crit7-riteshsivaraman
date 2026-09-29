@@ -1,6 +1,7 @@
 import type { APIRoute } from "astro";
 import { MAX_YEARS } from "../../../lib/contracts";
-import { getPlan, inTransaction, resetPlan, updatePlanShape } from "../../../lib/db";
+import { isCareer } from "../../../lib/career";
+import { getPlan, inTransaction, resetPlan, setCareer, updatePlanShape } from "../../../lib/db";
 import { cellsOf } from "../../../lib/engine/index";
 import { ApiFailure, handle, json, neighbourhoodCodes, plannerState, readJsonBody, serverLoadOf } from "../../../lib/planner-state";
 
@@ -8,7 +9,7 @@ import { ApiFailure, handle, json, neighbourhoodCodes, plannerState, readJsonBod
 
 export const GET: APIRoute = ({ locals }) => handle(() => json(plannerState(locals.planId)));
 
-// { years?, summerYears?, discardEntries? } --- change the plan's shape. Losing
+// { career?, years?, summerYears?, discardEntries? } --- change the plan's shape. Losing
 // entries (a removed year, or a removed summer row) needs discardEntries.
 export const PATCH: APIRoute = ({ request, locals }) =>
   handle(async () => {
@@ -16,6 +17,12 @@ export const PATCH: APIRoute = ({ request, locals }) =>
     const planId = locals.planId;
     const before = neighbourhoodCodes(getPlan(planId));
     inTransaction(() => {
+      // { career } picks undergraduate/postgraduate; changing it clears the plan
+      if (body.career !== undefined) {
+        if (!isCareer(body.career)) throw new ApiFailure("INVALID", "career must be ug or pg.");
+        setCareer(planId, body.career);
+        if (body.years === undefined && body.summerYears === undefined) return;
+      }
       const plan = getPlan(planId);
       const years = body.years ?? plan.years;
       if (typeof years !== "number" || !Number.isInteger(years) || years < 1 || years > MAX_YEARS) {
