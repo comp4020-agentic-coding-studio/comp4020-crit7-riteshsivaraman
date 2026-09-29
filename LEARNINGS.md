@@ -142,3 +142,19 @@ harness --- because `global-setup.ts`'s server refused to boot first
 suite was red, but not for the reason being checked. Re-run such mutations
 with a scratch config that has no `globalSetup` (see the vitest entry above)
 to see the data test itself go red.
+
+## Network I/O without deadlines in long-running batch jobs
+
+The first `scrape-catalogue.ts --all` run sat for 57 minutes with flat CPU,
+no file written, and one ESTABLISHED socket to the P&C host: Node's `fetch`
+has no default timeout, so one request the server accepted and never
+answered blocked the whole sequential batch forever. The retry/backoff loop
+never ran because nothing ever threw. Bug class: any network call in a
+batch job with no deadline (headers *or* body). Fix: every request gets
+`AbortSignal.timeout(...)` (the signal also covers reading the body, so
+"headers then silence" is cut off too), the resulting TimeoutError feeds the
+existing retry loop, and the job prints one timestamped line per item plus a
+watchdog `STALL:` line, so a hang shows in the log within minutes.
+Sensor: `scripts/scrape-catalogue.test.ts` runs a local server that accepts
+and never responds (and one that stalls mid-body) and requires the fetch to
+give up, having retried, within a bound.

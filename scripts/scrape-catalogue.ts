@@ -79,23 +79,47 @@ export interface ScrapeMeta {
 // polite fetching with a resumable on-disk cache
 // ---------------------------------------------------------------------------
 
+/** Knobs for the network layer; tests shrink them, the real run uses the defaults. */
+export interface FetchConfig {
+  base: string;
+  cacheDir: string;
+  minGapMs: number; // >= this long between request starts
+  attempts: number;
+  backoffMs: number; // wait backoffMs * attempt before retry `attempt`
+  timeoutMs: number; // per request, headers and body together
+}
+export const DEFAULT_FETCH: FetchConfig = {
+  base: BASE,
+  cacheDir: CACHE,
+  minGapMs: MIN_GAP_MS,
+  attempts: 3,
+  backoffMs: 5000,
+  timeoutMs: 30_000,
+};
+
 let lastStart = 0;
 let requests = 0;
 let cachedHits = 0;
 
-async function politeFetch(url: string): Promise<Response> {
-  const wait = lastStart + MIN_GAP_MS - Date.now();
+// Every request carries a deadline. The signal also governs reading the
+// body, so a server that sends headers and then stalls is cut off too. A
+// timeout surfaces as a thrown TimeoutError, which the caller's retry/backoff
+// loop treats like any other network error. (LEARNINGS: network I/O without
+// deadlines in long-running batch jobs --- the first --all run hung 57 min on
+// one socket that never answered.)
+async function politeFetch(url: string, cfg: FetchConfig, timeoutMs = cfg.timeoutMs): Promise<Response> {
+  const wait = lastStart + cfg.minGapMs - Date.now();
   if (wait > 0) await new Promise((r) => setTimeout(r, wait));
   lastStart = Date.now();
   requests++;
-  return fetch(url, { redirect: "manual", headers: { "User-Agent": UA } });
+  return fetch(url, { redirect: "manual", headers: { "User-Agent": UA }, signal: AbortSignal.timeout(timeoutMs) });
 }
 
-type PageResult = { kind: "ok"; html: string } | { kind: "notfound" } | { kind: "error"; error: string };
+export type PageResult = { kind: "ok"; html: string } | { kind: "notfound" } | { kind: "error"; error: string };
 
-async function fetchCoursePage(code: string, year: number): Promise<PageResult> {
-  const htmlPath = join(CACHE, String(year), `${code}.html`);
-  const missPath = join(CACHE, String(year), `${code}.404`);
+export async function fetchCoursePage(code: string, year: number, cfg: FetchConfig = DEFAULT_FETCH): Promise<PageResult> {
+  const htmlPath = join(cfg.cacheDir, String(year), `${code}.html`);
+  const missPath = join(cfg.cacheDir, String(year), `${code}.404`);
   if (existsSync(htmlPath)) {
     cachedHits++;
     return { kind: "ok", html: readFileSync(htmlPath, "utf8") };
@@ -106,9 +130,9 @@ async function fetchCoursePage(code: string, year: number): Promise<PageResult> 
   }
   mkdirSync(dirname(htmlPath), { recursive: true });
   let lastError = "";
-  for (let attempt = 0; attempt < 3; attempt++) {
+  for (let attempt = 0; attempt < cfg.attempts; attempt++) {
     try {
-      const res = await politeFetch(`${BASE}/${year}/course/${code}`);
+      const res = await politeFetch(`${cfg.base}/${year}/course/${code}`, cfg);
       // P&C answers a missing course (or one not offered that year) with a
       // 302, usually to /Error/Index/404: any 3xx on a course URL is
       // "missing for this year", never followed (LEARNINGS: P&C 302)
@@ -131,7 +155,7 @@ async function fetchCoursePage(code: string, year: number): Promise<PageResult> 
     } catch (err) {
       lastError = String(err);
     }
-    await new Promise((r) => setTimeout(r, 5000 * (attempt + 1)));
+    if (attempt + 1 < cfg.attempts) await new Promise((r) => setTimeout(r, cfg.backoffMs * (attempt + 1)));
   }
   return { kind: "error", error: lastError };
 }
@@ -151,9 +175,20 @@ async function fetchListing(year: number): Promise<{ endpoint: string; items: Li
   const path = join(CACHE, `listing-${year}.json`);
   if (!existsSync(path)) {
     mkdirSync(CACHE, { recursive: true });
-    const res = await politeFetch(endpoint);
-    if (!res.ok) throw new Error(`listing: HTTP ${res.status}`);
-    writeFileSync(path, await res.text());
+    let body = "";
+    for (let attempt = 0; ; attempt++) {
+      try {
+        const res = await politeFetch(endpoint, DEFAULT_FETCH, 180_000);
+        if (!res.ok) throw new Error(`listing: HTTP ${res.status}`);
+        body = await res.text();
+        break;
+      } catch (err) {
+        if (attempt + 1 >= DEFAULT_FETCH.attempts) throw err;
+        console.log(`listing: attempt ${attempt + 1} failed (${String(err)}), retrying`);
+        await new Promise((r) => setTimeout(r, DEFAULT_FETCH.backoffMs * (attempt + 1)));
+      }
+    }
+    writeFileSync(path, body);
   } else {
     cachedHits++;
   }
@@ -296,20 +331,42 @@ async function main(): Promise<void> {
   const notFound: ScrapeMeta["notFound"] = [];
   const fellBackTo2025: string[] = [];
 
+  // Stall guard: one timestamped line per course, and a watchdog that shouts
+  // if no course has finished for longer than a full retry cycle could take.
+  // A hang is then visible in the log within minutes, not after an hour.
+  let lastProgress = Date.now();
+  let done = 0;
+  const cycleMs = DEFAULT_FETCH.attempts * (DEFAULT_FETCH.timeoutMs + DEFAULT_FETCH.minGapMs) +
+    DEFAULT_FETCH.backoffMs * ((DEFAULT_FETCH.attempts * (DEFAULT_FETCH.attempts - 1)) / 2);
+  const watchdog = setInterval(() => {
+    const idle = Date.now() - lastProgress;
+    if (idle > 2 * cycleMs) console.log(`${new Date().toISOString()} STALL: no course finished for ${Math.round(idle / 1000)}s`);
+  }, 60_000);
+  watchdog.unref();
+  const progress = (code: string, outcome: string): void => {
+    lastProgress = Date.now();
+    console.log(`${new Date().toISOString()} [${++done}] ${code} ${outcome} (req ${requests}, cached ${cachedHits})`);
+  };
+
   const scrapeOne = async (code: string, origin: RawCourse["origin"], years: number[]): Promise<void> => {
+    const outcome = await scrapeYears(code, origin, years);
+    progress(code, outcome);
+  };
+  const scrapeYears = async (code: string, origin: RawCourse["origin"], years: number[]): Promise<string> => {
     for (const y of years) {
       const page = await fetchCoursePage(code, y);
       if (page.kind === "ok") {
         scraped.set(code, extractCourse(page.html, code, y, origin, listed.get(code)));
         if (y !== years[0]) fellBackTo2025.push(code);
-        return;
+        return `ok ${y}`;
       }
       if (page.kind === "error") {
         failures.push({ code, error: page.error });
-        return;
+        return `FAILED ${y}: ${page.error}`;
       }
     }
     notFound.push({ code, triedYears: years, referencedBy: [] });
+    return `not found in ${years.join("/")}`;
   };
 
   let n = 0;
