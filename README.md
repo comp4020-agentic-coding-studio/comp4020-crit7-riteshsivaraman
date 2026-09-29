@@ -98,6 +98,14 @@ and never guesses.
 - Dark mode, and editing without JavaScript. Without JavaScript the plan
   renders read-only.
 
+## Planned next
+
+- **Mark a course as failed or withdrawn.** A student who failed or withdrew
+  from a course should still be able to keep it on their plan, so the plan
+  matches their transcript. A marked course would stay visible on its card
+  but count for nothing: no units, it would not satisfy any prerequisite, and
+  its slot would be treated as free for placing another course.
+
 ## What good looks like here
 
 I decided good meant three things, in this order:
