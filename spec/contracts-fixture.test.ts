@@ -83,7 +83,8 @@ describe("catalogue-mini fixture matches the §2.5 contract", () => {
 
     if (c.requisiteText === null) expect(c.parseStatus).toBe("none");
     if (c.rule === null) {
-      expect(["none", "parsed"]).toContain(c.parseStatus);
+      // incompatibility-only text is "parsed" (rule null); "none" only when text is absent
+      expect(c.parseStatus).toBe(c.requisiteText === null ? "none" : "parsed");
     } else {
       expect(ruleProblems(c.rule, code)).toEqual([]);
       const expected = c.rule.kind === "UNMODELLED" ? "unparsed" : hasUnmodelled(c.rule) ? "partial" : "parsed";

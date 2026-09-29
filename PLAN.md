@@ -209,7 +209,10 @@ export const MAX_YEARS = 6;
 
 export type ParseStatus = "none" | "parsed" | "partial" | "unparsed";
 //  none      = course has no requisite text
-//  parsed    = every clause became a modelled node
+//  parsed    = every clause became a modelled node. A course whose requisite
+//              text contains only incompatibilities (no prerequisite or
+//              corequisite rule) is "parsed" with rule: null; "none" means the
+//              text is empty or absent.
 //  partial   = tree contains >=1 UNMODELLED node
 //  unparsed  = rule is a single UNMODELLED node
 
@@ -834,7 +837,7 @@ paint and does not animate (drag still works, without re-heat drift).
 | Track | Owns (create / edit / delete) |
 |---|---|
 | **W0 contracts** | `src/lib/contracts.ts`; `package.json` + `pnpm-lock.yaml` (installs `@astrojs/preact`, `preact`, `d3-force`, `d3-zoom`, `d3-drag`, `d3-selection`, `@types/d3-*`, `@fontsource-variable/geist`, `@fontsource-variable/geist-mono`); `astro.config.ts` (add preact integration); `tsconfig.json` (jsx settings); `spec/fixtures/catalogue-mini.json` (v1's 8 courses in the new shape); stubs: `src/lib/engine/index.ts`, `src/components/graph/GraphView.tsx` --- ownership of the two stubs passes to B and E at Wave 1. |
-| **A data** | `scripts/scrape-catalogue.ts`, `scripts/build-catalogue.ts`, `catalogue/**` (subject files, `index.json`, `raw/<SUBJECT>.json`, `report.json`), `src/lib/course-search.ts`, `spec/search.test.ts`, `.dockerignore`, `src/lib/schema.ts`, `drizzle/**`, `src/lib/db.ts`, `src/lib/catalogue-sync.ts`, `src/lib/planner-state.ts`, `src/middleware.ts`, `src/env.d.ts`, `src/pages/api/**` (deletes v1 routes), `src/lib/seed-data.ts` (delete), `Dockerfile`, `.gitignore`, `spec/catalogue.test.ts`, `spec/boot-sync.test.ts`, `spec/plan-api.test.ts`, `spec/plan.test.ts` (delete) |
+| **A data** | `scripts/scrape-catalogue.ts`, `scripts/build-catalogue.ts`, `catalogue/**` (subject files, `index.json`, `raw/<SUBJECT>.json`, `report.json`), `src/lib/course-search.ts`, `spec/search.test.ts`, `.dockerignore`, `src/lib/schema.ts`, `drizzle/**`, `src/lib/db.ts`, `src/lib/catalogue-sync.ts`, `src/lib/planner-state.ts`, `src/middleware.ts`, `src/env.d.ts`, `src/pages/api/**` (deletes v1 routes), `src/lib/seed-data.ts` (delete), `Dockerfile`, `.gitignore`, `spec/catalogue.test.ts`, `spec/boot-sync.test.ts`, `spec/plan-api.test.ts`, `spec/plan.test.ts` (delete), `spec/contracts-fixture.test.ts` |
 | **B engine** | `src/lib/engine/**` (index, evaluate, describe, parse, terms), `src/lib/requisites.ts` + `src/lib/terms.ts` (delete), `spec/requisites.test.ts`, `spec/parser.test.ts`, `spec/fixtures/requisite-texts.json` |
 | **C design** | `src/styles/anu.css`, `src/styles.css` (delete), `src/layouts/Base.astro`, `src/pages/readme.astro` (move onto Base; fix "Guestbook" nav), `src/components/ui/**` (Button, IconButton, Chip, Popover/Sheet primitive with positioning + focus return, SegmentedControl, Tooltip), `public/` icons, `src/pages/kit.astro` (branch-only, deleted before merge), `spec/design-tokens.test.ts` |
 | **D planner** | `src/pages/index.astro`, `src/components/planner/**` (Planner, Toolbar, FirstRun, GridView, TermRow, Slot, CourseCard, SearchPopover, CourseDetail, api client), `src/styles/planner.css`, `spec/planner-ssr.test.ts` |
@@ -1066,3 +1069,4 @@ downstream tracks rebase before continuing.)
   optional as a pair and `SearchResult.preview` is `null` without them;
   `PlacementPreview` names the preview shape. Affects A (search, PATCH
   tests), B (`firstFreeSlot`), D (callbacks, term-less search), E.
+- 2026-09-30, after W0: incompatibility-only text -> parseStatus 'parsed'; contracts-fixture test owned by A (orchestrator).
