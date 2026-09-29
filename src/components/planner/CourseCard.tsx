@@ -6,7 +6,7 @@
 import { useEffect, useRef, useState } from "preact/hooks";
 import type { CatalogueCourse, CatalogueIndex, EntryStatus, PlanEntry } from "../../lib/contracts";
 import { IconButton, IconInfo, IconX, Popover } from "../ui";
-import { termLabel } from "./api";
+import { DRAG_ENTRY, termLabel } from "./api";
 import { CourseDetail, IssueIcon } from "./CourseDetail";
 
 export type Trace = "self" | "needs" | "unlocks" | "clashes" | "dim" | null;
@@ -57,7 +57,8 @@ export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, 
     closeTimer.current = window.setTimeout(() => setOpen(false), delay);
   };
 
-  const classes = ["card", state !== "ok" && `card--${state}`, fresh && "card--fresh"].filter(Boolean).join(" ");
+  const [dragging, setDragging] = useState(false);
+  const classes = ["card", state !== "ok" && `card--${state}`, fresh && "card--fresh", dragging && "card--dragging"].filter(Boolean).join(" ");
   const inPeriod = entry.period;
   return (
     <article
@@ -65,6 +66,14 @@ export function CourseCard({ entry, course, status, cat, trace, fresh, onTrace, 
       class={classes}
       data-entry-id={entry.id}
       data-code={entry.code}
+      draggable
+      onDragStart={(e) => {
+        if (!e.dataTransfer) return;
+        e.dataTransfer.setData(DRAG_ENTRY, String(entry.id));
+        e.dataTransfer.effectAllowed = "move";
+        setDragging(true);
+      }}
+      onDragEnd={() => setDragging(false)}
       data-trace={trace ?? undefined}
       aria-labelledby={titleId}
       aria-describedby={problems.length + infos.length > 0 ? issuesId : undefined}

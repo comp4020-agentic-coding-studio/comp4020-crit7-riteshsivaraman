@@ -210,6 +210,7 @@
 }
 .slot:hover, .slot[aria-expanded="true"] { border-style: solid; border-color: var(--gold); background: var(--gold-wash); color: var(--gold-text); }
 .slot:focus-visible { outline: none; box-shadow: var(--focus); border-color: var(--gold); background: var(--gold-wash); color: var(--gold-text); }
+.slot--drop { border-style: solid; border-color: var(--gold); background: var(--gold-wash); color: var(--gold-text); }
 .slot--hint { border-color: var(--gold); color: var(--gold-text); animation: slot-pulse 1.2s var(--ease) 1; }
 @keyframes slot-pulse {
   0% { background: var(--surface); }
@@ -220,6 +221,8 @@
 
 /* --------------------------------------------------------------- card */
 
+.card[draggable="true"] { cursor: grab; }
+.card--dragging { opacity: 0.45; }
 .card {
   position: relative;
   display: flex;

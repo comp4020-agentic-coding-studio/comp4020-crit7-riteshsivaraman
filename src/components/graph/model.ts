@@ -62,7 +62,14 @@ function edgeState(state: TriState | undefined, parentOrMet: boolean): EdgeState
   return "idle";
 }
 
-export function buildGraph(cat: CatalogueIndex, state: PlannerState): GraphModel {
+export interface GraphOptions {
+  /** false: skip ghosts that are only in the graph because a planned course is
+   *  incompatible with them, and ghost-to-ghost incompatible edges. Requisite
+   *  ghosts and any clash touching a planned course stay. */
+  incompatibleGhosts?: boolean;
+}
+
+export function buildGraph(cat: CatalogueIndex, state: PlannerState, opts: GraphOptions = {}): GraphModel {
   const nodes = new Map<string, GraphNode>();
   const edges = new Map<string, GraphEdge>();
   const entries = state.plan.entries;
@@ -155,14 +162,17 @@ export function buildGraph(cat: CatalogueIndex, state: PlannerState): GraphModel
     expand(course.rule, clauses, entry.code, "r", false, true);
   }
 
-  // Incompatibles: every planned course's list adds ghosts; then one
+  // Incompatibles: every planned course's list adds ghosts (unless hidden); then one
   // undirected edge per pair among the visible course nodes.
-  for (const e of entries) for (const code of cat.byCode.get(e.code)?.incompatible ?? []) courseNode(code);
+  if (opts.incompatibleGhosts ?? true) {
+    for (const e of entries) for (const code of cat.byCode.get(e.code)?.incompatible ?? []) courseNode(code);
+  }
   for (const n of [...nodes.values()]) {
     if (n.kind !== "course") continue;
     for (const other of cat.byCode.get(n.id)?.incompatible ?? []) {
       const m = nodes.get(other);
       if (!m || m.kind !== "course" || other === n.id) continue;
+      if (!(opts.incompatibleGhosts ?? true) && !n.planned && !m.planned) continue;
       const [a, b] = [n.id, other].sort();
       const clash = n.planned && m.planned;
       addEdge({ id: `incompatible:${a}--${b}`, source: a, target: b, kind: "incompatible", state: clash ? "unmet" : "idle", clash });

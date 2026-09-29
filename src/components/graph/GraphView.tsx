@@ -66,9 +66,28 @@ function edgeGeometry(s: SimNode, t: SimNode, bend: number) {
   return { d: `M${ax.toFixed(1)},${ay.toFixed(1)} Q${cx.toFixed(1)},${cy.toFixed(1)} ${bx.toFixed(1)},${by.toFixed(1)}`, qx, qy };
 }
 
+const INCOMPAT_KEY = "dp-graph-incompatible";
+
 export default function GraphView(props: GraphViewProps) {
   const { catalogue, state, focusCode, onFocusCode } = props;
-  const model = useMemo(() => buildGraph(catalogue, state), [catalogue, state]);
+  // Per-browser display preference (localStorage), not plan state.
+  const [showIncompat, setShowIncompat] = useState(true);
+  useEffect(() => {
+    try {
+      if (localStorage.getItem(INCOMPAT_KEY) === "hide") setShowIncompat(false);
+    } catch {
+      /* storage blocked: keep default */
+    }
+  }, []);
+  const toggleIncompat = (on: boolean) => {
+    setShowIncompat(on);
+    try {
+      localStorage.setItem(INCOMPAT_KEY, on ? "show" : "hide");
+    } catch {
+      /* ignore */
+    }
+  };
+  const model = useMemo(() => buildGraph(catalogue, state, { incompatibleGhosts: showIncompat }), [catalogue, state, showIncompat]);
   const reduced = useMedia("(prefers-reduced-motion: reduce)");
   const small = useMedia("(max-width: 767px)");
 
@@ -355,6 +374,10 @@ export default function GraphView(props: GraphViewProps) {
         <span class="graph__count muted num">
           {plannedCount} planned · {ghostCount} referenced
         </span>
+        <label class="graph__toggle">
+          <input type="checkbox" checked={showIncompat} onChange={(e) => toggleIncompat((e.currentTarget as HTMLInputElement).checked)} />
+          Incompatible courses
+        </label>
         <Button variant="ghost" icon={textMode ? <IconGraph /> : <IconList />} aria-pressed={textMode} class="graph__mode" onClick={() => setTextMode((t) => !t)}>
           {textMode ? "Show as graph" : "Show as list"}
         </Button>

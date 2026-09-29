@@ -12,7 +12,8 @@ so it is tied to this browser.
 
 ## How to use it
 
-1. Click any empty slot and search for a course by code or name.
+1. Click any empty slot and search for a course by code or name. To move a
+   course, drag its card to another empty slot.
 2. Read the card. A red border means something needs fixing (a missing
    prerequisite, an incompatible course, or a semester the course is not
    offered in). An amber border means the planner cannot check the rule
@@ -22,7 +23,9 @@ so it is tied to this browser.
    offered in, its units and a short summary.
 4. Switch to Graph to see the whole plan. Planned courses are solid nodes,
    and courses their rules mention are faded "ghost" nodes. A red edge with
-   a ⊘ marks two incompatible courses. You can add a course from the graph,
+   a ⊘ marks two incompatible courses. Untick "Incompatible courses" to hide
+   the faded courses that only appear because they clash with your plan.
+   Missing prerequisites and clashes inside your plan stay visible. You can add a course from the graph,
    add a ghost course to a semester, or move a planned course to another
    semester from its side panel.
 
@@ -76,9 +79,9 @@ and never guesses.
 - Courses outside the two colleges above.
 - Winter, autumn and spring sessions as rows. Offerings in those sessions
   are shown as text. Summer is an optional row.
-- More than 4 courses in a semester, and drag and drop. To move a course,
-  use "Move to semester…" in the graph, or remove it and add it again in
-  the grid.
+- More than 4 courses in a semester, and dropping a course onto a slot that
+  is already taken. To move a course, drag its card to an empty slot in the
+  grid, or use "Move to semester…" in the graph.
 - A graph of a whole subject. The graph shows your plan and the courses it
   references.
 - Dark mode, and editing without JavaScript. Without JavaScript the plan

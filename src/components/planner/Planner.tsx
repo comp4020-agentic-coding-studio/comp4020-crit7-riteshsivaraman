@@ -125,6 +125,28 @@ export default function Planner({ bootstrap, initialView }: PlannerProps) {
     window.setTimeout(() => document.querySelector<HTMLElement>(`[data-slot="${entry.year}-${entry.period}-${entry.slot}"]`)?.focus(), 60);
   };
 
+  /** Grid drag and drop: move a planned course into a specific empty slot. */
+  const moveTo = async (entryId: number, year: number, period: PlanPeriod, slot: number): Promise<MutationOutcome> => {
+    const entry = state.plan.entries.find((e) => e.id === entryId);
+    if (!entry) return { ok: false, error: { error: "NOT_FOUND", message: "That course is no longer in your plan." } };
+    if (entry.year === year && entry.period === period && entry.slot === slot) return { ok: true };
+    const res = await api.moveEntry(entryId, year, period, slot);
+    const out = apply(res);
+    if (!res.ok) {
+      const msg = errorText("move", entry.code, res.error);
+      setLive(msg);
+      setStartError(msg);
+      return out;
+    }
+    setStartError(null);
+    const st = res.data.evaluation.entries[entryId];
+    const probs = st?.issues.filter((i) => i.severity !== "info") ?? [];
+    setLive(`${entry.code} moved to ${termLabel(year, period)}. ${probs.length === 0 ? "No problems." : `${probs.length} problem${probs.length === 1 ? "" : "s"}: ${probs.map((p) => p.short).join("; ")}.`}`);
+    setFresh(entryId);
+    focusCard(entryId);
+    return out;
+  };
+
   const onShape = async (change: ShapeChange): Promise<MutationOutcome> => {
     const out = apply(await api.patchPlan(change));
     if (out.ok) setLive("Plan updated.");
@@ -226,6 +248,7 @@ export default function Planner({ bootstrap, initialView }: PlannerProps) {
               fresh={fresh}
               onTrace={setFocusCode}
               onAdd={add}
+              onMove={moveTo}
               onRemove={remove}
               onShape={onShape}
             />

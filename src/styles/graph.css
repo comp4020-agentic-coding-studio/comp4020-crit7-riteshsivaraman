@@ -11,6 +11,8 @@
 .graph__find-input { width: 170px; padding-left: 28px; }
 .graph__count { font: 400 var(--t-xs) var(--font-ui); margin-left: var(--s-2); }
 .graph__mode { margin-left: auto; }
+.graph__toggle { display: inline-flex; align-items: center; gap: var(--s-1); font: 400 var(--t-xs) var(--font-ui); color: var(--muted); cursor: pointer; margin-left: var(--s-2); }
+.graph__toggle input { accent-color: var(--gold); margin: 0; }
 
 .graph__canvas,
 .graph__textview {

@@ -17,6 +17,7 @@ export interface TermRowProps {
   labelExtra?: ComponentChildren;
   onTrace(code: string | null): void;
   onAdd(code: string, year: number, period: PlanPeriod, slot: number): Promise<MutationOutcome>;
+  onMove(entryId: number, year: number, period: PlanPeriod, slot: number): Promise<MutationOutcome>;
   onRemove(entry: PlanEntry): void;
 }
 
@@ -37,7 +38,7 @@ export function TermRow(p: TermRowProps) {
       <div class="term__slots">
         {cells.map((c) =>
           typeof c === "number" ? (
-            <Slot key={`s${c}`} year={p.year} period={p.period} slot={c} hint={p.hintSlot && c === 0} onAdd={p.onAdd} />
+            <Slot key={`s${c}`} year={p.year} period={p.period} slot={c} hint={p.hintSlot && c === 0} onAdd={p.onAdd} onMove={p.onMove} />
           ) : (
             <CourseCard
               key={`e${c.id}`}

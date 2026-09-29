@@ -18,6 +18,7 @@ export interface GridViewProps {
   fresh: number | null;
   onTrace(code: string | null): void;
   onAdd(code: string, year: number, period: PlanPeriod, slot: number): Promise<MutationOutcome>;
+  onMove(entryId: number, year: number, period: PlanPeriod, slot: number): Promise<MutationOutcome>;
   onRemove(entry: PlanEntry): void;
   onShape(change: ShapeChange): Promise<MutationOutcome>;
 }
@@ -78,6 +79,7 @@ export function GridView(p: GridViewProps) {
             labelExtra={extra}
             onTrace={p.onTrace}
             onAdd={p.onAdd}
+            onMove={p.onMove}
             onRemove={p.onRemove}
           />
         );

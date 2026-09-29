@@ -98,6 +98,33 @@ describe("graph model: incompatibility", () => {
     expect(inc).toHaveLength(1);
     expect(inc[0].clash).toBe(false);
   });
+
+  describe("with incompatible ghosts hidden", () => {
+    const hide = { incompatibleGhosts: false };
+
+    it("drops ghosts that are only there because they are incompatible, and their edges", () => {
+      const g = buildGraph(cat, stateFor([["COMP2100", 2, "S1"]]), hide);
+      const ghosts = g.nodes.filter((n) => n.kind === "course" && !n.planned).map((n) => n.id).sort();
+      // COMP6442 was only an incompatible; COMP1110/COMP1140 are requisites and stay
+      expect(ghosts).toEqual(["COMP1110", "COMP1140"]);
+      expect(g.edges.filter((e) => e.kind === "incompatible")).toHaveLength(0);
+    });
+
+    it("keeps a clash between two planned courses", () => {
+      const g = buildGraph(cat, stateFor([["COMP1100", 1, "S1"], ["COMP1130", 1, "S2"]]), hide);
+      const inc = g.edges.filter((e) => e.kind === "incompatible");
+      expect(inc).toHaveLength(1);
+      expect(inc[0].clash).toBe(true);
+    });
+
+    it("keeps an incompatible edge to a ghost that is also a missing requisite", () => {
+      // COMP1110 needs COMP1100 (a requisite ghost) and is incompatible with COMP1140,
+      // which COMP2100's rule also references: both ghosts stay, so the edge stays.
+      const g = buildGraph(cat, stateFor([["COMP1110", 1, "S2"], ["COMP2100", 2, "S1"]]), hide);
+      expect(node(g, "COMP1140")).toMatchObject({ planned: false });
+      expect(g.edges.some((e) => e.kind === "incompatible" && [e.source, e.target].includes("COMP1140"))).toBe(true);
+    });
+  });
 });
 
 describe("graph model: scope", () => {

@@ -54,6 +54,9 @@ export const api = {
   course: (code: string) => call<CourseDetailPayload>("GET", `/api/courses/${encodeURIComponent(code)}`),
 };
 
+/** dataTransfer type for dragging a planned course between grid slots. */
+export const DRAG_ENTRY = "application/x-dp-entry";
+
 const FULL: ApiError = { error: "SLOT_TAKEN", message: "That semester is full." };
 
 /** Graph add (GraphViewProps.onAddEntry): first free slot in the term; a full
