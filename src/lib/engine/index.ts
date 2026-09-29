@@ -19,7 +19,7 @@ export type {
   TriState,
 } from "../contracts";
 
-export { termOrder, termKey, planTerms, firstFreeSlot } from "./terms";
+export { termOrder, termKey, planTerms, firstFreeSlot, spanOf, totalUnits, nextTerm, cellsOf, cellKey, endTerm, occupancy, fits, fitMessage, loadOf, type Cell, type Fit, type Load, type LoadOf } from "./terms";
 export { evaluatePlan, previewPlacement } from "./evaluate";
 export { describeRule } from "./describe";
 export { parseRequisiteText } from "./parse";

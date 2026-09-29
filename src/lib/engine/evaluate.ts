@@ -22,7 +22,7 @@ import type {
   TriState,
 } from "../contracts";
 import { describeRule, fitShort, missingShort, unverifiedDetail, unverifiedShort } from "./describe";
-import { planTerms, termKey, termOrder } from "./terms";
+import { cellsOf, endTerm, loadOf, planTerms, spanOf, termKey, termOrder } from "./terms";
 
 interface Placed {
   code: string;
@@ -256,12 +256,17 @@ function statusFor(
   return { entryId, code, state, issues, clauses };
 }
 
-function placedOf(entries: PlanEntry[]): (Placed & { entryId: number })[] {
-  return entries.map((e) => ({ entryId: e.id, code: e.code, order: termOrder(e.year, e.period) }));
+// A course counts as taken in its LAST term: a two-term course only satisfies
+// a prerequisite after its second semester.
+function placedOf(entries: PlanEntry[], cat: CatalogueIndex): (Placed & { entryId: number })[] {
+  return entries.map((e) => {
+    const end = endTerm(e, loadOf(cat.byCode.get(e.code)));
+    return { entryId: e.id, code: e.code, order: termOrder(end.year, end.period) };
+  });
 }
 
 export function evaluatePlan(plan: Plan, cat: CatalogueIndex): PlanEvaluation {
-  const placed = placedOf(plan.entries);
+  const placed = placedOf(plan.entries, cat);
   const entries: Record<number, EntryStatus> = {};
   const unitsByTerm = {} as Record<TermKey, number>;
   for (const t of planTerms(plan)) unitsByTerm[termKey(t.year, t.period)] = 0;
@@ -269,10 +274,17 @@ export function evaluatePlan(plan: Plan, cat: CatalogueIndex): PlanEvaluation {
   let totalUnits = 0;
   for (const e of plan.entries) {
     entries[e.id] = statusFor(e.id, e.code, e.year, e.period, placed, cat);
-    const units = cat.byCode.get(e.code)?.units ?? 0;
-    const key = termKey(e.year, e.period);
-    unitsByTerm[key] = (unitsByTerm[key] ?? 0) + units;
-    totalUnits += units;
+    const course = cat.byCode.get(e.code);
+    if (!course) continue;
+    const load = loadOf(course);
+    const { unitsPerTerm, width } = spanOf(load, e.period);
+    // one unitsPerTerm per term row the course covers (cells are width per row)
+    for (const [i, c] of cellsOf(e, load).entries()) {
+      if (i % width !== 0) continue;
+      const key = termKey(c.year, c.period);
+      unitsByTerm[key] = (unitsByTerm[key] ?? 0) + unitsPerTerm;
+      totalUnits += unitsPerTerm;
+    }
   }
   const problemCount = Object.values(entries).filter((s) => s.state !== "ok").length;
   return { entries, unitsByTerm, totalUnits, problemCount, catalogueVersion: cat.version };
@@ -291,7 +303,7 @@ export function previewPlacement(
   cat: CatalogueIndex,
 ): PlacementPreview {
   const PREVIEW_ID = -1;
-  const placed = placedOf(plan.entries);
+  const placed = placedOf(plan.entries, cat);
   placed.push({ entryId: PREVIEW_ID, code, order: termOrder(year, period) });
   const status = statusFor(PREVIEW_ID, code, year, period, placed, cat);
   return { state: status.state, issues: status.issues };

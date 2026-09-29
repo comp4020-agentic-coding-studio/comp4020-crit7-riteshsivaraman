@@ -8,6 +8,7 @@ import {
   parseEntryId,
   plannerState,
   readJsonBody,
+  assertFits,
   uniqueViolation,
   validatePosition,
 } from "../../../../lib/planner-state";
@@ -26,9 +27,9 @@ export const PATCH: APIRoute = ({ request, params, locals }) =>
         const entry = plan.entries.find((e) => e.id === id);
         if (!entry) throw new ApiFailure("NOT_FOUND", "No such entry in this plan.");
         const pos = validatePosition(plan, body);
-        const occupant = plan.entries.find((e) => e.year === pos.year && e.period === pos.period && e.slot === pos.slot);
-        if (occupant && occupant.id !== id) throw new ApiFailure("SLOT_TAKEN", "That slot is already taken.");
-        if (!occupant) moveEntry(planId, id, pos);
+        if (entry.year === pos.year && entry.period === pos.period && entry.slot === pos.slot) return;
+        assertFits(plan, entry.code, pos, id); // its own cells count as free
+        moveEntry(planId, id, pos);
       });
     } catch (err) {
       throw uniqueViolation(err) ?? err;

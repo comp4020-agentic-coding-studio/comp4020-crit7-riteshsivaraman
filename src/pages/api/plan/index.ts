@@ -1,7 +1,8 @@
 import type { APIRoute } from "astro";
 import { MAX_YEARS } from "../../../lib/contracts";
 import { getPlan, inTransaction, resetPlan, updatePlanShape } from "../../../lib/db";
-import { ApiFailure, handle, json, neighbourhoodCodes, plannerState, readJsonBody } from "../../../lib/planner-state";
+import { cellsOf } from "../../../lib/engine/index";
+import { ApiFailure, handle, json, neighbourhoodCodes, plannerState, readJsonBody, serverLoadOf } from "../../../lib/planner-state";
 
 // This browser's plan (PLAN.md §3.2). Every success is the full PlannerState.
 
@@ -31,8 +32,10 @@ export const PATCH: APIRoute = ({ request, locals }) =>
         throw new ApiFailure("INVALID", "discardEntries must be a boolean.");
       }
       const summerYears = [...new Set(rawSummers as number[])].sort((a, b) => a - b);
-      const lost = plan.entries.filter(
-        (e) => e.year > years || (e.period === "SUMMER" && !summerYears.includes(e.year)),
+      // Any cell outside the new shape loses the course (a two-term course
+      // anchored in the last kept year can run into a removed one).
+      const lost = plan.entries.filter((e) =>
+        cellsOf(e, serverLoadOf(e.code)).some((c) => c.year > years || (c.period === "SUMMER" && !summerYears.includes(c.year))),
       );
       if (lost.length > 0 && body.discardEntries !== true) {
         throw new ApiFailure(

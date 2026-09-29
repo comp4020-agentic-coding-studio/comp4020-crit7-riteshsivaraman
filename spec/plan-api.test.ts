@@ -274,6 +274,36 @@ describe.skipIf(!ENGINE_READY)("plan API (needs the engine)", { timeout: 30_000 
     expect((await owner.state()).plan.entries.find((e) => e.id === a)).toMatchObject({ year: 1, period: "S1", slot: 0 });
   });
 
+  it("an annual course holds its slot in both semesters: 409 SLOT_TAKEN names the clash, moves re-check", async () => {
+    const jar = new Jar();
+    // COMP3770 is "an Annual course (6+6)" in the real catalogue: Y1 S1 slot 0 + Y1 S2 slot 0
+    const placed = await jar.send("POST", "/api/plan/entries", { code: "COMP3770", year: 1, period: "S1", slot: 0 });
+    expect(placed.status).toBe(201);
+    const s = (await placed.json()) as PlannerState;
+    const id = s.plan.entries[0].id;
+    expect(s.evaluation.unitsByTerm).toMatchObject({ "Y1-S1": 6, "Y1-S2": 6 });
+
+    const blocked = await jar.send("POST", "/api/plan/entries", { code: "COMP1600", year: 1, period: "S2", slot: 0 });
+    const err = await errorOf(blocked);
+    expect([blocked.status, err.error]).toEqual([409, "SLOT_TAKEN"]);
+    expect(err.message).toContain("COMP3770");
+
+    // a course already in S2 slot 1 blocks moving COMP3770 into slot 1
+    await jar.send("POST", "/api/plan/entries", { code: "COMP1600", year: 1, period: "S2", slot: 1 });
+    const move = await jar.send("PATCH", `/api/plan/entries/${id}`, { year: 1, period: "S1", slot: 1 });
+    expect([move.status, (await errorOf(move)).message]).toEqual([409, expect.stringContaining("COMP1600")]);
+    // ... and anchoring in the last S2 would run past the plan
+    const past = await jar.send("PATCH", `/api/plan/entries/${id}`, { year: 3, period: "S2", slot: 0 });
+    expect(past.status).toBe(409);
+    expect(sqlite("SELECT year, period, slot FROM plan_entries WHERE id = ?", id)).toEqual([{ year: 1, period: "S1", slot: 0 }]);
+
+    // removing Year 2 loses a two-term course that starts in Year 1 S2
+    const late = await jar.send("PATCH", `/api/plan/entries/${id}`, { year: 1, period: "S2", slot: 2 });
+    expect(late.status).toBe(200);
+    const shrink = await jar.send("PATCH", "/api/plan", { years: 1 });
+    expect([shrink.status, (await errorOf(shrink)).error]).toEqual([409, "YEAR_NOT_EMPTY"]);
+  });
+
   it("DELETE /api/plan/entries/:id removes only this plan's entry; 404 otherwise", async () => {
     const owner = new Jar();
     const other = new Jar();

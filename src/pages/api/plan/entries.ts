@@ -7,6 +7,7 @@ import {
   neighbourhoodCodes,
   plannerState,
   readJsonBody,
+  assertFits,
   uniqueViolation,
   validatePosition,
 } from "../../../lib/planner-state";
@@ -30,9 +31,7 @@ export const POST: APIRoute = ({ request, locals }) =>
         if (plan.entries.some((e) => e.code === code)) {
           throw new ApiFailure("ALREADY_PLANNED", `${code} is already in your plan.`);
         }
-        if (plan.entries.some((e) => e.year === pos.year && e.period === pos.period && e.slot === pos.slot)) {
-          throw new ApiFailure("SLOT_TAKEN", "That slot is already taken.");
-        }
+        assertFits(plan, code, pos); // every cell of a multi-slot / two-term course
         insertEntry(planId, { code, ...pos });
       });
     } catch (err) {

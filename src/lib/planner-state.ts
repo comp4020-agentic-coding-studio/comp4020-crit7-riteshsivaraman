@@ -12,8 +12,8 @@ import type {
   Rule,
 } from "./contracts";
 import { MAX_YEARS, SLOTS } from "./contracts";
-import { catalogueMeta, getCatalogue, getPlan } from "./db";
-import { dependentsOf, evaluatePlan } from "./engine/index";
+import { catalogueMeta, getCatalogue, getCourse, getPlan } from "./db";
+import { dependentsOf, evaluatePlan, fitMessage, fits, loadOf, type LoadOf } from "./engine/index";
 
 // ---------------------------------------------------------------------------
 // neighbourhood + state
@@ -170,6 +170,17 @@ export function validatePosition(plan: Plan, body: Record<string, unknown>): { y
     throw new ApiFailure("INVALID", `Year ${year} has no summer session in this plan.`);
   }
   return { year, period, slot };
+}
+
+/** Loads for the footprint helpers, read from the synced catalogue. */
+export const serverLoadOf: LoadOf = (code) => loadOf(getCourse(code));
+
+/** Throws SLOT_TAKEN (with a plain-English reason) unless every cell the
+ *  course would cover is inside the plan and free. */
+export function assertFits(plan: Plan, code: string, pos: { year: number; period: PlanPeriod; slot: number }, ignoreId?: number): void {
+  const load = serverLoadOf(code);
+  const fit = fits(plan, pos, load, serverLoadOf, ignoreId);
+  if (!fit.ok) throw new ApiFailure("SLOT_TAKEN", fitMessage(code, load, pos.period, fit));
 }
 
 export function parseEntryId(raw: string | undefined): number {

@@ -442,7 +442,8 @@ describe("evaluatePlan totals", () => {
     );
     const p = plan(["AAAA1000", 1, "S1"], ["BBBB2000", 1, "S1"], ["CCCC1000", 1, "SUMMER"]);
     const ev = evaluatePlan(p, cat);
-    expect(ev.unitsByTerm).toMatchObject({ "Y1-S1": 18, "Y1-S2": 0, "Y1-SUMMER": 6, "Y2-S1": 0, "Y3-S2": 0 });
+    // BBBB2000 is 12u, so it is split over Y1 S1 and Y1 S2 (spec/footprint.test.ts)
+    expect(ev.unitsByTerm).toMatchObject({ "Y1-S1": 12, "Y1-S2": 6, "Y1-SUMMER": 6, "Y2-S1": 0, "Y3-S2": 0 });
     expect(Object.keys(ev.unitsByTerm)).toHaveLength(8); // 3 years x 2 + summers in Y1, Y2
     expect(ev.totalUnits).toBe(24);
     expect(ev.problemCount).toBe(1); // BBBB2000 same term as its requisite
