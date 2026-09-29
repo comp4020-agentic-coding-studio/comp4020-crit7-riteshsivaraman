@@ -13,7 +13,7 @@
   "subjectName": "Indonesian",
   "college": "ANU College of Asia and the Pacific",
   "career": "Undergraduate",
-  "description": "This course serves as a comprehensive introduction to spoken Indonesian, encompassing the foundational elements of the language, including basic active vocabulary and grammar. Students will develop their proficiency in spoken communication through practical exercises and engagement in a wide range of conversational topics and real-life situations.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -30,7 +30,7 @@
   "subjectName": "Indonesian",
   "college": "ANU College of Asia and the Pacific",
   "career": "Undergraduate",
-  "description": "Building upon the foundation of Indonesian 1, Indonesian 2 is a comprehensive elementary Indonesian course that offers further development in spoken Indonesian, with a strong emphasis on mastering the most frequently used verb forms and achieving practical fluency in handling a wide range of conversational topics and real-life situations. Additionally, the course initiates the cultivation of reading skills.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed INDN1002, undertake a language proficiency assessment or be given permission by the course convener."
  },
  {
@@ -47,7 +47,7 @@
   "subjectName": "Indonesian",
   "college": "ANU College of Asia and the Pacific",
   "career": "Undergraduate",
-  "description": "Indonesian 3 is a lower-mid intermediate course designed to enhance Indonesian language skills and cultural knowledge further. This course focuses on developing reading and listening abilities to engage with various social and cultural topics. Students will also expand their active vocabulary, improve their writing skills by translating modified and naturalistic English texts into Indonesian, and gain a deeper understanding of essential grammar points through both written and spoken exercises.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed INDN1003, undertake a language proficiency assessment or be given permission by the course convener."
  },
  {
@@ -64,7 +64,7 @@
   "subjectName": "Indonesian",
   "college": "ANU College of Asia and the Pacific",
   "career": "Undergraduate",
-  "description": "Indonesian 4 is an intermediate-level course (equivalent to CEFR B1) offers students at the intermediate level an opportunity to further refine their language proficiency and cultural insights. This course is dedicated to sharpening their reading and listening skills on social and cultural topics, providing a robust foundation for communicative competence and fostering discussions on diverse social and cultural subjects. Students will continue to advance their writing skills by translating texts between Indonesian and English while deepening their grasp of grammar principles and expanding their vocabulary through written and spoken exercises.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed INDN2002, undertake a language proficiency assessment or be given permission by the course convener."
  },
  {
@@ -81,7 +81,7 @@
   "subjectName": "Indonesian",
   "college": "ANU College of Asia and the Pacific",
   "career": "Undergraduate",
-  "description": "Indonesian 5 is a high intermediate-level course (equivalent to CEFR B1+) dedicated to developing students' high proficiency in reading and listening to a diverse range of authentic texts. It provides ample practice for students to engage in discussions covering a broad spectrum of historical and contemporary topics and express their perspectives in both written and spoken modes. This course is designed to integrate and enhance all skill sets, offering a comprehensive exploration to deepen the understanding of the complexities of Indonesian grammar and vocabulary. Moreover, students will continue to develop their writing skills and English-Indonesian translation abilities, further deepening their linguistic proficiency through complex naturalistic texts in both written and spoken forms.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed INDN2003, undertake a language proficiency assessment or be given permission by the course convener."
  },
  {
@@ -98,7 +98,7 @@
   "subjectName": "Indonesian",
   "college": "ANU College of Asia and the Pacific",
   "career": "Undergraduate",
-  "description": "Indonesian 6 is an early advanced-level course (equivalent to CEFR B2) dedicated to developing students' high proficiency in reading and listening to a diverse range of authentic texts. It provides ample practice for students to engage in discussions covering a broad spectrum of historical and contemporary topics and express their perspectives in both written and spoken modes. This course is designed to integrate and enhance all skill sets, offering a comprehensive exploration to deepen the understanding of the complexities of Indonesian grammar and vocabulary. Moreover, students will continue to develop their writing skills and English-Indonesian translation abilities, further deepening their linguistic proficiency through complex naturalistic texts in both written and spoken forms.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed INDN3002, undertake a language proficiency assessment or be given permission by the course convener."
  },
  {
@@ -115,7 +115,7 @@
   "subjectName": "Indonesian",
   "college": "ANU College of Asia and the Pacific",
   "career": "Undergraduate",
-  "description": "This advanced Indonesian course is designed to enhance practical skills in critical textual analysis, translation and interpretation across various linguistic levels, encompassing phrases, sentences, and discourses. Students will delve into a spectrum of pivotal topics within contemporary Indonesian society, spanning socio-cultural and political domains. Through rigorous academic discussions, they will apply their written and spoken Indonesian proficiencies, developing sound translation and interpretation skills through individual and group tasks. These tasks encompass activities such as producing translated and critically interpreted texts, discerning nuanced meanings, addressing translation challenges, and comparing and assessing potential solutions. The course also cultivates the ability to comprehend texts spanning diverse genres and styles, ranging from literature, through to journalistic, colloquial, and social media variations.",
+  "summary": "",
   "requisiteText": "This is an advanced Indonesian course. To enrol in this course, you must have successfully completed INDN3002 or INDN3003, undertake a language proficiency assessment or be given permission by the course convener."
  }
 ]

@@ -43,6 +43,15 @@ export interface ListingItem {
   Year: number;
 }
 
+/** First sentence only, <= max chars (cut at a word boundary with an ellipsis if longer). */
+export function summarise(description: string, max = 160): string {
+  const text = description.replace(/\s+/g, " ").trim();
+  const first = text.match(/^.*?[.!?](?=\s|$)/)?.[0] ?? text;
+  if (first.length <= max) return first;
+  const cut = first.slice(0, max - 1);
+  return `${cut.slice(0, Math.max(cut.lastIndexOf(" "), 1)).trim()}…`;
+}
+
 export interface RawCourse {
   code: string;
   origin: "catalogue" | "referenced";
@@ -55,7 +64,9 @@ export interface RawCourse {
   subjectName: string | null; // "Course subject"
   college: string | null; // "ANU College", verbatim; joint courses read "A / B"
   career: string | null; // from the listing, or the page's intro line
-  description: string;
+  // first sentence of the page's intro, <= 160 chars. The full description is
+  // ANU's copyright and is never stored (PLAN.md changelog, 2026-09-30).
+  summary: string;
   requisiteText: string | null; // verbatim "Requisite and Incompatibility" block
 }
 
@@ -309,7 +320,7 @@ function extractFromDocument(
     subjectName,
     college,
     career,
-    description: intro ? blockText(intro) : "",
+    summary: intro ? summarise(blockText(intro)) : "",
     requisiteText: requisiteText.length > 0 ? requisiteText : null,
   };
 }

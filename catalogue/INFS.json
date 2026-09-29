@@ -6,7 +6,7 @@
   "level": 1000,
   "title": "Business Information Systems",
   "units": 6,
-  "summary": "This course aims to provide students from all business disciplines with a general background of BIS.  An understanding of BIS is important to the work of business professionals because BIS serves as a bridge between management and operation.",
+  "summary": "This course aims to provide students from all business disciplines with a general background of BIS.",
   "offered": [
    "S1"
   ],
@@ -18,7 +18,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS1001",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course aims to provide students from all business disciplines with a general background of BIS. An understanding of BIS is important to the work of business professionals because BIS serves as a bridge between management and operation. For instance, accountants use information systems for business reporting; financial managers use information systems for market forecast; sales managers and marketers use information systems to track customer purchases and to promote new products; information systems designers build and deliver new information services; and executive managers use strategic information systems to determine the company’s strategic position. Mastering both business and technology skills and knowledge builds job opportunities, because they can better contribute to shaping their company's strategy and operation."
+  "description": ""
  },
  {
   "code": "INFS2005",
@@ -27,7 +27,7 @@
   "level": 2000,
   "title": "Accounting Information Systems",
   "units": 6,
-  "summary": "Accounting Information Systems (AIS) form an integral part of modern organisations since they support managers to plan and control business operations, improve decision-making in organisations, and support financial accounting and reporting.",
+  "summary": "Accounting Information Systems (AIS) form an integral part of modern organisations since they support managers to plan and control business operations,…",
   "offered": [
    "S1",
    "S2"
@@ -56,7 +56,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS2005",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Accounting Information Systems (AIS) form an integral part of modern organisations since they support managers to plan and control business operations, improve decision-making in organisations, and support financial accounting and reporting. This course examines the way AIS are structured and used in organisations and provides a close look into how these systems work and impact on enterprises. It is suitable for both students with accounting backgrounds and with IT backgrounds."
+  "description": ""
  },
  {
   "code": "INFS2024",
@@ -103,7 +103,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS2024",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course aims to provide students with the knowledge and skills necessary to successfully undertake information systems analysis. Lectures and tutorials provide coverage of the concepts, skills, methodologies, techniques, tools and perspectives considered essential for systems analysts working with modern information systems and their development."
+  "description": ""
  },
  {
   "code": "INFS3002",
@@ -112,7 +112,7 @@
   "level": 3000,
   "title": "Enterprise Systems in Business",
   "units": 6,
-  "summary": "This course prepares students for future managerial level appointments by introducing the important management and socio-technical concepts related to the strategic development, investment and use of Business IT systems in organizations and business enterprises.",
+  "summary": "This course prepares students for future managerial level appointments by introducing the important management and socio-technical concepts related to the…",
   "offered": [
    "S2"
   ],
@@ -128,7 +128,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS3002",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course prepares students for future managerial level appointments by introducing the important management and socio-technical concepts related to the strategic development, investment and use of Business IT systems in organizations and business enterprises. The course actively builds on prior Business Information Systems fundamental and management studies, by focusing on integrated business systems thinking, particularly in the areas of organizational enterprise architecture and business process management. The course also covers enterprise systems design principles; the human dimension of enterprise systems; trust, security and ethics in the enterprise; enterprise resource, supply chain and customer relationship management systems; and, the importance of handling heterogeneous information systems in business environments. The course also introduces the latest trends in enterprise solutions, like AI-enabled enterprise systems. The assessment requires a practically oriented research and consulting report targeted at a contemporary real-world business problem."
+  "description": ""
  },
  {
   "code": "INFS3024",
@@ -137,7 +137,7 @@
   "level": 3000,
   "title": "Information Systems Management",
   "units": 6,
-  "summary": "This course gives students a thorough grounding in the management of technology in an organisational context, placing particular emphasis on the Chief Information Officer perspective.",
+  "summary": "This course gives students a thorough grounding in the management of technology in an organisational context, placing particular emphasis on the Chief…",
   "offered": [
    "S1"
   ],
@@ -165,7 +165,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS3024",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course gives students a thorough grounding in the management of technology in an organisational context, placing particular emphasis on the Chief Information Officer perspective. The unit material complements applied student knowledge with a theoretical technology management foundation. Topics are presented from a textbook and, where appropriate, relevant readings from the contemporary literature are used to present competing points of view. Topics include the information system in the organisation, information system planning, enterprise systems in context, systems to support operations and management, policy development and directive management, and technology economics. Students are introduced to the practical aspects of this area through a series of organisational case studies."
+  "description": ""
  },
  {
   "code": "INFS3059",
@@ -174,7 +174,7 @@
   "level": 3000,
   "title": "Information Systems Capstone Project",
   "units": 6,
-  "summary": "This unit gives students exposure to project management in an operational context.  Students undertake a semester long project planning assignment.",
+  "summary": "This unit gives students exposure to project management in an operational context.",
   "offered": [
    "S2"
   ],
@@ -210,7 +210,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS3059",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This unit gives students exposure to project management in an operational context. Students undertake a semester long project planning assignment. By the end of the course, students will be able to demonstrate their ability to plan the following aspects of project management: Project Scope Management, Project Time, Cost and Quality, Project Human Resource Management, Project Communications Management, Project Risk Management, and Project Procurement Management."
+  "description": ""
  },
  {
   "code": "INFS4500",
@@ -219,7 +219,7 @@
   "level": 4000,
   "title": "Business Information Systems Honours Thesis",
   "units": 6,
-  "summary": "This course is designed for Honours students to undertake independent research in business information systems.  Student will conduct research in their chosen topic under the supervision of an academic staff member with a relevant research interest.",
+  "summary": "This course is designed for Honours students to undertake independent research in business information systems.",
   "offered": [
    "S1",
    "S2"
@@ -245,7 +245,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS4500",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is designed for Honours students to undertake independent research in business information systems. Student will conduct research in their chosen topic under the supervision of an academic staff member with a relevant research interest. Students will be required to identify research problems, review and synthesize literature, develop an appropriate research design, collect and analyse data, and present their findings effectively in a written thesis."
+  "description": ""
  },
  {
   "code": "INFS7004",
@@ -254,7 +254,7 @@
   "level": 7000,
   "title": "Accounting Information Systems",
   "units": 6,
-  "summary": "Accounting Information Systems (AIS) form an integral part of modern organisations as they support managers to plan and control business operations, improve decision-making, and support financial accounting and reporting.  The role of the AIS is changing.",
+  "summary": "Accounting Information Systems (AIS) form an integral part of modern organisations as they support managers to plan and control business operations, improve…",
   "offered": [
    "S1",
    "S2"
@@ -269,7 +269,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS7004",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Accounting Information Systems (AIS) form an integral part of modern organisations as they support managers to plan and control business operations, improve decision-making, and support financial accounting and reporting. The role of the AIS is changing. The Enterprise Resource Planning (ERP) system builds on the AIS and offers the benefits of sharing information across all business functional areas leading to improved business processes. Many internal controls are addressed by the ERP system. Students will be introduced to this cross functional integration and improved internal control with ‘hands on’ SAP experience. Skills will be developed in systems documentation techniques to enable an appreciation of key business processes and associated controls. ERP knowledge and skills are valued by employers, with graduates having higher employability."
+  "description": ""
  },
  {
   "code": "INFS7040",
@@ -278,7 +278,7 @@
   "level": 7000,
   "title": "Digital Transformation",
   "units": 6,
-  "summary": "This course covers issues relating to the management of information and communication technology (ICT), important ICT infrastructure and systems, ICT strategic planning and the governance of ICT. Students will critically analyse and present ICT management issues in class.",
+  "summary": "This course covers issues relating to the management of information and communication technology (ICT), important ICT infrastructure and systems, ICT…",
   "offered": [
    "S1",
    "S2"
@@ -291,7 +291,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS7040",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course covers issues relating to the management of information and communication technology (ICT), important ICT infrastructure and systems, ICT strategic planning and the governance of ICT. Students will critically analyse and present ICT management issues in class."
+  "description": ""
  },
  {
   "code": "INFS8004",
@@ -300,7 +300,7 @@
   "level": 8000,
   "title": "Enterprise Systems and Strategy",
   "units": 6,
-  "summary": "This course builds on the material introduced in introductory Business Information Systems courses by covering the strategic architecting, development and use of Business IT systems and processes in organisations and business enterprises.",
+  "summary": "This course builds on the material introduced in introductory Business Information Systems courses by covering the strategic architecting, development and use…",
   "offered": [
    "S1"
   ],
@@ -314,7 +314,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS8004",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course builds on the material introduced in introductory Business Information Systems courses by covering the strategic architecting, development and use of Business IT systems and processes in organisations and business enterprises. Topical issues such as the organizational enterprise architecture and business process management implications raised by e-commerce/e-business/e-government, trust in the enterprise environment, supply chain and customer relationship management systems, legacy information systems integration, data and content management, business analysis, requirements engineering and systems realisation and managerial implementation (including executive judgement) are also covered in the course. An in-depth course project is required as part of the assessment."
+  "description": ""
  },
  {
   "code": "INFS8008",
@@ -338,7 +338,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS8008",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course aims to provide students with the knowledge and skills necessary to successfully undertake information systems analysis. The course provides coverage of the concepts, skills, methodologies, techniques, tools and perspectives considered essential for systems analysts working with modern information systems and their development."
+  "description": ""
  },
  {
   "code": "INFS8202",
@@ -347,7 +347,7 @@
   "level": 8000,
   "title": "Industry Research Project",
   "units": 6,
-  "summary": "This course is suitable for information systems masters’ level students wishing to gain industry experience and carry out applied research on an information systems topic.",
+  "summary": "This course is suitable for information systems masters’ level students wishing to gain industry experience and carry out applied research on an information…",
   "offered": [
    "S1",
    "S2"
@@ -373,7 +373,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS8202",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is suitable for information systems masters’ level students wishing to gain industry experience and carry out applied research on an information systems topic. Candidates will be required to analyse a broad range of published sources on the topic issue, apply tools and techniques from master’s level courses in information systems and related disciplines, gather original input through discussion or interviews with practitioners in the field (where feasible), and analyse data to derive conclusions and implications for practitioners. Where feasible a “host” organization will be identified that will assist with data collection and advice on the project direction.\nThe final report should be in a form close to publication standard, whether as a management report or as a practitioner-oriented research article.\nThe current course offering is for individuals or teams of candidates working together on projects."
+  "description": ""
  },
  {
   "code": "INFS8205",
@@ -382,7 +382,7 @@
   "level": 8000,
   "title": "Digital Strategy, Executive and Operations",
   "units": 6,
-  "summary": "This course approaches information systems from the executive and operational management perspective.  It assumes a familiarity with the fundamentals of business and information systems from a technological point of view, as would be covered in a foundation course in this area.",
+  "summary": "This course approaches information systems from the executive and operational management perspective.",
   "offered": [
    "S1"
   ],
@@ -397,7 +397,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS8205",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course approaches information systems from the executive and operational management perspective. It assumes a familiarity with the fundamentals of business and information systems from a technological point of view, as would be covered in a foundation course in this area. The emphasis of the course will be on understanding concepts, characteristics and factors, particularly from technological and non-technological perspectives, that are likely to impact the effectiveness and success of information systems in business environments. The aim of the course is therefore to provide students with a balanced view and deeper understanding of developing information systems strategy and managing information systems from organisational and technical perspectives so that they have a theoretically sound, but nevertheless practically oriented foundation, from which to successfully tackle information systems projects, initiatives and implementations."
+  "description": ""
  },
  {
   "code": "INFS8210",
@@ -406,7 +406,7 @@
   "level": 8000,
   "title": "Business Analytics for Managers",
   "units": 6,
-  "summary": "This course builds on the material introduced in introductory Business Information Systems courses by covering how business analytics and business intelligence can be used for improved business decision-making.",
+  "summary": "This course builds on the material introduced in introductory Business Information Systems courses by covering how business analytics and business…",
   "offered": [
    "S1"
   ],
@@ -420,7 +420,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS8210",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course builds on the material introduced in introductory Business Information Systems courses by covering how business analytics and business intelligence can be used for improved business decision-making. Contemporary forms of analytics such as visual, text, sentiment, web, and social are covered in the course, as well as established technologies like decision support, knowledge management, collaborative and expert systems."
+  "description": ""
  },
  {
   "code": "INFS8211",
@@ -429,7 +429,7 @@
   "level": 8000,
   "title": "Analytics for Digital Transformation",
   "units": 6,
-  "summary": "This course builds on the material introduced in introductory Business Information Systems courses by covering how business analytics and business intelligence can be used for improved the operations of digital businesses.",
+  "summary": "This course builds on the material introduced in introductory Business Information Systems courses by covering how business analytics and business…",
   "offered": [],
   "requisiteText": "To enrol in this course you must be enrolled in the MDTE - Master of Digital Transformation & Entrepreneurship program.\nYou are not able to enrol in this course if you previously completed INFS8210 - Business Analytics.",
   "rule": {
@@ -444,6 +444,6 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INFS8211",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course builds on the material introduced in introductory Business Information Systems courses by covering how business analytics and business intelligence can be used for improved the operations of digital businesses. Contemporary forms of analytics such as visual, text, sentiment, web, and social are covered in the course, as well as established technologies like decision support, knowledge management, collaborative and expert systems."
+  "description": ""
  }
 ]

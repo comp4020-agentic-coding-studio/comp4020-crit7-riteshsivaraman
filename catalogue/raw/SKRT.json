@@ -13,7 +13,7 @@
   "subjectName": "Sanskrit",
   "college": "ANU College of Asia and the Pacific",
   "career": "Undergraduate",
-  "description": "Sanskrit 1 is a beginner's level course that provides students with a comprehensive introduction to the foundations of Sanskrit - a major classical language of South Asia with unparalleled cultural influence and the gateway to a vast repository of literary, intellectual, religious, and political knowledges. In this course students will learn to read and write in Devanagari (the main script used for written Sanskrit texts), gain understanding of the cornerstones of Sanskrit grammar, and develop proficiency in understanding and translating basic Sanskrit sentence structures. This focus on grammatical learning is balanced with attention paid to original Sanskrit texts and a highly interactive and diverse classroom environment that encourages discussion and collaborative engagement. In addition, this course introduces students to the cultural and historical knowledge required to understand Sanskrit's social and literary significance in ancient South Asia. By the end of this course, students will be able to independently translate short Sanskrit texts at an introductory level and will be equipped to pursue Sanskrit language studies and translations of increasing complexity.",
+  "summary": "",
   "requisiteText": "Students with previous experience of the language must sit a language proficiency assessment."
  },
  {
@@ -30,7 +30,7 @@
   "subjectName": "Sanskrit",
   "college": "ANU College of Asia and the Pacific",
   "career": "Undergraduate",
-  "description": "Sanskrit 2 is a high-level beginner’s course that guides students through the second stage of learning the Sanskrit language: the transition from reading simple sentences to confidently identifying and explaining the more complex foundational grammar used in longer compositions. This course builds upon the skills gained in Sanskrit 1 and has a strongly practical focus that encourages students to apply grammatical knowledge to a diverse range of practice materials and Sanskrit texts. Students will begin learning how to identify key compositional features of original Sanskrit verses in sloka metre and will be equipped with the contextual knowledge required to recognise historically significant terms and concepts at an introductory level. By the end of this course, students will have gained the core skills that form the basis of independent reading and translation.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed SKRT1002, undertake a language proficiency assessment, or be given permission by the course convener."
  },
  {
@@ -47,7 +47,7 @@
   "subjectName": "Sanskrit",
   "college": "ANU College of Asia and the Pacific",
   "career": "Undergraduate",
-  "description": "Sanskrit 3 is an Introductory-Intermediate level course that supports students through the transition from textbook-based study of grammar and syntax to critical engagement with original Sanskrit texts. The first part of this course focuses on the advanced grammatical constructions that are necessary for a comprehensive understanding of the Sanskrit language at an Intermediate level. These forms are studied firstly through the medium of the textbook, formal explanations, and practice texts, but are subsequently observed and discussed in the context of primary readings drawn from the story-telling tradition (katha). In the second part of this course, our textbook-based study is replaced with original readings from Sanskrit epics (itihasa). These readings advance students' understanding of the literary and compositional features of Sanskrit prose and verse texts and introduce the historical knowledge required to produce independent translations with cultural awareness. While focusing on colourful narratives and intriguing characters, this course guides students through the use of reference materials, such as Sanskrit grammars and dictionaries, supports the development of analytical skills that promote confidence in reading, and encourages critical explanation of Sanskrit texts in context.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed SKRT1003, undertake a language proficiency assessment or be given permission by the course convener."
  },
  {
@@ -64,7 +64,7 @@
   "subjectName": "Sanskrit",
   "college": "ANU College of Asia and the Pacific",
   "career": "Undergraduate",
-  "description": "Sanskrit 4 is an Intermediate-level course that introduces students to Sanskrit’s role as a major literary vehicle in the expression of diverse cultural developments in ancient South Asia. The texts studied in this course illuminate themes, concepts, and narratives whose popularity endures to the present day. This course has been designed to consolidate students’ knowledge of Sanskrit grammar, refine students’ independent skills in translation, and highlight the complementary roles of grammatical and literary contexts in textual analysis. In this course, students will progress from translating prose and verse texts with the assistance of a reader to developing their own independent translations of primary texts using dictionaries and grammatical reference tools. Students are encouraged to question the ways that core themes and ideas in the texts have been reinterpreted over time and to apply these understandings to textual analysis.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed SKRT2103, undertake a language proficiency assessment or be given permission by the course convener."
  },
  {
@@ -81,7 +81,7 @@
   "subjectName": "Sanskrit",
   "college": "ANU College of Asia and the Pacific",
   "career": "Undergraduate",
-  "description": "Sanskrit 8 is a high-level reading course suited to final-year students. This course introduces students to Vedic Sanskrit, the precursor of Classical Sanskrit, through the investigation of a range of Vedic texts that articulate different developments in the language, thought, and practices of India’s most ancient textual culture. This course provides students with a foundation in Vedic grammar and exposure to the earliest expression of certain key concepts that have been influential throughout the evolution of South Asian literature and society. Students can expect to acquire skill in the employment of specialist reference materials, familiarity with the distinct text-types encompassed within the Veda, and awareness of modern scholarly approaches to the challenges inherent in interpreting the Veda, its language and worldview.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed SKRT2103 and SKRT2104 or SKRT3004 and SKRT3005 or have been permitted entry based on the results of the Sanskrit language proficiency assessment."
  },
  {
@@ -98,7 +98,7 @@
   "subjectName": "Sanskrit",
   "college": "ANU College of Asia and the Pacific",
   "career": "Undergraduate",
-  "description": "Sanskrit 5 is a rigorous course that focuses on the development of the historical knowledge and advanced language skills required for the critical textual analysis, translation, and interpretation of works belonging to the tradition of Classical Sanskrit literature (kavya). In this course, students will be introduced both to some of the most celebrated works of this tradition as well as to questions of poetic innovation and novelty that influence modern academic studies of kavya. Throughout this course, students are expected to refine their ability to independently analyse and explain complex compositions and to reflect self-critically on their own interpretations and translations through reference to traditional and modern conceptual frameworks alike. The skills developed in this course equip students with the ability to independently engage with kavya alongside Sanskrit texts belonging to adjacent traditions, such as literary commentary, philosophy, and royal inscriptions.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed SKRT2104, undertake a language proficiency assessment or be given permission by the course convener."
  },
  {
@@ -115,7 +115,7 @@
   "subjectName": "Sanskrit",
   "college": "ANU College of Asia and the Pacific",
   "career": "Undergraduate",
-  "description": "Sanskrit 6 is an Advanced-level course which extends students' knowledge of Sanskrit literary culture by introducing major examples of literary composition from the Classical kavya tradition. The texts studied in this course include both Hindu and Buddhist compositions that illuminate the creativity of kavya as a vehicle for expressions of newness and authority. This course consolidates students' ability to identify and explain the complex wordplays and compositional structures that give kavya expressive force and which established Sanskrit as a voice of cultural and political power throughout premodern Asia. In this course, students will progress from identifying core themes and concerns in Sanskrit literature to critically evaluating relationships between language and power which persist to this day. Students are encouraged and supported to explore these relationships through the production of annotated translations and refined literary analyses of primary texts.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed SKRT3004, undertake a language proficiency assessment or be given permission by the course convener."
  }
 ]

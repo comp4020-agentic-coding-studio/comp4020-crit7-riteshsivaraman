@@ -13,7 +13,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "The courses in the Performance major and minor provide students with opportunities to develop their artistic practice and skills in music performance. The first of the sequential music performance courses supports students in developing proficiency in both solo and ensemble settings while also building practical skills in organising and supporting musical projects. Students will participate in one-to-one sessions with vocal/instrumental teachers, ensemble rehearsals, seminars, and other practical and academic contexts.\n\nAll students wishing to enrol in this course must successfully complete an audition.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in the Bachelor of Music (BMUSI) or with consent of the convener. You are not able to enrol in this course if you have previously completed ANUC1111 or ANUC1112."
  },
  {
@@ -30,7 +30,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "The second of the sequential music performance courses supports students in developing proficiency in both solo and ensemble settings while also deepening their understanding of the context and performance practice of their chosen repertoire, style, and genre. Students will participate in one-to-one sessions with vocal/instrumental teachers, ensemble rehearsals, seminars, and other practical and academic contexts.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in the Bachelor of Music (BMUSI) and have completed MUSI1101, or with consent of the convener.\nYou are not able to enrol in this course if you have previously completed MUSI2221 or ANUC1112."
  },
  {
@@ -48,7 +48,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course introduces students to the fundamentals of mixing and audio production through lectures, workshops and creative participation. Weekly assignments may include the analysis, mixing and remixing the music of a wide variety of artists ranging from Radiohead, Coldplay, Lady Gaga, Linkin Park and the Red Hot Chili Peppers to Queen, the Beatles, and Led Zeppelin.\n\nThe course also introduces the students to the industry-standard Digital Audio Workstation software (e.g. Logic Pro X) and makes regular use of the School of Music’s own cutting-edge music technology labs and other facilities. With a strong emphasis on the development and application of practical, technical and critical analytical skills, this course will equip students with the foundational knowledge required for progression into the world of professional sound recording and music production.",
+  "summary": "",
   "requisiteText": "You are not able to enrol in this course if you have previously completed MUSI6110"
  },
  {
@@ -65,7 +65,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Foundations of Composition addresses a range of topics and skills used by composers. In this course students will develop techniques including how to generate musical ideas and how to structure and orchestrate them, regardless of their stylistic interests. Students will work with a variety of industry standard technologies including notation, recording, audio editing, spectral analysis, computer music, and other software packages. These skills and techniques will be critically examined and discussed in large and small group tutorial settings. Students apply these skills to one or more new original compositions utilising these techniques while developing their own unique compositional style.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -82,7 +82,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Composing for Film and Video Games gives students the knowledge and skills required to compose, mix, and produce music for film and video games. Students will analyse and examine a wide range of musical styles and approaches to scoring and learn the compositional techniques which provide the foundation of these styles. Course work includes the analysis of music in the context of the visual image, the use of technology in scoring, and a history and development of multimedia composition to the present day. Students will be composing original pieces to a variety of dramatic visual media.",
+  "summary": "",
   "requisiteText": "You are not able to enrol in this course if you have previously completed MUSI2226."
  },
  {
@@ -99,7 +99,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course introduces students to music practice through a performance-focused lens, developing foundational musicianship and critical thinking skills across a range of presentational and participatory forms of musical expression, from professional stage environments to community-based settings. These skills are explored across various genres relevant to contemporary music-making, supporting students in the discovery and formation of their own artistic identity. Students are expected to enter the course with an existing practice in a chosen instrument or voice, which will form the basis for developing effective practice habits informed by learning and motor skill theories. The course also addresses the understanding and management of music performance anxiety (MPA) in practice, rehearsal, and live contexts, alongside strategies for injury prevention and sustainable technique.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be studying a Bachelor of Music (BMUSI)."
  },
  {
@@ -116,7 +116,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This topics course is designed for students with little or no prior experience on a musical instrument, as well as for those wishing to expand their practice into a second or new instrument or area of specialisation. It introduces the fundamentals of creative musical practice through a choice of voice, guitar, or percussion. Students develop essential musicianship, technical skills, and creative confidence, while also learning about physical and mental wellbeing, including injury prevention and recovery.\n\nFoundational concepts are explored through lectures, practical workshops, and creative tasks tailored to each instrument or area of focus. Activities include beginner-level repertoire, guided improvisation, ear training, and both individual and group-based music-making in a supportive environment.\n\nWith an emphasis on healthy, expressive, and sustainable approaches to musical development, the course introduces key skills such as coordination, musical expression, and basic music literacy.\n\nStudents may complete this course twice for a maximum of 12 units, provided they enrol in a different topic in each instance. Course content, assessment, and readings will vary depending on the topic and instructor. Please refer to the class summary for details specific to the term in which you intend to enrol.\n\nTopics may include, but are not limited to, the following:\n\nVoice\n\nGuitar\n\nHand Percussion",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -133,7 +133,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course immerses students in aural and notated concepts and techniques in music. It centres on a practical engagement with the parameters of sound as articulated by twentieth century composer John Cage, being frequency (pitch), amplitude (volume), timbre (tone) and duration (rhythm). From Cage as a starting point students then look backwards to Bach and concepts and techniques of tonal harmony, and they look forwards to producer Rick Rubin and his recordings of contemporary music (Red Hot Chilli Peppers, Lady Gaga) with specific reference to the modern producer’s hearing of and shaping of the parameters of sound and music in the recording studio. Students will be engaged in both aural performance (group singing) and aural analysis (of played excerpts and of recordings), hearing presentations about key artists and their work (composers, theorists, performers, producers), critiquing recordings, and they will be engaged in the essentials of notating rhythms, scales, chords, chord progression and standard voicings in tonal environments across a wide variety of styles.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -150,7 +150,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "The Foundational Musicianship course runs through all music majors at ANU. Here students will develop core skills underpinning analytical and practical engagement in a variety of musical idioms, including classical, jazz, and popular styles. In this course, students apply their knowledge of functional harmony to gain a deeper appreciation of music while developing greater fluency in reading and interpreting different modes of music notation. Analytical skills are complimented by relevant aural skills, including audiation (inner hearing) and aural awareness of related melodic, harmonic, and rhythmic structures.",
+  "summary": "",
   "requisiteText": "You are not able to enrol in this course if you have previously completed any of the following courses: ANUC1137, MUSI2203 or ANUC1138."
  },
  {
@@ -168,7 +168,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "The third of the sequential music performance courses supports students in deepening their knowledge and skills in both solo and ensemble settings while also building practical experience in live and studio recording settings. This course focuses on the relationship between musical performance and recording, ensuring students know how to actively participate in the recording of their voice/instrument. Students will participate in one-to-one sessions with vocal/instrumental teachers, ensemble rehearsals, seminars, recording and mixing sessions, and other practical and academic contexts.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in a Bachelor of Music (BMUSI) and have completed MUSI1102, or with consent of the convener."
  },
  {
@@ -186,7 +186,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "The fourth of the sequential music performance courses supports students in deepening their knowledge and skills in both solo and ensemble settings while also building practical experience in live performance. This course focuses on musical performance in a live concert context, providing students with opportunities to plan and perform as a soloist and ensemble leader. Students will participate in one-to-one sessions with vocal/instrumental teachers, ensemble rehearsals, seminars, live performance, and other practical and academic contexts.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in a Bachelor of Music (BMUSI) and have completed MUSI2201, or with consent of the convener."
  },
  {
@@ -203,7 +203,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Music Recording and Production Techniques introduces students to the theoretical and practical fundamentals of professional-level music recording in a large studio environment. Techniques of music recording and production differ according to musical intention and aesthetic direction, and as such, students are provided with the opportunity to develop their individual music production skill sets within the course and project parameters. Students are taught a range of perspectives on capturing, routing, processing, editing and mixing music. Additionally, students learn to critically engage in discussions and debates on current issues affecting music and recording.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 24 units of tertiary courses, or with consent of the convener.\nYou are not able to enrol in this course if you have previously completed MUSI6209."
  },
  {
@@ -220,7 +220,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Music, Sound and the Moving Image offers a dynamic introduction into composition for the moving image. It covers the main aspects of sound including ADR, Foley, and Sound Design, as well as spotting sound and music for film work. Students will record, mix and produce sounds and music as part of a unified whole that allows them to be a one stop shop for sound and music in moving image practice.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 36 units of courses towards an ANU degree, or with permission of the convener."
  },
  {
@@ -237,7 +237,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Composition: Methods and Craft offers students an in-depth study of a specialised area of music composition. Through this topics course, students explore a particular composer, style/genre, texture/instrumentation, technique, or set of compositional practices. Students will engage with compositional material through both guided and independent artistic research activities, applying new critical, analytical, and technical skills to assigned composition tasks.\n\nStudents may complete this course twice for a maximum credit value of 12 units, provided they enrol in a different topic in each instance/semester. Please note that the course content, assessment structure, and reading list will change depending on the topic and the expertise of the lecturer convening the course. Please refer to the class summary for the specific term in which you wish to enrol for a detailed description.\n\nTopics may include, but are not limited to, the following:\n\nFrom Solos to Small Groups\n\nQuartets, Larger Groups, and Collaborations\n\nOrchestration and Arranging",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed MUSI1111.\n\nYou are not able to enrol in this course if you have previously completed MUSI2223 or MUSI2224."
  },
  {
@@ -254,7 +254,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Songwriting: Concepts and Craft addresses the knowledge and skills required to write songs in a range of contemporary popular styles. Songwriting is a creative practice situated in a discipline with history and context, and theory and method. Students will be guided through a historical overview of major eras and styles of popular songwriting, including since ca.1910s, perspectives from beyond the anglosphere, as well as in analysis of the relevant musical theory and methods that underpin songs from these eras and styles. These skills will inform the student’s own portfolio of original popular songs.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed MUSI1501 or MUSI1117, or with consent of the convener.\nYou are not able to enrol in this course if you have previously completed MUSI3321."
  },
  {
@@ -272,7 +272,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course offers an in-depth study of one specialised area of music analysis, within the broader field of music theory, aural skills, musicianship and sound studies. Through this specialised approach, students explore a particular genre, stylistic period, or set of practices in connection to a particular analytical framework. Students will engage with material through both guided and independent research activities, applying new critical, analytical, and technical skills to set repertoire. These tools will be explored through technical and creative activities such as transcriptions, compositions, arrangements, reharmonisations, and improvisations, in the context of the course topic.\n\nStudents may enrol in this course up to three times, for a maximum credit value of 18 units, provided a different topic is undertaken in each instance/semester. Please note that the course content, assessment structure, and reading list will change depending on the topic and the expertise of the lecturer convening the course. Please refer to the class summary for the specific term in which you wish to enrol for a detailed description.\n\nTopics may include, but are not limited to, the following:\n\nEars and Dots 2: Style-based Aural and Theory For The Modern World\n\nStudio Breakdown: Dissecting the Layers of Recorded Music\n\nMusic Theory Through a Global Lens\n\nMusic Harmony in Practice\n\nAural Skills in Practice",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 24 units of tertiary courses, including MUSI1501 or MUSI1117."
  },
  {
@@ -289,7 +289,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Topics in Music Technology will introduce students to areas of current interest and research, taking advantage of the research expertise of visitors and staff working in music technology. During this course students will develop one or more musical projects designed around the specific topic. Practical skills will be developed in tandem with critical analytical and reflective skills relating both to the application of the technologies associated with the topic, as well as its influence on how music is, and was made.\n\nStudents may complete this course twice for a maximum credit value of 12 units. Please note that the course content, assessment structure, and reading list will change depending on the topic and the expertise of the lecturer convening the course. Please refer to the class summary for the specific term in which you wish to enrol for a detailed description.\n\nTopics may include, but are not limited to, the following:\n\nNew Interfaces for Musical Expression\n\nSynthesis and MaxMSP\n\nAbleton and Live Performance\n\nSound Archiving\n\nRecording Studio as Instrument and Compositional Tool",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 24 units of tertiary courses including MUSI2209, or with consent of the convener."
  },
  {
@@ -307,7 +307,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course offers an in-depth study of one specialised area of music, within the broader field of music histories and cultures. Through this specialised approach, students explore a particular genre, stylistic period, or set of practices in connection to a particular music historical period and cultural context.\n\nThe course prioritises a diverse variety of materials including academic studies, audiovisual sources, and more informal writing styles, engendering a multifaceted view towards research-oriented musical documents and media. Students will gain insight into the various methodological approaches, theories, and key musical sources in connection to a set topic, which will be critically explored via a project.\n\nStudents may complete this course twice for a maximum credit value of 12 units. Please note that the course content, assessment structure, and reading list will change depending on the topic and the expertise of the lecturer convening the course. Please refer to the class summary for the specific term in which you wish to enrol for a detailed description.\n\nTopics may include, but are not limited to, the following:\n\nJazz History and Cultures of the World\n\nEvolving Narratives in Western Art Music 1700-1900\n\nAustralian Composers\n\nNarratives in Western Art Music and Music Technology Since 1900",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 36 units of tertiary courses, or with consent of the Convener."
  },
  {
@@ -322,7 +322,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "What role has music research and music criticism played on the development and value of music cultures in particular times and places? And why has music research remained a key facet of contemporary music cultures?\n\nThis course engages with core critical models of inquiry-based musical scholarship from the last century to the present, highlighting the rapidly changing objects of study (eg. genres), analytical tools, theoretical models, media, and writing genres related to this expanding field. In the course, we will study four dominant fields: historical musicology, ethnomusicology, popular music studies, and practice-based research.\n\nIn relation to each of these fields, the course highlights core foundational theories and practices, placing them in their historical and cultural context: from the nineteenth century’s canonical and critical appraisals of ‘masterworks’, to the comparative investigations and cataloguing of early twentieth century collectors and anthropologists (such as folk song archivists and collectors), to the more recent ethnographic explorations of the impact of broader social movements (Black Power, Feminist, and Indigenous) in relation to the expansion of media and the international music recording industry.\n\nFinally, we ask what roles can practice-based research play in developing our understanding of the internal workings of music creation, production, performance, and reception. The development of these foundational research skills offers essential problem solving and critical analytical tools for developing a musical research practice.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 36 units of tertiary courses, or with consent of the Convener."
  },
  {
@@ -337,7 +337,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Over the past five hundred years, the world’s societies have become increasingly integrated and interdependent, in economic and cultural terms, through the processes of globalisation. What has this meant for music? On the one hand there has been a sharp rise in the diversity of musical styles flowing around the world; on the other hand, the increasing hegemony of dominant cultures has led to the decline or complete loss of many unique musical practices. This course examines the impact of globalisation on local musical practices, exploring how music plays an essential role in articulating identity and place, how music developed into a commodity that is bought and sold, and how music remains a crucial factor in cultural survival throughout our globalised world.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed at least 36 units of tertiary courses, or with consent of the Convener.\n\nYou are not able to enrol in this course if you have previously completed MUSI3310 or MUSI6007."
  },
  {
@@ -354,7 +354,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course explores the relationship between music, health, and wellbeing across diverse social and cultural contexts. Students will examine how music is used to support social connection, emotional expression, and personal and collective resilience. Using perspectives from a range of disciplines, including ethnomusicology, psychology, and public health, we will investigate how different communities engage with music to enhance wellbeing and strengthen social bonds. Key topics include participatory music-making, cultural traditions of music and wellbeing, and contemporary applications in health promotion and community development. Through case studies, hands-on musical activities, and discussions, students will explore the role of music in social movements, ritual, and everyday life. By the end of the course, students will gain a deeper understanding of music’s role in shaping individual and collective wellbeing and develop insights into its application in community and social settings.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 36 units of tertiary courses, or with consent of the Convener."
  },
  {
@@ -369,7 +369,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course explores how musicality, artistry, and musicianship are expressed in and through performance in recording studio environments. It builds on foundational skills to support students’ development of intermediate-level professional techniques that enhance musicality and adaptability in recording studios. Students engage in a series of topics and diverse musical experiences across genres, focusing on how studio-based performance relates to both large-scale production and DIY music-making contexts. Emphasis is placed on the unique demands and opportunities of recording environments, including how the studio shapes musical outcomes and how musicians can creatively respond to the recording process. Students are introduced to standard recording studio terminology, respectful communication practices, and strategies for giving and receiving constructive feedback in a professional setting.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 24 units of tertiary courses, including MUSI1115."
  },
  {
@@ -386,7 +386,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course deepens students’ understanding of music practice, specifically how it is expressed in live contexts. It focuses on developing musicianship and artistry across various live music performance environments ranging from the professional stage to community-oriented contexts. Students critically engage with the expressive aspects of music practice, gaining experience across a range of genres. They explore a series of topics and experiences emphasising acoustic and amplified live music, acquiring practical knowledge of performing for live audiences, including insights into hearing safety and principles of amplified sound from a performer’s viewpoint. Additionally, students develop effective communication strategies for diverse live music contexts, which support professional readiness and adaptability.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 24 units of tertiary courses, including MUSI1115."
  },
  {
@@ -404,7 +404,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Collaboration lies at the heart of music practice and production. While acknowledging ‘the great composers’ and the DIY (Do It Yourself) recording movement has often redirected focus toward the individual, music remains, fundamentally, a deeply social activity. This course brings music students together to build on their existing skills on how diverse musical practices can be blended, with musicians assuming multiple roles while collaborating in an inclusive environment. Students will develop a creative, innovative, and original project that challenges their existing skills and pushes them beyond their artistic comfort zones. Through this process, students will learn to work effectively across stylistic, interpersonal, and technical contexts. They will also navigate the challenges that can arise in a collective creative process, where compromises and collaboration foster growth and unexpected solutions. These challenges will be viewed as opportunities to build adaptability, and a deeper understanding of the creative process. Students will also engage with critical perspectives on creativity, collaboration, and innovation in music. In groups, they will collaborate to develop a large-scale project, delivered either through a live performance or as a set of recorded works.\n\nCollaborations may change from semester to semester. They may include but are not limited to: Orchestra, Chamber Ensemble, Choir, Piano Duo, Contemporary Classical Ensemble, Rock Band, Pop Ensemble, Soul Band, Funk Band, R&B Vocal Group, Indie Band, Alternative Band, Metal Band, Singer-Songwriter Collective, Jazz Combo, Big Band, Free Improvisation Ensemble, Jazz Vocal Group, Electroacoustic Ensemble, Laptop Orchestra, Experimental Noise Collective, Live Looping Ensemble, Folk Band, Bluegrass Ensemble, Global Musics Group, Cross-genre Fusion Ensemble, Multimodal Performance Group.\n\nIn these groups, students may contribute in one or more ways, including performing on an instrument, music direction, composing pieces, or recording pieces.\n\nStudents may complete this course twice for a maximum credit value of 12 units, provided a different type of collaboration is taken in each instance/semester. Please note that the course content, assessment structure, and reading list may change depending on the collaboration and the expertise of the lecturer convening the course. Please refer to the class summary for the specific term in which you wish to enrol for a detailed description.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be studying a Bachelor of Music (BMUSI) or a Music Studies major (MUSS-MAJ) and have completed 24 units of tertiary courses, or with consent of the Convener.\n\nStudents who are not studying a Bachelor of Music (BMUSI) or a Music Studies major (MUSS-MAJ) are required to audition."
  },
  {
@@ -422,7 +422,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "The fifth of the sequential music performance courses supports students in planning for their final project in MUSI3302 (Music Performance 6), as well as furthering their technical vocal/instrumental skills. In this course students will plan a major artistic research project through musicological and artistic research methods, concert/recording session management and planning, and ensemble direction. Students will participate in one-to-one sessions with vocal/instrumental teachers, ensemble rehearsals, seminars, and other practical and academic contexts.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in a Bachelor of Music (BMUSI) and have completed MUSI2202, or with consent of the convener."
  },
  {
@@ -440,7 +440,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "The final of the sequential music performance courses supports students in demonstrating the culmination of six semesters of tertiary music performance study via a major artistic research project. This final project may take the form of a lecture recital, concert with program notes, recording with liner notes, documentary film, interactive website, or other format showcasing their expertise as performers and artistic researchers.\n\nStudents will participate in one-to-one sessions with vocal/instrumental teachers, ensemble rehearsals, seminars, live and/or studio performances, and other practical and academic contexts.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in the Bachelor of Music (BMUSI) and have completed MUSI3301, or with consent of the convener.\nYou are not able to enrol in this course if you have previously completed MUSI6302."
  },
  {
@@ -457,7 +457,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Digital Music: Platforms, Content and AI is an interdisciplinary course focusing on the business, cultural context, and scientific nature of the [inter]relationship between music and media. The course blends theoretical perspectives designed to problematise our relationships with digital music formats, production, consumption and dissemination, with practical workshops for producing content for online music and media platforms. Such is the evolutionary nature of music in the digital age that the issues and problems addressed in this course will vary from year to year. Course content may include: a short history of music and digitisation; intellectual property, copyright, and ethics; massively collaborative online music production and distribution; case study analyses of music for gaming, music 'apps' and crowd funding for music projects; digital audiovisual curation techniques; and, the role of music as content on platforms, and the recent technological ruptures such as Artificial Intelligence.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 72 units of tertiary courses, or with consent of the Convener.\n\nYou are not able to enrol in this course if you have previously completed MUSI6009."
  },
  {
@@ -474,7 +474,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "The impact of popular music transcends its origins in composition, recorded artefact and concert performance. Popular music and politics are inextricably linked. In just a few decades, popular music has formed new cultural spaces, influenced politics and policy and empowered minority groups. Drawing upon extensive examples covered in the interdisciplinary field of popular music studies, this course explores how and why popular music is one of the most widespread, meaningful, and influential cultural phenomena in the world today. This course examines the political significance of popular music through a variety of cultural and contextual lens, such as aesthetics, textual analysis, race, gender, sexuality and materiality. Case study examples taken from broad genre spectra will illuminate and problematise the social impact of popular music and its relationships to global challenges.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 72 units of tertiary courses, or with consent of the Convener.\n\nYou are not able to enrol in this course if you have previously completed MUSI2216 or MUSI6006."
  },
  {
@@ -491,7 +491,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Contemporary Music Production: Planning and Developing an Independent Project enables students to plan and develop a large music project that blends composition, recording, and performance. Students apply knowledge from the standalone skills they have learned in practical, research, and theoretical contexts during their degree to plan and develop a musical work. Large projects such as an album can form the cornerstone of a contemporary music career but require various creative, technical, and organisational skills. Students will develop a project in consultation with the course convenor that aligns with the student’s interests and course capacity. At the end of this course, students will have successfully developed a proposal and completed a project milestone.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 72 units of tertiary courses including MUSI2209, or with permission from the convener."
  },
  {
@@ -508,7 +508,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course enables students to complete a large music project that blends composition, recording, and performance. Students continue their work on what they developed in MUSI3325 Contemporary Music Production Project to apply knowledge from the standalone skills they have learned in practical, research, and theoretical contexts during their degree to create a musical work. Large projects such as an album can form the cornerstone of a contemporary music career, but require various creative, technical, and organizational skills. At the completion of this course students will have delivered a large music creative work and accompanying exegesis. The project will critically engage with the practices, techniques and dissemination approaches appropriate to their chosen contemporary style.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed MUSI3325 Contemporary Music Production: Planning and Developing an Independent Project."
  },
  {
@@ -525,7 +525,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course will introduce students to the discipline of ethnomusicology, with particular attention to the nature of ethnographic research and writing on music. It will examine how and why people make music across different cultural contexts, focusing on the themes of identity, tradition, and activism. Students will learn about ethnomusicological theories and methods through reading, writing, discussion, participatory performance activities, and an independent research project. In addition to case studies of musical practices from around the world, the course will examine the changing relationships between ethnomusicologists and the musicians and communities with whom they work.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 72 units of tertiary courses, or with consent of the Convenor.\n\nYou are not able to enrol in this course if you have previously completed MUSI1113 or MUSI2213."
  },
  {
@@ -540,7 +540,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course supports students in conceptualising music practice as research, which includes performance, composition and/or recording. In addition to written research formats such as journal articles and books, music practice as research may take the form a concert, a portfolio of compositions, or set of recordings. This course encourages music students to position their artistic practice in a research context which is focused on the discovery of musical problems, the framing of research questions, the planning and execution of research projects, and the dissemination of research findings/results. Students will work individually and on group projects to explore theories and methods underpinning music practice research, drawing on written work, exegeses, creative outputs, and case studies.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed MUSI2235 Critical Music Studies, or with permission from the Convener."
  },
  {
@@ -555,7 +555,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course explores how music practice is expressed through leadership and collaborative group contexts, supporting the development of performing, leadership, and ensemble direction skills. Building on prior courses, students deepen their demonstrated knowledge of musicianship, adaptability, and critical thinking through a range of practical and academic experiences. Students learn about and experience diverse musical settings—from professional ensembles to community music-making—gaining insight into how music is performed, led, and experienced across genres and social contexts. Students develop professional techniques for leading others, offering feedback, and facilitating inclusive and responsive musical environments. Students are equipped with organisational skills and tools to build relationships and guide others effectively, while fostering ethical, diverse, and socially responsible practices. Participation in music ensembles continues to support socially embedded learning, reinforcing the importance of collaboration and leadership in contemporary music practice.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be studying a Bachelor of Music (BMUSI) and have completed 72 units of tertiary courses, including MUSI2238 or MUSI2239, or with permission from the Convener."
  },
  {
@@ -572,7 +572,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Advanced Music Recording and Post-Production Techniques exposes students to advanced production workflows in professional recording studio environments. Students engage with both stereo and immersive mixing approaches while developing skills in genre-specific production contexts. The course covers in-the-box and hardware-based workflows, emphasizing technical proficiency, creative innovation, and meeting professional production requirements. Through hands-on experience, students refine their ability to balance technical constraints with artistic expression, preparing them for diverse industry applications.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 72 units of tertiary courses including MUSI2209, or with permission from the convener."
  },
  {
@@ -589,7 +589,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course enables students to initiate a capstone music project that integrates both performance and composition, allowing for greater emphasis on one area depending on the student’s artistic direction. The project will center on a live music context and demonstrate the development of original creative work through blended practical, theoretical, and research approaches. Students will develop a detailed project proposal in consultation with the course convenor, identifying artistic goals and feasibility within a live setting. The focus is on early-stage project planning, contextual analysis, and milestone delivery.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be studying a Bachelor of Music (BMUSI) and have completed 72 units of tertiary courses, including MUSI2238 or MUSI2239, or with permission from the Convener."
  },
  {
@@ -606,7 +606,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course enables students to realise and deliver a capstone live music project that combines original composition and live performance. While both elements are encouraged, students may place a stronger emphasis on either composition or performance depending on their creative strengths and project direction. The course culminates in a live presentation supported by an exegesis that critically reflects on the creative process, the techniques used, and the contextual positioning within the broader cultural and industry landscape.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed MUSI3331."
  },
  {
@@ -623,7 +623,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course will introduce students to methodological approaches employed in music research. It will develop students’ research skills and understanding through critical engagement with diverse perspectives and approaches. The course fosters students’ ability to analyse and critique key issues and debates within music research and creative practice. It aims to build student understanding of the principles informing different music research methods and associated ethical considerations. It examines changing approaches employed by music researchers over time and considers current and future directions in music scholarship. The course aims to equip students with the skills and knowledge necessary to carry out an independent research investigation on a musical topic.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in HMUSI, HARTS or HART2.\n\nYou are not able to enrol in this course if you have previously completed MUSI7003."
  },
  {
@@ -640,7 +640,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This Honours course investigates contemporary theoretical approaches in music research. It focuses on developing conceptual tools for understanding the history, structure, and significance of music over time and across cultures. The course explores key issues in music research that have stimulated debate and reflection over time. It assists students to explore those issues, developing skills in critical analysis and music research design.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in MUSI4401.\n\nYou are not able to enrol in this course if you have previously completed MUSI8001."
  },
  {
@@ -657,7 +657,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "The impact of popular music transcends its origins in composition, recorded artefact and concert performance. Popular music and politics are inextricably linked. In just a few decades, popular music has formed new cultural spaces, influenced politics and policy and empowered minority groups. Drawing upon extensive examples covered in the interdisciplinary field of popular music studies, this course explores how and why popular music is one of the most widespread, meaningful, and influential cultural phenomena in the world today. This course examines the political significance of popular music through a variety of cultural and contextual lens, such as aesthetics, textual analysis, race, gender, sexuality and materiality. Case study examples taken from broad genre spectra will illuminate and problematise the social impact of popular music and its relationships to global challenges.",
+  "summary": "",
   "requisiteText": "You are not able to enrol in this course if you have previously completed MUSI2216 or MUSI3317."
  },
  {
@@ -672,7 +672,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "Over the past five hundred years, the world’s societies have become increasingly integrated and interdependent, in economic and cultural terms, through the processes of globalisation. What has this meant for music? On the one hand there has been a sharp rise in the diversity of musical styles flowing around the world; on the other hand, the increasing hegemony of dominant cultures has led to the decline or complete loss of many unique musical practices. This course examines the impact of globalisation on local musical practices, exploring how music plays an essential role in articulating identity and place, how music developed into a commodity that is bought and sold, and how music remains a crucial factor in cultural survival throughout our globalised world.",
+  "summary": "",
   "requisiteText": "You are not able to enrol in this course if you have previously completed MUSI3310."
  },
  {
@@ -689,7 +689,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "Digital Music: Platforms, Content and AI is an interdisciplinary course focusing on the business, cultural context, and scientific nature of the [inter]relationship between music and media. The course blends theoretical perspectives designed to problematise our relationships with digital music formats, production, consumption and dissemination, with practical workshops for producing content for online music and media platforms. Such is the evolutionary nature of music in the digital age that the issues and problems addressed in this course will vary from year to year. Course content may include: a short history of music and digitisation; intellectual property, copyright, and ethics; massively collaborative online music production and distribution; case study analyses of music for gaming, music 'apps' and crowd funding for music projects; digital audiovisual curation techniques; and, the role of music as content on platforms, and the recent technological ruptures such as Artificial Intelligence.",
+  "summary": "",
   "requisiteText": "You are not able to enrol in this course if you have previously completed MUSI3309."
  },
  {
@@ -707,7 +707,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "This course introduces students to the fundamentals of mixing and audio production through lectures, workshops and creative participation. Weekly assignments include the analysis, mixing and remixing the music of a wide variety of artists ranging from Radiohead, Coldplay, Lady Gaga, Linkin Park and the Red Hot Chili Peppers to Queen, the Beatles, and Led Zeppelin.\n\nThe course also introduces the students to the industry-standard software Logic Pro X and makes regular use of the School of Music’s own cutting-edge music technology lab. A strong emphasis on practical application, this course will equip students with the underpinning knowledge required for the progression into the world of professional sound recording and music production.",
+  "summary": "",
   "requisiteText": "You are not able to enrol in this course if you have previously completed MUSI1110."
  },
  {
@@ -724,7 +724,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "Music Recording and Production Techniques introduces students to the theoretical and practical fundamentals of professional-level music recording in a large studio environment. Techniques of music recording and production differ according to musical intention and aesthetic direction, and as such, students are provided with the opportunity to develop their individual music production skill sets within the course and project parameters. Students are taught a range of perspectives on capturing, routing, processing, editing and mixing music. Additionally, students learn to critically engage in discussions and debates on current issues affecting music and recording.",
+  "summary": "",
   "requisiteText": "You are not able to enrol in this course if you have previously completed MUSI2209."
  },
  {
@@ -739,7 +739,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": null,
-  "description": "Each of the major specialised areas of music research (performance; composition, arranging, and sound design; and musicology, ethnomusicology, and music curatorship) have their own methodological traditions, and commonly applied conceptual approaches. While these musical fields certainly have different profiles and orientations, they nevertheless share some important issues and common methodological ground. This course challenges the tendencies of fragmentation in music research where academic and artistic research is developed within different spheres. It will explore the nexus between various areas of musical scholarship giving students the opportunity to actively engage with, and critique, a key approaches to research.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in the Master of Music (MMusic). You are not able to enrol in this course if you have previously completed MUSI4401."
  },
  {
@@ -754,7 +754,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": null,
-  "description": "Graduate Composition, Arranging, and Sound Design 2 explicitly builds on Graduate Composition, Arranging, and Sound Design 1. It is designed for graduate students who wish to continue to specialise at an professional level in composition, arranging and/or sound design. Students will work with a supervisor in preparing a composition portfolio of works, or a series of projects based upon advanced principles of sound design that reflect the student's own interests and professional focus. This learning will be supplemented with attendance and participation at Composition Seminar. To support this creative work, students will analyse at an advanced level theories, structures, methods, approaches and techniques in a range of styles and in a range of instrumental and vocal repertoire. They will also study advanced principles of sound design in relation to music for film and television, theatre, videogames, and sound installations. The study of instrumentation, orchestration and arrangement, and sound design will reference scores and musical sound design creations from a range of historical periods and styles complements the compositional work.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed MUSI7002."
  },
  {
@@ -769,7 +769,7 @@
   "subjectName": "Music",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "Graduate Composition, Arranging, and Sound Design 3 explicitly builds on Graduate Composition, Arranging, and Sound Design 2. It is designed for graduate students who wish to continue to specialise at a professional level in composition, arranging and/or sound design. Students will work with a supervisor in preparing a composition portfolio of works, or a series of projects based upon advanced principles of sound design that reflect the student's own interests and professional focus. This learning will be supplemented with attendance and participation at the School’s Composition Seminar. To support this creative work, students will analyse at a sophisticated level theories, structures, methods, approaches and techniques in a range of styles and in a range of instrumental and vocal repertoire. They will also study sophisticated principles of sound design in relation to music for film and television, theatre, video games, and sound installations. The study of instrumentation, orchestration and arrangement, and sound design will reference scores and musical sound design creations from a range of historical periods and styles complements the compositional work.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed MUSI8005."
  }
 ]

@@ -326,12 +326,13 @@ describe.skipIf(!ENGINE_READY)("plan API (needs the engine)", { timeout: 30_000 
     expect(sqlite("SELECT id FROM plan_entries WHERE plan_id = ?", jar.cookie)).toEqual([]);
   });
 
-  it("GET /api/courses/:code returns the description; 404 UNKNOWN_COURSE otherwise", async () => {
+  it("GET /api/courses/:code returns the course (description not republished; sourceUrl links to P&C); 404 UNKNOWN_COURSE otherwise", async () => {
     const res = await fetch(`${base}/api/courses/COMP2100`);
     expect(res.status).toBe(200);
-    const body = (await res.json()) as { course: { code: string; description: string }; dependents: string[] };
+    const body = (await res.json()) as { course: { code: string; description: string; sourceUrl: string }; dependents: string[] };
     expect(body.course.code).toBe("COMP2100");
-    expect(body.course.description.length).toBeGreaterThan(body.course.code.length);
+    expect(body.course.description).toBe("");
+    expect(body.course.sourceUrl).toMatch(/^https:\/\/programsandcourses\.anu\.edu\.au\//);
     const missing = await fetch(`${base}/api/courses/ZZZZ9999`);
     expect([missing.status, (await errorOf(missing)).error]).toEqual([404, "UNKNOWN_COURSE"]);
   });

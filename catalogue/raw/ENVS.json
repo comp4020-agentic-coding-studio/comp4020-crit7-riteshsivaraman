@@ -13,7 +13,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "This course critically analyses the relationships between people and their environments. It focuses on the big issue facing the globe - the equitable and sustainable use of this planet's resources. We examine different ways of conceptualising the nature of resources, the environment and society. The contrasts and connections between scientific and social science theory and methods will be examined. Key factors mediating the inter-relationships between society and environment will be explored including resource use, population and technological change. Other key concepts critically explored will include social justice, equity and sustainability. These issues will be explored through case studies that will include: the role of Indigenous people in resource management, the international dimension of global climatic change, water and land degradation and biodiversity conservation. Guest speakers will be drawn from the many ANU Colleges and the government, community and business sectors.\n\nHonours Pathway Option\n\nThis course participates in the Honours Pathway option run by the College of Science. Further information and expressions-of-interest will be sought at the commencement of the semester.",
+  "summary": "This course critically analyses the relationships between people and their environments.",
   "requisiteText": null
  },
  {
@@ -30,7 +30,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "In environment and sustainability fields, research plays a major role in identifying the response of human and natural systems to spatial and temporal differences, disturbances and management actions. Achieving these research outcomes relies upon establishing research questions and testable hypotheses, applying appropriate data collection and analysis methods, critically assessing results, and effectively communicating the observations. That process is common to all science-based disciplines.\n\nENVS1003 uses a PPDAC (Problem, Plan, Data, Analysis, Conclusion) cycle to introduce fundamental research concepts. You can expect to develop skills in ecological measurement and sampling, and designing and conducting surveys and experiments. You will also develop analytical skills, including data exploration and effective communication and analysis techniques common to all sciences. The course promotes learning through a combination of lectures, and field-/computer-based practical exercises. During field-based exercises you will gain first-hand experience in collecting ecological and social data.\n\nHonours Pathway Option\n\nThis course participates in the Honours Pathway option run by the College of Science. Further information and expressions-of-interest will be provided at the commencement of the semester.",
+  "summary": "In environment and sustainability fields, research plays a major role in identifying the response of human and natural systems to spatial and temporal…",
   "requisiteText": "Incompatible with ENVS6103."
  },
  {
@@ -47,7 +47,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "This course builds an understanding of key processes that have shaped Australia's biophysical environment. Through an exploration of Australia’s evolution through time, students acquire foundation knowledge across a range of environmental science disciplines, an understanding of contemporary issues, and an appreciation for the unique challenges faced in the future for Australia’s environment. As student’s move through topics, they will learn about geology, climate and weather, soils, landscape evolution, water, flora, fauna, and biodiversity with an appreciation for how these interact and depend on one another. Having gained an understanding of the evolution of Australia, students will also explore topical issues in contemporary Australian environmental science.\n\nLectures are delivered by a diverse range of disciplinary experts.\n\nHonours Pathway Option\n\nThis course participates in the Honours Pathway option run by the College of Science. HPO students will apply research and writing skills to demonstrate the complex issues of managing contemporary Australian landscapes. Students taking this option will attend 4 additional lectures at a more advanced level to support completion of more challenging questions during the final exam, making up 10% of the final exam.\n\nThe HPO is open to all students. Students opt-in to the HPO through the option sign-up in Wattle by Friday Week 3.",
+  "summary": "This course builds an understanding of key processes that have shaped Australia's biophysical environment.",
   "requisiteText": null
  },
  {
@@ -64,7 +64,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Maintaining the balance between our environment, society and sustainable development is challenging. The future needs you to contribute to sustainable solutions to big issues including climate change, food security, health, land management, biodiversity loss, resource competition, and societal equity.\n\nIn this course you will explore a range of contemporary environment and sustainability issues. You will develop an understanding of approaches and viewpoints in environmental and sustainability sciences, learn to link perspectives from the natural and social sciences, and develop discipline and professional skills. Using case studies and problem-based learning, you will draw connections and apply concepts and techniques that may help inform practical solutions to address complex future challenges.",
+  "summary": "Maintaining the balance between our environment, society and sustainable development is challenging.",
   "requisiteText": "To enrol in this course you must be active in the Bachelor of Environment and Sustainability"
  },
  {
@@ -81,7 +81,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Biodiversity Science introduces the principles and skills that underpin evidence-based conservation and management of biodiversity. Key topics include understanding why species occur where they occur, how to measure biodiversity, examining responses by species to human impacts and understanding how species become vulnerable to extinction.\n\nThis course has a strong emphasis on developing practical skills. You will gain experience surveying and identifying animals and plants. You will also learn how to use these data to support evidence-based conservation and management.\n\nThis course is delivered through a combination of lectures and practical sessions, with input from world leaders in conservation biology. The practical sessions include regular local field trips and interactions with public and private land managers.\n\nThis course develops fundamental knowledge and practical skills that are necessary for graduates seeking careers in natural resource management and other areas of environmental science. It also provides important background for those wishing to pursue careers in any field that potentially impacts on biodiversity (e.g. environmental policy and planning). This course provides the scientific underpinnings for the concepts explored in ENVS3039 Biodiversity Conservation.",
+  "summary": "Biodiversity Science introduces the principles and skills that underpin evidence-based conservation and management of biodiversity.",
   "requisiteText": "To enrol in this course you must have successfully completed 48 units towards a degree.\nIncompatible ENVS6201."
  },
  {
@@ -96,7 +96,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Ecosystems worldwide are under stress. Global and local assessments of biodiversity continue to report deteriorating ecosystems and species loss. Measuring, monitoring and modelling these changes, as well as designing and analysing experiments aimed at testing potential management actions are central to restoration and conservation responses. Despite the array of attributes ecosystems express, the same broad concepts are consistently called upon when quantitatively expressing change and difference. This course aims to introduce the concepts that underpin quantitative modelling relevant to understanding organismal and ecosystem response and difference. Specifically, this course aims to build on quantitative modelling skills using approaches that underpin the vast majority of ecological studies with an emphasis upon general linear models integrating complex ANOVA and univariate and multivariate least-squares regression, and generalised linear modelling. The intent is to provide the next step (after pre-requisite introductory courses) for students in building competence in widely applicable field-survey, data-handling and statistical methods, delivering an essential skill set for ecology- and environment-based professionals. The partial field focus of the course, and it’s contextual emphasis on vegetated ecosystems, also necessitates the development of field botany skills. We introduce basic concepts associated with the description of floral and leaf forms and their application to consistently differentiating plant families, genera and species with particular emphasis on eucalypt identification.",
+  "summary": "Ecosystems worldwide are under stress.",
   "requisiteText": "To enrol in this course you must have successfully completed 24 units including ENVS1003.\n\nIncompatible with ENVS6202."
  },
  {
@@ -113,7 +113,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Australia is a country underpinned by a variable climate that influences virtually every aspect of our lives. So what makes Australia the ‘land of drought and flooding rains’? What are the factors that influence major fires, heatwaves and droughts that have shaped Australian society? How is climate change influencing Australian climate variability and extremes? What applications does weather and climate have in sectors such as the urban environment, human health, energy resources and science communication?\n\nIn this course we provide a foundation for understanding Australian weather and the application of this knowledge to other societal impacting weather phenomenon. It is designed to lead students into advanced third year courses in climatology, climate change, bushfire science, and climate change policy. It is also provides a multidisciplinary understanding of climate for students pursuing ecology, environmental science, natural resource management, or sustainability studies.",
+  "summary": "Australia is a country underpinned by a variable climate that influences virtually every aspect of our lives.",
   "requisiteText": "To enrol in this course you must have completed 24 units towards a degree which must include 12 units of courses from the subject area ASTR, BIOL, CHEM, PSYC, PHYS, EMSC, ENVS, MEDN, NEUR, SCOM, MATH, POPH.\n\nIncompatible with ENVS6204."
  },
  {
@@ -130,7 +130,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Small island states face considerable challenges as they attempt to achieve sustainable development. Particular challenges for these nations were recognised in the 1984 Barbados Programme of Action for Small Island Developing States and in the 2014 SAMOA Pathway. These meetings recognised that Small Island Developing States (SIDS) have a narrow range of resources, which forces undue specialization; excessive dependence on international trade and hence vulnerability to global developments; relatively small watersheds and threatened supplies of fresh water; costly public administration and infrastructure, including transportation and communication; and limited institutional capacities and domestic markets, which are too small to provide significant scale economies.\n\nThe particular challenges faced by a Fiji as a SIDS will be explored in this course. The field trip aims to give students a first-hand experience of the real-world circumstances that confront an island nation by exploring important sectoral themes in the context of sustainable development.\n\nThe course will investigate the interactions between economic development and the sustainable management of key sectors including fisheries, agriculture, water catchment management, tourism, waste management, cultural heritage management and marine and coastal biodiversity. Within each theme students will consider factors relevant to island nations, including climate change, natural disasters, water availability, gender, cultural identity, population and race relations, governance and globalization.\n\nThe course will be undertaken in collaboration with the University of the South Pacific’s Pacific Centre for Sustainable Development PACE-SD.",
+  "summary": "Small island states face considerable challenges as they attempt to achieve sustainable development.",
   "requisiteText": "To enrol in this course you must have completed 24 units towards a degree.\nIncompatible with ENVS6205."
  },
  {
@@ -147,7 +147,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "The course “Economics for the Environment’ begins with an explanation of what economics is. In this explanation, a role for economics in the consideration of environmental matters is established. The potential for markets to solve environmental problems is explored and this is accompanied by an analysis of government, or ‘command and control’ mechanisms for dealing with environmental issues. Throughout the course economic principles and techniques are set out. These include opportunity cost, demand, transaction costs, property rights and benefit cost analysis.\n\nThis course also provides the basic skills for further studies in environmental and resource economics.",
+  "summary": "The course “Economics for the Environment’ begins with an explanation of what economics is.",
   "requisiteText": "To enrol in this course you must have completed 24 units towards a degree.\n\nIncompatible with PHYS6205"
  },
  {
@@ -164,7 +164,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "The course applies the principles of ecosystem sciences to the study of the human environment. The emphasis is on the significance and function of ecosystems, how humans have affected these systems over time, and what are the opportunities of and barriers to making positive changes. Dynamical systems thinking and the concept of coupled social ecological system is introduced as a powerful means of comprehending the behaviour of these complex situations. Field trips allow students to experience first-hand the complexity of these human-ecological interactions and the challenges of managing them sustainably. In the latter half of the course, human-nature interactions over human history are critically reviewed, including hunter gatherer societies, early agricultural societies and modern globalised urban and industrial societies. Some key contemporary challenges facing humanity in the Anthropocene are presented for critical reflection. Students extend their understanding of one of these challenges in their final research report and presentation.",
+  "summary": "The course applies the principles of ecosystem sciences to the study of the human environment.",
   "requisiteText": "To enrol in this course you must have completed 24 units towards a degree.\n\nIncompatible with ENVS6020."
  },
  {
@@ -179,7 +179,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Sustainable Urban Systems aims to provide an in-depth understanding of urbanization and sustainable urban systems to students without a systemic previous exposure to the topic. Urbanization is one of the major social transformations of our time that has profound impacts on people and the planet. Cities play an increasingly critical role in local, regional and global sustainability, presenting enormous challenges but also a window of opportunity to “get it right”. The course will explore key topics such as the trend and impacts of global urbanization, the role of cities in sustainability, theoretical and conceptual understanding of cities as systems, analytical tools in measuring sustainability performance of cities, managing urban environment, and urban sustainability experiments and transition towards sustainability. A systems perspective is a common thread throughout the course. The course is strongly interdisciplinary, drawing on both classic and most recent literature in urban geography, urban ecology, urban environmental management, urban sustainability, systems innovation and transition. The course builds on Human Ecology, where the evolutionary history of human-nature relationships as well as a systems approach towards understanding such relationship is explored.\n\nThis intensive in-country field-based course focuses on Singapore's highly successful urban development and management. Singapore has been identified as the ideal location for this course due to its remarkable achievements in urban planning. The course will cover various areas of interest, including water management, waste management, sustainable energy production, urban farming and food security, bio-conservation, sustainable urban ecosystems and urban mobility. To enhance the learning experience, the course has established partnerships with the National University of Singapore and Singapore National Parks, who will contribute to the in-country learning activities. Throughout the in-country component, students will have the opportunity to observe firsthand how Singapore's urban planning is carefully aligned with the needs of its growing population while maintaining a strong focus on environmental sustainability. This immersive experience will provide valuable insights into the strategies and practices employed to achieve a harmonious balance between urban development and ecological preservation.",
+  "summary": "Sustainable Urban Systems aims to provide an in-depth understanding of urbanization and sustainable urban systems to students without a systemic previous…",
   "requisiteText": "To enrol in this course you must have completed 48 units."
  },
  {
@@ -196,7 +196,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "In a time of rapid population growth, unlimited economic growth and the threat of climate change, it is increasingly obvious that we need a transformation in the way we manage our resources, environment and economies. However, bringing about such societal change is not easy, whether it be at the global, national or local level. This course considers the complex drivers behind societal change in pursuit of environmental objectives.\n\nUsing both global and local case studies, the course will break apart some of the crucial building blocks of modern society and explore how we understand the concepts of society, environment, and the economy and the complex relationships between them. The course will also look at who ‘we’ is and how different individuals and groups experience the environment and environmental change differently. From here the course will explore how societies can and do pursue change, the complex relationships which influence change, the different discourses represented in the global conversation about environmental and social issues, and the links between international environmental movements and local, domestic environmental outcomes. In particular, the course will address such questions as: What are the key factors for successful societal change? What are the barriers? How do we know we are addressing the most critical environmental issues? And how do we know when we have succeeded?\n\nHonours Pathway Option (HPO)\n\nThis course participates in the Honours Pathway option run by the College of Science. Further information and expressions-of-interest will be sought at the commencement of the semester. Check class summary for details.",
+  "summary": "In a time of rapid population growth, unlimited economic growth and the threat of climate change, it is increasingly obvious that we need a transformation in…",
   "requisiteText": "To enrol in this course you must have completed 24 units towards a degree.\n\nIncompatible with ENVS6013."
  },
  {
@@ -213,7 +213,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "This course provides an introduction to Geographic Information Systems (GIS) and is based around a hypothetical, but realistic Environmental Impact Study in a small regional catchment. GIS are widely used by government agencies and research organistions in the environmental sciences and to assist with resource and environmental management decision making, in part due to the rapid growth in the availability of high quality digital spatial data.\n\nThis course aims to develop both a solid theoretical understanding and a comprehensive practical grounding through the construction and integration of a range of spatial models. On the satisfactory completion of this course, students will have completed realistic hydrological, erosion, conservation, wildlife habitat, forest, agriculture, fire and economic models within the GIS. The integration of these sub-models to inform decision makers about recommended landuse options will be based on Multi-criteria Evaluation and Multiple Objective Land Use Allocation frameworks.\n\nHonours Pathway Option\n\nStudents who take this option are expected to write a critical review of a journal paper instead of doing the first test (20% of overall assessment). The essay is expected to show greater conceptual understanding and a degree of discovery learning. All other assessment and requirements remain the same. Students should make themselves known to the Course Convenor either in person or via email by the end of Week 2.",
+  "summary": "This course provides an introduction to Geographic Information Systems (GIS) and is based around a hypothetical, but realistic Environmental Impact Study in a…",
   "requisiteText": "To enrol in this course you must have completed 24 units towards a degree.\nIncompatible with ENVS6015."
  },
  {
@@ -230,7 +230,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "The course introduces students to contemporary Southeast Asia by focusing on case studies from southern Vietnam. The emphasis is on integrating formal learning with first-hand research experience. The in-country work will include fieldtrips, homestays, language training, as well as formal classes given by staff from ANU and from An Giang University (Mekong Delta).\n\nThe course focuses on experiencing and understanding the complex relationships between development and the environment as seen through every day living. Students will have the opportunity to conduct group and individual research project on issues such as the changing nature of rural lives, the relationship between the modern and traditional cultural practices, rural-urban migration, concepts of human well-being, and the social and environmental impacts of tourism. The focus is on the impact of rapid change on the environment, culture, family structure and on specific groups such as villagers, migrants, farmers and women.",
+  "summary": "The course introduces students to contemporary Southeast Asia by focusing on case studies from southern Vietnam.",
   "requisiteText": "To enrol in this course you must have completed 24 units towards a degree.\nIncompatible with ENVS6017."
  },
  {
@@ -247,7 +247,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "To work effectively as a professional in environmental science and environmental management you need to apply a range of knowledge and skills in a practical context. This course provides hands-on opportunities for you to apply your theoretical understanding to critical observation and measurement of biodiversity, landscape ecology and soil-vegetation processes. You will develop skills in describing soils, measuring vegetation patterns, identifying habitat features and detecting faunal associations. You will learn to appreciate how soils, landforms, vegetation and fauna should be considered in research and decision-making.\n\nThe course is an in person intensive immersing students in field work throughout the mid-semester break. Week 1 involves day long field trips from the ANU Canberra campus and week 2 is based at the ANU Kioloa coastal campus for four nights. You will be contributing to long-term field research informing management decisions across a range of biomes (farmland, forests, coastal). The field work is complemented by field trip workshops.\n\nThis course develops a diversity of field skills for graduates seeking careers in all fields of natural resource management.\n\nGraduates are co-taught with undergraduate students but assessed separately.",
+  "summary": "To work effectively as a professional in environmental science and environmental management you need to apply a range of knowledge and skills in a practical…",
   "requisiteText": "To enrol in this course you must have completed 24 units towards a degree including (ENVS1003 or STAT1003).\n\nIncompatible with ENVS6218."
  },
  {
@@ -264,7 +264,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Knowledge of the physical, chemical and biological processes involved when water in its many forms interacts with land is fundamental to managing natural resources and in dealing with the increasing environmental challenges confronting us in the 21st century. Faced with global change, an understanding of water science is increasingly important in relation to secure water supply; assessing water demand; safeguarding water quality in multi-use catchments and aquifers; maintaining human health; ensuring food and energy security; and sustaining the ecosystems which support us. Professionals who are aware of the concepts, principles and practices relevant to surface and groundwater hydrology and river processes are needed to work in a variety of water-related fields.\n\nThis course is structured around the water cycle and the concepts of mass and energy balance. The different pathways that water takes as it cycles through the atmosphere, biosphere and lithosphere are examined, as are the interactions of the cycle’s components and their influence on geomorphic and geochemical processes and ecological function. Surface and groundwater are considered as an integrated system, including both their flows and quality. Students will become familiar with hydrological processes and the techniques required to address water security and landscape management, with a focus on Australia and the Asia-Pacific region. Practicals, problem-solving workshops and field studies provide opportunities to develop skills in sampling, analysing and presenting data that relate to catchment characteristics, processes and change.",
+  "summary": "Knowledge of the physical, chemical and biological processes involved when water in its many forms interacts with land is fundamental to managing natural…",
   "requisiteText": "To enrol in this course you must have completed 24 units towards a degree which must include 12 units of courses from the Science courses list (from the subject area ASTR, BIOL, CHEM, PSYC, PHYS, EMSC, ENVS, SCOM, MATH, POPH). Incompatible with ENVS6022."
  },
  {
@@ -281,7 +281,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "The sustainability of agri-food systems is examined in this course from a complex systems and value-chain perspective. The course will evaluate agricultural systems in Australia and internationally at a local, national and global scale. Production systems are placed within the broader social, cultural and economic contexts in which they operate, with students using interdisciplinary approaches to explore topics including the role of family farming and corporate agri-business, consumer demand and marketing, research, development and technology, international trade and rural policy.\n\nStudents will gain an understanding of the inter-dependencies between rural livelihoods, sustainability, food security, adaptation, sustainable intensification and the incentives and barriers to change along the value-chain and in the broader agri-food system. The course includes real world case studies from farming and food industry enterprises to provide first-hand experience and application of your learning.",
+  "summary": "The sustainability of agri-food systems is examined in this course from a complex systems and value-chain perspective.",
   "requisiteText": "Completion of 48 units towards a degree.\n\nIncompatible with ENVS6223."
  },
  {
@@ -298,7 +298,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "This course will provide students with broad underpinning knowledge of practices and systems of the Australian agricultural sector.?Students will gain an understanding of the complex ecological and biophysical processes and interactions between climate, soils, crop plants, livestock, and management systems. A range of land management issues are examined, with students developing the skills to design and implement improved farming systems to address these issues in the context of barriers to adoption, and key enablers of practice change. This course is intended to provide breadth of systems knowledge to allow students of a range of knowledge domains to come together and apply their disciplinary knowledge in a modern agricultural context. will gain an understanding of the complex ecological and biophysical processes and interactions between climate, soils, crop plants, livestock, and management systems. A range of land management issues are examined, with students developing the skills to design and implement improved farming systems to address these issues in the context of barriers to adoption, and key enablers of practice change.",
+  "summary": "This course will provide students with broad underpinning knowledge of practices and systems of the Australian agricultural sector.?Students will gain an…",
   "requisiteText": "To enrol in this course you must have completed 24 units towards a degree.\nIncompatible with ENVS6224."
  },
  {
@@ -315,7 +315,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "This course introduces students to fundamental aspects of Indigenous relationships to lands, waters and cultural sites in Australia and internationally. It will provide students with an overview of Indigenous perspectives about the natural environment, knowledge systems and practices, as well as the settler state legal and policy frameworks which often obstruct Indigenous opportunities to actively engage in cultural and natural resource management. These areas of contestation and collaboration between Indigenous and non-Indigenous natural resources users are explored through a series of land and water management case studies and an examination of a range of theories on the topic. Students will learn from a diversity of indigenous land managers from across Australia. The course will also provide students with an opportunity to strengthen self-reflexive practices that are essential in engaging with Indigenous knowledge in many natural resource management issues.",
+  "summary": "This course introduces students to fundamental aspects of Indigenous relationships to lands, waters and cultural sites in Australia and internationally.",
   "requisiteText": "To enrol in this course you must have completed 24 units towards a degree.\nIncompatible with INDG2001."
  },
  {
@@ -330,7 +330,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Unprecedented human-induced environmental change has caused pollution in all compartments of the biosphere. Naturally occurring chemicals such as lead and arsenic have affected human health and the environment for millennia, with the industrial revolution leading to an explosion of synthetic chemical pollutants and effects in the last 200 years. Understanding how pollution causes harm, and how it is measured, assessed, and regulated, are key to mitigating pollution impacts on Earth and its inhabitants. The course will be delivered by industry experts, from federal and state government regulators through to pollution consultants and researchers conducting work on the ground, through a combination of lectures and workshops on the science of pollution. Discussions related to policy, regulations, and societal issues will also be held. By the end of the course, students will have a firm grasp of how pollution causes problems in the environment and practical solutions to solve pollution problems. They will be able to assess pollution and to analyse policy and regulatory options to better manage the environment at both the regional and global levels. This course aims to present environmental chemistry from an environmental lens. While some chemistry knowledge is useful, it is not essential for the course.",
+  "summary": "Unprecedented human-induced environmental change has caused pollution in all compartments of the biosphere.",
   "requisiteText": ".To enrol in this course you must have completed 72 units of tertiary study."
  },
  {
@@ -345,7 +345,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Natural resources underpin societies need for food, fiber, shelter and technology. As such the economies and lifestyles that humans have constructed depend on the long-term sustainable management of these natural resources; land, water, vegetation. The aim of this course is to provide an understanding of the complex land management issues associated with the biophysical drivers of historic and contemporary land management issues, the social and political stakeholders invested in Australian land management and critiques current management tools and strategies. This investigation is set within a natural resource management framework.\n\nTopics will include: the complex components of rangeland management; mine site rehabilitation; conservation lands and national parks; coastal zone management. The course emphasises the interdisciplinarity of land resource management and examines content by investigating the physical, economic, social and institutional components of a problem.\n\nHonours Pathway Option\n\nSubject to the approval of the course convenor; students taking this option will apply research skills to demonstrate deeper understanding of managing Australian rangelands. Students taking this\n\noption will attend 2 additional workshops at a more advanced level to support completion of more challenging questions during the final exam, making up 10% of the final exam. The HPO is open to all\n\nstudents. Students opt-in to the HPO through the option sign-up in Wattle by Friday Week 3.",
+  "summary": "Natural resources underpin societies need for food, fiber, shelter and technology.",
   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree.\nIncompatible with ENVS6304."
  },
  {
@@ -362,7 +362,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "The aim of this course is to provide an understanding of issues and methods in water resources management, and is set especially within the framework of total, or integrated, catchment management. The course gives an introduction to the unique hydrology of Australia, major issues of water resource management, the implications of past water management practices, the principles of integrated catchment management and sustainability, and current management tools and strategies.\n\nTopics will include: the components of the hydrological cycle; impacts of land and water management on water quantity and quality; water demand and allocation among users, including the environment; the institutional and policy aspects of Water Resource Management (WRM); on ground strategies of WRM; and integrated modelling of water and land resources. The course emphasises the interdisciplinarity of water resource management and examines integrated assessment, which is a method that seeks to solve water management problems by investigating the physical, economic, social and institutional components of a problem. Water ethics is a key theme that underpins and links many components of the course.\n\nHonours Pathway Option\n\nSubject to the approval of the course convenor, students taking this option will be expected to complete enrichment learning activities that build leadership skills and support higher level engagement across the water sector. Students taking this option will be expected to include discussions with key decision makers/researchers, chairing and being the secretariat at meetings, or leading discussion in-class or online with water sector specialists. Students undertaking the HPO will engage with LO1, LO2 and LO4. The HPO is open to all students. Students opt-in to the HPO through the option sign-up in Wattle by Friday Week 3.",
+  "summary": "The aim of this course is to provide an understanding of issues and methods in water resources management, and is set especially within the framework of…",
   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree.\nIncompatible with ENVS6555."
  },
  {
@@ -379,7 +379,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "There is increasing recognition of the need to actively involve different stakeholders and communities in the process of making decisions about natural resource management (NRM). Almost every NRM professional is asked to 'consult' or 'involve' the community when drawing up management plans for resources such as national parks, forests, fisheries, water or mining activities, amongst many others.\n\nThis course provides a critical review of participatory resource management (PRM) approaches, exploring when and why different PRM processes succeed and fail to resolve conflicts between stakeholders. Students learn both the theories underpinning different PRM approaches, and practical skills such as group facilitation, stakeholder analysis and how to design and manage participatory processes. A series of guest speakers discuss recently-implemented Australian and international participatory processes, and the class evaluates the factors that affected the success or otherwise of these processes. The course assessment, much of which is based on group-work, is designed to ensure students apply the facilitation skills being taught, and that students can explore topics of particular interest to them in the field of PRM.",
+  "summary": "There is increasing recognition of the need to actively involve different stakeholders and communities in the process of making decisions about natural…",
   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree which must include a minimum of 6 units from ENVS or SOCY coded courses.\n\nIncompatible with ENVS6021."
  },
  {
@@ -394,7 +394,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Fire is pivotal to the functioning of Australian ecosystems. This course explores a range of important themes concerning bushfires in Australian and international environments. The inter-dependent relationship between fire regimes and biota is explored using evidence from experiments and simulation modelling. An exploration of the sensitivity of fire regimes to natural and human factors then provides a context for exploring the likely effects of climate change and other aspects of global change on future bushfire dynamics. Similarly, it provides context for understanding the role of bushfire management, including cultural and prescribed burning, in modifying fire regimes. These themes are brought together in an analysis of managing likelihood of adverse outcomes from bushfires, including legal and other societal implications.",
+  "summary": "Fire is pivotal to the functioning of Australian ecosystems.",
   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree.\nIncompatible with ENVS6308."
  },
  {
@@ -411,7 +411,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Science and Medicine / ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Climate change is the largest scientific challenge facing humanity. In this course we will provide a multidisciplinary foundation for understanding climate variability and change from regional to global scales. Interactions between the atmosphere, ocean, cryosphere and land in the Earth’s climate system are explored to understand past, present and future climate variability and change. Course material covers ice age cycles, abrupt change, global and regional climate variability of the past 1000 years, and anthropogenic factors contributing to contemporary and future climate change.\n\nStudents will work with data from proxy records (e.g. ice cores, tree rings, corals, sedimentary records and historical documents), observational records, and climate model output. The course also provides opportunities to develop skills in interpreting and communicating climate science for a range of audiences. The scientific basis for climate change is also applied to understanding observed impacts and its relevance for global policy contexts.",
+  "summary": "Climate change is the largest scientific challenge facing humanity.",
   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree including ENVS2004 or EMSC2021.\nIncompatible with ENVS6303."
  },
  {
@@ -426,7 +426,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "All aspects of environmental, natural and cultural resource management are shaped by the law in some way. The law is used to define how, and by whom decisions that impact upon the environment are made.?Law imposes obligations upon individuals, institutions and governments. It is used to determine who is, or is not accountable for environmental decisions and their consequences. The law can be used to bring the resources of the state to permit or prohibit actions and allow choices whether they benefit or harm the environment.\n\nThis course offers environmental science, management and policy students an introduction to the workings of the Australian legal system and how the law and relevant institutions are used to affect environmental decision making.\n\nWhile introducing students to key environmental legislation it explores how law is shaped by those with vested interests in the outcome and how law is applied, or ignored, in environmental decision making. You will gain a critical understanding of the law and its role in environmental decision making.\n\nThe course also explores the role of international environmental law and how it plays a role in domestic environmental decision making.\n\nThe course will be based around lectures, group discussions of reading, and the review of videos.",
+  "summary": "All aspects of environmental, natural and cultural resource management are shaped by the law in some way.",
   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree.\n\nIncompatible with ENVS6315. Incompatible with LAWS2101 Foundations of Australian Law or equivalent.\n\nNot available to students enrolled in, or holding an LLB, JD or other law degree program"
  },
  {
@@ -448,7 +448,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "This is a shell course that allows the delivery of developing environment, society and sustainability curriculum content to groups of students over intensive or semester long formats. An academic lead of each developing curriculum content (topic) develops teaching content, assessment and management. Each topic varies, reflecting the interests, authority and expertise of those teaching the course. The mode of delivery and location of this courses varies. Some topics are taught intensively, others are taught seminar-long. The content will provide students with study opportunities not covered in other courses taught in the Fenner School of Environment & Society or elsewhere in the University. Depending on the topic, students may be required to take part in lectures, workshops, tutorials, seminars, discussion groups, field trips and other activities. Assessment and work integrated learning opportunities will differ between each offering.",
+  "summary": "This is a shell course that allows the delivery of developing environment, society and sustainability curriculum content to groups of students over intensive…",
   "requisiteText": "To enrol in this course you must have completed a minimum of 72 units."
  },
  {
@@ -465,7 +465,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Anthropogenic climate change is arguably the greatest existential risk and most intractable wicked problem that humanity has ever faced. This course provides an overview of the fundamentals of climate and climate change science, reviews the history of climate change action internationally and in Australia, and outlines the current and projected state of climate change and climate change action. The course explores the impetus and options for climate change action, the intersection of climate change and sustainable global development, and why, despite the increasing urgency, international and domestic climate action is often limited.\n\nThe astrophysical, atmospheric, oceanic, and terrestrial processes that drive and amplify natural climatic variability and anthropogenic climate change are introduced at a level appropriate for non-science students while selected lectures explore topics at the forefront of current climate science research.\n\nCurrent and likely future impacts of anthropogenic climate change on ecosystems, human activities, and societal development are considered, including biodiversity, human health, indigenous perspectives, and regional and socio-economic inequality and vulnerability.\n\nOur exploration of communication, denialism, polarisation, ethics, and the roles of academia and research culminates in an in-class discussion of climate change with\\\\ climate deniers.\n\nKey principles of International Relations and examples from the realpolitik of international treaties are used to investigate actual and potential societal response strategies. International and Australian climate policies, key actors, and international processes are analysed to assess actual and potential unilateral, private, and collective action. The interactions with policy options in other domains (such as economics, foreign aid, energy, and innovation) are also examined. The culmination of the course is a mock treaty negotiation for \"The Canberra Agreement\" under the United Nations Framework Convention on Climate Change.\n\nContributors to the course include experts from across the ANU and representatives of various government departments, industry, business, NGOs, community groups, and research organisations.\n\nHonours Pathway Option\n\nSubject to the approval of the course convener; students taking this option will participate\n\nin weekly seminars on advanced topics and create a research proposal and annotated bibliography for a potential (half-)year-long research project. This can serve as direct preparation for an Honours or Special Topics research project. All other assessment and\\\\ requirements remain the same.\n\nPlease direct all enquiries and correspondence to envs3020-convener@anu.edu.au.",
+  "summary": "Anthropogenic climate change is arguably the greatest existential risk and most intractable wicked problem that humanity has ever faced.",
   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree.\nIncompatible with ENVS6307."
  },
  {
@@ -482,7 +482,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Grounded in the discipline of public environmental policy, the course considers the complexities around public policy-making for the environment and sustainability. The course considers how policy is made and the institutional settings within which it is made, how problems and policies are framed, implemented and evaluated, and the inherent challenges in choosing appropriate policy instruments to meet an objective. The course focuses particularly on Australia’s public environmental policy and institutional settings. Comparisons with international case studies will be made. Interactive lectures and seminars provide students with opportunities to analyse specific environmental policy issues in theoretical frameworks and over different time scales. Once a general overview of how environmental policy is created we apply a structured analytical tool to assess whether existing environmental policies in Australia are adequate to meet the challenges of environmental management in a changing climate. Topics explored include water, forestry, biodiversity and climate policy, sustainability in business and industry, public and civil society participation in policy-making, and comparisons will be made with overseas environmental policy examples.",
+  "summary": "Grounded in the discipline of public environmental policy, the course considers the complexities around public policy-making for the environment and…",
   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree.\nIncompatible with ENVS6528."
  },
  {
@@ -499,7 +499,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "The past, the present and the future. These are all aspects of environmental change that palaeoecologists attempt to understand. In essence, palaeoecology enables us to venture back in time and reconstruct landscapes of the past, with much of our understanding of these deep time environmental histories based on the microscopic fossil remains of plants and animals found in sedimentary sequences. There is a rich body of this kind of evidence from around the world and Australia is a fascinating part of the global story.\n\nParticipants are introduced to the science of reconstructing past environments through a hands-on research project designed around an environmental research question. Students explore the classic methods and techniques used to understand deep time environmental change through the collection of sedimentary sequences and the laboratory analysis of a number of palaeoenvironmental indicators, such as pollen and charcoal. These two proxy data types reveal what was growing in the landscape at different times in the past and how often it burnt.\n\nThe course provides students with an understanding of the intersection between palaeoecology, fire ecology, archaeology, palaeoclimatology and conservation management research. The program also explores how Indigenous people have tended country and altered environmental processes over the millennia, ultimately creating cultural landscapes.\n\nStudents will also meet and learn from some of ANU’s leading researchers in this field as well as gain insight into ongoing research in the region, as we delve into how palaeoenvironmental science can play a role in understanding current and future environmental and societal challenges.",
+  "summary": "The past, the present and the future.",
   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree including 12 units of 2000 or 3000 level ARCH, BIOL, EMSC or ENVS courses.\nIncompatible with ENVS6529."
  },
  {
@@ -516,7 +516,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "The course focuses on the dynamic field of international environmental policy (IEP), a field that has grown rapidly and dramatically over the last three decades, driven by concern over unprecedented and large-scale global environmental change, including climate change, biodiversity loss, deforestation, marine degradation, and expanding trade and consumption. International environmental policy now directly and indirectly affects the behaviour and decisions of governments, corporations, NGOs, local communities and individuals.\n\nThe course takes an interdisciplinary approach, drawing insights from areas including ecology, law, economics, international relations and politics, and incorporates lectures, guest speakers from NGOs and government, panel discussions, debates and workshops, with an emphasis on understanding the real-world dynamics of policy formation and debate. The course will cover the nature of IEP; its development over recent decades; the actors and institutions which form and influence it; and the conflicts which shape it. Key areas of debate within IEP will be examined, including tensions between conservation and development; conflicts around knowledge, science, and uncertainty; and reliance on 'command and control' vs market-based approaches. Cross-cutting issues include gender, the fight against poverty, the role of corporations and international initiatives such as the Sustainable Development Goals. These issues will be explored through analysis of topical case studies, such as equity and climate change; biodiversity and livelihoods; biofuels and deforestation; and genetically modified organisms and international trade.",
+  "summary": "The course focuses on the dynamic field of international environmental policy (IEP), a field that has grown rapidly and dramatically over the last three…",
   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree.\nIncompatible with ENVS6033."
  },
  {
@@ -533,7 +533,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Conserving biodiversity in the face of pressures such as habitat loss, invasive species and climate change is a challenge facing land managers and policy-makers globally. In this course we explore options for conserving biodiversity. We draw on land managers from different organisations to contribute to the course and prepare students for future employment in this field.\n\nSpecifically we investigate:\n\n• Key threats to biodiversity, including habitat modification and loss, unsustainable resource use, invasive species and climate change.\n\n• Management actions that mitigate threats to biodiversity, including selecting nature reserves, connectivity and wildlife corridors, ecosystem restoration and control of pest plants and animals.\n\n• Policies to conserve biodiversity including financial incentives, market-based instruments (e.g. biodiversity offsetting), ecological triage and adaptive management.\n\nThere is an emphasis on inquiry-based learning. That is, relating relevant concepts and techniques to real-world situations through: (a) the involvement of working professionals; (b) a series of field-based workshops; and (c) an optional field trip.",
+  "summary": "Conserving biodiversity in the face of pressures such as habitat loss, invasive species and climate change is a challenge facing land managers and…",
   "requisiteText": "To enrol in this course you must have completed 96 units towards a degree.\nIncompatible with ENVS6024."
  },
  {
@@ -550,7 +550,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "This course uses three case studies to develop a multi-faceted, research-based understanding of complex environmental problems that graduating students can apply in future research or work environments. The course emphasises integrative, engaged, and research-based approaches to complexity. The first two cases present complex local and national issues in collaboration with key stakeholders. Students engage with these issues by drawing on a range of theoretical concepts and practical tools. The learning from these cases is then applied to a case study selected by students and conducted as a group project, again in collaboration with local stakeholders. The focus throughout is on case studies as vehicles for learning and reflection, as well as a testing ground for tools, techniques and approaches discussed in the course.\n\nHonours Pathway Option\n\nSubject to the approval of the course convenor; students taking this option will be expected to complete alternative weekly readings and to be prepared to discuss this advanced material in workshops and incorporate it into their major assignment/s.",
+  "summary": "This course uses three case studies to develop a multi-faceted, research-based understanding of complex environmental problems that graduating students can…",
   "requisiteText": "To enrol in this course you must have completed 96 units towards a degree.\n\nIncompatible with ENVS6025."
  },
  {
@@ -567,7 +567,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Forested landscapes are diverse, and are managed for a diversity of values, goods and services. They deliver a suite of ecosystem services, at scales ranging from local to global. Forested landscapes may include some or all of native, plantation, farm and urban forest systems, as well as non-forest land uses. They range from ecologically intact to highly simplified systems; some are managed solely for their intrinsic (non-monetary) values, while others managed primarily for commercial production. Management approaches, constraints and opportunities are correspondingly diverse, although all should be underpinned by the principles of system resilience.\n\nThis course considers conceptual frameworks for managing forested landscapes with case studies of native, plantation, farm and urban forestry. Classroom learning is informed by numerous guest speakers, local field trips and discussion fora. We explore the translation of theory, policies and principles into practice by undertaking a major project analysing forest system resilience, policy options and practices of a particular form of forested landscape. We then share our learning with others in the course. The course complements other Fenner School courses on policy and management of natural resources.",
+  "summary": "Forested landscapes are diverse, and are managed for a diversity of values, goods and services.",
   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree.\nIncompatible with ENVS6026."
  },
  {
@@ -584,7 +584,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "This course will introduce students to advanced concepts associated with agri-food system innovation and adaptation. This course will build on understanding gained in ENVS2023 and ENVS6223 and explore how innovation and adaptation:\n\ncan identify future opportunities and mitigate threats or productivity declines in agri-food systems;\n\ncan alter existing trajectories away from commodity-specific and incremental change, towards transformational change;\n\ncan ensure that a more balanced approach to delivering agri-food system outcomes is achieved, that considers multiple outcomes e.g. economic, environmental and social;\n\nmust operate in tandem with an improved regulatory environment in order to achieve sustained agri-food system outcomes.\n\nThe course is intended to provide students the knowledge and skills to be able to identify where disruptions may occur in existing agri-food systems and formulate technical and policy-based adaptation options that will serve to mitigate these disruptions.",
+  "summary": "This course will introduce students to advanced concepts associated with agri-food system innovation and adaptation.",
   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree which must include ENVS2023 or ENVS2024.\nIncompatible with ENVS6342."
  },
  {
@@ -601,7 +601,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Geographic Information Systems have advanced rapidly in recent decades and now play an important role in environment and society issues including land and water management, forestry, climate science, biodiversity conservation, urban and rural planning, and social research. Spatial data are becoming increasingly accessible and are being utilised by a wide range of government and research agencies, consulting firms and other private businesses. This course focuses on social and urban applications of GIS. The first part of the course covers key concepts and skills including models of geographic accessibility, network analysis, geocoding and socio-demographic disadvantage. During the second part of the course students are provided with a range of research topics and spatial datasets to independently investigate and write a research paper.",
+  "summary": "Geographic Information Systems have advanced rapidly in recent decades and now play an important role in environment and society issues including land and…",
   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree including ENVS2015.\nIncompatible with ENVS3019 and ENVS6319."
  },
  {
@@ -623,7 +623,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "This is a research-intensive course in which students undertake a self-directed research project under the guidance of a supervisor. It comprises a series of seminars on planning and conducting research, and on academic skills development. The majority of time is spent developing and implementing a research plan under the supervision of an academic member of staff.\n\nThis is an Honours Pathway Course (HPC)",
+  "summary": "This is a research-intensive course in which students undertake a self-directed research project under the guidance of a supervisor.",
   "requisiteText": "To enrol in this course you must have completed 96 units towards an undergraduate degree which must include:\n\n30 units of courses at 2000 and/or 3000 level, with Credit average performance in 2000 and 3000 level ENVS courses; and\nDistinction level performance in courses related to the proposed research project."
  },
  {
@@ -640,7 +640,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "This is an interdisciplinary course involving students from the College of Law and the Fenner School of the Environment and Society. Recognising that environmental issues are multifaceted, this course takes an interdisciplinary approach, providing an opportunity for students of each discipline to benefit from peer-to-peer learning, and to gain an understanding of the interrelationship between the two disciplines. Students will attend seminars on topics of interest, and work in cross-disciplinary teams on environmental issues.",
+  "summary": "This is an interdisciplinary course involving students from the College of Law and the Fenner School of the Environment and Society.",
   "requisiteText": "To enrol in this course you must have completed a minimum of 72 units of tertiary study.\n\nIncompatible with LAWS4344"
  },
  {
@@ -655,7 +655,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "This course will provide students with the skills and knowledge to understand and explain the complex biogeochemical cycles that drive environmental systems and processes. The course will provide a foundation in modern environmental chemistry, exploring interactions between the hydrosphere, geosphere, atmosphere and biosphere. Students will apply this knowledge to land management decision making across a range of contexts, including agriculture, mining, contaminated land remediation, native vegetation systems, and urban design. The course includes laboratory and field-based components, giving students practical experience in environmental sampling and analysis. Building upon these foundational topics, the course will investigate the chemical behaviour of polluting compounds and explore their partitioning within the environment. Students will develop skills valued in an array of professions, including environmental sample collection and preservation, laboratory analysis techniques, field testing, and applying conceptual environmental models. Students will be able to draw on course materials that provide diverse gender, cultural, and geographical perspectives on these topics.",
+  "summary": "This course will provide students with the skills and knowledge to understand and explain the complex biogeochemical cycles that drive environmental systems…",
   "requisiteText": "To enrol in this course you must have completed a minimum of 72 units of tertiary study.\n\nIncompatible with ENGN3902"
  },
  {
@@ -672,7 +672,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "To better understand and manage the rapid pace of environmental change, there is a need to develop accurate and effective environmental sensing, mapping and modelling techniques. In this course, students will learn about and compare the methods used to investigate environmental systems and parameters including techniques for measuring water, air, soil, vegetation, light, noise and vibration. Students will also learn about remote sensing from ground-, and space-based platforms, including how these platforms allow the collection of information essential to monitor, quantify and forecasting the condition and behaviour of the environment. Students will then investigate mapping tools to represent spatial and temporal changes of environmental values and develop computational methods and models to extrapolate societal understanding of the measured and mapped environmental data. Collectively, the topics explored in the course will give students experience in using spatiotemporal environmental data to underpin evidence based environmental decision making. This course will provide an important focus on indigenous perspectives and contributions to this field of study. Students will be able to draw on course materials that provide diverse gender, cultural, and geographical perspectives on these topics.",
+  "summary": "To better understand and manage the rapid pace of environmental change, there is a need to develop accurate and effective environmental sensing, mapping and…",
   "requisiteText": "To enrol in this course you must have completed a minimum of 72 units of tertiary study, which must include:\nPHYS1001 or PHYS1101, and\nMATH1013 or MATH1115 or MATH1014 or MATH1116\n\nIncompatible with ENGN3903"
  },
  {
@@ -690,7 +690,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "This course is a compulsory component of the Honours program that provides practical training in research practice culminating in the production of a thesis. Students develop a research topic in consultation with one or more academic supervisors, and design, plan, execute and report on their research conducted with the guidance of a supervisory panel.",
+  "summary": "This course is a compulsory component of the Honours program that provides practical training in research practice culminating in the production of a thesis.",
   "requisiteText": "To enrol in this course you must be active in the Environment Honours Specialisation"
  },
  {
@@ -708,7 +708,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "The Honours Research Skills course provides instruction and experience in designing the Honours project, selecting appropriate research methods, placing the research in the appropriate disciplinary, inter- and/or multi- disciplinary context, and communicating research findings in effective ways through a range of formats. This includes providing guidance and experience in preparing (i) a research proposal and plan, (ii) a draft of the introduction, literature review and methodology and methods components of the thesis, and (iii) a critique of written research communication in the Honours thesis format. It also provides guidance and experience in the academic peer review process, which is a fundamental component of research. This compulsory component of the Honours program supports and extends the research training and guidance provided by the student’s primary supervisor and co-supervisor/s.",
+  "summary": "The Honours Research Skills course provides instruction and experience in designing the Honours project, selecting appropriate research methods, placing the…",
   "requisiteText": "To enrol in this course you must be enrolled in the Environmental Honours Specialisation (ENVI-HSPC)."
  },
  {
@@ -725,7 +725,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "In a time of rapid population growth, unlimited economic growth and the threat of climate change, it is increasingly obvious that we need a transformation in the way we manage our resources, environment and economies. However, bringing about such societal change is not easy, whether it be at the global, national or local level. This course considers the complex drivers behind societal change in pursuit of environmental objectives.\n\nUsing both global and local case studies, the course will break apart some of the crucial building blocks of modern society and explore how we understand the concepts of society, environment, and the economy and the complex relationships between them. The course will also look at who ‘we’ is and how different individuals and groups experience the environment and environmental change differently. From here the course will explore how societies can and do pursue change, the complex relationships which influence change, the different discourses represented in the global conversation about environmental and social issues, and the links between international environmental movements and local, domestic environmental outcomes. In particular, the course will address such questions as: What are the key factors for successful societal change? What are the barriers? How do we know we are addressing the most critical environmental issues? And how do we know when we have succeeded?\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately.",
+  "summary": "In a time of rapid population growth, unlimited economic growth and the threat of climate change, it is increasingly obvious that we need a transformation in…",
   "requisiteText": "Incompatible with ENVS2013."
  },
  {
@@ -742,7 +742,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "This course provides an introduction to Geographic Information Systems (GIS) and is based around a hypothetical, but realistic Environmental Impact Study in a small regional catchment. GIS are widely used by government agencies and research organisations in the environmental sciences and to assist with resource and environmental management decision making, in part due to the rapid growth in the availability of high quality digital spatial data.\n\nThis course aims to develop both a solid theoretical understanding and a comprehensive practical grounding through the construction and integration of a range of spatial models. On the satisfactory completion of this course, students will have completed realistic hydrological, erosion, conservation, wildlife habitat, forest, agriculture, fire and economic models within the GIS. The integration of these sub-models to inform decision makers about recommended landuse options will be based on Multi-criteria Evaluation and Multiple Objective Land Use Allocation frameworks.\n\nNote: Graduate students attend joint classes with undergraduate students but are assessed separately.",
+  "summary": "This course provides an introduction to Geographic Information Systems (GIS) and is based around a hypothetical, but realistic Environmental Impact Study in a…",
   "requisiteText": "Incompatible with ENVS2015."
  },
  {
@@ -759,7 +759,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "The course introduces students to contemporary Southeast Asia by focusing on case studies from southern Vietnam. The emphasis is on integrating formal learning with first-hand research experience. The in-country work will include fieldtrips, homestays, language training, as well as formal classes given by staff from ANU and from An Giang University (Mekong Delta).\n\nThe course focuses on experiencing and understanding the complex relationships between development and the environment as seen through every day living. Students will have the opportunity to conduct group and individual research project on issues such as the changing nature of rural lives, the relationship between the modern and traditional cultural practices, rural-urban migration, concepts of human well-being, and the social and environmental impacts of tourism. The focus is on the impact of rapid change on the environment, culture, family structure and on specific groups such as villagers, migrants, farmers and women.\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately.",
+  "summary": "The course introduces students to contemporary Southeast Asia by focusing on case studies from southern Vietnam.",
   "requisiteText": "Incompatible with ENVS2017."
  },
  {
@@ -776,7 +776,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "The course applies the principles of ecosystem sciences to the study of the human environment. The emphasis is on the significance and function of ecosystems, how humans have affected these systems over time, and what are the opportunities of and barriers to making positive changes. Dynamical systems thinking and the concept of coupled social ecological system is introduced as a powerful means of comprehending the behaviour of these complex situations. Field trips allow students to experience first-hand the complexity of these human-ecological interactions and the challenges of managing them sustainably. In the latter half of the course, human-nature interactions over human history are critically reviewed, including hunter gatherer societies, early agricultural societies and modern globalised urban and industrial societies. Some key contemporary challenges facing humanity in the Anthropocene are presented for critical reflection. Students extend their understanding of one of these challenges in their final research report and presentation.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "summary": "The course applies the principles of ecosystem sciences to the study of the human environment.",
   "requisiteText": "Incompatible with ENVS2011."
  },
  {
@@ -793,7 +793,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "There is increasing recognition of the need to actively involve different stakeholders and communities in the process of making decisions about natural resource management (NRM). Almost every NRM professional is asked to 'consult' or 'involve' the community when drawing up management plans for resources such as national parks, forests, fisheries, water or mining activities, amongst many others.\n\nThis course provides a critical review of participatory resource management (PRM) approaches, exploring when and why different PRM processes succeed and fail to resolve conflicts between stakeholders. Students learn both the theories underpinning different PRM approaches, and practical skills such as group facilitation, stakeholder analysis and how to design and manage participatory processes. A series of guest speakers discuss recently-implemented Australian and international participatory processes, and the class evaluates the factors that affected the success or otherwise of these processes. The course assessment, much of which is based on group-work, is designed to ensure students apply the facilitation skills being taught, and that students can explore topics of particular interest to them in the field of PRM.\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately.",
+  "summary": "There is increasing recognition of the need to actively involve different stakeholders and communities in the process of making decisions about natural…",
   "requisiteText": "Incompatible with ENVS3007."
  },
  {
@@ -810,7 +810,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Knowledge of the physical, chemical and biological processes involved when water in its many forms interacts with land is fundamental to managing natural resources and in dealing with the increasing environmental challenges confronting us in the 21st century. Faced with global change, an understanding of water science is increasingly important in relation to secure water supply; assessing water demand; safeguarding water quality in multi-use catchments and aquifers; maintaining human health; ensuring food and energy security; and sustaining the ecosystems which support us. Professionals who are aware of the concepts, principles and practices relevant to surface and groundwater hydrology and river processes are needed to work in a variety of water-related fields.\n\nThis course is structured around the water cycle and the concepts of mass and energy balance. The different pathways that water takes as it cycles through the atmosphere, biosphere and lithosphere are examined, as are the interactions of the cycle’s components and their influence on geomorphic and geochemical processes and ecological function. Surface and groundwater are considered as an integrated system, including both their flows and quality. Students will become familiar with hydrological processes and the techniques required to address water security and landscape management, with a focus on Australia and the Asia-Pacific region. Practicals, problem-solving workshops and field studies provide opportunities to develop skills in sampling, analysing and presenting data that relate to catchment characteristics, processes and change.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "summary": "Knowledge of the physical, chemical and biological processes involved when water in its many forms interacts with land is fundamental to managing natural…",
   "requisiteText": "Incompatible with ENVS2020."
  },
  {
@@ -827,7 +827,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Conserving biodiversity in the face of pressures such as habitat loss, invasive species and climate change is a challenge facing land managers and policy-makers globally. In this course we explore options for conserving biodiversity. We draw on land managers from different organisations to contribute to the course and prepare students for future employment in this field.\n\nSpecifically we investigate:\n\nKey threats to biodiversity, including habitat modification and loss, unsustainable resource use, invasive species and climate change.\n\nManagement actions that mitigate threats to biodiversity, including selecting nature reserves, connectivity and wildlife corridors, ecosystem restoration and control of pest plants and animals.\n\nPolicies to conserve biodiversity including financial incentives, market-based instruments (e.g. biodiversity offsetting), ecological triage and adaptive management.\n\nThere is an emphasis on inquiry-based learning. That is, relating relevant concepts and techniques to real-world situations through: (1) the involvement of working professionals; (2) a series of field-based workshops; and (3) an optional field trip.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "summary": "Conserving biodiversity in the face of pressures such as habitat loss, invasive species and climate change is a challenge facing land managers and…",
   "requisiteText": "Incompatible with ENVS3039."
  },
  {
@@ -844,7 +844,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "This course uses three case studies to develop a multi-faceted, research-based understanding of complex environmental problems that graduating students can apply in future research or work environments. The course emphasises integrative, engaged, and research-based approaches to complexity. The first two cases present complex local and national issues in collaboration with key stakeholders. Students engage with these issues by drawing on a range of theoretical concepts and practical tools. The learning from these cases is then applied to a developing a research project proposal. The focus throughout is on case studies as vehicles for learning and reflection, as well as a testing ground for tools, techniques and approaches discussed in the course.\n\nNote: This course is co-taught with undergraduate students but assessed separately. During the second part of the course graduate students attend specialist case-based tutorials with peers.",
+  "summary": "This course uses three case studies to develop a multi-faceted, research-based understanding of complex environmental problems that graduating students can…",
   "requisiteText": "Incompatible with ENVS3040."
  },
  {
@@ -861,7 +861,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Forested landscapes are diverse, and are managed for a diversity of values, goods and services. They deliver a suite of ecosystem services, at scales ranging from local to global. Forested landscapes may include some or all of native, plantation, farm and urban forest systems, as well as non-forest land uses. They range from ecologically intact to highly simplified systems; some are managed solely for their intrinsic (non-monetary) values, while others managed primarily for commercial production. Management approaches, constraints and opportunities are correspondingly diverse, although all should be underpinned by the principles of system resilience.\n\nThis course considers conceptual frameworks for managing forested landscapes with case studies of native, plantation, farm and urban forestry. Classroom learning is informed by numerous guest speakers, local field trips and discussion fora. We explore the translation of theory, policies and principles into practice by undertaking a major project analysing forest system resilience, policy options and practices of a particular form of forested landscape. We then share our learning with others in the course. The course complements other Fenner School courses on policy and management of natural resources.\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately and have a separate tutorial session each week.",
+  "summary": "Forested landscapes are diverse, and are managed for a diversity of values, goods and services.",
   "requisiteText": "Incompatible with ENVS3041."
  },
  {
@@ -878,7 +878,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "The course focuses on the dynamic field of international environmental policy (IEP), a field that has grown rapidly and dramatically over the last three decades, driven by concern over unprecedented and large-scale global environmental change, including climate change, biodiversity loss, deforestation, marine degradation, and expanding trade and consumption. International environmental policy now directly and indirectly affects the behaviour and decisions of governments, corporations, NGOs, local communities and individuals.\n\nThe course takes an interdisciplinary approach, drawing insights from areas including ecology, law, economics, international relations and politics, and incorporates lectures, guest speakers from NGOs and government, panel discussions, debates and workshops, with an emphasis on understanding the real-world dynamics of policy formation and debate.\n\nThe course will cover the nature of IEP; its development over recent decades; the actors and institutions which form and influence it; and the conflicts which shape it. Key areas of debate within IEP will be examined, including tensions between conservation and development; conflicts around knowledge, science, and uncertainty; and reliance on 'command and control' vs market-based approaches.\n\nCross-cutting issues include gender, the fight against poverty, and the role of corporations. These issues will be explored through analysis of topical case studies, such as equity and climate change; biodiversity and livelihoods; biofuels and deforestation; and genetically modified organisms and international trade.\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately. There are additional sessions for post-graduates.",
+  "summary": "The course focuses on the dynamic field of international environmental policy (IEP), a field that has grown rapidly and dramatically over the last three…",
   "requisiteText": "Incompatible with ENVS3033"
  },
  {
@@ -895,7 +895,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "In environment and sustainability fields, research plays a major role in identifying the response of human and natural systems to spatial and temporal differences, disturbances and management actions. Achieving these research outcomes relies upon establishing research questions and testable hypotheses, applying appropriate data collection and analysis methods, critically assessing results, and effectively communicating the observations. That process is common to all science-based disciplines.\n\nENVS6103 uses a PPDAC (Problem, Plan, Data, Analysis, Conclusion) cycle to introduce fundamental research concepts. You can expect to develop skills in ecological measurement and sampling, and designing and conducting surveys and experiments. You will also develop analytical skills, including data exploration and effective communication and analysis techniques common to all sciences. The course promotes learning through a combination of lectures, and field-/computer-based practical exercises. During field-based exercises you will gain first-hand experience in collecting ecological and social data.\n\nGraduate students attend joint classes with undergraduates but will be assessed separately and have some separate learning activities.",
+  "summary": "In environment and sustainability fields, research plays a major role in identifying the response of human and natural systems to spatial and temporal…",
   "requisiteText": "Incompatible with ENVS1003"
  },
  {
@@ -912,7 +912,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Biodiversity Science introduces the principles and skills that underpin evidence-based conservation and management of biodiversity. Key topics include understanding why species occur where they occur, how to measure biodiversity, examining responses by species to human impacts and understanding how species become vulnerable to extinction.\n\nThis course has a strong emphasis on developing practical skills. You will gain experience surveying and identifying animals and plants. You will also learn how to use these data to support evidence-based conservation and management.\n\nThis course is delivered through a combination of lectures and practical sessions, with input from world leaders in conservation biology. The practical sessions include regular local field trips and interactions with public and private land managers.\n\nThis course develops fundamental knowledge and practical skills that are necessary for graduates seeking careers in natural resource management and other areas of environmental science. It also provides important background for those wishing to pursue careers in any field that potentially impacts on biodiversity (e.g. environmental policy and planning). This course provides the scientific underpinnings for the concepts explored in ENVS6024 Biodiversity Conservation.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "summary": "Biodiversity Science introduces the principles and skills that underpin evidence-based conservation and management of biodiversity.",
   "requisiteText": "Incompatible with ENVS2001."
  },
  {
@@ -927,7 +927,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Ecosystems worldwide are under stress. Global and local assessments of biodiversity continue to report deteriorating ecosystems and species loss. Measuring, monitoring and modelling these changes, as well as designing and analysing experiments aimed at testing potential management actions are central to restoration and conservation responses. Despite the array of attributes ecosystems express, the same broad concepts are consistently called upon when quantitatively expressing change and difference. This course aims to introduce the concepts that underpin quantitative modelling relevant to understanding organismal and ecosystem response and difference. Specifically, this course aims to build on quantitative modelling skills using approaches that underpin the vast majority of ecological studies with an emphasis upon general linear models integrating complex ANOVA and univariate and multivariate least-squares regression, and generalised linear modelling. The intent is to provide the next step (after pre-requisite introductory courses) for students in building competence in widely applicable field-survey, data-handling and statistical methods, delivering an essential skill set for ecology- and environment-based professionals. The partial field focus of the course, and it’s contextual emphasis on vegetated ecosystems, also necessitates the development of field botany skills. We introduce basic concepts associated with the description of floral and leaf forms and their application to consistently differentiating plant families, genera and species with particular emphasis on eucalypt identification.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "summary": "Ecosystems worldwide are under stress.",
   "requisiteText": "To enrol in this course you must have completed ENVS6103 or equivalent.\n\nIncompatible with ENVS2002"
  },
  {
@@ -944,7 +944,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Australia is a country underpinned by a variable climate that influences virtually every aspect of our lives. So what makes Australia the ‘land of drought and flooding rains’? What are the factors that influence major fires, heatwaves and droughts that have shaped Australian society? How is climate change influencing Australian climate variability and extremes? What applications does weather and climate have in sectors such as the urban environment, human health, energy resources and science communication?\n\nIn this course we provide a foundation for understanding Australian weather and the application of this knowledge to other societal impacting weather phenomenon. It is designed to lead students into advanced third year courses in climatology, climate change, bushfire science, and climate change policy. It is also provides a multidisciplinary understanding of climate for students pursuing ecology, environmental science, natural resource management, or sustainability studies.\n\nNote: Graduate students attend joint classes with undergraduates but are assessed differently.",
+  "summary": "Australia is a country underpinned by a variable climate that influences virtually every aspect of our lives.",
   "requisiteText": "Incompatible with ENVS2004"
  },
  {
@@ -961,7 +961,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Small island states face considerable challenges as they attempt to achieve sustainable development. Particular challenges for these nations were recognised in the 1984 Barbados Programme of Action for Small Island Developing States and in the 2014 SAMOA Pathway. These meetings recognised that Small Island Developing States (SIDS) have a narrow range of resources, which forces undue specialization; excessive dependence on international trade and hence vulnerability to global developments; relatively small watersheds and threatened supplies of fresh water; costly public administration and infrastructure, including transportation and communication; and limited institutional capacities and domestic markets, which are too small to provide significant scale economies.\n\nThe particular challenges faced by a Fiji as a SIDS will be explored in this course. The field trip aims to give students a first-hand experience of the real-world circumstances that confront an island nation by exploring important sectoral themes in the context of sustainable development.\n\nThe course will investigate the interactions between economic development and the sustainable management of key sectors including fisheries, agriculture, water catchment management, tourism, waste management, cultural heritage management and marine and coastal biodiversity. Within each theme students will consider factors relevant to island nations, including climate change, natural disasters, water availability, gender, cultural identity, population and race relations, governance and globalization.\n\nThe course will be undertaken in collaboration with the University of the South Pacific’s Pacific Centre for Sustainable Development PACE-SD.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "summary": "Small island states face considerable challenges as they attempt to achieve sustainable development.",
   "requisiteText": "Incompatible with ENVS2005."
  },
  {
@@ -978,7 +978,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "To work effectively as a professional in environmental science and environmental management you need to apply a range of knowledge and skills in a practical context. This course provides hands-on opportunities for you to apply your theoretical understanding to critical observation and measurement of biodiversity, landscape ecology and soil-vegetation processes. You will develop skills in describing soils, measuring vegetation patterns, identifying habitat features and detecting faunal associations. You will learn to appreciate how soils, landforms, vegetation and fauna should be considered in research and decision-making.\n\nThe course is an in person intensive immersing students in field work throughout the mid-semester break. Week 1 involves day long field trips from the ANU Canberra campus and week 2 is based at the ANU Kioloa coastal campus for four nights. You will be contributing to long-term field research informing management decisions across a range of biomes (farmland, forests, and coastal). The field work is complemented by field trip workshops.\n\nThis course develops a diversity of field skills for graduates seeking careers in all fields of natural resource management.\n\nNote: Graduates are co-taught with undergraduate students but assessed separately.",
+  "summary": "To work effectively as a professional in environmental science and environmental management you need to apply a range of knowledge and skills in a practical…",
   "requisiteText": "Incompatible with ENVS2018."
  },
  {
@@ -995,7 +995,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "The sustainability of agri-food systems is examined in this course from a complex systems and value-chain perspective. The course will evaluate agricultural systems in Australia and internationally at a local, national and global scale. Production systems are placed within the broader social, cultural and economic contexts in which they operate, with students using interdisciplinary approaches to explore topics including the role of family farming and corporate agri-business, consumer demand and marketing, research, development and technology, international trade and rural policy.\n\nStudents will gain an understanding of the inter-dependencies between rural livelihoods, sustainability, food security, adaptation, sustainable intensification and the incentives and barriers to change along the value-chain and in the broader agri-food system. The course includes real world case studies from farming and food industry enterprises to provide first-hand experience and application of your learning.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "summary": "The sustainability of agri-food systems is examined in this course from a complex systems and value-chain perspective.",
   "requisiteText": "Incompatible with ENVS2023."
  },
  {
@@ -1012,7 +1012,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "This course will provide students with broad underpinning knowledge of practices and systems of the Australian agricultural sector.?Students will gain an understanding of the complex ecological and biophysical processes and interactions between climate, soils, crop plants, livestock, and management systems. A range of land management issues are examined, with students developing the skills to design and implement improved farming systems to address these issues in the context of barriers to adoption, and key enablers of practice change. This course is intended to provide breadth of systems knowledge to allow students of a range of knowledge domains to come together and apply their disciplinary knowledge in a modern agricultural context. will gain an understanding of the complex ecological and biophysical processes and interactions between climate, soils, crop plants, livestock, and management systems. A range of land management issues are examined, with students developing the skills to design and implement improved farming systems to address these issues in the context of barriers to adoption, and key enablers of practice change.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "summary": "This course will provide students with broad underpinning knowledge of practices and systems of the Australian agricultural sector.?Students will gain an…",
   "requisiteText": "Incompatible with ENVS2024"
  },
  {
@@ -1029,7 +1029,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Science and Medicine / ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Climate change is the largest scientific challenge facing humanity. In this course we will provide a multidisciplinary foundation for understanding climate variability and change from regional to global scales. Interactions between the atmosphere, ocean, cryosphere and land in the Earth’s climate system are explored to understand past, present and future climate variability and change. Course material covers ice age cycles, abrupt change, global and regional climate variability of the past 1000 years, and anthropogenic factors contributing to contemporary and future climate change.\n\nStudents will work with data from proxy records (e.g. ice cores, tree rings, corals, sedimentary records and historical documents), observational records, and climate model output. The course also provides opportunities to develop skills in interpreting and communicating climate science for a range of audiences. The scientific basis for climate change is also applied to understanding observed impacts and its relevance for global policy contexts.\n\nGraduate students attend joint classes with undergraduates but are assessed differently.",
+  "summary": "Climate change is the largest scientific challenge facing humanity.",
   "requisiteText": "Incompatible with ENVS3013."
  },
  {
@@ -1044,7 +1044,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Natural resources underpin societies need for food, fiber, shelter and technology. As such the economies and lifestyles that humans have constructed depend on the long-term sustainable management of these natural resources; land, water, vegetation. The aim of this course is to provide an understanding of the complex land management issues associated with the biophysical drivers of historic and contemporary land management issues, the social and political stakeholders invested in Australian land management and critiques current management tools and strategies. This investigation is set within a natural resource management framework.\n\nTopics will include: the complex components of rangeland management; mine site rehabilitation; conservation lands and national parks; coastal zone management. The course emphasises the interdisciplinarity of land resource management and examines content by investigating the physical, economic, social and institutional components of a problem.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "summary": "Natural resources underpin societies need for food, fiber, shelter and technology.",
   "requisiteText": "Incompatible with ENVS3004."
  },
  {
@@ -1061,7 +1061,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Anthropogenic climate change is arguably the greatest existential risk and most intractable wicked problem that humanity has ever faced. This course provides an overview of the fundamentals of climate and climate change science, reviews the history of climate change action internationally and in Australia, and outlines the current and projected state of climate change and climate change action. The course explores the impetus and options for climate change action, the intersection of climate change and sustainable global development, and why, despite the increasing urgency, international and domestic climate action is often limited.\n\nThe astrophysical, atmospheric, oceanic, and terrestrial processes that drive and amplify natural climatic variability and anthropogenic climate change are introduced at a level appropriate for non-science students while selected lectures explore topics at the forefront of current climate science research.\n\nCurrent and likely future impacts of anthropogenic climate change on ecosystems, human activities, and societal development are considered, including biodiversity, human health, indigenous perspectives, and regional and socio-economic inequality and vulnerability.\n\nOur exploration of communication, denialism, polarisation, ethics, and the roles of academia and research culminates in an in-class discussion of climate change with climate deniers.\n\nKey principles of International Relations and examples from the realpolitik of international treaties are used to investigate actual and potential societal response strategies. International and Australian climate policies, key actors, and international processes are analysed to assess actual and potential unilateral, private, and collective action. The interactions with policy options in other domains (such as economics, foreign aid, energy, and innovation) are also examined. The culmination of the course is a mock treaty negotiation for \"The Canberra Agreement\" under the United Nations Framework Convention on Climate Change.\n\nContributors to the course include experts from across the ANU and representatives of various government departments, industry, business, NGOs, community groups, and research organisations.\n\nThis course is co-taught with undergraduate students but assessed separately.\n\nPlease direct all enquiries and correspondence to envs3020-convener@anu.edu.au.",
+  "summary": "Anthropogenic climate change is arguably the greatest existential risk and most intractable wicked problem that humanity has ever faced.",
   "requisiteText": "Incompatible with ENVS3020."
  },
  {
@@ -1076,7 +1076,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Fire is pivotal to the functioning of Australian ecosystems. This course explores a range of important themes concerning bushfires in Australian and international environments. The inter-dependent relationship between fire regimes and biota is explored using evidence from experiments and simulation modelling. An exploration of the sensitivity of fire regimes to natural and human factors then provides a context for exploring the likely effects of climate change and other aspects of global change on future bushfire dynamics. Similarly, it provides context for understanding the role of bushfire management, including cultural and prescribed burning, in modifying fire regimes. These themes are brought together in an analysis of managing likelihood of adverse outcomes from bushfires, including legal and other societal implications.\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately.",
+  "summary": "Fire is pivotal to the functioning of Australian ecosystems.",
   "requisiteText": "Incompatible with ENVS3008"
  },
  {
@@ -1091,7 +1091,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "All aspects of environmental, natural and cultural resource management are shaped by the law in some way. The law is used to define how, and by whom decisions that impact upon the environment are made.?Law imposes obligations upon individuals, institutions and governments. It is used to determine who is, or is not accountable for environmental decisions and their consequences. The law can be used to bring the resources of the state to permit or prohibit actions and allow choices whether they benefit or harm the environment.\n\nThis course offers environmental science, management and policy students an introduction to the workings of the Australian legal system and how the law and relevant institutions are used to affect environmental decision making.\n\nWhile introducing students to key environmental legislation it explores how law is shaped by those with vested interests in the outcome and how law is applied, or ignored, in environmental decision making. You will gain a critical understanding of the law and its role in environmental decision making.\n\nThe course also explores the role of international environmental law and how it plays a role in domestic environmental decision making.\n\nThe course will be based around lectures, group discussions of reading, and the review of videos.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "summary": "All aspects of environmental, natural and cultural resource management are shaped by the law in some way.",
   "requisiteText": "Not available to students enrolled in, or holding an LLB, JD or other law degree program.\nIncompatible with ENVS3015 and LAWS2101 or equivalent."
  },
  {
@@ -1108,7 +1108,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "This course will introduce students to advanced concepts associated with agri-food system innovation and adaptation. This course will build on understanding gained in ENVS6223 and explore how innovation and adaptation:\n\ncan identify future opportunities and mitigate threats or productivity declines in agri-food systems;\n\ncan alter existing trajectories away from commodity-specific and incremental change, towards transformational change;\n\ncan ensure that a more balanced approach to delivering agri-food system outcomes is achieved, that considers multiple outcomes e.g. economic, environmental and social;\n\nmust operate in tandem with an improved regulatory environment in order to achieve sustained agri-food system outcomes.\n\nThe course is intended to provide students the knowledge and skills to be able to identify where disruptions may occur in existing agri-food systems and formulate technical and policy-based adaptation options that will serve to mitigate these disruptions.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "summary": "This course will introduce students to advanced concepts associated with agri-food system innovation and adaptation.",
   "requisiteText": "To enrol in this course students should have either completed ENVS6223 or ENVS6224.\n\nIncompatible ENVS3042."
  },
  {
@@ -1125,7 +1125,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Geographic Information Systems have advanced rapidly in recent decades and now play an important role in environment and society issues including land and water management, forestry, climate science, biodiversity conservation, urban and rural planning, and social research. Spatial data are becoming increasingly accessible and are being utilised by a wide range of government and research agencies, consulting firms and other private businesses. This course focuses on social and urban applications of GIS. The first part of the course covers key concepts and skills including models of geographic accessibility, network analysis, geocoding and socio-demographic disadvantage. During the second part of the course students are provided with a range of research topics and spatial datasets to independently investigate and write a research paper.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "summary": "Geographic Information Systems have advanced rapidly in recent decades and now play an important role in environment and society issues including land and…",
   "requisiteText": "Incompatible with ENVS3019 and ENVS6319 and ENVS3045"
  },
  {
@@ -1142,7 +1142,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Grounded in the discipline of public environmental policy, the course considers the complexities around public policy-making for the environment and sustainability. The course considers how policy is made and the institutional settings within which it is made, how problems and policies are framed, implemented and evaluated, and the inherent challenges in choosing appropriate policy instruments to meet an objective. The course focuses particularly on Australia’s public environmental policy and institutional settings. Comparisons with international case studies will be made. Interactive lectures and seminars provide students with opportunities to analyse specific environmental policy issues in theoretical frameworks and over different time scales. Once a general overview of how environmental policy is created we apply a structured analytical tool to assess whether existing environmental policies in Australia are adequate to meet the challenges of environmental management in a changing climate. Topics explored include water, forestry, biodiversity and climate policy, sustainability in business and industry, public and civil society participation in policy-making, and comparisons will be made with overseas environmental policy examples.\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately.",
+  "summary": "Grounded in the discipline of public environmental policy, the course considers the complexities around public policy-making for the environment and…",
   "requisiteText": "Incompatible with ENVS3028"
  },
  {
@@ -1159,7 +1159,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "The past, the present and the future. These are all aspects of environmental change that palaeoecologists attempt to understand. In essence, palaeoecology enables us to venture back in time and reconstruct landscapes of the past, with much of our understanding of these deep time environmental histories based on the microscopic fossil remains of plants and animals found in sedimentary sequences. There is a rich body of this kind of evidence from around the world and Australia is a fascinating part of the global story.\n\nParticipants are introduced to the science of reconstructing past environments through a hands-on research project designed around an environmental research question. Students explore the classic methods and techniques used to understand deep time environmental change through the collection of sedimentary sequences and the laboratory analysis of a number of palaeoenvironmental indicators, such as pollen and charcoal. These two proxy data types reveal what was growing in the landscape at different times in the past and how often it burnt.\n\nThe course provides students with an understanding of the intersection between palaeoecology, fire ecology, archaeology, palaeoclimatology and conservation management research. The program also explores how Indigenous people have tended country and altered environmental processes over the millennia, ultimately creating cultural landscapes.\n\nStudents will also meet and learn from some of ANU’s leading researchers in this field as well as gain insight into ongoing research in the region, as we delve into how palaeoenvironmental science can play a role in understanding current and future environmental and societal challenges.\n\nNote: Postgraduate students will participate in classes with undergraduate students but will be assessed separately.",
+  "summary": "The past, the present and the future.",
   "requisiteText": "Incompatible with ENVS3029"
  },
  {
@@ -1176,7 +1176,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "The aim of this course is to provide an understanding of issues and methods in water resources management, and is set especially within the framework of total, or integrated, catchment management. The course gives an introduction to the unique hydrology of Australia, major issues of water resource management, the implications of past water management practices, the principles of integrated catchment management and sustainability, and current management tools and strategies.\n\nTopics will include: the components of the hydrological cycle; impacts of land and water management on water quantity and quality; water demand and allocation among users, including the environment; the institutional and policy aspects of Water Resource Management (WRM); onground strategies of WRM; and integrated modelling of water and land resources. The course emphasises the interdisciplinarity of water resource management and examines integrated assessment, which is a method that seeks to solve water management problems by investigating the physical, economic, social and institutional components of a problem.Water ethics is a key theme that underpins and links many components of the course.\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately.",
+  "summary": "The aim of this course is to provide an understanding of issues and methods in water resources management, and is set especially within the framework of…",
   "requisiteText": "Incompatible with ENVS3005."
  },
  {
@@ -1194,7 +1194,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "The thesis presents a major piece of guided independent research on a topic agreed between the student and their supervisor. It typically involves a literature review and an appropriate form of critical analysis of sources of primary and /or secondary data; it may involve field and/or laboratory work. The thesis must show evidence of wide reading and understanding, of critical analysis and/or appropriate use of advanced research techniques. All students must attend relevant seminars, present at least one seminar, and comply with any other prescribed conditions.",
+  "summary": "The thesis presents a major piece of guided independent research on a topic agreed between the student and their supervisor.",
   "requisiteText": null
  },
  {
@@ -1211,7 +1211,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "This course examines the climate change problem in terms of vulnerability and adaptation from scientific, societal and policy perspectives. There is now a certain amount of unavoidable climate change, and therefore there a need to adapt to these changing climatic conditions and their consequences. The need to adapt and the kinds of adaptation responses necessary will depend on how the climate changes at a specific location over time, whether the direct or indirect impacts are positive or negative, and the capacity of people and systems to respond. In considering climate change vulnerability and adaptation as a field of study we focus on key theories (conceptual frameworks), methods and sources of information. Key concepts include the IPCC assessment framework, risk, 'co-benefit' and 'no-regret' policy responses, adaptation evaluation criteria, and adaptation policies. Analytical methods covered in the course include climate change scenario analysis and conceptual modelling. Learning approaches include lectures, a field trip, workshop discussions and group work, and practical data analysis exercises. These are assessed in written assignments, including a major report analysing the climate change adaptation policy of a nation. Most course material is available online to enrolled students. Practical exercises will be conducted in a hybrid model.",
+  "summary": "This course examines the climate change problem in terms of vulnerability and adaptation from scientific, societal and policy perspectives.",
   "requisiteText": null
  },
  {
@@ -1228,7 +1228,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "This is a research-intensive course normally taken following ENVS8003 Climate Change Vulnerability and Adaptation, as part of the Master of Climate Change degree program. The course allows you to explore in greater depth a research topic relevant to climate change adaptation. Under the guidance of an academic supervisor you will extend and hone your research skills by following the process of identifying and defining a research topic; developing and presenting a research proposal and plan; conducting research by obtaining and analysing primary and/or secondary data and information; and presenting your findings in a seminar and in writing.",
+  "summary": "This is a research-intensive course normally taken following ENVS8003 Climate Change Vulnerability and Adaptation, as part of the Master of Climate Change…",
   "requisiteText": "To enrol in this course must have completed ENVS8003.\n\nSuccessfully completion of the theory course ENVS8003 is a prerequisite for this ENVS8013 research course, unless the course convener in exceptional circumstances is prepared to wave this requirement based on a student demonstrating requisite knowledge and experience."
  },
  {
@@ -1245,7 +1245,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "As society navigates the challenges of sustainability amid social, economic, and environmental change, it is crucial for future leaders and decision-makers to be well-informed on the origins and solutions to these challenges. In this course we explore a range of contemporary approaches employed to conceptualise and address environmental issues. Experts engaged in a range of current environment-society interactions will provide these perspectives, often based on real-world case studies such as managing wildfire, reducing the impact of development on biodiversity, managing protected areas and reducing greenhouse gas emissions.\n\nThe course is structured as a series of small-group discussions, some held outdoors. These discussions are led by experts and practitioners in their field and explore the most up-to-date research, thinking and practice on each theme from a variety of perspectives. You are also expected to attend seminars by experts at the Australian National University, across Australia and/or internationally.",
+  "summary": "As society navigates the challenges of sustainability amid social, economic, and environmental change, it is crucial for future leaders and decision-makers to…",
   "requisiteText": null
  },
  {
@@ -1262,7 +1262,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Achieving food and nutrition security, poverty reduction, improved wellbeing and greater equity, while conserving and enhancing natural capital, and delivering climate change mitigation and adaptation outcomes, are amongst the greatest and most demanding challenges of this century. The UN Sustainable Development Goals articulate ambitions for each of these elements, and progressing towards those ambitions requires that we also address the synergies and tensions between the SDGs.\n\nOver the past 50 years, a global network of institutions and initiatives has emerged to catalyse and communicate research, enable and link researchers, in support of agriculture and natural resources-based development to address these global challenges. Australian researchers, policy makers and practitioners have contributed to this network and activities in a variety of ways; the Australian Center for International Agricultural Research (ACIAR) has played a central role in many of these. ACIAR’s partnership mode of research for development is acknowledged globally as an exemplar that other seek to emulate.\n\nThis course capitalises on ANU researchers’ engagement in ACIAR and related work, the partnerships developed in those activities, and ACIAR’s presence in Canberra and its wider global role, to explore approaches to partnership research for agricultural and natural resource-based development, modes of working in these partnerships, and to develop knowledge and skills relevant to this work. The course draws on ANU and partner researchers, staff of ACIAR and research for development networks and institutions, and case study examples of partnership research for agricultural and natural resource-based development to provide students with both conceptual and contextual knowledge, and opportunities to develop skills and experience grounded in real cases and projects.",
+  "summary": "Achieving food and nutrition security, poverty reduction, improved wellbeing and greater equity, while conserving and enhancing natural capital, and…",
   "requisiteText": null
  },
  {
@@ -1279,7 +1279,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Environmental problems emerge from complex interactions between biophysical processes and human actors. Achieving sustainable futures requires understanding these systems and designing responses that take them into account.\n\nAdvanced systems thinking and modelling tools are introduced to understand complex human-environment systems and to design strategies for achieving sustainable futures. Both qualitative and quantitative methods are covered. During the course, these methods are applied to cases including fisheries, agricultural communities, biodiversity conservation, food systems and climate change. The course aims to build skills for both research and professional settings.",
+  "summary": "Environmental problems emerge from complex interactions between biophysical processes and human actors.",
   "requisiteText": null
  },
  {
@@ -1301,7 +1301,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "This is a shell course that allows the delivery of developing environment, society and sustainability curriculum content to groups of students over intensive or semester long formats. An academic lead of each developing curriculum content (topic) develops teaching content, assessment and management. Each topic varies, reflecting the interests, authority and expertise of those teaching the course. The mode of delivery and location of this courses varies. Some topics are taught intensively, others are taught seminar-long. The content will provide students with study opportunities not covered in other courses taught in the Fenner School of Environment & Society or elsewhere in the University. Depending on the topic, students may be required to take part in lectures, workshops, tutorials, seminars, discussion groups, field trips and other activities. Assessment and work integrated learning opportunities will differ between each offering.",
+  "summary": "This is a shell course that allows the delivery of developing environment, society and sustainability curriculum content to groups of students over intensive…",
   "requisiteText": null
  },
  {
@@ -1323,7 +1323,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "This is a research-intensive course in which students undertake a self-directed research project under the guidance of a supervisor. It comprises a series of seminars on planning and conducting research, and on academic skills development. The majority of time is spent developing and implementing a research plan under the supervision of an academic member of staff.",
+  "summary": "This is a research-intensive course in which students undertake a self-directed research project under the guidance of a supervisor.",
   "requisiteText": null
  },
  {
@@ -1341,7 +1341,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "The Forests Research Essay is a significant piece of guided independent research on a topic agreed between the student and their supervisor. It typically involves a literature review and an appropriate form of critical analysis of sources of primary and /or secondary data. It may also involve field and/or laboratory work. All students must attend relevant seminars, present at least one seminar.",
+  "summary": "The Forests Research Essay is a significant piece of guided independent research on a topic agreed between the student and their supervisor.",
   "requisiteText": "To enrol in this course you must be enrolled in the Graduate Certificate of Forests, Master of Forests or Master of Forests (Advanced)"
  },
  {
@@ -1356,7 +1356,7 @@
   "subjectName": "Environmental Science",
   "college": "ANU College of Systems and Society",
   "career": "Postgraduate",
-  "description": "Sustainable Urban Systems aims to provide up-to-date and research-led courses to master students who are interested in urban sustainability. Urbanization is one of the major social transformations of our time that has profound impacts on people and the planet. Cities play an increasingly critical role in local, regional and global sustainability, presenting enormous challenges but also a window of opportunity to \"get it right\". Future leaders and urban practitioners will benefit from this course by learning leading-edge research to understand the opportunities and challenges in our \"urban century.\"\n\nThe course will invite leading experts and urban practitioners to share their ongoing research and best showcases and engage students in the discussion of a range of cutting-edge topics on urban sustainability transition locally and internationally. You will be inspired to creatively apply this knowledge to your concerned issues, including future research direction, policy development, and urban management.\n\nThe course is strongly interdisciplinary, and the theme topics include but are not limited to urban environmental governance, urban sustainability, systems innovation and transition, urban health, global frontrunner cities in urban low-carbon transition, nature-based solutions, urban energy policies, and urban metabolism.",
+  "summary": "Sustainable Urban Systems aims to provide up-to-date and research-led courses to master students who are interested in urban sustainability.",
   "requisiteText": "Incompatible with ENVS2012 and ENVS6005"
  }
 ]

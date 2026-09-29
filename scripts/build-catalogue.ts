@@ -24,6 +24,7 @@ import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 import type { CatalogueFile, CatalogueIndexFile, ParseStatus, Period, Rule } from "../src/lib/contracts.ts";
 import type { RawCourse, ScrapeMeta } from "./scrape-catalogue.ts";
+import { summarise } from "./scrape-catalogue.ts";
 
 type FileCourse = CatalogueFile["courses"][number];
 type Parser = (raw: string) => { rule: Rule | null; incompatible: string[]; status: ParseStatus };
@@ -54,23 +55,6 @@ export function mapOffering(raw: string): Period | null {
   if (/winter/.test(s)) return "WINTER";
   if (/spring/.test(s)) return "SPRING";
   return null;
-}
-
-/** <= 280 chars, whole sentences where possible. */
-export function summarise(description: string, max = 280): string {
-  const text = description.replace(/\s+/g, " ").trim();
-  if (text.length <= max) return text;
-  const sentences = text.match(/[^.!?]+[.!?]+(?=\s|$)/g) ?? [];
-  let out = "";
-  for (const s of sentences) {
-    const next = (out + s).trim();
-    if (next.length > max) break;
-    out = `${next} `;
-  }
-  out = out.trim();
-  if (out.length > 0) return out;
-  const cut = text.slice(0, max - 1);
-  return `${cut.slice(0, Math.max(cut.lastIndexOf(" "), 1)).trim()}…`;
 }
 
 function ruleCodes(rule: Rule | null, out: Set<string>): void {
@@ -250,7 +234,7 @@ async function buildFromRaw(): Promise<void> {
       level: Math.floor(number / 1000) * 1000,
       title: r.title,
       units: r.units,
-      summary: summarise(r.description),
+      summary: summarise(r.summary),
       offered,
       requisiteText: r.requisiteText,
       rule: parsed.rule,
@@ -260,7 +244,8 @@ async function buildFromRaw(): Promise<void> {
       sourceUrl: r.sourceUrl,
       catalogueYear: r.catalogueYear,
       retired: false,
-      description: r.description,
+      // ANU's copyright: full descriptions are not republished; the app links to sourceUrl
+      description: "",
     });
   }
   symmetricIncompatible(courses);
@@ -305,7 +290,7 @@ async function buildFromRaw(): Promise<void> {
     // codes a rule names that exist nowhere in the scrape (404 in 2026 and 2025)
     deadCodes: dead.filter((d) => !outOfScopeCodes.has(d.code)),
     droppedOfferings,
-    noDescription: courses.filter((c) => c.description === "").map((c) => c.code),
+    noSummary: courses.filter((c) => c.summary === "").map((c) => c.code),
     parseStatusBySubject: parseStatusBySubject(courses),
     needsReview: courses
       .filter((c) => c.parseStatus === "partial" || c.parseStatus === "unparsed")

@@ -13,7 +13,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "In this course, our goal will be to learn how to do philosophy by examining some central problems from a range of historical and contemporary philosophical traditions. Topics will change from year to year but may include issues in metaphysics, epistemology, philosophy of mind, philosophy of science, and ethics (amongst others). We will be particularly interested in the methods of critical thinking and argumentation that people have used in attempting to answer fundamental questions. Students will develop analytical skills that can be used in many other areas, at a level appropriate to first year students.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -30,7 +30,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course aims to introduce students to practices of argumentation, critical analysis, and evaluation. Such skills in critical thinking are integral to the discipline of philosophy. They are also tremendously useful in other academic domains, in the workplace, and in everyday life. The course aims to help students to understand and develop the skills required for critical thinking, and to encourage them to explore the ways in which these skills can further their academic and non-academic pursuits. Topics covered may include: various forms of reasoning, common fallacies, the use of rhetoric, elementary logic, and decision and game theories.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -47,7 +47,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Since the time of the Buddha, Buddhists have developed a rigorous and profound tradition of philosophy. The Buddhist path consists in the combined practice of philosophical reasoning, ethical practice and meditation. This course will focus on philosophical reasoning (but may incorporate some meditation). For Buddhists, enlightenment is attained by gaining insight into the nature of reality (metaphysics), knowledge (epistemology), language (philosophy of language) and our ways of living (ethics). These insights are acquired, in large part, by subjecting our beliefs to rational scrutiny. In this course, we critically examine some of the core issues in metaphysics, epistemology, philosophy of language and ethics that are elaborated by Buddhist philosophers. The course proceeds by analyzing some core texts of Buddhist philosophy (in English translation) together with some secondary literature. We study Buddhist philosophy not as an item of historical and cultural interest but as an attempt to ascertain how much truth lies in this system of thought. Once we gain an understanding of the views expounded by Buddhist philosophers, we will subject their doctrines to rational scrutiny.",
+  "summary": "",
   "requisiteText": "To enrol in this course, you must have completed PHIL1004 or PHIL1005, or by permission of course convener."
  },
  {
@@ -64,7 +64,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "In 2026, PHIL2014 will focus on Philosophy of Language.\n\nThis is a course in the philosophy of language for students with no prior experience with the subject. We will study a series of classic articles by philosophers like Frege, Russell, Strawson, Grice, Quine, Putnam and Kripke on the foundations of meaning and reference. This material has been central to analytic philosophy of language and this course will provide a solid foundation in it, which - given the historical role of language in the discipline - will be also useful to students with more general interests in e.g. philosophy of mind, metaphysics, metaethics, and even AI.\n\nThe course begins with Frege’s classic papers The Thought and On Sense and Reference and will move on through Russell’s work on descriptions and existence in On Denoting, Wittgenstein’s logical atomism in his Tractatus and the verification theory of meaning of the Vienna Circle, the Ordinary Language movement at Oxford with Strawson and Austin, and then the major revisions prompted by Grice’s work on implicature, Putnam on semantic externalism, and Kripke on names and rigidity. Students can expect to develop expertise with the standard tools and distinctions of philosophy of language, and familiarity with original writing in the history of analytic philosophy. They will also practice analysing and critiquing philosophical views and arguments, as well as formulating and arguing for views of their own, both in discussion and in written work.\n\nGeneral Course Description:\n\nAnalytic philosophy is the dominant style of philosophy in the English-speaking world, characterised by its emphasis on clarity and rigor in the analysis of concepts and arguments. The traditional core areas of analytic philosophy include metaphysics (focused on issues about the fundamental nature of reality), epistemology (focused on issues about knowledge), philosophy of language, and philosophy of mind. This course will introduce you to the central issues in one or more of these traditional core areas of analytic philosophy. The precise topics will change from year to year. By the end of this course, you will both understand the key philosophical concepts, theories, and arguments covered in the course, and also learn how to apply the analytic rigor characteristic of this work to your own writing and argumentation.\n\nPlease note that the course content, assessment structure, and reading list will change depending on the topic and the expertise of the lecturer convening the course. Please refer to the class summary for the specific term in which you wish to enrol for a detailed description.\n\nTopics may include, but are not limited to:\n\nMetaphysics\n\nEpistemology\n\nPhilosophy of Language\n\nPhilosophy of Mind",
+  "summary": "",
   "requisiteText": "To enrol in this course, you must have completed PHIL1004 or PHIL1005, or by permission of course convener."
  },
  {
@@ -79,7 +79,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course offers a rich grounding in moral, social, and political philosophy with a focus on questions concerning social justice. Students will engage in a critical analysis of contemporary theories of social justice. Such theories advance principles for the moral assessment of social institutions in light of how they affect people. These institutions include laws and other social rules governing what kinds of goods can be owned by whom and how they are distributed, how markets and production systems are structured, what prospects various groups have, and, in general, how people pursue the good in their lives. The course will explore questions of institutional design and public policy in the context of real-world social injustices including social and material inequality; racial, gender, and sexuality-based oppression; and climate change. The course will also look at practical questions related to advancing social justice including civil disobedience, and duties to assist victims of injustice and to fight for structural social change.",
+  "summary": "",
   "requisiteText": "To enrol in this course, you must have completed PHIL1004 or PHIL1005, or by permission of course convener."
  },
  {
@@ -96,7 +96,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "A course for science or non-science students jointly offered by Mathematics and Philosophy that aims to provide a conceptual understanding of some of the many faces of the large-scale universe.\n\nWe will discuss general issues relating to the nature of philosophy and science, space and time, and the universe as a whole. The main topics of the course are: the overall structure of the observable universe; space and time; relativity; black holes; phenomena and reality; and anthropic principles. Each topic will be introduced in a historical context emphasising how it has evolved over time and is still evolving.",
+  "summary": "A course for science or non-science students jointly offered by Mathematics and Philosophy that aims to provide a conceptual understanding of some of the many…",
   "requisiteText": "You are not able to enrol in this course if you have previously completed MATH1042."
  },
  {
@@ -113,7 +113,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course addresses a range of philosophical problems raised by scientific knowledge and explanation. The problems examined fall into roughly two kinds: one about the methods of science, and the other a philosophical consideration of how science explains our world. Problems of the first kind include the justification of scientific inferences, the connection between observation and theory, and how to understand progress in science. Problems of the second kind include puzzles about explanation, causation, and probability.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 24 units of courses towards an ANU degree."
  },
  {
@@ -130,7 +130,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Debates concerning the nature of mind and consciousness are active and ongoing, with implications for philosophy, psychology, artificial intelligence and the neurosciences. It is difficult to understand how minds fit into the physical world and interact with material things. It is hard to explain how minds are capable of representing the world. And it is a deep mystery how conscious experience relates to our bodies and brains. This course will take a philosophical approach to these questions, exploring some of the metaphysical and conceptual issues that underlie psychological and neuroscientific explanations. We will begin by grappling with the Mind/Body problem via discussion of dualism, mind-body identity, functionalism, computationalism and connectionism. Further topics may include the frame problem and embodied cognition, mental representation and the hard problem of consciousness and the nature of reductive or mechanistic explanation.",
+  "summary": "",
   "requisiteText": "To enrol in this course, you must have completed PHIL1004 or PHIL1005, or by permission of course convener."
  },
  {
@@ -147,7 +147,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course is an introduction to some key issues in epistemology (i.e., issues concerning the nature of knowledge and related notions like belief and justification). Topics and approach will change from year to year, but may include such issues as the empirical justification of scientific knowledge, the nature of self-knowledge, and social epistemology. By the end of the course, students will have an understanding of core issues in epistemology, and they will have the tools and conceptual resources to make up their own minds about those issues.",
+  "summary": "",
   "requisiteText": "To enrol in this course, you must have completed PHIL1004 or PHIL1005, or by permission of course convener."
  },
  {
@@ -164,7 +164,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This intermediate level course introduces the field of philosophy of biology and explores key questions within the contemporary discipline such as the nature and diversity of life on (and off) Earth, what biology can tell us about human nature, the explanatory power of natural selection, the role of modelling in the biological sciences and the extension of evolutionary thinking to the cultural and technological domain. The course draws on material in both philosophy and the life sciences including evolutionary biology, psychology and ecology and students collaborate across these disciplines. Real-life challenges such as the allocation of resources in ecology and conservation biology, the appropriate interpretation of human genetic analyses are engaged with.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 12 Units of Philosophy (PHIL), Biology (BIOL), Psychology (PSYC) or Anthropology (ANTH) Courses, or 6 Units of Philosophy (PHIL) Courses and MATH1042, or with permission of the convenor."
  },
  {
@@ -179,7 +179,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "The course will primarily study selections from the work of Friedrich Nietzsche, who exercised a huge influence on Twentieth Century philosophy, literature and art. We will look at essential philosophical background as well as important legacies of Nietzsche's ideas. In particular, Schopenhauer’s theory of the ‘world as will’ forms a vital background to understanding Nietzsche’s wide-ranging critique of morality; while Nietzsche's interest in the question of ‘the value of truth’ has had a deep influence on post-structuralist philosophy.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 12 units of GEND, PHIL, POLS, SOCY, LING or ENGL courses.\nAlternatively students may gain permission from the course convener."
  },
  {
@@ -196,7 +196,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course offers critical reflection on the design and evaluation of public policy, drawing on both moral/political philosophy and the philosophy of science. Topics will vary but may include:\n\n· How is the ‘evidence-based policy’ standard best understood?\n\n· How should we measure ‘well-being’, and is its distribution crucial to policy assessment?\n\n· What inequalities between generations matter?\n\n· Is compensation owed for historical injustices?\n\n· How should we ration healthcare resources?\n\n· Is statistical discrimination (e.g. racial profiling) ever justified?\n\n· How should we respond to the under-representation of minorities in public institutions?\n\n· Should free speech be stringently protected?\n\n· What, if anything, is wrong with ‘virtue signalling’?\n\n· Is there a right to privacy?",
+  "summary": "",
   "requisiteText": "To enrol in this course, you must have completed PHIL1004 or PHIL1005, or by permission of course convener."
  },
  {
@@ -211,7 +211,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course examines what it means to be 'rational' in negotiating the world and conducting one's life. At issue is the quality of one’s beliefs, desires and choices about how to act, particularly in the face of uncertainty, and in concert with others.\n\nPart I is a critical examination of the standard theory of individual rationality - expected utility theory – that unites and explicates the aforementioned key mental attitudes. This theory stems from the classic work of philosophers/social scientists such as Ramsey, de Finetti and Savage. Contemporary challenges to the standard theory come from diverse directions, with some arguing that the theory is too little constrained and even vacuous, and others arguing that it is too rigid, either in its prescriptions for representing and handling uncertainty or else by virtue of being in conflict with some prominent ethical accounts of right action. The course considers these challenges to the standard theory and the responses/developments they have inspired.\n\nPart II turns to rationality in a social context. One question is how collective judgments should depend on the judgments of the individual members. This question is pursued in the context of democratic theory, where the focus is on the procedure by which a group should decide on actions or attitudes to jointly adopt. This question is also pursued in the context of social welfare or choice theory, where the focus is on determining the collective preference ranking over social states that best represents, or is the most appropriate aggregate of, the respective individual preference rankings. A rather different sort of question is what an individual should do when the consequences of their choice depend on what others do, and vice versa. This is the province of game theory. Standard solution concepts for games are introduced, but the focus is on the limits of these solutions—when collective-action problems arise. Bargaining theory is introduced as a way of negotiating these collective-action problems (amongst other sorts of problems); it may be seen as an intermediary between game theory and social welfare or choice theory.",
+  "summary": "",
   "requisiteText": "To enrol in this course, you must have completed PHIL1004 or PHIL1005, or by permission of course convener."
  },
  {
@@ -226,7 +226,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Perhaps now more so than in any other time in human history, science and technology play a central role in our lives. With this comes the potential for both great benefit to society, and great harm. In this collaborative, workshop-focused unit students critically examine the nature of science, and its role in society via a mixture of discussion and written activities that integrate concepts and ideas from philosophy of science, bioethics, science communication, sociology of science and science itself. Students in this course engage with various real-world challenges, such as climate change, the COVID-19 pandemic, cloning, genetic engineering, space exploration and animal testing, the following ethical and philosophical questions will be considered: (1) What is science?; (2) What sort of research should we be doing in science?; (3) Who should decide what research we undertake?; (4) What role should science and scientists play in society?; and (5) What ethical responsibility do scientists have to society?",
+  "summary": "",
   "requisiteText": "To enrol in this course, you must have completed 12 units of Philosophy (PHIL) courses, or by permission of course convener."
  },
  {
@@ -241,7 +241,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "What is time? Does time exist? How does our experience of time relate to time in science? How does time pass? What is ‘the present’ and is it special somehow? Does time have a direction? Is there any real difference between past and future? What is the connection between time and space? How is time travel possible? This course will provides an overview of some of the important issues in philosophical and scientific discussions about the nature of time.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have previously completed 12 units of Philosophy (PHIL) courses, or with permission of the convenor."
  },
  {
@@ -256,7 +256,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course considers philosophical questions arising from modern physics. Topics include the philosophical significance of the theory of relativity and the philosophy of space and time, the significance and interpretation of quantum mechanics, and the relationship between these two theories. Other topics may include issues in modern cosmology and/or statistical physics.",
+  "summary": "",
   "requisiteText": "To enrol in this course, you must have completed 12 units of Philosophy (PHIL) or Physics (PHYS) courses, or by permission of course convener"
  },
  {
@@ -271,7 +271,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "When we ask how we should live, what we should do, and which ways of treating each other are good or bad, we are asking the questions of normative ethics. Normative ethical theory is the part of philosophy that aspires to give a general and systematic set of answers to those questions. This course offers an advanced undergraduate overview of contemporary normative ethical theory. It will explain the differences between the main types of normative ethical theory, the underlying issues that divide them, the objections that they face, and the elaborations that theories of each type can make in trying to deal with those objections. An emphasis in the course will be on the question: What are the most basic values or reasons from which the content of ethics derives? We will look at the ways in which different theories have tried to answer this question, and we will ask what methods of reasoning can be used to answer it.",
+  "summary": "",
   "requisiteText": "To enrol in this course, you must have completed PHIL1004 or PHIL1005, or by permission of course convener."
  },
  {
@@ -286,7 +286,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course is an introduction to formal logic for students with no prior familiarity with the subject. Logic is the study of validity, a property of good arguments. In formal logic we approach this in a mathematical way, introducing a formal (symbolic) language and using this to study logical properties like logical consequence and logical equivalence. This course begins with truth-function operators and truth-tables, and by the end we have learned a proof-system for first-order logic and established its soundness and completeness. The coursework will include regular problem sets.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 6 units of PHIL, or 6 units of MATH, or seek permission from the convener.\n\nYou are not able to enrol in this course if you have previously completed PHIL2080."
  },
  {
@@ -301,7 +301,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Whether as a philosopher, a lawyer, an activist, a politician, a writer, a diplomat, or a citizen, we face a global world whose enormous challenges require an ability to understand the relationship between law’s own discourse and other forms of thinking about and communicating it. From a legal point of view, the Constitution may refer to a specific document or set of documents. But legal theorists and philosophers recognize that this institutional form is only the tip of the iceberg. Law, as an expression of collective belonging, is constituted through images and metaphors that bring its concepts to life. As the famous frontispiece to Thomas Hobbes' classic work Leviathan depicts, ‘the body politic' is not a ready-made entity, but a complex composition from disparate elements. The problem of how legal order is generated and maintained brings it into close relationship with social, political and aesthetic forms. The shape of our collective relationship to a legal and social order is constantly being made, remade, and unmade.\n\nThis course draws on the resources of critical theory, philosophy, aesthetics, and legal scholarship, to interrogate urgent contemporary problems pertaining to the establishment and maintenance of legal order and public identity, examining the terms on which we speak of sovereignty, democracy, rights, citizenship, and State violence. Our interdisciplinary analysis relates these terms to the wider representational frames they inhabit; explores contemporary sites of constitution and deconstitution, including through art, media, and protest; and introduces students to relevant methods and theories.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 12 Units of Philosophy (PHIL) Courses, or by permission of course convenor."
  },
  {
@@ -316,7 +316,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "From our smartphones to our welfare states, we are increasingly dependent on systems that deploy some form or other of artificial intelligence. But despite the central role that AI now plays in our lives, philosophers have been slow to shape our understanding of where we are now, and where we should go next. In this course, we will explore the novel philosophical questions raised by data and AI, drawing on moral and political philosophy, but also philosophy of science and epistemology, and throughout remaining closely engaged with the technical and empirical realities of data and AI. Our goal will be not only to navigate the normative uncertainties we face as we engage with new technologies, but also to demonstrate the exciting prospects for further study in the field of Philosophy, AI and Society (PAIS).",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have previously completed 12 units of Philosophy (PHIL) courses, or with permission of the convenor."
  },
  {
@@ -333,7 +333,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course offers an advanced approach to ethics or social and political philosophy, suitable for students who have a background in this area and who may be interested in continuing into 4th year Honours. What is taught will change from year to year with the topics including but not limited to:\n\nEthics of Climate Change\n\nMachine intelligence and Normative Theory\n\nMetaethics: the Nature of Moral Judgement",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 24 Units of Philosophy (PHIL) Courses, or by permission of course convenor."
  },
  {
@@ -350,7 +350,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "2026 Course Description: The existence of consciousness is at once the most obvious and the most perplexing thing in the world. That fact that we are conscious and that our being so makes a difference to various aspects of our lives seems undeniable, and the same seems true of many other creatures too. But philosophers and scientists face a number of challenges in investigating the nature of consciousness. How does it fit into the physical world? What role (if any) does it play in causing behaviour? What other creatures (if any) besides humans are conscious, and how can we know? Can we learn anything important about consciousness through its abnormal or altered manifestations in psychedelics, meditation, and psychopathology? This course will focus on a number of these and other controversies in the philosophy and science of consciousness. We will approach these issues from a multi-disciplinary perspective, examining how philosophical, scientific, and contemplative considerations can be brought into useful contact with one another.\n\nGeneral Description\n\nThis course offers an advanced approach to philosophy and is suitable for students who have a strong background in philosophy. What is taught will change from year to year.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 24 Units of Philosophy (PHIL) Courses, or by permission of course convenor."
  },
  {
@@ -365,7 +365,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This advanced undergraduate course introduces students to major strands of philosophical research in the field of gender. In particular, the course examines feminist epistemology, which has had a wide-ranging influence; feminist discourses on power that seek to interpret gendered phenomena in public and private contexts; and theories of the nature and reality of gender. Philosophers have been among the leading theorists of gender (Simone de Beauvoir, Judith Butler, Elizabeth Grosz, for instance) and have advanced important theories of knowledge and power to which gendered relations are central. By paying attention to the explicitly philosophical context from which our most influential accounts of gender arise, students will gain depth and subtlety in their capacity to interpret the nuances of gendered realities.\n\nThis course will therefore be of interest to students with a background or interest in gender studies as well as to philosophers. It encourages students to think about the complexities of gender, gendered relations, embodiment, inequality and power as these impact how we understand wider questions of social and political order. By philosophically exploring gender as an aspect of knowledge, self-hood, social institutions, and political hierarchy, students will be well placed to critically evaluate key debates around gender in the contemporary world.",
+  "summary": "",
   "requisiteText": "To enrol in this course, you must have completed 24 Units of Philosophy (PHIL) or Gender (GEND) courses, or with permission of the convenor."
  },
  {
@@ -380,7 +380,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This advanced undergraduate course introduces students to philosophical research in philosophy of the life sciences, including philosophy of biology, philosophy of psychology, and philosophy of neuroscience. It is suitable for students who have a strong background in philosophy. What is taught will change from year to year.\n\nThe topic for 2024 will be Philosophy of Cognitive Science.\n\nWhat is intelligence? Surely, animals can think. But what is thinking, if not the spooky action of an immaterial soul? How can we scientifically study the mind? Cognitive Science is a multidisciplinary field that answers these questions, and for most of its history did so with resounding consensus: the mind is furnished by internal representations, and intelligence involves computing over those representations. That consensus has frayed in recent years, with new approaches emerging.\n\nThe course will be split into three sections. The first half covers the fundamentals of cognitive science, how it evolved as a distinct scientific discipline, and the consensus view. With the ‘Computational Theory of Mind’ as our foundation, we will learn how to model the brain using Turing-machines and neural network models. The second module engages with contemporary research programmes that, to various extents, argue against the consensus view. They argue the mind is inextricably linked with the body and the world, and so the dynamic interplay between them is the key to cognition. The final module situates intelligence in a broader evolutionary context. We will see minds and brains on a natural continuum: intelligence is diverse and subject to natural forces, just like any other biological phenomenon. Ultimately, we will learn\n\nmultiple ways of understanding the relationship between minds and brains, and\n\nhow to place intelligence in the natural world.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 24 Units of Philosophy (PHIL) Courses, or by permission of course convenor."
  },
  {
@@ -395,7 +395,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course offers an advanced approach to philosophy, suitable for students who have some background in metaphysics or logic, and who may be interested in continuing into 4th year Honours. In this course we study the metaphysics of David Lewis, a leading analytic philosopher of the second half of the twentieth century.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 24 Units of Philosophy (PHIL) Courses, or by permission of course convenor."
  },
  {
@@ -410,7 +410,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Understanding emotions is an urgent and ongoing task in philosophy and the mind sciences. Despite centuries of debate by philosophers and scientists in various cultures, significant empirical and philosophical puzzles persist. They include whether emotions constitute a natural kind or are socially constructed, the relation between affect and cognition in analyses of emotions, whether and in what senses specific emotions might be considered appropriate, amongst many others. Topics considered in this course will vary from year to year. The course will take a philosophical approach to theories and arguments drawn from a diverse range of literature, including materials from philosophy, cognitive science, neuroscience, psychology and evolutionary biology.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 24 Units of Philosophy (PHIL) Courses, or by permission of course convenor."
  },
  {
@@ -427,7 +427,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "A conception of human nature plays a central role in many debates in philosophy, and in the humanities and social sciences more broadly. This course aims to introduce students to evolutionary theories of human nature. We will discuss such issues as (i) whether evolutionary theory undermines the very idea of a fairly fixed and universal human nature; (ii) how and why humans came to be so very different from their great ape relatives; (iii) whether the explanatory toolkit that suffices to explain animal evolution suffices to explain human evolution as well, or whether (for example) the importance of culture to humans changes the rules of the evolutionary game; (iv) the extent to which we can have reasonably reliable knowledge of the human past. Students will engage in interdisciplinary work, analysing and responding to research not just in philosophy but also in relevant empirical disciplines, including archaeology, prehistory, palaeoanthropology, and behavioural economics. The course with not be considering the creation vs evolution controversy; the basic truth of an evolutionary theory of life will be assumed.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 24 Units of Philosophy (PHIL) Courses, or by permission of course convenor."
  },
  {
@@ -445,7 +445,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Each student will meet with a Readings Director who will work with the student to identify areas, related to their proposed thesis, in which they most stand in need of research training, and will develop for them a program of directed reading to address these needs. The student will be in regular contact by way of face-to-face meetings and e-mail with a Readings Director to discuss issues which emerge from this work, and to be set additional reading. Assessment undertaken for this course may be made use of (recycled) in the thesis.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be studying a Bachelor of Arts (Honours) (HARTS or HART2), Bachelor of Politics, Philosophy and Economics Honours (HPPE) or Bachelor of Asian Studies Honours (HASIA), or completion of at least 144 units towards the Bachelor of Philosophy (Arts) (APHAR or APNAR)."
  },
  {
@@ -463,7 +463,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course provides students at the Honours level with the opportunity, through various combinations of lectures, seminars, readings and written research and analysis, to complete intensive study in an advanced topic relating to different areas of philosophy.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be studying a Bachelor of Arts (Honours) (HARTS or HART2), Bachelor of Politics, Philosophy and Economics Honours (HPPE) or Bachelor of Asian Studies Honours (HASIA), or completion of at least 144 units towards the Bachelor of Philosophy (Arts) (APHAR or APNAR)."
  },
  {
@@ -481,7 +481,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course provides students with the opportunity, as part of a graduate reading group or specialised seminar series (but not the School of Philosophy's weekly general seminars), to complete intensive study on an advanced topic. Additionally, students will consult with a member of academic staff with an interest in the area. One or more topics will be available each year.",
+  "summary": "",
   "requisiteText": "To enrol in this course, students must have:\n\na) completed of a major in Philosophy; and\n\nb) have acquired to admission to Honours in Philosophy."
  },
  {
@@ -499,7 +499,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This course provides students with the opportunity, through various combinations of lectures, seminars, readings and written research and analysis, to complete intensive study in a topic relating to philosophy.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be studying a Bachelor of Arts (Honours) (HARTS or HART2), Bachelor of Politics, Philosophy and Economics Honours (HPPE) or Bachelor of Asian Studies Honours (HASIA), or completion of at least 144 units towards the Bachelor of Philosophy (Arts) (APHAR or APNAR)."
  },
  {
@@ -519,7 +519,7 @@
   "subjectName": "Philosophy",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "The course is designed for students in philosophy. It is designed to aid students in acquiring important research skills that they will need in the course of research. The course typically consists of 24 2 hour sessions in seminar format. This will be taken over 2 semesters.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in a PhD in Arts & Social Sciences."
  }
 ]

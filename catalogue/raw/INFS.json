@@ -13,7 +13,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course aims to provide students from all business disciplines with a general background of BIS. An understanding of BIS is important to the work of business professionals because BIS serves as a bridge between management and operation. For instance, accountants use information systems for business reporting; financial managers use information systems for market forecast; sales managers and marketers use information systems to track customer purchases and to promote new products; information systems designers build and deliver new information services; and executive managers use strategic information systems to determine the company’s strategic position. Mastering both business and technology skills and knowledge builds job opportunities, because they can better contribute to shaping their company's strategy and operation.",
+  "summary": "This course aims to provide students from all business disciplines with a general background of BIS.",
   "requisiteText": null
  },
  {
@@ -31,7 +31,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "Accounting Information Systems (AIS) form an integral part of modern organisations since they support managers to plan and control business operations, improve decision-making in organisations, and support financial accounting and reporting. This course examines the way AIS are structured and used in organisations and provides a close look into how these systems work and impact on enterprises. It is suitable for both students with accounting backgrounds and with IT backgrounds.",
+  "summary": "Accounting Information Systems (AIS) form an integral part of modern organisations since they support managers to plan and control business operations,…",
   "requisiteText": "To enrol in this course you must have completed INFS1001 or BUSN1001."
  },
  {
@@ -48,7 +48,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course aims to provide students with the knowledge and skills necessary to successfully undertake information systems analysis. Lectures and tutorials provide coverage of the concepts, skills, methodologies, techniques, tools and perspectives considered essential for systems analysts working with modern information systems and their development.",
+  "summary": "This course aims to provide students with the knowledge and skills necessary to successfully undertake information systems analysis.",
   "requisiteText": "To enrol in this course, you must have completed at least one of the following courses:\n\nINFS1001 - Business Information Systems\nCOMP1100 - Programming as Problem Solving\nCOMP1710 - Web Development and Design\nCOMP1720 - Art and Interaction Computing ."
  },
  {
@@ -65,7 +65,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course prepares students for future managerial level appointments by introducing the important management and socio-technical concepts related to the strategic development, investment and use of Business IT systems in organizations and business enterprises. The course actively builds on prior Business Information Systems fundamental and management studies, by focusing on integrated business systems thinking, particularly in the areas of organizational enterprise architecture and business process management. The course also covers enterprise systems design principles; the human dimension of enterprise systems; trust, security and ethics in the enterprise; enterprise resource, supply chain and customer relationship management systems; and, the importance of handling heterogeneous information systems in business environments. The course also introduces the latest trends in enterprise solutions, like AI-enabled enterprise systems. The assessment requires a practically oriented research and consulting report targeted at a contemporary real-world business problem.",
+  "summary": "This course prepares students for future managerial level appointments by introducing the important management and socio-technical concepts related to the…",
   "requisiteText": "To enrol in this course, you must have completed at least 72 units."
  },
  {
@@ -82,7 +82,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course gives students a thorough grounding in the management of technology in an organisational context, placing particular emphasis on the Chief Information Officer perspective. The unit material complements applied student knowledge with a theoretical technology management foundation. Topics are presented from a textbook and, where appropriate, relevant readings from the contemporary literature are used to present competing points of view. Topics include the information system in the organisation, information system planning, enterprise systems in context, systems to support operations and management, policy development and directive management, and technology economics. Students are introduced to the practical aspects of this area through a series of organisational case studies.",
+  "summary": "This course gives students a thorough grounding in the management of technology in an organisational context, placing particular emphasis on the Chief…",
   "requisiteText": "To enrol in this course you must have completed INFS2024 Information Systems Analysis or COMP2400 Relational Databases."
  },
  {
@@ -99,7 +99,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This unit gives students exposure to project management in an operational context. Students undertake a semester long project planning assignment. By the end of the course, students will be able to demonstrate their ability to plan the following aspects of project management: Project Scope Management, Project Time, Cost and Quality, Project Human Resource Management, Project Communications Management, Project Risk Management, and Project Procurement Management.",
+  "summary": "This unit gives students exposure to project management in an operational context.",
   "requisiteText": "To enrol in this course you must have completed INFS3024 or (INFS2024 and COMP2400)."
  },
  {
@@ -117,7 +117,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course is designed for Honours students to undertake independent research in business information systems. Student will conduct research in their chosen topic under the supervision of an academic staff member with a relevant research interest. Students will be required to identify research problems, review and synthesize literature, develop an appropriate research design, collect and analyse data, and present their findings effectively in a written thesis.",
+  "summary": "This course is designed for Honours students to undertake independent research in business information systems.",
   "requisiteText": "To enrol in this course you must be:\n\nenrolled in one of the following programs:\nBachelor of Business Administration (Honours) (HBUSA)\nBachelor of Commerce (Honours) (HCOMM)\nand have agreement from a supervisor to supervise the research project and resulting thesis.\n\nYou will need to contact the Research School of Management (enquiries.rsm@anu.edu.au) to request a permission code to enrol in this course."
  },
  {
@@ -135,7 +135,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "Accounting Information Systems (AIS) form an integral part of modern organisations as they support managers to plan and control business operations, improve decision-making, and support financial accounting and reporting. The role of the AIS is changing. The Enterprise Resource Planning (ERP) system builds on the AIS and offers the benefits of sharing information across all business functional areas leading to improved business processes. Many internal controls are addressed by the ERP system. Students will be introduced to this cross functional integration and improved internal control with ‘hands on’ SAP experience. Skills will be developed in systems documentation techniques to enable an appreciation of key business processes and associated controls. ERP knowledge and skills are valued by employers, with graduates having higher employability.",
+  "summary": "Accounting Information Systems (AIS) form an integral part of modern organisations as they support managers to plan and control business operations, improve…",
   "requisiteText": "You are not able to enrol in this course if you previously completed INFS2005."
  },
  {
@@ -153,7 +153,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course covers issues relating to the management of information and communication technology (ICT), important ICT infrastructure and systems, ICT strategic planning and the governance of ICT. Students will critically analyse and present ICT management issues in class.",
+  "summary": "This course covers issues relating to the management of information and communication technology (ICT), important ICT infrastructure and systems, ICT…",
   "requisiteText": null
  },
  {
@@ -170,7 +170,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course builds on the material introduced in introductory Business Information Systems courses by covering the strategic architecting, development and use of Business IT systems and processes in organisations and business enterprises. Topical issues such as the organizational enterprise architecture and business process management implications raised by e-commerce/e-business/e-government, trust in the enterprise environment, supply chain and customer relationship management systems, legacy information systems integration, data and content management, business analysis, requirements engineering and systems realisation and managerial implementation (including executive judgement) are also covered in the course. An in-depth course project is required as part of the assessment.",
+  "summary": "This course builds on the material introduced in introductory Business Information Systems courses by covering the strategic architecting, development and use…",
   "requisiteText": "Incompatible with INFS4004"
  },
  {
@@ -187,7 +187,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course aims to provide students with the knowledge and skills necessary to successfully undertake information systems analysis. The course provides coverage of the concepts, skills, methodologies, techniques, tools and perspectives considered essential for systems analysts working with modern information systems and their development.",
+  "summary": "This course aims to provide students with the knowledge and skills necessary to successfully undertake information systems analysis.",
   "requisiteText": "You are not able to enrol in this course if you have previously completed INFS2024 or INFS7007."
  },
  {
@@ -205,7 +205,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course is suitable for information systems masters’ level students wishing to gain industry experience and carry out applied research on an information systems topic. Candidates will be required to analyse a broad range of published sources on the topic issue, apply tools and techniques from master’s level courses in information systems and related disciplines, gather original input through discussion or interviews with practitioners in the field (where feasible), and analyse data to derive conclusions and implications for practitioners. Where feasible a “host” organization will be identified that will assist with data collection and advice on the project direction.\nThe final report should be in a form close to publication standard, whether as a management report or as a practitioner-oriented research article.\nThe current course offering is for individuals or teams of candidates working together on projects.",
+  "summary": "This course is suitable for information systems masters’ level students wishing to gain industry experience and carry out applied research on an information…",
   "requisiteText": "To enrol in this course you must be:\n\nenrolled in one of the following programs:\nMaster of Business Information system (MBINS)\n\nPermission to enrol in this course will only be by invitation of the Course Convenor.\n\nMBINS students who have a GPA of 6.0 or higher and have completed at least 48 units of study, are welcome to submit an expression of interest to the Course Convenor for consideration."
  },
  {
@@ -222,7 +222,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course approaches information systems from the executive and operational management perspective. It assumes a familiarity with the fundamentals of business and information systems from a technological point of view, as would be covered in a foundation course in this area. The emphasis of the course will be on understanding concepts, characteristics and factors, particularly from technological and non-technological perspectives, that are likely to impact the effectiveness and success of information systems in business environments. The aim of the course is therefore to provide students with a balanced view and deeper understanding of developing information systems strategy and managing information systems from organisational and technical perspectives so that they have a theoretically sound, but nevertheless practically oriented foundation, from which to successfully tackle information systems projects, initiatives and implementations.",
+  "summary": "This course approaches information systems from the executive and operational management perspective.",
   "requisiteText": "You are not able to enrol in this course if you previously completed INFS3024 or INFS4205."
  },
  {
@@ -239,7 +239,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course builds on the material introduced in introductory Business Information Systems courses by covering how business analytics and business intelligence can be used for improved business decision-making. Contemporary forms of analytics such as visual, text, sentiment, web, and social are covered in the course, as well as established technologies like decision support, knowledge management, collaborative and expert systems.",
+  "summary": "This course builds on the material introduced in introductory Business Information Systems courses by covering how business analytics and business…",
   "requisiteText": null
  },
  {
@@ -254,7 +254,7 @@
   "subjectName": "Information Systems",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course builds on the material introduced in introductory Business Information Systems courses by covering how business analytics and business intelligence can be used for improved the operations of digital businesses. Contemporary forms of analytics such as visual, text, sentiment, web, and social are covered in the course, as well as established technologies like decision support, knowledge management, collaborative and expert systems.",
+  "summary": "This course builds on the material introduced in introductory Business Information Systems courses by covering how business analytics and business…",
   "requisiteText": "To enrol in this course you must be enrolled in the MDTE - Master of Digital Transformation & Entrepreneurship program.\nYou are not able to enrol in this course if you previously completed INFS8210 - Business Analytics."
  }
 ]

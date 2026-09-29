@@ -13,7 +13,7 @@
   "subjectName": "Neuroscience",
   "college": "ANU College of Science and Medicine",
   "career": "Undergraduate",
-  "description": "The course provides in-depth exposure to the cellular mechanisms utilised by neurons. Emphasis will be put on the following areas: the role of different classes of ion channels in affecting neuronal excitability, the mechanisms involved in electrical and chemical transmission, how transmitted signals are integrated by the neurons and across networks, and how different forms of synaptic plasticity may underlie learning and memory. Where appropriate insights will be provided into disease states such as epilepsy and Alzheimer's disease. Content will be delivered in lectures and laboratory-based classes. In addition, there will be a short library-based project critiquing an original research article.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have successfully completed BIOL2174 or completed PSYC2007 and 12 units of 1000 level Psychology (PSYC) or Biology (BIOL) courses.\nIncompatible with NEUR6101."
  },
  {
@@ -30,7 +30,7 @@
   "subjectName": "Neuroscience",
   "college": "ANU College of Science and Medicine",
   "career": "Undergraduate",
-  "description": "In this course you will learn about the main neuronal systems involved in how animals interact with the environment. The course will cover the principal sensory and motor systems, focusing in particular on bridging the gap between molecular/cellular neuroscience and higher-level perception and behaviour. Topics to be covered include: anatomy, physiology and functions of the major senses, motor systems and the biological basis of behaviour. The course will also discuss the relevance of these neuronal systems to human diseases.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have successfully completed BIOL2174 or completed PSYC2007 and 12 units of 1000 level Psychology (PSYC) or Biology (BIOL) courses. Incompatible with NEUR6102."
  },
  {
@@ -47,7 +47,7 @@
   "subjectName": "Neuroscience",
   "college": "ANU College of Science and Medicine",
   "career": "Postgraduate",
-  "description": "The course provides in-depth exposure to the cellular mechanisms utilised by neurons. Emphasis will be put on the following areas: the role of different classes of ion channels in affecting neuronal excitability, the mechanisms involved in electrical and chemical transmission, how transmitted signals are integrated by the neurons and across networks, and how different forms of synaptic plasticity may underlie learning and memory. Where appropriate insights will be provided into disease states such as epilepsy and Alzheimer's disease. Content will be delivered in lectures and laboratory-based classes. In addition, there will be a short library-based project critiquing an original research article.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have successfully completed BIOL6174 or equivalent, or have tertiary knowledge of Psychology to the level of PSYC2007 or equivalent.\nIncompatible with NEUR3101."
  },
  {
@@ -64,7 +64,7 @@
   "subjectName": "Neuroscience",
   "college": "ANU College of Science and Medicine",
   "career": "Postgraduate",
-  "description": "In this course you will learn about the main neuronal systems involved in how animals interact with the environment. The course will cover the principal sensory and motor systems, focusing in particular on bridging the gap between molecular/cellular neuroscience and higher-level perception and behaviour. Topics to be covered include: anatomy, physiology and functions of the major senses, motor systems and the biological basis of behaviour. The course will also discuss the relevance of these neuronal systems to human diseases.\n\nNote: Graduate students attend joint classes with undergraduates but will be assessed separately.",
+  "summary": "",
   "requisiteText": "Incompatible with NEUR3112"
  },
  {
@@ -86,7 +86,7 @@
   "subjectName": "Neuroscience",
   "college": "ANU College of Science and Medicine",
   "career": "Postgraduate",
-  "description": "This course allows guided research on a neuroscience topic for individuals who wish to gain research skills and experience not covered in other courses taught in the School.\n\nThe research project is guided by a an academic supervisor at ANU or in collaboration with an affiliated institute. Students identify a supervisor after discussion with the course convener.\n\nThis is a capstone course, usually completed in the final semester of a coursework masters program",
+  "summary": "",
   "requisiteText": "Incompatible with MEDN8701 and NEUR8001"
  },
  {
@@ -108,7 +108,7 @@
   "subjectName": "Neuroscience",
   "college": "ANU College of Science and Medicine",
   "career": "Postgraduate",
-  "description": "Students will be expected to research the scientific literature relevant to a given topic and construct a research proposal in the style of a funding application to a major funding body. The proposal will addresses the background, aims, hypotheses and detailed experimental approach to extend the known information and outline a research project in the defined area of neuroscience. Each student will have a neuroscience academic advisor relevant to their research proposal with whom they will meet regularly. The course will involve self-directed learning and independent research of the literature.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -126,7 +126,7 @@
   "subjectName": "Neuroscience",
   "college": "ANU College of Science and Medicine",
   "career": "Postgraduate",
-  "description": "This course will provide an advanced level of understanding of current concepts in cellular, molecular and systems neuroscience. The course involves online lectures, provided reading material and self-directed study, with assessments including online quizzes, annotated bibliographies, a journal club presentation and a literature review (both written and oral presentation). Students will be expected to engage in significant self-directed learning and background research of original neuroscience literature, and become familiar with the broad range of techniques used in neuroscience.",
+  "summary": "",
   "requisiteText": null
  },
  {
@@ -148,7 +148,7 @@
   "subjectName": "Neuroscience",
   "college": "ANU College of Science and Medicine",
   "career": "Postgraduate",
-  "description": "Students will work with an academic mentor to define a research essay topic and will produce a review essay, of the type that would be published in a neuroscience journal. The course involves developing a timely and cutting-edge inquiry topic, researching the scientific literature relevant to the topic and writing a detailed review article.",
+  "summary": "",
   "requisiteText": null
  }
 ]

@@ -13,7 +13,7 @@
   "subjectName": "Medical Science",
   "college": "ANU College of Science and Medicine",
   "career": "Undergraduate",
-  "description": "In this course students will develop a comprehensive understanding of the morphology and function of the human body from cells to systems. Students will closely examine the anatomical structure and typical physiological function of the musculoskeletal system. Students will study the musculoskeletal and related structures and be given an insight into the implications of disruption of these. A combination of lectures, online multimedia resources, tutorials and practical sessions will address topics covering basic embryology and homeostasis, histology and the anatomy and physiology of the musculoskeletal system. In practical sessions, students will have the opportunity to examine relevant histology, prosected human cadaveric specimens and models of the human body as well as undertake activities that introduce them to the assessment of important physiological parameters. They will be given further opportunities to develop their critical thinking skills related to the musculoskeletal system in health and disease. During this course students will also develop their collaborative working skills, and employ discipline-based knowledge to broader real-world situations. This applied course equips students with discipline-specific knowledge and basic skills to prepare them for clinical or health-related careers.",
+  "summary": "",
   "requisiteText": "To enrol in this course, you must have an active enrolment in the Bachelor of Health Sciences (BHLTH) or Bachelor of Medical Science (BMEDS) program.\nThis course is incompatible with BIOL1008."
  },
  {
@@ -30,7 +30,7 @@
   "subjectName": "Medical Science",
   "college": "ANU College of Science and Medicine",
   "career": "Undergraduate",
-  "description": "This course uses a systems approach to explain the cellular and molecular mechanisms of the normal functions of the skeletal muscles, heart, lungs, kidneys, circulatory system, stomach, intestine, liver, and pancreas. The interaction of physiological systems in nutrition, energy metabolism and exercise is introduced. Students will develop a contextualised understanding of how external signals elicit changes in cellular function and how the autonomic nervous and endocrine systems orchestrate physiological responses to external and internal stimuli. Online learning activities, laboratory demonstrations, and practical exercises will illustrate the clinical assessment of important physiological parameters.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in one of the following programs: Bachelor of Philosophy, Neuroscience, and Psychology, Bachelor of Health Science, Bachelor of Medical Science or Bachelor of Science and have previously completed a minimum of 48 units of study which must include BIOL1008 or BIOL1004 or with permission of the Convenor.\n\nIncompatible with BIOL3006 and MEDN6001"
  },
  {
@@ -47,7 +47,7 @@
   "subjectName": "Medical Science",
   "college": "ANU College of Science and Medicine",
   "career": "Undergraduate",
-  "description": "This course is designed to introduce students to the aetiology and pathgogenesis of human disease. Examples of common medical conditions will be used to illustrate the pathophysiology of various categories of human disease. Normal responses to disease in the body will be discussed as well as goals of medical therapies to address the pathology or support normal function. The use of laboratory investigations to provide evidence in support of a clinical diagnosis will be introduced. Small group workshops exploring clinical cases will be used to introduce the process of clinical reasoning and evidence based decision making to students.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have previously completed MEDN2001.\nThis course is restricted to students in the Bachelor of Health Science or with permission of the Convenor.\nThis course is incompatible with MEDN6002"
  },
  {
@@ -64,7 +64,7 @@
   "subjectName": "Medical Science",
   "college": "ANU College of Science and Medicine",
   "career": "Undergraduate",
-  "description": "This course adopts a systems-based approach to explore the structure and function of the cardiovascular, respiratory, urinary, gastrointestinal, and reproductive systems. Students will develop an understanding of typical anatomy and the cellular and molecular mechanisms that underpin normal physiological processes. Students will integrate and apply knowledge of these systems in maintaining homeostasis, particularly in the contexts of nutrition, energy metabolism, exercise, and examine how disruptions can lead to disease.\n\nLearning is supported through a combination of online modules, formative quizzes, laboratory demonstrations, and practical exercises. Students will engage with prosected human cadaveric specimens and anatomical models and participate in activities that illustrate the clinical assessment of key physiological parameters.\n\nThroughout the course, students will enhance their critical thinking and collaborative skills, applying discipline-specific knowledge to real-world health and clinical contexts. This applied learning experience prepares students for further study in clinical, biomedical, or health-related fields.",
+  "summary": "",
   "requisiteText": "To enrol in this course you:\n\nmust be active in the Bachelor of Health Sciences (BHLTH) or in the Bachelor of Medical Science (BMEDS), and\nhave completed 24 unit of tertiary courses\n\nIncompatible with MEDN2001 and MEDN6001"
  },
  {
@@ -81,7 +81,7 @@
   "subjectName": "Medical Science",
   "college": "ANU College of Science and Medicine",
   "career": "Undergraduate",
-  "description": "The aim of this course is to provide an introduction to anatomy through visual arts, using an integrated approach. Students will have an opportunity to gain knowledge and visual comprehension of the structures that compose the human body and develop communication skills relevant to both disciplines. The structure and function of the body will be explored and put in context using a variety of two-dimensional and three-dimensional materials and processes including live and anatomical models. The course will be co-taught by academics in the College of Arts and Social Sciences and The College of Health and Medicine. Sessions are delivered at the School of Medicine and Psychology anatomy facility and the School of Art and Design, Foundation Studies studios. A peer mentoring process will be established between science students with a background in anatomy and visual art students. Applying a blended learning model this course will take advantage of the University's online learning environment.",
+  "summary": "",
   "requisiteText": "You are not able to enrol in this course if you have completed BIOL2222."
  },
  {
@@ -98,7 +98,7 @@
   "subjectName": "Medical Science",
   "college": "ANU College of Science and Medicine",
   "career": "Undergraduate",
-  "description": "The deluge of data from our newfound ability to sequence genomes and visualise molecules from thousands of cells and individuals will revolutionise healthcare. Computational solutions, from distributed computing to deep learning, are increasingly essential to biomedical progress. While the transformation at the interface of high-throughput experimentation and computer science is underway, biomedical research is generating data at a faster pace than we are able to process and interpret it. This presents an unheralded opportunity for motivated students to become the new leaders of the computational biology revolution.\n\nThis course is an opportunity for students with diverse disciplinary backgrounds — including but not limited to computer science, engineering, statistics, biology, physics and mathematics — to work on real-world biomedical problems using computational methods under the supervision of top researchers at the John Curtin School of Medical Research (JCSMR). This course will embed students into multidisciplinary teams to identify and work on applications of innovative computational technologies to biomedicine.\n\nThis course can be taken as either 6 or 12 units. Students who take the 12 unit version are expected to undertake more in-depth and sustained study.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed a minimum 72 units of tertiary study. This course has a limited number of places due to availability of supervision.\n\nEnrolment in this course is dependent upon the availability of a suitable supervisor and must be approved by the course convener. An expression of interest with a confirmed supervisor is required.\n\nIncompatible with MEDN8007."
  },
  {
@@ -113,7 +113,7 @@
   "subjectName": "Medical Science",
   "college": "ANU College of Science and Medicine",
   "career": "Undergraduate",
-  "description": "In this course students will develop a comprehensive understanding of the morphology and function of the human body. Students will learn the normal structure and function of the human body and will be given an insight into the implications of disruption of these. A combination of lectures, online multimedia resources, tutorials and practical sessions will address topics covering all systems of the human body. In weekly practical sessions, students will have the opportunity to examine prosected human cadaveric specimens and models of the human body where they will be given further opportunities to develop their critical thinking skills related to the human body in health and disease. Students will also complete an assessment item which will enhance their capability to work collaboratively and employ discipline-based knowledge to broader real-world situations. This applied course equips students with discipline-specific knowledge and skills to prepare them for clinical or health-related careers.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have completed 96 units toward a degree.\nYou are not able to enrol in this course if you have completed BIOL2176 or BIOL3186."
  },
  {
@@ -130,7 +130,7 @@
   "subjectName": "Medical Science",
   "college": "ANU College of Science and Medicine",
   "career": "Undergraduate",
-  "description": "This course introduces the broad concepts of biomedical imaging across a range of modalities. It provides a foundation towards the understanding of how modern biomedical imaging technologies generate multi-dimensional data for analysis and diagnosis. Key technologies covered include: XRay, CT, MRI, FMRI, Ultrasound, light microscopy, and medical imaging processing. Application of the biomedical images used to interpret biological process and diagnostics disease will also be discussed in small groups. Hands-on practical laboratory visits to cutting edge advanced bioimaging systems will be available to reinforce the lecture material, and quantitative imaging processing in the context of basic research and clinical settings will be covered.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have successfully completed 72 units of study, which must include either BIOL1004 or BIOL1020 or ENGN2217 or ENGN2218.\n\nIncompatible with MEDN6820 and ENGN3820."
  },
  {
@@ -148,7 +148,7 @@
   "subjectName": "Medical Science",
   "college": "ANU College of Science and Medicine",
   "career": "Undergraduate",
-  "description": "The main component of the Honours Course is a supervised research project that is undertaken in one of the medical research laboratories at ANU. Through this project students learn skills in critical analysis of the literature, project and experiment planning, laboratory and other techniques in medical research, data analysis and interpretation, and communication of research outcomes. The other marked component of the year is the presentation of a recent research paper to foster skills in critical analysis of the literature. Most students in this honours course are expected to be doing projects with supervisors based in the John Curtin School of Medical Research, in the disciplines of Cancer Biology and Therapeutics, Genome Biology, Immunology and Infectious Diseases, or Neuroscience. However projects may be undertaken in laboratories in the Research School of Biology, other Schools at ANU where a group has a focus on medical research, or The Canberra Hospital at the discretion of the convenor. Students should first speak to potential supervisors and then the convenor several months before their intended starting semester to ensure they secure a suitable project.",
+  "summary": "",
   "requisiteText": "To enrol in this course, you must be active in the MEDN-HSPC"
  },
  {
@@ -165,7 +165,7 @@
   "subjectName": "Medical Science",
   "college": "ANU College of Science and Medicine",
   "career": "Postgraduate",
-  "description": "This course uses a systems approach to explain the cellular and molecular mechanisms of the normal functions of the skeletal muscles, heart, lungs, kidneys, circulatory system, stomach, intestine, liver, and pancreas. The interaction of physiological systems in nutrition, energy metabolism and exercise is introduced. Students will develop a contextualised understanding of how external signals elicit changes in cellular function and how the autonomic nervous and endocrine systems orchestrate physiological responses to external and internal stimuli. Online learning activities, laboratory demonstrations, and practical exercises will illustrate the clinical assessment of important physiological parameters.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "summary": "",
   "requisiteText": "To enrol in this course, you must be currently enrolled in the Master of Neuroscience or Master of Neuroscience (Advanced)\n\nThis course is incompatible with MEDN2001, BIOL3006, BIOL6001."
  },
  {
@@ -182,7 +182,7 @@
   "subjectName": "Medical Science",
   "college": "ANU College of Science and Medicine",
   "career": "Postgraduate",
-  "description": "This course is designed to introduce students to the aetiology and pathogenesis of human disease. Examples of common medical conditions will be used to illustrate the pathophysiology of various categories of human disease. Normal responses to disease in the body will be discussed as well as goals of medical therapies to address the pathology or support normal function. The use of medical imaging technologies and laboratory investigations to provide evidence in support of a clinical diagnosis will be introduced. Small group workshops exploring clinical cases will be used to introduce the process of clinical reasoning and evidence based decision making to students.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in the Master of Neuroscience or the Master of Science in Biological Science. This course is incompatible with MEDN2002."
  },
  {
@@ -199,7 +199,7 @@
   "subjectName": "Medical Science",
   "college": "ANU College of Science and Medicine",
   "career": "Postgraduate",
-  "description": "This course introduces the broad concepts of biomedical imaging across a range of modalities. It provides a foundation towards the understanding of how modern biomedical imaging technologies generate multi-dimensional data for analysis and diagnosis. Key technologies covered include: XRay, CT, MRI, FMRI, Ultrasound, light microscopy, and medical imaging processing. Application of the biomedical images used to interpret biological process and diagnostics disease will also be discussed in small groups. Hands-on practical laboratory visits to cutting edge advanced bioimaging systems will be available to reinforce the lecture material, and quantitative imaging processing in the context of basic research and clinical settings will be covered.\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately on Report and Presentation.",
+  "summary": "",
   "requisiteText": "Incompatible with MEDN3820 and ENGN3820"
  },
  {
@@ -216,7 +216,7 @@
   "subjectName": "Medical Science",
   "college": "ANU College of Science and Medicine",
   "career": "Postgraduate",
-  "description": "The deluge of data from our newfound ability to sequence genomes and visualise molecules from thousands of cells and individuals will revolutionise healthcare. Computational solutions, from distributed computing to deep learning, are increasingly essential to biomedical progress. While the transformation at the interface of high-throughput experimentation and computer science is underway, biomedical research is generating data at a faster pace than we are able to process and interpret it. This presents an unheralded opportunity for motivated students to become the new leaders of the computational biology revolution.\n\nThis course is an opportunity for students with diverse disciplinary backgrounds — including but not limited to computer science, engineering, statistics, biology, physics and mathematics — to work on real-world biomedical problems using computational methods under the supervision of top researchers at the John Curtin School of Medical Research (JCSMR). This course will embed students into multidisciplinary teams to Identify and work on applications of innovative computational technologies to biomedicine.\n\nThis course can be taken as either 6 or 12 units. Students who take the 12 unit version are expected to undertake more in-depth and sustained study.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must have a bachelor degree or international equivalent in a science, technology, engineering or mathematics subject.\n\nEnrolment in this course is dependent upon the availability of a suitable supervisor and must be approved by the course convener. An expression of interest with a confirmed supervisor is required. This course has a limited number of places due to availability of supervision.\n\nIncompatible with MEDN3007."
  },
  {
@@ -234,7 +234,7 @@
   "subjectName": "Medical Science",
   "college": "ANU College of Science and Medicine",
   "career": "Postgraduate",
-  "description": "The principal component of second year of the Biology and Neuroscience Master by Coursework programs is a research project conducted under supervision and embedded in a medical research laboratory. In addition, students present seminars on their research work, critically analyse a current paper in their field and prepare a thesis for examination. The research project runs from early February to early November or mid-July to mid-May. As a first step, students must find a supervisor from the John Curtin School of Medical Research to guide the project. The project and supervisor must then be approved by the convenor of this course and of the Master by coursework program. As this can take some time, students should discuss their intention to undertake a research project with potential supervisors and the Master by Coursework coordinator several months before the proposed starting date.",
+  "summary": "",
   "requisiteText": null
  }
 ]

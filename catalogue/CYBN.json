@@ -6,7 +6,7 @@
   "level": 6000,
   "title": "Framing Questions about Cybernetic Systems",
   "units": 6,
-  "summary": "In this course we will start to create practitioners of Applied Cybernetics who can carefully examine new and emerging cybernetic systems, the building blocks they are made from, and the questions they raise for human society and our ecosystems.",
+  "summary": "In this course we will start to create practitioners of Applied Cybernetics who can carefully examine new and emerging cybernetic systems, the building blocks…",
   "offered": [
    "S1"
   ],
@@ -24,7 +24,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CYBN6001",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "In this course we will start to create practitioners of Applied Cybernetics who can carefully examine new and emerging cybernetic systems, the building blocks they are made from, and the questions they raise for human society and our ecosystems.\n\nThrough the course, we will challenge students to take different approaches to studying and understanding cybernetic systems: systems with human, technological, and environmental components. These approaches do not start with identifying and solving problems, but instead start with framing questions about these systems, their building blocks and the dynamic relationships between their human, technological, and environmental components. Students will learn to engage with important terminology and detail, integrate multiple perspectives, question assumptions, and think critically and creatively in order to start with framing questions about emerging cybernetic systems and the future we want to collectively create with them.\n\nThis course gives students exposure to conceptual approaches of Applied Cybernetics. It draws on a range of research methodologies from cybernetics, systems thinking, control theory, design thinking, social sciences, humanities, and critical theory. It serves as a foundation for applying cybernetic approaches to cybernetic systems analysis in Semester 2."
+  "description": ""
  },
  {
   "code": "CYBN6002",
@@ -33,7 +33,7 @@
   "level": 6000,
   "title": "Cybernetic Practice",
   "units": 6,
-  "summary": "In this course, we will build on the conceptual approach to Applied Cybernetics developed in CYBN6001.  Students will investigate and analyse socio-environmental-technological systems using cybernetic methodologies.",
+  "summary": "In this course, we will build on the conceptual approach to Applied Cybernetics developed in CYBN6001.",
   "offered": [
    "S2"
   ],
@@ -61,7 +61,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CYBN6002",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "In this course, we will build on the conceptual approach to Applied Cybernetics developed in CYBN6001. Students will investigate and analyse socio-environmental-technological systems using cybernetic methodologies.\n\nThrough the course, we will challenge students to study and analyse various examples of cybernetic systems, employing systems analysis and complementary methodologies to explore concepts of safety, sustainability, responsibility and scale.\n\nBy the end of the course, students will be able to critically explore the ways cybernetic systems are planned, designed, built, operated, maintained and regulated, as well as assess how complex systems link to and affect other systems, both physical and non-physical. Students will be able to identify mechanisms that restrict, shape and support cybernetic systems being deployed at scale."
+  "description": ""
  },
  {
   "code": "CYBN8001",
@@ -70,7 +70,7 @@
   "level": 8000,
   "title": "Building Cyber-Physical Systems",
   "units": 12,
-  "summary": "This is an annual course split into two parts which enables students to analyze and create cyber-physical systems both individually and in diverse teams under academic supervision.",
+  "summary": "This is an annual course split into two parts which enables students to analyze and create cyber-physical systems both individually and in diverse teams under…",
   "offered": [
    "S1",
    "S2"
@@ -98,7 +98,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CYBN8001",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This is an annual course split into two parts which enables students to analyze and create cyber-physical systems both individually and in diverse teams under academic supervision.\n\nThis course will create disciplinary experts who have a hands-on understanding of new and emerging technological constellations and their separate components. Participants will complete a range of lab-based projects to develop a technical understanding of systems as designed objects which embody values. They will also gain technical skills in designing, building and understanding cybernetic systems, and understanding Cyber-Physical Systems (CPS) from the ‘inside’, with an emphasis on making and building. This complements the approach in CYBN6001 and CYBN6002, which challenge participants to consider cybernetic systems from the ‘outside’ via interrogating case studies.\n\nParticipants will not emerge from the course as qualified programmers or computer scientists. Instead, through learning-by-doing, participants will gain sufficient knowledge and practice to drive meaningful and accurate conversations about cybernetic systems and shape design decisions as a part of a multidisciplinary team developing new and emerging technologies."
+  "description": ""
  },
  {
   "code": "CYBN8002",
@@ -126,7 +126,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CYBN8002",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "In this course, students will engage in projects and special topics developed in consultation with the convenor. The course will enable students to develop applied cybernetic competencies expected of professionals working in business, government, academia, or the broader community. Students can propose industry engagement or research projects, but these will need to be established following negotiations between the ANU and the potential host organisations or project sponsors."
+  "description": ""
  },
  {
   "code": "CYBN8999",
@@ -164,6 +164,6 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CYBN8999",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides an opportunity for HDR students to apply and develop professional skills and attributes in an area of their choice. This course offers opportunities to network with professional organisations such as national and overseas government and industry, and to acquire skills, knowledge and professional attributes which will facilitate future employment and career outcomes. The internship will be under the mentorship of a workplace professional, with access to an appropriate academic within the ANU Colleges. Students are generally expected to undertake an internship that is broadly relevant to their research field."
+  "description": ""
  }
 ]

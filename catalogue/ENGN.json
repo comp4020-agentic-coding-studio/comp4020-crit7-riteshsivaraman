@@ -6,7 +6,7 @@
   "level": 1000,
   "title": "Engineering Design 1: Discovering Engineering",
   "units": 6,
-  "summary": "Discovering Engineering is the foundation course for engineering.  The course invites students to discover engineering by tackling an open-ended design project, as well as learning a variety of essential technical and non-technical skills.",
+  "summary": "Discovering Engineering is the foundation course for engineering.",
   "offered": [
    "S1"
   ],
@@ -18,7 +18,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN1211",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Discovering Engineering is the foundation course for engineering. The course invites students to discover engineering by tackling an open-ended design project, as well as learning a variety of essential technical and non-technical skills. The major project for the course is to work in teams to design and build a robot rover that can autonomously navigate around a maze.\n\nThroughout the course, students undertake a variety of learning activities that introduce the key engineering concepts that are needed to successfully complete the project. Students learn about the engineering design process, including understanding what is needed in a project, generating concepts, prototyping, analysing, and implementing a solution. Students work in teams, allowing them to develop their collaboration and communication skills, as well as their project management skills. This is complemented by learning about the importance of reflective and ethical professional practice. At the same time students will also learn about basic electronics, coding and problem solving, providing a range of fundamental skills needed by a modern engineer."
+  "description": ""
  },
  {
   "code": "ENGN1217",
@@ -27,7 +27,7 @@
   "level": 1000,
   "title": "Introduction to Mechanics",
   "units": 6,
-  "summary": "This course introduces the fundamental principles in mechanics.  Structural design applications of a variety of problems are developed throughout the course using examples that elucidate the theory of mechanics.",
+  "summary": "This course introduces the fundamental principles in mechanics.",
   "offered": [
    "S2"
   ],
@@ -39,7 +39,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN1217",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces the fundamental principles in mechanics. Structural design applications of a variety of problems are developed throughout the course using examples that elucidate the theory of mechanics. The primary aim of this course is to provide a solid foundation for students in the field of mechanical engineering. Specific topics include:\n\nStatics of particles; forces in a plane and in space\n\nEquivalent systems of forces; Cartesian vector and vector operations\n\nEquilibrium of rigid bodies; including free body diagrams\n\nSimple trusses\n\nDistributed forces; centroids, centres of gravity and moments of inertia\n\nStatic indeterminacy and friction\n\nInternal forces; including shear and moment diagrams"
+  "description": ""
  },
  {
   "code": "ENGN1218",
@@ -48,7 +48,7 @@
   "level": 1000,
   "title": "Introduction to Electronics",
   "units": 6,
-  "summary": "This course introduces students to the fundamentals of electrical and electronic engineering.  It provides the students with an understanding of basic electrical quantities, circuit elements and circuit analysis techniques.",
+  "summary": "This course introduces students to the fundamentals of electrical and electronic engineering.",
   "offered": [
    "S2"
   ],
@@ -60,7 +60,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN1218",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces students to the fundamentals of electrical and electronic engineering. It provides the students with an understanding of basic electrical quantities, circuit elements and circuit analysis techniques. It also provides an understanding of the principles and operation of diodes (which are the basis of the ubiquitous DC power supply circuit) and operational amplifiers (which provide the easiest method to build an amplifier circuit). Specific topics include:\n\nIntroduction to Electronics: Fundamental electrical quantities (charge, current, voltage) and circuit elements (resistor, capacitor, inductor, voltage and current sources).\n\nCircuit Analysis Techniques: Kirchhoff's voltage and current laws, Mesh current and Node voltage analysis, Thevenin and Norton Equivalent circuits, Superposition, Maximum power transfer, Wheatstone bridge.\n\nFirst-order RC and RL Circuits with DC inputs: Time constant, Transient and steady state responses.\n\nDiodes: Semiconductor materials, basic diode concepts and diode circuit modes, applications (rectifier and wave shaping circuits), Zener diodes, regulated DC power supply circuit.\n\nIntroduction to Operational Amplifiers: Ideal op-amp, Basic Op-amp configurations, Summing point constraint. Basic amplifier circuits."
+  "description": ""
  },
  {
   "code": "ENGN2217",
@@ -69,7 +69,7 @@
   "level": 2000,
   "title": "Mechanical Systems and Design",
   "units": 6,
-  "summary": "Drawing on a well-established Mechanics of Materials curriculum, this course introduces students to the fundamentals of the mechanics of deformable bodies, with key topics including stress, strain, constitutive relations, loading modes (axial, shear, torsion), stress…",
+  "summary": "Drawing on a well-established Mechanics of Materials curriculum, this course introduces students to the fundamentals of the mechanics of deformable bodies,…",
   "offered": [
    "S1"
   ],
@@ -85,7 +85,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN2217",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Drawing on a well-established Mechanics of Materials curriculum, this course introduces students to the fundamentals of the mechanics of deformable bodies, with key topics including stress, strain, constitutive relations, loading modes (axial, shear, torsion), stress transformations, and analysis of simple structures (beams, shafts, columns). These concepts represent essential knowledge for many engineering fields, such as aerospace, civil and mechanical, as well as a wide range of related disciplines.\n\nENGN2217 encourages students’ learning by tackling topics from a variety of analytical, computational and experimental perspectives. Course activities include live lectures and tutorials, simulation computer labs and experimental labs. Strong emphasis is given to complementing quantitative problem-solving skills with high-level conceptualisation through exposure to diverse case studies, worked examples and problem sets, including through mastering assignments."
+  "description": ""
  },
  {
   "code": "ENGN2218",
@@ -94,7 +94,7 @@
   "level": 2000,
   "title": "Electronic Systems and Design",
   "units": 6,
-  "summary": "ENGN2218 Electrical Systems & Design builds directly on ENGN1218 Introduction to Electrical Systems by developing the students' understanding of the principles and operation of advanced electronic circuits and devices (bipolar junction transistor, operational amplifier,…",
+  "summary": "ENGN2218 Electrical Systems & Design builds directly on ENGN1218 Introduction to Electrical Systems by developing the students' understanding of the…",
   "offered": [
    "S1"
   ],
@@ -110,7 +110,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN2218",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "ENGN2218 Electrical Systems & Design builds directly on ENGN1218 Introduction to Electrical Systems by developing the students' understanding of the principles and operation of advanced electronic circuits and devices (bipolar junction transistor, operational amplifier, filters, digital logic gates, ADC and DAC, 555 Timer and Instrumentation amplifiers). It also emphasizes the importance of modelling the behaviour of complex electronic circuits and devices using systematic mathematical techniques. PSPICE is used extensively in the analysis and design. Specific topics include:\n\nBipolar Junction Transistors: Basic BJT concepts and circuit models, BJT Amplifiers (bias circuits, small-signal and large-signal equivalent circuits), BJT Common Emitter and Common Collector amplifiers, Cascaded BJT amplifiers.\n\nOp-amp: Op-amp characteristics, closed loop and open loop gains, Schmitt trigger.\n\nSteady State Sinusoidal Analysis: complex numbers, phasors, impedances, complex power.\n\nOp-amp Filters: Transfer functions, Bode Plots, First order active filters (low-pass and high pass).\n\nDigital Electronics: Number systems, Boolean algebra, Logic gates, Combinational logic circuits, Karnaugh maps, Combinational logic circuit design.\n\nSpecial topics: Analog to Digital Converters (ADC), Digital to Analog Converters (DAC), 555 Timer, Instrumentation Amplifiers."
+  "description": ""
  },
  {
   "code": "ENGN2219",
@@ -154,7 +154,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN2219",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is a rigorous introduction to the design of digital circuits and computer architecture. It provides technical foundations for how a computer system is built from the bottom up and how the high-level programming languages you learn in other courses are translated into simple instructions the computer executes. The course introduces the different abstraction layers necessary to make a computer system work, and a key focus is the connection between hardware and software.\n\nThe course introduces the predominant stored-program computer paradigm and principles of digital design and computer architecture. Students build a fully functional general-purpose computer from simple logic circuits in a digital simulator. The course also demystifies assembly code, the machine language the processor speaks, and the mapping of assembly programs to higher levels of programming abstraction. The focus is on fundamental techniques employed in the design of modern microprocessors and their hardware/software interface.\n\nThis course will challenge your understanding of how computers work and what happens in them when we run a program. At the end of this course, you will be able to navigate between layers of abstraction in a computer system, from individual digital circuits to high-level software, and understand how low-level structures enable and enhance the abilities of a computer system.\n\nThis course covers topics such as combinational and sequential logic design, digital building blocks such as arithmetic/logic unit and random access memory, instruction set architectures and assembly programming, input/output systems, interrupt handling, single-cycle and pipelined processor design, out-of-order execution, and hardware speculation."
+  "description": ""
  },
  {
   "code": "ENGN2222",
@@ -189,7 +189,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN2222",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course conveys the fundamental thermodynamic principles and analysis methods. The topics covered include basic concepts and definitions, first law of thermodynamics and its applications to closed and open systems, second law of thermodynamics, equations of state, thermodynamic property relations, ideal gas mixtures, psychrometrics, reacting mixtures, chemical and phase equilibrium. The course briefly explores relations between thermodynamics and information theory. Application examples are presented for engineered and natural systems and processes, and cover energy, materials and process engineering, natural and built environments, biology and medicine, earth sciences, and astrophysics."
+  "description": ""
  },
  {
   "code": "ENGN2228",
@@ -198,7 +198,7 @@
   "level": 2000,
   "title": "Signals and Systems",
   "units": 6,
-  "summary": "The concepts of signals and systems are at the heart of our modern world.  They exist in a wide range of engineering disciplines ranging from electrical and electronic systems, mechanical systems, thermal and chemical systems, to biomedical system .",
+  "summary": "The concepts of signals and systems are at the heart of our modern world.",
   "offered": [
    "S2"
   ],
@@ -234,7 +234,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN2228",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The concepts of signals and systems are at the heart of our modern world. They exist in a wide range of engineering disciplines ranging from electrical and electronic systems, mechanical systems, thermal and chemical systems, to biomedical system . This course presents the common principles, theory and techniques fundamental to the analysis and design of continuous-time and discrete-time signals and systems applicable to all engineering disciplines. It begins by introducing an analytical framework describing signals and systems. The following specific topics are covered subsequently: basic properties of signals and systems, linear time-invariant systems, Fourier series representations of continuous-time and discrete-time signals, signal analysis through the Fourier transform, filter design, and sampling. The mathematical concepts are illustrated with examples from different engineering disciplines and the techniques are practiced in laboratory activities."
+  "description": ""
  },
  {
   "code": "ENGN2300",
@@ -243,7 +243,7 @@
   "level": 2000,
   "title": "Engineering Design 2: Systems Approaches for Design",
   "units": 6,
-  "summary": "Engineering Design 2: Systems Approaches for Design will build your proficiency to abstract, visualise, communicate and deliver engineering designs.  ED2 is the second course in the interdisciplinary engineering design core, which situates design within the life-cycle of systems.",
+  "summary": "Engineering Design 2: Systems Approaches for Design will build your proficiency to abstract, visualise, communicate and deliver engineering designs.",
   "offered": [
    "S1"
   ],
@@ -261,7 +261,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN2300",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Engineering Design 2: Systems Approaches for Design will build your proficiency to abstract, visualise, communicate and deliver engineering designs. ED2 is the second course in the interdisciplinary engineering design core, which situates design within the life-cycle of systems. You will undertake a project using a systems approach to design, which is a formal process for generating robust and relevant engineering designs, applicable to all areas of engineering.\n\nDuring the early stages of the course, you will become fluent in the language of systems engineering for the purposes of describing a design problem space. This includes how to research and systematically generate requirements, undertake a functional analysis of a system, and create and communicate the architecture of an engineering design. You will develop skills for life-long learning by completing modules in a range of prototyping and modelling methods including visualisation, electronics and fabrication. These modules will supplement the systems approach to design, allowing you to represent an engineering design from both a systems and visual perspective.\n\nDesign Project\n\nThe major project in this course will involve a real-world engineering problem. You will be challenged in small teams to generate an engineering design using the systems approach that meets the requirements of project stakeholders in one of a range of application domain areas of systems engineering. You will apply research and design techniques to visualise, prototype and evaluate alternatives, in situations limited by available resources and imperfect information. During the project, you will develop design outcomes justified through project documentation. Finally, you will develop skills in critical reflection as a part of professional practice by connecting your experiences and learning in your project to engineering and research practice.\n\nEngineering Design @ ANU\n\nAt ANU, students are challenged to think of engineering design at a systems-level. Over the degree, you will learn how engineering design can be used to make a positive impact on society through five domains: design, analysis, research, professional practice and teamwork. In ED2, you will connect with your learning in the foundation courses, and learn the language of systems engineering, central to the design core."
+  "description": ""
  },
  {
   "code": "ENGN2301",
@@ -270,7 +270,7 @@
   "level": 2000,
   "title": "Engineering Design 3: Systems Approaches for Analysis",
   "units": 6,
-  "summary": "Engineering Design 3: Systems Approaches for Analysis will develop your skills to undertake formal testing and evaluation of an engineering design as a technical process in the life-cycle of a system.",
+  "summary": "Engineering Design 3: Systems Approaches for Analysis will develop your skills to undertake formal testing and evaluation of an engineering design as a…",
   "offered": [
    "S2"
   ],
@@ -288,7 +288,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN2301",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Engineering Design 3: Systems Approaches for Analysis will develop your skills to undertake formal testing and evaluation of an engineering design as a technical process in the life-cycle of a system. ED3 is the third course in the interdisciplinary engineering design core, which situates design within the life-cycle of a system. You will learn how to design and execute engineering testing and analysis processes to improve design outcomes. These techniques build on concepts covered in ED2, and are applicable to all areas of engineering.\n\nDuring the early stages of the course, you will learn tools and approaches for analysing and testing engineering systems. This includes designing models and experiments to predict the behaviour of engineering designs, and working with data to make evidence-based decisions. You will apply techniques to analyse a system from a range of perspectives, from understanding human factors through to optimisation. You will undertake independent study modules on approaches useful for interpreting data and analysing a large range of engineering systems.\n\nDesign Project\nThe major project in this course will be around a real-world engineering problem. You will be challenged in small teams to design the testing processes enabling you to evaluate an engineering design. You will apply research and analysis techniques to optimise or improve an engineering design. During the project, you will develop design outcomes justified through project documentation. Finally, you will develop skills in critical reflection as a part of professional practice by connecting your experiences and learning in your project to engineering and research practice.\n\nEngineering Design @ ANU\nAt ANU, students are challenged to think of engineering design at a systems-level. Over the degree, you will learn how engineering design can be used to make a positive impact on society through five domains: design, analysis, research, professional practice and teamwork. In ED3, you will connect with your learning in the foundation courses, and develop skills to design tests and undertake analysis essential for justifying engineering design decisions."
+  "description": ""
  },
  {
   "code": "ENGN2706",
@@ -312,7 +312,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN2706",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This is an introductory course that all BE (R&D) students are required to complete. The course introduces students to research methodologies, and provides the opportunity for students to conduct their own research project under the close supervision of an academic staff member in the College. This course also develops students’ abilities in critical analysis, reflection and problem solving, as well as in presenting their research through written technical reports and oral presentations.\n\nThe course will consist of two workshops each week that provide students with the opportunity to interact with their peers, the course convenor, critically analyse course content, and discuss project progress. Material relevant to the workshops will be available on WATTLE.\n\nThe topics covered in the course include:\n\nDefining a research problem\n\nReflective practices in research\n\nImplementation of research methods\n\nLiterature searches\n\nOral and visual presentation of research\n\nPeer review process\n\nResearch integrity and ethics\n\nPreparation of technical reports\n\nThere will also be a series of guest speakers at the workshops, providing students with exposure to various research perspectives, and the opportunity to broaden their professional networks. Students will complete assignments throughout the semester, as well as present their research in a seminar and project report at the end of the semester."
+  "description": ""
  },
  {
   "code": "ENGN2707",
@@ -321,7 +321,7 @@
   "level": 2000,
   "title": "Engineering Research and Development Project",
   "units": 6,
-  "summary": "This course is one of several research and development project courses that form part of the BE (R&D) Program.  These individual project courses of varying length are offered at different stages of the degree program, adding up to a total of 30 units of project courses.",
+  "summary": "This course is one of several research and development project courses that form part of the BE (R&D) Program.",
   "offered": [
    "S1",
    "S2"
@@ -347,7 +347,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN2707",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is one of several research and development project courses that form part of the BE (R&D) Program. These individual project courses of varying length are offered at different stages of the degree program, adding up to a total of 30 units of project courses. ENGN2707 is a 6-unit individual research project course, in which students undertake a substantial research project with an experienced supervisor, typically in the second year of their program."
+  "description": ""
  },
  {
   "code": "ENGN3013",
@@ -383,7 +383,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3013",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Effective engineering design and technology plays a significant role for humanitarian contexts. These contexts can range in time - from disaster preparedness and response, to long-term sustainable community development - and in geographic scale - from urban to rural and remote, within our own communities and internationally. Engineering for a Humanitarian Context will provide students with perspectives and tools to sensitively and appropriately apply engineering, technology and design to humanitarian and development contexts.\n\nThe course will expand students’ existing discipline knowledge to work with individuals and communities in challenging and uncertain environments, informing and improving their overall discipline practice. Students will explore the history of community development in Australia and the region, including contemporary approaches and models used. Appropriate and sustainable design and technology will be explored, including critical reflection of the benefits and limitations of engineering practice."
+  "description": ""
  },
  {
   "code": "ENGN3200",
@@ -392,7 +392,7 @@
   "level": 3000,
   "title": "Engineering Internship",
   "units": 6,
-  "summary": "The aim of this course is to use the internship experience to enable students to develop their engineering skills and practice.  Students will undertake industry placements and assessed for academic credit.",
+  "summary": "The aim of this course is to use the internship experience to enable students to develop their engineering skills and practice.",
   "offered": [
    "SUMMER",
    "S1",
@@ -429,7 +429,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3200",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The aim of this course is to use the internship experience to enable students to develop their engineering skills and practice. Students will undertake industry placements and assessed for academic credit. The internships will be aligned with the aims of the engineering program and its areas of specialisation. Students will experience a real-life engineering workplace and understand how their engineering and professional skills and knowledge can be utilised in industry. They will also be able to demonstrate functioning engineering knowledge, both new and existing, and identify areas of further development for their future careers."
+  "description": ""
  },
  {
   "code": "ENGN3223",
@@ -452,7 +452,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3223",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Control Systems is the study of the analysis and regulation of the output behaviors of dynamical systems subject to input signals. The concepts and tools discussed in this course can be used in a wide spectrum of engineering disciplines such as mechanical, electrical, aerospace, manufacturing, and biomedical engineering. The emphasis of this course will be on the basic theories and feedback controller design methods of linear time-invariant systems."
+  "description": ""
  },
  {
   "code": "ENGN3224",
@@ -479,7 +479,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3224",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course explores the fundamental concepts of fluid mechanics and heat transfer, and their applications in engineering. The course begins by introducing analysis of static fluid bodies and then continues with fluid dynamics, principally the effects of viscous and thermal boundary layers. Fluid conservation equations are presented in detail. Fluid conveyancing through pipework and external flow analysis complete the coursework on fluids. The concept of boundary layer behaviour is then extended to heat transfer. Conduction, convection are treated at a fundamental level, leading to analysis and design of heat exchangers. Finally, radiation heat transfer is presented in a wider context."
+  "description": ""
  },
  {
   "code": "ENGN3226",
@@ -508,7 +508,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3226",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course presents the principles and techniques fundamental to the analysis and design of digital communication systems. It focuses on the basic building blocks of a digital communication system (source encoder/decoder, channel encoder/decoder, digital modulator/demodulator and channel characteristics). The emphasis is on mathematical underpinnings of communications theory along with practical applications and emerging machine learning tools. Specific topics include:\n\n• Review of Probability and Random Processes and Modelling of Gaussian noise process.\n\n• Digital Modulation Techniques: Signal space analysis, BPSK, QPSK, QAM.\n\n• Digital Demodulation & Detection Techniques: Correlator-demodulator, Maximum likelihood detection (MLD) in additive white Gaussian noise (AWGN), bit error rate (BER) performance.\n\n• Channel Encoder/Decoder: Linear block codes, Cyclic codes, Convolutional codes, Viterbi algorithm.\n\n• Information Theory and Source Coding: Source Entropy, Huffman Coding, Channel Capacity.\n\nMatlab and/or Python-based programming environment is used in the analysis and design."
+  "description": ""
  },
  {
   "code": "ENGN3300",
@@ -517,7 +517,7 @@
   "level": 3000,
   "title": "Engineering Design 4A: Systems Approaches for Management",
   "units": 6,
-  "summary": "In Engineering Design 4A: Systems Approaches for Management, you will develop industry-relevant techniques to manage a design project over the entire system life cycle, from problem conception through to project retirement.",
+  "summary": "In Engineering Design 4A: Systems Approaches for Management, you will develop industry-relevant techniques to manage a design project over the entire system…",
   "offered": [
    "S1"
   ],
@@ -535,7 +535,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3300",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "In Engineering Design 4A: Systems Approaches for Management, you will develop industry-relevant techniques to manage a design project over the entire system life cycle, from problem conception through to project retirement. ED4A is the fourth course in the interdisciplinary engineering design core, and is followed by Engineering Design 4B: Systems Approaches for Operations. The project selected from a pool of projects that are representative of typical final year capstone projects, allowing you to design the management process for a significant engineering project.\n\nDuring the early stages of the course, you will learn project management techniques essential for delivering large-scale, complex engineering projects. This includes breaking projects into manageable parts, planning, scheduling, resourcing, controlling, accounting, balancing multiple criteria, and risk management. You will undertake guided study modules in a range of topics, including organisational structures, business planning, teamwork, professional conduct and legal and regulatory frameworks as they apply to the engineering profession. You will further develop skills in critical reflection as part of professional practice by connecting your prior experiences and learning to the topics covered in the course.\n\nMajor Project\n\nThe major project in this course will be around a real-world engineering problem. You will be part of a small team that is responsible for applying formal management techniques to improve the outcomes in an engineering design project. The project will deliver a Systems Engineering Management Plan (SEMP) that is representative of best professional practice in Engineering Management.\n\nEngineering Design @ ANU\n\nAt ANU, students are challenged to think of engineering design at a systems-level. Over the degree, you will learn how engineering design can be used to make a positive impact on society through five domains: design, analysis, research, professional practice and teamwork. In Engineering Design 4A, you will connect with your learning in your major and other courses, and develop skills essential to managing outcomes in a complex engineering project."
+  "description": ""
  },
  {
   "code": "ENGN3301",
@@ -544,7 +544,7 @@
   "level": 3000,
   "title": "Engineering Design 4B: Systems Approaches for Operations",
   "units": 6,
-  "summary": "In Engineering Design 4B: Systems Approaches for Operations, you will learn industry-relevant techniques to operate and innovate an engineering system over the entire system life cycle, from problem conception through to system retirement.",
+  "summary": "In Engineering Design 4B: Systems Approaches for Operations, you will learn industry-relevant techniques to operate and innovate an engineering system over…",
   "offered": [
    "S2"
   ],
@@ -562,7 +562,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3301",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "In Engineering Design 4B: Systems Approaches for Operations, you will learn industry-relevant techniques to operate and innovate an engineering system over the entire system life cycle, from problem conception through to system retirement. Engineering Design 4B is the fifth course in the interdisciplinary engineering design core. The project in this course explores the management and operation processes in a complex system in operations.\n\nYou will learn project operations techniques relevant for optimising outcomes in large-scale, complex engineering systems. Topics will include understanding legislative and statutory requirements of the professional engineer, including processes for compliance and due-diligence, the reliability, availability and maintainability of systems, risk assessment and mitigation, the operational impacts of social, environmental, and organisational contexts, and changes, upgrades and end of life considerations in complex systems. The course will also explore the potential use and risks of emerging artificial intelligence tools in professional engineering applications.\n\nDesign Project\n\nThe major project in this course will address a real-world engineering system. You will be responsible for designing operational processes to improve the outcomes in an engineering system. The project will deliver a contextual analysis of the system and design outcomes, and you will justify these through appropriate project documentation. Finally, you will further develop skills in critical reflection as a part of professional practice by connecting your experiences and learning in your project to engineering and research practice.\n\nEngineering Design @ ANU\n\nAt ANU, students are challenged to think of engineering design at a systems-level. Over the degree, you will learn how engineering design can be used to make a positive impact on society through five domains: design, analysis, research, professional practice, and teamwork. In ED4B, you will connect with your learning in your major, and develop skills required to innovate and optimise operations to deliver a design outcome."
+  "description": ""
  },
  {
   "code": "ENGN3331",
@@ -599,7 +599,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3331",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "System dynamics is the study of the response of engineering systems with changing time. The concepts learned in this unit can be used in a number of science and engineering disciplines including mechatronics, and in particular robotics, mechanical, electrical, aerospace, chemical, and marine engineering, manufacturing and biomedical engineering. The emphasis of this course will be on the analytical and numerical tools to describe the bahviour of the systems of interest. The presentation stresses analytical methods, concrete examples, and geometric intuition. The theory is developed systematically and is applied to various examples using differential equations, and numerical approximation of linear or nonlinear dynamical equations."
+  "description": ""
  },
  {
   "code": "ENGN3338",
@@ -624,7 +624,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3338",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "In this course students will develop an understanding of low speed and high-speed aerodynamics of wings and bodies. The course includes the fundamental principles of aerodynamics, the derivation of flow equations, the potential flows in two and three dimensions, the theory of airfoils and wings for inviscid and incompressible flow and the determination of lift and induced drag of finite wings. The course also includes the comprehension of the phenomena related to the aerodynamic behaviour under compressible flow conditions and fundamental principles of viscous flows. Advanced topics include the use of computational fluid dynamics, wind tunnel and experimental testing for vehicles testing and development."
+  "description": ""
  },
  {
   "code": "ENGN3339",
@@ -633,7 +633,7 @@
   "level": 3000,
   "title": "Aerospace Structures and Materials",
   "units": 6,
-  "summary": "Modern aerospace and space structures need to effectively combine high performance and light weight, and as such they are typically nonstructured from composite and advanced multifunctional materials.",
+  "summary": "Modern aerospace and space structures need to effectively combine high performance and light weight, and as such they are typically nonstructured from…",
   "offered": [
    "S1"
   ],
@@ -651,7 +651,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3339",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Modern aerospace and space structures need to effectively combine high performance and light weight, and as such they are typically nonstructured from composite and advanced multifunctional materials. To achieve the required level of performance, it is necessary to understand material limitations, strength, structural stability and health. This course will take a detailed look at the design, fabrication and properties of engineered materials for aerospace, focusing on computational material/structural design and optimisation, characterization of advanced materials and their structural stability and dynamics, thermo-mechanical and electro-mechanical interactions, and structural health management. We will discuss the concept of aeroelasticity, and consider the development and application of multifunctional, morphing and self-healing structures. Underpinning this course will be frequent contextualizing through the idea of nanostructuring of established engineering materials to advance their properties and performance."
+  "description": ""
  },
  {
   "code": "ENGN3350",
@@ -660,7 +660,7 @@
   "level": 3000,
   "title": "Principles of Information Engineering",
   "units": 6,
-  "summary": "This course presents the principles and techniques fundamental to the representation, processing and transmission of information.  It equips students with the knowledge and tools to answers questions such as: What is information and how to quantify it?",
+  "summary": "This course presents the principles and techniques fundamental to the representation, processing and transmission of information.",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed a minimum of 72 units of tertiary study which must include MATH1005 or MATH1013 or MATH1113 or MATH1115.\n\nIncompatible with ENGN6350, ENGN3226, ENGN6626, COMP2610 and COMP6261.",
   "rule": {
@@ -699,7 +699,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3350",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course presents the principles and techniques fundamental to the representation, processing and transmission of information. It equips students with the knowledge and tools to answers questions such as: What is information and how to quantify it? How much can we compress data without distortion? How to reliably store and transmit information in a way that is robust to data corruption? And how to learn from data with uncertainty? The answers to these questions often find their applications in electronic and computer engineering fields and beyond, such as electronic systems, control systems, telecommunication systems, computer systems, machine learning, data science, neuroscience, bioinformatics and linguistics.\n\nThe course begins by introducing the basic concepts of probability and random variables, leading to probabilistic inference. It then continues with the following topics: concepts and tools of information theory, data compression principles and algorithms, error detection and correction codes for data storage and transmission, digital modulation and communication channel characteristics."
+  "description": ""
  },
  {
   "code": "ENGN3410",
@@ -708,7 +708,7 @@
   "level": 3000,
   "title": "Engineering Sustainable Systems",
   "units": 6,
-  "summary": "The increasing need for engineers to address sustainability will add significant complexity to their tasks.  They will therefore need the skills and knowledge to understand and predict the impact of their practice.",
+  "summary": "The increasing need for engineers to address sustainability will add significant complexity to their tasks.",
   "offered": [
    "S2"
   ],
@@ -741,7 +741,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3410",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The increasing need for engineers to address sustainability will add significant complexity to their tasks. They will therefore need the skills and knowledge to understand and predict the impact of their practice. This course will focus on the dynamics of complex systems in the context of the environmental and social impacts of technological innovation. Students will develop knowledge and skills that provide a basis for the design and sustainable operation of engineering-environment-social systems that are highly non-linear. Sustainability will be defined in engineering terms, and the basic dynamical principles will be explored in tutoral discussions. The course will be presented using a 'problem based learning' mode of delivery."
+  "description": ""
  },
  {
   "code": "ENGN3415",
@@ -750,7 +750,7 @@
   "level": 3000,
   "title": "Signal and Information Processing",
   "units": 6,
-  "summary": "This course explores the theoretical underpinnings and practical applications of signal processing techniques for analysing, manipulating, and extracting meaningful information from signals.",
+  "summary": "This course explores the theoretical underpinnings and practical applications of signal processing techniques for analysing, manipulating, and extracting…",
   "offered": [],
   "requisiteText": "To enrol in this course, you must have completed a minimum of 72 units of tertiary study which must include MATH1005 or MATH1013 or MATH1115.\nIncompatible with ENGN6415.",
   "rule": {
@@ -780,7 +780,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3415",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course explores the theoretical underpinnings and practical applications of signal processing techniques for analysing, manipulating, and extracting meaningful information from signals. Students will gain a comprehensive understanding of the mathematical principles governing diverse signal processing methodologies and acquire the skills necessary to address real-world challenges across a broad spectrum of electronic engineering and cognate domains, including digital communications, medical imaging, audio and video systems, human-machine interaction, robotics, remote sensing, finance, and autonomous vehicles.\n\nThis course commences with an introduction to signal synthesis and analysis, employing foundational tools such as orthogonal bases, Hilbert spaces, and matrix decompositions. It then explores Fourier methods for comprehensive time-frequency analysis, statistical signal processing techniques designed to leverage inherent statistical properties, and adaptive methods for effectively addressing the complexities of time-varying or non-linear signals and systems. The course concludes with a discussion on foundational contributions of non-linear signal processing to the core concepts of neural networks and deep learning. Emphasis will be placed on both theoretical rigour and practical implementation using computational tools."
+  "description": ""
  },
  {
   "code": "ENGN3516",
@@ -789,7 +789,7 @@
   "level": 3000,
   "title": "Energy Resources and Renewable Technologies",
   "units": 6,
-  "summary": "Providing energy for the entire planet without causing catastrophic climate change requires profound Energy Change.  Major developments are occurring in the energy sector, both with energy technologies and the economic, social and policy measures that accompany them.",
+  "summary": "Providing energy for the entire planet without causing catastrophic climate change requires profound Energy Change.",
   "offered": [
    "S2"
   ],
@@ -817,7 +817,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3516",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Providing energy for the entire planet without causing catastrophic climate change requires profound Energy Change. Major developments are occurring in the energy sector, both with energy technologies and the economic, social and policy measures that accompany them. This course focuses on renewable energy resources - the technologies that will comprise a large part of global Energy Change. It aims to help students identify the major 'big picture' questions in the area of energy resources and develop technically sound ways of quantitatively answering them.\n\nThe course commences with an overview of world fossil-fuel energy resources, the scientific evidence for climate change, and an introduction to asking good questions - with a focus on ball-park analysis and appropriate physical units.\n\nWe next look at individual renewable energy resources in detail (solar PV, nuclear, wind, solar thermal, hydro, bio, geothermal and tidal). We examine their scientific and technical foundations, available resources, integration with the grid, and broader economic and social issues to assess their ultimate potential as well as their practical limitations. Alongside the technical assessment of energy resources, we dedicate individual lectures to calculating the levelized cost of electricity, understanding the current and future electrical grid, and examining broader social and political issues concerned with energy use. Because of the rapid pace of change in this field, the course focuses on developing students' skills in framing questions and finding answers, as well as being able to critically evaluate those answers and support them with scientific evidence."
+  "description": ""
  },
  {
   "code": "ENGN3539",
@@ -826,7 +826,7 @@
   "level": 3000,
   "title": "Computer Networks",
   "units": 6,
-  "summary": "This course studies the standard models for the layered approach to communication between autonomous machines in a network, and the main characteristics of data transmission across various physical link types.",
+  "summary": "This course studies the standard models for the layered approach to communication between autonomous machines in a network, and the main characteristics of…",
   "offered": [
    "S1"
   ],
@@ -846,7 +846,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3539",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course studies the standard models for the layered approach to communication between autonomous machines in a network, and the main characteristics of data transmission across various physical link types. It considers how to design networks and protocols for diverse situations, analyses several application and support protocols from a distributed systems viewpoint, and identifies significant problem areas in networked communications.\n\nTopics include: communication network architectures, signalling and modulation across physical media, real-world local and wide-area networks, internet protocol fundamentals, performance and monitoring of networks, routing, network security, and application protocols for distributed systems including web, email, video, internet-of-everything and other contemporary network topics."
+  "description": ""
  },
  {
   "code": "ENGN3706",
@@ -855,7 +855,7 @@
   "level": 3000,
   "title": "Engineering Research & Development Project",
   "units": 6,
-  "summary": "This course is one of several research and development project courses that form part of the BE (R&D) Program.  These individual project courses of varying length are offered at different stages of the degree program, adding up to a total of 30 units of project courses.",
+  "summary": "This course is one of several research and development project courses that form part of the BE (R&D) Program.",
   "offered": [
    "S1",
    "S2"
@@ -881,7 +881,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3706",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is one of several research and development project courses that form part of the BE (R&D) Program. These individual project courses of varying length are offered at different stages of the degree program, adding up to a total of 30 units of project courses. ENGN3706 is a 6-unit individual research project course, in which students undertake a substantial research project with an experienced supervisor, typically in the penultimate year of their program."
+  "description": ""
  },
  {
   "code": "ENGN3712",
@@ -890,7 +890,7 @@
   "level": 3000,
   "title": "Engineering Research and Development Project",
   "units": 6,
-  "summary": "This course is one of several research and development project courses that form part of the BE (R&D) Program.  These individual project courses of varying length are offered at different stages of the degree program, adding up to a total of 30 units of project courses.",
+  "summary": "This course is one of several research and development project courses that form part of the BE (R&D) Program.",
   "offered": [
    "S1",
    "S2"
@@ -916,7 +916,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3712",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is one of several research and development project courses that form part of the BE (R&D) Program. These individual project courses of varying length are offered at different stages of the degree program, adding up to a total of 30 units of project courses. ENGN3712 is a 12-unit individual research project course, in which students undertake a substantial research project with an experienced supervisor, typically in the penultimate year of their program."
+  "description": ""
  },
  {
   "code": "ENGN3820",
@@ -925,7 +925,7 @@
   "level": 3000,
   "title": "Biomedical Imaging: Principles, Technologies and Applications in Health Sciences",
   "units": 6,
-  "summary": "This course introduces the broad concepts of biomedical imaging across a range of modalities.  It provides a foundation towards the understanding of how modern biomedical imaging technologies generate multi-dimensional data for analysis and diagnosis.",
+  "summary": "This course introduces the broad concepts of biomedical imaging across a range of modalities.",
   "offered": [],
   "requisiteText": "To enrol in this course you must have successfully completed 72 units of study, which must include either BIOL1004 or ENGN2217 or ENGN2218.\n\nIncompatible with MEDN3820 and MEDN6820.",
   "rule": {
@@ -941,7 +941,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3820",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces the broad concepts of biomedical imaging across a range of modalities. It provides a foundation towards the understanding of how modern biomedical imaging technologies generate multi-dimensional data for analysis and diagnosis. Key technologies covered include: XRay, CT, MRI, FMRI, Ultrasound, light microscopy, and medical imaging processing. Application of the biomedical images used to interpret biological process and diagnostics disease will also be discussed in small groups. Hands-on practical laboratory visits to cutting edge advanced bioimaging systems will be available to reinforce the lecture material, and quantitative imaging processing in the context of basic research and clinical settings will be covered."
+  "description": ""
  },
  {
   "code": "ENGN3901",
@@ -950,7 +950,7 @@
   "level": 3000,
   "title": "Environmental Fluid Mechanics",
   "units": 6,
-  "summary": "This course will provide students with a fundamental understanding of fluid flows in the environment. e.  in dams and pipe networks) and the behaviour of moving fluids.",
+  "summary": "This course will provide students with a fundamental understanding of fluid flows in the environment.",
   "offered": [
    "S1"
   ],
@@ -966,7 +966,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3901",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course will provide students with a fundamental understanding of fluid flows in the environment. The course will provide a foundational understanding of fluid statics and dynamics which respectively relate to pressure forces exerted by standing bodies of water (i.e. in dams and pipe networks) and the behaviour of moving fluids. This will extend into an exploration of boundary layer flows, an understanding of which is essential for predicting mass transport, shear forces, and heat transfer processes at fluid interfaces. Environmental topics such as rocks and soils will be introduced as well. Building on these foundational elements, students will investigate the application of fluid dynamics to environmental systems through the study of closed-channel (pipes and ducts) and open-channel (rivers and irrigation) flows, and flows in porous media, which is of relevance to the study of groundwater and drainage. The course will connect and discuss the interaction of these macro-scale fluid flows to global-scale fluid flows. This course will provide an important focus on indigenous perspectives and contributions to this field of study. Students will be able to draw on course materials that provide diverse gender, cultural, and geographical perspectives on these topics."
+  "description": ""
  },
  {
   "code": "ENGN3902",
@@ -975,7 +975,7 @@
   "level": 3000,
   "title": "Environmental Chemistry and Systems",
   "units": 6,
-  "summary": "This course will provide students with the skills and knowledge to understand and explain the complex biogeochemical cycles that drive environmental systems and processes.",
+  "summary": "This course will provide students with the skills and knowledge to understand and explain the complex biogeochemical cycles that drive environmental systems…",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed a minimum of 72 units of tertiary study. Incompatible with ENVS3902.",
   "rule": {
@@ -991,7 +991,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3902",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course will provide students with the skills and knowledge to understand and explain the complex biogeochemical cycles that drive environmental systems and processes. The course will provide a foundation in modern environmental chemistry, exploring interactions between the hydrosphere, geosphere, atmosphere and biosphere. Students will apply this knowledge to land management decision making across a range of contexts, including agriculture, mining, contaminated land remediation, native vegetation systems, and urban design. The course includes laboratory and field-based components, giving students practical experience in environmental sampling and analysis. Building upon these foundational topics, the course will investigate the chemical behaviour of polluting compounds and explore their partitioning within the environment. Students will develop skills valued in an array of professions, including environmental sample collection and preservation, laboratory analysis techniques, field testing, and applying conceptual environmental models. Students will be able to draw on course materials that provide diverse gender, cultural, and geographical perspectives on these topics."
+  "description": ""
  },
  {
   "code": "ENGN3903",
@@ -1000,7 +1000,7 @@
   "level": 3000,
   "title": "Environmental Sensing, Mapping and Modelling",
   "units": 6,
-  "summary": "To better understand and manage the rapid pace of environmental change, there is a need to develop accurate and effective environmental sensing, mapping and modelling techniques.",
+  "summary": "To better understand and manage the rapid pace of environmental change, there is a need to develop accurate and effective environmental sensing, mapping and…",
   "offered": [
    "S2"
   ],
@@ -1017,7 +1017,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN3903",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "To better understand and manage the rapid pace of environmental change, there is a need to develop accurate and effective environmental sensing, mapping and modelling techniques. In this course, students will learn about and compare the methods used to investigate environmental systems and parameters including techniques for measuring water, air, soil, vegetation, light, noise and vibration. Students will also learn about remote sensing from ground-, and space-based platforms, including how these platforms allow the collection of information essential to monitor, quantify and forecasting the condition and behaviour of the environment. Students will then investigate mapping tools to represent spatial and temporal changes of environmental values and develop computational methods and models to extrapolate societal understanding of the measured and mapped environmental data. Collectively, the topics explored in the course will give students experience in using spatiotemporal environmental data to underpin evidence based environmental decision making. This course will provide an important focus on indigenous perspectives and contributions to this field of study. Students will be able to draw on course materials that provide diverse gender, cultural, and geographical perspectives on these topics."
+  "description": ""
  },
  {
   "code": "ENGN4122",
@@ -1026,7 +1026,7 @@
   "level": 4000,
   "title": "Intelligent Autonomous Systems",
   "units": 6,
-  "summary": "Dynamical systems such as robots, manipulators and vehicles rely on several building blocks and software layers that enable the them to operate autonomously in complex environments.",
+  "summary": "Dynamical systems such as robots, manipulators and vehicles rely on several building blocks and software layers that enable the them to operate autonomously…",
   "offered": [
    "S2"
   ],
@@ -1045,7 +1045,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4122",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Dynamical systems such as robots, manipulators and vehicles rely on several building blocks and software layers that enable the them to operate autonomously in complex environments. The collection of building blocks called autonomy stack and consisting of perception, planning and coordination, localisation and mapping, and control, define the brain of autonomous systems allowing it to perform complex tasks without human intervention or in human machine teaming applications.\n\nThis course introduces students to the methodology and algorithms involved in the autonomy stack. Perception is discussed on the example of various sensors and in particular LIDAR sensors used for autonomous driving. Localisation and mapping is covered through particle filters and graph based SLAM. Rapidly-exploring random tree plans, spline based Planning and raceline optimisation are discussed to give examples on planning and coordination. Control is covered through reference tracking and path following algorithms building on planning and coordination with explicit examples on 'wall following' and 'follow the gap' for obstacle avoidance.\n\nStudents will be challenged with the combination of different concepts in the the autonomy stack based on group based projects. Simulations, student projects and examples are based on the virtual environment Webots (https://cyberbotics.com).\n\nSince modern controller designs and various components of the autonomy stack rely on big data, additionally 'optimization in control' with applications in reinforcement and machine learning, and model predictive control, will equip students with a complete set of tools necessary to work on or to supervise intelligent autonomous systems projects."
+  "description": ""
  },
  {
   "code": "ENGN4200",
@@ -1054,7 +1054,7 @@
   "level": 4000,
   "title": "Individual Project",
   "units": 6,
-  "summary": "Students undertake an individual engineering project, with supervision.  Project topics can be selected from available student projects or developed by students as agreed with their supervisors.",
+  "summary": "Students undertake an individual engineering project, with supervision.",
   "offered": [
    "S1",
    "S2"
@@ -1071,7 +1071,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4200",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Students undertake an individual engineering project, with supervision. Project topics can be selected from available student projects or developed by students as agreed with their supervisors. Students are strongly advised to identify their supervisor and finalise their project topic prior to commencement of the first semester of their project. Students register their supervisor-approved project through Wattle course page by week 3 of the first semester of the project.\n\nStudents are expected to manage all aspects of their individual project from conceptualization through the planning phase to the monitoring and control of the project performance and the ultimate achievement of the assessment deliverables. Details of the project process, roles and responsibilities are communicated through the Wattle course page."
+  "description": ""
  },
  {
   "code": "ENGN4212",
@@ -1080,7 +1080,7 @@
   "level": 4000,
   "title": "Manufacturing Technologies",
   "units": 6,
-  "summary": "This subject introduces the elements of a number of basic manufacturing processes and associated materials behaviour required in the design of mechanical devices.",
+  "summary": "This subject introduces the elements of a number of basic manufacturing processes and associated materials behaviour required in the design of mechanical…",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed PHYS1101 and ENGN2217.\nIncompatible with ENGN6212.",
   "rule": {
@@ -1106,7 +1106,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4212",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This subject introduces the elements of a number of basic manufacturing processes and associated materials behaviour required in the design of mechanical devices. The configuration of machine tools is discussed in the context of orthogonal cutting and the basics of materials deformation processes, including, casting, forging, sheet-metal forming and polymer processing. Graphical representation techniques include sectioning, conventional representations, dimensioning, tolerancing further develops computer-aided design skills (CAD). Also included are 24 hours of practical workshop experience with assorted hand and machine tools to produce a manufactured article."
+  "description": ""
  },
  {
   "code": "ENGN4213",
@@ -1115,7 +1115,7 @@
   "level": 4000,
   "title": "Digital Systems and Microprocessors",
   "units": 6,
-  "summary": "This course introduces advanced theoretical and technical knowledge of digital circuits and embedded systems.  Digital and embedded systems are at the heart of almost all modern mechatronic and electronic technologies, ranging from smartphones to robots and autonomous vehicles.",
+  "summary": "This course introduces advanced theoretical and technical knowledge of digital circuits and embedded systems.",
   "offered": [
    "S1"
   ],
@@ -1148,7 +1148,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4213",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces advanced theoretical and technical knowledge of digital circuits and embedded systems. Digital and embedded systems are at the heart of almost all modern mechatronic and electronic technologies, ranging from smartphones to robots and autonomous vehicles. The course has a clear hardware focus, with the first half of the curriculum centered around the analysis and design of sequential logic circuits, and their implementation on field-programmable-gate-array (FPGA) platform using the Verilog hardware-description language. The later part of the course focuses on microcontroller-based embedded system design using ARM chips and C programming. Through the many lab activities and projects, students will have the opportunity to analyse, design, bench test and operate a variety of systems. The course will also develop advanced cognitive, technical and communication skills associated with complex digital design problems."
+  "description": ""
  },
  {
   "code": "ENGN4300",
@@ -1157,7 +1157,7 @@
   "level": 4000,
   "title": "Capstone Design Project",
   "units": 6,
-  "summary": "In Capstone Design Project, you will work as an independent group to deliver value on a real-world project.  Teams will work to define and scope their project in consultation with project hosts, and tailor and manage system life-cycle processes to the delivery of the project.",
+  "summary": "In Capstone Design Project, you will work as an independent group to deliver value on a real-world project.",
   "offered": [
    "S1",
    "S2"
@@ -1189,7 +1189,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4300",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "In Capstone Design Project, you will work as an independent group to deliver value on a real-world project. Teams will work to define and scope their project in consultation with project hosts, and tailor and manage system life-cycle processes to the delivery of the project.\n\nStudents will undertake skills modules during the project, designed to improve the quality of the final deliverables. During the project, you will be situated with other teams to simulate an engineering firm working on multiple projects, and will take a lead in reviewing the output and processes of other projects.\n\nDesign Project\n\nYou will be expected to negotiate, scope, manage and deliver on all aspects of a significant design project, and present your work at a public showcase towards the end of the project. As a capstone course, you will be applying what you have learnt throughout their degree, including the systems methodology throughout the Engineering Design core and your engineering major. Project teams will be formed during a Team Formation event in the early weeks of your first semester.\n\nEngineering Design @ ANU\n\nAt ANU, students are challenged to think of engineering design at a systems-level. At this stage in your degree, you will be using engineering design to make a positive impact on society through five domains: design, analysis, research, professional practice and teamwork. In Capstone Project, you will be able to navigate the whole project autonomously, drawing upon earlier Engineering Design courses and your major."
+  "description": ""
  },
  {
   "code": "ENGN4337",
@@ -1198,7 +1198,7 @@
   "level": 4000,
   "title": "Flight Dynamics",
   "units": 6,
-  "summary": "This course will focus on the theory and methods that are used to describe and predict the motion of aircraft.  Students will learn mathematical models and useful techniques that can be used to analyse, simulate and evaluate flying and handling qualities of an aircraft.",
+  "summary": "This course will focus on the theory and methods that are used to describe and predict the motion of aircraft.",
   "offered": [
    "S1"
   ],
@@ -1224,7 +1224,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4337",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course will focus on the theory and methods that are used to describe and predict the motion of aircraft. Students will learn mathematical models and useful techniques that can be used to analyse, simulate and evaluate flying and handling qualities of an aircraft. Concepts of guidance and navigation, as well as control are discussed.\n\nBuilding on the analysis-oriented aerodynamics, students will learn to apply key classical principles of configuration aerodynamics to give them a design-oriented perspective into the development and analysis of aircraft aerodynamics and provide them with skills to approach the configuration aerodynamic design process.\n\nTopics will include point-mass dynamics and forces, low-speed aerodynamics in 2D and 3D, induced drag and high-speed aerodynamics, power, thrust and flight envelop in cruising, performance during gliding, climbing, and turning, analysis of time and frequency response, and the role of flight and wind tunnel testing."
+  "description": ""
  },
  {
   "code": "ENGN4338",
@@ -1249,7 +1249,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4338",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course will first introduce students to different contemporary mechanisms of thrust generation in atmospheric and space flight. Student will learn how to design, analyse and control thrust generation in aircraft and rocket engines, and how the design and performance of these thrust platforms are related to the laws of thermodynamics, fuel-air power cycles, and combustion chemistry. Piston and gas turbine and piston and turboprop engine platforms will be discussed and compared in terms of efficiency, performance and limitations. Reactive thermal and chemical engines will be discussed, and the effect of propulsive nozzle design on the efficiency of will be discussed. Students will also be introduced to electric space propulsion systems for satellites and spacecraft, including ion and plasma drives, and their performance when compared to chemical rockets with respect to specific impulse and thrust. Alternative means of space propulsion, such as solar sails and beam-powered propulsion will be discussed. Control and integration with other aircraft sub-systems will also be considered."
+  "description": ""
  },
  {
   "code": "ENGN4339",
@@ -1258,7 +1258,7 @@
   "level": 4000,
   "title": "Aerospace Instrumentation and Avionics",
   "units": 6,
-  "summary": "This course provides students with experience in developing microcontroller-based instrumentation for aerospace applications, with particular emphasis on measurement of fluid quantities, including temperature, velocity and species concentration.",
+  "summary": "This course provides students with experience in developing microcontroller-based instrumentation for aerospace applications, with particular emphasis on…",
   "offered": [
    "S2"
   ],
@@ -1284,7 +1284,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4339",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides students with experience in developing microcontroller-based instrumentation for aerospace applications, with particular emphasis on measurement of fluid quantities, including temperature, velocity and species concentration. Students are introduced by practical activities to various transducer types, signal conditioning and noise and integration of sensors into avionic systems used for control and sensing in aerospace environments. The course also provides experience in register-level microcontroller programming and communication protocols typically used in sensor applications."
+  "description": ""
  },
  {
   "code": "ENGN4350",
@@ -1336,7 +1336,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4350",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "In this course, students undertake an individual engineering research or design project under supervision.\n\nStudents are encouraged to put forward their own ideas for the individual project, or they may select a project from a range of projects offered by researchers across the ANU. The topic area would normally be expected to be in the same area as the major (or one of the majors) being completed by the student.\n\nIt is recommended that students identify a project topic and supervisor well before project commencement.\n\nStudents are expected to manage all aspects of their individual project, from scoping through planning, execution and progress monitoring of the project, to ultimate achievement of the assessment deliverables. Details of the project process, roles and responsibilities are provided on the course Wattle site."
+  "description": ""
  },
  {
   "code": "ENGN4430",
@@ -1375,7 +1375,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4430",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course comprehensively explores how advanced deep learning techniques can be applied to solve various challenges in electronic engineering. It examines the use of neural networks for core tasks like signal detection, recognition, analysis, prediction, synthesis, and generation. It explores how deep learning can enhance the understanding, manipulation, and even the creation of electronic signals and data, providing students with a robust foundation in this rapidly evolving intersection of artificial intelligence and electronic engineering.\n\nThe course begins by characterising electronic signals and systems across various dimensions and outlines core engineering tasks related to signal and sensor data. It then introduces machine learning principles that form the basis of deep learning and continues with the following topics: discriminative deep learning models for both multi-dimensional signal analysis and sequential data processing, generative deep learning methods for signal enhancement and synthesis, emerging applications of deep learning in electronic systems, including the integration of physical principles through Physics-Informed Neural Networks, concluding with a forward-looking perspective on the field's future directions."
+  "description": ""
  },
  {
   "code": "ENGN4520",
@@ -1403,7 +1403,7 @@
   "level": 4000,
   "title": "Special Topics in Engineering 2",
   "units": 6,
-  "summary": "This course is available so that senior students can pursue, under supervision, topics that are not covered in the regular curriculum that will significantly increase their knowledge of some aspect of engineering.",
+  "summary": "This course is available so that senior students can pursue, under supervision, topics that are not covered in the regular curriculum that will significantly…",
   "offered": [],
   "requisiteText": null,
   "rule": null,
@@ -1413,7 +1413,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4521",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is available so that senior students can pursue, under supervision, topics that are not covered in the regular curriculum that will significantly increase their knowledge of some aspect of engineering.\n\nThe activities in the course will be some combination of lectures, reading, writing and project work, as appropriate to the topic.\n\nSPECIAL TOPIC\n\nIntroduction to Nonlinear Control - Contact Prof Chris Kellett or Dr Philipp Braun ."
+  "description": ""
  },
  {
   "code": "ENGN4524",
@@ -1440,7 +1440,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4524",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Photovoltaic electric systems have become an important area of engineering and are expected to become a mainstream source of energy in the near future. They are an example of interdisciplinary systems engineering, where basic electronic materials science is combined with power electronics, mechanical design, control systems and economic optimisation. The course will give an overview of the solar energy resource and will cover photovoltaic approaches to conversion to electricity in detail. The physics and fabrication of silicon solar cells, including a discussion of the trade-offs between cost, fabrication complexity and performance will be presented. Economic, technical and societal issues that must be considered and dealt with in the design of Photovoltaic systems will be covered. Computer modelling of photovoltaic systems will be used to reinforce understanding and acquire a familiarity with engineering tools for PV system design."
+  "description": ""
  },
  {
   "code": "ENGN4528",
@@ -1468,7 +1468,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4528",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Computer Vision is an important field of Artificial Intelligence concerned with automatically extracting useful information from images or videos. The explosive growth in digital imaging technologies, vision datasets and deep learning makes the problems of automated image interpretation even more exciting and more relevant than ever. This course introduces students to fundamental problems in computer vision and foundational techniques for solving them. Topics covered in detail include image formation, image filtering, camera geometry, thresholding and image segmentation, edge, point and feature detection, geometric frameworks for vision, single view and two views geometry, 3D visual reconstruction, camera calibration, stereo vision, image classification, object recognition, deep learning and neural networks. The course features extensive practical components including computer labs that provide students with the opportunity to practice and refine their skills in computer vision."
+  "description": ""
  },
  {
   "code": "ENGN4536",
@@ -1495,7 +1495,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4536",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides a comprehensive overview and advanced knowledge of modern mobile and wireless communication systems. Building on the prior knowledge on digital communications, students develop further understanding on the challenges and opportunities brought by the wireless medium in designing current and future wireless communication systems and networks.\n\nTopics include:\n\nOverview of digital wireless communications and cellular concept;\n\nInterference and traffic analysis for cellular networks;\n\nWireless fading channel modelling and characterisation;\n\nModulation and detection performance over fading channels;\n\nEqualisation techniques;\n\nMulti-carrier systems;\n\nSpread spectrum techniques;\n\nReceiver and transmitter diversity techniques;\n\nInformation theory of wireless channels;\n\nMultiple antenna communications;\n\nSpace-time communications;\n\nCooperative communications;\n\nStandards of wireless cellular networks (e.g. 2G, 3G, 4G, 5G and beyond)."
+  "description": ""
  },
  {
   "code": "ENGN4537",
@@ -1522,7 +1522,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4537",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Digital Signal Processing (DSP) is a fundamentally essential tool for all modern technology in Electrical and Mechanical Engineering fields. DSP has penetrated many domains of applications, such as digital communications, medical imaging, audio & video systems, human-machine interaction, robotics, remote sensing, finance, autonomous vehicles, etc. The Discrete-Time Signal Processing paradigm is a convenient setting to analyse the basic principles of DSP. At the end of this course, the students should be able to understand these basic principles, and apply fundamental algorithms and methods to analyse and design discrete-time systems for modern DSP applications. While the course will focus on the study of theoretical concepts, methods and algorithms, the student will also be confronted with application and implementation issues, through various examples and assignments requiring personal computer work including processing of real-world signals."
+  "description": ""
  },
  {
   "code": "ENGN4547",
@@ -1531,7 +1531,7 @@
   "level": 4000,
   "title": "Grid Integration of Renewable and Storage Technologies",
   "units": 6,
-  "summary": "This course will introduce the opportunities for, and the challenges of, integrating different forms of renewable energy generation, distributed energy resources and energy storage into the electricity system.",
+  "summary": "This course will introduce the opportunities for, and the challenges of, integrating different forms of renewable energy generation, distributed energy…",
   "offered": [
    "S1"
   ],
@@ -1547,7 +1547,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4547",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course will introduce the opportunities for, and the challenges of, integrating different forms of renewable energy generation, distributed energy resources and energy storage into the electricity system. In this context, this course will provide a broad understanding of the structure and operation of modern electricity systems and electricity markets. This course will introduce a variety of tools , techniques, and software to investigate these topics. The course will also provide opportunities to undertake laboratory sessions, providing significant hands on opportunities for exploring these crucial aspects of modern power system design and operation."
+  "description": ""
  },
  {
   "code": "ENGN4548",
@@ -1556,7 +1556,7 @@
   "level": 4000,
   "title": "Wind Energy",
   "units": 6,
-  "summary": "The Wind Energy course covers the full spectrum of wind energy from the underlying physics of wind and wind generation technologies, to practical issues including site prospecting, project financing, regulation and societal aspects.",
+  "summary": "The Wind Energy course covers the full spectrum of wind energy from the underlying physics of wind and wind generation technologies, to practical issues…",
   "offered": [
    "S2"
   ],
@@ -1589,7 +1589,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4548",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The Wind Energy course covers the full spectrum of wind energy from the underlying physics of wind and wind generation technologies, to practical issues including site prospecting, project financing, regulation and societal aspects. The course is delivered in collaboration between ANU Energy academics and Windlab, a Canberra-based innovative wind energy company that was a winning bidder in the 2015 ACT Government 200MW Wind Energy Reverse Auction. In addition to meeting the demand for up-to-date, structured knowledge in Wind Energy, the course cements scientific collaboration between ANU and Windlab, and opens up prospects for students to undertake research internships with Windlab as part of their degree."
+  "description": ""
  },
  {
   "code": "ENGN4549",
@@ -1598,7 +1598,7 @@
   "level": 4000,
   "title": "Engineering Nuclear Systems",
   "units": 6,
-  "summary": "Nuclear systems have many beneficial uses, ranging from medical imaging and cancer treatment to environmental monitoring – but the benefits these systems offer come with risks.",
+  "summary": "Nuclear systems have many beneficial uses, ranging from medical imaging and cancer treatment to environmental monitoring – but the benefits these systems…",
   "offered": [
    "S1"
   ],
@@ -1613,7 +1613,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4549",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Nuclear systems have many beneficial uses, ranging from medical imaging and cancer treatment to environmental monitoring – but the benefits these systems offer come with risks. For some nuclear systems, these risks – if not managed effectively – can have far-reaching and enduring impacts on society and the environment. This course will introduce a wide range of nuclear technologies being used in industry, medical and defence settings today. Students will develop expertise in some of the foundational nuclear physics and engineering knowledge required to design, operate, maintain and decommission such systems. Students will also learn how to consider nuclear systems using techniques from systems theory to identify potential risks stemming from technological, sociocultural, regulatory, and environmental factors shaping -- and being shaped by -- nuclear systems, and will learn how to integrate this view into engineering- and science-informed professional practice via individual and group assessments. Nuclear reactors will be heavily emphasized in the curriculum because of their significant risk profile, but the principles and practices introduced in the course will be applicable for engineering practices applicable to a broad range of nuclear systems."
+  "description": ""
  },
  {
   "code": "ENGN4625",
@@ -1640,7 +1640,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4625",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Power systems and power electronics are central to the generation, transmission, conversion, and use of electrical energy. This course gives students an integrated introduction to both areas, from semiconductor switches in DC-DC converters to transformers, transmission lines, and large-scale power networks.\n\nAcross eight modules, students study steady-state analysis of power electronic converters, equivalent circuit modelling, component losses, semiconductor devices, three-phase AC systems, transformers, transmission lines, power flow, voltage stability, faults, and reliability.\n\nThe course uses a flipped classroom format with pre-recorded lectures and compulsory in-person tutorials. Assessment is supervised and conducted through tutorial questions, oral tests, and written examinations. By the end of the course, students can model practical systems, verify predictions using simulation, and justify technical decisions clearly."
+  "description": ""
  },
  {
   "code": "ENGN4627",
@@ -1649,7 +1649,7 @@
   "level": 4000,
   "title": "Robotics",
   "units": 6,
-  "summary": "This course provides an introduction to modern robotics.  The focus is on robot kinematics, sensing techniques, localization, and mapping.",
+  "summary": "This course provides an introduction to modern robotics.",
   "offered": [
    "S1"
   ],
@@ -1667,7 +1667,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4627",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides an introduction to modern robotics. The focus is on robot kinematics, sensing techniques, localization, and mapping. Topics to be covered include robot spatial configuration, homogeneous coordinate transformation, mobile robot locomotion, mobile robot kinematics, robot motion control, sensors and perception, robot localization, simultaneous localization and mapping SLAM, robotic system architecture.\n\nThe applied component of the course includes experimental work with a programmable mobile robotic platform equipped with sensors. This applied component is aimed at integrating sensor measurements to build a representation of the environment and perform a robotic task."
+  "description": ""
  },
  {
   "code": "ENGN4628",
@@ -1722,7 +1722,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4628",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Optimisation and Control is the study of operation and decision-making over networks. The knowledge and tools in this course can be used in various engineering domains such as communication networks, robotics, smart grids, intelligent transportation systems, biomedical engineering, and financial markets. The emphasis of this course will be on basic continuous statespace optimization theories, dynamic programming principles, linear quadratic optimal control, constrained optimal control and receding horizon control."
+  "description": ""
  },
  {
   "code": "ENGN4706",
@@ -1731,7 +1731,7 @@
   "level": 4000,
   "title": "Engineering Research and Development Project",
   "units": 6,
-  "summary": "This course is one of several research and development project courses that form part of the BE (R&D) Program.  These individual project courses of varying length are offered at different stages of the degree program, adding up to a total of 30 units of project courses.",
+  "summary": "This course is one of several research and development project courses that form part of the BE (R&D) Program.",
   "offered": [
    "S1",
    "S2"
@@ -1757,7 +1757,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4706",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is one of several research and development project courses that form part of the BE (R&D) Program. These individual project courses of varying length are offered at different stages of the degree program, adding up to a total of 30 units of project courses. ENGN4706 is a 6-unit individual research project course, in which students undertake a substantial research project with an experienced supervisor, typically in the final year of their program."
+  "description": ""
  },
  {
   "code": "ENGN4712",
@@ -1766,7 +1766,7 @@
   "level": 4000,
   "title": "Engineering Research and Development Project",
   "units": 6,
-  "summary": "This course is one of several research and development project courses that form part of the BE (R&D) Program.  These individual project courses of varying length are offered at different stages of the degree program, adding up to a total of 30 units of project courses.",
+  "summary": "This course is one of several research and development project courses that form part of the BE (R&D) Program.",
   "offered": [
    "S1",
    "S2"
@@ -1794,7 +1794,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4712",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is one of several research and development project courses that form part of the BE (R&D) Program. These individual project courses of varying length are offered at different stages of the degree program, adding up to a total of 30 units of project courses. ENGN4712 is an 12-unit individual research project course, in which students undertake a substantial research project with an experienced supervisor, typically in the final year of their program."
+  "description": ""
  },
  {
   "code": "ENGN4718",
@@ -1803,7 +1803,7 @@
   "level": 4000,
   "title": "Engineering Research and Development Project",
   "units": 6,
-  "summary": "This course is one of several research and development project courses that form part of the BE (R&D) Program.  These individual project courses of varying length are offered at different stages of the degree program, adding up to a total of 30 units of project courses.",
+  "summary": "This course is one of several research and development project courses that form part of the BE (R&D) Program.",
   "offered": [
    "S1",
    "S2"
@@ -1829,7 +1829,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4718",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is one of several research and development project courses that form part of the BE (R&D) Program. These individual project courses of varying length are offered at different stages of the degree program, adding up to a total of 30 units of project courses. ENGN4718 is an 18-unit individual research project course, in which students undertake a substantial research project with an experienced supervisor, typically in the final years of their program."
+  "description": ""
  },
  {
   "code": "ENGN4810",
@@ -1838,7 +1838,7 @@
   "level": 4000,
   "title": "Nanotechnology and Applications",
   "units": 6,
-  "summary": "This course introduces the fundamentals of nano-scale engineering and manufacturing.  Current and future applications of nanostructured materials will be reviewed with respect to their impact in commercial products and technologies.",
+  "summary": "This course introduces the fundamentals of nano-scale engineering and manufacturing.",
   "offered": [],
   "requisiteText": "To enrol in this course you must have successfully completed PHYS1101 or PHYS1001 or PHYS1013.",
   "rule": {
@@ -1867,7 +1867,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4810",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces the fundamentals of nano-scale engineering and manufacturing. Current and future applications of nanostructured materials will be reviewed with respect to their impact in commercial products and technologies. Particular emphasis will be placed in biomedical applications. The main physical forces controlling the nucleation and deposition of nanostructures will be presented allowing a better understanding of key design factors at the nano-scale. Well-established and novel synthesis/fabrication methods nanostructures will be critically discussed giving a broad overview of the state-of-the-art nanomanufacturing processes. Standard characterization methods will be elucidated using various examples and exercises throughout the course."
+  "description": ""
  },
  {
   "code": "ENGN4820",
@@ -1876,7 +1876,7 @@
   "level": 4000,
   "title": "Bio Micro and Nano Electro-Mechanical Systems (BioMEMS and BioNEMS)",
   "units": 6,
-  "summary": "This is an interdisciplinary course that combines biomedical-sensing, mechanics, materials, structures, electronic systems, micro-/nano-fabrication and the disciplines of physics and chemistry.",
+  "summary": "This is an interdisciplinary course that combines biomedical-sensing, mechanics, materials, structures, electronic systems, micro-/nano-fabrication and the…",
   "offered": [],
   "requisiteText": "To enrol in this course you must have successfully completed PHYS1101 or PHYS1001 or PHYS1013.",
   "rule": {
@@ -1905,7 +1905,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4820",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This is an interdisciplinary course that combines biomedical-sensing, mechanics, materials, structures, electronic systems, micro-/nano-fabrication and the disciplines of physics and chemistry. MEMS/NEMS (Micro/Nano Electro-Mechanical System) technology, which integrates various micro/nano-sale sensors and actuators on a single chip, are becoming important as biological probes for molecule level mechanical sensing and manipulation. This course will discuss the fundamentals of bio-MEMS, micro-structures, micro-fluidics, micro-sensors and micro-actuators. It includes simple micro-electro-mechanical systems, scaling electronic and mechanical systems to the micro-/nanometer scale bio-sensors, material issues, and the integration of micromechanical structures and actuators with simple electronics."
+  "description": ""
  },
  {
   "code": "ENGN4901",
@@ -1914,7 +1914,7 @@
   "level": 4000,
   "title": "Water Systems Engineering",
   "units": 6,
-  "summary": "A detailed understanding of the water resources available in different environments, how water moves through the environment, and the management of these water resources are fundamental to the practice of environmental engineering.",
+  "summary": "A detailed understanding of the water resources available in different environments, how water moves through the environment, and the management of these…",
   "offered": [
    "S1"
   ],
@@ -1930,7 +1930,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4901",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "A detailed understanding of the water resources available in different environments, how water moves through the environment, and the management of these water resources are fundamental to the practice of environmental engineering.\n\nIn this course, students will investigate the foundational elements of how water moves over the surface of the land, including precipitation, evapotranspiration and streamflow, and relevant monitoring and analytical techniques. The second major component of the course is design and modelling for various water engineering applications, including design flood estimation (which is useful to inform the design of flood-proof infrastructures), rainfall-runoff processes, stream water quality, and design of water distribution systems. In response to the global tension between human activity and the natural environment (including the hastening impacts of climate change), the course will investigate the impacts of climate change on water resources and water management under competing demands. This course will provide an important focus on indigenous perspectives and contributions to this field of study. Students will be able to draw on course materials that provide diverse gender, cultural, and geographical perspectives on these topics."
+  "description": ""
  },
  {
   "code": "ENGN4902",
@@ -1939,7 +1939,7 @@
   "level": 4000,
   "title": "The Environmental Impacts of Engineered Systems",
   "units": 6,
-  "summary": "The ability to understand and manage the environmental impacts arising from the design and implementation of engineering systems is critical for environmental engineers.",
+  "summary": "The ability to understand and manage the environmental impacts arising from the design and implementation of engineering systems is critical for environmental…",
   "offered": [
    "S1"
   ],
@@ -1965,7 +1965,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4902",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The ability to understand and manage the environmental impacts arising from the design and implementation of engineering systems is critical for environmental engineers. This course introduces several critical concepts and tools, including Life Cycle Analyses (LCA), Environmental Impact Statements (EIS) methods and the ISO14001 Environmental Management System (EMS) framework. The course then provides an introduction for Engineers on environmental law in Australia, focusing on planning law, and pollution laws. Social, ethical, and political considerations are also covered. The course project provides an opportunity for students to apply and practice these skills and techniques on realistic scenarios. This course will provide an important focus on indigenous perspectives and contributions to this field of study. Students will be able to draw on course materials that provide diverse gender, cultural, and geographical perspectives on these topics."
+  "description": ""
  },
  {
   "code": "ENGN4903",
@@ -1990,7 +1990,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN4903",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The design of infrastructure systems can have significant positive and negative environmental impacts. Across its construction, operation and retirement, contemporary infrastructure must be designed to consider the environment, not just on a local scale but nationally and internationally. This course will consider the impacts of design decisions on large- and small-scale infrastructure across all stages of the life-cycle. Infrastructure design to support significant transitions such as zero-carbon, -emissions, and -waste will be explored along with design can build resilience to external shocks for infrastructure. Case studies across key sectors including energy, waste, transport and buildings in urban and rural settings will be used to investigate the application of design principles and the impacts of decisions. Various design approaches will be introduced to explore the role of design and decision-making to ensure positive environmental impacts from infrastructure systems. These include sustainable infrastructure design, green building design, cradle-to-cradle design, bio-mimicry, regenerative design, and design with country. This course will provide an important focus on indigenous perspectives and contributions to this field of study. Students will be able to draw on course materials that provide diverse gender, cultural, and geographical perspectives on these topics."
+  "description": ""
  },
  {
   "code": "ENGN5920",
@@ -1999,7 +1999,7 @@
   "level": 5000,
   "title": "Exchange Program in Engineering",
   "units": 6,
-  "summary": "Students enrol in this course when they have been approved to participate in formal exchange with one of The Australian National University's exchange partners. Please contact your program authority for further details regarding exchanges.",
+  "summary": "Students enrol in this course when they have been approved to participate in formal exchange with one of The Australian National University's exchange partners.",
   "offered": [
    "S1",
    "WINTER",
@@ -2014,7 +2014,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN5920",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Students enrol in this course when they have been approved to participate in formal exchange with one of The Australian National University's exchange partners. Please contact your program authority for further details regarding exchanges."
+  "description": ""
  },
  {
   "code": "ENGN6200",
@@ -2023,7 +2023,7 @@
   "level": 6000,
   "title": "Engineering Internship",
   "units": 6,
-  "summary": "The aim of this course is to use the internship experience to enable students to develop their engineering skills and practice.  Students will undertake industry placements and assessed for academic credit.",
+  "summary": "The aim of this course is to use the internship experience to enable students to develop their engineering skills and practice.",
   "offered": [
    "SUMMER",
    "S1",
@@ -2062,7 +2062,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6200",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The aim of this course is to use the internship experience to enable students to develop their engineering skills and practice. Students will undertake industry placements and assessed for academic credit. The internships will be aligned with the aims of the engineering program and its areas of specialisation. Students will experience a real-life engineering workplace and understand how their engineering and professional skills and knowledge can be utilised in industry. They will also be able to demonstrate functioning engineering knowledge, both new and existing, and identify areas of further development for their future careers."
+  "description": ""
  },
  {
   "code": "ENGN6213",
@@ -2089,7 +2089,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6213",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces advanced theoretical and technical knowledge of digital circuits and embedded systems. Digital systems and embedded systems are at the heart of almost all modern mechatronics and electronics technologies, ranging from smartphones to autonomous vehicle technologies. This course will first focus on sequential logic circuits, also called finite-state-machine, by utilising field-programmable-gate-array boards and a hardware-description language. The second focus will be on embedded system design using a microprocessor and programming. Through the term projects, students will design working embedded systems, then critically analyse and evaluate the erformance of the systems. The course will also develop advanced cognitive, technical and communication skills to solve complex design problems."
+  "description": ""
  },
  {
   "code": "ENGN6223",
@@ -2116,7 +2116,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6223",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Control Systems is the study of the analysis and regulation of the output behaviors of dynamical systems subject to input signals. The concepts and tools discussed in this course can be used in a wide spectrum of engineering disciplines such as mechanical, electrical, aerospace, manufacturing, and biomedical engineering. The emphasis of this course will be on the basic theories and feedback controller design methods of linear time-invariant systems."
+  "description": ""
  },
  {
   "code": "ENGN6224",
@@ -2143,7 +2143,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6224",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course explores the fundamental concepts of fluid mechanics and heat transfer, and their applications in engineering. The course begins by introducing analysis of static fluid bodies and then continues with fluid dynamics, principally the effects of viscous and thermal boundary layers. Fluid conservation equations are presented in detail. Fluid conveyancing through pipework and external flow analysis complete the coursework on fluids. The concept of boundary layer behaviour is then extended to heat transfer. Conduction, convection are treated at a fundamental level, leading to analysis and design of heat exchangers. Finally, radiation heat transfer is presented in a wider context."
+  "description": ""
  },
  {
   "code": "ENGN6250",
@@ -2152,7 +2152,7 @@
   "level": 6000,
   "title": "Professional Practice: Holistic Thinking and Communication",
   "units": 6,
-  "summary": "This is the one of two professional practice courses (the other is ENGN8260: Professional Practice: Responsible Innovation and Leadership) for engineering and computing graduate students that focus on developing professional and communication skills for the 21st century…",
+  "summary": "This is the one of two professional practice courses (the other is ENGN8260: Professional Practice: Responsible Innovation and Leadership) for engineering and…",
   "offered": [],
   "requisiteText": "To enrol in this course you must be enrolled in the Master of Engineering.",
   "rule": {
@@ -2166,7 +2166,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6250",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This is the one of two professional practice courses (the other is ENGN8260: Professional Practice: Responsible Innovation and Leadership) for engineering and computing graduate students that focus on developing professional and communication skills for the 21st century workplace. Industry bodies and employers of engineering and computing graduates consistently rank communication skills as one of the most important selection criteria when hiring.\n\nThis course aims to heighten students’ awareness of professional practice, and to develop new interpersonal and communication skills, leading to students becoming more competent professionals in their field.\n\nBased on Engineers Australia and Australian Computer Society professional competencies, students will develop and practice fundamental skills required by industry to better equip them for the workforce."
+  "description": ""
  },
  {
   "code": "ENGN6331",
@@ -2193,7 +2193,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6331",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "System dynamics is the study of the response of engineering systems with changing time. The concepts learned in this unit can be used in a number of engineering disciplines including mechatronics, and in particular robotics, mechanical, electrical, aerospace and marine engineering, manufacturing and biomedical engineering. The emphasis of this course will be on the analytical and numerical tools of multi-particle systems, rigid body dynamics, electromechanical systems, and complex network dynamics. The topics covered include direct (Newton-Euler) and indirect (Euler-Lagrange) methods for modelling and analysing kinematics and dynamics problems from various examples using differential equations, numerical approximation of linear or nonlinear dynamical equations, and graphical representation and analysis of complex network dynamics."
+  "description": ""
  },
  {
   "code": "ENGN6350",
@@ -2202,7 +2202,7 @@
   "level": 6000,
   "title": "Principles of Information Engineering",
   "units": 6,
-  "summary": "This course presents the principles and techniques fundamental to the representation, processing and transmission of information.  It equips students with the knowledge and tools to answers questions such as: What is information and how to quantify it?",
+  "summary": "This course presents the principles and techniques fundamental to the representation, processing and transmission of information.",
   "offered": [],
   "requisiteText": "To enrol in this course you must be studying Master of Engineering in Electrical Engineering or Master of Computing or Master of Computing (Advanced) or Master of Machine Learning and Computer Vision.\n\nIncompatible with ENGN3350, ENGN3226, ENGN6626, COMP2610, COMP6261.",
   "rule": {
@@ -2222,7 +2222,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6350",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course presents the principles and techniques fundamental to the representation, processing and transmission of information. It equips students with the knowledge and tools to answers questions such as: What is information and how to quantify it? How much can we compress data without distortion? How to reliably store and transmit information in a way that is robust to data corruption? And how to learn from data with uncertainty? The answers to these questions often find their applications in electronic and computer engineering fields and beyond, such as electronic systems, control systems, telecommunication systems, computer systems, machine learning, data science, neuroscience, bioinformatics and linguistics.\n\nThe course begins by introducing the basic concepts of probability and random variables, leading to probabilistic inference. It then continues with the following topics: concepts and tools of information theory, data compression principles and algorithms, error detection and correction codes for data storage and transmission, digital modulation and communication channel characteristics."
+  "description": ""
  },
  {
   "code": "ENGN6410",
@@ -2231,7 +2231,7 @@
   "level": 6000,
   "title": "Engineering Sustainable Systems",
   "units": 6,
-  "summary": "The increasing need for engineers to address sustainability will add significant complexity to their tasks.  They will therefore need the skills and knowledge to understand and predict the impact of their practice.",
+  "summary": "The increasing need for engineers to address sustainability will add significant complexity to their tasks.",
   "offered": [
    "S2"
   ],
@@ -2249,7 +2249,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6410",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The increasing need for engineers to address sustainability will add significant complexity to their tasks. They will therefore need the skills and knowledge to understand and predict the impact of their practice. This course will focus on the dynamics of complex systems in the context of the environmental and social impacts of technological innovation. Students will develop knowledge and skills that provide a basis for the design and sustainable operation of engineering-environment-social systems that are highly non-linear. Sustainability will be defined in engineering terms, and the basic dynamical principles will be explored in tutorial discussions. The course will be presented using a 'problem based learning' mode of delivery."
+  "description": ""
  },
  {
   "code": "ENGN6415",
@@ -2258,7 +2258,7 @@
   "level": 6000,
   "title": "Signal and Information Processing",
   "units": 6,
-  "summary": "This course explores the theoretical underpinnings and practical applications of signal processing techniques for analysing, manipulating, and extracting meaningful information from signals.",
+  "summary": "This course explores the theoretical underpinnings and practical applications of signal processing techniques for analysing, manipulating, and extracting…",
   "offered": [],
   "requisiteText": "To enrol in this course, you must be studying Master of Engineering in Electrical Engineering or Master of Computing or Master of Computing (Advanced) or Master of Machine Learning and Computer Vision.\nIncompatible with ENGN3415.",
   "rule": {
@@ -2274,7 +2274,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6415",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course explores the theoretical underpinnings and practical applications of signal processing techniques for analysing, manipulating, and extracting meaningful information from signals. Students will gain a comprehensive understanding of the mathematical principles governing diverse signal processing methodologies and acquire the skills necessary to address real-world challenges across a broad spectrum of electronic engineering and cognate domains, including digital communications, medical imaging, audio and video systems, human-machine interaction, robotics, remote sensing, finance, and autonomous vehicles.\n\nThis course commences with an introduction to signal synthesis and analysis, employing foundational tools such as orthogonal bases, Hilbert spaces, and matrix decompositions. It then explores Fourier methods for comprehensive time-frequency analysis, statistical signal processing techniques designed to leverage inherent statistical properties, and adaptive methods for effectively addressing the complexities of time-varying or non-linear signals and systems. The course concludes with a discussion on foundational contributions of non-linear signal processing to the core concepts of neural networks and deep learning. Emphasis will be placed on both theoretical rigour and practical implementation using computational tools."
+  "description": ""
  },
  {
   "code": "ENGN6516",
@@ -2283,7 +2283,7 @@
   "level": 6000,
   "title": "Energy Resources and Renewable Technologies",
   "units": 6,
-  "summary": "Providing energy for the entire planet without causing catastrophic climate change requires profound Energy Change.  Major developments are occurring in the energy sector, both with energy technologies and the economic, social and policy measures that accompany them.",
+  "summary": "Providing energy for the entire planet without causing catastrophic climate change requires profound Energy Change.",
   "offered": [
    "S2"
   ],
@@ -2301,7 +2301,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6516",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Providing energy for the entire planet without causing catastrophic climate change requires profound Energy Change. Major developments are occurring in the energy sector, both with energy technologies and the economic, social and policy measures that accompany them. This course focuses on renewable energy resources – the technologies that will comprise a large part of global Energy Change. It aims to help students identify the major ‘big picture’ questions in the area of energy resources and develop technically sound ways of quantitatively answering them.\n\nThe course commences with an overview of world energy resources, the scientific evidence for climate change, and an introduction to asking good questions - with a focus on ball-park analysis and appropriate physical units.\n\nWe next look at individual energy resources in detail (solar PV, nuclear, wind, solar thermal, hydro, bio, geothermal and tidal). We examine their scientific and technical foundations, available resources, integration with the grid, and broader economic and social issues to assess their ultimate potential as well as their practical limitations. Alongside the technical assessment of energy resources, we dedicated individual lectures to calculating the levelized cost of electricity, understanding the current and future electrical grid, and examining broader social and political issues concerned with energy use. Because of the rapid pace of change in this field, the course focuses on developing students’ skills in framing questions and finding answers, as well as being able to critically evaluate those answers and support them with scientific evidence."
+  "description": ""
  },
  {
   "code": "ENGN6524",
@@ -2328,7 +2328,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6524",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Photovoltaic electric systems have become an important area of engineering and are expected to become a mainstream source of energy in the near future. They are an example of interdisciplinary systems engineering, where basic electronic materials science is combined with power electronics, mechanical design, control systems and economic optimisation. The course will give an overview of the solar energy resource and photovoltaic approaches to conversion to electricity in detail. The physics and fabrication of silicon solar cells, including a discussion of the trade-offs between cost, fabrication complexity and performance will be presented. Economic, technical and societal issues that must be considered and dealt with in the design of Photovoltaic systems will be covered. Computer modelling of photovoltaic systems will be used to reinforce understanding and acquire a familiarity with engineering tools for PV system design."
+  "description": ""
  },
  {
   "code": "ENGN6528",
@@ -2357,7 +2357,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6528",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Computer Vision is an important field of Artificial Intelligence concerned with automatically extracting useful information from images or videos. The explosive growth in digital imaging technologies, vision datasets and deep learning makes the problems of automated image interpretation even more exciting and more relevant than ever. This course introduces students to fundamental problems in computer vision and foundational techniques for solving them. Topics covered in detail include: image formation, image filtering, camera geometry, thresholding and image segmentation, edge, point and feature detection, geometric frameworks for vision, single view and two views geometry, 3D visual reconstruction, camera calibration, stereo vision, image classification, object recognition, deep learning and neural networks. The course features extensive practical components including computer labs that provide students with the opportunity to practice and refine their skills in computer vision."
+  "description": ""
  },
  {
   "code": "ENGN6536",
@@ -2384,7 +2384,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6536",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides a comprehensive overview and advanced knowledge of modern mobile and wireless communication systems. Building on the prior knowledge on digital communications, students develop further understanding on the challenges and opportunities brought by the wireless medium in designing current and future wireless communication systems and networks.\n\nTopics include:\n\nOverview of digital wireless communications and cellular concept;\n\nInterference and traffic analysis for cellular networks;\n\nWireless fading channel modelling and characterisation;\n\nModulation and detection performance over fading channels;\n\nEqualisation techniques;\n\nMulti-carrier systems;\n\nSpread spectrum techniques;\n\nReceiver and transmitter diversity techniques;\n\nInformation theory of wireless channels;\n\nMultiple antenna communications;\n\nSpace-time communications;\n\nCooperative communications;\n\nStandards of wireless cellular networks (e.g. 2G, 3G, 4G, 5G and beyond)."
+  "description": ""
  },
  {
   "code": "ENGN6537",
@@ -2407,7 +2407,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6537",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Digital Signal Processing (DSP) is a fundamentally essential tool for all modern technology in Electrical and Mechanical Engineering fields. DSP has penetrated many domains of applications, such as digital communications, medical imaging, audio & video systems, human-machine interaction, robotics, remote sensing, finance, autonomous vehicles, etc. The Discrete-Time Signal Processing paradigm is a convenient setting to analyse the basic principles of DSP. At the end of this course, the students should be able to understand these basic principles, and apply fundamental algorithms and methods to analyse and design discrete-time systems for modern DSP applications. While the course will focus on the study of theoretical concepts, methods and algorithms, the student will also be confronted with application and implementation issues, through various examples and assignments requiring personal computer work including processing of real-world signals."
+  "description": ""
  },
  {
   "code": "ENGN6539",
@@ -2416,7 +2416,7 @@
   "level": 6000,
   "title": "Computer Networks",
   "units": 6,
-  "summary": "This course studies the standard models for the layered approach to communication between autonomous machines in a network, and the main characteristics of data transmission across various physical link types.",
+  "summary": "This course studies the standard models for the layered approach to communication between autonomous machines in a network, and the main characteristics of…",
   "offered": [
    "S1"
   ],
@@ -2436,7 +2436,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6539",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course studies the standard models for the layered approach to communication between autonomous machines in a network, and the main characteristics of data transmission across various physical link types. It considers how to design networks and protocols for diverse situations, analyses several application and support protocols from a distributed systems viewpoint, and identifies significant problem areas in networked communications.\n\nTopics include: communication network architectures, signalling and modulation across physical media, real-world local and wide-area networks, internet protocol fundamentals, performance and monitoring of networks, routing, network security, and application protocols for distributed systems including web, email, video, internet-of-everything and other contemporary network topics."
+  "description": ""
  },
  {
   "code": "ENGN6548",
@@ -2445,7 +2445,7 @@
   "level": 6000,
   "title": "Wind Energy",
   "units": 6,
-  "summary": "The Wind Energy course covers the full spectrum of wind energy from the underlying physics of wind and wind generation technologies, to practical issues including site prospecting, project financing, regulation and societal aspects.",
+  "summary": "The Wind Energy course covers the full spectrum of wind energy from the underlying physics of wind and wind generation technologies, to practical issues…",
   "offered": [
    "S2"
   ],
@@ -2459,7 +2459,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6548",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The Wind Energy course covers the full spectrum of wind energy from the underlying physics of wind and wind generation technologies, to practical issues including site prospecting, project financing, regulation and societal aspects. The course is delivered in collaboration between ANU Energy academics and Windlab, a Canberra-based innovative wind energy company that was a winning bidder in the 2015 ACT Government 200MW Wind Energy Reverse Auction. In addition to meeting the demand for up-to date, structured knowledge in Wind Energy, the course cements scientific collaboration between ANU and Windlab, and opens up prospects for students to undertake research internships with Windlab as part of their degree."
+  "description": ""
  },
  {
   "code": "ENGN6625",
@@ -2486,7 +2486,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6625",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Power systems and power electronics are central to the generation, transmission, conversion, and use of electrical energy. This course gives students an integrated introduction to both areas, from semiconductor switches in DC-DC converters to transformers, transmission lines, and large-scale power networks. Across eight modules, students study steady-state analysis of power electronic converters, equivalent circuit modelling, component losses, semiconductor devices, three-phase AC systems, transformers, transmission lines, power flow, voltage stability, faults, and reliability. The course uses a flipped classroom format with pre-recorded lectures and compulsory in-person tutorials. Assessment is supervised and conducted through tutorial questions, oral tests, and written examinations. By the end of the course, students can model practical systems, verify predictions through simulation, and clearly justify technical decisions."
+  "description": ""
  },
  {
   "code": "ENGN6626",
@@ -2515,7 +2515,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6626",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course presents the principles and techniques fundamental to the analysis and design of digital communication systems. It focuses on the basic building blocks of a digital communication system (source encoder/decoder, channel encoder/decoder, digital modulator/demodulator and channel characteristics). The emphasis is on mathematical underpinnings of communications theory along with practical applications and emerging machine learning tools. Specific topics include:\n\n• Review of Probability and Random Processes and Modelling of Gaussian noise process.\n\n• Digital Modulation Techniques: Signal space analysis, BPSK, QPSK, QAM.\n\n• Digital Demodulation & Detection Techniques: Correlator-demodulator, Maximum likelihood detection (MLD) in additive white Gaussian noise (AWGN), bit error rate (BER) performance.\n\n• Channel Encoder/Decoder: Linear block codes, Cyclic codes, Convolutional codes, Viterbi algorithm.\n\n• Information Theory and Source Coding: Source Entropy, Huffman Coding, Channel Capacity.\n\nMatlab and/or Python-based programming environment is used in the analysis and design."
+  "description": ""
  },
  {
   "code": "ENGN6627",
@@ -2524,7 +2524,7 @@
   "level": 6000,
   "title": "Robotics",
   "units": 6,
-  "summary": "This course provides an introduction to modern robotics.  The focus is on robot kinematics, sensing techniques, localization, and mapping.",
+  "summary": "This course provides an introduction to modern robotics.",
   "offered": [
    "S1"
   ],
@@ -2542,7 +2542,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6627",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides an introduction to modern robotics. The focus is on robot kinematics, sensing techniques, localization, and mapping. Topics to be covered include robot spatial configuration, homogeneous coordinate transformation, mobile robot locomotion, mobile robot kinematics, robot motion control, sensors and perception, robot localization, simultaneous localization and mapping SLAM, robotic system architecture.\n\nThe applied component of the course includes experimental work with a programmable mobile robotic platform equipped with sensors. This applied component is aimed at integrating sensor measurements to build a representation of the environment and perform a robotic task."
+  "description": ""
  },
  {
   "code": "ENGN6628",
@@ -2563,7 +2563,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN6628",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Network Optimisation and Control is the study of operation and decision-making over networks. The knowledge and tools in this course can be used in various engineering domains such as communication networks, robotics, smart grids, intelligent transportation systems, biomedical engineering, and financial markets. The emphasis of this course will be on basic continuous state-space optimization theories, dynamic programming principles, linear quadratic optimal control, constrained optimal control and receding horizon control, and distributed control of complex networks."
+  "description": ""
  },
  {
   "code": "ENGN8100",
@@ -2572,7 +2572,7 @@
   "level": 8000,
   "title": "Introduction to Systems Engineering",
   "units": 6,
-  "summary": "This course provides an introduction to systems engineering fundamentals, establishing a robust framework for designing complex engineered systems in response to customer needs and expectations.",
+  "summary": "This course provides an introduction to systems engineering fundamentals, establishing a robust framework for designing complex engineered systems in response…",
   "offered": [
    "S1"
   ],
@@ -2588,7 +2588,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8100",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides an introduction to systems engineering fundamentals, establishing a robust framework for designing complex engineered systems in response to customer needs and expectations. The emphasis of the course is on the core activities of systems engineering, which are requirements analysis; functional analysis and allocation; and design synthesis, test and evaluation. Together, these activities and concerns form what is called the systems engineering process, which provides a comprehensive, life-cycle balanced approach to the design of complex systems that satisfy customer expectations and public acceptability. The course covers lifecycle concerns such as reliability, maintainability and human factors."
+  "description": ""
  },
  {
   "code": "ENGN8122",
@@ -2597,7 +2597,7 @@
   "level": 8000,
   "title": "Intelligent Autonomous Systems",
   "units": 6,
-  "summary": "Dynamical systems such as robots, manipulators and vehicles rely on several building blocks and software layers that enable the them to operate autonomously in complex environments.",
+  "summary": "Dynamical systems such as robots, manipulators and vehicles rely on several building blocks and software layers that enable the them to operate autonomously…",
   "offered": [
    "S2"
   ],
@@ -2616,7 +2616,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8122",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Dynamical systems such as robots, manipulators and vehicles rely on several building blocks and software layers that enable the them to operate autonomously in complex environments. The collection of building blocks called autonomy stack and consisting of perception, planning and coordination, localisation and mapping, and control, define the brain of autonomous systems allowing it to perform complex tasks without human intervention or in human machine teaming applications.\n\nThis course introduces students to the methodology and algorithms involved in the autonomy stack. Perception is discussed on the example of various sensors and in particular LIDAR sensors used for autonomous driving. Localisation and mapping is covered through particle filters and graph based SLAM. Rapidly-exploring random tree plans, spline based Planning and raceline optimisation are discussed to give examples on planning and coordination. Control is covered through reference tracking and path following algorithms building on planning and coordination with explicit examples on 'wall following' and 'follow the gap' for obstacle avoidance.\n\nStudents will be challenged with the combination of different concepts in the the autonomy stack based on group based projects. Simulations, student projects and examples are based on the virtual environment Webots (https://cyberbotics.com).\n\nSince modern controller designs and various components of the autonomy stack rely on big data, additionally 'optimization in control' with applications in reinforcement and machine learning, and model predictive control, will equip students with a complete set of tools necessary to work on or to supervise intelligent autonomous systems projects."
+  "description": ""
  },
  {
   "code": "ENGN8170",
@@ -2625,7 +2625,7 @@
   "level": 8000,
   "title": "Group Project",
   "units": 12,
-  "summary": "This course is designed to offer students an opportunity to collaborate with peers in a small-group setting and tackle a real-world engineering problem under the direction of an external project client.",
+  "summary": "This course is designed to offer students an opportunity to collaborate with peers in a small-group setting and tackle a real-world engineering problem under…",
   "offered": [
    "S1",
    "S2"
@@ -2669,7 +2669,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8170",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is designed to offer students an opportunity to collaborate with peers in a small-group setting and tackle a real-world engineering problem under the direction of an external project client. Project teams receive a client-drafted problem statement, which calls for engineering expertise. From this problem statement, the students are responsible for developing a full set of requirements and key performance indicators to guide their proposed solution. Using a systems engineering framework and working with a high degree of autonomy, the students then proceed through a systems design process including conceptual design, sub-system requirements, and trade-off analyses. Finally, they develop and implement their engineered solution, and evaluate it against the agreed performance indicators. At the end of the project, clients take delivery—and participate in the evaluation—of their team's output. The course emphasises value-driven work, as evaluated in terms of: effective teamwork and peer support; impactful communication (formal and informal, written and oral); insightful personal and professional development; and elegance of engineered solutions."
+  "description": ""
  },
  {
   "code": "ENGN8224",
@@ -2678,7 +2678,7 @@
   "level": 8000,
   "title": "Advanced Control Systems",
   "units": 6,
-  "summary": "This course introduces students to recently developed and advanced techniques for solving complex control problems.  The course presents theory and methodology for analysis and modelling of systems and signals, and methods for design and synthesis of feedback controllers.",
+  "summary": "This course introduces students to recently developed and advanced techniques for solving complex control problems.",
   "offered": [],
   "requisiteText": "To enrol in this course you must be studying a Master of Engineering, and have completed ENGN3223 or ENGN6223 or an equivalent course in control systems.",
   "rule": {
@@ -2716,7 +2716,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8224",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces students to recently developed and advanced techniques for solving complex control problems. The course presents theory and methodology for analysis and modelling of systems and signals, and methods for design and synthesis of feedback controllers. The emphasis of this course will be on robust control and optimal control of dynamical systems."
+  "description": ""
  },
  {
   "code": "ENGN8260",
@@ -2725,7 +2725,7 @@
   "level": 8000,
   "title": "Professional Practice: Responsible Innovation and Leadership",
   "units": 6,
-  "summary": "This is one of two professional practice courses (the other is ENGN6250: Holistic Thinking and Communication) for engineering and computing graduate students that focus on developing professional and communication skills for the 21st century workplace.",
+  "summary": "This is one of two professional practice courses (the other is ENGN6250: Holistic Thinking and Communication) for engineering and computing graduate students…",
   "offered": [],
   "requisiteText": "To enrol in this course you must be enrolled in the Master of Engineering.",
   "rule": {
@@ -2742,7 +2742,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8260",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This is one of two professional practice courses (the other is ENGN6250: Holistic Thinking and Communication) for engineering and computing graduate students that focus on developing professional and communication skills for the 21st century workplace.\n\nThe course builds upon individual capacity, and further develops students’ professional skills, values, and attributes in ways that directly complement their technical expertise. These skills will enable students to perform effectively in the complex context in which engineering and computer professionals operate. In particular, the course will provide students with skills to interpret, critically evaluate, and justify their own and others’ decisions with reference to ethical and professional standards and expectations. The practical focus on these skills and their integration into the engineering and computing curriculum reflects the contemporary expectations of professional organisations (e.g. Engineers Australia and the Australian Computer Society) and enhances the employment opportunities of graduates."
+  "description": ""
  },
  {
   "code": "ENGN8280",
@@ -2751,7 +2751,7 @@
   "level": 8000,
   "title": "Responsible Practice, Innovation and Leadership",
   "units": 6,
-  "summary": "This professional practice course for computing and engineering graduate students focuses on developing professional and communication skills essential for the 21st-century workplace.",
+  "summary": "This professional practice course for computing and engineering graduate students focuses on developing professional and communication skills essential for…",
   "offered": [
    "S1",
    "S2"
@@ -2772,7 +2772,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8280",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This professional practice course for computing and engineering graduate students focuses on developing professional and communication skills essential for the 21st-century workplace.\n\nThe course builds upon individual capacity, and further develops students’ professional skills, values, and attributes in ways that directly complement their technical expertise. These skills will enable students to perform effectively in the complex transdisciplinary environments in which computing and engineering professionals operate. In particular, the course will provide students with skills to interpret, critically evaluate, and justify their own and others’ decisions with reference to ethical and professional standards and expectations. The practical focus on these skills and their integration into the computing and engineering curriculum reflects the contemporary expectations of professional organisations (e.g. ACS (Australian Computer Society) and Engineers Australia) and enhances the employment and leadership opportunities of graduates."
+  "description": ""
  },
  {
   "code": "ENGN8430",
@@ -2797,7 +2797,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8430",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course comprehensively explores how advanced deep learning techniques can be applied to solve various challenges in electronic engineering. It examines the use of neural networks for core tasks like signal detection, recognition, analysis, prediction, synthesis, and generation. It explores how deep learning can enhance the understanding, manipulation, and even the creation of electronic signals and data, providing students with a robust foundation in this rapidly evolving intersection of artificial intelligence and electronic engineering.\n\nThe course begins by characterising electronic signals and systems across various dimensions and outlines core engineering tasks related to signal and sensor data. It then introduces machine learning principles that form the basis of deep learning and continues with the following topics: discriminative deep learning models for both multi-dimensional signal analysis and sequential data processing, generative deep learning methods for signal enhancement and synthesis, emerging applications of deep learning in electronic systems, including the integration of physical principles through Physics-Informed Neural Networks, concluding with a forward-looking perspective on the field's future directions."
+  "description": ""
  },
  {
   "code": "ENGN8501",
@@ -2806,7 +2806,7 @@
   "level": 8000,
   "title": "Advanced Topics in Computer Vision",
   "units": 6,
-  "summary": "The goal of Computer Vision is to enable the computer or AI agent to ‘see’ and ‘understand’ the world like if not better than human beings.  To that end, the computer needs to use sensors such as RGB or depth sensors to interact with the world.",
+  "summary": "The goal of Computer Vision is to enable the computer or AI agent to ‘see’ and ‘understand’ the world like if not better than human beings.",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed ENGN6528 or COMP6528.",
   "rule": {
@@ -2832,7 +2832,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8501",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The goal of Computer Vision is to enable the computer or AI agent to ‘see’ and ‘understand’ the world like if not better than human beings. To that end, the computer needs to use sensors such as RGB or depth sensors to interact with the world. It mainly includes the understanding of the environment (scene understanding), humans, and further interaction with humans. Mapping to specific computer vision problems, this course will cover advanced topics in computer vision, such as 1) Scene Understanding, 2)Graphical Models, 3)Physics based Vision , 4) Human Analysis and modelling. This course will review current research literature in the above fields and update students with state-of-the-art techniques. Students will work on group projects related to concrete research problems and present their research results in the form of seminars."
+  "description": ""
  },
  {
   "code": "ENGN8535",
@@ -2841,7 +2841,7 @@
   "level": 8000,
   "title": "Engineering Data Analytics",
   "units": 6,
-  "summary": "Data-driven decision-making is an essential component of emerging engineering systems that generate and consume very large amounts of sensing data from autonomous vehicles to digital pathology.",
+  "summary": "Data-driven decision-making is an essential component of emerging engineering systems that generate and consume very large amounts of sensing data from…",
   "offered": [
    "S1"
   ],
@@ -2856,7 +2856,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8535",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Data-driven decision-making is an essential component of emerging engineering systems that generate and consume very large amounts of sensing data from autonomous vehicles to digital pathology. This course covers technologies and methodologies necessary for inferring useful information and identifying underlying patterns from often raw, incomplete, noisy and corrupted data that is present in real-life applications. It will also give students the opportunity to explore advanced solutions of data analytics such as dimensionality reduction, sparse encoding, compressive sensing, nonlinear filtering, manifold learning, and generative data modelling."
+  "description": ""
  },
  {
   "code": "ENGN8536",
@@ -2865,7 +2865,7 @@
   "level": 8000,
   "title": "Advanced Topics in Robotics and Autonomous Systems",
   "units": 6,
-  "summary": "This course is for graduate students interested in the fields of robot perception, motion planning, control theory, and autonomous systems.  This course introduces students to the methodology and algorithms involved in the design and control of an autonomous race car.",
+  "summary": "This course is for graduate students interested in the fields of robot perception, motion planning, control theory, and autonomous systems.",
   "offered": [
    "S2"
   ],
@@ -2883,7 +2883,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/ENGN8536",
   "catalogueYear": 2025,
   "retired": false,
-  "description": "This course is for graduate students interested in the fields of robot perception, motion planning, control theory, and autonomous systems. This course introduces students to the methodology and algorithms involved in the design and control of an autonomous race car. Topics include localisation, scan matching, PID control, mapping, learning based visual navigation, model-predictive control and ethical decision making. Students test and implement their algorithms in a racing sand-box."
+  "description": ""
  },
  {
   "code": "ENGN8538",
@@ -2892,7 +2892,7 @@
   "level": 8000,
   "title": "Probability and Stochastic Processes in Engineering",
   "units": 6,
-  "summary": "The objective of ENGN8538 is to provide the fundamentals and advanced concepts of probability theory and random process to support graduate coursework and research in electrical, electronic and computer engineering.",
+  "summary": "The objective of ENGN8538 is to provide the fundamentals and advanced concepts of probability theory and random process to support graduate coursework and…",
   "offered": [
    "S1"
   ],
@@ -2908,7 +2908,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8538",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The objective of ENGN8538 is to provide the fundamentals and advanced concepts of probability theory and random process to support graduate coursework and research in electrical, electronic and computer engineering. The required mathematical foundations will be studied at a fairly rigorous level and the applications of the probability theory and random processes to engineering problems will be emphasised. The simulation techniques will also be studied and MATLAB will be used as a software tool for bridging the probability theory and engineering applications.\n\nTopics include:\n\n• Overview of elementary probability;\n\n• Discrete and continuous random variables and their statistical properties;\n\n• Important random variables and their applications;\n\n• Functions of random variables;\n\n• Statistical properties of multiple random variables;\n\n• Random processes: Classification and characterisation;\n\n• Properties of random processes: Stationarity, correlation function, power spectral density, spectral analysis;\n\n• Special processes: such as Gaussian and Poisson;\n\n• Overview of Markov process and applications;\n\n• Estimation theory, MMSE estimation, performance comparison of estimators;\n\n• Overview of detection theory;\n\n• Simulation techniques: generation of random variable/process in MATLAB;\n\n• Examples of applications from signal processing (e.g., Wiener filter), digital communications (e.g., analysis and simulation of coded digital communication system) and mechatronic systems (e.g. estimation in simultaneous localisation and mapping)."
+  "description": ""
  },
  {
   "code": "ENGN8601",
@@ -2954,7 +2954,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8601",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This is a flexible 6-24 unit course that allows students to undertake a substantial research project on an appropriate engineering topic. Students will be expected to carry out independent research on this topic whilst working under a supervisor who is affiliated with the College of Engineering, Computer & Cybernetics. The nature of the project can be theoretical, experimental, design or development based on the interests of the student and the availability of supervisors.\n\nStudents must obtain permission from the Master of Engineering program convenor and secure the support of a supervisor before enrolling in this course."
+  "description": ""
  },
  {
   "code": "ENGN8602",
@@ -2978,7 +2978,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8602",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This is a flexible 6 or 12 unit course that allows students to undertake a substantial research project on an appropriate engineering topic. Students will be expected to carry out independent research on this topic whilst working under a supervisor who is affiliated with the College of Engineering and Computer Science. The nature of the project can be theoretical, experimental, design or development based on the interests of the student and the availability of supervisors. Students must secure support of a supervisor and obtain permission from the Master of Engineering program convenor before enrolling in this course."
+  "description": ""
  },
  {
   "code": "ENGN8820",
@@ -3016,7 +3016,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8823",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "NA disestablish"
+  "description": ""
  },
  {
   "code": "ENGN8830",
@@ -3025,7 +3025,7 @@
   "level": 8000,
   "title": "Photovoltaic Power Plants",
   "units": 6,
-  "summary": "Photovoltaics (PV) is rapidly becoming a major source of cheap electricity.  This course provides the tools and methods to plan, design, build and operate PV power plants, with an emphasis on utility-scale plants.",
+  "summary": "Photovoltaics (PV) is rapidly becoming a major source of cheap electricity.",
   "offered": [
    "S2"
   ],
@@ -3037,7 +3037,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8830",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Photovoltaics (PV) is rapidly becoming a major source of cheap electricity. This course provides the tools and methods to plan, design, build and operate PV power plants, with an emphasis on utility-scale plants. Within the course students execute a realistic PV plant project, including planning, design, licensing, construction, operation and maintenance, and financing. Most of the modules that compose the course are presented at a generic systems level, and are accessible to students with a non-engineering background. Some of the modules are complemented with more detailed technical contents, as required for professional engineers. The course intends to have a broad appeal, preparing students for policy, managerial or technical jobs in the fast-growing area of Solar PV systems."
+  "description": ""
  },
  {
   "code": "ENGN8831",
@@ -3046,7 +3046,7 @@
   "level": 8000,
   "title": "Integration of Renewable Energy into Power Systems and Microgrids",
   "units": 6,
-  "summary": "This course aims to provide a strong understanding of power systems, their operation and control and particularly of issues related to the integration of distributed renewable generation into the network.",
+  "summary": "This course aims to provide a strong understanding of power systems, their operation and control and particularly of issues related to the integration of…",
   "offered": [
    "S1"
   ],
@@ -3058,7 +3058,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8831",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course aims to provide a strong understanding of power systems, their operation and control and particularly of issues related to the integration of distributed renewable generation into the network. The content focuses on technical aspects of traditional and renewable electrical power generation, power transmission and distribution, power network stability, management and control, electricity market operations and smart grid technologies with particular emphasis on the integration of renewable generation onto the network at both transmission and distribution level and the challenges and opportunities associated with that. A solid basis in the understanding of future power networks with distributed generation, storage and smart grid technology is given. The course is suitable for electrical engineers or systems engineers with strong electrical or renewable energy backgrounds."
+  "description": ""
  },
  {
   "code": "ENGN8832",
@@ -3067,7 +3067,7 @@
   "level": 8000,
   "title": "Urban Energy and Energy Efficiency",
   "units": 6,
-  "summary": "Urban energy and energy efficiency will be placed in context in respect of demographic and social trends in Australia and worldwide, energy delivery economics, greenhouse gas emissions, energy storage, transport systems and the rapidly increasing use of renewable energy and…",
+  "summary": "Urban energy and energy efficiency will be placed in context in respect of demographic and social trends in Australia and worldwide, energy delivery…",
   "offered": [],
   "requisiteText": null,
   "rule": null,
@@ -3077,7 +3077,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8832",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Urban energy and energy efficiency will be placed in context in respect of demographic and social trends in Australia and worldwide, energy delivery economics, greenhouse gas emissions, energy storage, transport systems and the rapidly increasing use of renewable energy and electrical energy storage. Rapid changes are occurring in urban energy systems, driven by falling prices for photovoltaic (PV) systems and storage, and concerns over greenhouse gas emissions. Roof-mounted PV systems are strongly competing with electricity from the grid and with gas for provision of water heating, space heating & cooling, and electrical services. Heat pumps, thermal storage, battery storage, smart electrical energy controllers, energy-efficient appliances and solar-efficient buildings are facilitating a rapid change in energy use patterns in buildings and factories. Electric cars and public transport have the potential rapidly to change urban transport systems and transport energy use patterns.\n\nThe course aims to equip students with the theoretical foundation and practical training to apply a range of commercial 3D simulation tools to generate wholesome building energy efficiency reports on the impact of building material choices and building design to the lighting, heating and cooling energy load, roof-top PV power generation potential and battery needs within a complete, integrated package."
+  "description": ""
  },
  {
   "code": "ENGN8833",
@@ -3086,7 +3086,7 @@
   "level": 8000,
   "title": "Industrial Energy Efficiency and Decarbonisation",
   "units": 6,
-  "summary": "Industrial processes account for a significant share of commercial thermal and electrical energy use worldwide.  Increasing energy and material efficiency as well as the share of renewable energy requires re-engineering of mature processes and development of new technologies.",
+  "summary": "Industrial processes account for a significant share of commercial thermal and electrical energy use worldwide.",
   "offered": [
    "S1"
   ],
@@ -3098,7 +3098,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8833",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Industrial processes account for a significant share of commercial thermal and electrical energy use worldwide. Increasing energy and material efficiency as well as the share of renewable energy requires re-engineering of mature processes and development of new technologies. This course provides an overview of state-of-the-art industrial processes that involve significant thermal energy flows as well as novel concepts. Throughout the course, there is a strong theme of fundamental thermal sciences with aspects of mechanical, chemical and process engineering. On completion, students will have skills to analyse and reform energy-intensive industries, including energy efficiency optimisation and renewable energy integration. Selected industrial processes and thermal science aspects are highlighted through in-depth case studies."
+  "description": ""
  },
  {
   "code": "ENGN8999",
@@ -3136,7 +3136,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ENGN8999",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides an opportunity for HDR students to apply and develop professional skills and attributes in an area of their choice. This course offers opportunities to network with professional organisations such as national and overseas government and industry, and to acquire skills, knowledge and professional attributes which will facilitate future employment and career outcomes. The internship will be under the mentorship of a workplace professional, with access to an appropriate academic within the ANU Colleges. Students are generally expected to undertake an internship that is broadly relevant to their research field."
+  "description": ""
  },
  {
   "code": "ENGN9820",

@@ -13,7 +13,7 @@
   "subjectName": "Politics, Philosophy and Economics",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "Each week the students will be set an issue that is a problem or problem in politics, philosophy or economics. The precise topics will vary from year to year; and many topics will be split into component parts and split over several weeks.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in Bachelor of Politics, Philosophy and Economics.\n\nYou may not enrol in this course if you have previously completed POLS1008."
  },
  {
@@ -30,7 +30,7 @@
   "subjectName": "Politics, Philosophy and Economics",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "The approach taken in this course is at two levels. One level involves direct conceptual analysis of the differences in disciplinary approaches. The other level involves illustrating those differences by reference to specific examples in contemporary policy/institutional analysis. Topics such as global warming (and environmental issues more generally), inequality, dealing with risk and uncertainty, and commodification will be used to examine and contrast what philosophers and economists have said about the issues and attempt an intellectually respectable synthesis. In each case, the role of 'political elements' will be an important part of the story—both substantively, in terms of what the expected role of political institutions might be and what political constraints may be relevant; and conceptually, in terms of the different understanding of political process that philosophers and economists tend to have.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in Bachelor of Politics, Philosophy and Economics, and have completed 42 units of 1000 level courses towards that program including PPEI1001 or POLS1008.\n\nYou may not enrol in this course if you have previously completed PHIL2116."
  },
  {
@@ -47,7 +47,7 @@
   "subjectName": "Politics, Philosophy and Economics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "Where did economics come from and how did it assume its current form? This is the fundamental question that this course seeks to investigate by integrating philosophy, politics, and economics through historical analysis. The course presents the development of economics from a branch of moral philosophy, into political economy, and finally into a quasi-scientific and quantitative discipline today. At every stage, the course places developments in the field into political and social context and presents alternative sets of ideas and paths not taken that were once prominent but have since been forgotten. This course is available to students in the PPE Program.",
+  "summary": "Where did economics come from and how did it assume its current form?",
   "requisiteText": "To enrol in this course you must:\n\nbe enrolled in Bachelor of Politics, Philosophy and Economics\nhave completed 48 units of 1000 level courses\nhave completed ECON1102 (or ECON1100) and ECON2101"
  },
  {
@@ -64,7 +64,7 @@
   "subjectName": "Politics, Philosophy and Economics",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This is an advanced course on the methods and theoretical concepts of politics, philosophy and/or economics. It will prepare research students for the design and implementation of a research project, namely a 20,000-word thesis, that leads to the development of new understandings or that provides solutions to complex problems at the intersection of politics, philosophy and economics.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be enrolled in the Bachelor of Politics, Philosophy and Economics (Honours) (HPPE) (12 unit) or be Phd Student studying political philosophy.\n\nOr to enrol in this course you must be enrolled in the Masters of Politics (6 unit)"
  }
 ]

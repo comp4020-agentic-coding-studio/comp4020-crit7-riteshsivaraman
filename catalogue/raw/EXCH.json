@@ -13,7 +13,7 @@
   "subjectName": "Exchange Course",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Students enrol in this course when they have been approved to participate in a formal exchange with one of the Australian National University's overseas exchange partners.\n\nFor information regarding exchanges, selection criteria, etc, please go to the following website: Student exchange | ANU College of Systems & Society\n\nBand 1 courses include Agriculture, Forestry, English, mathematics, education, clinical psychology, languages.",
+  "summary": "Students enrol in this course when they have been approved to participate in a formal exchange with one of the Australian National University's overseas…",
   "requisiteText": null
  },
  {
@@ -30,7 +30,7 @@
   "subjectName": "Exchange Course",
   "college": "ANU College of Systems and Society",
   "career": "Undergraduate",
-  "description": "Students enrol in this course when they have been approved to participate in a formal exchange with one of the Australian National University's overseas exchange partners.\n\nFor information regarding exchanges, selection criteria, etc, please go to the following website: Student exchange | ANU College of Systems & Society\n\nBand 2 courses include Computing and IT, other health, engineering, science, environmental studies",
+  "summary": "Students enrol in this course when they have been approved to participate in a formal exchange with one of the Australian National University's overseas…",
   "requisiteText": null
  }
 ]

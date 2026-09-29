@@ -13,7 +13,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course introduces students to the philosophy and methods of modern statistical data analysis and inference, with a particular focus on applications to the life sciences. The course has a strong emphasis on computing and graphical methods, and uses a variety of real-world problems to motivate the theory and methods required for carrying out statistical data analysis. This course makes extensive use of R statistical analysis package interfaced through R Studio.",
+  "summary": "This course introduces students to the philosophy and methods of modern statistical data analysis and inference, with a particular focus on applications to…",
   "requisiteText": "Incompatible with STAT1008."
  },
  {
@@ -32,7 +32,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "Quantitative Research Methods provides training in the gathering, description and analysis of quantitative information in a broad range of different disciplines including, science, arts, sports, business, management and the financial sciences. Further, students use the skills acquired in this course to identify problems, interpret and analyse results, and provide solutions while engaging with external stakeholders.\n\nThis is a course in research methods including discussions, analysis, interpretation and providing solutions of: data gathering issues and techniques; sources of data and potential biases; graphical and numerical data description techniques including simple linear regression, sampling behaviour of averages and the Central Limit Theorem; point and interval estimation procedures; concepts in hypothesis testing for comparing two populations, simple and multiple linear regression; p-values and significance levels.\n\nStudents in this course are exposed to a variety of different problems/issues from different disciplines and seek to provide input to these problems through the application of quantitative data analysis skills. The data sets and/or problems/issues are introduced through a variety of guest speakers that are included in the class, as well as a series of recordings, blogs or newspaper articles to drive and contextualise the data stemming from the variety of different disciplines.",
+  "summary": "Quantitative Research Methods provides training in the gathering, description and analysis of quantitative information in a broad range of different…",
   "requisiteText": "Incompatible with STAT1003."
  },
  {
@@ -50,7 +50,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "A first course in mathematical statistics with emphasis on applications; probability, random variables, moment generating functions and correlation, sampling distributions, estimation of parameters by the methods of moments and maximum likelihood, hypothesis testing, the central limit theorem, and Bayesian statistics.",
+  "summary": "A first course in mathematical statistics with emphasis on applications; probability, random variables, moment generating functions and correlation, sampling…",
   "requisiteText": "To enrol in this course you must have have completed STAT1003 or STAT1008 or be enrolled in the Bachelor of Applied Data Analytics; and have completed MATH1113 or MATH1115 or have completed or be concurrently enrolled in MATH1014.\n\nIncompatible with STAT2013 and STAT6013."
  },
  {
@@ -67,7 +67,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "An introduction to stochastic processes, which are random processes occurring in time or space.\n\nThey are used to model dynamic relationships involving random events in a wide variety of disciplines including the natural and social sciences, and in financial, managerial and actuarial settings.\n\nThe course consists of a short review of basic probability concepts and a discussion of conditional probability and conditional expectation, followed by an introduction to the basic concepts and an investigation of the long-run behaviour of Markov chains in discrete time, countable state space. The course also covers some important continuous-time stochastic processes including Poisson processes and other Markov pure jump processes, as well as Brownian motion and other related Gaussian processes as time permits.",
+  "summary": "An introduction to stochastic processes, which are random processes occurring in time or space.",
   "requisiteText": "To enrol in this course you must have met the following requirements:\nCompleted STAT2001 or STAT2013; and\nCompleted MATH1113 or MATH1014 or have completed or be concurrently enrolled in MATH1116.\nIncompatible with STAT7004."
  },
  {
@@ -85,7 +85,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "Regression Modelling studies the use of linear regression techniques for examining relationships between variables across a broad range of different disciplines including the sciences, arts, business, politics, management and the financial sciences. Further, students use the skills acquired in this course to identify problems, interpret and analyse results, and provide solutions while engaging with external stakeholders.\n\nThe course emphasises the principles of statistical modelling through the iterative process of fitting a model, examining the fit to assess imperfections in the model and suggest alternative models, and continuing until a satisfactory model is reached. Both steps in this process require the use of versatile software: model fitting uses various numerical algorithms, and model assessment involves extensive use of graphical displays. The R statistical computing package is used as an integral part of the course.\n\nStudents in this course are exposed to a variety of different problems/issues from different disciplines and seek to provide input to these problems through application of quantitative data analysis skills. The data sets and/or problems/issues are introduced through a variety of means from blogs or newspaper articles, and case studies (real or fictional) to drive and contextualise the data stemming from the variety of different disciplines.",
+  "summary": "Regression Modelling studies the use of linear regression techniques for examining relationships between variables across a broad range of different…",
   "requisiteText": "To enrol in this course, you must have completed STAT1003 or STAT1008. Or be enrolled in the Bachelor of Applied Data Analytics and have completed STAT2001. Incompatible with STAT2014 and STAT6014."
  },
  {
@@ -103,7 +103,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "A first course in mathematical statistics for actuarial studies with emphasis on applications; probability, random variables, moment generating functions and correlation, sampling distributions, estimation of parameters by the methods of moments and maximum likelihood, hypothesis testing, the central limit theorem, Bayesian statistics and credibility theory.",
+  "summary": "A first course in mathematical statistics for actuarial studies with emphasis on applications; probability, random variables, moment generating functions and…",
   "requisiteText": "To enrol in this course you must have completed MATH1113 or MATH1116 or MATH1014, and have completed STAT1003 or STAT1008.\n\nIncompatible with STAT2001 and STAT6013."
  },
  {
@@ -121,7 +121,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "Regression Modelling studies the use of linear regression techniques for examining relationships between variables across a broad range of different disciplines including the sciences, arts, business, politics, management and the financial sciences. Further, students use the skills acquired in this course to identify problems, interpret and analyse results, and provide solutions while engaging with external stakeholders.\n\nThe course emphasises the principles of statistical modelling through the iterative process of fitting a model, examining the fit to assess imperfections in the model and suggest alternative models, and continuing until a satisfactory model is reached. Both steps in this process require the use of versatile software: model fitting uses various numerical algorithms, and model assessment involves extensive use of graphical displays. The R statistical computing package is used as an integral part of the course.\n\nStudents in this course are exposed to a variety of different problems/issues from different disciplines and seek to provide input to these problems through application of quantitative data analysis skills. The data sets and/or problems/issues are introduced through a variety of means from blogs or newspaper articles, and case studies (real ad fictional) to drive and contextualise the data stemming from the variety of different disciplines.\n\nRegression Modelling for Actuarial Students focuses on the use of linear regression techniques to examine relationships between variables in contexts directly relevant to actuarial science, insurance, and financial risk management. While akin to STAT2008, this course is specifically designed to meet the applied modelling needs of actuarial students, with examples and case studies drawn from actuarial practice and financial applications.",
+  "summary": "Regression Modelling studies the use of linear regression techniques for examining relationships between variables across a broad range of different…",
   "requisiteText": "To enrol in this course, you must have completed STAT1008 and STAT2013 or be concurrently enrolled in STAT2013. Incompatible with STAT2008 and STAT6014."
  },
  {
@@ -139,7 +139,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course provides an introduction to the valuation of cash flows. Topics include: compound interest functions; valuation of annuities certain; loans repayable by instalments; comparison of value and yield of cash flow transactions; valuation of fixed interest securities, with and without tax on interest and capital gains; duration and volatility of securities; introduction to concept of immunisation and matching; consumer credit contracts.",
+  "summary": "This course provides an introduction to the valuation of cash flows.",
   "requisiteText": "To enrol in this course you must have completed STAT1003 or STAT1008."
  },
  {
@@ -156,7 +156,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "The course focuses on modern probability theory, including probability spaces, random variables, conditional probability and independence, limit theorems, Markov chains and martingales, with an outlook towards advanced stochastic processes. The course will emphasise practical understanding and applications, progressing from the introductory course. The course will provide a sound foundation to progress to STAT3006, as well as other honours and post-graduate courses emphasizing mathematical finance, stochastic analysis and statistical as well as actuarial sciences.",
+  "summary": "The course focuses on modern probability theory, including probability spaces, random variables, conditional probability and independence, limit theorems,…",
   "requisiteText": "To enrol in this course you must have completed STAT2005. Incompatible with STAT4018 and STAT6018."
  },
  {
@@ -173,7 +173,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "The course focuses on advanced modern stochastic processes, including Brownian motion, continuous-time martingales, stochastic integration and Ito's calculus, Markov processes, stochastic differential equations, point processes and their applications. The course will include some applications but will emphasise setting up a solid theoretical foundation for the subject.\n\nThe course will provide a sound basis for progression to other Honours courses, including mathematical finance, stochastic analysis, statistics, and actuarial sciences.\n\nThe course aims to round off the rigorous introduction to probabilistic reasoning studied previously, as well as to substantially enhance students' depth of knowledge in the mathematical underpinning of stochastic process theory.",
+  "summary": "The course focuses on advanced modern stochastic processes, including Brownian motion, continuous-time martingales, stochastic integration and Ito's calculus,…",
   "requisiteText": "To enrol in this course you must have completed STAT3004. Incompatible with STAT6060."
  },
  {
@@ -191,7 +191,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course introduces the principles of data representation, summarisation and presentation with particular emphasis on the use of graphics. The course will use the R Language in a modern computing environment. Topics to be discussed include:\n\nData representation; examples of good and bad graphics; principles of graphic construction; some pitfalls to be avoided; presentation graphics.\n\nGraphics environments; interactive graphics; windows; linked windows; graphics objects.\n\nStatistical graphics; stem and leaf plots, box plots, histograms; smoothing histograms; quantile-quantile plots; representing multivariate data; scatterplots; clustering; stars and faces; dynamic graphics including data rotation and brushing.\n\nRelationships between variables; smoothing scatterplots; simple regression; modelling and diagnostic plots; exploring surfaces; contour plots and perspective plots; multiple regression; relationships in time and space; time series modelling and diagnostic plots.",
+  "summary": "This course introduces the principles of data representation, summarisation and presentation with particular emphasis on the use of graphics.",
   "requisiteText": "To enrol in this course you must have completed STAT1003 or STAT1008 or STAT2001. Incompatible with STAT4026 and STAT6026."
  },
  {
@@ -208,7 +208,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "STAT3012 is a course that deals with two of the most important approaches to collecting research data - experiments and surveys.\n\nThe first part of the course will focus on experimental design and will cover topics such as the analysis of variance; the completely randomised design; the randomized complete block design; Latin squares; factorial designs; and if time permits nested designs.\n\nSurvey sampling topics will be covered in the second part of the course and may include: simple random sampling, with and without replacement; estimation of population total, mean, proportion and size; subpopulation inference; systematic sampling; stratified sampling; ratio estimation; regression estimation; unequal probability sampling, including the Hansen and Hurwitz estimator and the Horvitz-Thompson estimator; regression estimation; and if time permits, cluster sampling.",
+  "summary": "STAT3012 is a course that deals with two of the most important approaches to collecting research data - experiments and surveys.",
   "requisiteText": "To enrol in this course you must have completed STAT2008 or STAT2014 and have completed or be concurrently enrolled in STAT2001 or STAT2013. Incompatible with STAT4029 and STAT6029."
  },
  {
@@ -225,7 +225,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course introduces students to the basic theory behind the development and assessment of statistical analysis techniques in the areas of point and interval estimation, as well as hypothesis testing. Topics include:\n* Point estimation methods, including method of moments and maximum likelihood, bias and variance, mean-squared error, sufficiency, completeness, exponential families, the Cramer-Rao inequality, the Rao-Blackwell theorem, uniformly minimum variance unbiased estimators, and Bayesian estimation methods.\n* Confidence interval construction methods, including likelihood-based intervals, inversion methods, intervals based on pivots, Bayesian credible and highest posterior density regions, and resampling based intervals.\n* Hypothesis testing methods, including likelihood ratio tests, the Neymann-Pearson lemma and uniformly most powerful tests, power calculations, Bayesian approaches, and non-parametric approaches.",
+  "summary": "This course introduces students to the basic theory behind the development and assessment of statistical analysis techniques in the areas of point and…",
   "requisiteText": "To enrol in this course you must have completed STAT2001 or STAT2013, and have completed MATH1113 or MATH1014 or MATH1116. Incompatible with STAT4027 and STAT6027."
  },
  {
@@ -242,7 +242,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course is intended to introduce students to generalised linear modelling methods, with emphasis on, but not limited to, common methods for analyzing categorical data. Topics covered include a review of multiple linear regression and the analysis of variance, log-linear models for contingency tables, logistic regression for binary response data, Poisson regression, model selection and model checking, mixed effects models. Additional topics may include Bayesian analysis for generalized linear models and generalized mixed effect models.\n\nThe R statistical computing package is used as an integral part of the course.",
+  "summary": "This course is intended to introduce students to generalised linear modelling methods, with emphasis on, but not limited to, common methods for analyzing…",
   "requisiteText": "To enrol in this course you must have completed STAT2008 or STAT2014. Incompatible with STAT4030 and STAT6030."
  },
  {
@@ -259,7 +259,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "The Bayesian approach to statistics assigns probability distributions to both the data and unknown parameters in the problem. This way, we can incorporate prior knowledge on the unknown parameters before observing any data. Statistical inference is summarised by the posterior distribution of the parameters after data collection, and posterior predictions for new observations. The Bayesian approach to statistics is very flexible because we can describe the probability distribution of any function of the unknown parameters in the model. Modern advances in computing have allowed many complicated models, which are difficult to analyse using ‘classical’ (frequentist) methods, to be readily analysed using Bayesian methodology.\n\nThe aim of this course is to equip students with the skills to perform and interpret Bayesian statistical analyses. The first part of the course is devoted to describing the fundamentals of Bayesian inference by examining some simple Bayesian models. More complicated models will then be explored, including linear regression and hierarchical models in a Bayesian framework. Bayesian computational methods, especially Markov Chain Monte Carlo methods will progressively be introduced as motivated by the models discussed. Emphasis will also be placed on model checking and evaluation.",
+  "summary": "The Bayesian approach to statistics assigns probability distributions to both the data and unknown parameters in the problem.",
   "requisiteText": "To enrol in this course you must have completed STAT2008 or STAT2014 and have completed or be concurrently enrolled in STAT2001 or STAT2013. Incompatible with STAT4116 and STAT6016."
  },
  {
@@ -276,7 +276,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This research-led course provides an introduction to recent developments in Random Matrix Theory and Online Learning that addresses the challenges and opportunities posed by the availability of large amounts of data.\n\nIn the first instance, we will review some classic results from multivariate statistical theory, matrix analysis, and probability theory. Then we will present the salient statistical features of big data (e.g., heterogeneity, noise accumulation, spurious correlation, and incidental endogeneity) and show how this impacts on traditional statistical methods and theory.\n\nWe follow with an introduction to modern Random Matrix theory and its application in statistics. Applications presented may include topics such as high-dimensional statistical inference, large covariance matrices, large-scale statistical learning through subsampling, sparsification of large matrices, principal component analysis, and dimension reduction.\n\nWe conclude with an introduction to the theory of online learning (aka. sequential prediction) to handle the situation of streaming data.\n\nStudents will use and learn about the latest computational tools to work with big and streaming data sets. Example data sets may be drawn from areas such finance, web analytics, digital marketing, and satellite imagery data.",
+  "summary": "This research-led course provides an introduction to recent developments in Random Matrix Theory and Online Learning that addresses the challenges and…",
   "requisiteText": "To enrol in this course you must have completed STAT2001 or STAT2013, and have completed STAT2008 or STAT2014 or STAT3008, and have completed MATH1113 or MATH1014 or MATH1116. Incompatible with STAT6017."
  },
  {
@@ -293,7 +293,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course introduces survival models and discusses their rationale, their estimation and their application to mortality. Topics covered will include: an introduction to the life table; survival models; estimation procedures for lifetime distributions; statistical models of transfers between multiple states; maximum likelihood estimation of transition intensities for such models; binomial model of mortality including estimation and comparison with multiple state models; exposed to risk and methods for smoothing crude mortality rate data.",
+  "summary": "This course introduces survival models and discusses their rationale, their estimation and their application to mortality.",
   "requisiteText": "To enrol in this course you must have completed STAT2001 or STAT2013, and have completed STAT2008 or STAT2014. Incompatible with STAT4072 and STAT6042."
  },
  {
@@ -310,7 +310,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course develops actuarial techniques for the valuing of policies which depend on contingent events concerning uncertain lifetimes. Topics include principal forms of heterogeneity within a population and the ways in which selection can occur; definition of simple assurance and annuity contracts; development of formulae for means and variances of the present values of payments; evaluating expected values and variances of simple insurance and annuity contracts; description and calculation of net and gross premiums and provisions for various insurance contracts; and cash flow models and profit tests, extended to multiple decrements and multiple state models.",
+  "summary": "This course develops actuarial techniques for the valuing of policies which depend on contingent events concerning uncertain lifetimes.",
   "requisiteText": "To enrol in this course you must have completed STAT2032 and have completed STAT2001 or STAT2013."
  },
  {
@@ -327,7 +327,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This capstone course provides a simplified model for solving actuarial problems in practice. Sample actuarial problems are examined in detail, with solutions being developed using Excel and Visual Basic. These solutions are then reported to the stakeholders of the problem. The aim of this course is to develop actuarial capabilities beyond the technical foundations taught in other actuarial courses.",
+  "summary": "This capstone course provides a simplified model for solving actuarial problems in practice.",
   "requisiteText": "To enrol in this course, you must have:\n\ncompleted or be concurrently enrolled in STAT2005 and STAT3037; and\ncompleted or be concurrently enrolled in STAT3036 or STAT3058."
  },
  {
@@ -344,7 +344,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "Statistical Learning is a course designed for students who need to carry out statistical analysis, or “learning”, from real data. Emphasis will be placed on the development of statistical concepts and statistical computing. The content will be motivated by problem-solving in many diverse areas of application. This course will cover a range of topics in statistical learning including linear and non-linear regression, classification techniques, resampling methods (e.g., the bootstrap), regularisation methods, tree based methods and unsupervised learning techniques (e.g. principle components analysis and clustering).",
+  "summary": "Statistical Learning is a course designed for students who need to carry out statistical analysis, or “learning”, from real data.",
   "requisiteText": "To enrol in this course, you must have completed STAT2001 or STAT2013; and have completed STAT2008 or STAT2014, or be enrolled in the Bachelor of Finance, Economics and Statistics Honours and have completed STAT2001 and EMET2007. Incompatible with STAT4040 and STAT7040."
  },
  {
@@ -361,7 +361,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course offers an introduction to modern statistical approaches for complicated data structures, and is designed for students who need to do advanced statistical data analyses and statistical research. There has been a prevalence of “big data” in many different scientific fields. In order to tackle the analysis of data of such size and complexity, traditional statistical methods have been reconsidered and new methods have been developed for extracting information, or \"learning\", from such data. Due to the wide of range of topics which could be considered, this course, each offering, will cover only a few of the potential topics. Some of the topics that may be considered are: regularisation and dimension reduction, clustering and classification, non-independent data, and causality. Emphasis is placed on methodological understanding, empirical applications, as well as theoretical foundations to a certain degree. As the extensive use of statistical software is integral to modern data analysis, there will be a strong computing component in this course.",
+  "summary": "This course offers an introduction to modern statistical approaches for complicated data structures, and is designed for students who need to do advanced…",
   "requisiteText": "To enrol in this course you must have completed STAT3040. Incompatible with STAT4050 and STAT6050."
  },
  {
@@ -378,7 +378,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course follows on from STAT3013 by providing a more advanced treatment of large sample approximation theory and some of its applications to statistical inference. The focus will be on developing a deeper theoretical understanding of some of the important statistical methods by developing the underlying theory. The objectives will be to achieve a deep understanding of particular statistical methods and to learn to use some advanced tools for analysing and developing statistical methods.",
+  "summary": "This course follows on from STAT3013 by providing a more advanced treatment of large sample approximation theory and some of its applications to statistical…",
   "requisiteText": "To enrol in this course you must have completed STAT3013. Incompatible with STAT6056."
  },
  {
@@ -395,7 +395,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course introduces techniques for risk modelling, with an emphasis on application to insurance portfolios and financial risks.",
+  "summary": "This course introduces techniques for risk modelling, with an emphasis on application to insurance portfolios and financial risks.",
   "requisiteText": "To enrol in this course you must have completed STAT2013 and STAT2014."
  },
  {
@@ -412,7 +412,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course continues coverage of techniques for risk modelling beyond those introduced in Risk Modelling 1, with an emphasis on application to insurance portfolios.",
+  "summary": "This course continues coverage of techniques for risk modelling beyond those introduced in Risk Modelling 1, with an emphasis on application to insurance…",
   "requisiteText": "To enrol in this course you must have completed STAT3057."
  },
  {
@@ -429,7 +429,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "The course will cover modern approaches to actuarial practice in general insurance. It is designed to equip students with more practical knowledge on the general insurance industry and complement the study of advanced actuarial courses. The course will cover general insurance products and markets as well as methods for general insurance pricing, valuation of liabilities and capital/solvency requirements. The course is also aimed at ensuring students are job ready for careers in general insurance and has a significant focus on practical examples and real world case studies that are relevant to the industry.",
+  "summary": "The course will cover modern approaches to actuarial practice in general insurance.",
   "requisiteText": "To enrol in this course, you must have completed or be currently enrolled in STAT3057."
  },
  {
@@ -446,7 +446,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "The course focuses on modern probability theory, including probability spaces, random variables, conditional probability and independence, limit theorems, Markov chains and martingales, with an outlook towards advanced stochastic processes. The course will emphasise practical understanding and applications, progressing from the introductory course. The course will provide a sound foundation to progress to other honours and post-graduate courses emphasizing mathematical finance, stochastic analysis and statistical as well as actuarial sciences.",
+  "summary": "The course focuses on modern probability theory, including probability spaces, random variables, conditional probability and independence, limit theorems,…",
   "requisiteText": "To enrol in this course you must have completed STAT2005. Incompatible with STAT3004 and STAT6018."
  },
  {
@@ -464,7 +464,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course introduces the principles of data representation, summarisation and presentation with particular emphasis on the use of graphics. The course will use the R Language in a modern computing environment. Topics to be discussed include:\n\nData representation; examples of good and bad graphics; principles of graphic construction; some pitfalls to be avoided; presentation graphics.\n\nGraphics environments; interactive graphics; windows; linked windows; graphics objects.\n\nStatistical graphics; stem and leaf plots, box plots, histograms; smoothing histograms; quantile-quantile plots; representing multivariate data; scatterplots; clustering; stars and faces; dynamic graphics including data rotation and brushing.\n\nRelationships between variables; smoothing scatterplots; simple regression; modelling and diagnostic plots; exploring surfaces; contour plots and perspective plots; multiple regression; relationships in time and space; time series modelling and diagnostic plots.",
+  "summary": "This course introduces the principles of data representation, summarisation and presentation with particular emphasis on the use of graphics.",
   "requisiteText": "To enrol in this course you must have completed STAT1003 or STAT1008 or STAT2001. Incompatible with STAT3011 and STAT6026."
  },
  {
@@ -481,7 +481,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course introduces students to the basic theory behind the development and assessment of statistical analysis techniques in the areas of point and interval estimation, as well as hypothesis testing. Topics include:\n* Point estimation methods, including method of moments and maximum likelihood, bias and variance, mean-squared error, sufficiency, completeness, exponential families, the Cramer-Rao inequality, the Rao-Blackwell theorem, uniformly minimum variance unbiased estimators, and Bayesian estimation methods.\n* Confidence interval construction methods, including likelihood-based intervals, inversion methods, intervals based on pivots, Bayesian credible and highest posterior density regions, and resampling based intervals.\n* Hypothesis testing methods, including likelihood ratio tests, the Neymann-Pearson lemma and uniformly most powerful tests, power calculations, Bayesian approaches, and non-parametric approaches.",
+  "summary": "This course introduces students to the basic theory behind the development and assessment of statistical analysis techniques in the areas of point and…",
   "requisiteText": "To enrol in this course you must have completed STAT2001 or STAT2013, and have completed MATH1113 or MATH1014 or MATH1116. Incompatible with STAT3013 and STAT6027."
  },
  {
@@ -498,7 +498,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "STAT4029 is a course that deals with two of the most important approaches to collecting research data - experiments and surveys.\n\nThe first part of the course will focus on experimental design and will cover topics such as the analysis of variance; the completely randomised design; the randomized complete block design; Latin squares; factorial designs; and if time permits nested designs.\n\nSurvey sampling topics will be covered in the second part of the course and may include: simple random sampling, with and without replacement; estimation of population total, mean, proportion and size; subpopulation inference; systematic sampling; stratified sampling; ratio estimation; regression estimation; unequal probability sampling, including the Hansen and Hurwitz estimator and the Horvitz-Thompson estimator; regression estimation; and if time permits, cluster sampling.",
+  "summary": "STAT4029 is a course that deals with two of the most important approaches to collecting research data - experiments and surveys.",
   "requisiteText": "To enrol in this course you must have completed STAT2008 or STAT2014 and have completed STAT2001 or STAT2013. Incompatible with STAT3012 and STAT6029."
  },
  {
@@ -516,7 +516,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course is intended to introduce students to generalised linear modelling methods, with emphasis on, but not limited to, common methods for analyzing categorical data. Topics covered include a review of multiple linear regression and the analysis of variance, log-linear models for contingency tables, logistic regression for binary response data, Poisson regression, model selection and model checking, mixed effects models. Additional topics may include Bayesian analysis for generalized linear models and generalized mixed effect models.\n\nThe R statistical computing package is used as an integral part of the course.",
+  "summary": "This course is intended to introduce students to generalised linear modelling methods, with emphasis on, but not limited to, common methods for analyzing…",
   "requisiteText": "To enrol in this course you must have completed STAT2008 or STAT2014. Incompatible with STAT3015 and STAT6030."
  },
  {
@@ -534,7 +534,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "Statistical Learning is a course designed for students who need to carry out statistical analysis, or “learning”, from real data. Emphasis will be placed on the development of statistical concepts and statistical computing. The content will be motivated by problem-solving in many diverse areas of application. This course will cover a range of topics in statistical learning including linear and non-linear regression, classification techniques, resampling methods (e.g., the bootstrap), regularisation methods, tree based methods and unsupervised learning techniques (e.g. principle components analysis and clustering).",
+  "summary": "Statistical Learning is a course designed for students who need to carry out statistical analysis, or “learning”, from real data.",
   "requisiteText": "To enrol in this course, you must have completed STAT2001 or STAT2013; and have completed STAT2008 or STAT2014, or be enrolled in the Bachelor of Finance, Economics and Statistics Honours and have completed STAT2001 or STAT2013 and EMET2007. Incompatible with STAT3040, STAT7040 and STAT8140."
  },
  {
@@ -551,7 +551,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course offers an introduction to modern statistical approaches for complicated data structures, and is designed for students who need to do advanced statistical data analyses and statistical research. There has been a prevalence of “big data” in many different scientific fields. In order to tackle the analysis of data of such size and complexity, traditional statistical methods have been reconsidered and new methods have been developed for extracting information, or \"learning\", from such data. Due to the wide of range of topics which could be considered, this course, each offering, will cover only a few of the potential topics. Some of the topics that may be considered are: regularisation and dimension reduction, clustering and classification, non-independent data, and causality. Emphasis is placed on methodological understanding, empirical applications, as well as theoretical foundations to a certain degree. As the extensive use of statistical software is integral to modern data analysis, there will be a strong computing component in this course.",
+  "summary": "This course offers an introduction to modern statistical approaches for complicated data structures, and is designed for students who need to do advanced…",
   "requisiteText": "To enrol in this course you must have completed STAT3040 or STAT4040. Incompatible with STAT3050 and STAT6050."
  },
  {
@@ -568,7 +568,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course introduces survival models and discusses their estimation and their application to mortality. Topics covered will include: survival models; estimation procedures for lifetime distributions; statistical models of transfers between multiple states; maximum likelihood estimation of transition intensities for such models; binomial model of mortality including estimation and comparison with multiple state models.",
+  "summary": "This course introduces survival models and discusses their estimation and their application to mortality.",
   "requisiteText": "To enrol in this course you must have completed STAT2001 or STAT2013, and have completed STAT2008 or STAT2014. Incompatible with STAT3032 and STAT6042."
  },
  {
@@ -585,7 +585,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course considers statistical techniques to evaluate processes occurring through time. It introduces students to time series methods and the applications of these methods to different types of data in various contexts (such as actuarial studies, climatology, economics, finance, geography, meteorology, political science, risk management, and sociology). Time series modelling techniques will be considered with reference to their use in forecasting where suitable. While linear models will be examined in some detail, extensions to non-linear models will also be considered.\n\nThe topics will include: deterministic models; linear time series models, stationary models, homogeneous non-stationary models; the Box-Jenkins approach; intervention models; non-linear models; time-series regression; time-series smoothing; case studies. Statistical software R will be used throughout this course.\n\nHeavy emphasis will be given to fundamental concepts and applied work. Since this is a course on applying time series techniques, different examples will be considered whenever appropriate.",
+  "summary": "This course considers statistical techniques to evaluate processes occurring through time.",
   "requisiteText": null
  },
  {
@@ -602,7 +602,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "The Bayesian approach to statistics assigns probability distributions to both the data and unknown parameters in the problem. This way, we can incorporate prior knowledge on the unknown parameters before observing any data. Statistical inference is summarised by the posterior distribution of the parameters after data collection, and posterior predictions for new observations. The Bayesian approach to statistics is very flexible because we can describe the probability distribution of any function of the unknown parameters in the model. Modern advances in computing have allowed many complicated models, which are difficult to analyse using 'classical' (frequentist) methods, to be readily analysed using Bayesian methodology.\n\nThe aim of this course is to equip students with the skills to perform and interpret Bayesian statistical analyses. The first part of the course is devoted to describing the fundamentals of Bayesian inference by examining some simple Bayesian models. More complicated models will then be explored, including linear regression and hierarchical models in a Bayesian framework. Bayesian computational methods, especially Markov Chain Monte Carlo methods will progressively be introduced as motivated by the models discussed. Emphasis will also be placed on model checking and evaluation.",
+  "summary": "The Bayesian approach to statistics assigns probability distributions to both the data and unknown parameters in the problem.",
   "requisiteText": "To enrol in this course you must have completed STAT2008 or STAT2014 and have completed STAT2001 or STAT2013. Incompatible with STAT3016 and STAT6016."
  },
  {
@@ -620,7 +620,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course requires students to complete a 24-unit Honours thesis in Statistics. Students will undertake independent research in Statistics under the guidance of a supervisor. At completion of this thesis course, students will have developed the capacity to perform high-level independent research, and have an in-depth knowledge of their chosen research topic.",
+  "summary": "This course requires students to complete a 24-unit Honours thesis in Statistics.",
   "requisiteText": null
  },
  {
@@ -638,7 +638,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "A first course in mathematical statistics for actuarial studies with emphasis on applications; probability, random variables, moment generating functions and correlation, sampling distributions, estimation of parameters by the methods of moments and maximum likelihood, hypothesis testing, the central limit theorem, Bayesian statistics and credibility theory.",
+  "summary": "A first course in mathematical statistics for actuarial studies with emphasis on applications; probability, random variables, moment generating functions and…",
   "requisiteText": "To enrol in this course you must be enrolled in Master of Actuarial Studies or Master of Actuarial Practice. Incompatible with STAT2001, STAT2013 and STAT6039."
  },
  {
@@ -656,7 +656,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This is a course in applied statistics that studies the use of regression techniques for examining relationships between variables. Ordinary linear models and generalised linear models are covered. The course emphasizes the principles of statistical modelling through the iterative process of fitting a model, examining the fit to assess imperfections in the model and suggest alternative models, and continuing until a satisfactory model is reached. Both steps in this process require the use of a computer: model fitting uses various numerical algorithms, and model assessment involves extensive use of graphical displays. The R statistical computing package is used as an integral part of the course.",
+  "summary": "This is a course in applied statistics that studies the use of regression techniques for examining relationships between variables.",
   "requisiteText": "To enrol in this course, you must be enrolled in the Master of Actuarial Studies or the Master of Actuarial Practice. You also must have completed or be concurrently enrolled in STAT6013. Incompatible with STAT2008, STAT2014, STAT4038, STAT6038 and STAT7001."
  },
  {
@@ -673,7 +673,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "The Bayesian approach to statistics assigns probability distributions to both the data and unknown parameters in the problem. This way, we can incorporate prior knowledge on the unknown parameters before observing any data. Statistical inference is summarised by the posterior distribution of the parameters after data collection, and posterior predictions for new observations. The Bayesian approach to statistics is very flexible because we can describe the probability distribution of any function of the unknown parameters in the model. Modern advances in computing have allowed many complicated models, which are difficult to analyse using ‘classical’ (frequentist) methods, to be readily analysed using Bayesian methodology.\n\nThe aim of this course is to equip students with the skills to perform and interpret Bayesian statistical analyses. The first part of the course is devoted to describing the fundamentals of Bayesian inference by examining some simple Bayesian models. More complicated models will then be explored, including linear regression and hierarchical models in a Bayesian framework. Bayesian computational methods, especially Markov Chain Monte Carlo methods will progressively be introduced as motivated by the models discussed. Emphasis will also be placed on model checking and evaluation.",
+  "summary": "The Bayesian approach to statistics assigns probability distributions to both the data and unknown parameters in the problem.",
   "requisiteText": "To enrol in this course you must have completed STAT6039 or STAT7039 or STAT6013 and have completed STAT6038 or STAT7038 or STAT6014 or STAT7001. Incompatible with STAT3016 and STAT4116."
  },
  {
@@ -690,7 +690,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This research-led course provides an introduction to recent developments in Random Matrix Theory and Online Learning that addresses the challenges and opportunities posed by the availability of large amounts of data.\n\nIn the first instance, we will review some classic results from multivariate statistical theory, matrix analysis, and probability theory. Then we will present the salient statistical features of big data (e.g., heterogeneity, noise accumulation, spurious correlation, and incidental endogeneity) and show how this impacts on traditional statistical methods and theory.\n\nWe follow with an introduction to modern Random Matrix theory and its application in statistics. Applications presented may include topics such as high-dimensional statistical inference, large covariance matrices, large-scale statistical learning through subsampling, sparsification of large matrices, principal component analysis, and dimension reduction.\n\nWe conclude with an introduction to the theory of online learning (aka. sequential prediction) to handle the situation of streaming data.\n\nStudents will use and learn about the latest computational tools to work with big and streaming data sets. Example data sets may be drawn from areas such finance, web analytics, digital marketing, and satellite imagery data.",
+  "summary": "This research-led course provides an introduction to recent developments in Random Matrix Theory and Online Learning that addresses the challenges and…",
   "requisiteText": "To enrol in this course you must have completed STAT6039 or STAT7039 or STAT6013, and have completed STAT6038 or STAT7038 or STAT6014 or STAT7001. Incompatible with STAT3017."
  },
  {
@@ -707,7 +707,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "The course focuses on modern probability theory, including probability spaces, random variables, conditional probability and independence, limit theorems, Markov chains and martingales, with an outlook towards advanced stochastic processes. The course will emphasise practical understanding and applications, progressing from the introductory course. The course will provide a sound foundation to progress to STAT6060 (Advanced Stochastic Processes), as well as other post-graduate courses emphasizing mathematical finance, stochastic analysis and statistical as well as actuarial sciences.",
+  "summary": "The course focuses on modern probability theory, including probability spaces, random variables, conditional probability and independence, limit theorems,…",
   "requisiteText": "To enrol in this course you must have completed STAT7004. Incompatible with STAT3004 and STAT4018."
  },
  {
@@ -725,7 +725,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course introduces the principles of data representation, summarisation and presentation with particular emphasis on the use of graphics. The course will use the R Language in a modern computing environment. Topics to be discussed include:\n\nData representation; examples of good and bad graphics; principles of graphic construction; some pitfalls to be avoided; presentation graphics.\n\nGraphics environments; interactive graphics; windows; linked windows; graphics objects.\n\nStatistical graphics; stem and leaf plots, box plots, histograms; smoothing histograms; quantile-quantile plots; representing multivariate data; scatterplots; clustering; stars and faces; dynamic graphics including data rotation and brushing.\n\nRelationships between variables; smoothing scatterplots; simple regression; modelling and diagnostic plots; exploring surfaces; contour plots and perspective plots; multiple regression; relationships in time and space; time series modelling and diagnostic plots.",
+  "summary": "This course introduces the principles of data representation, summarisation and presentation with particular emphasis on the use of graphics.",
   "requisiteText": "To enrol in this course, you must have completed STAT7055 or STAT7039 or STAT6013 or be enrolled in the Master of Statistics or the Master of Statistical Data Analysis. Incompatible with STAT4026 and STAT3011."
  },
  {
@@ -742,7 +742,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course introduces students to the basic theory behind the development and assessment of statistical analysis techniques in the areas of point and interval estimation, as well as hypothesis testing. Topics include:\n\n* Point estimation methods, including method of moments and maximum likelihood, bias and variance, mean-squared error, sufficiency, completeness, exponential families, the Cramer-Rao inequality, the Rao-Blackwell theorem, uniformly minimum variance unbiased estimators, and Bayesian estimation methods.\n\n* Confidence interval construction methods, including likelihood-based intervals, inversion methods, intervals based on pivots, Bayesian credible and highest posterior density regions, and resampling based intervals.\n\n* Hypothesis testing methods, including likelihood ratio tests, the Neymann-Pearson lemma and uniformly most powerful tests, power calculations, Bayesian approaches, and non-parametric approaches.",
+  "summary": "This course introduces students to the basic theory behind the development and assessment of statistical analysis techniques in the areas of point and…",
   "requisiteText": "To enrol in this course, you must have completed STAT6039 or STAT7039 or STAT6013. Incompatible with STAT3013 and STAT4027."
  },
  {
@@ -759,7 +759,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "STAT6029 is a course that deals with two of the most important approaches to collecting research data - experiments and surveys.\n\nThe first part of the course will focus on experimental design and will cover topics such as the analysis of variance; the completely randomised design; the randomized complete block design; Latin squares; factorial designs; and if time permits nested designs.\n\nSurvey sampling topics will be covered in the second part of the course and may include: simple random sampling, with and without replacement; estimation of population total, mean, proportion and size; subpopulation inference; systematic sampling; stratified sampling; ratio estimation; regression estimation; unequal probability sampling, including the Hansen and Hurwitz estimator and the Horvitz-Thompson estimator; regression estimation; and if time permits, cluster sampling.",
+  "summary": "STAT6029 is a course that deals with two of the most important approaches to collecting research data - experiments and surveys.",
   "requisiteText": "To enrol in this course, you must have:\n\ncompleted STAT6039 or STAT7039 or STAT6013; and\ncompleted STAT6038 or STAT7038 or STAT6014.\n\nIncompatible with STAT3012 and STAT4029."
  },
  {
@@ -776,7 +776,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course introduces survival models and discusses their rationale, their estimation and their application to mortality. Topics covered will include: an introduction to the life table; survival models; estimation procedures for lifetime distributions; statistical models of transfers between multiple states; maximum likelihood estimation of transition intensities for such models; binomial model of mortality including estimation and comparison with multiple state models; exposed to risk and methods for smoothing crude mortality rate data.",
+  "summary": "This course introduces survival models and discusses their rationale, their estimation and their application to mortality.",
   "requisiteText": "To enrol in this course, you must have:\n\ncompleted STAT6039 or STAT7039 or STAT6013; and\ncompleted STAT6038 or STAT7038 or STAT6014.\n\nIncompatible with STAT3032 and STAT4072."
  },
  {
@@ -793,7 +793,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course develops actuarial techniques for the valuing of policies which depend on contingent events concerning uncertain lifetimes. Topics include principal forms of heterogeneity within a population and the ways in which selection can occur; definition of simple assurance and annuity contracts; development of formulae for means and variances of the present values of payments; evaluating expected values and variances of simple insurance and annuity contracts; description and calculation of net and gross premiums and provisions for various insurance contracts; and cash flow models and profit tests, extended to multiple decrements and multiple state models.",
+  "summary": "This course develops actuarial techniques for the valuing of policies which depend on contingent events concerning uncertain lifetimes.",
   "requisiteText": "To enrol in this course you must have completed STAT6046 and have completed STAT6039 or STAT7039 or STAT6013. Incompatible with STAT3037"
  },
  {
@@ -810,7 +810,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course provides a simplified model for solving actuarial problems in practice. Sample actuarial problems are examined in detail, with solutions being developed using Excel and Visual Basic. These solutions are then reported to the stakeholders of the problem. The aim of this course is to develop actuarial capabilities beyond the technical foundations taught in other actuarial courses.",
+  "summary": "This course provides a simplified model for solving actuarial problems in practice.",
   "requisiteText": "To enrol in this course, you must have completed STAT6014 and have completed or be concurrently enrolled in STAT6043 and STAT7004. Incompatible with STAT3038."
  },
  {
@@ -828,7 +828,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course provides an introduction to the valuation of cash flows. Topics include: compound interest functions; valuation of annuities certain; loans repayable by instalments; comparison of value and yield of cash flow transactions; valuation of fixed interest securities, with and without tax on interest and capital gains; duration and volatility of securities; introduction to concept of immunisation and matching; consumer credit contracts.",
+  "summary": "This course provides an introduction to the valuation of cash flows.",
   "requisiteText": "To enrol in this course, you must have completed STAT7055 or be enrolled in the Master of Statistics, the Master of Actuarial Studies, the Master of Actuarial Practice or the Master of Statistical Data Analysis. Incompatible with STAT2032."
  },
  {
@@ -845,7 +845,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course offers an introduction to modern statistical approaches for complicated data structures, and is designed for students who need to do advanced statistical data analyses and statistical research. There has been a prevalence of “big data” in many different scientific fields. In order to tackle the analysis of data of such size and complexity, traditional statistical methods have been reconsidered and new methods have been developed for extracting information, or \"learning\", from such data. Due to the wide of range of topics which could be considered, this course, each offering, will cover only a few of the potential topics. Some of the topics that may be considered are: regularisation and dimension reduction, clustering and classification, non-independent data, and causality. Emphasis is placed on methodological understanding, empirical applications, as well as theoretical foundations to a certain degree. As the extensive use of statistical software is integral to modern data analysis, there will be a strong computing component in this course.",
+  "summary": "This course offers an introduction to modern statistical approaches for complicated data structures, and is designed for students who need to do advanced…",
   "requisiteText": "To enrol in this course you must have completed STAT6040, STAT7040 or STAT8140.\nIncompatible with STAT3050 and STAT4050."
  },
  {
@@ -862,7 +862,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course is intended to follow on from STAT6027 by providing a more advanced treatment of large sample approximation theory and some of its applications to statistical inference. The focus will be on developing a deeper theoretical understanding of some of the important statistical methods by developing the underlying theory. The objectives will be to achieve a deep understanding of particular statistical methods and to learn to use some advanced tools for analyzing and developing statistical methods.",
+  "summary": "This course is intended to follow on from STAT6027 by providing a more advanced treatment of large sample approximation theory and some of its applications to…",
   "requisiteText": "To enrol in this course you must have completed STAT6027. Incompatible with STAT3056."
  },
  {
@@ -879,7 +879,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course introduces techniques for risk modelling, with an emphasis on application to insurance portfolios and financial risks.",
+  "summary": "This course introduces techniques for risk modelling, with an emphasis on application to insurance portfolios and financial risks.",
   "requisiteText": "To enrol in this course you must have completed STAT6013 and STAT6014.\nIncompatible with STAT3057."
  },
  {
@@ -896,7 +896,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course continues coverage of techniques for risk modelling beyond those introduced in Risk Modelling 1, with an emphasis on application to insurance portfolios.",
+  "summary": "This course continues coverage of techniques for risk modelling beyond those introduced in Risk Modelling 1, with an emphasis on application to insurance…",
   "requisiteText": "To enrol in this course, students must have completed STAT6057.\nIncompatible with STAT3058."
  },
  {
@@ -913,7 +913,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "The course focuses on advanced modern stochastic processes, including Brownian motion, continuous-time martingales, stochastic integration and Ito's calculus, Markov processes, stochastic differential equations, point processes and their applications. The course will include some applications but will emphasise setting up a solid theoretical foundation for the subject.\n\nThe course will provide a sound basis for progression to other post-graduate courses, including mathematical finance, stochastic analysis, statistics, and actuarial sciences.\n\nThe course aims to round off the rigorous introduction to probabilistic reasoning studied previously, as well as to substantially enhance students' depth of knowledge in the mathematical underpinning of stochastic process theory.",
+  "summary": "The course focuses on advanced modern stochastic processes, including Brownian motion, continuous-time martingales, stochastic integration and Ito's calculus,…",
   "requisiteText": "To enrol in this course you must have completed STAT6018. Incompatible with STAT3006."
  },
  {
@@ -930,7 +930,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "The course will cover modern approaches to actuarial practice in general insurance. It is designed to equip students with more practical knowledge on the general insurance industry and complement the study of advanced actuarial courses. The course will cover general insurance products and markets as well as methods for general insurance pricing, valuation of liabilities and capital/solvency requirements. The course is also aimed at ensuring students are job ready for careers in general insurance and has a significant focus on practical examples and real-world case studies that are relevant to the industry.",
+  "summary": "The course will cover modern approaches to actuarial practice in general insurance.",
   "requisiteText": "To enrol in this course, you must have completed or be currently enrolled in STAT6057."
  },
  {
@@ -947,7 +947,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "An introduction to stochastic processes, which are random processes occurring in time or space.\n\nThey are used to model dynamic relationships involving random events in a wide variety of disciplines including the natural and social sciences, and in financial, managerial and actuarial settings.\n\nThe course consists of a short review of basic probability concepts and a discussion of conditional probability and conditional expectation, followed by an introduction to the basic concepts and an investigation of the long-run behaviour of Markov chains in discrete time, countable state space. The course also covers some important continuous-time stochastic processes including Poisson processes and other Markov pure jump processes, as well as Brownian motion and other related Gaussian processes as time permits.",
+  "summary": "An introduction to stochastic processes, which are random processes occurring in time or space.",
   "requisiteText": "To enrol in this course you must have completed STAT6039 or STAT7039 or STAT6013. Incompatible with STAT2005."
  },
  {
@@ -965,7 +965,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "Regression Modelling is a course in applied statistics that studies the use of linear regression techniques for examining relationships between variables. The course emphasises the principles of statistical modelling through the iterative process of fitting a model, examining the fit to assess imperfections in the model and suggest alternative models, and continuing until a satisfactory model is reached. Both steps in this process require the use of a computer: model fitting uses various numerical algorithms, and model assessment involves extensive use of graphical displays. The R statistical computing package is used as an integral part of the course.",
+  "summary": "Regression Modelling is a course in applied statistics that studies the use of linear regression techniques for examining relationships between variables.",
   "requisiteText": "To enrol in this course, students must have completed STAT7055 (or STAT1003 or STAT1008) or be enrolled in the M. Statistical Data Analytics, M. Actuarial Studies, M. Actuarial Practice, M. Statistics, MSc in Quantitative Biology and Bioinformatics, or MSc in Quantitative Biology and Bioinformatics (Advanced). Incompatible with STAT2008, STAT2014, STAT4038 and STAT6014."
  },
  {
@@ -983,7 +983,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "A first course in mathematical statistics with emphasis on applications; probability, random variables, moment generating functions and correlation, sampling distributions, estimation of parameters by the methods of moments and maximum likelihood, hypothesis testing, the central limit theorem, and Bayesian statistics.",
+  "summary": "A first course in mathematical statistics with emphasis on applications; probability, random variables, moment generating functions and correlation, sampling…",
   "requisiteText": "To enrol in this course, you must be enrolled in the M. Statistical Data Analytics, M. Actuarial Studies, M. Actuarial Practice, M. Statistics, MSc in Quantitative Biology and Bioinformatics, or MSc in Quantitative Biology and Bioinformatics (Advanced). Students enrolled in M. Applied Data Analytics must have completed STAT7055. Incompatible with STAT2001, STAT2013 and STAT6013."
  },
  {
@@ -1001,7 +1001,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course aims to facilitate an understanding of basic statistical techniques used for the analysis of financial and investment data.",
+  "summary": "This course aims to facilitate an understanding of basic statistical techniques used for the analysis of financial and investment data.",
   "requisiteText": "Students can’t enroll in this course if enrolled in the Master of Statistics, Master of Actuarial Studies or Master of Actuarial Practice. Incompatible with STAT1003 and STAT1008."
  },
  {
@@ -1018,7 +1018,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course considers statistical techniques to evaluate processes occurring through time. It introduces students to time series methods and the applications of these methods to different types of data in various contexts (such as actuarial studies, climatology, economics, finance, geography, meteorology, political science, risk management, and sociology). Time series modelling techniques will be considered with reference to their use in forecasting where suitable. While linear models will be examined in some detail, extensions to non-linear models will also be considered.\n\nThe topics will include: deterministic models; linear time series models, stationary models, homogeneous non-stationary models; the Box-Jenkins approach; intervention models; non-linear models; time-series regression; time-series smoothing; case studies. Statistical software R will be used throughout this course.\n\nHeavy emphasis will be given to fundamental concepts and applied work. Since this is a course on applying time series techniques, different examples will be considered whenever appropriate.",
+  "summary": "This course considers statistical techniques to evaluate processes occurring through time.",
   "requisiteText": "To enrol in this course, you must have:\n\ncompleted STAT6039 or STAT7039 or STAT6013; and\ncompleted STAT6038 or STAT7038 or STAT6014 or EMET6007.\n\nIncompatible with STAT4102."
  },
  {
@@ -1033,7 +1033,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "The content for this Special Topics course is not fixed, but will be determined by the lecturer(s) of the course. Details for a specific offering of the course can be found in the class summary.",
+  "summary": "The content for this Special Topics course is not fixed, but will be determined by the lecturer(s) of the course.",
   "requisiteText": "Incompatible with STAT3039"
  },
  {
@@ -1048,7 +1048,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "The content for this Special Topics course is not fixed, but will be determined by the lecturer(s) of the course. Details for a specific offering of the course can be found in the class summary.",
+  "summary": "The content for this Special Topics course is not fixed, but will be determined by the lecturer(s) of the course.",
   "requisiteText": null
  },
  {
@@ -1066,7 +1066,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "To be advised at the time the course is next offered.",
+  "summary": "To be advised at the time the course is next offered.",
   "requisiteText": "Students entering this course must have completed at least 48 units of postgraduate study with a GPA of at least 5.0 and have arranged a supervisor for their essay."
  },
  {
@@ -1084,7 +1084,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course is intended to introduce students to generalised linear modelling methods, with emphasis on, but not limited to, common methods for analysing categorical data. Topics covered include a review of multiple linear regression and the analysis of variance, log-linear models for contingency tables, logistic regression for binary response data, Poisson regression, model selection and model checking , mixed effects models. Additional topics may include Bayesian analysis for generalized linear models and generalized mixed effect models.",
+  "summary": "This course is intended to introduce students to generalised linear modelling methods, with emphasis on, but not limited to, common methods for analysing…",
   "requisiteText": "To enrol in this course, you must have completed STAT7038 or STAT6038 or STAT6014. Incompatible with STAT3015 and STAT4030."
  },
  {
@@ -1102,7 +1102,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "Statistical Learning is a course designed for students who need to carry out statistical analysis, or “learning”, from real data. Emphasis will be placed on the development of statistical concepts and statistical computing. The content will be motivated by problem-solving in many diverse areas of application. This course will cover a range of topics in statistical learning including linear and non-linear regression, classification techniques, resampling methods (e.g., the bootstrap), regularisation methods, tree based methods and unsupervised learning techniques (e.g. principle components analysis and clustering).",
+  "summary": "Statistical Learning is a course designed for students who need to carry out statistical analysis, or “learning”, from real data.",
   "requisiteText": "To enrol in this course, you must have completed either STAT7039 or STAT6039 or STAT6013, and have completed either STAT7038 or STAT6038 or STAT6014. Incompatible with STAT3040 and STAT4040."
  },
  {
@@ -1120,7 +1120,7 @@
   "subjectName": "Statistics",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course requires students to complete a 12, 18 or 24-unit masters thesis in the field of Statistics. The course is available to excellent students enrolled in the Master of Statistics who wish to progress to PhD study. Students will undertake independent research under the guidance of a supervisor. At completion of this thesis course, students will have developed the capacity to perform high-level independent research, and have an in-depth knowledge of their chosen research topic.",
+  "summary": "This course requires students to complete a 12, 18 or 24-unit masters thesis in the field of Statistics.",
   "requisiteText": "Students entering this course must have a GPA of at least 6.5 at time of application and have arranged a supervisor for their thesis.\nStudents who wish to undertake a Masters thesis should contact the course convenor once the above has been arranged to confirm their eligibility.\nImportant note for students: When 48 units remain in your program, you must register your intent to enrol in STAT8500 by contacting the Research School of Finance, Actuarial Studies and Statistics to ensure the correct enrolment in the semester prior to undertaking STAT8500."
  }
 ]

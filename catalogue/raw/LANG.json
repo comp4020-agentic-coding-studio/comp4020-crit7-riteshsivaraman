@@ -13,7 +13,7 @@
   "subjectName": "Language Studies",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "The Romance family is one of the most widely-spoken and politically important language families, with historical written records going back over two millennia to the common linguistic ancestor, Latin. Given the vast number of living speakers and the richness of the historical record, this language family has formed an important test-bed for hypotheses about how languages differ and the way languages change over time, and for the development of linguistic theory. The goal of this course is to introduce students to the history and linguistic characteristics of the Romance family, which includes such languages as French, Italian, Spanish, Portuguese and other national, regional or contact-based languages and varieties. The course explores the history of the family, including sound change, grammatical change and contact, from Latin to the present day, and also covers key concepts relevant to the linguistics of Romance languages.",
+  "summary": "",
   "requisiteText": "Students must have completed a B1 level in any of the Romance languages (e.g. SPAN2002, ITAL2006, FREN2025 or PORT2002 at ANU, as applicable) or LATN3125, or equivalent.\nStudents who have completed LING1001 (or equivalent) and do not meet the language requirement listed above may contact the course convenor to discuss enrolment and to obtain a permission code.\nStudents planning to count this course to their major please see “other course information”."
  },
  {
@@ -28,7 +28,7 @@
   "subjectName": "Language Studies",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Undergraduate",
-  "description": "This research-led Honours course is designed to instil in students a capacity to critique the ways in which meaning is created and understood across national boundaries. It aims to question the very concept of ‘national’ cultural production by employing various intersectional, postcolonial and transcultural perspectives. The course will give students an opportunity to position their Honours project in relation to other discourses and discipline areas and to facilitate discussion of the similarities and differences visible across nations and cultures. In doing so, it has as a primary objective not only the further development of cross-cultural understanding, but also the active involvement of students in interdisciplinary and intermedial conversations that can shape their research and open it to new ideas and inputs that would otherwise be unavailable in their home disciplinary context.",
+  "summary": "",
   "requisiteText": "To enrol in this course you must be studying a Bachelor of Arts Honours (HARTS or HART2), Bachelor of Languages Honours (HLANG), Bachelor of Middle Eastern and Central Asian Studies Honours (HMECA) or Bachelor of Asian Studies Honours (HASIA), or have completed 144 units towards the Bachelor of Philosophy (Arts) (APHAR or APNAR)."
  },
  {
@@ -43,7 +43,7 @@
   "subjectName": "Language Studies",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "This course investigates the problems regularly encountered in the process of cross-language and cross-cultural transfer as found in texts not classifiable as literary, and in material other than the written word. We begin by exploring genres of translation and establishing our focus on vocational, specialised or practical forms. We proceed to explore general principles and criteria for evaluation, and look at topics such as translation in international organizations,public service translation, technical translation, machine translation, interpreting, audiovisual translation and the design and use of dictionaries and other works of reference. Staff from across ANU, including among them experienced translators, contribute to this course, allowing students to work from a wide range of languages. Students will gain the opportunity to apply to the field of translation analytical and research skills at an advanced level.",
+  "summary": "",
   "requisiteText": "You are not able to enrol in this course if you have previously completed LANG3002."
  },
  {
@@ -58,7 +58,7 @@
   "subjectName": "Language Studies",
   "college": "ANU College of Arts and Social Sciences",
   "career": "Postgraduate",
-  "description": "This is a supervised project, involving no program of lectures. A translation into English or from English of a previously untranslated literary or non-literary text will be accompanied by a detailed commentary in which the process of translation is described and the motivation for the translation choices set forth. Students will be required to devote attention to semantic, syntactic, structural and lexical differences between the languages in question, in addition to cross-cultural matters and, where appropriate, questions of aesthetics. The commentary will be informed by reading in the field of Translation Studies.",
+  "summary": "",
   "requisiteText": null
  }
 ]

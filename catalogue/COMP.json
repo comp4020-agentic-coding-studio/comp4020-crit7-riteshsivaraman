@@ -23,7 +23,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP1100",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is the first of three core computer science courses on programming. It introduces students to the field of computer science as a discipline for solving problems through computation and provides the foundation for more advanced courses on programming and software development. Data structures and algorithms, the key concepts at the core of computer science, receive their first treatment in this course.\n\nThe course covers functional programming in depth, developing the core idea of functions operating on data structures. Students learn the organization of programming languages using types, how programs are evaluated (reduction), functional composition, recursive functions, algebraic data types, pattern matching, parametric polymorphism, higher-order functions. Students also gain exposure to asymptotic analysis of basic data structures, abstract data types, modules, laziness, and streams. The functional paradigm demonstrates elegant solutions to many programming problems.\n\nThe course also introduces students to standard productivity tools for software development that will be used throughout the course and remainder of the computer science degree. These include distributed software revision control systems.\n\nThe Advanced version of this course covers these topics in more depth, allowing students to deepen their understanding and experience."
+  "description": ""
  },
  {
   "code": "COMP1110",
@@ -69,7 +69,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP1110",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This programming course teaches basic concepts in imperative and object-oriented programming and corresponding data structures.\n\nStudents will learn to use an industrial-strength object-oriented programming language and form basic mental models of how computer programs execute and interact with their environment. The course focuses on key aspects of solving programming problems: reasoning about a problem description to design appropriate data representations and function/method descriptions, to find examples, to write, test, debug, and otherwise evaluate the relevant code, and to present and defend their approach.\n\nStudents will learn to effectively use a large standard library and key standard data structures, including lists, trees, hash tables, and graphs. The course also introduces the basics of reasoning about the time and space complexity of algorithms, in particular as related to the above data structures.\n\nThe Advanced version of this course (COMP1140 offered in Semester 2 only) covers these topics in more depth, allowing students to deepen their understanding and experience. Students can start in COMP1140 and then drop back to COMP1110 during the semester. You cannot change from COMP1110 into COMP1140 after week 2."
+  "description": ""
  },
  {
   "code": "COMP1130",
@@ -78,7 +78,7 @@
   "level": 1000,
   "title": "Programming as Problem Solving (Advanced)",
   "units": 6,
-  "summary": "This course is a variation on Programming for Problem Solving (COMP1100 ).  It covers the same topics in more depth, requiring addtional contact hours to allow students to deepen their understanding and experience.",
+  "summary": "This course is a variation on Programming for Problem Solving (COMP1100 ).",
   "offered": [
    "S1"
   ],
@@ -94,7 +94,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP1130",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is a variation on Programming for Problem Solving (COMP1100 ). It covers the same topics in more depth, requiring addtional contact hours to allow students to deepen their understanding and experience. They will understand the foundations of program semantics, program proof, and implementation of the programming language features that they have learned in the course. As the advanced version of the course the first six Learning Outcomes are the same as for COMP1100."
+  "description": ""
  },
  {
   "code": "COMP1140",
@@ -103,7 +103,7 @@
   "level": 1000,
   "title": "Structured Programming (Advanced)",
   "units": 6,
-  "summary": "This course is an advanced variation of Structured Programming (COMP1110), and as such, teaches the same concepts in more depth, with corresponding additional content and assessment.",
+  "summary": "This course is an advanced variation of Structured Programming (COMP1110), and as such, teaches the same concepts in more depth, with corresponding additional…",
   "offered": [
    "S2"
   ],
@@ -124,7 +124,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP1140",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is an advanced variation of Structured Programming (COMP1110), and as such, teaches the same concepts in more depth, with corresponding additional content and assessment.\n\nThis programming course teaches basic concepts in imperative and object-oriented programming and corresponding data structures.\n\nStudents will learn to use an industrial-strength object-oriented programming language and form basic mental models of how computer programs execute and interact with their environment. The course focuses on key aspects of solving programming problems: reasoning about a problem description to design appropriate data representations and function/method descriptions, to find examples, to write, test, debug, and otherwise evaluate the relevant code, and to present and defend their approach.\n\nStudents will learn to effectively use a large standard library and key standard data structures, including lists, trees, hash tables, and graphs. The course also introduces the basics of reasoning about the time and space complexity of algorithms, in particular as related to the above data structures.\n\nStudents can start in COMP1140 and then drop back to COMP1110 during the semester. You cannot change into COMP1140 after week 2.\n\nThis course is an Advanced Studies Extension Course (ASE), with the additional work required for an ASE built into the COMP1140 assessment."
+  "description": ""
  },
  {
   "code": "COMP1600",
@@ -133,7 +133,7 @@
   "level": 1000,
   "title": "Foundations of Computing",
   "units": 6,
-  "summary": "This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of software and for mathematically rigorous arguments about program properties.",
+  "summary": "This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of…",
   "offered": [
    "S2"
   ],
@@ -172,7 +172,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP1600",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of software and for mathematically rigorous arguments about program properties. The following areas of study constitute the backbone of the course: predicate calculus and natural deduction, inductive definitions of data types as a basis for recursive functions and structural induction, specification languages and their use in program verification."
+  "description": ""
  },
  {
   "code": "COMP1710",
@@ -181,7 +181,7 @@
   "level": 1000,
   "title": "Web Development and Design",
   "units": 6,
-  "summary": "This course introduces the construction of web sites and web interface/interaction design.  There is a key focus on the on new media / multimedia and its delivery on the world wide web.",
+  "summary": "This course introduces the construction of web sites and web interface/interaction design.",
   "offered": [],
   "requisiteText": "Incompatible with COMP6780",
   "rule": null,
@@ -193,7 +193,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP1710",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces the construction of web sites and web interface/interaction design. There is a key focus on the on new media / multimedia and its delivery on the world wide web. The course introduces multimedia as a combination of text, graphics, video, animation and sound for the purposes of information access, storage and dissemination. Topics such as the nature and types of multimedia objects, components of a multimedia system, Web authoring, delivery tools, multimedia applications, spam, podcasts, RSS, web spam and societal implications of the web. Students will create multimedia applications using some or all of HTML, XHTML, JavaScript, animation, sound, video and 3D. The course provides an introduction to the latest web technologies."
+  "description": ""
  },
  {
   "code": "COMP1720",
@@ -202,7 +202,7 @@
   "level": 1000,
   "title": "Art and Interaction Computing",
   "units": 6,
-  "summary": "This course introduces the fundamentals of coding and design required to create expressive interactive artworks.  Students will learn how to conceptualise, plan, and realise an original interactive artwork using a high-level programming language.",
+  "summary": "This course introduces the fundamentals of coding and design required to create expressive interactive artworks.",
   "offered": [],
   "requisiteText": "Incompatible with COMP6720",
   "rule": null,
@@ -214,7 +214,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP1720",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces the fundamentals of coding and design required to create expressive interactive artworks. Students will learn how to conceptualise, plan, and realise an original interactive artwork using a high-level programming language. They will experiment with computer graphics, sound, and input devices and learn programming concepts required for accomplishing their creative objectives.\n\nThe course introduces the range of creative possibilities presented by the computer in the modern art world as well fundamental concepts of visual and interactive design. Topics covered include interactive and new media art, interaction design, program organisation, variables, control structures, graphics, and audio."
+  "description": ""
  },
  {
   "code": "COMP1730",
@@ -223,7 +223,7 @@
   "level": 1000,
   "title": "Programming for Scientists",
   "units": 6,
-  "summary": "This course teaches introductory programming, fundamental programming language and computer science concepts, and computational problem solving illustrated with applications common in science and engineering, such as data analysis, visualisation, and image processing.",
+  "summary": "This course teaches introductory programming, fundamental programming language and computer science concepts, and computational problem solving illustrated…",
   "offered": [
    "S2"
   ],
@@ -243,7 +243,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP1730",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course teaches introductory programming, fundamental programming language and computer science concepts, and computational problem solving illustrated with applications common in science and engineering, such as data analysis, visualisation, and image processing. We will take a different approach, including prompting and working with GenAI, with emphasis on testing, debugging and problem decomposition, and using GenAI to help understand code.\n\nThese skills will empower students to write software with the aid of GenAI. Assessment will include exam(s) without the aid of GenAI. Students will also create larger software projects with the aid of GenAI. The course does not require any prior knowledge of programming or computer science. It is designed to be a stand-alone computing unit. Students who wish to study computing courses at a higher level will need to complete COMP1100 and/or COMP1110 in addition to COMP1730."
+  "description": ""
  },
  {
   "code": "COMP2100",
@@ -252,7 +252,7 @@
   "level": 2000,
   "title": "Software Construction",
   "units": 6,
-  "summary": "This course extensively explores the fundamental principles and practices necessary for creating medium-scale software projects, with a specific focus on the object-oriented programming paradigm.",
+  "summary": "This course extensively explores the fundamental principles and practices necessary for creating medium-scale software projects, with a specific focus on the…",
   "offered": [
    "S1",
    "S2"
@@ -295,7 +295,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP2100",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course extensively explores the fundamental principles and practices necessary for creating medium-scale software projects, with a specific focus on the object-oriented programming paradigm. By blending theoretical understanding with hands-on practice, students establish a robust foundation in software construction, drawing from their prior programming experience. Key topics, including programming techniques at large, life cycle models, data manipulation techniques, and GUI concepts, are highlighted to foster a comprehensive grasp of software development. Ultimately, the course empowers students with the skills to construct medium-scale software projects efficiently, ethically, and in alignment with industry standards."
+  "description": ""
  },
  {
   "code": "COMP2120",
@@ -304,7 +304,7 @@
   "level": 2000,
   "title": "Software Engineering",
   "units": 6,
-  "summary": "Real-world software development is a complex and dynamic activity involving people, technology and processes interacting within a complex environment of clients, users and other stakeholders while being observant of technological, physical, social, legal, and ethical constraints.",
+  "summary": "Real-world software development is a complex and dynamic activity involving people, technology and processes interacting within a complex environment of…",
   "offered": [
    "S2"
   ],
@@ -324,7 +324,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP2120",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Real-world software development is a complex and dynamic activity involving people, technology and processes interacting within a complex environment of clients, users and other stakeholders while being observant of technological, physical, social, legal, and ethical constraints.\nThis course will empower students with the ability and confidence necessary to exercise critical thinking and professional judgment to select and apply appropriate knowledge, practices and tools to the development of non-trivial software systems. This will be achieved by introducing students to important design methodologies. We will build on previous programming courses to deepen and broaden students' knowledge and understanding of the practices and tools used to build large software systems within complex environments. We will use real-world examples such as distributed, high-integrity, web-based systems where rigorous software engineering can demonstrably enhance business value.\nStudents will learn how practices and tools can be adapted to suit specific project needs and contexts. Knowledge, practices and tools considered in this course will include process models, requirements engineering, design, modelling and user experience."
+  "description": ""
  },
  {
   "code": "COMP2300",
@@ -382,7 +382,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP2300",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is a rigorous introduction to the design of digital circuits and computer architecture. It provides technical foundations for how a computer system is built from the bottom up and how the high-level programming languages you learn in other courses are translated into simple instructions the computer executes. The course introduces the different abstraction layers necessary to make a computer system work, and a key focus is the connection between hardware and software.\n\nThe course introduces the predominant stored-program computer paradigm and principles of digital design and computer architecture. Students build a fully functional general-purpose computer from simple logic circuits in a digital simulator. The course also demystifies assembly code, the machine language the processor speaks, and the mapping of assembly programs to higher levels of programming abstraction. The focus is on fundamental techniques employed in the design of modern microprocessors and their hardware/software interface.\n\nThis course will challenge your understanding of how computers work and what happens in them when we run a program. At the end of this course, you will be able to navigate between layers of abstraction in a computer system, from individual digital circuits to high-level software, and understand how low-level structures enable and enhance the abilities of a computer system.\n\nThis course covers topics such as combinational and sequential logic design, digital building blocks such as arithmetic/logic unit and random access memory, instruction set architectures and assembly programming, input/output systems, interrupt handling, single-cycle and pipelined processor design, out-of-order execution, and hardware speculation."
+  "description": ""
  },
  {
   "code": "COMP2310",
@@ -391,7 +391,7 @@
   "level": 2000,
   "title": "Systems, Networks, and Concurrency",
   "units": 6,
-  "summary": "This course is based on the foundations set by the previous course on computer organisation.  It expands particularly into all forms of concurrent programming including aspects of massively parallel programming. g.  as performance or dependability enhancements).",
+  "summary": "This course is based on the foundations set by the previous course on computer organisation.",
   "offered": [
    "S2"
   ],
@@ -439,7 +439,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP2310",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is based on the foundations set by the previous course on computer organisation. It expands particularly into all forms of concurrent programming including aspects of massively parallel programming. It introduces all basic mechanisms to analyse, design, and manage concurrent, single computer-node (multicore) as well as distributed applications (e.g. as performance or dependability enhancements).\n\nFollowing on from the previous course, the fields of operating systems and networking will also be expanded on. On the operating system side aspects of security, scheduling algorithms and memory management are discussed. More specific networking aspects follow on from message passing as a core concurrency construct. These include the basics of routing and dependable protocols."
+  "description": ""
  },
  {
   "code": "COMP2400",
@@ -488,7 +488,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP2400",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is an introduction to relational databases and the general skills for designing and using them. Topics include the relational data model, SQL, data modelling tools such as the entity-relationship model, functional dependencies, and (de-)normalisation, query processing and optimisation, and potential social and economic impacts of database design, for instance through (in-)security. Current development of database systems based on models other than the relational (known asNoSQL databases) will be introduced at the end of the course."
+  "description": ""
  },
  {
   "code": "COMP2550",
@@ -536,7 +536,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP2550",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This Advanced Studies Course introduces students to some fundamentals of research methodology. The course comprises a series of lectures which cover the following topics: Philosophy of Science, Quantitative Research Methods, Qualitative Research Methods, Basic Machine Learning Methods, Theoretical Research Methods, How to find a Research Topic, Literature Analysis, Reading and Reviewing Papers, Research Ethics and Commercialising Research. The lectures will be complemented by a series of workshops, labs and assignments that require students to do some small research focused tasks that help them get a hands-on experience of research, both individually and in teams of students. This includes different tasks such as topic modelling, statistical analysis, applying different machine learning techniques to solve a problem in a team, proving theorems, complexity analysis, designing a research project, reviewing papers and presenting papers. Workshops cover topics such as research integrity, time management and project management, teamwork, reading strategies, report writing, and presenting research. At the end of the course, students will be confident to start working on their own research projects."
+  "description": ""
  },
  {
   "code": "COMP2610",
@@ -562,7 +562,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP2610",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Information theory studies the fundamental limits of the representation and transmission of information. This course provides an introduction to information theory, studying fundamental concepts such as probability, information, and entropy and examining their applications in the areas of data compression, coding, communications, pattern recognition and probabilistic inference."
+  "description": ""
  },
  {
   "code": "COMP2620",
@@ -571,7 +571,7 @@
   "level": 2000,
   "title": "Logic",
   "units": 6,
-  "summary": "Formal logic is the fundamental mathematics of computer science.  Its impact ranges from the design of programming languages and hardware, to the specification and verification of critical software, to artificial intelligence systems that can reason.",
+  "summary": "Formal logic is the fundamental mathematics of computer science.",
   "offered": [
    "S1"
   ],
@@ -601,7 +601,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP2620",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Formal logic is the fundamental mathematics of computer science. Its impact ranges from the design of programming languages and hardware, to the specification and verification of critical software, to artificial intelligence systems that can reason. This course introduces propositional and predicate logic. We discuss how to reason within these logics, how to reason about their properties and limitations, and how to use them to model situations of interest in both natural language and computer science applications. We explore how computational thinking can help us solve logic problems."
+  "description": ""
  },
  {
   "code": "COMP2700",
@@ -610,7 +610,7 @@
   "level": 2000,
   "title": "Cyber Security Foundations",
   "units": 6,
-  "summary": "Cyber Security Foundations introduces all essential cyber security principles.  This includes principles of secure design, secrets minimization, least privilege, isolation, separation and encapsulation.",
+  "summary": "Cyber Security Foundations introduces all essential cyber security principles.",
   "offered": [
    "S1"
   ],
@@ -659,7 +659,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP2700",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Cyber Security Foundations introduces all essential cyber security principles. This includes principles of secure design, secrets minimization, least privilege, isolation, separation and encapsulation. The interplay between failed security principles and vulnerabilities is investigated in detail, and ethical considerations in vulnerability disclosure are discussed.\n\nThe course provides the essential foundations which allow students to continue in a more in-depth cyber security career, yet can also be used a standalone unit to provide a self-contained set of knowledge."
+  "description": ""
  },
  {
   "code": "COMP2710",
@@ -668,7 +668,7 @@
   "level": 2000,
   "title": "Special Topics in Computer Science",
   "units": 6,
-  "summary": "This course is available so that students can pursue, with a small class, topics that are not covered in the regular curriculum that will significantly increase their knowledge of some aspect of computer science.",
+  "summary": "This course is available so that students can pursue, with a small class, topics that are not covered in the regular curriculum that will significantly…",
   "offered": [
    "S1"
   ],
@@ -696,7 +696,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP2710",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is available so that students can pursue, with a small class, topics that are not covered in the regular curriculum that will significantly increase their knowledge of some aspect of computer science. The The topic will vary from instance to instance in response to the research interests and expertise of Academics and sessional staff.\n\nThe topic for each instance will be advertised on the School of Computing website in the first few weeks before the semester\n\nThe activities in the course will be a combination of lectures, workshops, reading, writing and project work, as appropriate to the topic. These activities will be specified in the class summary."
+  "description": ""
  },
  {
   "code": "COMP3242",
@@ -750,7 +750,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3242",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The course covers the theory and practice of deep learning. Students will learn the foundational mathematics behind deep learning and explore topics such as multi-layer perceptrons (MLPs), back-propagation and automatic differentiation, convolutional neural networks (CNNs), recurrent neural networks (RNNs), transformers, generative models, and the role of data in training models. These techniques play a crucial role in modern AI systems, including image and video understanding, natural language processing, generative AI, robotics, medicine and scientific discovery. The various practical assessments will enhance student's understanding and intuition of deep learning and its application."
+  "description": ""
  },
  {
   "code": "COMP3300",
@@ -759,7 +759,7 @@
   "level": 3000,
   "title": "Operating Systems Implementation",
   "units": 6,
-  "summary": "This course takes a detailed look at the services provided by, and the internals of, an existing operating system to see how each part is constructed and integrated into the whole.  The lectures will also address recent literature describing advances in operating systems.",
+  "summary": "This course takes a detailed look at the services provided by, and the internals of, an existing operating system to see how each part is constructed and…",
   "offered": [
    "S2"
   ],
@@ -777,7 +777,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3300",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course takes a detailed look at the services provided by, and the internals of, an existing operating system to see how each part is constructed and integrated into the whole. The lectures will also address recent literature describing advances in operating systems. The following topics are addressed: system programming and its facilities (including I/O, signals, job control, interprocess communication, sockets, transport layers, remote operations), system calls and their relation to the system libraries, process management and coordination, implementation of message passing, memory management, interrupt handling, real-time clocks, device-independent input/output, serial-line drivers, network communication, disk drivers, deadlock avoidance, scheduling paradigms, file systems, security."
+  "description": ""
  },
  {
   "code": "COMP3310",
@@ -786,7 +786,7 @@
   "level": 3000,
   "title": "Computer Networks",
   "units": 6,
-  "summary": "This course studies the standard models for the layered approach to communication between autonomous devices in a network, the main characteristics of data transmission across various physical link types and the implications for protocol designs.",
+  "summary": "This course studies the standard models for the layered approach to communication between autonomous devices in a network, the main characteristics of data…",
   "offered": [
    "S1"
   ],
@@ -830,7 +830,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3310",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course studies the standard models for the layered approach to communication between autonomous devices in a network, the main characteristics of data transmission across various physical link types and the implications for protocol designs. It considers how to design networks and protocols for diverse situations, analyses several application and support protocols from a distributed systems viewpoint, and identifies significant problem areas in networked communications.\n\nTopics include: communication network architectures, signalling and modulation across physical media, real-world local and wide-area networks, internet protocol fundamentals, performance and monitoring of networks, routing, network security, and application protocols for distributed systems including web, email, video, internet-of-everything, peer-to-peer and other contemporary network topics."
+  "description": ""
  },
  {
   "code": "COMP3320",
@@ -839,7 +839,7 @@
   "level": 3000,
   "title": "High Performance Scientific Computation",
   "units": 6,
-  "summary": "This course provides an introduction to High Performance Computing with an orientation towards applications in science and engineering.  Aspects of numerical computing and the design and construction of sophisticated scientific software will be considered.",
+  "summary": "This course provides an introduction to High Performance Computing with an orientation towards applications in science and engineering.",
   "offered": [
    "S2"
   ],
@@ -891,7 +891,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3320",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides an introduction to High Performance Computing with an orientation towards applications in science and engineering. Aspects of numerical computing and the design and construction of sophisticated scientific software will be considered. The focus will be on the C and C++ programming languages, although reflecting the reality of modern scientific computation, this course will also touch on other languages such as Python, Java and FORTRAN95. The course will study high performance computer architectures, including modern parallel processors, and will describe how an algorithm interacts with these architectures. It will also look at practical methods of estimating and measuring algorithm/architecture performance.\n\nThe following topics will be addressed: the C++ programming language; basic numerical computing from aspects of floating point error analysis to algorithms for solving differential equations; the engineering of scientific software; general high performance computing concepts and architectural principles; modern scalar architectures and their memory structure; performance and programmability issues, and program analysis techniques for high performance computing; parallel computing paradigms and programming using the OpenMP standard; trends in HPC systems."
+  "description": ""
  },
  {
   "code": "COMP3425",
@@ -900,7 +900,7 @@
   "level": 3000,
   "title": "Data Mining",
   "units": 6,
-  "summary": "Massive amounts of data are being collected by public and private organisations, and research projects, while the Internet provides a very large source of information about almost every aspect of human life and society.",
+  "summary": "Massive amounts of data are being collected by public and private organisations, and research projects, while the Internet provides a very large source of…",
   "offered": [
    "S1"
   ],
@@ -937,7 +937,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3425",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Massive amounts of data are being collected by public and private organisations, and research projects, while the Internet provides a very large source of information about almost every aspect of human life and society. Analysing such data can provide significant benefits to an organisation. This course provides a practical focus on the technology and research in the area of data mining. It focuses on the algorithms and techniques and less on the mathematical and statistical foundations."
+  "description": ""
  },
  {
   "code": "COMP3430",
@@ -996,7 +996,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3430",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Real-world data are commonly messy, distributed, and heterogeneous. This course introduces core concepts of data cleaning, standardisation, and data integration, that are aimed at converting and mapping raw data into other formats that allow more efficient and convenient use and analysis of data. The courses also discusses data quality, management, and storage issues as relevant to data analytics."
+  "description": ""
  },
  {
   "code": "COMP3500",
@@ -1005,7 +1005,7 @@
   "level": 3000,
   "title": "Software Engineering Project",
   "units": 6,
-  "summary": "COMP3500 is an annual course (6+6) that must be completed twice, in consecutive semesters.  Students work in small groups and participate in all the development phases (requirements analysis, design, construction, testing and documentation) of a nontrivial software system.",
+  "summary": "COMP3500 is an annual course (6+6) that must be completed twice, in consecutive semesters.",
   "offered": [
    "S1",
    "S2"
@@ -1050,7 +1050,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3500",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "COMP3500 is an annual course (6+6) that must be completed twice, in consecutive semesters.\n\nStudents work in small groups and participate in all the development phases (requirements analysis, design, construction, testing and documentation) of a nontrivial software system. As well, each group has to address the control of the development process by constructing and following a detailed software development management plan. Students will also study relevant aspects of the software engineering milieux.\n\nMost students will work on projects for an industry, government or university client. Highly motivated students will be given an opportunity to engage with the ACT Innovation community and students across the university to create their own software-based start-up businesses.\n\nTo enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener."
+  "description": ""
  },
  {
   "code": "COMP3540",
@@ -1077,7 +1077,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3540",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course will provide a holistic grounding for game development, including elements of design, development, and production. Students will learn about key theories of game design and development and develop practical game development skills using leading professional development tools. Students will additionally learn from experienced industry professionals via guest lectures and engagement opportunities."
+  "description": ""
  },
  {
   "code": "COMP3600",
@@ -1086,7 +1086,7 @@
   "level": 3000,
   "title": "Algorithms",
   "units": 6,
-  "summary": "Algorithms are the foundation of Computer Science.  They enable advances in Artificial Intelligence, Machine Learning, Cybersecurity, Distributed, Mobile, and Cloud Computing, Computer Graphics and Animation, and many more.",
+  "summary": "Algorithms are the foundation of Computer Science.",
   "offered": [
    "S2"
   ],
@@ -1126,7 +1126,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3600",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Algorithms are the foundation of Computer Science. They enable advances in Artificial Intelligence, Machine Learning, Cybersecurity, Distributed, Mobile, and Cloud Computing, Computer Graphics and Animation, and many more. These advances have made Computer Science an indispensable part of our everyday life.\n\nThe main goal of this course is to familiarize students with basic concepts in the design and analysis of algorithms and data structures. It focuses on fundamental computing problems such as sorting and searching. The students will learn how to use different algorithm design methods and data structures to solve such problems efficiently, as well as basic performance measures and analysis techniques."
+  "description": ""
  },
  {
   "code": "COMP3610",
@@ -1135,7 +1135,7 @@
   "level": 3000,
   "title": "Principles of Programming Languages",
   "units": 6,
-  "summary": "“Programming languages are the medium through which we describe computations.  More specifically, we use the model provided by a programming language to discuss concepts, formulate algorithms, and reason about problem solutions.",
+  "summary": "“Programming languages are the medium through which we describe computations.",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed:\nCOMP2100 and\n(COMP1600 or 6 units of MATHS excluding MATH1003)\nIncompatible with COMP6361.",
   "rule": {
@@ -1170,7 +1170,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3610",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "“Programming languages are the medium through which we describe computations. More specifically, we use the model provided by a programming language to discuss concepts, formulate algorithms, and reason about problem solutions. Programming languages define models tailored to thinking about and solving problems in intended application areas. For example, the C language provides a model close to a computer’s underlying hardware […]. The languages used in practice change continuously as advances in our field and the broadening uses of technology change how we model and express computation. At its core, the study of programming languages examines the principles and limitations of computing (or programming) models, the effective design and use of systems or languages based on these models, and methods to compare their relative strengths and weaknesses in particular contexts.” [Why Undergraduates Should Learn the Principles of Programming Languages, ACM SIGPLAN Education Board, February 6, 2011, Page 1]\n\nThis course is an introduction to the theory and design of programming languages. To develop high-assurance software - software for which we can give strong evidence that the software will do what it is supposed to do and nothing more - a formal description of the 'meaning' and behaviour of programs is required. Hence two fundamental aspects of the study of programming languages are their syntax, and their formal semantics. High-assurance software is not only needed for safety-critical software, but also for program transformations, such as carried out by optimising compilers.\n\nTopics covered in this course include formal semantics of programming languages (such as operational, denotational and axiomatic), type systems, higher-order functions and lambda calculus, concurrency, and communication."
+  "description": ""
  },
  {
   "code": "COMP3620",
@@ -1179,7 +1179,7 @@
   "level": 3000,
   "title": "Artificial Intelligence",
   "units": 6,
-  "summary": "Artificial intelligence is the science that studies and develops methods of making computers more /intelligent/.  The focus of this course is on core AI techniques for search, knowledge representation and reasoning, planning, and designing intelligent agents.",
+  "summary": "Artificial intelligence is the science that studies and develops methods of making computers more /intelligent/.",
   "offered": [
    "S1"
   ],
@@ -1217,7 +1217,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3620",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Artificial intelligence is the science that studies and develops methods of making computers more /intelligent/. The focus of this course is on core AI techniques for search, knowledge representation and reasoning, planning, and designing intelligent agents. The course also aims to give an overview of the historical, philosophical, and logical foundations of AI."
+  "description": ""
  },
  {
   "code": "COMP3630",
@@ -1266,7 +1266,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3630",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course covers the theoretical computer science areas of formal languages and automata, computability and complexity. Topics covered include the following: regular and context-free languages; finite automata and pushdown automata; Turing machines; computability - halting problem, solvable, and unsolvable problems; space and time complexity; classes P, NP and PSPACE; NP-Completeness."
+  "description": ""
  },
  {
   "code": "COMP3670",
@@ -1275,7 +1275,7 @@
   "level": 3000,
   "title": "Introduction to Machine Learning",
   "units": 6,
-  "summary": "Essential foundations for any machine learning application are a basic statistical analysis of the data to be processed, a solid understanding of the mathematical foundations underpinning machine learning as well as the basic classes of learning/adaptation concepts.",
+  "summary": "Essential foundations for any machine learning application are a basic statistical analysis of the data to be processed, a solid understanding of the…",
   "offered": [
    "S2"
   ],
@@ -1303,7 +1303,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3670",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Essential foundations for any machine learning application are a basic statistical analysis of the data to be processed, a solid understanding of the mathematical foundations underpinning machine learning as well as the basic classes of learning/adaptation concepts. Those foundations are bundled in this single, introductory course to machine learning in preparation for deeper explorations into the topic, but also as a standalone unit."
+  "description": ""
  },
  {
   "code": "COMP3703",
@@ -1350,7 +1350,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3703",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Software Security covers advanced techniques in software vulnerability assessment, discovery and mitigation. These include: common patterns in software vulnerabilities, such as stack-based buffer overflow, format string vulnerabilities, and heap-based vulnerabilities; exploitation techniques such as code injection, return-oriented-programming; techniques for vulnerability discovery, such as program binaries reverse engineering, fuzzing and symbolic execution; and mitigation techniques such\n\nas memory protection mechanisms, input sanitation, and control flow integrity protection. The course features hands-on lectures and labs to analyse software vulnerabilities, both in the source code and in program binaries, and design and implement appropriate mitigation techniques."
+  "description": ""
  },
  {
   "code": "COMP3704",
@@ -1397,7 +1397,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3704",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course covers a range of concepts, techniques and technologies in network security. This includes an overview of relevant network protocols and cryptography; analyses of designs and implementations of security protocols, including basic tools and techniques; an understanding of network threats and attacks such as eavesdropping, spoofing, protocol failures, DoS attacks and man-in-the-middle attacks; network defence including threat analysis and identification, architecture control, intrusion detection and layered security.\n\nThe course features hands-on lectures and labs to analyse network vulnerabilities, and design and implement appropriate defensive techniques."
+  "description": ""
  },
  {
   "code": "COMP3710",
@@ -1406,7 +1406,7 @@
   "level": 3000,
   "title": "Topics in Computer Science",
   "units": 6,
-  "summary": "This course is available so that senior students can pursue, with a small class, topics that are not covered in the regular curriculum that will significantly increase their knowledge of some aspect of computer science.",
+  "summary": "This course is available so that senior students can pursue, with a small class, topics that are not covered in the regular curriculum that will significantly…",
   "offered": [],
   "requisiteText": null,
   "rule": null,
@@ -1418,7 +1418,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3710",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is available so that senior students can pursue, with a small class, topics that are not covered in the regular curriculum that will significantly increase their knowledge of some aspect of computer science.\n\nThe activities in the course will be a combination of lectures, workshops, reading, writing and project work, as appropriate to the topic. These activities will be specified in separate websites for each class."
+  "description": ""
  },
  {
   "code": "COMP3740",
@@ -1427,7 +1427,7 @@
   "level": 3000,
   "title": "Individual Project",
   "units": 6,
-  "summary": "Students will conduct a small, one semester long (6-unit) project, under supervision, that in area of computing of mutual interest to the student and their supervisor.",
+  "summary": "Students will conduct a small, one semester long (6-unit) project, under supervision, that in area of computing of mutual interest to the student and their…",
   "offered": [
    "S1",
    "S2"
@@ -1458,7 +1458,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3740",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Students will conduct a small, one semester long (6-unit) project, under supervision, that in area of computing of mutual interest to the student and their supervisor. The project will involve applying and increasing the depth of the student's knowledge in some aspect of computing. The activities in the course will normally include some combination of reading, writing, project work and presentation, as appropriate to the topic. The specific learning objectives, project overview and assessment arrangements will be specified at the outset using the Project Registration Form.\n\nStudents enrolled are responsible to find a supervisor and identify a suitable Computer Science Project before they submit the permission code request."
+  "description": ""
  },
  {
   "code": "COMP3770",
@@ -1507,7 +1507,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3770",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "COMP3770 is an Annual course (6+6) that must be completed twice, in consecutive semesters.\n\nThis is an Individual Research Project (IRP) within the Bachelor of Advanced Computing (Research and Development) (Honours) degree, specifically designed to provide a strong research focus customised to each student. These give students valuable research experience along with the opportunity to explore different research areas prior to their final Honour's project."
+  "description": ""
  },
  {
   "code": "COMP3820",
@@ -1516,7 +1516,7 @@
   "level": 3000,
   "title": "Computing Internship",
   "units": 12,
-  "summary": "This course will enable computer science students to develop competencies expected of professionals working in business, government or the broader community.  The course coordinator will maintain a list of available internship opportunities for which students can apply.",
+  "summary": "This course will enable computer science students to develop competencies expected of professionals working in business, government or the broader community.",
   "offered": [],
   "requisiteText": "To enrol in this course you must have successfully completed COMP2100 and COMP2120.\n\nYou will need to undergo competitive entry to enrol in this course, please see CECC webpage for more information.\n\nYou are not able to enrol in this course if you have previously completed or are currently enrolled in COMP3500.",
   "rule": {
@@ -1546,7 +1546,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3820",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course will enable computer science students to develop competencies expected of professionals working in business, government or the broader community. The course coordinator will maintain a list of available internship opportunities for which students can apply. A holistic selection process will be used to select the best applicant for each opportunity. Students can also propose internships, but these will always be established following negotiations between the ANU and potential host organisations, and then offered to students along with other opportunities."
+  "description": ""
  },
  {
   "code": "COMP3900",
@@ -1555,7 +1555,7 @@
   "level": 3000,
   "title": "Human-Computer Interaction",
   "units": 6,
-  "summary": "This course will provide an overview of the field of Human-Computer Interaction (HCI) and will introduce students to key interaction and experience design paradigms, approaches and methods.",
+  "summary": "This course will provide an overview of the field of Human-Computer Interaction (HCI) and will introduce students to key interaction and experience design…",
   "offered": [
    "S2"
   ],
@@ -1577,7 +1577,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP3900",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course will provide an overview of the field of Human-Computer Interaction (HCI) and will introduce students to key interaction and experience design paradigms, approaches and methods. The course will equip students with theory, methods, and techniques to investigate different design situations, develop and prototype novel design ideas, and engage with the ethical dimensions of technology design."
+  "description": ""
  },
  {
   "code": "COMP4011",
@@ -1621,7 +1621,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4011",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course offers students a unique opportunity for the advanced study of a special thematic area within the discipline of Theoretical Computer Science. The topics will vary from year to year in response to emerging theoretical and practical issues in the discipline, as well as the research interests and expertise of academics and sessional staff. They will be drawn from the broad areas of formal methods and programming languages, and could include (but not limited to) the following topics: computational logic, category theory, concurrency theory, type theory, semantics of programming languages, computer-assisted theorem proving, model checking, formal methods for security, and formal verification of hardware and software systems."
+  "description": ""
  },
  {
   "code": "COMP4020",
@@ -1630,7 +1630,7 @@
   "level": 4000,
   "title": "Advanced Topics in Human-Centred and Creative Computing",
   "units": 6,
-  "summary": "This course offers students a unique opportunity for the advanced study of a special thematic area within the disciplines of human-centred and creative computing.",
+  "summary": "This course offers students a unique opportunity for the advanced study of a special thematic area within the disciplines of human-centred and creative…",
   "offered": [
    "S2"
   ],
@@ -1660,7 +1660,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4020",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course offers students a unique opportunity for the advanced study of a special thematic area within the disciplines of human-centred and creative computing. The topics will vary from year to year in response to emerging challenges in these disciplines, as well as the research interests and expertise of academics and sessional staff. Topics will be drawn from the broad areas of human-computer interaction and creative computing, and could include (but not limited to) the following topics: human-centred AI, design research methodologies, interface design with e-textiles, interface design with recycled materials, augmented reality and spatial computing."
+  "description": ""
  },
  {
   "code": "COMP4045",
@@ -1704,7 +1704,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4045",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course offers students a unique opportunity for the advanced study of a special thematic area within the discipline of computer systems and architecture. The topics will vary from year to year in response to emerging theoretical and practical issues in the discipline, as well as the research interests and expertise of academics and sessional staff. They could include (but not limited to) the following topics: micro architecture, garbage collection, memory design, and micro kernels."
+  "description": ""
  },
  {
   "code": "COMP4130",
@@ -1713,7 +1713,7 @@
   "level": 4000,
   "title": "Managing Software Quality and Process",
   "units": 6,
-  "summary": "This course introduces students to advanced topics on managing the quality of products delivered as part of a software development project and managing the development process itself through static and dynamic software analysis techniques.",
+  "summary": "This course introduces students to advanced topics on managing the quality of products delivered as part of a software development project and managing the…",
   "offered": [
    "S1"
   ],
@@ -1745,7 +1745,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4130",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces students to advanced topics on managing the quality of products delivered as part of a software development project and managing the development process itself through static and dynamic software analysis techniques.\n\nSeveral causal aspects of poor software quality will be introduced and discussed so that students can understand the context for undertaking risk management and avoiding bad quality. There will be a focus on practical techniques for identifying and removing defects, as well as implementing procedures to track the success or failure of risk and defect resolutions.\n\nSeveral automatic software quality analysis techniques, including static program analysis and fuzzing techniques, will also be covered. These techniques are useful for improving the reliability, security, and performance of software and are becoming increasingly impactful in industries today. The course will introduce various well-known static program analysis frameworks such as Soot and dynamic testing techniques like symbolic execution. Practical implementations will also be covered, including live variable analysis, constant propagation, dead code detection, call graph construction, pointer analysis, taint analysis, and symbolic execution."
+  "description": ""
  },
  {
   "code": "COMP4300",
@@ -1754,7 +1754,7 @@
   "level": 4000,
   "title": "Parallel Systems",
   "units": 6,
-  "summary": "A practically oriented introduction to programming paradigms for parallel computers.  Considers definitions of program efficiency on parallel computers, addresses the modelling, analysis and measurement of program performance.",
+  "summary": "A practically oriented introduction to programming paradigms for parallel computers.",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed COMP2310.\nIncompatible with COMP8300.",
   "rule": {
@@ -1770,7 +1770,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4300",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "A practically oriented introduction to programming paradigms for parallel computers. Considers definitions of program efficiency on parallel computers, addresses the modelling, analysis and measurement of program performance. Description, implementation and use of parallel programming languages, parallel features of operating systems, library routines and applications."
+  "description": ""
  },
  {
   "code": "COMP4350",
@@ -1779,7 +1779,7 @@
   "level": 4000,
   "title": "Sound and Music Computing",
   "units": 6,
-  "summary": "Do you want to create sound and music with your computer?  Do you want to build new kinds of musical instruments?  Do you want to be a part of a laptop band?  This is the course for you!",
+  "summary": "Do you want to create sound and music with your computer?",
   "offered": [],
   "requisiteText": "To enrol in this course, you must have either:\ncompleted 12 units of 2000-level COMP courses\nor\nhave completed 12 units of 2000-level MUSI, DESN or ARTV courses and have completed COMP1720\n\nIncompatible with COMP8350.",
   "rule": {
@@ -1794,7 +1794,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4350",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Do you want to create sound and music with your computer? Do you want to build new kinds of musical instruments? Do you want to be a part of a laptop band? This is the course for you!\n\nThis course is an introduction to the fundamental concepts of music computing, including digital synthesis, algorithmic composition, and musical interface design. Students will develop their knowledge by creating computer musical instruments in music programming languages and developing new computer music works to present in concert with an ensemble of other students.\n\nModern music technology exists at the forefront of computing practice and involves new live programming paradigms, human interface design, digital signal processing, networking, and machine learning. Students will gain experience in these concepts and learn how to conceptualise and realise new computer music instruments, compositions, and performances."
+  "description": ""
  },
  {
   "code": "COMP4425",
@@ -1803,7 +1803,7 @@
   "level": 4000,
   "title": "Data Mining",
   "units": 6,
-  "summary": "Massive amounts of data are being collected by public and private organisations, and research projects, while the Internet provides a very large source of information about almost every aspect of human life and society.",
+  "summary": "Massive amounts of data are being collected by public and private organisations, and research projects, while the Internet provides a very large source of…",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed\n6 units of (COMP1100 or COMP1130 or COMP1730)\nAND COMP2400\n\nIncompatible with COMP3425, COMP8400, COMP8410 and COMP8910.",
   "rule": {
@@ -1837,7 +1837,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4425",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Massive amounts of data are being collected by public and private organisations, and research projects, while the Internet provides a very large source of information about almost every aspect of human life and society. Analysing such data can provide significant benefits to an organisation. This course provides a practical focus on the technology and research in the area of data mining. It focuses on the algorithms and techniques and less on the mathematical and statistical foundations."
+  "description": ""
  },
  {
   "code": "COMP4450",
@@ -1894,7 +1894,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4450",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The course introduces students to some fundamentals of research methodology. The course comprises a series of lectures which cover the following topics: Philosophy of Science, Quantitative Research Methods, Qualitative Research Methods, Basic Machine Learning Methods, Theoretical Research Methods, How to find a Research Topic, Literature Analysis, Reading and Reviewing Papers, Research Ethics and Commercialising Research.\n\nThe lectures will be complemented by a series of workshops, labs and assignments that require students to do some small research focused tasks that help them get a hands-on experience of research, both individually and in teams of students. This includes different tasks such as topic modelling, statistical analysis, applying different machine learning techniques to solve a problem in a team, proving theorems, complexity analysis, designing a research project, reviewing papers and presenting papers.\n\nWorkshops cover topics such as research integrity, time management and project management, teamwork, reading strategies, report writing, and presenting research. At the end of the course, students will be confident to start working on their own research projects."
+  "description": ""
  },
  {
   "code": "COMP4500",
@@ -1981,7 +1981,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4500",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "COMP4500 is an annual course that must be completed twice, in consecutive semesters.\n\nThis course exposes students to professional software engineering practice and leadership through the development of a software system for an industry, government or university based customer, or by engaging with the ACT innovation community and students across the university to create a software-based start-up business. Students will lead small teams to plan (define, estimate, schedule) and manage an appropriate set of activities to ultimately deliver a software product. The implementation part of the project will include monitoring, measuring, tracking, and managing change.\n\nTo enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener."
+  "description": ""
  },
  {
   "code": "COMP4528",
@@ -2030,7 +2030,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4528",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Computer Vision is an important field of Artificial Intelligence concerned with automatically extracting useful information from images or videos. The explosive growth in digital imaging technologies, vision datasets and deep learning makes the problems of automated image interpretation even more exciting and more relevant than ever. This course introduces students to fundamental problems in computer vision and foundational techniques for solving them. Topics covered in detail include: image formation, image filtering, camera geometry, thresholding and image segmentation, edge, point and feature detection, geometric frameworks for vision, single view and two views geometry, 3D visual reconstruction, camera calibration, stereo vision, image classification, object recognition, deep learning and neural networks. The course features extensive practical components including computer labs that provide students with the opportunity to practice and refine their skills in computer vision."
+  "description": ""
  },
  {
   "code": "COMP4550",
@@ -2039,7 +2039,7 @@
   "level": 4000,
   "title": "Computing Research Project",
   "units": 12,
-  "summary": "COMP4550 (12+12) is an Annual course that must be completed twice, in consecutive semesters.  Students will conduct an individual research project under the close supervision of one or more academic staff.",
+  "summary": "COMP4550 (12+12) is an Annual course that must be completed twice, in consecutive semesters.",
   "offered": [
    "S1",
    "S2"
@@ -2075,7 +2075,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4550",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "COMP4550 (12+12) is an Annual course that must be completed twice, in consecutive semesters.\n\nStudents will conduct an individual research project under the close supervision of one or more academic staff. Projects will, at least in part, require the application of theoretical or experimental research techniques. In particular, students will be expected to conduct and present a survey of the literature relevant to the research topic.\n\nStudents will prepare a thesis reporting on the research project and its outcomes. They will also be expected to present a poster or a short seminar describing their work."
+  "description": ""
  },
  {
   "code": "COMP4560",
@@ -2084,7 +2084,7 @@
   "level": 4000,
   "title": "Advanced Computing Project",
   "units": 6,
-  "summary": "COMP4560 is an annual course (6+6) that must be completed twice, in consecutive semesters.  Students will conduct a project, under supervision, that will act as a capstone to their studies in Advanced Computing.",
+  "summary": "COMP4560 is an annual course (6+6) that must be completed twice, in consecutive semesters.",
   "offered": [
    "SUMMER",
    "S1",
@@ -2115,7 +2115,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/COMP4560",
   "catalogueYear": 2025,
   "retired": false,
-  "description": "COMP4560 is an annual course (6+6) that must be completed twice, in consecutive semesters. Students will conduct a project, under supervision, that will act as a capstone to their studies in Advanced Computing. The activities in the course will normally include some combination of reading, writing, artefact construction and presentation, as appropriate to their project's topic. The learning objectives, project overview and assessment arrangements will be agreed at the outset with the project supervisor and the project will be registered via the School of Computing online project registration form."
+  "description": ""
  },
  {
   "code": "COMP4600",
@@ -2124,7 +2124,7 @@
   "level": 4000,
   "title": "Advanced Algorithms",
   "units": 6,
-  "summary": "This course covers a large spectrum of algorithmic topics such as approximation algorithms, randomized algorithms, parallel/distributed algorithms, and online algorithms.",
+  "summary": "This course covers a large spectrum of algorithmic topics such as approximation algorithms, randomized algorithms, parallel/distributed algorithms, and online…",
   "offered": [
    "S1"
   ],
@@ -2156,7 +2156,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4600",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course covers a large spectrum of algorithmic topics such as approximation algorithms, randomized algorithms, parallel/distributed algorithms, and online algorithms. Students will learn how to analyze the most fundamental algorithms in these areas using various techniques from graph theory, probability theory, and algebra. After successful completion of the course, students will be able to design efficient and effective algorithms for similar problems leveraging these techniques. Furthermore, students will learn about the most recent research advancements in these areas by studying current research publications."
+  "description": ""
  },
  {
   "code": "COMP4610",
@@ -2165,7 +2165,7 @@
   "level": 4000,
   "title": "Computer Graphics",
   "units": 6,
-  "summary": "Computer graphics are an essential part of modern software.  In this course, students will learn about fundamental algorithms, data structures and programming models used in 3D graphics applications.",
+  "summary": "Computer graphics are an essential part of modern software.",
   "offered": [
    "S1"
   ],
@@ -2200,7 +2200,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4610",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Computer graphics are an essential part of modern software. In this course, students will learn about fundamental algorithms, data structures and programming models used in 3D graphics applications. These key concepts in computer graphics programming will be covered from their mathematical foundations through to their application in domains such as data visualisation, virtual reality, computer games and film animation/VFX. In this course, students will explore these concepts through practical implementation in a modern computer graphics software context."
+  "description": ""
  },
  {
   "code": "COMP4620",
@@ -2246,7 +2246,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4620",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This is an advanced undergraduate course that offers students the opportunity to study a special thematic area within the discipline of Artificial Intelligence.\n\nThe topics will vary from year to year in response to emerging theoretical and practical issues in the discipline, as well as the research interests and expertise of academics and sessional staff. They will be drawn from the broad areas of Artificial Intelligence, and could include (but not limited to) the following topics: Planning, Scheduling, Games, Search, Reasoning (constraint-based, model-based, spatial, temporal), Knowledge representation, Decision-making under uncertainty, Integrated planning and learning, Reinforcement learning, and Robotics.\n\nPlease see the class website for the specific topics covered in a particular semester."
+  "description": ""
  },
  {
   "code": "COMP4650",
@@ -2255,7 +2255,7 @@
   "level": 4000,
   "title": "Document Analysis",
   "units": 6,
-  "summary": "Processing of semi-structured documents such as internet pages, Really Simple Syndication (RSS) feeds and their accompanying news items, and Portable Document Format (PDF) brochures is considered from the perspective of interpreting the content.",
+  "summary": "Processing of semi-structured documents such as internet pages, Really Simple Syndication (RSS) feeds and their accompanying news items, and Portable Document…",
   "offered": [
    "S2"
   ],
@@ -2293,7 +2293,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4650",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Processing of semi-structured documents such as internet pages, Really Simple Syndication (RSS) feeds and their accompanying news items, and Portable Document Format (PDF) brochures is considered from the perspective of interpreting the content. This course considers the document and its various genres as a fundamental object for business, government and community. For this, the course covers four broad areas:\n\n1. Information Retrieval (IR),\n\n2. Natural Language Processing (NLP),\n\n3. Machine/Deep Learning (M/DL) for documents, and\n\n4. relevant tools for the Web.\n\nBasic tasks here are covered, including content collection and extraction, formal and informal NLP, Information Extraction (IE), IR, classification, and analysis. Fundamental probabilistic techniques for performing these tasks and some common software systems will be covered, though no area will be covered in any depth.\n\n(The older version: This course considers the “document” and its various genres as a fundamental object for business, government and community, such as web pages, social media feeds, news items, and PDF brochures. The goal is to introduce concepts and hands-on tools for automated understanding of large amounts of text. For this, the course covers four broad areas: (A) information retrieval, (B) natural language processing, (C) machine learning for documents, and (D) relevant tools for the web. Tasks include content collection and extraction, formal and informal natural language processing, information extraction, information retrieval, classification and analysis. Fundamental probabilistic techniques for performing these tasks, and some common software systems will be covered, though no area will be covered in great depth.)"
+  "description": ""
  },
  {
   "code": "COMP4670",
@@ -2366,7 +2366,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4670",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides a broad but thorough introduction to the methods and practice of statistical machine learning. Topics covered will include Bayesian inference and maximum likelihood; regression, classification, density estimation, clustering, principal and independent component analysis; parametric, semi-parametric, and non-parametric models; basis functions, neural networks, kernel methods, and graphical models; deterministic and stochastic optimisation; overfitting, regularisation, and validation."
+  "description": ""
  },
  {
   "code": "COMP4680",
@@ -2375,7 +2375,7 @@
   "level": 4000,
   "title": "Advanced Topics in Machine Learning",
   "units": 6,
-  "summary": "This course builds on previous machine learning (ML) courses to explore selected areas relevant to machine learning in depth.  It will be taught by an ML staff member of internationally recognised standing and research interest in that area.",
+  "summary": "This course builds on previous machine learning (ML) courses to explore selected areas relevant to machine learning in depth.",
   "offered": [
    "S1"
   ],
@@ -2412,7 +2412,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4680",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course builds on previous machine learning (ML) courses to explore selected areas relevant to machine learning in depth. It will be taught by an ML staff member of internationally recognised standing and research interest in that area. Based on current ML staffing, this will be one or more of:\n\ndecision making in robotics\n\nkernel methods\n\nstructured probabilistic models\n\nreinforcement learning\n\nconvex analysis and optimisation\n\ntopics in information theory\n\ndecision theory\n\ndeep learning\n\ndifferentiable optimisation in deep learning\n\nStudents should contact the course convenor to find out what topic is planned for the coming semester."
+  "description": ""
  },
  {
   "code": "COMP4691",
@@ -2421,7 +2421,7 @@
   "level": 4000,
   "title": "Optimisation",
   "units": 6,
-  "summary": "This course provides foundations and plenty of exercises in practical optimisation problems, while covering all basic elements of optimisation including forms of constraint programming as well as variations on linear programming and convex optimisation.",
+  "summary": "This course provides foundations and plenty of exercises in practical optimisation problems, while covering all basic elements of optimisation including forms…",
   "offered": [
    "S2"
   ],
@@ -2459,7 +2459,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4691",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides foundations and plenty of exercises in practical optimisation problems, while covering all basic elements of optimisation including forms of constraint programming as well as variations on linear programming and convex optimisation."
+  "description": ""
  },
  {
   "code": "COMP4703",
@@ -2498,7 +2498,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4703",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Historically, major defensive security techniques for software systems were developed as a response to the emergence of classes of exploitation techniques. The aims of such defensive techniques are usually not about preventing software developers from writing insecure code, but rather, they are aimed at preventing bugs in software to be exploited by attackers to compromise their targets. Vulnerability Research and Exploit Mitigation examines important exploit mitigation techniques deployed in modern software systems through an adversarial lens: software vulnerabilities are explored in depth, through how they can be discovered and exploited, in order to understand the mechanisms behind the exploit mitigation techniques. The course covers topics ranging from common patterns in software vulnerabilities, such as stack-based buffer overflow, format string vulnerabilities, and heap-based vulnerabilities; exploitation techniques such as code injection, code obfuscation, return-oriented-programming; techniques for vulnerability discovery, such as program binaries reverse engineering, fuzzing and symbolic execution; and mitigation techniques such as memory protection mechanisms, input sanitization, and control flow integrity protection. The course features hands-on lectures and labs to analyse software vulnerabilities, both in the source code and in program binaries, to develop proof-of-concept exploits, and to design and implement appropriate mitigation techniques against exploitation. Students will learn state-of-the-art vulnerability research and exploitation tools and techniques, and apply their knowledge on case studies involving real-world software systems."
+  "description": ""
  },
  {
   "code": "COMP4712",
@@ -2507,7 +2507,7 @@
   "level": 4000,
   "title": "Compiler Construction",
   "units": 6,
-  "summary": "Compiler Construction provides an in-depth treatment of programming language translation, compilation, and run-time systems, organised around a significant programming project to build a compiler for a simple, but non-trivial core programming language.",
+  "summary": "Compiler Construction provides an in-depth treatment of programming language translation, compilation, and run-time systems, organised around a significant…",
   "offered": [
    "S1"
   ],
@@ -2545,7 +2545,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4712",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Compiler Construction provides an in-depth treatment of programming language translation, compilation, and run-time systems, organised around a significant programming project to build a compiler for a simple, but non-trivial core programming language. The course integrates both theory and practice. Topics include data structures for tree languages; lexical analysis, syntax analysis and abstract syntax; symbol tables and semantic analysis; translation, intermediate code, basic blocks and traces; machine targets and instruction selection; liveness analysis and graph colouring register allocation. Supplemental topics may include garbage collection, object-oriented languages, higher-order languages, dataflow analysis, optimisation, polymorphism, dynamic compilation, scheduling, pipelining and memory hierarchies. Upon completion of the course, students will understand how programs map to execution on modern processors, and the impact of language design on language implementation."
+  "description": ""
  },
  {
   "code": "COMP4820",
@@ -2554,7 +2554,7 @@
   "level": 4000,
   "title": "Advanced Computing Internship",
   "units": 12,
-  "summary": "This course will enable advanced computing students to develop competencies expected of professionals working in business, government or the broader community.  The internship opportunities are published on the School of Computing Projects webpage.",
+  "summary": "This course will enable advanced computing students to develop competencies expected of professionals working in business, government or the broader community.",
   "offered": [
    "S1",
    "S2"
@@ -2600,7 +2600,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4820",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course will enable advanced computing students to develop competencies expected of professionals working in business, government or the broader community. The internship opportunities are published on the School of Computing Projects webpage. A holistic selection process, including interviews with the Host, will be used to select the best applicant for each opportunity. Students can also propose internships, but these will always be established following negotiations between the ANU and potential host organisations, and then offered to students along with other opportunities."
+  "description": ""
  },
  {
   "code": "COMP4880",
@@ -2609,7 +2609,7 @@
   "level": 4000,
   "title": "Computational Methods for Network Science",
   "units": 6,
-  "summary": "Computational Methods for Network Science covers the essentials of using computational approaches to pose and answer social science research problems.  In doing so it also covers a selected set of network algorithms in depth.",
+  "summary": "Computational Methods for Network Science covers the essentials of using computational approaches to pose and answer social science research problems.",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed COMP3670, or you must have completed all of the following: COMP1110 or COMP1140 and MATH1014 or MATH1115.\nIncompatible with COMP8880.",
   "rule": {
@@ -2625,7 +2625,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP4880",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Computational Methods for Network Science covers the essentials of using computational approaches to pose and answer social science research problems. In doing so it also covers a selected set of network algorithms in depth. This includes random graph models, homophily and friendship paradox, influence and contagion in networks, markets and network games, network resilence. Furthermore, it also teaches students about the ethics of doing data-driven social science research.\nThe course equips the students with in-depth knowledge and hands-on experience in working with network data to study social processes at both the individual and aggregate levels. Graduates will be equipped with the technical, theoretical and conceptual skills and knowledge to start a budding career in this field of research."
+  "description": ""
  },
  {
   "code": "COMP5920",
@@ -2634,7 +2634,7 @@
   "level": 5000,
   "title": "Exchange Program in Computer Science",
   "units": 6,
-  "summary": "Students enrol in this course when they have been approved to participate in a formal Computing exchange with one of the Australian National University's overseas exchange partners.",
+  "summary": "Students enrol in this course when they have been approved to participate in a formal Computing exchange with one of the Australian National University's…",
   "offered": [
    "S1",
    "S2"
@@ -2647,7 +2647,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP5920",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Students enrol in this course when they have been approved to participate in a formal Computing exchange with one of the Australian National University's overseas exchange partners.\n\nFor information regarding Computing exchanges, selection criteria, etc, please go to the following website: Student exchange | ANU College of Engineering, Computing & Cybernetics"
+  "description": ""
  },
  {
   "code": "COMP6034",
@@ -2694,7 +2694,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6034",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course covers a range of concepts, techniques and technologies in network security. This includes an overview of relevant network protocols and cryptography; analyses of designs and implementations of security protocols, including basic tools and techniques; an understanding of network threats and attacks such as eavesdropping, spoofing, protocol failures, DoS attacks and man-in-the-middle attacks; network defence including threat analysis and identification, architecture control, intrusion detection and layered security.\n\nThe course features hands-on lectures and labs to analyse network vulnerabilities, and design and implement appropriate defensive techniques."
+  "description": ""
  },
  {
   "code": "COMP6120",
@@ -2703,7 +2703,7 @@
   "level": 6000,
   "title": "Software Engineering",
   "units": 6,
-  "summary": "Real-world software development is a complex and dynamic activity involving people, technology and processes interacting within a complex environment of clients, users and other stakeholders while being observant of technological, physical, social, legal, and ethical constraints.",
+  "summary": "Real-world software development is a complex and dynamic activity involving people, technology and processes interacting within a complex environment of…",
   "offered": [
    "S2"
   ],
@@ -2731,7 +2731,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6120",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Real-world software development is a complex and dynamic activity involving people, technology and processes interacting within a complex environment of clients, users and other stakeholders while being observant of technological, physical, social, legal, and ethical constraints.\n\nThis course will empower students with the ability and confidence necessary to exercise critical thinking and professional judgment to select and apply appropriate knowledge, practices and tools to the development of non-trivial software systems. This will be achieved by introducing students to important design methodologies. We will build on previous programming courses to deepen and broaden students' knowledge and understanding of the practices and tools used to build large software systems within complex environments. We will use real-world examples such as distributed, high-integrity, web-based systems where rigorous software engineering can demonstrably enhance business value.\n\nStudents will learn how practices and tools can be adapted to suit specific project needs and contexts. Knowledge, practices and tools considered in this course will include process models, requirements engineering, design, modelling and user experience.\n\nSoftware engineering design methodologies evolve over time. In this course, students will study the details of one or more design methodologies and critically assess their applicability to modern software systems."
+  "description": ""
  },
  {
   "code": "COMP6240",
@@ -2756,7 +2756,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6240",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is an introduction to relational databases and the general skills for designing and using them. The topics include the relational data model, SQL, entity-relationship model,functional dependencies,(de-)normalisation, relational algebra, query processing and optimisation, database transactions and security. To deepen the understanding of relational databases, the current industry development of database systems such as NoSQL databases will be introduced at the end of this course."
+  "description": ""
  },
  {
   "code": "COMP6242",
@@ -2833,7 +2833,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6242",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The course covers the theory and practice of deep learning. Students will learn the foundational mathematics behind deep learning and explore topics such as multi-layer perceptrons (MLPs), back-propagation and automatic differentiation, convolutional neural networks (CNNs), recurrent neural networks (RNNs), transformers, generative models, and the role of data in training models. These techniques play a crucial role in modern AI systems, including image and video understanding, natural language processing, generative AI, robotics, medicine and scientific discovery. The various practical assessments will enhance student's understanding and intuition of deep learning and its application."
+  "description": ""
  },
  {
   "code": "COMP6250",
@@ -2842,7 +2842,7 @@
   "level": 6000,
   "title": "Professional Practice: Holistic Thinking and Communication",
   "units": 6,
-  "summary": "This is one of two professional practice courses (the other is COMP8260: Professional Practice: Responsible Innovation and Leadership) for engineering and computing graduate students that focus on developing professional and communication skills for the 21st century workplace.",
+  "summary": "This is one of two professional practice courses (the other is COMP8260: Professional Practice: Responsible Innovation and Leadership) for engineering and…",
   "offered": [],
   "requisiteText": "To enrol in this course you must be enrolled in Graduate Diploma of Computing or Master of Computing or Master of Computing (Advanced) or Master of Machine Learning and Computer Vision.",
   "rule": {
@@ -2856,7 +2856,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6250",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This is one of two professional practice courses (the other is COMP8260: Professional Practice: Responsible Innovation and Leadership) for engineering and computing graduate students that focus on developing professional and communication skills for the 21st century workplace. Industry bodies and employers of engineering and computing graduates consistently rank communication skills as one of the most important selection criteria when hiring.\n\nThis course aims to heighten students’ awareness of ethical professional practice, and to develop new interpersonal and communication skills, leading to students becoming more competent professionals in their field.\n\nBased on Engineers Australia and Australian Computer Society professional competencies, students will develop and practice fundamental skills required by industry to better equip them for the workforce."
+  "description": ""
  },
  {
   "code": "COMP6260",
@@ -2865,7 +2865,7 @@
   "level": 6000,
   "title": "Foundations of Computing",
   "units": 6,
-  "summary": "This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of software and for mathematically rigorous arguments about program properties.",
+  "summary": "This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of…",
   "offered": [
    "S2"
   ],
@@ -2879,7 +2879,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6260",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of software and for mathematically rigorous arguments about program properties. The following areas of study constitute the backbone of the course. Predicate calculus and natural deduction, inductive definitions of data types as a basis for recursive functions and structural induction, formal language theory (particularly regular expressions, finite state machines and context-free grammars), and specification languages."
+  "description": ""
  },
  {
   "code": "COMP6261",
@@ -2905,7 +2905,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6261",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Information theory studies the fundamental limits of the representation and transmission of information. This course provides an introduction to information theory, studying fundamental concepts such as probability, information, and entropy and examining their applications in the areas of data compression, coding, communications, pattern recognition and probabilistic inference."
+  "description": ""
  },
  {
   "code": "COMP6262",
@@ -2914,7 +2914,7 @@
   "level": 6000,
   "title": "Logic",
   "units": 6,
-  "summary": "Formal logic is the fundamental mathematics of computer science.  Its impact ranges from the design of programming languages and hardware, to the specification and verification of critical software, to artificial intelligence systems that can reason.",
+  "summary": "Formal logic is the fundamental mathematics of computer science.",
   "offered": [
    "S1"
   ],
@@ -2929,7 +2929,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6262",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Formal logic is the fundamental mathematics of computer science. Its impact ranges from the design of programming languages and hardware, to the specification and verification of critical software, to artificial intelligence systems that can reason. This course introduces propositional and predicate logic. We discuss how to reason within these logics, how to reason about their properties and limitations, and how to use them to model situations of interest in both natural language and computer science applications. We explore how computational thinking can help us solve logic problems."
+  "description": ""
  },
  {
   "code": "COMP6300",
@@ -2982,7 +2982,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6300",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is a rigorous introduction to the design of digital circuits and computer architecture. It provides technical foundations for how a computer system is built from the bottom up and how the high-level programming languages you learn in other courses are translated into simple instructions the computer executes. The course introduces the different abstraction layers necessary to make a computer system work, and a key focus is the connection between hardware and software.\n\nThe course introduces the predominant stored-program computer paradigm and principles of digital design and computer architecture. Students build a fully functional general-purpose computer from simple logic circuits in a digital simulator. The course also demystifies assembly code, the machine language the processor speaks, and the mapping of assembly programs to higher levels of programming abstraction. The focus is on fundamental techniques employed in the design of modern microprocessors and their hardware/software interface.\n\nThis course will challenge your understanding of how computers work and what happens in them when we run a program. At the end of this course, you will be able to navigate between layers of abstraction in a computer system, from individual digital circuits to high-level software, and understand how low-level structures enable and enhance the abilities of a computer system.\n\nThis course covers topics such as combinational and sequential logic design, digital building blocks such as arithmetic/logic unit and random access memory, instruction set architectures and assembly programming, input/output systems, interrupt handling, single-cycle and pipelined processor design, out-of-order execution, and hardware speculation."
+  "description": ""
  },
  {
   "code": "COMP6310",
@@ -2991,7 +2991,7 @@
   "level": 6000,
   "title": "Systems, Networks and Concurrency",
   "units": 6,
-  "summary": "This course is based on the foundations set by the previous course on computer organisation.  It expands particularly into all forms of concurrent programming including aspects of massively parallel programming. g.  as performance or dependability enhancements).",
+  "summary": "This course is based on the foundations set by the previous course on computer organisation.",
   "offered": [
    "S2"
   ],
@@ -3034,7 +3034,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6310",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is based on the foundations set by the previous course on computer organisation. It expands particularly into all forms of concurrent programming including aspects of massively parallel programming.\n\nThis course introduces all basic mechanisms to analyse, design, and manage concurrent, single computer-node (multicore) as well as distributed applications (e.g. as performance or dependability enhancements).\n\nFollowing on from the previous course, the fields of operating systems and networking will also be expanded on. On the operating system side aspects of security, scheduling algorithms and memory management are discussed. More specific networking aspects follow on from message passing as a core concurrency construct. These include the basics of routing and dependable protocols."
+  "description": ""
  },
  {
   "code": "COMP6320",
@@ -3043,7 +3043,7 @@
   "level": 6000,
   "title": "Artificial Intelligence",
   "units": 6,
-  "summary": "Artificial intelligence is the science that studies and develops methods of making computers more intelligent.  The focus of this course is on core AI techniques for search, knowledge representation and reasoning, planning, and designing intelligent agents.",
+  "summary": "Artificial intelligence is the science that studies and develops methods of making computers more intelligent.",
   "offered": [
    "S1"
   ],
@@ -3101,7 +3101,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6320",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Artificial intelligence is the science that studies and develops methods of making computers more intelligent. The focus of this course is on core AI techniques for search, knowledge representation and reasoning, planning, and designing intelligent agents. The course also aims to give an overview of the historical, philosophical, and logical foundations of AI."
+  "description": ""
  },
  {
   "code": "COMP6330",
@@ -3110,7 +3110,7 @@
   "level": 6000,
   "title": "Operating Systems Implementation",
   "units": 6,
-  "summary": "This course takes a detailed look at the services provided by, and the internals of, an existing operating system to see how each part is constructed and integrated into the whole.  The lectures will also address recent literature describing advances in operating systems.",
+  "summary": "This course takes a detailed look at the services provided by, and the internals of, an existing operating system to see how each part is constructed and…",
   "offered": [
    "S2"
   ],
@@ -3147,7 +3147,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6330",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course takes a detailed look at the services provided by, and the internals of, an existing operating system to see how each part is constructed and integrated into the whole. The lectures will also address recent literature describing advances in operating systems. The following topics are addressed: system programming and its facilities (including I/O, signals, job control, interprocess communication, sockets, transport layers, remote operations), system calls and their relation to the system libraries, process management and coordination, implementation of message passing, memory management, interrupt handling, real-time clocks, device-independent input/output, serial-line drivers, network communication, disk drivers, deadlock avoidance, scheduling paradigms, file systems, security."
+  "description": ""
  },
  {
   "code": "COMP6331",
@@ -3156,7 +3156,7 @@
   "level": 6000,
   "title": "Computer Networks",
   "units": 6,
-  "summary": "This course studies the standard models for the layered approach to communication between autonomous machines in a network, and the main characteristics of data transmission across various physical link types.",
+  "summary": "This course studies the standard models for the layered approach to communication between autonomous machines in a network, and the main characteristics of…",
   "offered": [
    "S1"
   ],
@@ -3216,7 +3216,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6331",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course studies the standard models for the layered approach to communication between autonomous machines in a network, and the main characteristics of data transmission across various physical link types. It considers how to design networks and protocols for diverse situations, analyses several application and support protocols from a distributed systems viewpoint, and identifies significant problem areas in networked communications.\n\nTopics include: communication network architectures, signalling and modulation across physical media, real-world local and wide-area networks, internet protocol fundamentals, performance and monitoring of networks, routing, network security, and application protocols for distributed systems including web, email, video, internet-of-everything and other contemporary network topics."
+  "description": ""
  },
  {
   "code": "COMP6361",
@@ -3225,7 +3225,7 @@
   "level": 6000,
   "title": "Principles of Programming Languages",
   "units": 6,
-  "summary": "“Programming languages are the medium through which we describe computations.  More specifically, we use the model provided by a programming language to discuss concepts, formulate algorithms, and reason about problem solutions.",
+  "summary": "“Programming languages are the medium through which we describe computations.",
   "offered": [],
   "requisiteText": ".To enrol in this course you must have successfully completed COMP6710 and COMP6260; or be enrolled in Master of Computing (Advanced)",
   "rule": {
@@ -3240,7 +3240,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6361",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "“Programming languages are the medium through which we describe computations. More specifically, we use the model provided by a programming language to discuss concepts, formulate algorithms, and reason about problem solutions. Programming languages define models tailored to thinking about and solving problems in intended application areas. For example, the C language provides a model close to a computer’s underlying hardware […]. The languages used in practice change continuously as advances in our field and the broadening uses of technology change how we model and express computation. At its core, the study of programming languages examines the principles and limitations of computing (or programming) models, the effective design and use of systems or languages based on these models, and methods to compare their relative strengths and weaknesses in particular contexts.” [Why Undergraduates Should Learn the Principles of Programming Languages, ACM SIGPLAN Education Board, February 6, 2011, Page 1]\n\nThis course is an introduction to the theory and design of programming languages. To develop high-assurance software - software for which we can give strong evidence that the software will do what it is supposed to do and nothing more - a formal description of the 'meaning' and behaviour of programs is required. Hence two fundamental aspects of the study of programming languages are their syntax, and their formal semantics. High-assurance software is not only needed for safety-critical software, but also for program transformations, such as carried out by optimising compilers.\n\nTopics covered in this course include formal semantics of programming languages (such as operational, denotational and axiomatic), type systems, higher-order functions and lambda calculus, concurrency, and communication."
+  "description": ""
  },
  {
   "code": "COMP6363",
@@ -3267,7 +3267,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6363",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course covers the theoretical computer science areas of formal languages and automata, computability and complexity. Topics covered include the following: regular and context-free languages; finite automata and pushdown automata; Turing machines; computability - halting problem, solvable, and unsolvable problems; space and time complexity; classes P, NP and PSPACE; NP-Completeness."
+  "description": ""
  },
  {
   "code": "COMP6390",
@@ -3276,7 +3276,7 @@
   "level": 6000,
   "title": "Human-Computer Interaction",
   "units": 6,
-  "summary": "This course will provide an overview of the field of Human-Computer Interaction (HCI) and will introduce students to key interaction and experience design paradigms, approaches and methods.",
+  "summary": "This course will provide an overview of the field of Human-Computer Interaction (HCI) and will introduce students to key interaction and experience design…",
   "offered": [
    "S2"
   ],
@@ -3309,7 +3309,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6390",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course will provide an overview of the field of Human-Computer Interaction (HCI) and will introduce students to key interaction and experience design paradigms, approaches and methods. The course will equip students with theory, methods, and techniques to investigate different design situations, develop and prototype novel design ideas, and engage with the ethical dimensions of technology design."
+  "description": ""
  },
  {
   "code": "COMP6434",
@@ -3355,7 +3355,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6434",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Real-world data are commonly messy, distributed, and heterogeneous. This course introduces core concepts of data cleaning and standardisation, and data integration, that are aimed at converting and mapping raw data into other formats that allow more efficient and convenient use and analysis of data. The courses also discusses data quality, management, and storage issues as relevant to data analytics."
+  "description": ""
  },
  {
   "code": "COMP6442",
@@ -3364,7 +3364,7 @@
   "level": 6000,
   "title": "Software Construction",
   "units": 6,
-  "summary": "This course extensively explores the fundamental principles and practices necessary for creating medium-scale software projects, with a specific focus on the object-oriented programming paradigm.",
+  "summary": "This course extensively explores the fundamental principles and practices necessary for creating medium-scale software projects, with a specific focus on the…",
   "offered": [
    "S1",
    "S2"
@@ -3478,7 +3478,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6442",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course extensively explores the fundamental principles and practices necessary for creating medium-scale software projects, with a specific focus on the object-oriented programming paradigm. By blending theoretical understanding with hands-on practice, students establish a robust foundation in software construction, drawing from their prior programming experience. Key topics, including programming techniques at large, life cycle models, data manipulation techniques, and GUI concepts, are highlighted to foster a comprehensive grasp of software development. Ultimately, the course empowers students with the skills to construct medium-scale software projects efficiently, ethically, and in alignment with industry standards."
+  "description": ""
  },
  {
   "code": "COMP6445",
@@ -3510,7 +3510,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6445",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The course introduces students to some fundamentals of research methodology. The course comprises a series of lectures which cover the following topics: Philosophy of Science, Quantitative Research Methods, Qualitative Research Methods, Basic Machine Learning Methods, Theoretical Research Methods, How to find a Research Topic, Literature Analysis, Reading and Reviewing Papers, Research Ethics and Commercialising Research.\n\nThe lectures will be complemented by a series of workshops, labs and assignments that require students to do some small research focused tasks that help them get a hands-on experience of research, both individually and in teams of students. This includes different tasks such as topic modelling, statistical analysis, applying different machine learning techniques to solve a problem in a team, proving theorems, complexity analysis, designing a research project, reviewing papers and presenting papers.\n\nWorkshops cover topics such as research integrity, time management and project management, teamwork, reading strategies, report writing, and presenting research. At the end of the course, students will be confident to start working on their own research projects."
+  "description": ""
  },
  {
   "code": "COMP6464",
@@ -3519,7 +3519,7 @@
   "level": 6000,
   "title": "High Performance Scientific Computing",
   "units": 6,
-  "summary": "This course provides an introduction to High Performance Computing with an orientation towards applications in science and engineering.  Aspects of numerical computing and the design and construction of sophisticated scientific software will be considered.",
+  "summary": "This course provides an introduction to High Performance Computing with an orientation towards applications in science and engineering.",
   "offered": [
    "S2"
   ],
@@ -3562,7 +3562,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6464",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides an introduction to High Performance Computing with an orientation towards applications in science and engineering. Aspects of numerical computing and the design and construction of sophisticated scientific software will be considered. The focus will be on the C and C++ programming languages, although reflecting the reality of modern scientific computation this course will also touch on other languages such as Python, Java and FORTRAN95. The course will study high performance computer architectures, including modern parallel processors, and will describe how an algorithm interacts with these architectures. It will also look at practical methods of estimating and measuring algorithm/architecture performance.\n\nThe following topics will be addressed: the C++ programming language; basic numerical computing from aspects of floating point error analysis to algorithms for solving differential equations; the engineering of scientific software; general high performance computing concepts and architectural principles; modern scalar architectures and their memory structure; performance and programmability issues, and program analysis techniques for high performance computing; parallel computing paradigms and programming using the OpenMP standard; trends in HPC systems."
+  "description": ""
  },
  {
   "code": "COMP6466",
@@ -3571,7 +3571,7 @@
   "level": 6000,
   "title": "Algorithms",
   "units": 6,
-  "summary": "Algorithms are the foundation of Computer Science.  They enable advances in Artificial Intelligence, Machine Learning, Cybersecurity, Distributed, Mobile, and Cloud Computing, Computer Graphics and Animation, and many more.",
+  "summary": "Algorithms are the foundation of Computer Science.",
   "offered": [
    "S2"
   ],
@@ -3614,7 +3614,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6466",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Algorithms are the foundation of Computer Science. They enable advances in Artificial Intelligence, Machine Learning, Cybersecurity, Distributed, Mobile, and Cloud Computing, Computer Graphics and Animation, and many more. These advances have made Computer Science an indispensable part of our everyday life.\n\nThe main goal of this course is to familiarize students with basic concepts in the design and analysis of algorithms and data structures. It focuses on fundamental computing problems such as sorting and searching. The students will learn how to use different algorithm design methods and data structures to solve such problems efficiently, as well as basic performance measures and analysis techniques."
+  "description": ""
  },
  {
   "code": "COMP6470",
@@ -3623,7 +3623,7 @@
   "level": 6000,
   "title": "Special Topics in Computing",
   "units": 6,
-  "summary": "This course is available so that senior students can pursue, under supervision, topics that are not covered in the regular curriculum of some aspect of computer science.",
+  "summary": "This course is available so that senior students can pursue, under supervision, topics that are not covered in the regular curriculum of some aspect of…",
   "offered": [
    "S1"
   ],
@@ -3635,7 +3635,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6470",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course is available so that senior students can pursue, under supervision, topics that are not covered in the regular curriculum of some aspect of computer science. The activities in the course will be some combination of lectures, reading, writing and project work, as appropriate to the topic."
+  "description": ""
  },
  {
   "code": "COMP6490",
@@ -3644,7 +3644,7 @@
   "level": 6000,
   "title": "Document Analysis",
   "units": 6,
-  "summary": "Processing of semi-structured documents such as internet pages, Really Simple Syndication (RSS) feeds and their accompanying news items, and Portable Document Format (PDF) brochures is considered from the perspective of interpreting the content.",
+  "summary": "Processing of semi-structured documents such as internet pages, Really Simple Syndication (RSS) feeds and their accompanying news items, and Portable Document…",
   "offered": [
    "S2"
   ],
@@ -3663,7 +3663,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6490",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Processing of semi-structured documents such as internet pages, Really Simple Syndication (RSS) feeds and their accompanying news items, and Portable Document Format (PDF) brochures is considered from the perspective of interpreting the content. This course considers the document and its various genres as a fundamental object for business, government and community. For this, the course covers four broad areas:\n\n1. Information Retrieval (IR),\n\n2. Natural Language Processing (NLP),\n\n3. Machine/Deep Learning (M/DL) for documents, and\n\n4. relevant tools for the Web.\n\nBasic tasks here are covered, including content collection and extraction, formal and informal NLP, Information Extraction (IE), IR, classification, and analysis. Fundamental probabilistic techniques for performing these tasks and some common software systems will be covered, though no area will be covered in any depth.\n\n(The older version: This course considers the “document” and its various genres as a fundamental object for business, government and community, such as web pages, social media feeds, news items, and PDF brochures. The goal is to introduce concepts and hands-on tools for automated understanding of large amounts of text. For this, the course covers four broad areas: (A) information retrieval, (B) natural language processing, (C) machine learning for documents, and (D) relevant tools for the web. Tasks include content collection and extraction, formal and informal natural language processing, information extraction, information retrieval, classification and analysis. Fundamental probabilistic techniques for performing these tasks, and some common software systems will be covered, though no area will be covered in great depth.)"
+  "description": ""
  },
  {
   "code": "COMP6528",
@@ -3702,7 +3702,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6528",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Computer Vision is an important field of Artificial Intelligence concerned with automatically extracting useful information from images or videos. The explosive growth in digital imaging technologies, vision datasets and deep learning makes the problems of automated image interpretation even more exciting and more relevant than ever. This course introduces students to fundamental problems in computer vision and foundational techniques for solving them. Topics covered in detail include: image formation, image filtering, camera geometry, thresholding and image segmentation, edge, point and feature detection, geometric frameworks for vision, single view and two views geometry, 3D visual reconstruction, camera calibration, stereo vision, image classification, object recognition, deep learning and neural networks. The course features extensive practical components including computer labs that provide students with the opportunity to practice and refine their skills in computer vision."
+  "description": ""
  },
  {
   "code": "COMP6540",
@@ -3745,7 +3745,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6540",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course will provide a holistic grounding for game development, including elements of design, development, and production. Students will learn about key theories of game design and development and develop practical game development skills using leading professional development tools. Students will additionally learn from experienced industry professionals via guest lectures and engagement opportunities."
+  "description": ""
  },
  {
   "code": "COMP6670",
@@ -3754,7 +3754,7 @@
   "level": 6000,
   "title": "Introduction to Machine Learning",
   "units": 6,
-  "summary": "Essential foundations for any machine learning application are a basic statistical analysis of the data to be processed, a solid understanding of the mathematical foundations underpinning machine learning as well as the basic classes of learning/adaptation concepts.",
+  "summary": "Essential foundations for any machine learning application are a basic statistical analysis of the data to be processed, a solid understanding of the…",
   "offered": [
    "S2"
   ],
@@ -3802,7 +3802,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6670",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Essential foundations for any machine learning application are a basic statistical analysis of the data to be processed, a solid understanding of the mathematical foundations underpinning machine learning as well as the basic classes of learning/adaptation concepts. Those foundations are bundled in this single, introductory course to machine learning in preparation for deeper explorations into the topic, but also as a standalone unit."
+  "description": ""
  },
  {
   "code": "COMP6710",
@@ -3811,7 +3811,7 @@
   "level": 6000,
   "title": "Structured Programming",
   "units": 6,
-  "summary": "This is an introductory programming course that teaches basic concepts in imperative and object-oriented programming and corresponding data structures for students with some previous programming experience.",
+  "summary": "This is an introductory programming course that teaches basic concepts in imperative and object-oriented programming and corresponding data structures for…",
   "offered": [
    "S1",
    "S2"
@@ -3832,7 +3832,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6710",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This is an introductory programming course that teaches basic concepts in imperative and object-oriented programming and corresponding data structures for students with some previous programming experience.\n\nStudents will learn to use an industrial-strength object-oriented programming language and form basic mental models of how computer programs execute and interact with their environment. The course focuses on key aspects of solving programming problems: reasoning about a problem description to design appropriate data representations and function/method descriptions, to find examples, to write, test, debug, and otherwise evaluate the relevant code, and to present and defend their approach.\n\nStudents will learn to effectively use a large standard library and key standard data structures, including lists, trees, hash tables, and graphs. The course also introduces the basics of reasoning about the time and space complexity of algorithms, in particular as related to the above data structures."
+  "description": ""
  },
  {
   "code": "COMP6720",
@@ -3841,7 +3841,7 @@
   "level": 6000,
   "title": "Art and Interaction Computing",
   "units": 6,
-  "summary": "This course introduces the fundamentals of coding and design required to create expressive interactive artworks.  Students will learn how to conceptualise, realise, and evaluate an original interactive artwork using a high-level programming language.",
+  "summary": "This course introduces the fundamentals of coding and design required to create expressive interactive artworks.",
   "offered": [],
   "requisiteText": "Incompatible with COMP1720",
   "rule": null,
@@ -3853,7 +3853,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6720",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces the fundamentals of coding and design required to create expressive interactive artworks. Students will learn how to conceptualise, realise, and evaluate an original interactive artwork using a high-level programming language. They will experiment with computer graphics, sound, and input devices and learn programming concepts required for accomplishing their creative objectives.\n\nThe course introduces the creative possibilities presented by the computer in the modern art world, fundamental concepts of visual and interactive design, and recent developments in art and interaction computing. Topics covered include interactive and new media art, interaction design, program organisation, variables, control structures, graphics, and audio."
+  "description": ""
  },
  {
   "code": "COMP6730",
@@ -3862,7 +3862,7 @@
   "level": 6000,
   "title": "Programming for Scientists",
   "units": 6,
-  "summary": "This course teaches introductory programming, fundamental programming language and computer science concepts, and computational problem solving illustrated with applications common in science and engineering, such as data analysis, visualisation, and image processing.",
+  "summary": "This course teaches introductory programming, fundamental programming language and computer science concepts, and computational problem solving illustrated…",
   "offered": [
    "S2"
   ],
@@ -3881,7 +3881,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6730",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course teaches introductory programming, fundamental programming language and computer science concepts, and computational problem solving illustrated with applications common in science and engineering, such as data analysis, visualisation, and image processing. We will take a different approach, including prompting and working with GenAI, with emphasis on testing, debugging and problem decomposition, and using GenAI to help understand code.\n\nThese skills will empower students to write software with the aid of GenAI. Assessment will include exam(s) without the aid of GenAI. Students will also create larger software projects with the aid of GenAI. The course does not require any prior knowledge of programming or computer science. It is designed to be a stand-alone computing unit.\n\nStudents who wish to study computing courses at a higher level should check course prerequisites as they may need to complete COMP6710 or COMP7710 in addition to COMP6730."
+  "description": ""
  },
  {
   "code": "COMP6780",
@@ -3890,7 +3890,7 @@
   "level": 6000,
   "title": "Web Development and Design",
   "units": 6,
-  "summary": "This course introduces the construction of web sites and web interface/interaction design.  There is a key focus on the on new media / multimedia and its delivery on the world wide web.",
+  "summary": "This course introduces the construction of web sites and web interface/interaction design.",
   "offered": [],
   "requisiteText": "Incompatible with COMP1710\n\nTo enroll in this course students must be enrolled in a postgraduate program at ANU.",
   "rule": {
@@ -3905,7 +3905,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6780",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces the construction of web sites and web interface/interaction design. There is a key focus on the on new media / multimedia and its delivery on the world wide web. The course introduces multimedia as a combination of text, graphics, video, animation and sound for the purposes of information access, storage and dissemination. Topics such as the nature and types of multimedia objects, components of a multimedia system, Web authoring, delivery tools, multimedia applications, spam, podcasts, RSS, web spam and societal implications of the web. Students will create multimedia applications using some or all of HTML, XHTML, JavaScript, animation, sound, video and 3D. The course provides an introduction to the latest web technologies."
+  "description": ""
  },
  {
   "code": "COMP6800",
@@ -3914,7 +3914,7 @@
   "level": 6000,
   "title": "Cyber Security Foundations",
   "units": 6,
-  "summary": "Cyber Security Foundations introduces all essential cyber security principles.  This includes principles of secure design, secrets minimization, least privilege, isolation, separation and encapsulation.",
+  "summary": "Cyber Security Foundations introduces all essential cyber security principles.",
   "offered": [
    "S1"
   ],
@@ -3932,7 +3932,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP6800",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Cyber Security Foundations introduces all essential cyber security principles. This includes principles of secure design, secrets minimization, least privilege, isolation, separation and encapsulation. The interplay between failed security principles and vulnerabilities is investigated in detail, and ethical considerations in vulnerability disclosure are discussed.\n\nThe course provides the essential foundations which allow students to continue in a more in-depth cyber security career, yet can also be used a standalone unit to provide a self-contained set of knowledge."
+  "description": ""
  },
  {
   "code": "COMP7230",
@@ -3941,7 +3941,7 @@
   "level": 7000,
   "title": "Introduction to Programming for Data Scientists",
   "units": 6,
-  "summary": "This course teaches introductory programming within a problem-solving framework applicable to data science.  There is an emphasis on designing and writing small programs to solve data science problems that include data processing, data manipulation and data visualisation tasks.",
+  "summary": "This course teaches introductory programming within a problem-solving framework applicable to data science.",
   "offered": [],
   "requisiteText": "To enrol in this course you must be enrolled in:\nGraduate Certificate of Applied Data Analytics or Graduate Certificate of Data Engineering or Graduate Diploma of Applied Data Analytics or Master of Applied Data Analytics.\nYou are not able to enrol in this course if you have successfully completed COMP1730 or COMP6730 or COMP1040.",
   "rule": {
@@ -3959,7 +3959,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/COMP7230",
   "catalogueYear": 2025,
   "retired": false,
-  "description": "This course teaches introductory programming within a problem-solving framework applicable to data science. There is an emphasis on designing and writing small programs to solve data science problems that include data processing, data manipulation and data visualisation tasks. Testing and debugging are seen as integral to programming for data science. The course will also teach how to effectively use popular data science libraries for data analysis and manipulation. It will provide skills for tackling the `messiness' of real-world computer systems, libraries and their different versions, and data with a particular focus on solving problems using knowledge available on the Web. The course will be taught using the Python programming language. It will also require students to work collaboratively on software programs using the Git version control system and DevOps tools."
+  "description": ""
  },
  {
   "code": "COMP7240",
@@ -3968,7 +3968,7 @@
   "level": 7000,
   "title": "Introduction to Database Concepts",
   "units": 6,
-  "summary": "This course is an introduction to database concepts and the general skills for designing and using databases, with a focus on relational database concepts and techniques.",
+  "summary": "This course is an introduction to database concepts and the general skills for designing and using databases, with a focus on relational database concepts and…",
   "offered": [],
   "requisiteText": "To enrol in this course you must be enrolled in: Graduate Certificate of Applied Data Analytics or Graduate Certificate of Data Engineering or Graduate Diploma of Applied Data Analytics or Master of Applied Data Analytics. You are not able to enrol in this course if you have successfully completed COMP2400 or COMP6240.",
   "rule": {
@@ -3985,7 +3985,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/COMP7240",
   "catalogueYear": 2025,
   "retired": false,
-  "description": "This course is an introduction to database concepts and the general skills for designing and using databases, with a focus on relational database concepts and techniques. Current industry developments of database systems such as NoSQL databases will be introduced at the end of the course."
+  "description": ""
  },
  {
   "code": "COMP7710",
@@ -3994,7 +3994,7 @@
   "level": 7000,
   "title": "Programming Fundamentals",
   "units": 12,
-  "summary": "This course provides Students with the opportunity to develop a solid understanding of programming that is essential before progressing to more advanced concepts.",
+  "summary": "This course provides Students with the opportunity to develop a solid understanding of programming that is essential before progressing to more advanced…",
   "offered": [
    "S1",
    "S2"
@@ -4013,7 +4013,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP7710",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides Students with the opportunity to develop a solid understanding of programming that is essential before progressing to more advanced concepts. It is structured to demonstrate and provide the students with practice in the fundamentals of structured programming. It is designed for Postgraduate students who do not have a programming background.\n\nStudents will learn to use an industrial-strength object-oriented programming language and form basic mental models of how computer programs execute and interact with their environment. The course focuses on key aspects of solving programming problems: reasoning about a problem description to design appropriate data representations and function/method descriptions, to find examples, to write, test, debug, and otherwise evaluate the relevant code, and to present and defend their approach.\n\nStudents will learn to effectively use a large standard library and key standard data structures, including lists, trees, hash tables, and graphs. The course also introduces the basics of reasoning about the time and space complexity of algorithms, in particular as related to the above data structures."
+  "description": ""
  },
  {
   "code": "COMP8011",
@@ -4056,7 +4056,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8011",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course offers students a unique opportunity for the advanced study of a special thematic area within the discipline of Theoretical Computer Science. The topics will vary from year to year in response to emerging theoretical and practical issues in the discipline, as well as the research interests and expertise of academics and sessional staff. They will be drawn from the broad areas of formal methods and programming languages, and could include (but not limited to) the following topics: computational logic, category theory, concurrency theory, type theory, semantics of programming languages, computer-assisted theorem proving, model checking, formal methods for security, and formal verification of hardware and software systems."
+  "description": ""
  },
  {
   "code": "COMP8020",
@@ -4065,7 +4065,7 @@
   "level": 8000,
   "title": "Advanced Topics in Human-Centred and Creative Computing",
   "units": 6,
-  "summary": "This course offers students a unique opportunity for the advanced study of a special thematic area within the disciplines of human-centred and creative computing.",
+  "summary": "This course offers students a unique opportunity for the advanced study of a special thematic area within the disciplines of human-centred and creative…",
   "offered": [
    "S2"
   ],
@@ -4095,7 +4095,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8020",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course offers students a unique opportunity for the advanced study of a special thematic area within the disciplines of human-centred and creative computing. The topics will vary from year to year in response to emerging challenges in these disciplines, as well as the research interests and expertise of academics and sessional staff. Topics will be drawn from the broad areas of human-computer interaction and creative computing, and could include (but not limited to) the following topics: human-centred AI, design research methodologies, interface design with e-textiles, interface design with recycled materials, augmented reality and spatial computing."
+  "description": ""
  },
  {
   "code": "COMP8045",
@@ -4138,7 +4138,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8045",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course offers students a unique opportunity for the advanced study of a special thematic area within the discipline of computer systems and architecture. The topics will vary from year to year in response to emerging theoretical and practical issues in the discipline, as well as the research interests and expertise of academics and sessional staff. They could include (but not limited to) the following topics: micro architecture, garbage collection, memory design, and micro kernels."
+  "description": ""
  },
  {
   "code": "COMP8131",
@@ -4147,7 +4147,7 @@
   "level": 8000,
   "title": "Managing Software Quality and Process",
   "units": 6,
-  "summary": "This course introduces students to advanced topics on managing the quality of products delivered as part of a software development project and managing the development process itself through static and dynamic software analysis techniques.",
+  "summary": "This course introduces students to advanced topics on managing the quality of products delivered as part of a software development project and managing the…",
   "offered": [],
   "requisiteText": "To enrol in this course you must be enrolled in the Masters of Computing Advanced (VCOMP) and have successfully completed COMP6800 Cyber Security Foundations.\nIncompatible with COMP4130.",
   "rule": {
@@ -4176,7 +4176,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8131",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course introduces students to advanced topics on managing the quality of products delivered as part of a software development project and managing the development process itself through static and dynamic software analysis techniques.\n\nSeveral causal aspects of poor software quality will be introduced and discussed so that students can understand the context for undertaking risk management and avoiding bad quality. There will be a focus on practical techniques for identifying and removing defects, as well as implementing procedures to track the success or failure of risk and defect resolutions.\n\nSeveral automatic software quality analysis techniques, including static program analysis and fuzzing techniques, will also be covered. These techniques are useful for improving the reliability, security, and performance of software and are becoming increasingly impactful in industries today. The course will introduce various well-known static program analysis frameworks such as Soot and dynamic testing techniques like symbolic execution. Practical implementations will also be covered, including live variable analysis, constant propagation, dead code detection, call graph construction, pointer analysis, taint analysis, and symbolic execution."
+  "description": ""
  },
  {
   "code": "COMP8260",
@@ -4185,7 +4185,7 @@
   "level": 8000,
   "title": "Professional Practice: Responsible Innovation and Leadership",
   "units": 6,
-  "summary": "This is one of two professional practice courses (the other is COMP6250: Holistic Thinking and Communication) for engineering and computing graduate students that focus on developing professional and communication skills for the 21st century workplace.",
+  "summary": "This is one of two professional practice courses (the other is COMP6250: Holistic Thinking and Communication) for engineering and computing graduate students…",
   "offered": [],
   "requisiteText": "To enrol in this course you must be enrolled in the Graduate Diploma of Computing or Master of Computing or Master of Computing (Advanced) or Master of Machine Learning and Computer Vision.",
   "rule": {
@@ -4202,7 +4202,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8260",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This is one of two professional practice courses (the other is COMP6250: Holistic Thinking and Communication) for engineering and computing graduate students that focus on developing professional and communication skills for the 21st century workplace.\n\nThe course builds upon individual capacity, and further develops students’ professional skills, values, and attributes in ways that directly complement their technical expertise. These skills will enable students to perform effectively in the complex context in which engineering and computer professionals operate. In particular, the course will provide students with skills to interpret, critically evaluate, and justify their own and others’ decisions with reference to ethical and professional standards and expectations. The practical focus on these skills and their integration into the engineering and computing curriculum reflects the contemporary expectations of professional organisations (e.g. Engineers Australia and the Australian Computer Society) and enhances the employment opportunities of graduates."
+  "description": ""
  },
  {
   "code": "COMP8280",
@@ -4211,7 +4211,7 @@
   "level": 8000,
   "title": "Responsible Practice, Innovation and Leadership",
   "units": 6,
-  "summary": "This professional practice course for computing and engineering graduate students focuses on developing professional and communication skills essential for the 21st-century workplace.",
+  "summary": "This professional practice course for computing and engineering graduate students focuses on developing professional and communication skills essential for…",
   "offered": [
    "S1",
    "S2"
@@ -4232,7 +4232,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8280",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This professional practice course for computing and engineering graduate students focuses on developing professional and communication skills essential for the 21st-century workplace.\n\nThe course builds upon individual capacity, and further develops students’ professional skills, values, and attributes in ways that directly complement their technical expertise. These skills will enable students to perform effectively in the complex transdisciplinary environments in which computing and engineering professionals operate. In particular, the course will provide students with skills to interpret, critically evaluate, and justify their own and others’ decisions with reference to ethical and professional standards and expectations. The practical focus on these skills and their integration into the computing and engineering curriculum reflects the contemporary expectations of professional organisations (e.g. ACS (Australian Computer Society) and Engineers Australia) and enhances the employment and leadership opportunities of graduates."
+  "description": ""
  },
  {
   "code": "COMP8300",
@@ -4241,7 +4241,7 @@
   "level": 8000,
   "title": "Parallel Systems",
   "units": 6,
-  "summary": "A practically oriented introduction to programming paradigms for parallel computers.  Considers definitions of program efficiency on parallel computers, addresses the modelling, analysis and measurement of program performance.",
+  "summary": "A practically oriented introduction to programming paradigms for parallel computers.",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed:\n\nCOMP6310/2310 OR COMP6330/3300 OR COMP6331/3310 OR COMP6464 OR ENGN6539\n\nIncompatible with COMP4300.",
   "rule": {
@@ -4297,7 +4297,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8300",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "A practically oriented introduction to programming paradigms for parallel computers. Considers definitions of program efficiency on parallel computers, addresses the modelling, analysis and measurement of program performance. Description, implementation and use of parallel programming languages, parallel features of operating systems, library routines and applications."
+  "description": ""
  },
  {
   "code": "COMP8350",
@@ -4306,7 +4306,7 @@
   "level": 8000,
   "title": "Sound and Music Computing",
   "units": 6,
-  "summary": "Do you want to create sound and music with your computer?  Do you want to build new kinds of musical instruments?  Do you want to be a part of a laptop band?  This is the course for you!",
+  "summary": "Do you want to create sound and music with your computer?",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed either COMP6390 or COMP6720.\n\nIncompatible with COMP4350.",
   "rule": {
@@ -4332,7 +4332,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8350",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Do you want to create sound and music with your computer? Do you want to build new kinds of musical instruments? Do you want to be a part of a laptop band? This is the course for you!\n\nThis course is an introduction to the fundamental concepts of music computing, including digital synthesis, algorithmic composition, and musical interface design. Students will develop their knowledge by creating computer musical instruments in music programming languages and developing new computer music works to present in concert with an ensemble of other students.\n\nModern music technology exists at the forefront of computing practice and involves new live programming paradigms, human interface design, digital signal processing, networking, and machine learning. Students will gain experience in these concepts and learn how to conceptualise and realise new computer music instruments, compositions, and performances. Students will engage with recent developments in sound and music computing, including within the research literature to develop a high level of knowledge at the cutting edge of computing for the creative arts."
+  "description": ""
  },
  {
   "code": "COMP8410",
@@ -4341,7 +4341,7 @@
   "level": 8000,
   "title": "Data Mining",
   "units": 6,
-  "summary": "Massive amounts of data are collected by public and private organisations, while the Web offers rich information about almost every aspect of human life and society.  Analysing such data can provide significant benefits to an organisation or research project.",
+  "summary": "Massive amounts of data are collected by public and private organisations, while the Web offers rich information about almost every aspect of human life and…",
   "offered": [
    "S1"
   ],
@@ -4403,7 +4403,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8410",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Massive amounts of data are collected by public and private organisations, while the Web offers rich information about almost every aspect of human life and society. Analysing such data can provide significant benefits to an organisation or research project. This course provides a practical focus on the technology and research in the area of data mining. It focuses on the algorithms and techniques and less on the mathematical and statistical foundations."
+  "description": ""
  },
  {
   "code": "COMP8430",
@@ -4471,7 +4471,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8430",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Real-world data are commonly messy, distributed, and heterogeneous. This course introduces core concepts of data cleaning and standardisation, and data integration, that are aimed at converting and mapping raw data into other formats that allow more efficient and convenient use and analysis of data. The courses also discusses data quality, management, and storage issues as relevant to data analytics."
+  "description": ""
  },
  {
   "code": "COMP8460",
@@ -4480,7 +4480,7 @@
   "level": 8000,
   "title": "Advanced Algorithms",
   "units": 6,
-  "summary": "This course covers a large spectrum of algorithmic topics such as approximation algorithms, randomized algorithms, parallel/distributed algorithms, and online algorithms.",
+  "summary": "This course covers a large spectrum of algorithmic topics such as approximation algorithms, randomized algorithms, parallel/distributed algorithms, and online…",
   "offered": [
    "S1"
   ],
@@ -4508,7 +4508,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8460",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course covers a large spectrum of algorithmic topics such as approximation algorithms, randomized algorithms, parallel/distributed algorithms, and online algorithms. Students will learn how to analyze the most fundamental algorithms in these areas using various techniques from graph theory, probability theory, and algebra. After successful completion of the course, students will be able to design efficient and effective algorithms for similar problems leveraging these techniques. Furthermore, students will learn about the most recent research advancements in these areas by studying current research publications."
+  "description": ""
  },
  {
   "code": "COMP8490",
@@ -4517,7 +4517,7 @@
   "level": 8000,
   "title": "Document Analysis",
   "units": 6,
-  "summary": "The ability to process and analyse large volumes of text is essential in today's information-driven world.  This course introduces technologies for the analysis of textual documents, covering both foundational and modern approaches.",
+  "summary": "The ability to process and analyse large volumes of text is essential in today's information-driven world.",
   "offered": [],
   "requisiteText": "To enrol in this course you must be enrolled in\n\nMaster of Computing (Advanced)\nOR\n\nhave completed 6 units of: (COMP6240/2400 OR COMP6260/1600 OR COMP6442/2100)\nAND\nhave completed 6 units of: (COMP6730/1730 OR COMP6710/1110).\n\nIncompatible with COMP4650 and COMP6490 and COMP6990.",
   "rule": {
@@ -4534,7 +4534,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8490",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The ability to process and analyse large volumes of text is essential in today's information-driven world. This course introduces technologies for the analysis of textual documents, covering both foundational and modern approaches. It begins with the basics of information retrieval and text classification, then advances to deep learning methods in natural language processing, including the use of pre-trained large language models (LLMs). Emphasis will be placed on the theoretical foundations of the methods and algorithms, while practical exercises will provide students with valuable hands-on experience."
+  "description": ""
  },
  {
   "code": "COMP8500",
@@ -4543,7 +4543,7 @@
   "level": 8000,
   "title": "Advanced Computing Team Project",
   "units": 12,
-  "summary": "COMP8500 is a 12-unit course in one semester.  Students will conduct a project, under supervision, that will act as a capstone to their degree program and increase the depth of their knowledge in the computing area.  The project will be undertaken in small teams.",
+  "summary": "COMP8500 is a 12-unit course in one semester.",
   "offered": [],
   "requisiteText": "To enrol in this course you must:\n\nbe enrolled in the Master of Computing AND\nhave successfully completed:\n(COMP6442 or COMP2100)\nAND (COMP8260 or COMP8280)\nAND be concurrently enrolled in or have successfully completed: COMP6120 or COMP2120\n\nOR\nbe enrolled in the Master of Machine Learning and Computer Vision AND\nhave successfully completed:\n(COMP6442 or COMP2100) AND (COMP6250 or COMP8260 or COMP8280)\n\nIncompatible with COMP8755 and COMP8830 and COMP8800 and COMP8715",
   "rule": {
@@ -4561,7 +4561,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8500",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "COMP8500 is a 12-unit course in one semester.\n\nStudents will conduct a project, under supervision, that will act as a capstone to their degree program and increase the depth of their knowledge in the computing area. The project will be undertaken in small teams. The activities in the course will normally include some combination of reading, writing, artefact construction and presentation, as appropriate to the project's topic. Application of research methodologies in literature review and evaluation will also be undertaken. Topic-specific learning objectives, project overview and assessment arrangements will be specified at the outset of the course.\n\nTo enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener."
+  "description": ""
  },
  {
   "code": "COMP8535",
@@ -4570,7 +4570,7 @@
   "level": 8000,
   "title": "Engineering Data Analytics",
   "units": 6,
-  "summary": "Data-driven decision-making is an essential component of emerging systems that generate and consume very large amounts of sensing data from autonomous vehicles to digital pathology.",
+  "summary": "Data-driven decision-making is an essential component of emerging systems that generate and consume very large amounts of sensing data from autonomous…",
   "offered": [
    "S1"
   ],
@@ -4600,7 +4600,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8535",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Data-driven decision-making is an essential component of emerging systems that generate and consume very large amounts of sensing data from autonomous vehicles to digital pathology. This course covers technologies and methodologies necessary for inferring useful information and identifying underlying patterns from often raw, incomplete, noisy and corrupted data that is present in real-life applications. It will also give students the opportunity to explore advanced solutions of data analytics such as dimensionality reduction, sparse encoding, compressive sensing, nonlinear filtering, manifold learning, and generative data modelling."
+  "description": ""
  },
  {
   "code": "COMP8536",
@@ -4642,7 +4642,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8536",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The course covers the theory and practice of deep learning with a focus on applications in computer vision. Students will learn the foundational mathematics behind deep learning and explore topics such as multi-layer perceptrons (MLPs), back-propagation and automatic differentiation, convolutional neural networks (CNNs), recurrent neural networks (RNNs), and Transformers. These techniques play a crucial role in modern AI systems, including image and video understanding, natural language processing, generative AI, and robotics. The various practical assessments will enhance student's understanding and intuition of deep learning and its application in computer vision."
+  "description": ""
  },
  {
   "code": "COMP8539",
@@ -4651,7 +4651,7 @@
   "level": 8000,
   "title": "Advanced Topics in Computer Vision",
   "units": 6,
-  "summary": "The goal of Computer Vision is to enable the computer or AI agent to ‘see’ and ‘understand’ the world like if not better than human beings.  To that end, the computer needs to use sensors such as RGB or depth sensors to interact with the world.",
+  "summary": "The goal of Computer Vision is to enable the computer or AI agent to ‘see’ and ‘understand’ the world like if not better than human beings.",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed:\n\nCOMP6528 or COMP4528 or ENGN4528.\n\nYou are not able to enrol in this course if you have previously completed ENGN8501.",
   "rule": {
@@ -4682,7 +4682,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8539",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "The goal of Computer Vision is to enable the computer or AI agent to ‘see’ and ‘understand’ the world like if not better than human beings. To that end, the computer needs to use sensors such as RGB or depth sensors to interact with the world. It mainly includes the understanding of the environment (scene understanding), humans, and further interaction with humans. Mapping to specific computer vision problems, this course will cover advanced topics in computer vision, such as 1) Scene Understanding, 2)Graphical Models, 3)3D visual perception , 4) Human Analysis and modeling. This course will review current research literature in the above fields and update students with state-of-the-art techniques. Students will work on group projects related to concrete research problems and present their research results in the form of seminars."
+  "description": ""
  },
  {
   "code": "COMP8600",
@@ -4790,7 +4790,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8600",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides a broad but thorough introduction to the methods and practice of statistical machine learning. Topics covered will include Bayesian inference and maximum likelihood; regression, classification, density estimation, clustering, principal and independent component analysis; parametric, semi-parametric, and non-parametric models; basis functions, neural networks, kernel methods, and graphical models; deterministic and stochastic optimisation; overfitting, regularisation, and validation."
+  "description": ""
  },
  {
   "code": "COMP8610",
@@ -4799,7 +4799,7 @@
   "level": 8000,
   "title": "Computer Graphics",
   "units": 6,
-  "summary": "Computer graphics are an essential part of modern software.  In this course, students will learn about fundamental algorithms, data structures and programming models used in 3D graphics applications.",
+  "summary": "Computer graphics are an essential part of modern software.",
   "offered": [
    "S1"
   ],
@@ -4914,7 +4914,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8610",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Computer graphics are an essential part of modern software. In this course, students will learn about fundamental algorithms, data structures and programming models used in 3D graphics applications. These key concepts in computer graphics programming will be covered from their mathematical foundations through to their application in domains such as data visualisation, virtual reality, computer games and film animation/VFX. In this course students will explore these concepts through practical implementation in a modern computer graphics software context."
+  "description": ""
  },
  {
   "code": "COMP8620",
@@ -4965,7 +4965,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8620",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This is an advanced postgraduate course that offers students the opportunity to study a special thematic area within the discipline of Artificial Intelligence.\n\nThe topics will vary from year to year in response to emerging theoretical and practical issues in the discipline, as well as the research interests and expertise of academics and sessional staff. They will be drawn from the broad areas of Artificial Intelligence, and could include (but not limited to) the following topics: Planning, Scheduling, Games, Search, Reasoning (constraint-based, model-based, spatial, temporal), Knowledge representation, Decision-making under uncertainty, Integrated planning and learning, Reinforcement learning, and Robotics.\n\nPlease see the class website for the specific topics covered in a particular semester."
+  "description": ""
  },
  {
   "code": "COMP8650",
@@ -4974,7 +4974,7 @@
   "level": 8000,
   "title": "Advanced Topics in Machine Learning",
   "units": 6,
-  "summary": "This course explores a selected area relevant to statistical machine learning in depth, and will be taught by an SML staff member of internationally recognised standing and research interest in that area.",
+  "summary": "This course explores a selected area relevant to statistical machine learning in depth, and will be taught by an SML staff member of internationally…",
   "offered": [
    "S1"
   ],
@@ -5016,7 +5016,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8650",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course explores a selected area relevant to statistical machine learning in depth, and will be taught by an SML staff member of internationally recognised standing and research interest in that area. Based on current SML staffing, this will be one of:\n\nkernel methods\n\nstructured probabilistic models\n\nreinforcement learning\n\nconvex analysis and optimisation\n\ntopics in information theory\n\ndecision theory\n\ndeep learning\n\ndifferentiable optimisation in deep learning\n\nOver the past several years the content has alternated between “convex analysis and optimisation” and “differentiable optimisation in deep learning\". Students should contact the course convenor to find out what topic is planned for the coming semester."
+  "description": ""
  },
  {
   "code": "COMP8691",
@@ -5025,7 +5025,7 @@
   "level": 8000,
   "title": "Optimisation",
   "units": 6,
-  "summary": "This course provides foundations and plenty of exercises in practical optimisation problems, while covering all basic elements of optimisation including forms of constraint programming as well as variations on linear programming and convex optimisation.",
+  "summary": "This course provides foundations and plenty of exercises in practical optimisation problems, while covering all basic elements of optimisation including forms…",
   "offered": [
    "S2"
   ],
@@ -5054,7 +5054,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8691",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides foundations and plenty of exercises in practical optimisation problems, while covering all basic elements of optimisation including forms of constraint programming as well as variations on linear programming and convex optimisation."
+  "description": ""
  },
  {
   "code": "COMP8703",
@@ -5100,7 +5100,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8703",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Historically, major defensive security techniques for software systems were developed as a response to the emergence of classes of exploitation techniques. The aims of such defensive techniques are usually not about preventing software developers from writing insecure code, but rather, they are aimed at preventing bugs in software to be exploited by attackers to compromise their targets. Vulnerability Research and Exploit Mitigation examines important exploit mitigation techniques deployed in modern software systems through an adversarial lens: software vulnerabilities are explored in depth, through how they can be discovered and exploited, in order to understand the mechanisms behind the exploit mitigation techniques. The course covers topics ranging from common patterns in software vulnerabilities, such as stack-based buffer overflow, format string vulnerabilities, and heap-based vulnerabilities; exploitation techniques such as code injection, code obfuscation, return-oriented-programming; techniques for vulnerability discovery, such as program binaries reverse engineering, fuzzing and symbolic execution; and mitigation techniques such as memory protection mechanisms, input sanitization, and control flow integrity protection. The course features hands-on lectures and labs to analyse software vulnerabilities, both in the source code and in program binaries, to develop proof-of-concept exploits, and to design and implement appropriate mitigation techniques against exploitation. Students will learn state-of-the-art vulnerability research and exploitation tools and techniques, and apply their knowledge on case studies involving real-world software systems."
+  "description": ""
  },
  {
   "code": "COMP8712",
@@ -5109,7 +5109,7 @@
   "level": 8000,
   "title": "Compiler Construction",
   "units": 6,
-  "summary": "Compiler Construction provides an in-depth treatment of programming language translation, compilation, and run-time systems, organized around a significant programming project to build a compiler for a simple but non-trivial core programming language.",
+  "summary": "Compiler Construction provides an in-depth treatment of programming language translation, compilation, and run-time systems, organized around a significant…",
   "offered": [
    "S1"
   ],
@@ -5140,7 +5140,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8712",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Compiler Construction provides an in-depth treatment of programming language translation, compilation, and run-time systems, organized around a significant programming project to build a compiler for a simple but non-trivial core programming language. The course integrates both theory and practice. Topics covered include data structures for tree languages; lexical analysis, syntax analysis and abstract syntax; symbol tables and semantic analysis; translation, intermediate code, basic blocks and traces; machine targets and instruction selection; liveness analysis and graph coloring register allocation. Supplemental topics may include garbage collection, object-oriented languages, higher-order languages, dataflow analysis, optimization, polymorphism, dynamic compilation, scheduling, pipelining and memory hierarchies. Upon completion of the course students will understand how programs map to execution on modern processors, and the impact of language design on language implementation."
+  "description": ""
  },
  {
   "code": "COMP8715",
@@ -5149,7 +5149,7 @@
   "level": 8000,
   "title": "Advanced Computing Team Project",
   "units": 6,
-  "summary": "COMP8715 is an annual course (6+6) that must be completed twice, in consecutive semesters.  Students will conduct a project, under supervision, that will act as a capstone to their degree program, and increase the depth of their knowledge in the computing area.",
+  "summary": "COMP8715 is an annual course (6+6) that must be completed twice, in consecutive semesters.",
   "offered": [
    "S1",
    "S2"
@@ -5265,7 +5265,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8715",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "COMP8715 is an annual course (6+6) that must be completed twice, in consecutive semesters.\n\nStudents will conduct a project, under supervision, that will act as a capstone to their degree program, and increase the depth of their knowledge in the computing area. The project will be undertaken in small teams. The activities in the course will normally include some combination of reading, writing, artefact construction and presentation, as appropriate to the project's topic. Application of research methodologies in literature review and evaluation will also be undertaken. Topic-specific learning objectives, project overview and assessment arrangements will be specified at the outset of the course.\n\nTo enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener."
+  "description": ""
  },
  {
   "code": "COMP8800",
@@ -5294,7 +5294,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8800",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "COMP8800 is an Annual course (12+12) that must be completed twice, in consecutive semesters.\n\nThis course requires students to conduct a substantial individual research project under academic supervision, with a formal thesis being submitted and presentation of a seminar or poster.\n\nThis course will allow you to apply your Computer Science knowledge and skills in the planning and execution of your research project. This course provides you with the opportunity to deeply engage with the course content, drive your leaning, build skills and confidence in undertaking a research project."
+  "description": ""
  },
  {
   "code": "COMP8820",
@@ -5303,7 +5303,7 @@
   "level": 8000,
   "title": "Exchange Program for Graduate Students in Computer Science",
   "units": 6,
-  "summary": "Students enrol in this course when they have been approved to participate in a formal Computing exchange with one of the Australian National University's overseas exchange partners.",
+  "summary": "Students enrol in this course when they have been approved to participate in a formal Computing exchange with one of the Australian National University's…",
   "offered": [
    "S1",
    "S2"
@@ -5316,7 +5316,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8820",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Students enrol in this course when they have been approved to participate in a formal Computing exchange with one of the Australian National University's overseas exchange partners.\n\nFor information regarding Computing exchanges, selection criteria, etc, please go to the following website: Student exchange | ANU College of Engineering, Computing & Cybernetics"
+  "description": ""
  },
  {
   "code": "COMP8830",
@@ -5325,7 +5325,7 @@
   "level": 8000,
   "title": "Computing Internship",
   "units": 12,
-  "summary": "This course will enable computer science students to develop competencies expected of professionals working in business, government or the broader community.  A list of available internship opportunities will be maintained for which students can apply.",
+  "summary": "This course will enable computer science students to develop competencies expected of professionals working in business, government or the broader community.",
   "offered": [
    "S1",
    "S2"
@@ -5412,7 +5412,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8830",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course will enable computer science students to develop competencies expected of professionals working in business, government or the broader community. A list of available internship opportunities will be maintained for which students can apply. A holistic selection process will be used to select the best applicant for each opportunity. Students can also propose internships, but these will always be established following negotiations between the ANU and the potential host organisations, before being offered to students along with other opportunities."
+  "description": ""
  },
  {
   "code": "COMP8880",
@@ -5421,7 +5421,7 @@
   "level": 8000,
   "title": "Computational Methods for Network Science",
   "units": 6,
-  "summary": "Computational Methods for Network Science covers the essentials of using computational approaches to pose and answer social science research problems.  In doing so it also covers a selected set of network algorithms in depth.",
+  "summary": "Computational Methods for Network Science covers the essentials of using computational approaches to pose and answer social science research problems.",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed\nCOMP6670; OR\n(6 units of either COMP6710 or COMP6730 or COMP7230) and (either COMP8410 or COMP8910) and STAT6039.\nIncompatible with COMP4880 and COMP8980.",
   "rule": {
@@ -5487,7 +5487,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8880",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Computational Methods for Network Science covers the essentials of using computational approaches to pose and answer social science research problems. In doing so it also covers a selected set of network algorithms in depth. This includes random graph models, homophily and friendship paradox, influence and contagion in networks, markets and network games, network resilence. Furthermore, it also teaches students about the ethics of doing data-driven social science research.\nThe course equips the students with in-depth knowledge and hands-on experience in working with network data to study social processes at both the individual and aggregate levels. Graduates will be equipped with the technical, theoretical and conceptual skills and knowledge to start a budding career in this field of research."
+  "description": ""
  },
  {
   "code": "COMP8910",
@@ -5496,7 +5496,7 @@
   "level": 8000,
   "title": "Data Mining",
   "units": 6,
-  "summary": "Massive amounts of data are collected by public and private organisations, while the Web offers rich information about almost every aspect of human life and society.  Analysing such data can provide significant benefits to an organisation or research project.",
+  "summary": "Massive amounts of data are collected by public and private organisations, while the Web offers rich information about almost every aspect of human life and…",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed\nCOMP7240 or COMP6240 or COMP2400; and\nCOMP6730 or COMP7230 or COMP6710; and\nbe enrolled in the Master of Applied Data Analytics or the Graduate Diploma of Applied Data Analytics or the Graduate Certificate of Data Engineering.\n\nIncompatible with COMP3420 and COMP3425 and COMP8400 and COMP8410 .",
   "rule": {
@@ -5561,7 +5561,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/COMP8910",
   "catalogueYear": 2025,
   "retired": false,
-  "description": "Massive amounts of data are collected by public and private organisations, while the Web offers rich information about almost every aspect of human life and society. Analysing such data can provide significant benefits to an organisation or research project. This course provides a practical focus on the technology and research in the area of data mining. It focuses on the algorithms and techniques and less on the mathematical and statistical foundations."
+  "description": ""
  },
  {
   "code": "COMP8930",
@@ -5628,7 +5628,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/COMP8930",
   "catalogueYear": 2025,
   "retired": false,
-  "description": "Real-world data are commonly messy, distributed, and heterogeneous. This course introduces core concepts of data cleaning and standardisation, and data integration, that are aimed at converting and mapping raw data into other formats that allow more efficient and convenient use and analysis of data. The courses also discusses data quality, management, and storage issues as relevant to data analytics."
+  "description": ""
  },
  {
   "code": "COMP8980",
@@ -5637,7 +5637,7 @@
   "level": 8000,
   "title": "Computational Methods for Network Science",
   "units": 6,
-  "summary": "Computational Methods for Network Science covers the essentials of using computational approaches to pose and answer social science research problems.  In doing so it also covers a selected set of network algorithms in depth.",
+  "summary": "Computational Methods for Network Science covers the essentials of using computational approaches to pose and answer social science research problems.",
   "offered": [],
   "requisiteText": "To enrol in this course you must have completed\nCOMP6670 OR\n(COMP6710 or COMP6730 or COMP7230) AND COMP8410 AND STAT6039 AND be enrolled in MADAN.\nIncompatible with COMP4880 and COMP8880.",
   "rule": {
@@ -5697,7 +5697,7 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8980",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "Computational Methods for Network Science covers the essentials of using computational approaches to pose and answer social science research problems. In doing so it also covers a selected set of network algorithms in depth. This includes random graph models, homophily and friendship paradox, influence and contagion in networks, markets and network games, network resilence. Furthermore, it also teaches students about the ethics of doing data-driven social science research.\n\nThe course equips the students with in-depth knowledge and hands-on experience in working with network data to study social processes at both the individual and aggregate levels. Graduates will be equipped with the technical, theoretical and conceptual skills and knowledge to start a budding career in this field of research."
+  "description": ""
  },
  {
   "code": "COMP8999",
@@ -5735,6 +5735,6 @@
   "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/COMP8999",
   "catalogueYear": 2026,
   "retired": false,
-  "description": "This course provides an opportunity for HDR students to apply and develop professional skills and attributes in an area of their choice. This course offers opportunities to network with professional organisations such as national and overseas government and industry, and to acquire skills, knowledge and professional attributes which will facilitate future employment and career outcomes. The internship will be under the mentorship of a workplace professional, with access to an appropriate academic within the ANU Colleges. Students are generally expected to undertake an internship that is broadly relevant to their research field."
+  "description": ""
  }
 ]

@@ -13,7 +13,7 @@
   "subjectName": "Actuarial Studies",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course aims to extend actuarial students' knowledge of modern analytical tools and techniques beyond those introduced in introductory actuarial courses. It further aims to teach students how to apply this knowledge in real-life business settings, preparing them for more complex and practice specific applications which will be taught in future courses in their actuarial education.\n\nThis subject provides the opportunity for exemption from the requirements of the Data Analytics Principles subject under the Actuaries Institute’s Actuary program. Such exemption depends on the grades attained in the subject.",
+  "summary": "This course aims to extend actuarial students' knowledge of modern analytical tools and techniques beyond those introduced in introductory actuarial courses.",
   "requisiteText": "To enrol in this course you must have completed or be concurrently enrolled in STAT3038."
  },
  {
@@ -30,7 +30,7 @@
   "subjectName": "Actuarial Studies",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "The aim of the Actuarial Control Cycle is to provide students with an understanding of underlying actuarial principles that may be applied to a range of problems and issues in commercial and business environments. Students are expected to develop a holistic approach to practical problem solving, and develop a level of judgement and professional skills required to successfully apply actuarial principles. The syllabus relates to actuarial practice both in the financial services and in other industries. Examples will be drawn from traditional and non-traditional areas to illustrate and establish the underlying actuarial principles in a problem based learning approach, using case studies and business-based examples.\n\nThis subject, in conjunction with ACST4032, provides the opportunity for exemption from the requirements of the Actuarial Control Cycle subject under the Actuaries Institute’s Associate program. Such exemption depends on the grades attained over both subjects.",
+  "summary": "The aim of the Actuarial Control Cycle is to provide students with an understanding of underlying actuarial principles that may be applied to a range of…",
   "requisiteText": "To enrol in this course you must be studying a Bachelor of Actuarial Studies (Honours) (HACTS) or Bachelor of Social Sciences (Honours in Actuarial Studies and Economics) (ASSAE). Incompatible with ACST8040."
  },
  {
@@ -47,7 +47,7 @@
   "subjectName": "Actuarial Studies",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "The aim of the Actuarial Control Cycle is to provide students with an understanding of underlying actuarial principles that may be applied to a range of problems and issues in commercial and business environments. Students are expected to develop a holistic approach to practical problem solving, and develop a level of judgement and professional skills required to successfully apply actuarial principles. The syllabus relates to actuarial practice both in the financial services and in other industries. Examples will be drawn from traditional and non-traditional areas to illustrate and establish the underlying actuarial principles in a problem based learning approach, using case studies and business-based examples.\n\nThis subject, in conjunction with ACST4031, provides the opportunity for exemption from the requirements of the Actuarial Control Cycle subject under the Actuaries Institute’s Associate program. Such exemption depends on the grades attained over both subjects.",
+  "summary": "The aim of the Actuarial Control Cycle is to provide students with an understanding of underlying actuarial principles that may be applied to a range of…",
   "requisiteText": "To enrol in this course, you must have completed ACST4031and be enrolled in Bachelor of Actuarial Studies (Honours) (HACTS) or Bachelor of Social Sciences (Honours in Actuarial Studies and Economics) (ASSAE).\nIncompatible with ACST8041."
  },
  {
@@ -64,7 +64,7 @@
   "subjectName": "Actuarial Studies",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course aims to extend actuarial students' knowledge of modern analytical tools and techniques beyond those introduced in introductory actuarial courses. It further aims to to teach students how to apply this knowledge in real-life business settings, preparing them for more complex and practice specific applications which will be taught in future courses in their actuarial education.\n\nThis subject provides the opportunity for exemption from the requirements of the Data Analytics Principles subject under the Actuaries Institute’s Actuary program. Such exemption depends on the grades attained in the subject.",
+  "summary": "This course aims to extend actuarial students' knowledge of modern analytical tools and techniques beyond those introduced in introductory actuarial courses.",
   "requisiteText": "Incompatible with ACST3032 and ACST6032."
  },
  {
@@ -82,7 +82,7 @@
   "subjectName": "Actuarial Studies",
   "college": "ANU College of Business and Economics",
   "career": "Undergraduate",
-  "description": "This course requires students to complete a 24 unit honours thesis in actuarial studies. Students will undertake independent research in actuarial studies under the guidance of a supervisor.",
+  "summary": "This course requires students to complete a 24 unit honours thesis in actuarial studies.",
   "requisiteText": "Ths course is incompatible with ACST4600."
  },
  {
@@ -99,7 +99,7 @@
   "subjectName": "Actuarial Studies",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course aims to extend actuarial students' knowledge of modern analytical tools and techniques beyond those introduced in introductory actuarial courses. It further aims to to teach students how to apply this knowledge in real-life business settings, preparing them for more complex and practice specific applications which will be taught in future courses in their actuarial education.\n\nThis subject provides the opportunity for exemption from the requirements of the Data Analytics Principles subject under the Actuaries Institute’s Actuary program. Such exemption depends on the grades attained in the subject.",
+  "summary": "This course aims to extend actuarial students' knowledge of modern analytical tools and techniques beyond those introduced in introductory actuarial courses.",
   "requisiteText": "To enrol in this course, you must have previously completed STAT6045 and STAT6057. Incompatible with ACST4062 and ACST3032."
  },
  {
@@ -116,7 +116,7 @@
   "subjectName": "Actuarial Studies",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "The aim of the Actuarial Control Cycle is to provide students with an understanding of underlying actuarial principles that may be applied to a range of problems and issues in commercial and business environments. Students are expected to develop a holistic approach to practical problem solving, and develop a level of judgement and professional skills required to successfully apply actuarial principles. The syllabus relates to actuarial practice both in the financial services and in other industries. Examples will be drawn from traditional and non-traditional areas to illustrate and establish the underlying actuarial principles in a problem based learning approach, using case studies and business-based examples.\n\nThis subject, in conjunction with ACST8041, provides the opportunity for exemption from the requirements of the Actuarial Control Cycle subject under the Actuaries Institute’s Associate program. Such exemption depends on the grades attained over both subjects.",
+  "summary": "The aim of the Actuarial Control Cycle is to provide students with an understanding of underlying actuarial principles that may be applied to a range of…",
   "requisiteText": "To enrol in this course you must have completed STAT6045. Incompatible with ACST4031.\n\nThis course is available to students enrolled in the Bachelor of Actuarial Studies, who have met the following requirements:\nHave completed at least 120 units of study;\nHave completed STAT3038;\nHave met the Actuaries Institute exemption standard for CM1, CS1 and CS2 or equivalent; and,\nHave a GPA of at least 6.\n\nStudents enrolled in the Bachelor of Actuarial Studies who have met these requirements and wish to enrol in this course should contact the program convener of the Bachelor of Actuarial Studies to request a permission code for enrollment."
  },
  {
@@ -133,7 +133,7 @@
   "subjectName": "Actuarial Studies",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "The aim of the Actuarial Control Cycle is to provide students with an understanding of underlying actuarial principles that may be applied to a range of problems and issues in commercial and business environments. Students are expected to develop a holistic approach to practical problem solving, and develop a level of judgement and professional skills required to successfully apply actuarial principles. The syllabus relates to actuarial practice both in the financial services and in other industries. Examples will be drawn from traditional and non-traditional areas to illustrate and establish the underlying actuarial principles in a problem based learning approach, using case studies and business-based examples.\n\nThis subject, in conjunction with ACST8040, provides the opportunity for exemption from the requirements of the Actuarial Control Cycle subject under the Actuaries Institute’s Associate program. Such exemption depends on the grades attained over both subjects.",
+  "summary": "The aim of the Actuarial Control Cycle is to provide students with an understanding of underlying actuarial principles that may be applied to a range of…",
   "requisiteText": "To enrol in this course, you must have completed STAT6045 and ACST8040.\nIncompatible with ACST4032.\n\nThis course is available to students enrolled in the Bachelor of Actuarial Studies who have completed ACST8040. See the details for that course for further information about requisites. Students enrolled in the Bachelor of Actuarial Studies who have met the requisites and wish to enrol in this course should contact the program convener of the Bachelor of Actuarial Studies to request a permission code for enrolment."
  },
  {
@@ -151,7 +151,7 @@
   "subjectName": "Actuarial Studies",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "Supervised sub-thesis in an area of current actuarial interest.",
+  "summary": "Supervised sub-thesis in an area of current actuarial interest.",
   "requisiteText": "Students entering this course must have completed at least 48 units of postgraduate study with a GPA of at least 5.0 and have arranged a supervisor for their essay."
  },
  {
@@ -169,7 +169,7 @@
   "subjectName": "Actuarial Studies",
   "college": "ANU College of Business and Economics",
   "career": "Postgraduate",
-  "description": "This course requires students to complete a 12 to 24-unit masters thesis in the field of Actuarial Studies. The course is available to excellent students enrolled in the Master of Actuarial Studies or the Master of Actuarial Practice who wish to progress to PhD study. Students will undertake independent research under the guidance of a supervisor. At completion of this thesis course, students will have developed the capacity to perform high-level independent research, and have an in-depth knowledge of their chosen research topic.",
+  "summary": "This course requires students to complete a 12 to 24-unit masters thesis in the field of Actuarial Studies.",
   "requisiteText": "Students entering this course must have a GPA of at least 6.5 at time of application and have arranged a supervisor for their thesis.\nStudents who wish to undertake a Masters thesis should contact the course convenor once the above has been arranged to confirm their eligibility.\nImportant note for students: When 48 units remain in your program, you must register your intent to enrol in ACST8500 by contacting the Research School of Finance, Actuarial Studies and Statistics to ensure the correct enrolment in the semester prior to undertaking ACST8500."
  }
 ]
