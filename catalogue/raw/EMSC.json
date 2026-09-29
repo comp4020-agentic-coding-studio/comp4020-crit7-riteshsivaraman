@@ -1,0 +1,885 @@
+[
+ {
+  "code": "EMSC1006",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC1006",
+  "title": "The Blue Planet: An Introduction to Earth System Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine / ANU College of Systems and Society",
+  "career": "Undergraduate",
+  "description": "This course provides an introduction to Earth Systems Science, a field of science that investigates how chemical, physical, and biological processes interact to shape and regulate Earth’s environment. To understand the science behind climate change or the extent current global environmental change is being forced by natural processes and human activities, one should understand the Earth System. Students from both science and non-science backgrounds are welcome. In addition, this is a foundation course for students interested in or wanting to pursue earth, marine or water sciences.\n\n‘The Blue Planet’ will build your understanding of how each part of the Earth system - the atmosphere, hydrosphere, geosphere and biosphere - works and interacts over time. You will learn how energy and matter are transferred around the Earth system through the water, carbon, oxygen, nutrient, geologic and solar cycles, and you will be introduced to feedback mechanisms that can amplify or dampen change. A tour of global change through Earth's history is used to provide context for understanding the modern Earth, including the scientific evidence for global warming. Methods for predicting the future path of global warming and its detrimental effects will be examined. A field trip and practicals provide opportunities for learning via direct observation.",
+  "requisiteText": "Incompatible with GEOL1006 and EMSC6107."
+ },
+ {
+  "code": "EMSC1008",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC1008",
+  "title": "EARTH: The Chemistry and Physics of our Planet",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course provides an introduction to the key physical and chemical processes that shape our planet.\n\nThe main emphasis will be on the fundamental processes that controlled Earth's formation and evolution, and those that currently control mountain building and earthquakes, continental crust formation and volcanoes.\n\nThe skills needed to identify minerals and rocks, the building blocks of this planet will be taught through lectures, practicals and field trips. This course is a hands on introduction to all aspects of geology.\n\nA second key aspect will be to explain how Earth scientists extract past climate history from the rock record. The basic skills needed to interpret Earth's ancient history will be taught during practical sessions.\n\nThe course will also examine the origin of Earth's surface, its landscapes, climate system, and environments that support life, and how they have developed through Earth's history. Geological time will be explored through introductions to the geochronological tools used to track events through Earth's history.\n\nSome quantitative aspects of the Earth Sciences will also be presented\n\nHonours Pathway Option\n\nStudents enrolled in the Honours pathway option (HPO) will be required to do some alternative assessment. The material will be set at a higher conceptual level, requiring more advanced and extensive research.",
+  "requisiteText": "Incompatible with EMSC6008"
+ },
+ {
+  "code": "EMSC1017",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC1017",
+  "title": "Critical Minerals for The Energy Transition – Technology, Environment, & Geopolitics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "What makes a mineral ‘critical’? Where are critical mineral deposits found? Who controls critical mineral supply chains? And what technologies do we need to mine and process critical minerals ethically and sustainably now and into the future?\n\nThese sorts of questions are crucial for the energy transition, and cannot be answered using a single disciplinary approach. This cross-disciplinary unit thus aims to provide students with a 360° perspective of the critical minerals value chain and its relevance to the energy transition. The course will be designed for a cohort of students from diverse academic programs, so no prior knowledge is assumed. The course will bring together ANU scholars from across disciplines to cover a broad range of topics including environmental science, geology and mining, environmental impacts, geopolitics and political economy, macroeconomics and sociology. Students will develop skills to critically evaluate, report and communicate on current topics relating to critical minerals and the energy transition. This unit will provide a timely, societally relevant, innovative, and well-rounded foundation for students to proceed onto more specific areas of relevant study.",
+  "requisiteText": null
+ },
+ {
+  "code": "EMSC2010",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC2010",
+  "title": "Data Science for Earth System Scientists",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine / ANU College of Systems and Society",
+  "career": "Undergraduate",
+  "description": "Discover how to ask better questions — and find meaningful answers.\n\nData science is the most powerful tool we have for separating scientific fact from fiction. In this course, you'll explore practical and relevant problems in Earth and Environmental Sciences by learning how to interpret data, assess uncertainty, model outcomes and make informed decisions. You'll tackle questions like:\n\n“How can I make predictions of the future?”\n\n\"Where should I expend the most effort to improve my results?”\n\n“What accuracy and how many measurements do I need?”\n\n“Is this result meaningful, or just random chance?”\n\n\"Why is this happening and what's driving the change?\"\n\nUsing real-world examples and hands-on activities, you’ll develop analytical thinking and quantitative problem-solving skills that are highly valued across science and industry. This course provides a foundation in essential tools, including data analysis, modelling and statistics, through engaging, problem-based learning tailored to the challenges Earth and Environmental scientists face today.",
+  "requisiteText": "To enrol in this course, students must have completed 24 units of prior tertiary study."
+ },
+ {
+  "code": "EMSC2021",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC2021",
+  "title": "Fundamentals of Climate Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Climate change has been identified as one of the biggest challenges facing humankind. The goal of this course is to provide students with the scientific principles and empirical evidence that underpin the modern understanding of anthropogenic climate change. We will develop a quantitative understanding of the fundamental physics (radiation and surface energy balance, dynamics) governing the Earth System. We will examine the synthesis of climate observations to discern current global trends and investigate past climates. In particular, we will analyse uncertainties in the current predictions and outline ways in which the scientific community is moving to refine these predictions. Key components of the course will be informed using insights from ongoing research within the ARC Centre of Excellence in Climate Extremes (CLEx).\n\nHonours pathway option (HPO)\n\nStudents enrolled in the Honours pathway option (HPO) will be required to do an alternative assignment. The material will be set at a higher conceptual level, requiring more advanced and extensive research.",
+  "requisiteText": "To enrol in this course you must have completed MATH1003 or MATH1013 or MATH1115.\nYou are not able to enrol in this course if you have previously completed EMSC3029 or PHYS3029 or EMSC6021."
+ },
+ {
+  "code": "EMSC2022",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC2022",
+  "title": "Introduction to Global Geophysics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Geophysics is crucial in our understanding of Earth's history, structure and physical conditions. This course will provide a practical introduction to Global Geophysics with an emphasis on Earth's internal and surface processes. Global Geophysics will bring together the structure and dynamics of the Earth in terms of processes varying on scales from the microscopic to the whole planet. Topics will include; plate tectonic theory, earthquakes, seismic waves, heat transport, mantle convection, magnetic and gravity fields, deep Earth structure, geophysical data analysis, and deformation of the solid Earth.\n\nHonours Pathway Option (HPO):\n\nStudents who undertake the HPO will be required to demonstrate extended knowledge and greater depth of technical analysis and evaluation within written assessments.\n\nStudents taking the extension-type HPO will be offered extra material on Wattle to support completion of one additional question with greater complexity within the Wattle Quizzes and one additional written question with greater complexity within each report. This will make up 5% of the written assessment.\n\nThe HPO is open to all students. To opt-in, students must attempt all additional questions and can opt-out at any point, e.g., through subsequent non-attempts of the additional questions.\n\nStudents undertaking the HPO will engage with LO3, LO4, and LO6 in greater depth.",
+  "requisiteText": "To enrol in this course you must have completed EMSC1008 and (MATH1003 or MATH1013)"
+ },
+ {
+  "code": "EMSC2023",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC2023",
+  "title": "Fundamentals of Geology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Do you want to learn how to recognise and interpret rocks in the field and laboratory? In this course you will learn about basic geological concepts around the formation, evolution and deformation of rocks and geological structures in the solid earth. It will be divided into three sections; (i) sedimentology (ii) geological structures and (iii) igneous and metamorphic petrology. Part (i) deals with the formation of sedimentary rocks over a variety of depositional environments. Part (ii) is concerned with recognition and interpretation of basic geological structures such as faults and folds. Part (iii) covers the formation of magmas, igneous rocks and rock-forming silicate minerals, and the mineralogy and textures of metamorphic rocks.",
+  "requisiteText": "To enrol in this course you must have previously completed EMSC1008."
+ },
+ {
+  "code": "EMSC2024",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC2024",
+  "title": "Geochemical Cycles",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course will explore frontier geoscience problems in a holistic manner. In this course you will develop skills needed to define and interpret Earth's history, and past and present environmental change. You will learn about the application of chemistry to the Earth Sciences. Major areas covered include elemental transport by water, the chemical composition of rocks and the use of isotopes as tracers of geological processes. This course will test your ability to synthesise course content and demonstrate an understanding of interactions between solid Earth materials and surficial processes.",
+  "requisiteText": "To enrol in this course you must have previously completed CHEM1101 and EMSC2023\nIncompatible with EMSC6124"
+ },
+ {
+  "code": "EMSC3002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC3002",
+  "title": "Structure and Tectonic Evolution of the Australian Plate",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course teaches the concepts of structural geology and tectonics using examples from the unique geological history of the Australian plate and its boundaries. It develops a broad understanding of the processes that shape the continental crust and the forces that drive geological deformation. Basic principles of rock mechanics at scales ranging from a single crystal to continental-wide give a quantitative understanding of the connection between stress and deformation. The course connects geological mapping to geophysical imaging to provide the essential tools for understanding how, when and why structures form in the crust and how they relate to the formation of important mineral deposits, sedimentary basins, fault systems and their associated earthquakes. There are opportunities to undertake mapping exercises in the field or with digital geology tools, as well as an introduction to laboratory analogue experiments and computational models.\n\nHonours Pathway Option (HPO):\n\nHonours Pathway students will be required to synthesise a computational modelling exercise with theoretical concepts from the course material or complete an in-depth, critical review of a complex issue in structural geology.",
+  "requisiteText": "To enrol in this course you must have completed EMSC2012 or EMSC2023. You are not able to enrol in this course if you have previously completed GEOL3002 or EMSC6030."
+ },
+ {
+  "code": "EMSC3007",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC3007",
+  "title": "Economic Geology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course covers the distribution, geological setting and genesis of metalliferous mineral deposits. Factors controlling the formation of these deposits and the linkages with many other geologic processes covered in other courses are explored. Practical work involves mineragraphy and study of a range of classic mineral deposits.\n\nHonours Pathway Option\n\nAdditional readings of greater conceptual difficulty requiring an advanced scientific understanding will be made available for students enrolled in the Honours Pathway Option. 20% of the marks available on the exam will be answers to alternate questions for HPO students. Integration of this material in the essay will be expected.",
+  "requisiteText": "To enrol in this course you must have completed either:\nEMSC2023 and EMSC2024, or\nEMSC3024, or\n(EMSC2017 or EMSC2020) and EMSC2024\nIncompatible with GEOL3007 and EMSC6007."
+ },
+ {
+  "code": "EMSC3019",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC3019",
+  "title": "Coral Reef Field Studies",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Spring Session 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This intensive field course aims to provide students with advanced knowledge of modern and fossil carbonate environments, and the role of biological processes in reef building and erosion. It complements EMSC3023 Marine Biogeochemistry and BIOL3116 Marine Conservation Ecology, and is for students seeking a profession in marine science, environmental science or geochemistry. Several days will be spent at a coral reef location studying a modern reefal setting, fossil reef depositional environments and relevant biological processes. Activities will include both advanced lectures and field surveys.\n\nThis course has a limited enrolment (~20-25 students and permission is required to enrol in this course by completion of an Expression of Interest form, which will open and close at the beginning and end of February). Students are selected on merit, with priority given to those in their final year of program who require the course to graduate.",
+  "requisiteText": "This course is incompatible with EMSC6119."
+ },
+ {
+  "code": "EMSC3020",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC3020",
+  "title": "Geobiology and Evolution of Life on Earth",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course explores the origin of life on our planet, from the emergence of cells to the appearance of humans. You will gain an advanced understanding of our place in the universe as the descendants of an unbroken line of ancestors - from the first microorganisms, the emergence of complex cells, the appearance of multicellular life and the evolution of animals over the past 600 million years, in the oceans and on land. You will also explore how we may find life on other planets in our solar system. The course will emphasize how the geology and chemistry of planet Earth was influenced by the evolution of new metabolisms and traits of life, and how biological evolution was steered by geological process. The focus will be an advanced understanding of major events such as the Great Oxygenation Event, the Rise of Algae, the Snowball Earth events, the emergence of the Ediacara biota, the Cambrian explosion, major mass extinction events that saw the turnover of entire ecosystems, including the demise of dinosaurs, and the emergence of new reef building structures. The course will provide an overview of the major groups of plant and animal fossils, including critical evaluation of fossil specimens, and an understanding how fossils, microfossils and molecular fossils are used to reconstruct ancient environments and ecosystems.",
+  "requisiteText": "To enrol in this course you must have completed 6 units of 1000 level EMSC, BIOL or CHEM courses.\nYou are not able to enrol in this course if you have previously completed EMSC2019, EMSC4019 or EMSC6019."
+ },
+ {
+  "code": "EMSC3022",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC3022",
+  "title": "Planetary Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "How did the Earth form? How do planets form? How can we search for life beyond Earth? This course is an introduction to planetary science that tries to answer these questions.\n\nWe will explore the solar system and exoplanets. We will step back in time to examine the earliest solar system, going back to the origin of the elements themselves and the processes that build new solar systems, planetary surfaces and planetary interiors. We will examine how planets are explored and modelled using theory, experiments and field studies. We will study the essential ingredients for life on planets and strategies to search for life beyond Earth.\n\nHonours Pathway Option (HPO):\n\nHonours Pathway students will be required to participate in an extended laboratory analysis to explore asteroid and planetary bodies, including a brief analytical report. Students will develop investigative and laboratory skills. Students undertaking the HPO will engage with LO3, LO4, and LO5 in greater depth.\n\nStudents can opt-in to the HPO by joining the “HPO Lab Group” prior to the Week 4 Lab, and can opt-out at any time.\n\nThe HPO is limited to 50 students due to laboratory space limitations.",
+  "requisiteText": "To enrol in this course you must have completed 72 units of coursework. Of those 72 units, at least 6 units must be a 1000-level EMSC or PHYS or CHEM course.\nIncompatible with EMSC6022."
+ },
+ {
+  "code": "EMSC3023",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC3023",
+  "title": "Marine Biogeochemistry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This is an advanced course that explores the relationships between marine chemistry, marine biological and geochemical processes - with a focus on developing an understanding of the interplay and responses between ocean chemistry, marine biology and global change. Topics covered include the theory and application of chemical and isotopic tracers in oceanography and palaeoceanography, macro- and micro-nutrient cycling, sediment and suspended particulate interactions, element speciation, and biomineralization. Practical work will cover a range of standard and sophisticated laboratory methods for nutrients, elemental, isotopic and chemical speciation analysis, as well as a field sampling excursion to the South Coast of NSW.",
+  "requisiteText": "To enrol in this course you must have completed CHEM1101.\nIncompatible with GEOL3023 and EMSC6023."
+ },
+ {
+  "code": "EMSC3024",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC3024",
+  "title": "Magmatism and Metamorphism",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course focuses on a multidisciplinary approach to understand the processes and environments in which magmatic and metamorphic rocks form, including the following topics: the relations between crystallisation and deformation in metamorphic rocks and their link to evolution of orogens; reconstruction of plate tectonic processes from detailed investigation at a grain scale; construction and detailed interpretation of phase diagrams; the role of fluid phases and the use of mineralogy, trace elements, and radiogenic and stable isotopes to constrain magmatic and metamorphic processes.\n\nLaboratory: Characterisation and interpretation of microstructures in igneous and metamorphic rocks using the optical microscope, numerical modelling of trace element fractionation, construction and interpretation of phase diagrams, and fieldwork.",
+  "requisiteText": "To enrol in this course you must have completed EMSC2017 or EMSC2024.\nYou are not able to enrol in this course if you have previously completed GEOL3024 or EMSC6024."
+ },
+ {
+  "code": "EMSC3025",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC3025",
+  "title": "Remote Sensing of Water Resources",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course is of interest to students in science, environment, engineering, law and other disciplines because of the importance of water resources to our society. The course will include the study of changes in water in the landscape, traditional methods of observing and modelling hydrological processes, what we can (and cannot) measure and how satellite observations complement and/or replace traditional approaches. Students will learn about a variety of satellite missions designed to measure soil moisture, total water storage and river/dam levels. Emphasis will be on the quantification of changes in water resources and the way in which remotely sensed observations can transform hydrology modelling.\n\nLaboratory: The practical component will include the analysis of actual observations related to water resources (precipitation, total water storage, depth to groundwater etc) through the development of python software.\n\nHonours Pathway Option\n\nAdditional readings of greater conceptual difficulty requiring an advanced scientific understanding will be made available for students enrolled in the Honours pathway option (HPO). 20 per cent of the marks available on the exam will be answers to alternate questions for HPO students. Integration of this material in the independent project will be expected.",
+  "requisiteText": "To enrol in this course you must have completed or be currently studying 24 units of EMSC, ENVS, MATH, ENGN or CHEM courses. You are not able to enrol in this course if you have previously completed GEOL3025 or EMSC6025."
+ },
+ {
+  "code": "EMSC3027",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC3027",
+  "title": "Palaeoclimatology and Climate Change",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "There are considerable concerns about how rising atmospheric CO2 will affect Earth's climate and marine biogeochemistry in the future. Computer simulations are used to predict future climate changes, but these projections remain very uncertain and the capacity of climate models to reproduce long-term change needs to be thoroughly tested. The only way to do this is by testing model performance against geological archives of past climate changes.\n\nYou will examine how geoscientists reconstruct past climate changes combining data from the oceans, atmosphere, ice sheets, land surfaces, and vegetation, and how these relate to reconstructed changes in energy supply from the sun. One important topic that we will cover, for example, concerns the reasons for past atmospheric CO2 changes, and how these influenced the global climate, as well as conditions in the oceans.\n\nThe course covers the essential aspects needed for understanding the Earth's climate system such as Earth's energy balance; climate sensitivity; sea level and ice sheet changes; ocean circulation changes; nutrient cycling and atmospheric CO2 variations. These subjects are covered using marked events in Earth history. You will learn how the geochemistry of natural palaeoclimate archives and numerical models is used to reconstruct the history of the climate system and identify the causes of climate change. Geochemical tools and proxies, and geophysical methods, for reconstructing climate changes through Earth's history will be explained. You will learn how to use box models to understand nutrient cycling and atmospheric CO2 changes. We will look in more detail at: the nature of, and relationships between, high-resolution ice-core records from Greenland and Antarctica; abrupt climate changes; the factors that affect short-term climate variability in Australia and how these are currently changing; and the science related to common misconceptions in climate change discussions. A key outcome of this course will be a firm understanding of the physical, chemical, and biological processes that control Earth's climate, and how they may interact to modulate climate change in the future.\n\nIn addition to research-based lectures and practicals, journal articles of greater conceptual difficulty will be made available for students who wish to explore their personal interests in climate change. The teaching material is focused around areas of active palaeoclimate research and presents students with an overview of the latest international scientific understanding of past climate changes and their relevance to the future.\n\nHonours Pathway Option (HPO)\n\nAdditional readings of greater conceptual difficulty that require an advanced scientific understanding will be made available for students enrolled in the Honours Pathway Option (HPO). HPO students will be asked to answer additional and/or more challenging questions during exams.",
+  "requisiteText": "To enrol in this course you must have completed 6 units of an EMSC 2000 level course. Incompatible with EMSC6027."
+ },
+ {
+  "code": "EMSC3032",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC3032",
+  "title": "Melting Polar Ice Sheets, Sea Level Variations and Climate Change",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Changes in Earth's temperature cause changes in the size of the polar ice caps, with corresponding changes in global sea levels as water moves between the oceans and the continental ice sheets. Sea levels are currently rising as a result of present-day increases in global mean temperature and some claim that West Antarctica and Greenland glaciers are melting rapidly. But how are changes in ice and ocean volumes estimated?\n\nObservations of the motions of close-earth satellites and measurements from these satellites to the surface of the Earth enable these changes to be measured and they provide important constraints on the physical properties of the planet and on the physical processes occurring on and within it. Students will learn about several Earth-observing satellite missions and how to derive and interpret results in terms of physical changes on Earth.\n\nHonours Pathway Option (HPO):\n\nHonours Pathway students will be required to demonstrate greater depth of practice in analysis and reporting.\n\nStudents taking this option will submit an additional research report, equivalent to 20% of overall assessment. The regular assessment will be scaled to 80%.\n\nStudents undertaking the HPO will engage with LO1, LO3, and LO5 in greater depth\n\nThe HPO is open to all students",
+  "requisiteText": "To enrol in this course you must have completed MATH1003 or MATH1013 or MATH1115 or PHYS1101.\nIncompatible with EMSC6032."
+ },
+ {
+  "code": "EMSC3033",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC3033",
+  "title": "Applied Geophysics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Geophysical surveys are utilised across a wide range of public and private sectors that require investigation of the shallow sub-surface. This includes resource exploration, groundwater management, storage of waste products, archeological investigations, and in general, detection of underground structures or objects (e.g. locating buried utilities). This course builds on concepts from EMSC2022 (Introduction to Global Geophysics) to demonstrate practical applications of common geophysical tools and methods. Students across the breadth of Earth Sciences are expected to encounter such geophysical datasets in future careers. Students will be equipped with the practical skills and knowledge to make informed geological insights and decisions based on such datasets.",
+  "requisiteText": "To enrol in this course you must have previously completed EMSC2022."
+ },
+ {
+  "code": "EMSC3034",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC3034",
+  "title": "Dynamic Earth: Plates, Plumes and Mantle Convection",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Mantle convection is the fundamental agent driving many of the geological features observed at Earth's surface, including plate tectonics and volcanism. However, many geologists have an incomplete understanding of the process, whilst there are many misconceptions about how it relates to surface processes. A broad background to the physics and fluid dynamics of mantle convection will be provided in this course, by explaining what it is, how it works, and how to quantify it in simple terms. It assumes no specialist background: mechanisms will be explained simply and the required basic physics will be fully reviewed and explained. The distinctive forms that convection takes within Earth's mantle will be described within the context of tectonic plates and mantle plumes, whilst the implications for geochemistry and Earth's tectonic evolution will be explored. Common misconceptions and controversies will be addressed, providing a straightforward, but rigorous, explanation of this key process. Emerging insights into the fundamental links between climate, surface processes (weathering, erosion and sediment transport), plate tectonics and underlying mantle flow will also be covered, thus providing a complete overview of Earth’s dynamic engine.",
+  "requisiteText": "To enrol in this course you must have previously completed EMSC2022 and either EMSC2012 or EMSC2023.\nIncompatible with EMSC6034."
+ },
+ {
+  "code": "EMSC3039",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC3039",
+  "title": "Climate Dynamics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Understanding the weather and climate - and how it is now changing - is of vital importance to the Australian industry and society. The goal of this course is to provide students with a quantitative understanding of the ocean and atmosphere processes that underpin weather and climate. The course content begins with the fundamentals of fluid flow and how air/ocean flows are modelled (e.g., weather and climate prediction) using equations solved by computers; and as part of the course, students will learn to run and analyse their own climate system model. We will then investigate key dynamical processes in the ocean and atmosphere including planetary waves, weather fronts, convection, ocean boundary currents, swell, and ocean eddies, with student learning supported by hands-on fluid dynamics experiments in the world-class Geophysical Fluid Dynamics Laboratory at the Research School of Earth Sciences. In the final part of the course, we will develop quantitative understanding of the coupled ocean-atmosphere dynamics that regulate Australian weather and rainfall, including the El Nino Southern Oscillation, Southern Annular Mode, Tropical Cyclones and the Monsoon.\n\nKey components of the course will be informed using insights from ongoing research within the ARC Centre of Excellence in Climate Extremes (CLEx) and the ARC Centre of Excellence for Weather of the 21st Century (W21C).",
+  "requisiteText": "To enrol in this course you must have completed EMSC2021, as well as MATH1003 or MATH1013 or MATH1115.\n\nIncompatible: PHYS3039"
+ },
+ {
+  "code": "EMSC3050",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC3050",
+  "title": "Special Topics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course allows a special topic of study for individuals or small groups of students who wish to gain particular or additional knowledge in a topic in earth science not covered in other courses taught in the School or elsewhere in the University.\n\nThe course will consist of an Earth Science research project relevant to a student's coursework. The details of the project will be negotiated between the student and the supervisor/s and be approved by the Research School of Earth Science Associate Director of Education.\n\nThe course is intended mainly for third-year students and can provide a useful introduction to self directed research and therefore a useful precursor to an Honours year.\n\nBefore permission is given to enrol, students are required to complete additional paperwork at the Research School of Earth Sciences. Please email Student.Admin.RSES@anu.edu.au or telephone 61258321 for guidance on this process.",
+  "requisiteText": "You are not able to enrol in this course if you have completed EMSC8014"
+ },
+ {
+  "code": "EMSC4005",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC4005",
+  "title": "Earth and Marine Sciences Honours Thesis",
+  "unitsText": "3 to 24 units",
+  "units": 3,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Honours in Geology/Earth and Marine Science is offered as an additional year of study for the Bachelor of Science program.\n\nThe principal component of the 10 months Honours course involves a research project conducted under supervision of a research scientist. In addition, students are expected to attend various workshops and seminars, do several units of coursework, write a research proposal, a progress report and present seminars on their research work. The major item of assessment is the thesis.\n\nIn addition to meeting the entry requirements defined by the College, students must have the agreement of a member of the academic staff to supervise their project, and the agreement of the Honours convener. Students should discuss their intention to undertake an Honours project with the Honours convenor and their potential supervisors at least several months before the proposed starting date.",
+  "requisiteText": "To enrol in this course you must be active in the EMSC-HSPC Honours specialisation"
+ },
+ {
+  "code": "EMSC4008",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC4008",
+  "title": "Physics of the Earth Honours Reseach Project",
+  "unitsText": "3 to 24 units",
+  "units": 3,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The structure and dynamic processes of the Earth are measured, quantified and understood by utilizing principles and methods from the physical sciences. Core areas of study include seismology, geodynamics, geodesy and geophysical fluid dynamics. A variety of course work from these fields is on offer, in addition to a supervised research project worth 50% of the final mark. The goal of Physics of the Earth Honours is to gain a solid grounding in quantitative analysis of physical processes based on both theory and observation. For example, plate tectonics, in which distinct pieces of the rigid outer shell of the Earth constantly move and interact due to internal heating, manifests in seismic (e.g. earthquakes), geodetic (e.g. GPS displacement) and geodynamic (e.g. crustal deformation) observation. Evidence from these fields of study have been central to gaining a better understanding of convection within the Earth's mantle, and how the continents have shifted and deformed over time. More specifically, coursework will cover seismic wave propagation, earthquake source mechanisms and seismic imaging; fundamental concepts in fluid dynamics and their application to the Earth (e.g. Buoyancy driven flow in the ocean); sea level change and variations in polar ice cap volumes from satellite data; the physical behaviour of minerals and rocks at pressures and temperatures encountered deep within the Earth; and theory and numerical methods for solving geophysical inverse and data inference problems.",
+  "requisiteText": "To enrol in this course, you must be active in the POTE-HSPC Honours specialisation."
+ },
+ {
+  "code": "EMSC4017",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC4017",
+  "title": "Research Methods for Earth Sciences",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course provides an introduction to the research methods relevant to Earth Sciences. Students learn key academic skills, and how to plan, manage, and present scientific research through a series of lectures, seminars and workshops. Students also acquire vital research skills in computational methods, data acquisition and data analysis. It is fundamental preparation for EMSC4005 (Earth and Marine Science Honours) and EMSC4008 (Physics of the Earth Honours).",
+  "requisiteText": "To enrol in this course you must be enrolled in either Earth and Marine Sciences (EMSC-HSPC) or Physics of the Earth (POTE-HSPC) Honours specialisations. Incompatible with EMSC8017."
+ },
+ {
+  "code": "EMSC4123",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC4123",
+  "title": "Data Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Data science is the most powerful tool we have for separating scientific fact from fiction. The aim of this course is to provide an advanced background in statistical and computational techniques that are useful in the analysis and characterisation of Earth Science data. A focus will be placed on conceptual understanding of how specific data science techniques work and the situations in which they can and cannot be applied. The course will focus on practical examples, providing the opportunity for hands-on learning through the processing of data sets with Python. Specific topics to be discussed in lectures will include: hypothesis testing, regression, cluster analysis, dimension reduction techniques, error propagation, Monte Carlohods and solving problems with random numbers, bootstrapping, fitting parameters and probabilistic inference.",
+  "requisiteText": "To enrol in this course you must be enrolled in POTE-HSPC or EMSC-HSPC Honours specialisation. Incompatible with EMSC4020, EMSC8024 or EMSC8023."
+ },
+ {
+  "code": "EMSC4706",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC4706",
+  "title": "Introduction to Natural Hazards",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course combines state-of-the-art knowledge from geology, geophysics, geochemistry and other fields of earth sciences to understand the natural processes that have hazardous impacts on society. This course focusses on soil hazards, landslides, earthquakes, tsunamis, volcanic eruptions, floods, tropical cylcones, severe weather, bushfires and coastal hazards. Further, the impact of climate change on these hazards is discussed.\n\nLectures in this course are designed as an introduction to the topic and provide students with the scientific principles that underpin each of the major natural hazards. Practicals and one-day field trips (free of charge) are used to illustrate and discuss aspects of each hazard and train hazard and risk assessment practice. Discussion sessions focus on recent scientific findings published in peer-reviewed journals and will train critical reading, thinking and analytical skills.",
+  "requisiteText": "Incompatible with EMSC8706"
+ },
+ {
+  "code": "EMSC6007",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6007",
+  "title": "Economic Geology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course covers the distribution, geological setting and genesis of metalliferous mineral deposits. Factors controlling the formation of these deposits and the linkages with many other geologic processes covered in other courses are explored. Practical work involves mineralogy and study of a range of classic mineral deposits.\n\nNOTE: Graduate students will attend joint classes with undergraduates, but will be assessed under a different scheme, which will require a greater level of conceptual understanding.",
+  "requisiteText": "To enrol in this course you must have completed either:\nEMSC6023 and EMSC6124, or\nEMSC6024, or\nEMSC6017 and EMSC6124\nIncompatible with EMSC3007."
+ },
+ {
+  "code": "EMSC6008",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6008",
+  "title": "EARTH: The Chemistry and Physics of our Planet",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course provides an introduction to the chemistry, physics and climate of the Earth. The course comprises four equally-weighted modules:\n\nGeochemistry: magmas, volcanoes, igneous, metamorphic and sedimentary processes.\n\nGeophysics: plate tectonics, seismology, heat transfer, and Earth's magnetic field.\n\nPalaeoclimate: factors affecting Earth's climate in the past, present and future.\n\nField Geology: interpreting changes in tectonics and climate from the rock record.\n\nMineral and rock identification, field techniques (mapping, cross sections, stratigraphy), data analysis, and numerical modelling will be taught in this course.\n\nNOTE: Graduate students will attend joint classes with undergraduates, but will be assessed under a different scheme, which will require a greater level of conceptual understanding.",
+  "requisiteText": "Incompatible with EMSC1008"
+ },
+ {
+  "code": "EMSC6019",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6019",
+  "title": "Geobiology and Evolution of Life on Earth",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course explores the origin of life on our planet, from the emergence of cells to the appearance of humans. You will gain an advanced understanding of our place in the universe as the descendants of an unbroken line of ancestors - from the first microorganisms, the emergence of complex cells, the appearance of multicellular life and the evolution of animals over the past 600 million years, in the oceans and on land. You will also explore how we may find life on other planets in our solar system. The course will emphasize how the geology and chemistry of planet Earth was influenced by the evolution of new metabolisms and traits of life, and how biological evolution was steered by geological process. The focus will be an advanced understanding of major events such as the Great Oxygenation Event, the Rise of Algae, the Snowball Earth events, the emergence of the Ediacara biota, the Cambrian explosion, major mass extinction events that saw the turnover of entire ecosystems, including the demise of dinosaurs, and the emergence of new reef building structures. The course will provide an overview of the major groups of plant and animal fossils, including critical evaluation of fossil specimens, and an understanding how fossils, microfossils and molecular fossils are used to reconstruct ancient environments and ecosystems.\n\nThis course is co-taught with undergraduate students but assessed separately.\n\nAdditional readings of greater conceptual difficulty requiring an advanced scientific understanding will be made available for students enrolled at the graduate level.",
+  "requisiteText": "Incompatible with EMSC2019, EMSC4019 or or GEOL2019."
+ },
+ {
+  "code": "EMSC6021",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6021",
+  "title": "Fundamentals of Climate Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Climate change has been identified as one of the biggest challenges facing humankind. The goal of this course is to provide students with the scientific principles and empirical evidence that underpin the modern understanding of anthropogenic climate change. We will develop a quantitative understanding of the fundamental physics (radiation and surface energy balance, dynamics) governing the Earth System. We will examine the synthesis of climate observations to discern current global trends and investigate past climates. In particular, we will analyse uncertainties in the current predictions and outline ways in which the scientific community is moving to refine these predictions. Key components of the course will be informed using insights from ongoing research within the ARC Centre of Excellence in Climate Extremes (CLEx).\n\nNote: Graduate students in this course attend joint classes with undergraduates but are assessed separately.",
+  "requisiteText": "Incompatible with EMSC2021"
+ },
+ {
+  "code": "EMSC6022",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6022",
+  "title": "Planetary Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "How did the Earth form? How do planets form? How can we search for life beyond Earth? This course is an introduction to planetary science that tries to answer these questions. We will explore the solar system and exoplanets. We will step back in time to examine the earliest solar system, going back to the origin of the elements themselves and the processes that build new solar systems, planetary surfaces and planetary interiors. We will examine how planets are explored and modelled using theory, experiments and field studies. We will study the essential ingredients for life on planets and strategies to search for life beyond Earth.\n\nNOTE: Graduate students will attend joint classes with undergraduates, but will be assessed under a different scheme, which will require a greater level of conceptual understanding.",
+  "requisiteText": "To enrol in this course you must have completed 6 units of EMSC or PHYS or CHEM courses or be active in the Master of Earth Sciences (Advanced) or Master of Science in Earth Sciences.\n\nIncompatible with GEOL3022 or EMSC3022."
+ },
+ {
+  "code": "EMSC6023",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6023",
+  "title": "Marine Biogeochemistry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This is an advanced course that explores the relationships between marine chemistry, marine biological and geochemical processes - with a focus on developing an understanding of the interplay and responses between ocean chemistry, marine biology and global change. Topics covered include the theory and application of chemical and isotopic tracers in oceanography and palaeoceanography, macro- and micro-nutrient cycling, sediment and suspended particulate interactions, element speciation, and biomineralization. Practical work will cover a range of standard and sophisticated laboratory methods for nutrients, elemental, isotopic and chemical speciation analysis, as well as a field sampling excursion to the South Coast of NSW.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must have completed 6 units of 1000 level CHEM courses or be enrolled in the Master of Earth Sciences (Advanced) or the Master of Science in Earth Sciences.\nIncompatible with EMSC3023 and GEOL3023."
+ },
+ {
+  "code": "EMSC6024",
+  "origin": "referenced",
+  "catalogueYear": 2025,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/EMSC6024",
+  "title": "Magmatism and Metamorphism",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2025"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": null,
+  "description": "This course focuses on a multidisciplinary approach to understand the processes and environments in which magmatic and metamorphic rocks form, including the following topics: the relations between crystallisation and deformation in metamorphic rocks and their link to evolution of orogens; reconstruction of plate tectonic processes from detailed investigation at a grain scale; construction and detailed interpretation of phase diagrams; the role of fluid phases and the use of mineralogy, trace elements, and radiogenic and stable isotopes to constrain magmatic and metamorphic processes.\n\nLaboratory: Characterisation and interpretation of microstructures in igneous and metamorphic rocks using the optical microscope, numerical modelling of trace element fractionation, construction and interpretation of phase diagrams, and fieldwork.\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately. Separate, more advanced laboratory work will be assigned to Masters students.",
+  "requisiteText": "To enrol in this course you must have completed 6 units of 1000 level EMSC or CHEM courses. You are not able to enrol in this course if you have previously completed EMSC3024 or GEOL3024"
+ },
+ {
+  "code": "EMSC6025",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6025",
+  "title": "Remote Sensing of Water Resources",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course is of interest to students in science, environment, engineering, law and other disciplines because of the importance of water resources to our society. The course will include the study of changes in water in the landscape, traditional methods of observing and modelling hydrological processes, what we can (and cannot) measure and how satellite observations complement and/or replace traditional approaches. Students will learn about a variety of satellite missions designed to measure soil moisture, total water storage and river/dam levels. Emphasis will be on the quantification of changes in water resources and the way in which remotely sensed observations can transform hydrology modelling.\n\nLaboratory: The practical component will include the analysis of actual observations related to water resources (precipitation, total water storage, depth to groundwater etc) through the development of python software.\n\nNote: Graduate students attend joint classes with undergraduates but will be assessed separately.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Earth Sciences (Advanced) or the Master of Science in Earth Sciences.\nIncompatible with EMSC3025 and GEOL3025."
+ },
+ {
+  "code": "EMSC6027",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6027",
+  "title": "Palaeoclimatology and Climate Change",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "There are considerable concerns about how rising atmospheric CO2 will affect Earth's climate and marine biogeochemistry in the future. Computer simulations are used to predict future climate changes, but these projections remain very uncertain and the capacity of climate models to reproduce long-term change needs to be thoroughly tested. The only way to do this is by testing model performance against geological archives of past climate changes.\n\nYou will examine how geoscientists reconstruct past climate changes combining data from the oceans, atmosphere, ice sheets, land surfaces, and vegetation, and how these relate to reconstructed changes in energy supply from the sun. One important topic that we will cover, for example, concerns the reasons for past atmospheric CO2 changes, and how these influenced the global climate, as well as conditions in the oceans.\n\nThe course covers the essential aspects needed for understanding the Earth's climate system such as Earth's energy balance; climate sensitivity; sea level and ice sheet changes; ocean circulation changes; nutrient cycling and atmospheric CO2 variations. These subjects are covered using marked events in Earth history. You will learn how the geochemistry of natural palaeoclimate archives and numerical models is used to reconstruct the history of the climate system and identify the causes of climate change. Geochemical tools and proxies, and geophysical methods, for reconstructing climate changes through Earth's history will be explained. You will learn how to use box models to understand nutrient cycling and atmospheric CO2 changes. We will look in more detail at: the nature of, and relationships between, high-resolution ice-core records from Greenland and Antarctica; abrupt climate changes; the factors that affect short-term climate variability in Australia and how these are currently changing; and the science related to common misconceptions in climate change discussions. A key outcome of this course will be a firm understanding of the physical, chemical, and biological processes that control Earth's climate, and how they may interact to modulate climate change in the future.\n\nIn addition to research-based lectures and practicals, journal articles of greater conceptual difficulty will be made available for students who wish to explore their personal interests in climate change. The teaching material is focused around areas of active palaeoclimate research and presents students with an overview of the latest international scientific understanding of past climate changes and their relevance to the future.\n\nNOTE: Postgraduate students will attend classes with undergraduate students but will be assessed differently. This will be expected to lead to a greater capacity of integrated information interpretation across the different lines of evidence, and a deeper systemic comprehension that will support a more structural outlook with respect to the current climate crisis. Accordingly, there will be greater expected depth in the essay/report and more comprehensive questioning in the exam.",
+  "requisiteText": "To enrol in this course you must have completed 6 units of an EMSC 2000 level course or equivalent. You are not able to enrol in this course if you have previously completed EMSC3027."
+ },
+ {
+  "code": "EMSC6030",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6030",
+  "title": "Structural Geology and Tectonics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course is designed to develop an advanced understanding of deformation processes and structures produced by displacement and deformation in the Earth's lithosphere at scales ranging from the tectonic plate scale, down to the crystal lattice scale. Emphasis is placed on understanding (1) the geometry and types of structures produced by complex crustal deformation histories involving contractional, extensional and wrench regimes, (2) the deformation processes which control the microstructural evolution of deformed rocks, (3) factors influencing the strength and mechanical behaviour of the Earth's crust and underlying mantle lithosphere, (4) deformational controls on crustal-scale fluid flow and applications to understanding ore genesis and earthquake processes, and (5) the large-scale geodynamic processes controlling plate motions and crustal deformation.\n\nNote: Graduate students attend joint classes with undergraduates (EMSC3002) but will be assessed separately.",
+  "requisiteText": "To enrol in this course you must have completed EMSC2012 or EMSC6031.\nYou are not able to enrol in this course if you have previously completed EMSC3002 or GEOL3002."
+ },
+ {
+  "code": "EMSC6032",
+  "origin": "referenced",
+  "catalogueYear": 2025,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/EMSC6032",
+  "title": "Melting Polar Ice Sheets, Sea Level Variations and Climate Change",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2025"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": null,
+  "description": "Changes in Earth's temperature cause changes in the size of the polar ice caps, with corresponding changes in global sea levels as water moves between the oceans and the continental ice sheets. Sea levels are currently rising as a result of present-day increases in global mean temperature and some claim that West Antarctica and Greenland glaciers are melting rapidly. But how are changes in ice and ocean volumes estimated?\n\nObservations of the motions of close-earth satellites and measurements from these satellites to the surface of the Earth enable these changes to be measured and they provide important constraints on the physical properties of the planet and on the physical processes occurring on and within it. Students will learn about several Earth-observing satellite missions and how to derive and interpret results in terms of physical changes on Earth.\n\nGraduate students attend joint classes with undergraduates but will be assessed separately.",
+  "requisiteText": "You are not able to enrol in this course if you have completed EMSC3032"
+ },
+ {
+  "code": "EMSC6034",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6034",
+  "title": "Dynamic Earth: Plates, Plumes and Mantle Convection",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Mantle convection is the fundamental agent driving many of the geological features observed at Earth's surface, including plate tectonics and volcanism. However, many geologists have an incomplete understanding of the process, whilst there are many misconceptions about how it relates to surface processes. A broad background to the physics and fluid dynamics of mantle convection will be provided in this course, by explaining what it is, how it works, and how to quantify it in simple terms. It assumes no specialist background: mechanisms will be explained simply and the required basic physics will be fully reviewed and explained. The distinctive forms that convection takes within Earth's mantle will be described within the context of tectonic plates and mantle plumes, whilst the implications for geochemistry and Earth's tectonic evolution will be explored. Common misconceptions and controversies will be addressed, providing a straightforward, but rigorous, explanation of this key process. Emerging insights into the fundamental links between climate, surface processes (weathering, erosion and sediment transport), plate tectonics and underlying mantle flow will also be covered, thus providing a complete overview of Earth’s dynamic engine.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "Incompatible with EMSC3034"
+ },
+ {
+  "code": "EMSC6107",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6107",
+  "title": "The Blue Planet: an Introduction to Earth System Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine / ANU College of Systems and Society",
+  "career": "Postgraduate",
+  "description": "This course provides an introduction to Earth Systems Science, a field of science that investigates how chemical, physical, and biological processes interact to shape and regulate Earth’s environment. To understand the science behind climate change or the extent current global environmental change is being forced by natural processes and human activities, one should understand the Earth System. Students from both science and non-science backgrounds are welcome. In addition, this is a foundation course for students interested in or wanting to pursue earth, marine or water sciences.\n\n‘The Blue Planet’ will build your understanding of how each part of the Earth system - the atmosphere, hydrosphere, geosphere and biosphere - works and interacts over time. You will learn how energy and matter are transferred around the Earth system through the water, carbon, oxygen, nutrient, geologic and solar cycles, and you will be introduced to feedback mechanisms that can amplify or dampen change. A tour of global change through Earth's history is used to provide context for understanding the modern Earth, including the scientific evidence for global warming. Methods for predicting the future path of global warming and its detrimental effects will be examined. A field trip and practicals provide opportunities for learning via direct observation.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "Incompatible with EMSC1006 and GEOL1006."
+ },
+ {
+  "code": "EMSC6119",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6119",
+  "title": "Coral Reef Field Studies",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Spring Session 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This intensive field course aims to provide students with advanced understanding of modern and fossil carbonate environments, and the role of biological processes in reef building and erosion. It complements EMSC6023 Marine Biogeochemistry and is for students seeking a profession in the marine science, environmental science or geochemistry. Several days will be spent at a coral reef location investigating a modern reefal setting, fossil reef depositional environments and relevant biological processes. Activities will include both advanced lectures and field surveys.\n\nThis course has a limited enrolment and permission is required to enrol in this course. Please register interest by emailing the course convener or student.admin.rses@anu.edu.au (it is advisable to to this before the end of semester 1).\n\nNOTE: Graduate students will attend joint classes with undergraduates, but will be assessed under a different scheme, which will require a greater level of conceptual understanding.",
+  "requisiteText": "Incompatible with EMSC3019"
+ },
+ {
+  "code": "EMSC6122",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6122",
+  "title": "Introduction to Global Geophysics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Geophysics is crucial in our understanding of Earth's history, structure and physical conditions. This course will provide a practical introduction to Global Geophysics with an emphasis on Earth's internal and surface processes. Global Geophysics will bring together the structure and dynamics of the Earth in terms of processes varying on scales from the microscopic to the whole planet. Topics will include; plate tectonic theory, earthquakes, seismic waves, heat transport, mantle convection, magnetic and gravity fields, deep Earth structure, geophysical data analysis, and deformation of the solid Earth.\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must be enrolled in the Master of Earth Sciences (Advanced), the Master of Science in Earth Sciences or by permission of the course convener.\nIncompatible with EMSC2018 and EMSC2022."
+ },
+ {
+  "code": "EMSC6123",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6123",
+  "title": "Fundamentals of Geology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Do you want to learn how to recognise and interpret rocks in the field and laboratory? In this course you will learn about basic geological concepts around the formation, evolution and deformation of rocks and geological structures in the solid earth. The material learned in this course will give you the background needed to tackle the big questions facing our planet in subsequent courses.\n\nIt will be divided into three sections; (i) sedimentology (ii) geological structures and (iii) igneous and metamorphic petrology. Part (i) deals with the formation of sedimentary rocks over a variety of depositional environments. Part (ii) is concerned with recognition and interpretation of basic geological structures such as faults and folds. Part (iii) covers the formation of magmas, igneous rocks and rock-forming silicate minerals, and the mineralogy and textures of metamorphic rocks.\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": null
+ },
+ {
+  "code": "EMSC6124",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6124",
+  "title": "Geochemical Cycles",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course will explore frontier geoscience problems in a holistic manner. In this course you will develop skills needed to define and interpret Earth's history, and past and present environmental change. You will learn about the application of chemistry to the Earth Sciences. Major areas covered include elemental transport by water, the chemical composition of rocks and the use of isotopes as tracers of geological processes. This course will test your ability to synthesise course content and demonstrate an understanding of interactions between solid Earth materials and surficial processes. This course will prepare students in the Master of Science in Earth Sciences or Master of Earth Sciences (Advanced) programs to undertake geochemical research projects in subsequent courses.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must be studying the Master of Earth Sciences (Advanced) or the Master of Science in Earth Sciences.\nIncompatible with EMSC2024."
+ },
+ {
+  "code": "EMSC8014",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC8014",
+  "title": "Special Topics in Earth Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course will introduce students to topics of current interest, taking advantage of the expertise of visitors and staff.",
+  "requisiteText": "You are not able to enrol in this course if you have completed EMSC3050"
+ },
+ {
+  "code": "EMSC8017",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC8017",
+  "title": "Research Methods for Earth Sciences",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course provides an introduction to the research methods relevant to Earth Sciences. Students learn key academic skills, and how to plan, manage, and present scientific research through a series of lectures, seminars and workshops. Students also acquire vital research skills in computational methods, data acquisition and data analysis. It is fundamental preparation for EMSC8032 and EMSC8030.",
+  "requisiteText": "Students must be enrolled in the Master of Earth Sciences (Advanced) program or the Master of Science in Earth Sciences\n\nIncompatible with EMSC4017."
+ },
+ {
+  "code": "EMSC8023",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC8023",
+  "title": "Data Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Data science is the most powerful tool we have for separating scientific fact from fiction. The aim of this course is to provide an advanced background in statistical and computational techniques that are useful in the analysis and characterisation of Earth Science data. A focus will be placed on conceptual understanding of how specific data science techniques work and the situations in which they can and cannot be applied. The course will focus on practical examples, providing the opportunity for hands-on learning through the processing of data sets with Python. Specific topics to be discussed in lectures will include: hypothesis testing, regression, cluster analysis, dimension reduction techniques, error propagation, Monte Carlohods and solving problems with random numbers, bootstrapping, fitting parameters and probabilistic inference.",
+  "requisiteText": "To enrol in this course you must be enrolled in the Master of Earth Sciences (Adv) or the Master of Science in Earth Sciences and have completed EMSC8033 Computational Geosciences.\n\nIncompatible with EMSC4123."
+ },
+ {
+  "code": "EMSC8025",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC8025",
+  "title": "Research Project in Earth Science",
+  "unitsText": "6 to 12 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "The course is an earth science focussed research project under the supervision of a researcher at ANU or at an affiliated research institute. The research project consists of data gathering using appropriate state-of-the-art techniques and evaluation and interpretation of the data in the context of relevant theory and concepts. Students identify a supervisor for their project after discussion with the program convenor.",
+  "requisiteText": "Prerequisite: EMSC8032 Earth Science Research Proposal & Presentation"
+ },
+ {
+  "code": "EMSC8030",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC8030",
+  "title": "Earth Science Research Project",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "The course is a specific research project under the supervision of a research scientist at ANU or at an affiliated research institute. The research project consists of data gathering using appropriate state-of-the-art techniques and evaluation and interpretation of the data in the context of relevant theory and concepts.\n\nStudents identify a supervisor for their project after discussion with the Masters convenor.",
+  "requisiteText": "Prerequisite: EMSC8032 Earth Science Research Proposal & Presentation"
+ },
+ {
+  "code": "EMSC8032",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC8032",
+  "title": "Earth Science Research Proposal and Presentation",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Students will apply concepts explored within EMSC8017: Research Methods of Earth Sciences to develop a written Research Proposal for their Research Project (EMSC8030) under the guidance of a nominated supervisor. As a part of this proposal, students will critically review relevant literature and contextualize their research aims and methods. They will summarize their research plans to a peer audience, via an oral presentation.",
+  "requisiteText": "Students must be enrolled in the Master of Earth Sciences (Advanced). Students in the Master of Science in Earth Sciences who wish to take this course will need to obtain a permission code.\nMust have completed or currently be completing EMSC8017 - Research Methods"
+ },
+ {
+  "code": "EMSC8706",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC8706",
+  "title": "Introduction to Natural Hazards",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course combines state-of-the-art knowledge from geology, geophysics, geochemistry and other fields of earth sciences to understand the natural processes that have hazardous impacts on society. This course focusses on earthquakes, tsunamis, volcanic eruptions, landslides, floods, tropical cylcones, soil hazards, bushfires and coastal hazards. Further, the impact of climate change on these hazards is discussed.\n\nLectures in this course are designed as an introduction to the topic and provide students with the scientific principles that underpin each of the major natural hazards. Practicals and one-day field trips (free of charge) are used to illustrate and discuss aspects of each hazard and train hazard and risk assessment practice. Discussion sessions focus on recent scientific findings published in peer-reviewed journals and will train critical reading, thinking and analytical skills.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "Incompatible with EMSC4706"
+ },
+ {
+  "code": "EMSC8712",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC8712",
+  "title": "Electronics and Data Analysis",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Earth and Marine Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "The proper analysis of scientific data is the most powerful tool we have for separating scientific fact from fiction, and a key part of the process in the modern practice of science is getting the data into an electronic format. This class will provide an introduction to the electronics methods and techniques most useful in instrumentation and laboratory settings, along with an introduction to statistical and numerical techniques that are useful in the analysis and characterisation of data. Students will have the opportunity to learn and practice the methods of signal conditioning, analog to digital conversion (and the reverse), and low-noise circuit design that are key to the high-fidelity transformation of signals into data. When analysing data, a focus will be placed on conceptual understanding of how specific methods work and the situations in which they can and cannot be applied. A number of practical examples will be discussed during the course, providing the opportunity for hands-on learning through the processing of real data sets with statistical software and data evaluation programs. The experience gained in this course will help students approach their own research problems.",
+  "requisiteText": "To enrol in this course you must be currently enrolled in the Master of Science in Precision\nInstrumentation and Measurement program or by permission from the Convenor. This course is incompatible with EMSC8023 and EMSC4123."
+ }
+]

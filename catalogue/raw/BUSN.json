@@ -1,0 +1,930 @@
+[
+ {
+  "code": "BUSN1001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN1001",
+  "title": "Business Reporting and Analysis",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "The course focuses on the nature and scope of business reporting and the need for financial and non-financial information for business decision-making. It provides students with fundamental financial management knowledge in the contemporary business environment. The course commences with an introduction to the use of business reports and the financial reporting regulatory environment. The concepts of primary financial reports and specific reporting issues are then discussed, with a focus on the preparation and analysis of financial statements from the perspectives of business report users. The course proceeds with discussions on the basic financial decision tools, the use of past and future-oriented information and how the knowledge is applied to managerial decision-making, including planning, control and investment opportunities.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed ENGN3211."
+ },
+ {
+  "code": "BUSN1002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN1002",
+  "title": "Accounting Processes and Systems",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "The course extends the material in Business Reporting and Analysis. It provides detailed understanding of the technical aspects and concepts used in producing financial and management accounting reports. This includes cost assignment methods, the application of accounting principles and double-entry accounting systems for recording and reporting financial transactions.\n\nTopics include: using journals and ledgers; application of accrual accounting; methods of income measurement and asset valuation; accounting for assets and liabilities; applying the principles of internal control; and an introduction to accounting for partnerships and companies.",
+  "requisiteText": "To enrol in this course you must have completed BUSN1001"
+ },
+ {
+  "code": "BUSN1101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN1101",
+  "title": "Introduction to Commercial Law",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course introduces you to the Australian legal system and the law regulating business activities. Particular focus is given to the law of contract. The course also covers the laws relating to particular types of business contracts such as sales of goods and insurance contracts. Aspects of property law and negligence are also covered.",
+  "requisiteText": "This course is incompatible with LAWS1201, LAWS1204, LAWS2210, LAWS4210."
+ },
+ {
+  "code": "BUSN2011",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN2011",
+  "title": "Management Accounting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course provides students with an appreciation of management accounting concepts related to decision-making, planning and control. The course introduces a range of management accounting tools, including job and process costing, activity based costing, budgeting and variance analysis, and the balanced scorecard. The course also introduces the application of management accounting tools for the purpose of pricing, cost allocation, budgetary control, and performance evaluation. Students will learn how to assess these through cost-benefit analysis.",
+  "requisiteText": "To enrol in this course you must have completed BUSN1002."
+ },
+ {
+  "code": "BUSN2015",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN2015",
+  "title": "Company Accounting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course covers the characteristics of the Australian accounting environment and its financial reporting requirements for companies, and expands on accounting for non-current assets, accounting for intangible assets, accounting for liabilities and owners' equity, accounting for a range of financial accounting issues (e.g., leases and income tax), and, most importantly, provides a comprehensive coverage of consolidation issues.",
+  "requisiteText": "To enrol in this course you must have completed BUSN1002."
+ },
+ {
+  "code": "BUSN2036",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN2036",
+  "title": "Financial Statement Analysis",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course examines the analysis of financial information presented in firms’ financial reports. The course comprises three related sections: fundamental analysis; valuation; and, the application of fundamental analysis and valuation techniques to a variety of specific decisions. Fundamental analysis involves answering questions such as: how is the firm performing? how might the firm perform in the future? what risks does the firm face? Valuation describes the methods by which our expectations of firms’ future performance may be converted to a present day value of the firm’s assets, and the various financial claims on those assets. The course also provides an introductory coverage to issues such as equity security analysis and credit analysis, with a strong emphasis on the use of financial statement data for these purposes.",
+  "requisiteText": "To enrol in this course you must have completed BUSN1001 and FINM1001"
+ },
+ {
+  "code": "BUSN2037",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN2037",
+  "title": "Fundamentals of Accounting Data Analytics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "In an increasingly data-driven business environment, skills in data analytics for accountants are critical. This course provides an introduction to the importance and use of accounting data analytics. Focusing on how data analytics impact on financial and management accounting, the course introduces a series of techniques and tools for analysing large amounts of data to answer fundamental accounting questions and for businesses to create value.\n\nThe course is designed to provide students the opportunity to develop an analytical mindset. Students will be able to identify relevant questions, scrub and prepare financial and non-financial accounting data, communicate results in a meaningful way and understand the effects that the quality of the underlying data has on its usefulness for decision making.",
+  "requisiteText": "To enrol in this course you must have completed BUSN1001."
+ },
+ {
+  "code": "BUSN2101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN2101",
+  "title": "Law of Business Entities",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course introduces the legal principles relevant to business structures in Australia. Corporate law is emphasised, comprising issues such as: corporate governance (the structure and role of the board of directors, directors' duties, members' rights and shareholder meetings); corporate liability (corporate contracting, negligence issues faced by corporations); corporate finance (debt and equity financing, profit distribution and protection of creditors); and external administration (corporate insolvency, receivership, voluntary administration and winding up).",
+  "requisiteText": "To enrol in this course you must have completed BUSN1101. This course is incompatible with LAWS2203."
+ },
+ {
+  "code": "BUSN3001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN3001",
+  "title": "Accounting Theory",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course examines normative, positive and critical theories of accounting and their influence on contemporary practice. It explores the conceptual framework, major historical and current debates, and the role of theory in shaping accounting standards, reporting practices and the use of financial information. Emphasis is placed on real-world application, highlighting how different perspectives affect the decisions of managers, investors, regulators and other stakeholders. By linking theory to practice, the course provides students with a deeper understanding of accounting’s foundations and its impact on business and society, supporting both professional careers and further study in accounting.",
+  "requisiteText": "To enrol in this course, you must have completed BUSN1002."
+ },
+ {
+  "code": "BUSN3002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN3002",
+  "title": "Auditing",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course is primarily focused on the external audit of corporate financial statements while also covering other assurance services, professional ethics, and legal liabilities. The lectures presented are structured to correspond with auditing process in theory and practice, and inevitably integrate Australian and International Auditing Standards.\n\nThe majority of the lectures deal with the various activities undertaken by external auditors. The main stages of the audit process are addressed including risk analysis in auditing, audit planning and documentation, fraud auditing, gathering and evaluating audit evidence (including performance of tests of controls and substantive audit procedures) and the formation of the audit opinion. Other topics, including auditors' legal responsibilities, audit quality and ethics, and other assurance services, are also dealt with as special topics.\n\nThe lectures mainly deal with the concepts underlying the methodology, while the tutorial assignments are used to demonstrate how the methodology is applied in practical situations.",
+  "requisiteText": "To enrol in this course you must have completed BUSN2015 and must also have completed or currently be studying BUSN2101 or LAWS2203."
+ },
+ {
+  "code": "BUSN3003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN3003",
+  "title": "Advanced Management Accounting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course examines key issues in contemporary management accounting, focusing on how organisations manage costs, design control systems, and support effective decision making. Students will study techniques such as life-cycle costing and the theory of constraints, while developing a critical understanding of the benefits and limitations of management accounting systems. The course also considers the behavioural and organisational implications of implementing these systems, highlighting their influence on performance and culture. By linking technical methods with broader organisational challenges, students will gain valuable insights into managerial accounting techniques and their application in advanced professional practice.",
+  "requisiteText": "To enrol in this course, you must have completed BUSN2011."
+ },
+ {
+  "code": "BUSN3008",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN3008",
+  "title": "Financial Reporting By Corporations",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "The course examines a selection of advanced corporate financial reporting issues associated with the measurement and disclosure of financial information. It provides a description of the contemporary corporate reporting environment and its challenges, and addresses the social and economic roles played by financial accounting and reporting. The course further examines a range of advanced accounting issues including fair value measurement, financial instruments, share-based payments, segment reporting, specific industries, external administration and liquidation and advanced topics related to equity interests. Technical and theoretical aspects are considered.",
+  "requisiteText": "To enrol in this course you must have completed BUSN2015"
+ },
+ {
+  "code": "BUSN3014",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN3014",
+  "title": "Principles of Tax Law",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "The course introduces students to the principles of tax law in Australia with a focus on income tax. The important provisions of the Income Tax Assessment Acts 1936 and 1997 about the concepts of income, capital gains, and deductions are considered in detail. Other topics include international aspects of income tax, tax treatment of different entities, tax planning and goods and services tax.",
+  "requisiteText": "To enrol in this course you must have completed BUSN1101, or both LAWS1204 and LAWS1201. Incompatible with LAWS2221 or LAWS4221."
+ },
+ {
+  "code": "BUSN3017",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN3017",
+  "title": "Corporate Social Responsibility, Accountability and Reporting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course introduces students to the roles of corporations in society and their accountability, accounting and reporting issues in the context of sustainability and social justice. It examines issues in Corporate Social Responsibility (CSR), emphasising accountability for, and reporting of, the social and environmental effects of a corporation’s economic actions to stakeholders. This extends the corporation’s accountability beyond financial disclosures to shareholders and is predicated on the assumption that corporations have social responsibilities that are much broader than generating shareholder wealth.",
+  "requisiteText": "To enrol in this course you must have completed 72 units. Incompatible with BUSN6017 and BUSN7017."
+ },
+ {
+  "code": "BUSN3051",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN3051",
+  "title": "Advanced Accounting Data Analytics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "Accounting data analytics develops new insights and enhances understanding of company performance by systematically examining financial, non-financial, and externally sourced firm-related data. This course equips students with the skills to apply data analytics techniques to complex accounting problems. Students will engage with a range of methods and applications across financial accounting, management accounting, auditing, and taxation. Building on the foundational concepts introduced in BUSN2037, the course advances to explore diverse data sources and the use of predictive and prescriptive analytics to generate insights across key accounting domains.",
+  "requisiteText": "To enrol in this course, you must have completed BUSN2037 Fundamentals of Accounting Data Analytics."
+ },
+ {
+  "code": "BUSN3060",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN3060",
+  "title": "Special Topics In Commerce",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course allows students to pursue a special accounting-related topic to gain knowledge in an area not covered by other accounting courses.\n\nDepending on the topic, students may be required to participate in lectures, seminars, workshops, tutorials, discussion groups, and/or other activities; to undertake a guided reading program including key seminal papers and current developments; and/or to develop and implement a research plan under the supervision of an academic member of staff.",
+  "requisiteText": null
+ },
+ {
+  "code": "BUSN4007",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN4007",
+  "title": "Analysis of Financial Reporting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course is about financial reporting, but not how to report or account for activities. Two key features of the syllabus are the explicit linkage to the research literature and the emphasis on empirical evidence. The adopted approach is largely based on the economics of accounting and finance. The course also aims to introduce students to the theoretical and practical skills required to conduct their own empirical research.",
+  "requisiteText": "Incompatible with BUSN8007"
+ },
+ {
+  "code": "BUSN4013",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN4013",
+  "title": "Seminar in Research Method in Commerce",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course introduces students to the planning, design and conduct of research in business-related disciplines. Students gain an understanding of how scientific research is undertaken and are introduced to different research approaches. By the end of the course, students should be able to critically evaluate research (their own and that of others) regardless of the research approach. The overall aim is to enable students to develop the skills needed to design and undertake research that is ethical, meaningful, rigorous and relevant.",
+  "requisiteText": "Incompatible with BUSN8013"
+ },
+ {
+  "code": "BUSN4045",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN4045",
+  "title": "Corporate Governance (Honours)",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course has two elements: (1) it examines the principles and practice of corporate governance, and provides a framework for analysing issues in the governance of corporations; and (2) it examines key areas of research in corporate governance.\n\nThe first element provides a framework for analysing issues in the governance of corporations derived from a comprehensive understanding of the concepts and issues associated with corporate governance practices and mechanisms. This is achieved by examining the nature of corporations and their environments, and the concepts, principles and practices of corporate governance. This examination is based on a public interest perspective of corporations. Topics explore the complex interactive roles of various stakeholders in corporate governance, with some emphasis on shareholders, directors and management. Attention is also given to the regulation of corporations and to selected international corporate governance issues.",
+  "requisiteText": "Incompatible with BUSN7045 and BUSN8145."
+ },
+ {
+  "code": "BUSN4111",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN4111",
+  "title": "Seminal Research in Accounting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course will introduce theories and methodologies in various areas of accounting research, including management accounting, auditing and corporate governance. We will consider key seminal papers and current developments. This course aims to deepen your knowledge and understanding of the broader theoretical and conceptual issues in major areas of accounting research.",
+  "requisiteText": "This course is incompatible with BUSN8111."
+ },
+ {
+  "code": "BUSN4500",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN4500",
+  "title": "Accounting Honours Thesis",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Undergraduate",
+  "description": "This course is designed for Honours students to undertake independent research in accounting. Students will conduct research in their chosen topic under the supervision of academic staff with relevant research interest. Students will be required to identify research problems, review and synthesize relevant literature, develop an appropriate research design, collect and analyse data (where relevant), and present their findings effectively in a written thesis.",
+  "requisiteText": null
+ },
+ {
+  "code": "BUSN6003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN6003",
+  "title": "Advanced Management Accounting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course provides students with an appreciation of the increasingly important management accounting issues of organisational cost management and management control systems. Technical issues of cost management and management accounting control systems are explored within a broader social and organisational context. The course explores management accounting techniques related to cost management, including life-cycle costing and the theory of constraints; develops an appreciation of different forms, benefits and limitations of management accounting systems; and examines behavioural consequences of the implementation of management accounting systems as well as managerial decision making in organisations.",
+  "requisiteText": "To enrol in this course you must have completed BUSN7031. This course is incompatible with BUSN3003 and BUSN8003."
+ },
+ {
+  "code": "BUSN6008",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN6008",
+  "title": "Financial Reporting By Corporations",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "The course examines a selection of advanced corporate financial reporting issues associated with the measurement and disclosure of financial information. It provides a description of the contemporary corporate reporting environment and its challenges, and addresses the social and economic roles played by financial accounting and reporting. The course further examines a range of advanced accounting issues including fair value measurement, financial instruments, share-based payments, segment reporting, specific industries, external administration and liquidation and advanced topics related to equity interests. Technical and theoretical aspects are considered.",
+  "requisiteText": "To enrol in this course you must have completed BUSN7050. This course is incompatible with BUSN3008 and BUSN7049."
+ },
+ {
+  "code": "BUSN6017",
+  "origin": "referenced",
+  "catalogueYear": 2025,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/BUSN6017",
+  "title": "Corporate Social Responsibility, Accountability and Reporting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": null,
+  "description": "This course introduces students to the roles of corporations in society and their accountability, accounting and reporting issues in the context of sustainability and social justice. It examines issues in Corporate Social Responsibility (CSR), with an emphasis on accountability for, and reporting of, the social and environmental effects of a corporation’s economic actions to stakeholders. CSR extends the corporation’s accountability beyond financial disclosures to shareholders and is predicated on the assumption that corporations have social and environmental responsibilities that are much broader than generating shareholder wealth.",
+  "requisiteText": "To enrol in this course you must have completed 24 units of courses towards a degree. Incompatible with BUSN3017 and BUSN7017."
+ },
+ {
+  "code": "BUSN6051",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN6051",
+  "title": "Accounting Analytics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "Accounting analytics develops new insights and understanding of financial and non-financial performance by continuous iterative examination of large data sets pertaining to past financial and non-financial information and events. This course aims to equip students with skills to analyse accounting data to address accounting-related problems. Students are expected to obtain an understanding of different types of data analytics methods, and how to apply these methods to analyse accounting-related problems.",
+  "requisiteText": "To enrol in this course you must be studying a Master of Accounting, Master of Professional Accounting, Master of Commerce (Advanced) or Graduate Certificate of Accounting, and have completed BUSN7008.\nTo enrol in this course, students in the Master of Applied Accounting must be studying or have completed BUSN7008.\nThis course is incompatible with BUSN3051 and BUSN7051."
+ },
+ {
+  "code": "BUSN6060",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN6060",
+  "title": "Special Topics In Commerce",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course allows students to pursue a special accounting-related topic to gain knowledge in an area not covered by other accounting courses.\n\nDepending on the topic, students may be required to participate in lectures, seminars, workshops, tutorials, discussion groups, and/or other activities; to undertake a guided reading program including key seminal papers and current developments; and/or to develop and implement a research plan under the supervision of an academic member of staff.",
+  "requisiteText": null
+ },
+ {
+  "code": "BUSN7005",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN7005",
+  "title": "Contemporary Issues in Accounting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course explores the major theoretical approaches that underpin financial accounting and their application to contemporary issues in business and regulation. Students critically examine the features, similarities and differences of alternative perspectives, including positive accounting theory, the conceptual framework, regulation of financial reporting, capital market impacts, earnings management, and voluntary disclosure. The course also considers alternative measurement approaches and the broader role of accounting in corporate failure, market behaviour, and corporate social responsibility. Through critical analysis, students develop a deeper understanding of how accounting theory informs practice, shapes regulation, and influences decisions in capital markets and society.",
+  "requisiteText": "To enrol in this course, you must have completed BUSN7008.\nThis course is incompatible with BUSN3001."
+ },
+ {
+  "code": "BUSN7008",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN7008",
+  "title": "Financial Statements and Reporting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course is designed as an introductory accounting course for graduate students, and provides an introduction to the concepts underlying external financial reporting. The unit utilises a transaction-effect approach to the preparation of financial statements. The course examines the main financial statements produced by an accounting system and the process by which these statements are prepared. The course covers fundamental issues relevant to the use of accounting information as a decision aid. Contents include accounting concepts, double entry and accrual systems of accounting, financial statements preparation and analysis. There are no prerequisites that need to be satisfied. The course assumes no previous knowledge of accounting.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed BUSN1002."
+ },
+ {
+  "code": "BUSN7017",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN7017",
+  "title": "Sustainability and Corporate Social Responsibility, Accountability and Reporting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course introduces students to the roles of corporations in society and their accountability, accounting and reporting issues in the context of sustainability and social justice. It examines issues in Corporate Social Responsibility (CSR), emphasising accountability for, and reporting of, the social and environmental effects of a corporation’s economic actions to stakeholders. This extends the corporation’s accountability beyond financial disclosures to shareholders and is predicated on the assumption that corporations have social responsibilities that are much broader than generating shareholder wealth.",
+  "requisiteText": "To enrol in this course, students in the Master of Applied Accounting must be concurrently enrolled in or have completed BUSN7008. To enrol in this course, students in other programs must have completed 24 units of courses.\n\nThis course is incompatible with BUSN3017 Corporate Social Responsibility, Accountability and Reporting and BUSN6017 Corporate Social Responsibility, Accountability and Reporting."
+ },
+ {
+  "code": "BUSN7021",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN7021",
+  "title": "Taxation Law",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "The course introduces students to the principles of tax law in Australia with a focus on income tax. The important provisions of the Income Tax Assessment Acts 1936 and 1997 about the concepts of income, capital gains, and deductions are considered in detail. Other topics include international aspects of income tax, tax treatment of different entities, the anti-avoidance provisions, and goods and services tax.",
+  "requisiteText": "To enrol in this course you must have completed BUSN7052.\n\nYou are not able to enrol in this course if you have previously completed BUSN3014 or LAWS2221."
+ },
+ {
+  "code": "BUSN7031",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN7031",
+  "title": "Management Accounting and Cost Analysis",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course provides students with an understanding of management accounting concepts related to the management functions of planning, control, and decision making. The course covers management accounting fundamentals and introduces a range of management accounting tools, including job and process costing, variance analysis, activity based costing and the balanced scorecard, as well as behavioural responses to management accounting information. Students are introduced to the application of management accounting tools for pricing, budgetary control, cost allocation and performance evaluation as well as new developments in management accounting knowledge and techniques and how to assess these through cost-benefit analysis.",
+  "requisiteText": "To enrol in this course, students in the Master of Applied Accounting must be concurrently enrolled in or have completed BUSN7008. To enrol in this course, students in other programs must have completed BUSN7008.\n\nThis course is incompatible with BUSN2011 Management Accounting."
+ },
+ {
+  "code": "BUSN7036",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN7036",
+  "title": "Financial Statement Analysis",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This is an intermediate course which examines the analysis of financial information presented in firms’ financial reports. The course comprises three related sections: fundamental analysis; valuation; and, the application of fundamental analysis and valuation techniques to a variety of specific decisions. Fundamental analysis involves answering questions such as: how is the firm performing? how might the firm perform in the future? what risks does the firm face? In addressing these issues particular attention is paid to the impact of financial reporting choices on the relation between reported earnings and firms’ underlying economic performance. Valuation describes the methods by which our expectations of firms’ future performance may be converted to a present day value of the firm’s assets, and the various financial claims on those assets. The final section of the course provides coverage of issues such as equity security analysis and credit analysis, with a strong emphasis on the use of financial statement data for these purposes.",
+  "requisiteText": "To enrol in this course you must have completed BUSN7008. You must have also completed FINM7006 or be currently studying FINM7006.\nThis course is incompatible with BUSN2036."
+ },
+ {
+  "code": "BUSN7049",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN7049",
+  "title": "Corporate Financial Reporting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "The course examines a selection of advanced financial reporting issues associated with the measurement and disclosure of financial information, focusing on the application of the accounting principles and an evaluation of the related benefits and limitations. It provides a discussion of the development of corporate reporting environment in Australia and its challenges, and addresses the social and economic roles played by financial accounting and reporting. The course further analyses a range of advanced accounting issues including fair value measurement, share-based payments, segment reporting, specific industries, external administration and advanced topics relating to equity interests. Technical and theoretical aspects are considered.",
+  "requisiteText": "To enrol in this course you must have completed BUSN7050. This course is incompatible with BUSN3008 and BUSN6008."
+ },
+ {
+  "code": "BUSN7050",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN7050",
+  "title": "Corporate Accounting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course covers the characteristics of the Australian accounting environment and its financial reporting requirements for companies, and expands on advanced financial accounting issues, such as, accounting for non-current assets, accounting for intangible assets, accounting for liabilities and owners' equity, and provides a comprehensive coverage of consolidation issues.",
+  "requisiteText": "To enrol in this course you must have completed BUSN7008. This course is incompatible with BUSN2015."
+ },
+ {
+  "code": "BUSN7051",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN7051",
+  "title": "Accounting Analytics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "Accounting analytics develops new insights and understanding of financial and non-financial performance by continuous iterative examination of large data sets pertaining to past financial and non-financial information and events. This course aims to equip students with skills to analyse accounting data to address accounting-related problems. Students are expected to obtain an understanding of different types of data analytics methods, and how to apply these methods to analyse accounting-related problems.",
+  "requisiteText": "To enrol in this course you must be studying a Master of Accounting, Master of Professional Accounting, Master of Commerce (Advanced) or Graduate Certificate of Accounting, and have completed BUSN7008. This course is incompatible with BUSN3051 and BUSN6051."
+ },
+ {
+  "code": "BUSN7052",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN7052",
+  "title": "Commercial Law",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course introduces you to the Australian legal system and the law regulating business activities. Particular focus is given to the law of contract. The course also covers the laws relating to particular types of business contracts such as sales of goods and insurance contracts. Aspects of property law and negligence are also covered.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed BUSN1101"
+ },
+ {
+  "code": "BUSN7054",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN7054",
+  "title": "Auditing and Assurance Services",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course is primarily focused on the external audit of corporate financial statements while also covering other assurance services, professional ethics, and legal liabilities. The lectures presented are structured to correspond with auditing process in theory and practice, and inevitably integrate Australian and International Auditing Standards.\n\nThe majority of the lectures deal with the various activities undertaken by external auditors. The main stages of the audit process are addressed including risk analysis in auditing, audit planning and documentation, fraud auditing, gathering and evaluating audit evidence (including performance of tests of controls and substantive audit procedures) and the formation of the audit opinion. Other topics, including auditors' legal responsibilities, audit quality and ethics, and other assurance services, are also dealt with as special topics.\n\nThe lectures mainly deal with the concepts underlying the methodology, while the cases and discussion questions are used to demonstrate how the methodology is applied in practical situations. Research papers assist students with better understanding otherwise abstract auditing concepts and motivate students to further study the specific areas they may be more interested in.",
+  "requisiteText": "To enrol in this course you must have completed BUSN7050 and be studying or have completed BUSN7057. This course is incompatible with BUSN3002."
+ },
+ {
+  "code": "BUSN7057",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN7057",
+  "title": "Business Association Law",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course explores the legal principles shaping business structures in Australia, with a strong focus on corporate law. Topics include corporate governance, directors’ duties, shareholder rights, corporate liability, contracting and negligence, corporate finance, and external administration processes such as insolvency, receivership, and winding up. Students will develop skills in legal analysis, identifying issues in complex factual scenarios, and applying case law and legislation to real-world business contexts. The course also builds professional communication, strategic problem-solving, and the ability to engage with policy considerations and adapt to ongoing changes in corporate law.",
+  "requisiteText": "To enrol in this course, you must have completed BUSN7052.\nThis course is incompatible with BUSN2101."
+ },
+ {
+  "code": "BUSN7066",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN7066",
+  "title": "Data Analytics in Contemporary Accounting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "The course provides an overview of the importance and use of data analytics in accounting. It focuses on how data analytics impact financial and management accounting; and introduces a series of techniques and tools for analysing large amounts of data available to answer fundamental accounting questions and for business to create value. It is designed to give students the opportunity to develop an analytical mindset. Specifically, students will be able to identify relevant accounting and business questions, scrub and prepare data, understand the effects that the quality of the underlying data has on its ability to address business questions. Students will also be able to perform enhanced financial analysis through manipulation of accounting data and prepare data visualization reports to summarise the outputs in an accessible way for each varied decision maker and their specific needs. These skills are highly desirable for the accountant looking toward the future where the business environment is increasingly data driven.",
+  "requisiteText": "To enrol in this course, students in the Master of Applied Accounting must be concurrently enrolled or have completed BUSN7008. To enrol in this course, students in other programs must have completed BUSN7008.\n\nIncompatible with BUSN2037 and BUSN8066."
+ },
+ {
+  "code": "BUSN8003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8003",
+  "title": "Advanced Managerial Decision Making",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course provides students with an appreciation of the increasingly important management accounting issues of organisational cost management, management control systems and managerial decision making. The course extends on control and performance measurement by exploring advanced technical issues of cost management and management accounting control systems within a broader social and organisational context. Specifically, this course explores management accounting techniques for cost management, including life-cycle costing and the theory of constraints; develops an appreciation of the forms, benefits and limitations of management accounting systems; explores the issues surrounding managerial decision making; and examines behavioural consequences of the implementation of management accounting systems in organisations.",
+  "requisiteText": "To enrol in this course you must have completed BUSN7031.This course is incompatible with BUSN3003 and BUSN6003."
+ },
+ {
+  "code": "BUSN8007",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8007",
+  "title": "Analysis of Financial Reporting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course is about financial reporting, but not how to report or account for activities. Two key features of the syllabus are the explicit linkage to the research literature and the emphasis on empirical evidence. The adopted approach is largely based on the economics of accounting and finance. The course also aims to introduce students to the theoretical and practical skills required to conduct their own empirical research.",
+  "requisiteText": "Incompatible with BUSN4007"
+ },
+ {
+  "code": "BUSN8013",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8013",
+  "title": "Seminar in Research Method in Commerce",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course introduces students to the planning, design and conduct of research in business-related disciplines. Students gain an understanding of how scientific research is undertaken and are introduced to different research approaches. By the end of the course, students should be able to critically evaluate research (their own and that of others) regardless of the research approach. The overall aim is to enable students to develop the skills needed to design and undertake research that is ethical, meaningful, rigorous and relevant.",
+  "requisiteText": "Incompatible with BUSN4013"
+ },
+ {
+  "code": "BUSN8045",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8045",
+  "title": "Corporate Governance",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course provides a framework for analysing issues in the governance of corporations derived from a comprehensive understanding of the concepts and issues associated with corporate governance practices and mechanisms. This is achieved by examining the nature of corporations and their environments, and the concepts, principles and practices of corporate governance. This examination is based on a public interest perspective of corporations. Topics explore the complex interactive roles of various stakeholders in corporate governance, with some emphasis on shareholders, directors and management. Attention is also given to the regulation of corporations and to selected international corporate governance issues.",
+  "requisiteText": "To enrol in this course you must have completed 24 units of 6000, 7000 or 8000 level BUSN, ECON, FINM, MGMT or STAT courses. Incompatible with BUSN4045, BUSN7045 and BUSN8145."
+ },
+ {
+  "code": "BUSN8051",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8051",
+  "title": "Advanced Analytics in Contemporary Accounting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "Accounting analytics develops new insights and understanding of financial and non-financial performance by continuous iterative examination of large data sets pertaining to past financial and non-financial information and events. This course aims to equip students with skills to analyse accounting data to address advanced accounting-related problems. Students are expected to obtain an understanding of different types of data analytics methods and apply these methods to analyse accounting-related problems.",
+  "requisiteText": "To enrol in this course you must have completed BUSN7066 or BUSN8066.\n\nThis course is incompatible with BUSN3051, BUSN6051 and BUSN7051."
+ },
+ {
+  "code": "BUSN8066",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8066",
+  "title": "Data Analytics in Contemporary Accounting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "The course provides an overview of the importance and use of data analytics in accounting. It focuses on how data analytics impact financial and management accounting, auditing and tax; and introduces a series of techniques and tools for analysing large amounts of data available to answer fundamental accounting questions and for business to create value. It is designed to give students the opportunity to develop an analytical mindset. Specifically, students will be able to identify relevant accounting and business questions, scrub and prepare data, understand the effects that the quality of the underlying data has on its ability to address business questions. Students will also be able to perform enhanced financial analysis through manipulation of accounting data and prepare data visualization reports to summarise the outputs in an accessible way for each varied decision maker and their specific needs. These skills are highly desirable for the accountant looking toward the future where the business environment is increasingly data driven.",
+  "requisiteText": "To enrol in this course, students in the Master of Accounting must have completed BUSN7008.\n\nTo enrol in this course, students in the Master of Applied Accounting must be concurrently enrolled or have completed BUSN7008."
+ },
+ {
+  "code": "BUSN8067",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8067",
+  "title": "Forensic Accounting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course provides students with an understanding of forensic accounting and the role of accounting in financial fraud investigations. Forensic accounting requires the application of accounting and critical analysis skills. Students are introduced to the process of financial fraud investigation which involves analysing and preparing financial information for the purpose of achieving a resolution via the legal system. The topics covered include gathering evidence; analysing and reporting relevant financial information; fraud and financial crimes; the process of conducting a fraud investigation; and how to prepare evidence for litigation purposes.",
+  "requisiteText": "To enrol in this course you must have completed BUSN7008. Incompatible with BUSN3060 and BUSN6060."
+ },
+ {
+  "code": "BUSN8068",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8068",
+  "title": "Accounting for Sustainability",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "Sustainability reporting is an important element of corporate disclosure, with an increasingly diverse range of stakeholders demanding information on the broader social and environmental aspects of organisational performance. Accounting plays a critical role, since information on a company’s sustainability activities requires accurate metrics and disclosures. As accounting for sustainability becomes increasingly central to corporate reporting, the accounting profession has begun to offer services similar to traditional financial accounting by producing verifiable sustainability information.\n\nThis course will explore issues associated with the development of sustainability accounting and the disclosure of sustainability-related activities. It will consider accounting metrics on a range of sustainability issues for internal and external reporting purposes. The implications of the need for accurate reliable information on audit assurance will also be examined. Students will also be introduced to the major difficulties and criticisms of accounting for sustainability and will gain awareness of current research into the value of disclosures to stakeholders.",
+  "requisiteText": "To enrol in this course you must have completed BUSN7008."
+ },
+ {
+  "code": "BUSN8100",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8100",
+  "title": "Empirical Research in Financial Accounting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This is an advanced course that examines positive theories of financial reporting. Empirical research relating to the use of accounting in contracts, accounting discretion, and the relationship between accounting information and firm value is critically analysed. The course also examines the key theoretical perspectives essential to the understanding of empirical accounting research.",
+  "requisiteText": "To enrol in this course, you must have completed BUSN8007 or an equivalent subject taught within an Honours or Advanced Masters Degree."
+ },
+ {
+  "code": "BUSN8101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8101",
+  "title": "Special Topics in Commerce",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course allows students to pursue a special accounting-related topic to gain knowledge in an area not covered by other accounting courses.\n\nDepending on the topic, students may be required to participate in lectures, seminars, workshops, tutorials, discussion groups, and/or other activities; to undertake a guided reading program including key seminal papers and current developments; and/or to develop and implement a research plan under the supervision of an academic member of staff.\n\nSpecial topics are subject to confirmation by the relevant school. Please see the Program Convenors for further information.",
+  "requisiteText": "Incompatible with BUSN4101"
+ },
+ {
+  "code": "BUSN8111",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8111",
+  "title": "Seminal Research in Accounting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course will introduce theories and methodologies in various areas of accounting research, including management accounting, auditing and corporate governance. We will consider key seminal papers and current developments. This course aims to deepen your knowledge and understanding of the broader theoretical and conceptual issues in major areas of accounting research.",
+  "requisiteText": "This course is incompatible with BUSN4111."
+ },
+ {
+  "code": "BUSN8145",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8145",
+  "title": "Corporate Governance: Research Preparation",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course has two elements: (1) it examines the principles and practice of corporate governance, and provides a framework for analysing issues in the governance of corporations; and (2) it examines key areas of research in corporate governance.\n\nThe first element provides a framework for analysing issues in the governance of corporations derived from a comprehensive understanding of the concepts and issues associated with corporate governance practices and mechanisms. This is achieved by examining the nature of corporations and their environments, and the concepts, principles and practices of corporate governance. This examination is based on a public interest perspective of corporations. Topics explore the complex interactive roles of various stakeholders in corporate governance, with some emphasis on shareholders, directors and management. Attention is also given to the regulation of corporations and to selected international corporate governance issues.",
+  "requisiteText": "This course is incompatible with BUSN4045, BUSN7045 and BUSN8045."
+ },
+ {
+  "code": "BUSN8181",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8181",
+  "title": "Financial Reporting and Analysis",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "The course provides a user perspective on the role of accounting and financial reporting in capturing and conveying economic information about an organisation. Through a series of workshops, case studies and exercises, you will acquire confidence in using the concepts and vocabulary of accounting to analyse and communicate about business performance and resource allocation. You will become familiar with the format and use of financial statements and the role of accounting in making business decisions.",
+  "requisiteText": "To enrol in this course you must be studying a Master of Business Administration, Master of Business Administration (Advanced), Master of Project Management or Master of Project Management (Advanced). You are not able to enrol in this course if you have completed BUSN7008."
+ },
+ {
+  "code": "BUSN8200",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8200",
+  "title": "Judgement and Decision Making Research in Accounting",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course provides an introduction to behavioural accounting research and, more specifically, judgement and decision making research in accounting. The literature in this area is extensive, and encompasses disciplines including auditing, financial accounting and management accounting. As part of this course, you are expected to develop an appreciation and understanding of how behavioural research is conducted. Individuals' decisions are affected by accounting information, and judgement is the cornerstone of auditing. BUSN8200 is designed to introduce you to some concepts related to judgement and decision-making and apply these concepts to the broader accounting and auditing contexts.\n\nThis course is only available to students enrolled in the Doctoral program in the Research School of Accounting, ANU College of Business and Economics. Enrolment must be approved by the Convenor of the program.",
+  "requisiteText": null
+ },
+ {
+  "code": "BUSN8801",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8801",
+  "title": "Commerce Research Report",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This course is designed to provide students with a more in-depth understanding of the concepts and issues involved with accounting and commerce related areas by integrating and synthesizing the knowledge and skills acquired to undertake an applied research project. Students will undertake independent research work through instructional guidance to develop a research proposal, literature review and write up of a research project.",
+  "requisiteText": "To enrol in this course you must have completed BUSN7008."
+ },
+ {
+  "code": "BUSN8804",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BUSN8804",
+  "title": "Commerce Masters Thesis",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Business",
+  "college": "ANU College of Business and Economics",
+  "career": "Postgraduate",
+  "description": "This 24-unit course is designed for Master students to undertake independent research in accounting. Students will conduct research in their chosen topic under the supervision of academic staff with relevant research interest. Students will be required to identify research problems, review and synthesize relevant literature, develop an appropriate research design, collect and analyse data (where relevant), and present their findings effectively in a written thesis.",
+  "requisiteText": "Incompatible with BUSN7045, BUSN8045 and BUSN8145."
+ }
+]

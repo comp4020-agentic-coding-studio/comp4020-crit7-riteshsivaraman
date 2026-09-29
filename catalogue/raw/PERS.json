@@ -1,0 +1,111 @@
+[
+ {
+  "code": "PERS1001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PERS1001",
+  "title": "Introductory Persian A",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Persian",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "Requiring no previous knowledge of the language, Introductory Persian A instructs students in the fundamentals of the Persian Language which is the mother tongue of more than 150 million people in the Middle East and is spoken today primarily in Iran, Afghanistan and Tajikistan. Students will learn to master the Persian script and on completion of the course be able to speak, listen, read, write, and comprehend Modern Standard Persian at a basic level across various everyday communicative subjects in both semi-formal and formal social and literary contexts. Students will acquire a basic vocabulary of the 300-400 most commonly used words as well as understand and reproduce the most important grammatical structures in Persian. Historically, Persian was widely understood from the Mediterranean to India, and Introductory Persian A students will acquire a familiarity with the rich Persian historical, literary, and cultural legacy across the great Middle East and Central Asia with a particular focus on Iran. Students from other universities around Australia or internationally may elect to enrol cross-institutionally in this online course.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed PERS1002, PERS2003, PERS2004, PERS3005, PERS3006, PERS3007, PERS6001, PERS6002, PERS6003, PERS6004, PERS6005, PERS6006, or PERS6007."
+ },
+ {
+  "code": "PERS1002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PERS1002",
+  "title": "Introductory Persian B",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Persian",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course extends from Introductory Persian A. Students will develop their skills in reading, writing and conversation and undertake translation from and into Persian at a higher introductory level. Students will develop a larger vocabulary relating to a wider range of topics, building on their studies in Introductory Persian A. Students from other institutions around Australia or internationally may elect to enrol cross-institutionally in the online course.",
+  "requisiteText": "To enrol in this course you must have completed PERS1001; or with permission of the convenor.\n\nYou are not able to enrol in this course if you have previously completed PERS2003, PERS2004, PERS3005, PERS3006, PERS3007, PERS6002, PERS6003, PERS6004, PERS6005, PERS6006, or PERS6007"
+ },
+ {
+  "code": "PERS2003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PERS2003",
+  "title": "Intermediate Persian A",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Persian",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course extends on the foundation built in Introductory Persian A and B. It involves a more detailed presentation of functions of the language, oral and aural practice, and reading of texts and the writing of compositions that incorporate features of the language already presented through some important cultural issues. On completion of this subject students will have acquired upper-intermediate proficiency in Persian conversational forms, a reasonable proficiency in written structures and an ability to formulate such structures, an understanding of some of the commonly used grammatical structures of Persian and the ability to apply them in speech and writing, the ability to interpret messages of an average complexity occurring in some audio-visual media and in individual and group spoken forms, and familiarity with some of the dominant cultural ideas and forms in the Persian culture.",
+  "requisiteText": "To enrol in this course you must have completed PERS1002, have an equivalent level of language proficiency as demonstrated by a placement test, or with permission of the convenor.\n\nYou are not able to enrol in this course if you have previously completed PERS2004, PERS3005, PERS3006, PERS3007, PERS6003, PERS6004, PERS6005, PERS6006, or PERS6007"
+ },
+ {
+  "code": "PERS2004",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PERS2004",
+  "title": "Intermediate Persian B",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Persian",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course extends on the skillset developed in Intermediate Persian A, itself a foundation on Introductory Persian A and B. It involves a more detailed presentation of functions of the language, oral and aural practice, and reading of texts and the writing of compositions that incorporate features of the language already presented through some important cultural issues. On completion of this subject students will have acquired upper-intermediate proficiency in Persian conversational forms, a versatile proficiency in understanding written structures and an ability to formulate such structures, an understanding of some of the commonly used grammatical structures of Persian and the ability to apply them in speech and writing, the ability to interpret messages of an average complexity occurring in audio-visual media and in individual and group spoken forms, and familiarity with some of the dominant cultural ideas and forms of Persian culture and history.",
+  "requisiteText": "To enrol in this course you must have completed PERS2003 or have an equivalent level of language proficiency as demonstrated by a placement test or permission of the convenor.\n\nYou are not able to enrol in this course if you have previously completed PERS3005, PERS3006, PERS3007, PERS6004, PERS6005, PERS6006, or PERS6007"
+ },
+ {
+  "code": "PERS3002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PERS3002",
+  "title": "Advanced Functional Persian",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Persian",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "The Intensive Functional Persian Language Course is developed to build fundamental language skills required for an Advanced Targeted Proficiency Level. This course provides a systematic learning program that enables learners to communicate effectively using the language at a high level and in a range of different functions such as everyday activities and present/future professional work. The course covers four language skills: speaking, listening, reading and writing and translation.\n\nApart from covering the key grammatical points, formal and informal vocabulary and fixed key phrases, the course also encompasses sociolinguistic and sociocultural aspects of the Persian Language and provides an introduction to press and media. The course is based on a platform of a communicative language and enables correct and appropriate interaction in a given context, from everyday practical and social language to formal specific situations.",
+  "requisiteText": "To enrol in this course you must have completed PERS3006 Advanced Persian 2 or have an equivalent level of language proficiency as demonstrated by a placement test or permission of the convenor."
+ },
+ {
+  "code": "PERS3005",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PERS3005",
+  "title": "Advanced Persian A",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Persian",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course builds on the Introductory and Intermediate levels of Persian language. This subject will develop the full range of linguistic skills in Persian such as the capacity to use idiomatic and conversational forms and to use them freely in speech; proficiency in written structures of moderate to advanced complexity and the capacity to use such structures clearly and accurately; interpreting messages of a medium level of complexity occurring in a variety of audio-visual media and individual and group spoken forms. Students should become conversant in some aspects of advanced Persian syntax and morphology, the historical development of Persian language and literature up to the modern period including examples of literary writing in the modern period, and translation of texts of moderate difficulty from Persian to English and English to Persian.",
+  "requisiteText": "To enrol in this course you must have completed PERS2004 or have an equivalent level of language proficiency as demonstrated by a placement test or permission of the convenor.\n\nYou are not able to enrol in this course if you have previously completed PERS3006, PERS3007, PERS6005, PERS6006, or PERS6007."
+ },
+ {
+  "code": "PERS3006",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PERS3006",
+  "title": "Advanced Persian B",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Persian",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course builds on Advanced Persian A. It will develop various skills such as the capacity to use some idiomatic and conversational forms and ability to use them freely in speech; proficiency in written structures of advanced complexity and the capacity to use such structures clearly and accurately; interpreting messages of an advanced level of complexity occurring in a variety of audio-visual media and individual and group spoken forms. Students should become conversant in some aspects of advanced Persian syntax and morphology, the historical development of Persian language and literature up to the modern period including some examples of literary writing and translation of sophisticated classical and modern poetry and prose.",
+  "requisiteText": "To enrol in this course you must have completed PERS3005 or have an equivalent level of language proficiency as demonstrated by a placement test or permission of the convenor.\n\nYou are not able to enrol in this course if you have previously completed PERS3007, PERS6006, or PERS6007."
+ }
+]

@@ -1,0 +1,333 @@
+[
+ {
+  "code": "DEMO1001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO1001",
+  "title": "Global Population Challenges",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course introduces the big issues associated with changes in our global population. The world’s population is increasing rapidly, but population growth is far from even. Some of the most vulnerable parts of the world are growing the fastest, while other countries have too few working people to support their rapidly ageing population. This course will consider how population change is linked to sustainable development, migration and settlement, rapid population growth, ageing societies, housing and infrastructure, poverty, food and water supply, and the environment.\n\nThe course will consider these population challenges from a demographic perspective, introducing the reasons populations change through birth, migration and death. A focus of the course will be on the large disparities across the planet, and students will engage in thinking critically about these global challenges.\n\nOverall, the course will:\n\n1. identify past, present and future global population challenges\n\n2. provide an understanding of how demographers and population scientists can contribute to understanding and addressing these challenges\n\n3. demonstrate the demographic approach to understanding societal issues",
+  "requisiteText": null
+ },
+ {
+  "code": "DEMO2001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO2001",
+  "title": "Understanding Population Change",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course introduces key population issues in Australia, other developed countries and less developed countries. It covers a range of topics including the relationships between population size and available resources; social, biological and economic influences on population growth rates; fertility decline and population ageing; and, population distribution and migration. Students are introduced to the main theories used to understand population and societal change. The course invites students to apply and integrate transdisciplinary ideas, concepts and theories within a demographic understanding of populations, recognising the wider societal and environmental influences on and impacts of populations.",
+  "requisiteText": "To enrol in this course you must have completed 12 units of 1000 or 2000 level ANU courses.\n\nThis course is incompatible with DEMO8024."
+ },
+ {
+  "code": "DEMO2002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO2002",
+  "title": "Population Analysis",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course provides the basic analytical foundation for understanding societal change. It focuses on the key measures and techniques used to study the diversity of demographic change occurring in Australia and throughout the world. This includes methods for analysing fertility, mortality, migration and population compositions. The construction of life tables and populations projections are also introduced.",
+  "requisiteText": "To enrol in this course you must have completed 24 units of undergraduate coursework, or the equivalent thereof."
+ },
+ {
+  "code": "DEMO2003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO2003",
+  "title": "Migration in the Modern World",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "Migration and urbanisation are driving population and societal change across the industrialised world. This inter-disciplinary course will provide you with the necessary skills to analyse migration patterns across and within countries. Students will explore key questions such as what is migration and why is it so difficult to measure? What are the main reasons why people leave their country or area of origin? How does migration affect sending and receiving societies? How can policies be designed to influence the size and characteristics of migration?",
+  "requisiteText": null
+ },
+ {
+  "code": "DEMO2004",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO2004",
+  "title": "Social Inequalities in Health",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course is designed to introduce students to the social and socio-structural factors influencing the health of individuals and populations, along with social theories which explain how health and health inequalities are shaped over the lifespan. The first portion of the course will centre on how to measure, interpret, and holestically understand common metrics of health, such as measures of morbidity, illness, disability, and life expectancy. A life course perspective will be used to understand and incorporate measures of morbidity and illness as individuals age over time. Subsequently, we will explore human health from a historical perspective, learning about the primary factors that have driven massive health improvements over the past century. Emphasis will be placed on the similarities, and differences, in these health transitions across high-, middle-, and low-income contexts. We will then explore the social and structural factors underlying health disparities both across populations and between individuals, including the roles of gender, wealth, educational attainment, occupation, ethnicity, and immigrant status. We will discuss emerging trends that threaten these continued improvements—obesity, cardiovascular disease, smoking, drug overdose, and dementia. In these discussions, we will focus on the role of social relationships in affecting health, and the ways that inequality, social stigma, and biases can perpetuate detrimental health behaviours.",
+  "requisiteText": "To enrol in this course you must have completed 12 units of 1000 or 2000 level ANU courses."
+ },
+ {
+  "code": "DEMO3001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO3001",
+  "title": "Population Policy Case Studies",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "In this course, students will evaluate how demography matters for policy design and policy analysis. Very few countries have official, or explicit, population policies, but many social policies are a result of demographic change, or are designed to influence demographic change. There are many examples of policies that have unintended consequences on the growth of populations, while in other cases, despite demographic pressures, policy interventions have been absent. The reasons governments take these approaches will be considered. The course will also examine policy instruments that have been used across the world to understand their approach and their effects. Students will complete a case study report that analyse a range of policies, both population and non-population related, to evaluate the effects – intended or otherwise – on population. In completing this course, students will think critically on how demographic methods and theory apply to real-world policy problems, while considering how demographic policy may be critiqued and improved from a range of disciplinary perspectives.",
+  "requisiteText": "To enrol in this course you must have completed 12 units of DEMO-coded courses, or have received the permission of the course convener."
+ },
+ {
+  "code": "DEMO3002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO3002",
+  "title": "Demographic Research Internship",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course provides students with the opportunity to work closely with a faculty member in the School of Demography on a research project in a field of interest. Students will develop real-world research skills and an understanding of how demographic research is conducted. The project, which is to be negotiated with a supervisor, will most often be related to current work by the faculty member, providing the student with the opportunity to join the research team. The student will participate in a discrete element of the broader project.",
+  "requisiteText": null
+ },
+ {
+  "code": "DEMO3010",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO3010",
+  "title": "Perspectives on Sex, Gender and Population",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "Did you know that worldwide, women tend to live longer than men, but spend more years in ill health? Or that women do more unpaid work in the home, while they earn less money in the labor market than men, even for equal work? Or that highly educated women are more likely to migrate to a different country for work than highly educated men? This course will examine sex and gender differences in population processes (health & mortality, family & fertility, household & the labor market, migration), and critically investigate where these gender inequalities come from, why they are so persistent, and what could be done about them. We will engage in transdisciplinary perspective taking and address these population issues from different social science angles. While an empirical dichotomisation of “sex” into male and female is often central to population research, what do demographers mean when they talk about sex difference? How do their concepts of sex and gender, and approaches to understanding and explaining gender inequalities, overlap with those from other disciplines? How do they deal with non-binary gender identities? What are other disciplines’ perspective on these gendered issues, and how does research from different fields on these issues speak to each other? We will explore answers to these questions and develop a ‘gendered’ understanding of a variety of issues in population studies, examining them through the lenses of theories and perspectives from demography, sociology, gender studies, and economics.",
+  "requisiteText": "To enrol in this course, students must have completed 48 units ANTH, DEMO, INDG, POLS, SOCY or SOCR-coded courses, 72 units of prior tertiary study, or have gained the permission of the course convenor."
+ },
+ {
+  "code": "DEMO4011",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO4011",
+  "title": "Demography Honours Seminar in Theory and Methods",
+  "unitsText": "12 units",
+  "units": 12,
+  "offeredRaw": [],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course investigates key theoretical and methodological approaches in Demography. Students enrolled in this course will critically analyse a range of demographic readings and participate in research design and analytical methods.\n\nTopics in the course will explore the methods and materials of demographers through different theoretical and research approaches. Students will develop theoretically sound research questions, design aligned research design, and identify appropriate data and methods to conduct their honours thesis.",
+  "requisiteText": "To enrol in this course you must be studying a Bachelor of Arts Honours (HARTS or HART2) and have completed DEMO2001 and DEMO2002 or equivalent."
+ },
+ {
+  "code": "DEMO4091",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO4091",
+  "title": "Special Topics in Population Change",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "The processes of birth, death and migration shape the size and structure of a population in ever-changing ways. In this course, students will engage with the latest approaches, methods, and topics in the contemporary study of population change. Students will have the opportunity to directly apply their applied knowledge to conduct and engage with research examining the latest issues in demography.\n\nAnalytical techniques covered may include population projections, population dynamics and transitions, multistate life tables, microsimulation models, event history models, and other topics related to data acquisition, analysis, and presentation of demographic research. Topics may include demography of specific world regions and specialised or new topics in mortality/health/ageing, fertility/family, and migration.",
+  "requisiteText": "To enrol in this course you must be studying a Bachelor of Arts Honours (HARTS or HART2) and have completed DEMO2001 and DEMO2002 or equivalent. This course may not be taken if the student has previously completed DEMO8091."
+ },
+ {
+  "code": "DEMO4092",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO4092",
+  "title": "Life Course Analytics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course focuses on analytics to study the life course with a focus on (i) detecting universal properties of events and stages in life and (ii) how factors that are location- and period-specific affect people’s lives. In demography we seek to understand life events, the timing of these events, and their sequence. Models for studying both individual and group change are introduced. These include multi-level models, random effects models, event history models, multistate life tables and projections, modelling age-specific events, small area estimation, and model validation and assessment.",
+  "requisiteText": "To enrol in this course you must be studying a Bachelor of Arts Honours (HARTS or HART2) and have completed DEMO2001 and DEMO2002 or equivalent."
+ },
+ {
+  "code": "DEMO8008",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO8008",
+  "title": "Principles of Population Analysis",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "The course covers the theoretical models and tools to examine the growth, age-sex structure and spatial distribution of populations. Also covered are the concepts and measures used to describe and compare levels and age patterns in demographic processes, including marriage, fertility, mortality and migration. Topics may include the sources of demographic data, demographic accounting, population pyramids, the Lexis diagram, cohort measures, life tables, and population projections. The course focuses on understanding demographic concepts and measures, their application to data, and demographic interpretation.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed DEMO2002 or POPS2002."
+ },
+ {
+  "code": "DEMO8024",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO8024",
+  "title": "Population and Society: Theory and Empirical Perspectives",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "The field of population studies is concerned with how populations change, and how population change impacts society. This course introduces the field of population studies and theories on population change, and considers past, current and future population issues. The topics include the relationship between population size and resources; population transition theories; mortality and fertility decline; population ageing; and population distribution and migration. Students will investigate the effects of population size, growth, and distribution on sustainable development, and consider the role of policy.",
+  "requisiteText": "This course may not be taken if a student has previously successfully completed DEMO2001, DEMO6001, or DEMO9024.\nStudents are not permitted to enrol in DEMO2001 or DEMO9024 concurrently with this course."
+ },
+ {
+  "code": "DEMO8047",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO8047",
+  "title": "International Migration",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "This course examines international migration from both theoretical and empirical perspectives to provide students with an understanding of the factors behind current trends in international population movements. It also examines the impacts of migration on the migrants themselves and the countries of origin and destination. Specific topics include gender and migration, the concept of 'replacement migration', the effectiveness of temporary migrant worker programs and the Global Commission on International Migration report. Case studies focusing on Australia, the US, Europe and the Asian region allow for a comparison of the different types of movements and associated policy responses.",
+  "requisiteText": null
+ },
+ {
+  "code": "DEMO8048",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO8048",
+  "title": "Sex, Gender and Population",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "This course will examine how sex and gender are conceptualized, empirically researched, and interpreted in population studies. An empirical dichotomisation of “sex” into male and female is often central to population research, and demographic indicators of fertility, family dynamics, migration, population health, and mortality tend to differ between men and women. But what do demographers mean when they talk about sex difference? How do their concepts of sex and gender overlap with those from other disciplines, such as sociology? How do they deal with non-binary gender identities? Which sex differences exist in population processes and how are they being explained? And how are sex differences in demographic processes linked with gender inequalities in other areas of society? We will explore answers to these questions and develop a ‘gendered’ understanding of a variety of issues in population studies.",
+  "requisiteText": null
+ },
+ {
+  "code": "DEMO8090",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO8090",
+  "title": "Population Issues in Asia and their Implications for World Development",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "Asia has the world's largest population, and great demographic variation can be found across the region. Changes in the population of Asia have had, and will continue to have, significant implications for global demography and development. This course will explore the main population issues facing Asia, focusing on how fertility, mortality, migration, population ageing, and population health have played a role in shaping the demography of Asia. In each of these areas, we will examine their major characteristics, regional variations, and implications, and explore how each issue has impacted, and will impact, the past and future of Asia.",
+  "requisiteText": null
+ },
+ {
+  "code": "DEMO8091",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO8091",
+  "title": "Special Topics in Population Change",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "The processes of birth, death and migration shape the size and structure of a population in ever-changing ways. In this course, students will engage with the latest approaches, methods, and topics in the contemporary study of population change. Students will have the opportunity to directly apply their their acquired knowledge to conduct and engage with research examining the latest issues in demography.\n\nAnalytical techniques covered may include population projections, population dynamics and transitions, multistate life tables, microsimulation models, and event history models, and other topics related to data acquisition, analysis, and presentation of demographic research. Topics may include demography of specific world regions and specialised or new topics in mortality/health/ageing, fertility/family, and migration.",
+  "requisiteText": "To enrol in the course you must have\n1) successfully completed SOCR8001, STAT1008, or SOCY2038, or equivalent and\n2) successfully completed DEMO2002 or DEMO8008 (preferred), or be concurrently enroled in DEMO8008, or equivalent.\nStudents may also enrol with permission of the course convener.\nStudents may not enrol in this course if they have previously received credit for completing DEMO4091."
+ },
+ {
+  "code": "DEMO8092",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO8092",
+  "title": "Life Course Analytics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "This course focuses on analytics to study the life course with a focus on (i) detecting universal properties of events and stages in life and (ii) how factors that are location- and period-specific affect people’s lives. In demography we seek to understand life events, the timing of these events, and their sequence. Models for studying both individual and group change are introduced. These include multi-level models, random effects models, event history models, multistate life tables and projections, modelling age-specific events, small area estimation, and model validation and assessment.",
+  "requisiteText": null
+ },
+ {
+  "code": "DEMO9008",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO9008",
+  "title": "Principles of Population Analysis",
+  "unitsText": "12 units",
+  "units": 12,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "The course covers the theoretical models and tools to examine the growth, age-sex structure and spatial distribution of populations. Also covered are the concepts and measures used to describe and compare levels and age patterns in demographic processes, including marriage, fertility, mortality and migration. Topics may include the sources of demographic data, the assessment of data quality, standardisation methods, demographic accounting, population pyramids, the Lexis diagram, cohort measures, life tables, and decomposition methods. The course focuses on understanding demographic concepts and measures, their application to data, and demographic interpretation.",
+  "requisiteText": "Students who have successfully completed DEMO8008 may not enrol in this course."
+ },
+ {
+  "code": "DEMO9024",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DEMO9024",
+  "title": "Population and Society",
+  "unitsText": "12 units",
+  "units": 12,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Demography",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "The field of population studies is concerned with how populations change, and how population change impacts society. This course introduces the field of population studies and theories on population change, and considers past, current and future population issues. The topics include the relationship between population size and resources; population transition theories; mortality and fertility decline; population ageing; and population distribution and migration. Students will investigate the effects of population size, growth, and distribution on sustainable development, and consider the role of policy.",
+  "requisiteText": "This course may not be taken if a student has previously successfully completed DEMO8024."
+ }
+]

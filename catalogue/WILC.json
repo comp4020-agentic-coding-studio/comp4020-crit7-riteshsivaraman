@@ -1,0 +1,44 @@
+[
+ {
+  "code": "WILC6001",
+  "subject": "WILC",
+  "number": 6001,
+  "level": 6000,
+  "title": "College of Business and Economics Special Industry Project (PG)",
+  "units": 6,
+  "summary": "Work integrated learning is the core component of the Special Industry Project course.  The course offers postgraduate students across the university the opportunity to work in a small cross-disciplinary team and solve a business problem presented by a live business client.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To enrol in the Special Industry Project course, a student must be a current postgraduate student enrolled in an eligible ANU academic program. The student should check with their Colleges for their eligibility to enrol in this course. The student must have completed a minimum of 24 units of their postgraduate studies. Students must not undertake this course concurrently with any of the following courses: CBEA6070, ANIP6503 and ANIP6505.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "To enrol in the Special Industry Project course, a student must be a current postgraduate student enrolled in an eligible ANU academic program"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "The student should check with their Colleges for their eligibility to enrol in this course"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "The student must have completed a minimum of 24 units of their postgraduate studies"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Students must not undertake this course concurrently with any of the following courses: CBEA6070, ANIP6503 and ANIP6505"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/WILC6001",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Work integrated learning is the core component of the Special Industry Project course. The course offers postgraduate students across the university the opportunity to work in a small cross-disciplinary team and solve a business problem presented by a live business client. The academic component of the course comprises a series of master classes delivered by academic experts and industry professionals. Under the supervision of the course convenor and the support of designated industry mentors, students will apply their theoretical knowledge in practice by working on innovative solutions that address the specified business issue from a live business client located in Australia or overseas. The Special Industry Project course facilitates students’ development of professional skills important for their job market readiness."
+ }
+]

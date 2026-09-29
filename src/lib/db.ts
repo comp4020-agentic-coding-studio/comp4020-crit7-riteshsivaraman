@@ -180,13 +180,19 @@ export function resetPlan(planId: string): void {
 // ---------------------------------------------------------------------------
 
 // v1 shim, see above.
+// Limited to v1's own 8 courses plus anything in the legacy plan: the v1 page
+// renders every course into a <select>, and with the full catalogue that page
+// was big enough to stall the course-managed axe invariant for 10+ minutes.
+const V1_CODES = ["COMP1100", "COMP1130", "COMP1140", "COMP1600", "COMP2100", "COMP3600", "MATH1013", "MATH1014"];
 export function listCourses(): V1Course[] {
+  const keep = new Set([...V1_CODES, ...getPlan("legacy").entries.map((e) => e.code)]);
   return db
     .select({ code: courses.code, subject: courses.subject, title: courses.title, units: courses.units })
     .from(courses)
     .where(eq(courses.retired, 0))
     .orderBy(asc(courses.code))
-    .all();
+    .all()
+    .filter((c) => keep.has(c.code));
 }
 // v1 shim, see above.
 export function listRequisiteNodes(): V1RequisiteNode[] {

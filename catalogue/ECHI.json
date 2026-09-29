@@ -1,0 +1,97 @@
+[
+ {
+  "code": "ECHI1006",
+  "subject": "ECHI",
+  "number": 1006,
+  "level": 1000,
+  "title": "The Australian Economy: Past and Present",
+  "units": 6,
+  "summary": "The course explores the Australian economy in a historical context.  It will examine aspects of the history of the Australian economy from early Indigenous society through to the present.  It is intended for students who are seeking a broad understanding of how the economy works.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "You are not able to enrol in this course if you have previously completed ECHI1001 or ECHI1003 or ECHI1004.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECHI1001",
+   "ECHI1003",
+   "ECHI1004"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECHI1006",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The course explores the Australian economy in a historical context. It will examine aspects of the history of the Australian economy from early Indigenous society through to the present. It is intended for students who are seeking a broad understanding of how the economy works. The approach adopted will emphasise that the present Australian economy needs to be seen in the context of the historical pattern of development and change. While the course deals primarily with economic factors, social and political contexts and connections will also be considered."
+ },
+ {
+  "code": "ECHI3009",
+  "subject": "ECHI",
+  "number": 3009,
+  "level": 3000,
+  "title": "World Economy Since 1800",
+  "units": 6,
+  "summary": "This course analyzes historical major economic, political, and social changes in the world economy.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you must have completed ECON2101 and ECON2102 or ECON2016. You cannot enrol in this course if you have completed ECHI2006, ECHI2016, or ECHI3019.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON2101",
+     "concurrent": false
+    },
+    {
+     "kind": "OR",
+     "children": [
+      {
+       "kind": "COURSE",
+       "code": "ECON2102",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "ECON2016",
+       "concurrent": false
+      }
+     ]
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECHI2006",
+   "ECHI2016",
+   "ECHI3019"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECHI3009",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course analyzes historical major economic, political, and social changes in the world economy. These include factors contributing to increases in economic performance, changes in the form of government, technological change (including industrialization), and episodes of integration and disintegration of the global economy. Emphasis is on institutional changes in how societies organize economic and political activities and variation in development among geographic regions."
+ },
+ {
+  "code": "ECHI6009",
+  "subject": "ECHI",
+  "number": 6009,
+  "level": 6000,
+  "title": "The World Economy Since 1800",
+  "units": 6,
+  "summary": "This course analyzes major historical economic, political, and social changes in the world economy.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECHI6009",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course analyzes major historical economic, political, and social changes in the world economy. These include factors contributing to increases in economics performance, changes in the form of government, technological change (including industrialization), and episodes of integration and disintegration of the global economy. Emphasis is on institutional changes in how societies organize economic and political activities as well as on variation in development among geographic regions."
+ }
+]

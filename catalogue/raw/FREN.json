@@ -1,0 +1,217 @@
+[
+ {
+  "code": "FREN1101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FREN1101",
+  "title": "Introductory French Studies I",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "French",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This introductory course covers the fundamental aspects of the French language and Francophone cultures and is specifically designed for individuals with no prior experience with French. It comprehensively addresses essential aspects including grammar, vocabulary, pronunciation, and sentence structure. It combines classroom lessons and practical autonomous exercises to ensure that students progressively develop their ability to read, write, speak, and comprehend French.",
+  "requisiteText": "All students need to take the online French Placement Test (contact Program Convenor or admin.HAL@anu.edu.au ).\n\nStudents are not able to enrol in this course if they have previously completed FREN1003 or any of the following FREN courses: FREN1004, FREN1102, FREN2024, FREN2101, FREN2025, FREN2102, FREN3006, FREN3101, FREN3007, FREN3102, FREN3010, FREN3103, FREN3011, FREN3104, FREN3107, FREN3108, FREN3012, FREN3109, FREN2021, FREN3021, FREN3110, FREN3515."
+ },
+ {
+  "code": "FREN1102",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FREN1102",
+  "title": "Introductory French Studies II",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "French",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This introductory course continues to cover the fundamental aspects of the French language and Francophone cultures. It delves deeper into essential aspects of the language such as grammar, vocabulary, pronunciation, and sentence structure. By blending classroom instruction with enhanced autonomous learning strategies, it aims to advance students’ reading, writing, speaking, and comprehension skills to the upper-beginner level.",
+  "requisiteText": "To enrol in this course you must have completed FREN1003 or FREN1101 or have equivalent level of language proficiency as demonstrated by placement test. Alternatively you may gain permission of the Course Convenor to enrol in this course.\n\nStudents are not able to enrol in this course if they have previously completed FREN1004 or any of the following FREN courses: FREN2024, FREN2101, FREN2025, FREN2102, FREN3006, FREN3101, FREN3007, FREN3102, FREN3010, FREN3103, FREN3011, FREN3104, FREN3107, FREN3108, FREN3012, FREN3109, FREN2021, FREN3021, FREN3110, FREN3515."
+ },
+ {
+  "code": "FREN2101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FREN2101",
+  "title": "Continuing French Studies I",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "French",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course builds on the knowledge of French language and culture acquired in Introductory French Studies II or through equivalent pathways of study. The aim of the course is to expand students' reading, writing, listening and speaking skills in French, as well as to critically reflect on different aspects of Francophone cultures and societies through the introductory study of a variety of written and audio-visual materials.",
+  "requisiteText": "To enrol in this course you must have completed FREN1102 or FREN1004, or have equivalent level of language proficiency as demonstrated by placement test, or with permission of the convener.\n\nYou are not able to enrol in this course if you have previously completed any of the following FREN courses: FREN2024, FREN2025, FREN2102, FREN3006, FREN3101, FREN3007, FREN3102, FREN3010, FREN3103, FREN3011, FREN3104, FREN3107, FREN3108, FREN3012, FREN3109, FREN2021, FREN3021, FREN3110, FREN3515."
+ },
+ {
+  "code": "FREN2102",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FREN2102",
+  "title": "Continuing French Studies II",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "French",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course builds on the language skills and cultural knowledge acquired in Continuing French Studies I or through equivalent pathways of study. The aim of the course is to further develop students' reading, writing, listening and speaking skills in French, and to strengthen the capacity to reflect critically on cross-cultural differences between Francophone cultures and other cultures.",
+  "requisiteText": "To enrol in this course you must have completed FREN2101 or FREN2024, or have equivalent level of language proficiency as demonstrated by placement test, or with permission of the convener.\n\nYou are not able to enrol in this course if you have previously completed any of the following FREN courses: FREN2025, FREN3006, FREN3101, FREN3007, FREN3102, FREN3010, FREN3103, FREN3011, FREN3104, FREN3107, FREN3108, FREN3012, FREN3109, FREN2021, FREN3021, FREN3110, FREN3515."
+ },
+ {
+  "code": "FREN3101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FREN3101",
+  "title": "Intermediate French Studies I",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "French",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course aims to enhance students' proficiency in all aspects of French language learning, from comprehension and speaking to writing and reading. To achieve this, students will delve into modern French grammar and vocabulary while also exploring language learning strategies through training and reflection. Furthermore, the course seeks to engage students in examining current topics within Francophone communities and provide them with a deeper understanding of these issues through the exploration of literature, film, and culture. Students will also have the opportunity to expand their knowledge of intercultural communication.",
+  "requisiteText": "To enrol in this course you must have completed FREN2102 or FREN2025, or have equivalent level of language proficiency as demonstrated by placement test, or with permission of the convener. You are not able to enrol in this course if you have previously completed any of the following FREN courses: FREN3006, FREN3007, FREN3102, FREN3010, FREN3103, FREN3011, FREN3104, FREN3107, FREN3108, FREN3012, FREN3109, FREN2021, FREN3021, FREN3110, FREN3515.."
+ },
+ {
+  "code": "FREN3102",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FREN3102",
+  "title": "Intermediate French Studies II",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "French",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course aims to enhance students' communication skills through improved listening and reading comprehension, as well as oral and written expression. The curriculum delves into modern French grammar and vocabulary, offering training and reflection on language learning strategies. In addition to language proficiency, the course exposes students to the latest trends in French literature, film, and culture, with a special emphasis on the 20th-century history of French-speaking regions. Students will explore topics such as postcolonialism and its portrayal in various cultural mediums like literature, film, and museums. They will also be encouraged to connect this cultural content to their personal cultural backgrounds",
+  "requisiteText": "To enrol in this course you must have completed FREN3101 or FREN3006, or have equivalent level of language proficiency as demonstrated by placement test, or with permission of the convener. You are not able to enrol in this course if you have previously completed any of the following courses: FREN3007, FREN3103, FREN3104, FREN3010, FREN3011, FREN6506, FREN6509, FREN6010, FREN6011, FREN3107, FREN3108, FREN3012, FREN3109, FREN2021, FREN3021, FREN3110."
+ },
+ {
+  "code": "FREN3103",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FREN3103",
+  "title": "Advanced French Studies I",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "French",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course aims to develop students' communicative competence in French and enhance their capacity to critically reflect on francophone cultures and societies at the advanced level. Drawing on a variety of authentic texts, including fiction, non-fiction and audio-visual materials from the 19th century to the present day, the course covers topics in advanced French grammar and expression in context. Through study of these texts and the varying cultural and historical frameworks with which they are in dialogue, we will develop your critical reading skills, deepen your knowledge of French grammar and refine your written and oral expression. The course centres on interactive language development tasks, such as pair and group work, and includes the study of longer and more complex texts, oral development work, and listening comprehension exercises. Through these exercises you will expand your knowledge of the wider francophone world, past and present.",
+  "requisiteText": "To enrol in this course you must have completed FREN3102 or FREN3007, or have equivalent level of language proficiency as demonstrated by placement test, or with permission of the convener. You are not able to enrol in this course if you have previously completed any of the following courses: FREN3009, FREN3010, FREN3011, FREN3104, FREN6010, FREN6011 or FREN6509."
+ },
+ {
+  "code": "FREN3104",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FREN3104",
+  "title": "Advanced French Studies II",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "French",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course aims to continue developing students' communicative competence in French and enhancing their capacity to critically reflect on francophone cultures and societies at the advanced level. Drawing on a variety of authentic texts, including fiction, non-fiction and audio-visual materials from the 19th century to the present day, the course covers topics in advanced French grammar and expression in context. Through study of these texts and the varying cultural and historical frameworks with which they are in dialogue, we will develop your critical reading skills, deepen your knowledge of French grammar and refine your written and oral expression. The course centres on interactive language development tasks, such as pair and group work, and includes the study of longer and more complex texts, oral development work, and listening comprehension exercises. Through these exercises you will expand your knowledge of the wider francophone world, past and present.",
+  "requisiteText": "To enrol in this course you must have completed FREN3008, FREN3010, or FREN3103, or have equivalent level of language proficiency as demonstrated by placement test, or with permission of the convener. You are not able to enrol in this course if you have previously completed FREN3009, FREN3011, FREN6011 or FREN6509."
+ },
+ {
+  "code": "FREN3107",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FREN3107",
+  "title": "Voyages littéraires: Literature in French",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "French",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course offers an introduction to literature in French. A study of major authors and genres in their cultural contexts, it aims to build knowledge of key moments in French literary history, cultivate familiarity with the formal elements of a literary work and facilitate acquisition of the critical tools necessary to analyse, discuss and write about literature in French. The specific focus of the course will reflect the interests and expertise of the convenor; readings may thus include works of prose, poetry, theatre and criticism and will explore a range of literary movements, including realism, theatre of the absurd, écriture feminine and immigrant and minority writing. In each instance, the literary text will serve as a springboard for critical discussions of history, society and artistic endeavour in the francophone world.",
+  "requisiteText": "To enrol in this course you must have completed FREN3102 or FREN3007 with a minimum mark of credit; or have completed Advanced French Studies I or II; or have obtained the permission of the convener. This course may be completed more than once if taken with a different topic each time."
+ },
+ {
+  "code": "FREN3108",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FREN3108",
+  "title": "From Colonialism to Cinéma-monde: Films of the French-speaking World",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "French",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "From Colonialism to Cinéma-monde is a French-language film studies course focused on the cinemas of the francophone world. In this course, we use the term ‘francophone’ to study the films of both metropolitan France and the many other spaces in which French is spoken, from a decolonial, transnational and non-Eurocentric perspective. Each week we will study one film from across the francophone world, employing the tools of film analysis to explore broader issues of history, culture, society and politics. The specific focus of the course will reflect the interests and expertise of the convenor; the films and readings may therefore critically reflect on issues of colonialism, immigration, gender, multiculturalism, queer identities, nation and/or multilingualism in diverse contexts. In this immersive course, students will improve their French communication, critical thinking, analysis and research skills, including reading, writing, speaking and listening to diverse voices.",
+  "requisiteText": "To enrol in this course you must have completed FREN3102 or FREN3007 with a minimum mark of credit; or have completed Advanced French Studies I or II; or have obtained the permission of the convener. This course may be completed more than once if taken with a different topic each time. You are not able to enrol in this course if you have previously completed FREN6514, FILM2014, FILM6014, SCRN2108 with the same topic."
+ },
+ {
+  "code": "FREN3109",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FREN3109",
+  "title": "Global Paris: Culture, History and Identity in the French Capital",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "French",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course will explore the city of Paris as historical artifact, artistic hub and lived reality, to provide students with a comprehensive understanding of the city's complex history and its role in constructing, reinforcing and revising French cultural and political identity. Taking the city as analytical object, the course will be composed of seminars, visits to cultural sites including museums, monuments and châteaux, collaborative workshops and guided walking tours of historically and culturally-significant districts. The course will critique the dominant narratives and myths surrounding the city, studying Paris's reputation as a global capital of art, literature and politics. Yet it will do so while also exploring under-examined and forgotten parts of the city relating to colonial history, revolutionary history, the legacy of slavery and the evolution of the Republic. The analyses undertaken in this course will equip students with the knowledge and language to understand core concepts surrounding French history, culture and identity, studied through the prism of Parisian cultural heritage. Ultimately, the course will provide students not only with an understanding of Paris's past, but a deeper insight into France's complex present and the tools to understand France and French influence in the world into the future.\n\nStudents will only be permitted to travel upon completion of ANU required documentation, including, where required, the travel to a high risk destination form and the approval of all documentation by the relevant delegate.\n\nDisclaimer: Applicants are advised that due to circumstances beyond the University's control (for example, specific international security concerns and international health crises) it may not be possible for students to commence or complete this course as advertised, in which case an alternative lesson plan will be arranged to fulfil the course requirements.",
+  "requisiteText": "To enrol in this course you must have completed one of the following courses: FREN3102, FREN3007, FREN3103, FREN3010, FREN3104, FREN3011, or with permission of the convener. You will need to contact the School of Literature, Languages and Linguistics to request a permission code to enrol in this course. Students cannot enrol in FREN3109 if they have completed FREN3012."
+ },
+ {
+  "code": "FREN3110",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FREN3110",
+  "title": "Selected Topics in French Studies",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "French",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This special topics course invites students of advanced French to reflect critically on historical and sociocultural aspects of France, the Francophone world, and the French language through texts and materials from a variety of sources. The medium of instruction and assessment will be French. Specific topics covered will vary.",
+  "requisiteText": "To enrol in this course you must have completed FREN3102 or FREN3007 with a minimum mark of Credit; or have completed Advanced French Studies I or II; or have obtained the permission of the convener. This course may be completed more than once if taken on a different topic each time. As this is a topics based course, students who have completed FREN3110, FREN2021, FREN3021 or FREN6510, please contact the convener for further advice and a permission code."
+ },
+ {
+  "code": "FREN3515",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/FREN3515",
+  "title": "The Sounds of French: Phonetics and Pronunciation",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "French",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course is designed to help students develop the necessary skills to improve their pronunciation and understanding of spoken French. It combines an examination of how French sounds are produced and how they differ from English sounds, with practical exercises in oral practice, sound discrimination, and phonetic transcription. In addition to improving their general fluency and oral accuracy, students will also increase their knowledge of francophone culture and gain an understanding of pronunciation differences between language registers and dialects/regional accents. By the end of the course, students will be familiarised with the rules of correspondence between sounds and spelling, as well as the rules governing other phenomena, such as intonation, stress placement, liaisons, and schwa.",
+  "requisiteText": "To enrol in this course, you must have completed FREN3101 or FREN3006, or have equivalent level of language proficiency as demonstrated by placement test, or with permission of the convener."
+ }
+]

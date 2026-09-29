@@ -1,0 +1,38 @@
+[
+ {
+  "code": "RSCH8905",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/RSCH8905",
+  "title": "College of Law, Governance and Policy Master of Philosophy Internship",
+  "unitsText": "3 to 24 units",
+  "units": 3,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "HDR Research",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "This course offers MPhil students the opportunity to apply and refine their professional skills and attributes in a field of their choice. It enables students to engage with professional organisations, including local and national government bodies and industry, fostering valuable networking opportunities. Through this experience, students will gain essential skills, knowledge, and professional attributes to support their future career development and employment prospects.\n\nThe internship will be conducted under the guidance of a workplace mentor, with academic oversight and assessment provided by either the candidate’s Primary Supervisor, a member of their supervisory panel, or a Course Convenor appointed by the relevant School.",
+  "requisiteText": "To enrol in this course, you must be enrolled in an MPhil program offered by the ANU College of Law, Governance, and Policy and meet the eligibility criteria for internship placements."
+ },
+ {
+  "code": "RSCH9805",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/RSCH9805",
+  "title": "College of Law, Governance and Policy Doctor of Philosophy Internship",
+  "unitsText": "3 to 24 units",
+  "units": 3,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "HDR Research",
+  "college": "ANU College of Law, Governance and Policy",
+  "career": "Postgraduate",
+  "description": "This course offers PhD students the opportunity to apply and refine their professional skills and attributes in a field of their choice. It enables students to engage with professional organisations, including local and national government bodies and industry, fostering valuable networking opportunities. Through this experience, students will gain essential skills, knowledge, and professional attributes to support their future career development and employment prospects.\n\nThe internship will be conducted under the guidance of a workplace mentor, with academic oversight and assessment provided by either the candidate’s Primary Supervisor, a member of their supervisory panel, or a Course Convenor appointed by the relevant School.",
+  "requisiteText": "To enrol in this course, you must be enrolled in a PhD program offered by the ANU College of Law, Governance, and Policy and meet the eligibility criteria for internship placements."
+ }
+]

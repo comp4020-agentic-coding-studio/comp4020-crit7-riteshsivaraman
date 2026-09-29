@@ -1,0 +1,396 @@
+[
+ {
+  "code": "DESN1002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN1002",
+  "title": "Visual Communication: Design and Production",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course provides students with an introduction to the field of visual communication design, and equips them with the knowledge and skills to more effectively communicate their ideas and processes in a visual form. Students conduct research and produce practical projects as a means to interrogate and apply fundamental theories, concepts and techniques. The course examines the foundational elements of visual communication and how context shapes production and reception of visual forms. Students address visual design for print, screen and environmental graphics and gain a practical grounding in relevant design software packages, different file formats and technical production requirements.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed ANUC1121."
+ },
+ {
+  "code": "DESN1003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN1003",
+  "title": "Contemporary Design In Context",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "Contemporary design is a vibrant field of practice characterised by applied creativity, engagement and collaboration as well as the art and craft of making. Definitions of design practice are being reformulated in response to rapid changes in technology, society and environment; design now moves across a wide range of different media, materials and contexts. In the early decades of the twenty-first century we take stock of contemporary design practice, where it has come from, and where it is going.\n\nThis course provides a grounding in concepts, practices and issues in contemporary design. Through a combination of practical work, case studies, readings and research, students will develop a critical understanding of design as a discipline in the modern context; its concepts, artefacts, processes and practices. Key themes include functional and aesthetic value; design methods and processes; planning, intention and making; and the social roles and cultural contexts of design.",
+  "requisiteText": null
+ },
+ {
+  "code": "DESN1004",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN1004",
+  "title": "The Past as Prototype: History, Ethics and Concepts for Design in the Twenty-First Century",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "The early decades of the twenty-first century have been marked by substantial ecological, economic, political, technological and social transformation, compelling us to ask how it is that we have arrived at this contemporary moment? As designers, what strategies can we employ to combat the grand challenges currently at stake? How have the innovations, social movements and seismic events of the past influenced our ethics, methods and ideas? This course introduces students to the historical precedents for contemporary design practice and the research and communication methodologies required to contextualise them. Students will learn how to research and analyse the objects, movements and systems of design and how these legacies have impacted design practice today. Employing written, verbal and visual communication, we will explore the cultural conditions that have historically produced innovation and change, the ethics of design history research and the analytical and critical skills to explore and communicate these ideas. This course is suitable for students of design and those with an interest in critically examining the historical conditions that have shaped the designed world in which we live.",
+  "requisiteText": null
+ },
+ {
+  "code": "DESN1005",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN1005",
+  "title": "Precise Drawing and Model Making",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course explores technical and perspective drawing, combined with 3D model making in paper and other materials. Based on the conventions of visual communication relevant for creative work in visual arts and design, the course aims to develop skills in observation, analysis, accuracy and constructive imagination. It also introduces digital design and fabrication as contemporary approaches to precise drawing and model making. These techniques are fundamental to analysing and recording the visible world as well as form finding, and are relevant skills that can be applied to a wide variety of practices in art, design and the creative industries. Discussion and critical appraisal will be important adjuncts to observation, concept and practice development.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed ANUC1122."
+ },
+ {
+  "code": "DESN2001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN2001",
+  "title": "Digital Form and Fabrication",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "Digital technologies continue to radically transform the way we produce, experience and understand the built environment. The momentous impact of rapid prototyping and rapid manufacture has only just begun to unfold and the extent of change it will have on our lives remains unknown. The only certain thing is that in this time of massive change, digital literacy is an essential element of the designers’ toolkit.\n\nDigital form and fabrication develops the knowledge and skills required to design, specify and manufacture objects with digital tools through the use of Computer Aided Design (CAD) software and computer-mediated fabrication systems and equipment, including 3d printing, laser cutting and CNC milling. The course takes a structured approach to build core competencies for independent and extended inquiry through both set briefs and independently negotiated projects. Emphasis is placed on establishing technical and creative fluency in the use of digital design software used to facilitate digitally mediated making. Students are supported to develop and apply a critical understanding of the constraints of various software and hardware workflows and approaches, ensuring effective application of digital tools to design practice.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed DESN6001, DESA2011 or DESA6100."
+ },
+ {
+  "code": "DESN2002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN2002",
+  "title": "Foundations of Creative Code",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course introduces code and data as powerful tools for design and creative practice. By working directly with these fundamental processes of computing, students will develop practical skills and conceptual approaches that can be applied to design, fine arts, digital media, data visualisation and many other fields. Students without previous computer programming experience will gain an introduction to core concepts, processes and techniques of coding, with a focus on generating visual and spatial form. Through practical production workshops and design projects, students gain the expertise required to generate creative works for screen, print and fabrication technologies (such as laser cutting, CNC and 3D printing). This course will also introduce students to the vibrant cultural context of creative code platforms and practices.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed any of the following courses: COMP1720, COMP6720 or DESN6002."
+ },
+ {
+  "code": "DESN2003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN2003",
+  "title": "Creative Data Visualisation: Representing Data in Visual and Material Form",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "Digital data is ubiquitous in contemporary culture: it documents environment, health, communication, government, arts, professional and private realms. For designers and practitioners data offers a profound opportunity to investigate, reveal and creatively represent this increasingly significant layer of our society.\n\nThis practical course grounds students in data as a key element in contemporary design practice, and in the design and production of data visualisations. Through a series of hands-on exercises students will develop static, dynamic and interactive representations of data for screen-based and tangible forms, and come to understand the functional and poetic dimensions of visualisation as a creative practice. The course introduces students to the cultures and contexts of data visualisation and design, and the analysis and interpretation of visualisations. It also introduces critical perspectives on the questions of representation and interpretation that are central to the field. This course will be of interest to students from a wide range of fields including design, fine arts, digital humanities and information technology, where the visual representation of data offers both immediate challenges and creative opportunities.",
+  "requisiteText": "To enrol in this course you must have completed DESN2002 or DESN2010. You are not able to enrol in this course if you have previously completed DESN6003."
+ },
+ {
+  "code": "DESN2004",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN2004",
+  "title": "Autonomous Agents: Natural and Algorithmic Systems in Art and Design",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "Contemporary life is increasingly shaped by algorithmic systems and complex social, cultural and political networks. At the same time, we depend on natural systems whose complexity is difficult to grasp, and whose integrity is under threat. In this course, we explore generative systems and automation in both natural and technological contexts. From algorithmic platforms and AI, to fermentation, mycelium and biological networks, students will examine the concepts, practices and materiality of generative systems through creative projects. By critically, ethically and reflexively intervening in environmental and technological contexts, probing contemporary forms of automation and generative systems, students will develop a deeper understanding of what automation means for practice in the visual arts and design, and how to critically engage with these systems.",
+  "requisiteText": "To enrol in this course you must have completed 24 units of courses towards an ANU degree, and you must have completed DESN2002 or DESN2010. You are not able to enrol in this course if you have previously completed DESN2004 or DESN6004 (Dynamic Design)."
+ },
+ {
+  "code": "DESN2006",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN2006",
+  "title": "Front-End Web: Crafting Online Experience",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "Front-End web design is concerned with the design and production of website elements that directly shape a user’s experience of a site. Front-end web has a broad scope, encompassing elements such as typography, layout, visual aesthetics, interface behaviours, and information architecture. It is a highly dynamic, burgeoning field of practice that is the creative engine-room of the modern web. This course provides a hands-on foundation in front-end web, introducing students to its fundamental concepts, theories, production practices and core technologies such as HTML, CSS and Javascript. The skills and knowledge acquired in this course are versatile and powerful, and will be of value to students from any field of study.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed DESN6006."
+ },
+ {
+  "code": "DESN2007",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN2007",
+  "title": "Speculative and Critical Design",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "In this course we examine speculative and critical design methodologies which challenge the narrow assumptions and preconceptions that typically limit the form and function of designed artefacts. These methodologies look beyond a functional instrumentalism to consider how design can be used to incite mindful reflection rather than blind consumption, as well as address society’s “wicked problems”. The processes and practices considered involve designers imagining futures based on current technological and cultural trajectories; but rather than accepting those trajectories, design is used as an instrument to incite change and alter their direction. The course uses design projects as the main vehicle for the exploration of speculative design theories and methodologies. The projects are not confined to any particular medium or discipline but require students to question what they produce and why.",
+  "requisiteText": "To enrol in this course you must have completed 6 units from either ARTV1034, DESN1002, DESN1003, or DESN2008."
+ },
+ {
+  "code": "DESN2008",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN2008",
+  "title": "Design Thinking: Human-Centred Design Methodologies",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "Design Thinking describes processes involving the application of user research, ideation, participation, and collaboration for problem-solving and innovation across diverse cultural contexts. In practice, Design Thinking embraces rapid iteration, prototyping, co-design, participatory design, and other ethnographic and user-centred methods. Working in collaborative teams, the course encourages students to identify, articulate, and critically respond to ‘wicked’ problems in contemporary design. Addressing complex issues pertaining to broader societal and environmental concerns, student teams conduct research, frame and address transdisciplinary problems, and resolve these through creative outcomes. Students engage in critical thinking through design methodologies, theories, and processes to develop innovative approaches and solutions throughout the semester.",
+  "requisiteText": "To enrol in this course you must have completed 36 units of tertiary study, including completion of DESN1003."
+ },
+ {
+  "code": "DESN2009",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN2009",
+  "title": "Typography in Context",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "No longer confined to the printed page, typography is a fundamental element of contemporary design practice that is evident across screen, print and the built environment. This course offers an introduction to this dynamic field, providing a grounding in typographic concepts, terminology, and production practices. The course considers both the history of typography and the multitude of contemporary forms to which the practice has adapted. It aims to provide students with fundamental typographic competencies while also introducing them to the wealth of new opportunities for typographic exploration and development. Students conduct research, analysis and experimental production in the process of designing and producing typographic works for print, screen, and three-dimensional forms.",
+  "requisiteText": "To enrol in this course you must have completed at least one of the following courses: a 1000 level ARTV course or DESN1005 or DESN1002."
+ },
+ {
+  "code": "DESN2010",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN2010",
+  "title": "Making Creative and Critical Technologies: Physical Computing for Design and Art",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course introduces students to physical technologies that interact with our bodies and environment through sensors and actuators, systems that are already embedded into our daily lives. A field of creative practice that is sometimes referred to as physical or material computing, this course requires no prior knowledge of coding or electronics, providing a hands-on introduction to integrating physical technologies and computing in creative practice. As a part of this course students can create their own devices, instruments, systems or wearables, applying ideas of interaction design to physical experiences. Through investigations of physical computing technologies, discourses and practices the course also introduces critical perspectives, considering how technology is a cultural and creative material, studying and testing how physical computing can be embodied, how it can integrate, mimic and intervene with systems that are environmental and behavioural, natural and engineered. While grounded in design and the visual arts, this course is suitable for any students with an interest in creative approaches to computing and electronics.",
+  "requisiteText": null
+ },
+ {
+  "code": "DESN2012",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN2012",
+  "title": "The Ethics of Making: Design for Reparative Practices",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "In this course, students are challenged by the provocation of “why make anything for a world already full of stuff”? This requires students to reconcile their design decisions, processes, materials and choice of making in consideration to some of the most important challenges of our time.\n\nStudents will be asked to consider the ethics of design and making through the lens our relationship to the environment and ecology. Students will engage in reparative practices and design projects that provide a counter-narrative to the economic concepts of infinite growth and infinite resource. Through this course students will learn and practice design thinking and making skills that enable them to independently and collaboratively understanding and respond to the impacts of resource extraction by developing design-based solutions.",
+  "requisiteText": "To enrol in this course you must have completed 36 units of courses towards an ANU degree, or with permission of the convenor. You are not able to enrol in this course if you have previously completed DESN6012, DESA2017 or DESA6017."
+ },
+ {
+  "code": "DESN2015",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN2015",
+  "title": "Mediating Spaces Through Object Design",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course examines how the design of objects mediates the relationship between our bodies and architectural spaces, influencing human activities and behaviours. Through hands-on studio practice, students will engage with a range of design skills and fabrication processes, including generative and iterative design methods, material experimentation, and project management. Projects are contextualised through relevant theory and concepts, such as materiality, structures, affordances, and critical design. By interrogating archetypal furniture forms, the course challenges students to design and fabricate objects that support human activities while questioning and shaping social behaviour and cultural norms. Participants will develop innovative solutions that extend beyond utility, exploring how design can convey personal narratives, disrupt expectations, and offer cultural critiques within the built environment.\n\nTopics offered in this course currently occur in alternating years and include the following:\n\nThe Elevated Surface: Design for wood table structures\n\nSupporting Bodies: Now that we’re here, where do we sit?\n\nThe course is taught by a combination of readings, lectures, discussions, demonstrations, and supervised practice that exposes students to a combination of technology, theory, history, and design and making processes. Workplace health and safety instruction is an integral part of this course.",
+  "requisiteText": "You must have completed 24 units of tertiary courses, including a minimum of 6 units of from either the BVART introductory studio courses OR one of the following: DESN1002; DESN1003; DESN1004; or ARTV1034.\n\nYou may not enrol in some topics of this course if you have previously completed the following courses:\n\nTopic 1: The Elevated Surface - Incompatible with ARTV1202\n\nTopic 2: Supporting Bodies - Incompatible with ARTV2207 or DESA2207"
+ },
+ {
+  "code": "DESN3010",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN3010",
+  "title": "Design Studio: Independent Practice",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course provides students with a grounding in professional design practice. It requires students to research, develop, and justify independent projects informed by critical thinking and ethical understanding of contemporary design methodologies. It develops professional skills in documentation and communication, and extends understandings of design through practical and theoretical perspectives on fundamental processes: problem framing, ideation, design development, prototyping, evaluation, and reflective practice.",
+  "requisiteText": "To enrol in this course you must have completed a minimum of 90 units of tertiary courses including DESN1002, DESN1003, and 18 units of 2000 level DESN-coded courses, or with the permission of the convener. You are not able to enrol in this course if you have previously completed DESN6010."
+ },
+ {
+  "code": "DESN3011",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN3011",
+  "title": "Design Studio: Engagement and Collaboration",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course provides a platform for advanced problem-solving and engagement with external stakeholders. Students collaborate in transdisciplinary teams across authentic projects, encompassing not-for-profit, government, industry, and university sectors. Design knowledge and skills are extended through real-world projects requiring demonstration and application of critical thinking, adaptability, ethical practice, and professional conduct. Teams conduct research, frame and address transdisciplinary problems, and creatively resolve them in collaboration with peers and stakeholders. Peer review processes are integrated throughout the semester. Additionally, students compile and professionally present an individual portfolio showcasing their design and related works completed during their studies.",
+  "requisiteText": "To enrol in this course you must have completed a minimum of 90 units of tertiary courses including DESN1002, DESN1003, and 18 units of 2000 level DESN-coded courses, or with the permission of the convener. You are not able to enrol in this course if you have previously completed DESN6011."
+ },
+ {
+  "code": "DESN3012",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN3012",
+  "title": "Design Studio: Professional Practice",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course provides students with critical approaches to analyse, identify and contextualise their own professional design practice and future pathways. Surveying the breadth of work produced over the course of the Bachelor of Design program – creative entrepreneurial themes are identified that critically engage social, cultural, technological, environmental and ethical contexts, indicative of contemporary and emerging design industries. In this course, we ask how can the diverse and experimental project outcomes tell the story of an ethical design practitioner in meeting future challenges? Utilising critical and transdisciplinary skills and knowledge developed over the course of the degree, students document, edit and evaluate their own practice to identify and develop emergent professional directions.",
+  "requisiteText": "To enrol in this course you must have completed a minimum of 90 units of prior tertiary study including the following:\n\nDESN1002\nDESN1003\n18 units of 2000 level DESN-coded courses\nDESN3010 or DESN3011 (which may be completed concurrently with DESN3012)\n\nIf you have not completed these requirements, you must have received the permission of the convener to enrol."
+ },
+ {
+  "code": "DESN4011",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN4011",
+  "title": "Design Research: Theory and Methods",
+  "unitsText": "12 units",
+  "units": 12,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "This course grounds students in theoretical and methodological issues at the intersection of design and research. It contextualises contemporary design discourse and practice, and their relation to knowledge, research and production. Practice-led studio research results in creative explorations in design, such as a design project, a portfolio of theoretical designs or crafted objects, or an exploration of design technologies. This creative investigation is based on research processes that involve identifying research questions, undertaking a theoretical and contextual review, gathering and analysing data, and identifying, applying, and describing methodologies and methods. A written research proposal and oral presentation allows for a clear articulation of the development of the research and processes undertaken.",
+  "requisiteText": "To enrol in this course you must be enrolled in the Bachelor of Design (Honours) (HDESN)."
+ },
+ {
+  "code": "DESN4012",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN4012",
+  "title": "Design Research: Communication and Presentation",
+  "unitsText": "12 units",
+  "units": 12,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "Design practice-led research results in a creative output such as a design project, a portfolio of theoretical designs or crafted objects, or an exploration of a practical aspect design technology. This creative output is based on a traditional research process that involves identifying research questions, undertaking a theoretical and contextual review (which may include visual art and design objects and projects), gathering and analysing data, and articulating the original contribution that the creative output makes. A written exegesis and oral presentation allows for a clear articulation of the research and processes undertaken.",
+  "requisiteText": "To enrol in this course you must be enrolled in the Bachelor of Design (Honours) (HDESN) and have completed DESN4011."
+ },
+ {
+  "code": "DESN6001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN6001",
+  "title": "Digital Form and Fabrication",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "Digital technologies continue to radically transform the way we produce, experience, and understand the built environment. The momentous impact of rapid prototyping and rapid manufacture has only just begun to unfold and the extent of change it will have on our lives remains unknown. The only certain thing is that in this time of massive change, digital literacy is an essential element of the designers’ toolkit.\n\nDigital form and Fabrication develops the knowledge and skills required to design, specify and manufacture objects with digital tools through the use of Computer-Aided Design (CAD) software and computer-mediated fabrication systems and equipment, including 3d printing, laser cutting, and CNC milling. The course takes a structured approach to build core competencies for independent and extended inquiry through both set briefs and independently negotiated projects. Emphasis is placed on establishing technical and creative fluency in the use of digital design software used to facilitate digitally mediated making. Students are supported to develop and apply a critical understanding of the constraints of various software and hardware workflows and approaches, ensuring effective application of digital tools to design practice.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed DESN2001, DESA2011 or DESA6100."
+ },
+ {
+  "code": "DESN6002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN6002",
+  "title": "Foundations of Creative Code",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "This course introduces code and data as powerful tools for design and creative practice. By working directly with these fundamental processes of computing, students will develop practical skills and conceptual approaches that can be applied to design, fine arts, digital media, data visualisation and many other fields. Students without previous computer programming experience will gain an introduction to core concepts, processes and techniques of coding, with a focus on generating visual and spatial form. Through practical production workshops and design projects, students gain the expertise required to generate creative works for screen, print and fabrication technologies (such as laser cutting, CNC and 3D printing). This course will also introduce students to the vibrant cultural context of creative code platforms and practices.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed any of the following courses: COMP1720, COMP6720 or DESN2002."
+ },
+ {
+  "code": "DESN6003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN6003",
+  "title": "Creative Data Visualisation: Representing Data in Visual and Material Form",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "Digital data is ubiquitous in contemporary culture: it documents environment, health, communication, government, arts, professional and private realms. For designers and practitioners data offers a profound opportunity to investigate, reveal and creatively represent this increasingly significant layer of our society.\n\nThis practical course grounds students in data as a key element in contemporary design practice, and in the design and production of data visualisations. Through a series of hands-on exercises students will develop static, dynamic and interactive representations of data for screen-based and tangible forms, and come to understand the functional and poetic dimensions of visualisation as a creative practice. The course introduces students to the cultures and contexts of data visualisation and design, and the analysis and interpretation of visualisations. It also introduces critical perspectives on the questions of representation and interpretation that are central to the field. This course will be of interest to students from a wide range of fields including design, fine arts, digital humanities and information technology, where the visual representation of data offers both immediate challenges and creative opportunities.",
+  "requisiteText": "To enrol in this course you must have completed DESN6002. You are not able to enrol in this course if you have previously completed DESN2003."
+ },
+ {
+  "code": "DESN6006",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/DESN6006",
+  "title": "Front-End Web: Crafting Online Experience",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Design",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "Front-End web design is concerned with the design and production of website elements that directly shape a user’s experience of a site. Front-end web has a broad scope, encompassing elements such as typography, layout, visual aesthetics, interface behaviours, and information architecture. It is a highly dynamic, burgeoning field of practice that is the creative engine-room of the modern web. This course provides a hands-on foundation in front-end web, introducing students to its fundamental concepts, theories, production practices and core technologies such as HTML, CSS and Javascript. The skills and knowledge acquired in this course are versatile and powerful, and will be of value to students from any field of study.",
+  "requisiteText": "You are not able to enrol in this course if you have previously completed DESN2006."
+ }
+]

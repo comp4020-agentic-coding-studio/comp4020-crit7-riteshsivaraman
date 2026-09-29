@@ -1,0 +1,152 @@
+{
+  "version": "84be3f66",
+  "scrapedAt": "2026-09-29T16:48:11.797Z",
+  "source": "https://programsandcourses.anu.edu.au/2026",
+  "subjects": [
+    {
+      "subject": "ACST",
+      "name": "Actuarial Studies",
+      "count": 10
+    },
+    {
+      "subject": "BIOL",
+      "name": "Biology",
+      "count": 2
+    },
+    {
+      "subject": "BUSI",
+      "name": "Business",
+      "count": 14
+    },
+    {
+      "subject": "BUSN",
+      "name": "Business",
+      "count": 55
+    },
+    {
+      "subject": "CBEA",
+      "name": "College of Business and Economics Administration",
+      "count": 9
+    },
+    {
+      "subject": "CECS",
+      "name": "CECS",
+      "count": 4
+    },
+    {
+      "subject": "COMP",
+      "name": "Computer Science",
+      "count": 128
+    },
+    {
+      "subject": "CYBN",
+      "name": "Cybernetics",
+      "count": 5
+    },
+    {
+      "subject": "ECHI",
+      "name": "Economic History",
+      "count": 3
+    },
+    {
+      "subject": "ECON",
+      "name": "Economics",
+      "count": 93
+    },
+    {
+      "subject": "EMET",
+      "name": "Econometrics",
+      "count": 25
+    },
+    {
+      "subject": "EMSC",
+      "name": "Earth and Marine Science",
+      "count": 3
+    },
+    {
+      "subject": "ENGN",
+      "name": "Engineering",
+      "count": 105
+    },
+    {
+      "subject": "ENVS",
+      "name": "Environmental Science",
+      "count": 80
+    },
+    {
+      "subject": "EXCH",
+      "name": "Exchange Course",
+      "count": 2
+    },
+    {
+      "subject": "FINM",
+      "name": "Financial Management",
+      "count": 42
+    },
+    {
+      "subject": "INDG",
+      "name": "Indigenous Studies",
+      "count": 1
+    },
+    {
+      "subject": "INFS",
+      "name": "Information Systems",
+      "count": 15
+    },
+    {
+      "subject": "MATH",
+      "name": "Mathematics",
+      "count": 71
+    },
+    {
+      "subject": "MGMT",
+      "name": "Management",
+      "count": 66
+    },
+    {
+      "subject": "MKTG",
+      "name": "Marketing",
+      "count": 19
+    },
+    {
+      "subject": "MMIB",
+      "name": "Management, Marketing and International Business",
+      "count": 6
+    },
+    {
+      "subject": "PHIL",
+      "name": "Philosophy",
+      "count": 1
+    },
+    {
+      "subject": "POGO",
+      "name": "Policy and Governance",
+      "count": 1
+    },
+    {
+      "subject": "PPEI",
+      "name": "Politics, Philosophy and Economics",
+      "count": 1
+    },
+    {
+      "subject": "SCNC",
+      "name": "Faculty of Science",
+      "count": 1
+    },
+    {
+      "subject": "SCOM",
+      "name": "Science Communication",
+      "count": 41
+    },
+    {
+      "subject": "STAT",
+      "name": "Statistics",
+      "count": 65
+    },
+    {
+      "subject": "WILC",
+      "name": "Work Integrated Learning Course",
+      "count": 1
+    }
+  ]
+}

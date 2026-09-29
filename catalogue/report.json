@@ -1,0 +1,8653 @@
+{
+ "mode": "full",
+ "scope": "all",
+ "collegeFilter": {
+  "colleges": [
+   "ANU College of Systems and Society",
+   "ANU College of Business and Economics"
+  ],
+  "rule": "course page's 'ANU College' field; a joint course is kept if either college matches",
+  "rawCourses": 2894,
+  "keptCourses": 869,
+  "droppedOutsideColleges": 2023,
+  "rawByCollege": {
+   "ANU College of Arts and Social Sciences": 776,
+   "ANU College of Business and Economics": 424,
+   "ANU College of Law, Governance and Policy": 433,
+   "ANU College of Asia and the Pacific": 368,
+   "ANU College of Arts and Social Sciences / ANU College of Science and Medicine": 1,
+   "ANU College of Science and Medicine": 442,
+   "ANU College of Science and Medicine / ANU College of Systems and Society": 7,
+   "ANU College of Systems and Society": 439,
+   "ANU College of Law, Governance and Policy / ANU College of Systems and Society": 1,
+   "ANU College of Arts and Social Sciences / ANU College of Asia and the Pacific": 3
+  },
+  "missingCollegeField": []
+ },
+ "version": "84be3f66",
+ "scrapedAt": "2026-09-29T16:48:11.797Z",
+ "listingEndpoint": "https://programsandcourses.anu.edu.au/data/CourseSearch/GetCourses?ShowAll=true&PageIndex=0&MaxPageSize=10&PageSize=10&SelectedYear=2026&SearchText=&CollegeName=All+Colleges&ModeOfDelivery=All+Modes",
+ "listingTotal": 852,
+ "listingTotalAllSubjects": 2833,
+ "catalogueCount": 850,
+ "referencedCount": 19,
+ "courseCount": 869,
+ "failures": [],
+ "excluded": [
+  {
+   "code": "CYBN8005",
+   "why": "units not a positive integer: \"0 units\""
+  },
+  {
+   "code": "ENGN3100",
+   "why": "units not a positive integer: \"0 units\""
+  }
+ ],
+ "nonstandardCodesSkipped": [
+  "ASIA8900F",
+  "ASIA8900P",
+  "ASIA9000F",
+  "ASIA9000P",
+  "ASTR8950F",
+  "ASTR8950P",
+  "ASTR9550F",
+  "ASTR9550P",
+  "BIOL8900F",
+  "BIOL8900P",
+  "BIOL8901F",
+  "BIOL8901P",
+  "BIOL8902F",
+  "BIOL8902P",
+  "BIOL9000F",
+  "BIOL9000P",
+  "BIOL9001F",
+  "BIOL9001P",
+  "BIOL9002F",
+  "BIOL9002P",
+  "CHEM8950F",
+  "CHEM8950P",
+  "CHEM9550F",
+  "CHEM9550P",
+  "COMM8900F",
+  "COMM8900P",
+  "COMM9000F",
+  "COMM9000P",
+  "COMP8900F",
+  "COMP8900P",
+  "COMP8901F",
+  "COMP9000F",
+  "COMP9000P",
+  "COMP9001F",
+  "CYBN8900F",
+  "CYBN9001F",
+  "DIPL8500F",
+  "DIPL8500P",
+  "DIPL9500F",
+  "DIPL9500P",
+  "ECON8900F",
+  "ECON8900P",
+  "ECON9000F",
+  "ECON9000P",
+  "EMDV8550F",
+  "EMDV9550F",
+  "EMDV9550P",
+  "EMSC8901F",
+  "EMSC8901P",
+  "EMSC9001F",
+  "EMSC9001P",
+  "ENGN8900F",
+  "ENGN8900P",
+  "ENGN8901F",
+  "ENGN8904F",
+  "ENGN9000F",
+  "ENGN9000P",
+  "ENGN9001F",
+  "ENGN9004F",
+  "ENVS8900F",
+  "ENVS8900P",
+  "ENVS8908F",
+  "ENVS8908P",
+  "ENVS9000F",
+  "ENVS9000P",
+  "ENVS9008F",
+  "ENVS9008P",
+  "FINM8900F",
+  "FINM8900P",
+  "FINM9000F",
+  "FINM9000P",
+  "GMTH8950F",
+  "GMTH8950P",
+  "GMTH9550F",
+  "GMTH9550P",
+  "HCAI8901F",
+  "HCAI9001F",
+  "IDEC8550F",
+  "IDEC9550F",
+  "IDEC9550P",
+  "LAWS8900F",
+  "LAWS8900P",
+  "LAWS9000F",
+  "LAWS9000P",
+  "LAWS9001F",
+  "LAWS9001P",
+  "MATH8900F",
+  "MATH8900P",
+  "MATH9000F",
+  "MATH9000P",
+  "MEDI8950F",
+  "MEDI8950P",
+  "MEDI9950F",
+  "MEDI9950P",
+  "MEDN8550F",
+  "MEDN8550P",
+  "MEDN9550F",
+  "MEDN9550P",
+  "MMIB8900F",
+  "MMIB8900P",
+  "MMIB9000F",
+  "MMIB9000P",
+  "NSPO8950F",
+  "NSPO8950P",
+  "NSPO9050F",
+  "NSPO9050P",
+  "PAAS8530F",
+  "PAAS8569F",
+  "PAAS8570F",
+  "PAAS8900F",
+  "PAAS8900P",
+  "PAAS8950F",
+  "PAAS8950P",
+  "PAAS8951F",
+  "PAAS8951P",
+  "PAAS8952F",
+  "PAAS8952P",
+  "PAAS8953F",
+  "PAAS8953P",
+  "PAAS8957F",
+  "PAAS8957P",
+  "PAAS8958F",
+  "PAAS8958P",
+  "PAAS8960F",
+  "PAAS8960P",
+  "PAAS8962F",
+  "PAAS8962P",
+  "PAAS9000F",
+  "PAAS9000P",
+  "PAAS9530F",
+  "PAAS9551F",
+  "PAAS9551P",
+  "PAAS9552F",
+  "PAAS9552P",
+  "PAAS9555F",
+  "PAAS9555P",
+  "PAAS9557F",
+  "PAAS9557P",
+  "PAAS9558F",
+  "PAAS9558P",
+  "PAAS9559F",
+  "PAAS9559P",
+  "PAAS9560F",
+  "PAAS9560P",
+  "PAAS9568F",
+  "PAAS9568P",
+  "PAAS9569F",
+  "PAAS9569P",
+  "PAAS9570F",
+  "PAAS9570P",
+  "PHIL8900F",
+  "PHIL8900P",
+  "PHYS8009F",
+  "PHYS9009F",
+  "POGO8950F",
+  "POGO8950P",
+  "POGO9550F",
+  "POGO9550P",
+  "POPH8920F",
+  "POPH8950F",
+  "POPH8950P",
+  "POPH9550F",
+  "POPH9550P",
+  "PSYC8900F",
+  "PSYC8900P",
+  "PSYC9000F",
+  "PSYC9000P",
+  "PSYC9002F",
+  "PSYC9002P",
+  "SCOM8900F",
+  "SCOM8900P",
+  "SCOM9000F",
+  "SCOM9000P",
+  "SOCS8901F",
+  "SOCS9001F",
+  "STAT8900F",
+  "STAT8900P",
+  "STAT9000F",
+  "STAT9000P"
+ ],
+ "notFound": [
+  {
+   "code": "ACST4600",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ACST4500"
+   ]
+  },
+  {
+   "code": "ANCH1013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CLAS1006"
+   ]
+  },
+  {
+   "code": "ANCH6103",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CLAS1006"
+   ]
+  },
+  {
+   "code": "ANIP4001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANIP6503"
+   ]
+  },
+  {
+   "code": "ANIP6003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS8430"
+   ]
+  },
+  {
+   "code": "ANTH2067",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANTH8059"
+   ]
+  },
+  {
+   "code": "ANTH6068",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANTH8059"
+   ]
+  },
+  {
+   "code": "ANTH8017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANTH4011"
+   ]
+  },
+  {
+   "code": "ANTH8035",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANTH4011"
+   ]
+  },
+  {
+   "code": "ANTH8045",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INDG8001",
+    "INDG8002"
+   ]
+  },
+  {
+   "code": "ANTH8046",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INDG8001",
+    "INDG8002"
+   ]
+  },
+  {
+   "code": "ANTH8102",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANTH9112"
+   ]
+  },
+  {
+   "code": "ANTH8901",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANTH9901"
+   ]
+  },
+  {
+   "code": "ANTH9102",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANTH9902"
+   ]
+  },
+  {
+   "code": "ANUC1109",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL1100"
+   ]
+  },
+  {
+   "code": "ANUC1111",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI1101"
+   ]
+  },
+  {
+   "code": "ANUC1112",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI1101",
+    "MUSI1102"
+   ]
+  },
+  {
+   "code": "ANUC1120",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH1007"
+   ]
+  },
+  {
+   "code": "ANUC1121",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN1002"
+   ]
+  },
+  {
+   "code": "ANUC1122",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN1005"
+   ]
+  },
+  {
+   "code": "ANUC1123",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV1020"
+   ]
+  },
+  {
+   "code": "ANUC1137",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI1501"
+   ]
+  },
+  {
+   "code": "ANUC1138",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI1501"
+   ]
+  },
+  {
+   "code": "ARAB2005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB2011"
+   ]
+  },
+  {
+   "code": "ARAB6102",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB1002"
+   ]
+  },
+  {
+   "code": "ARAB6103",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB1003",
+    "ARAB2011",
+    "ARAB2012",
+    "ARAB3001",
+    "ARAB3002"
+   ]
+  },
+  {
+   "code": "ARAB6501",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB2011",
+    "ARAB2012",
+    "ARAB3001",
+    "ARAB3002"
+   ]
+  },
+  {
+   "code": "ARAB6502",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB2011",
+    "ARAB2012",
+    "ARAB3001",
+    "ARAB3002"
+   ]
+  },
+  {
+   "code": "ARAB6503",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB2011",
+    "ARAB2012",
+    "ARAB3001",
+    "ARAB3002"
+   ]
+  },
+  {
+   "code": "ARAB6504",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB2011",
+    "ARAB2012",
+    "ARAB3001",
+    "ARAB3002"
+   ]
+  },
+  {
+   "code": "ARAB6510",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB3008"
+   ]
+  },
+  {
+   "code": "ARCH1111",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH1001",
+    "ARCH2007",
+    "ARCH2061"
+   ]
+  },
+  {
+   "code": "ARCH1112",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH1001",
+    "ARCH2007",
+    "ARCH2061"
+   ]
+  },
+  {
+   "code": "ARCH2006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH3026"
+   ]
+  },
+  {
+   "code": "ARCH2108",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH3108",
+    "ARCH6108"
+   ]
+  },
+  {
+   "code": "ARCH2126",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN3014"
+   ]
+  },
+  {
+   "code": "ARCH3000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN3014",
+    "BIAN6019"
+   ]
+  },
+  {
+   "code": "ARCH6126",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN6019"
+   ]
+  },
+  {
+   "code": "ARCH8043",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH8042"
+   ]
+  },
+  {
+   "code": "ARCH8102",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN6019"
+   ]
+  },
+  {
+   "code": "ARCH8104",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HUMN6051"
+   ]
+  },
+  {
+   "code": "ARTH2057",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH3057"
+   ]
+  },
+  {
+   "code": "ARTH6050",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2050"
+   ]
+  },
+  {
+   "code": "ARTH6052",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2052"
+   ]
+  },
+  {
+   "code": "ARTH6057",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH3057"
+   ]
+  },
+  {
+   "code": "ARTH6169",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2169"
+   ]
+  },
+  {
+   "code": "ARTH6170",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2170"
+   ]
+  },
+  {
+   "code": "ARTH6176",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2176"
+   ]
+  },
+  {
+   "code": "ARTH6598",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2098"
+   ]
+  },
+  {
+   "code": "ARTH8014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH4030"
+   ]
+  },
+  {
+   "code": "ARTV1000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3033"
+   ]
+  },
+  {
+   "code": "ARTV1101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2150"
+   ]
+  },
+  {
+   "code": "ARTV1102",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2150"
+   ]
+  },
+  {
+   "code": "ARTV1202",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2015"
+   ]
+  },
+  {
+   "code": "ARTV1301",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2350"
+   ]
+  },
+  {
+   "code": "ARTV1302",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2350"
+   ]
+  },
+  {
+   "code": "ARTV1501",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2550"
+   ]
+  },
+  {
+   "code": "ARTV1502",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2550"
+   ]
+  },
+  {
+   "code": "ARTV1601",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2650"
+   ]
+  },
+  {
+   "code": "ARTV1610",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2650"
+   ]
+  },
+  {
+   "code": "ARTV1611",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2650"
+   ]
+  },
+  {
+   "code": "ARTV1612",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2651"
+   ]
+  },
+  {
+   "code": "ARTV1614",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2650"
+   ]
+  },
+  {
+   "code": "ARTV1703",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2750"
+   ]
+  },
+  {
+   "code": "ARTV1704",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2751"
+   ]
+  },
+  {
+   "code": "ARTV1705",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2750"
+   ]
+  },
+  {
+   "code": "ARTV1902",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2950"
+   ]
+  },
+  {
+   "code": "ARTV2000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3033"
+   ]
+  },
+  {
+   "code": "ARTV2052",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2169"
+   ]
+  },
+  {
+   "code": "ARTV2053",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2170"
+   ]
+  },
+  {
+   "code": "ARTV2059",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2651"
+   ]
+  },
+  {
+   "code": "ARTV2100",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2921"
+   ]
+  },
+  {
+   "code": "ARTV2117",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2150"
+   ]
+  },
+  {
+   "code": "ARTV2119",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2150"
+   ]
+  },
+  {
+   "code": "ARTV2120",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2150"
+   ]
+  },
+  {
+   "code": "ARTV2124",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2150"
+   ]
+  },
+  {
+   "code": "ARTV2125",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2150"
+   ]
+  },
+  {
+   "code": "ARTV2207",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2015"
+   ]
+  },
+  {
+   "code": "ARTV2723",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2751"
+   ]
+  },
+  {
+   "code": "ARTV2727",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2751"
+   ]
+  },
+  {
+   "code": "ARTV2805",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV2908",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2950"
+   ]
+  },
+  {
+   "code": "ARTV3026",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3029",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3502",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3505",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3602",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3605",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3616",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3702",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3705",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3802",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV6020",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV1020"
+   ]
+  },
+  {
+   "code": "ARTV6027",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2027"
+   ]
+  },
+  {
+   "code": "ARTV6053",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2170"
+   ]
+  },
+  {
+   "code": "ARTV6105",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2169"
+   ]
+  },
+  {
+   "code": "ARTV6921",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2921"
+   ]
+  },
+  {
+   "code": "ASIA1021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INTR1021"
+   ]
+  },
+  {
+   "code": "ASIA1022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INTR1022"
+   ]
+  },
+  {
+   "code": "ASIA1066",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA2366"
+   ]
+  },
+  {
+   "code": "ASIA2084",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA3084"
+   ]
+  },
+  {
+   "code": "ASIA2095",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA3040",
+    "ASIA6040"
+   ]
+  },
+  {
+   "code": "ASIA2220",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH8002"
+   ]
+  },
+  {
+   "code": "ASIA2517",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA2088"
+   ]
+  },
+  {
+   "code": "ASIA6203",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA2203"
+   ]
+  },
+  {
+   "code": "ASIA6517",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA2088"
+   ]
+  },
+  {
+   "code": "ASTR4003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4021",
+    "ASTR8021"
+   ]
+  },
+  {
+   "code": "ASTR4008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4020",
+    "ASTR8020"
+   ]
+  },
+  {
+   "code": "ASTR4012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4021",
+    "ASTR8021"
+   ]
+  },
+  {
+   "code": "ASTR4017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4020",
+    "ASTR8020"
+   ]
+  },
+  {
+   "code": "ASTR8002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4021",
+    "ASTR8021"
+   ]
+  },
+  {
+   "code": "ASTR8003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4021",
+    "ASTR8021"
+   ]
+  },
+  {
+   "code": "ASTR8007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4020",
+    "ASTR8020"
+   ]
+  },
+  {
+   "code": "ASTR8008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4020",
+    "ASTR8020"
+   ]
+  },
+  {
+   "code": "AUST1001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INDG2003"
+   ]
+  },
+  {
+   "code": "AUST6008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INDG2003"
+   ]
+  },
+  {
+   "code": "BIAN3010",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH3042",
+    "ARCH6042"
+   ]
+  },
+  {
+   "code": "BIAN3011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN2015"
+   ]
+  },
+  {
+   "code": "BIAN3017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN3014"
+   ]
+  },
+  {
+   "code": "BIAN6119",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN2119"
+   ]
+  },
+  {
+   "code": "BIAN6500",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN6019"
+   ]
+  },
+  {
+   "code": "BIAN6510",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH3042",
+    "ARCH6042"
+   ]
+  },
+  {
+   "code": "BIAN6516",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN3014",
+    "BIAN6019",
+    "BIOL6130"
+   ]
+  },
+  {
+   "code": "BIOL2111",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3213",
+    "BIOL6213"
+   ]
+  },
+  {
+   "code": "BIOL2113",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3213",
+    "BIOL6213"
+   ]
+  },
+  {
+   "code": "BIOL2121",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3002",
+    "BIOL6002"
+   ]
+  },
+  {
+   "code": "BIOL2152",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3204",
+    "BIOL6204"
+   ]
+  },
+  {
+   "code": "BIOL2176",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEDN3186"
+   ]
+  },
+  {
+   "code": "BIOL2222",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEDN2222"
+   ]
+  },
+  {
+   "code": "BIOL3006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEDN2001",
+    "MEDN6001"
+   ]
+  },
+  {
+   "code": "BIOL3113",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3213",
+    "BIOL6213"
+   ]
+  },
+  {
+   "code": "BIOL3114",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3213",
+    "BIOL6213"
+   ]
+  },
+  {
+   "code": "BIOL3186",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEDN3186"
+   ]
+  },
+  {
+   "code": "BIOL6001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEDN6001"
+   ]
+  },
+  {
+   "code": "BIOL6111",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3213",
+    "BIOL6213"
+   ]
+  },
+  {
+   "code": "BIOL6113",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3213",
+    "BIOL6213"
+   ]
+  },
+  {
+   "code": "BIOL6210",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3210"
+   ]
+  },
+  {
+   "code": "BUSN3025",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MGMT3025"
+   ]
+  },
+  {
+   "code": "BUSN4101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BUSN8101"
+   ]
+  },
+  {
+   "code": "BUSN7045",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BUSN4045",
+    "BUSN8045",
+    "BUSN8145",
+    "BUSN8804"
+   ]
+  },
+  {
+   "code": "CBEA3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CBEA3066"
+   ]
+  },
+  {
+   "code": "CHEM2212",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHEM2214"
+   ]
+  },
+  {
+   "code": "CHIN2014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN3017",
+    "CHIN3018"
+   ]
+  },
+  {
+   "code": "CHIN2017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2024",
+    "CHIN3018",
+    "CHIN3022"
+   ]
+  },
+  {
+   "code": "CHIN3021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2024",
+    "CHIN3018"
+   ]
+  },
+  {
+   "code": "CHIN3031",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2021",
+    "CHIN3015"
+   ]
+  },
+  {
+   "code": "CHIN3211",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHST3211"
+   ]
+  },
+  {
+   "code": "CHIN3212",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHST3212"
+   ]
+  },
+  {
+   "code": "CHIN6201",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2025"
+   ]
+  },
+  {
+   "code": "CHIN6202",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2025"
+   ]
+  },
+  {
+   "code": "CHIN6211",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHST3211"
+   ]
+  },
+  {
+   "code": "CHIN6212",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHST3212"
+   ]
+  },
+  {
+   "code": "CHIN6521",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2024"
+   ]
+  },
+  {
+   "code": "CHIN6526",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA3525"
+   ]
+  },
+  {
+   "code": "CHIN6531",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2021"
+   ]
+  },
+  {
+   "code": "CHMD8001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HLTH3004",
+    "HLTH6004"
+   ]
+  },
+  {
+   "code": "CHMD8005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHMD2005",
+    "CHMD6005"
+   ]
+  },
+  {
+   "code": "CHST6211",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHST3211"
+   ]
+  },
+  {
+   "code": "CHST6212",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHST3212"
+   ]
+  },
+  {
+   "code": "CLAS2002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CLAS1003"
+   ]
+  },
+  {
+   "code": "CLAS6002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CLAS1003"
+   ]
+  },
+  {
+   "code": "COMM3015",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MGMT3015"
+   ]
+  },
+  {
+   "code": "COMM3016",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MGMT3016"
+   ]
+  },
+  {
+   "code": "COMP1040",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP7230"
+   ]
+  },
+  {
+   "code": "COMP2000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP3310"
+   ]
+  },
+  {
+   "code": "COMP2130",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP2120"
+   ]
+  },
+  {
+   "code": "COMP3100",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP3500"
+   ]
+  },
+  {
+   "code": "COMP3420",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP3425",
+    "COMP8410",
+    "COMP8910"
+   ]
+  },
+  {
+   "code": "COMP4540",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP4500"
+   ]
+  },
+  {
+   "code": "COMP4690",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP8691"
+   ]
+  },
+  {
+   "code": "COMP4810",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP4500",
+    "COMP4550",
+    "COMP4560",
+    "COMP4820"
+   ]
+  },
+  {
+   "code": "COMP6311",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP2120"
+   ]
+  },
+  {
+   "code": "COMP6461",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP4610",
+    "COMP8610"
+   ]
+  },
+  {
+   "code": "COMP6719",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP2300",
+    "COMP6300",
+    "ENGN2219"
+   ]
+  },
+  {
+   "code": "COMP6990",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP6490",
+    "COMP8490"
+   ]
+  },
+  {
+   "code": "COMP8400",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP3425",
+    "COMP4425",
+    "COMP8410",
+    "COMP8910"
+   ]
+  },
+  {
+   "code": "COMP8755",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP8500",
+    "COMP8715",
+    "COMP8830"
+   ]
+  },
+  {
+   "code": "COMP8960",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP4670",
+    "COMP8600"
+   ]
+  },
+  {
+   "code": "CRIM2001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2002",
+    "CRIM3010"
+   ]
+  },
+  {
+   "code": "CRIM3004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM3003"
+   ]
+  },
+  {
+   "code": "CRIM6002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2002"
+   ]
+  },
+  {
+   "code": "CRIM6003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2003"
+   ]
+  },
+  {
+   "code": "CRIM6005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2005"
+   ]
+  },
+  {
+   "code": "CRIM6006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2006"
+   ]
+  },
+  {
+   "code": "CRIM6007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM3010"
+   ]
+  },
+  {
+   "code": "CRIM6008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2007"
+   ]
+  },
+  {
+   "code": "CRIM6009",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2009"
+   ]
+  },
+  {
+   "code": "CRIM6013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2013"
+   ]
+  },
+  {
+   "code": "CRIM6014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2014"
+   ]
+  },
+  {
+   "code": "CRIM8001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM4001"
+   ]
+  },
+  {
+   "code": "CRIM8003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2002"
+   ]
+  },
+  {
+   "code": "CRWF8000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "IDEC8000"
+   ]
+  },
+  {
+   "code": "DART3100",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "DART3101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "DEMO6001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DEMO8024"
+   ]
+  },
+  {
+   "code": "DEMO8007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCR8010"
+   ]
+  },
+  {
+   "code": "DEMO8014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCR8010"
+   ]
+  },
+  {
+   "code": "DEMO8082",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCR8082",
+    "SOCS9082"
+   ]
+  },
+  {
+   "code": "DESA2011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2001",
+    "DESN6001"
+   ]
+  },
+  {
+   "code": "DESA2017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2012"
+   ]
+  },
+  {
+   "code": "DESA2207",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2015"
+   ]
+  },
+  {
+   "code": "DESA2805",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "DESA3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "DESA3802",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "DESA6017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2012"
+   ]
+  },
+  {
+   "code": "DESA6100",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2001",
+    "DESN6001"
+   ]
+  },
+  {
+   "code": "DESN1000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3033"
+   ]
+  },
+  {
+   "code": "DESN6004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2004"
+   ]
+  },
+  {
+   "code": "DESN6010",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN3010"
+   ]
+  },
+  {
+   "code": "DESN6011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN3011"
+   ]
+  },
+  {
+   "code": "DESN6012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2012"
+   ]
+  },
+  {
+   "code": "DIPL2001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DIPL8016"
+   ]
+  },
+  {
+   "code": "ECHI1001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECHI1006"
+   ]
+  },
+  {
+   "code": "ECHI1003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECHI1006"
+   ]
+  },
+  {
+   "code": "ECHI1004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECHI1006"
+   ]
+  },
+  {
+   "code": "ECHI2006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECHI3009"
+   ]
+  },
+  {
+   "code": "ECHI2013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON2900"
+   ]
+  },
+  {
+   "code": "ECHI2016",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECHI3009"
+   ]
+  },
+  {
+   "code": "ECHI3019",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECHI3009"
+   ]
+  },
+  {
+   "code": "ECON2008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON2108"
+   ]
+  },
+  {
+   "code": "ECON2111",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON3020",
+    "ECON3100"
+   ]
+  },
+  {
+   "code": "ECON2112",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON2016",
+    "ECON3020",
+    "ECON3100"
+   ]
+  },
+  {
+   "code": "ECON2128",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON3128"
+   ]
+  },
+  {
+   "code": "ECON3153",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON6053",
+    "ECON8053"
+   ]
+  },
+  {
+   "code": "ECON4413",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON4414",
+    "ECON8014"
+   ]
+  },
+  {
+   "code": "ECON4425",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON8025"
+   ]
+  },
+  {
+   "code": "ECON4426",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON8026"
+   ]
+  },
+  {
+   "code": "ECON8055",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON3181",
+    "ECON6181"
+   ]
+  },
+  {
+   "code": "EMSC2012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3002",
+    "EMSC3034",
+    "EMSC6030"
+   ]
+  },
+  {
+   "code": "EMSC2017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3007",
+    "EMSC3024"
+   ]
+  },
+  {
+   "code": "EMSC2018",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC6122"
+   ]
+  },
+  {
+   "code": "EMSC2019",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3020",
+    "EMSC6019"
+   ]
+  },
+  {
+   "code": "EMSC2020",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3007"
+   ]
+  },
+  {
+   "code": "EMSC3029",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC2021"
+   ]
+  },
+  {
+   "code": "EMSC4019",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3020",
+    "EMSC6019"
+   ]
+  },
+  {
+   "code": "EMSC4020",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC4123"
+   ]
+  },
+  {
+   "code": "EMSC6017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC6007"
+   ]
+  },
+  {
+   "code": "EMSC6031",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC6030"
+   ]
+  },
+  {
+   "code": "EMSC8024",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC4123"
+   ]
+  },
+  {
+   "code": "EMSC8033",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC8023"
+   ]
+  },
+  {
+   "code": "ENGL1009",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2230"
+   ]
+  },
+  {
+   "code": "ENGL1013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL1200"
+   ]
+  },
+  {
+   "code": "ENGL1014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL1100"
+   ]
+  },
+  {
+   "code": "ENGL2008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3022"
+   ]
+  },
+  {
+   "code": "ENGL2009",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3008"
+   ]
+  },
+  {
+   "code": "ENGL2012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2027"
+   ]
+  },
+  {
+   "code": "ENGL2061",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3036"
+   ]
+  },
+  {
+   "code": "ENGL2074",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2022",
+    "GEND2022"
+   ]
+  },
+  {
+   "code": "ENGL2078",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3078"
+   ]
+  },
+  {
+   "code": "ENGL2082",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3037"
+   ]
+  },
+  {
+   "code": "ENGL2084",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2230"
+   ]
+  },
+  {
+   "code": "ENGL2108",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2085"
+   ]
+  },
+  {
+   "code": "ENGL2117",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3005"
+   ]
+  },
+  {
+   "code": "ENGL6008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3008"
+   ]
+  },
+  {
+   "code": "ENGL6020",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3005"
+   ]
+  },
+  {
+   "code": "ENGL6022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3022"
+   ]
+  },
+  {
+   "code": "ENGL6023",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2022",
+    "GEND2022"
+   ]
+  },
+  {
+   "code": "ENGL6026",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3078"
+   ]
+  },
+  {
+   "code": "ENGL6027",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2068"
+   ]
+  },
+  {
+   "code": "ENGL6028",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3037"
+   ]
+  },
+  {
+   "code": "ENGL6032",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2230"
+   ]
+  },
+  {
+   "code": "ENGL6034",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2027"
+   ]
+  },
+  {
+   "code": "ENGL6036",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3036"
+   ]
+  },
+  {
+   "code": "ENGL6040",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2040"
+   ]
+  },
+  {
+   "code": "ENGL6067",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2067"
+   ]
+  },
+  {
+   "code": "ENGL6084",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2230"
+   ]
+  },
+  {
+   "code": "ENGL6085",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2085"
+   ]
+  },
+  {
+   "code": "ENGL6116",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2116"
+   ]
+  },
+  {
+   "code": "ENGL6117",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3005"
+   ]
+  },
+  {
+   "code": "ENGL6222",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2222"
+   ]
+  },
+  {
+   "code": "ENGL8019",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL4019"
+   ]
+  },
+  {
+   "code": "ENGL8020",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL4020"
+   ]
+  },
+  {
+   "code": "ENGL8021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL4021"
+   ]
+  },
+  {
+   "code": "ENGN2225",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN2300",
+    "ENGN3410"
+   ]
+  },
+  {
+   "code": "ENGN2226",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN2301",
+    "ENGN3516"
+   ]
+  },
+  {
+   "code": "ENGN3000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN4300",
+    "ENGN4350"
+   ]
+  },
+  {
+   "code": "ENGN3211",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BUSN1001"
+   ]
+  },
+  {
+   "code": "ENGN3221",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN3300",
+    "ENGN4200"
+   ]
+  },
+  {
+   "code": "ENGN3230",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN3301"
+   ]
+  },
+  {
+   "code": "ENGN3512",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS3057",
+    "PHYS6500"
+   ]
+  },
+  {
+   "code": "ENGN4221",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN4300"
+   ]
+  },
+  {
+   "code": "ENGN4511",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN3339"
+   ]
+  },
+  {
+   "code": "ENGN6212",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN4212"
+   ]
+  },
+  {
+   "code": "ENGN6512",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS3057",
+    "PHYS6500"
+   ]
+  },
+  {
+   "code": "ENGN8534",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP2610",
+    "COMP6261"
+   ]
+  },
+  {
+   "code": "ENVS2014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCY2043"
+   ]
+  },
+  {
+   "code": "ENVS3019",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENVS3045",
+    "ENVS6345"
+   ]
+  },
+  {
+   "code": "ENVS6005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENVS8605"
+   ]
+  },
+  {
+   "code": "ENVS6319",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENVS3045",
+    "ENVS6345"
+   ]
+  },
+  {
+   "code": "EURO1004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2070",
+    "HIST2110",
+    "HIST3007",
+    "HIST3012",
+    "HIST3110",
+    "HIST3142"
+   ]
+  },
+  {
+   "code": "EURO3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3002"
+   ]
+  },
+  {
+   "code": "FILM2006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCRN2003"
+   ]
+  },
+  {
+   "code": "FILM2013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCRN2107",
+    "SPAN2107"
+   ]
+  },
+  {
+   "code": "FILM2014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3108"
+   ]
+  },
+  {
+   "code": "FILM6013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCRN2107",
+    "SPAN2107"
+   ]
+  },
+  {
+   "code": "FILM6014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3108"
+   ]
+  },
+  {
+   "code": "FINM7041",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FINM6006",
+    "FINM8006",
+    "FINM8018",
+    "FINM8019",
+    "FINM8020",
+    "FINM8021"
+   ]
+  },
+  {
+   "code": "FINM7044",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FINM6005"
+   ]
+  },
+  {
+   "code": "FINM8016",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FINM6016",
+    "FINM8100"
+   ]
+  },
+  {
+   "code": "FREN1003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102"
+   ]
+  },
+  {
+   "code": "FREN1004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101"
+   ]
+  },
+  {
+   "code": "FREN2021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "FREN3102",
+    "FREN3110"
+   ]
+  },
+  {
+   "code": "FREN2024",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102"
+   ]
+  },
+  {
+   "code": "FREN2025",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "LANG3007"
+   ]
+  },
+  {
+   "code": "FREN3006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "FREN3102",
+    "FREN3515"
+   ]
+  },
+  {
+   "code": "FREN3007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "FREN3102",
+    "FREN3103",
+    "FREN3107",
+    "FREN3108",
+    "FREN3109",
+    "FREN3110"
+   ]
+  },
+  {
+   "code": "FREN3008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3104"
+   ]
+  },
+  {
+   "code": "FREN3009",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3103",
+    "FREN3104"
+   ]
+  },
+  {
+   "code": "FREN3010",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "FREN3102",
+    "FREN3103",
+    "FREN3104",
+    "FREN3109"
+   ]
+  },
+  {
+   "code": "FREN3011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "FREN3102",
+    "FREN3103",
+    "FREN3104",
+    "FREN3109"
+   ]
+  },
+  {
+   "code": "FREN3012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "FREN3102",
+    "FREN3109"
+   ]
+  },
+  {
+   "code": "FREN3021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "FREN3102",
+    "FREN3110"
+   ]
+  },
+  {
+   "code": "FREN6010",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3102",
+    "FREN3103"
+   ]
+  },
+  {
+   "code": "FREN6011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3102",
+    "FREN3103",
+    "FREN3104"
+   ]
+  },
+  {
+   "code": "FREN6506",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3102"
+   ]
+  },
+  {
+   "code": "FREN6509",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3102",
+    "FREN3103",
+    "FREN3104"
+   ]
+  },
+  {
+   "code": "FREN6510",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3110"
+   ]
+  },
+  {
+   "code": "FREN6514",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3108"
+   ]
+  },
+  {
+   "code": "GEND2024",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3134"
+   ]
+  },
+  {
+   "code": "GEND2026",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GEND6501"
+   ]
+  },
+  {
+   "code": "GEND2057",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GEND3057",
+    "SOCY3057"
+   ]
+  },
+  {
+   "code": "GEND2074",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2022",
+    "GEND2022"
+   ]
+  },
+  {
+   "code": "GEND2107",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS2005"
+   ]
+  },
+  {
+   "code": "GEND3022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS2005"
+   ]
+  },
+  {
+   "code": "GEOL1006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC1006",
+    "EMSC6107"
+   ]
+  },
+  {
+   "code": "GEOL2019",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC6019"
+   ]
+  },
+  {
+   "code": "GEOL3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3002",
+    "EMSC6030"
+   ]
+  },
+  {
+   "code": "GEOL3007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3007"
+   ]
+  },
+  {
+   "code": "GEOL3022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC6022"
+   ]
+  },
+  {
+   "code": "GEOL3023",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3023",
+    "EMSC6023"
+   ]
+  },
+  {
+   "code": "GEOL3024",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3024",
+    "EMSC6024"
+   ]
+  },
+  {
+   "code": "GEOL3025",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3025",
+    "EMSC6025"
+   ]
+  },
+  {
+   "code": "GERM1021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102"
+   ]
+  },
+  {
+   "code": "GERM1022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102",
+    "GERM2101"
+   ]
+  },
+  {
+   "code": "GERM2103",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102",
+    "GERM2101",
+    "GERM2102"
+   ]
+  },
+  {
+   "code": "GERM2104",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102",
+    "GERM2101",
+    "GERM2102",
+    "GERM3101"
+   ]
+  },
+  {
+   "code": "GERM2105",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102",
+    "GERM2101",
+    "GERM2102",
+    "GERM3101",
+    "GERM3102"
+   ]
+  },
+  {
+   "code": "GERM3007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102",
+    "GERM2101",
+    "GERM2102",
+    "GERM3101",
+    "GERM3102",
+    "GERM3103",
+    "GERM3104"
+   ]
+  },
+  {
+   "code": "GERM3008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102",
+    "GERM2101",
+    "GERM2102",
+    "GERM3101",
+    "GERM3102",
+    "GERM3104"
+   ]
+  },
+  {
+   "code": "GERM3106",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102",
+    "GERM2101",
+    "GERM2102",
+    "GERM3101",
+    "GERM3102",
+    "GERM3103"
+   ]
+  },
+  {
+   "code": "HIST1210",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2211"
+   ]
+  },
+  {
+   "code": "HIST2006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2022",
+    "GEND2022"
+   ]
+  },
+  {
+   "code": "HIST2139",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST3007"
+   ]
+  },
+  {
+   "code": "HIST2142",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST3142"
+   ]
+  },
+  {
+   "code": "HIST2228",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST8235"
+   ]
+  },
+  {
+   "code": "HIST2234",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST8234"
+   ]
+  },
+  {
+   "code": "HIST6007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST3007"
+   ]
+  },
+  {
+   "code": "HIST6022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2022"
+   ]
+  },
+  {
+   "code": "HIST6110",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2110",
+    "HIST3110"
+   ]
+  },
+  {
+   "code": "HIST6205",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2205"
+   ]
+  },
+  {
+   "code": "HIST6214",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2214"
+   ]
+  },
+  {
+   "code": "HIST6221",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2221"
+   ]
+  },
+  {
+   "code": "HIST6226",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2226"
+   ]
+  },
+  {
+   "code": "HIST6227",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2227"
+   ]
+  },
+  {
+   "code": "HIST6228",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST8235"
+   ]
+  },
+  {
+   "code": "HIST6232",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2232"
+   ]
+  },
+  {
+   "code": "HIST6234",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST8234"
+   ]
+  },
+  {
+   "code": "HIST6235",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2231"
+   ]
+  },
+  {
+   "code": "HIST6240",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2240"
+   ]
+  },
+  {
+   "code": "HIST6242",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2242"
+   ]
+  },
+  {
+   "code": "HIST8027",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST8037"
+   ]
+  },
+  {
+   "code": "HIST8101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST9102",
+    "SOCS9101"
+   ]
+  },
+  {
+   "code": "HIST8102",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST9102",
+    "SOCS9101"
+   ]
+  },
+  {
+   "code": "HSIT6136",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2136"
+   ]
+  },
+  {
+   "code": "HUMN4001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING4013",
+    "LING8032"
+   ]
+  },
+  {
+   "code": "HUMN8003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HUMN6051"
+   ]
+  },
+  {
+   "code": "HUMN8032",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING8032"
+   ]
+  },
+  {
+   "code": "INDG6003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INDG2003"
+   ]
+  },
+  {
+   "code": "INFS4004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INFS8004"
+   ]
+  },
+  {
+   "code": "INFS4205",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INFS8205"
+   ]
+  },
+  {
+   "code": "INFS7007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INFS8008"
+   ]
+  },
+  {
+   "code": "ITAL1002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102"
+   ]
+  },
+  {
+   "code": "ITAL1003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101"
+   ]
+  },
+  {
+   "code": "ITAL2005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102"
+   ]
+  },
+  {
+   "code": "ITAL2006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "LANG3007"
+   ]
+  },
+  {
+   "code": "ITAL2007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101"
+   ]
+  },
+  {
+   "code": "ITAL2008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102"
+   ]
+  },
+  {
+   "code": "ITAL3015",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102"
+   ]
+  },
+  {
+   "code": "ITAL3016",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102"
+   ]
+  },
+  {
+   "code": "ITAL3505",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102"
+   ]
+  },
+  {
+   "code": "ITAL3506",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102",
+    "ITAL3103",
+    "ITAL3104"
+   ]
+  },
+  {
+   "code": "ITAL6501",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101"
+   ]
+  },
+  {
+   "code": "ITAL6502",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102"
+   ]
+  },
+  {
+   "code": "ITAL6503",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101"
+   ]
+  },
+  {
+   "code": "ITAL6504",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102"
+   ]
+  },
+  {
+   "code": "ITAL6505",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102"
+   ]
+  },
+  {
+   "code": "ITAL6506",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102"
+   ]
+  },
+  {
+   "code": "ITAL6509",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102",
+    "ITAL3103"
+   ]
+  },
+  {
+   "code": "ITAL6510",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102",
+    "ITAL3103",
+    "ITAL3104"
+   ]
+  },
+  {
+   "code": "JPNS2012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "JPNS3201",
+    "JPNS3202",
+    "JPNS3203"
+   ]
+  },
+  {
+   "code": "JPNS2013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "JPNS3202"
+   ]
+  },
+  {
+   "code": "JPNS2015",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2019"
+   ]
+  },
+  {
+   "code": "JPNS3001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "JPNS3203"
+   ]
+  },
+  {
+   "code": "JPNS3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "JPNS3005",
+    "JPNS3006",
+    "JPNS3007",
+    "JPNS3008",
+    "JPNS3012",
+    "JPNS3204"
+   ]
+  },
+  {
+   "code": "JPNS3024",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "JPNS3006",
+    "JPNS3007",
+    "JPNS3008",
+    "JPNS3014"
+   ]
+  },
+  {
+   "code": "JPNS6007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING2028"
+   ]
+  },
+  {
+   "code": "JPNS6114",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "JPNS1014"
+   ]
+  },
+  {
+   "code": "JPNS6115",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "JPNS2005"
+   ]
+  },
+  {
+   "code": "KORE6121",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "KORE1021"
+   ]
+  },
+  {
+   "code": "KORE6512",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "KORE3012"
+   ]
+  },
+  {
+   "code": "KORE6513",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "KORE3013"
+   ]
+  },
+  {
+   "code": "KORE6521",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "KORE2521"
+   ]
+  },
+  {
+   "code": "LANG2015",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING6015"
+   ]
+  },
+  {
+   "code": "LANG3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LANG6002"
+   ]
+  },
+  {
+   "code": "LAWS2101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENVS3015",
+    "ENVS6315"
+   ]
+  },
+  {
+   "code": "LAWS2210",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BUSN1101"
+   ]
+  },
+  {
+   "code": "LAWS2221",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BUSN3014",
+    "BUSN7021"
+   ]
+  },
+  {
+   "code": "LAWS2290",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4231"
+   ]
+  },
+  {
+   "code": "LAWS4248",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4257"
+   ]
+  },
+  {
+   "code": "LAWS4282",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS8584"
+   ]
+  },
+  {
+   "code": "LAWS8000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS8301"
+   ]
+  },
+  {
+   "code": "LAWS8239",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4279"
+   ]
+  },
+  {
+   "code": "LAWS8337",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS6307"
+   ]
+  },
+  {
+   "code": "LAWS8415",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4215"
+   ]
+  },
+  {
+   "code": "LAWS8451",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4251"
+   ]
+  },
+  {
+   "code": "LAWS8457",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4257"
+   ]
+  },
+  {
+   "code": "LAWS8460",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4260"
+   ]
+  },
+  {
+   "code": "LEGM8001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS8102"
+   ]
+  },
+  {
+   "code": "LEGM8581",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4217",
+    "LAWS8417"
+   ]
+  },
+  {
+   "code": "LING1004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING2010",
+    "LING6010"
+   ]
+  },
+  {
+   "code": "LING1010",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING2010"
+   ]
+  },
+  {
+   "code": "LING1020",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING6020"
+   ]
+  },
+  {
+   "code": "LING1021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING6021"
+   ]
+  },
+  {
+   "code": "LING2001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING1001",
+    "LING2028",
+    "LING2521",
+    "LING8004"
+   ]
+  },
+  {
+   "code": "LING2002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING1002"
+   ]
+  },
+  {
+   "code": "LING2004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING2010",
+    "LING6010"
+   ]
+  },
+  {
+   "code": "LING2026",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING3126",
+    "LING6026"
+   ]
+  },
+  {
+   "code": "LING2101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING3101",
+    "LING6101"
+   ]
+  },
+  {
+   "code": "LING3011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING2106"
+   ]
+  },
+  {
+   "code": "LING6001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING1001",
+    "LING2040",
+    "LING6036",
+    "LING6521",
+    "LING8004"
+   ]
+  },
+  {
+   "code": "LING6002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING1002",
+    "LING8013"
+   ]
+  },
+  {
+   "code": "MATH2405",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR3002",
+    "ASTR3007",
+    "MATH3133",
+    "MATH6405"
+   ]
+  },
+  {
+   "code": "MATH3104",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MATH2222",
+    "MATH2322",
+    "MATH3345",
+    "MATH4204"
+   ]
+  },
+  {
+   "code": "MATH3116",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MATH2222",
+    "MATH2320",
+    "MATH3029",
+    "MATH3512",
+    "MATH3514"
+   ]
+  },
+  {
+   "code": "MATH3329",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR3002"
+   ]
+  },
+  {
+   "code": "MATH3343",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MATH4343",
+    "MATH8343"
+   ]
+  },
+  {
+   "code": "MATH6201",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MATH4201",
+    "MATH8201"
+   ]
+  },
+  {
+   "code": "MATH6202",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MATH4202",
+    "MATH8202"
+   ]
+  },
+  {
+   "code": "MATH6203",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MATH4343",
+    "MATH8343"
+   ]
+  },
+  {
+   "code": "MATH6204",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MATH4204",
+    "MATH8204"
+   ]
+  },
+  {
+   "code": "MEAS2104",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS1002"
+   ]
+  },
+  {
+   "code": "MEAS2107",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS2005"
+   ]
+  },
+  {
+   "code": "MEAS4001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS8105"
+   ]
+  },
+  {
+   "code": "MEAS4109",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS8109"
+   ]
+  },
+  {
+   "code": "MEAS4111",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS8111"
+   ]
+  },
+  {
+   "code": "MEAS4112",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS8112"
+   ]
+  },
+  {
+   "code": "MEAS4114",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS8114"
+   ]
+  },
+  {
+   "code": "MEAS4115",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS8115"
+   ]
+  },
+  {
+   "code": "MEAS4116",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS8116"
+   ]
+  },
+  {
+   "code": "MGMT7061",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MGMT8061"
+   ]
+  },
+  {
+   "code": "MGMT7062",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MGMT8063"
+   ]
+  },
+  {
+   "code": "MGMT7107",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MGMT8207"
+   ]
+  },
+  {
+   "code": "MKTG2001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MKTG3001",
+    "MKTG8060"
+   ]
+  },
+  {
+   "code": "MKTG2033",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MKTG3033"
+   ]
+  },
+  {
+   "code": "MKTG7027",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MKTG8027"
+   ]
+  },
+  {
+   "code": "MKTG7035",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MKTG8035"
+   ]
+  },
+  {
+   "code": "MKTG7060",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MKTG8060"
+   ]
+  },
+  {
+   "code": "MUSI1113",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI3327"
+   ]
+  },
+  {
+   "code": "MUSI2203",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI1501"
+   ]
+  },
+  {
+   "code": "MUSI2213",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI3327"
+   ]
+  },
+  {
+   "code": "MUSI2216",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI3317",
+    "MUSI6006"
+   ]
+  },
+  {
+   "code": "MUSI2221",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI1102"
+   ]
+  },
+  {
+   "code": "MUSI2223",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI2229"
+   ]
+  },
+  {
+   "code": "MUSI2224",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI2229"
+   ]
+  },
+  {
+   "code": "MUSI2226",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI1114"
+   ]
+  },
+  {
+   "code": "MUSI3310",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI2236",
+    "MUSI6007"
+   ]
+  },
+  {
+   "code": "MUSI3321",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI2230"
+   ]
+  },
+  {
+   "code": "MUSI6302",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI3302"
+   ]
+  },
+  {
+   "code": "MUSI7002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI8005"
+   ]
+  },
+  {
+   "code": "MUSI8001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI4402"
+   ]
+  },
+  {
+   "code": "NEUR8001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NEUR8010"
+   ]
+  },
+  {
+   "code": "NSPO8001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8006"
+   ]
+  },
+  {
+   "code": "NSPO8003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8006"
+   ]
+  },
+  {
+   "code": "NSPO8004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8012"
+   ]
+  },
+  {
+   "code": "NSPO8010",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8042"
+   ]
+  },
+  {
+   "code": "NSPO8011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8007"
+   ]
+  },
+  {
+   "code": "NSPO8013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8043"
+   ]
+  },
+  {
+   "code": "NSPO8021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8009"
+   ]
+  },
+  {
+   "code": "NSPO8022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8037"
+   ]
+  },
+  {
+   "code": "NSPO8023",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8049"
+   ]
+  },
+  {
+   "code": "NSPO8025",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8046"
+   ]
+  },
+  {
+   "code": "NSPO8026",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8044"
+   ]
+  },
+  {
+   "code": "NSPO8027",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8045"
+   ]
+  },
+  {
+   "code": "PASI2006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "WARS2004"
+   ]
+  },
+  {
+   "code": "PASI6005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PASI3005"
+   ]
+  },
+  {
+   "code": "PASI6006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "WARS2004"
+   ]
+  },
+  {
+   "code": "PERS3007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001",
+    "PERS1002",
+    "PERS2003",
+    "PERS2004",
+    "PERS3005",
+    "PERS3006"
+   ]
+  },
+  {
+   "code": "PERS6001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001"
+   ]
+  },
+  {
+   "code": "PERS6002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001",
+    "PERS1002"
+   ]
+  },
+  {
+   "code": "PERS6003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001",
+    "PERS1002",
+    "PERS2003"
+   ]
+  },
+  {
+   "code": "PERS6004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001",
+    "PERS1002",
+    "PERS2003",
+    "PERS2004"
+   ]
+  },
+  {
+   "code": "PERS6005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001",
+    "PERS1002",
+    "PERS2003",
+    "PERS2004",
+    "PERS3005"
+   ]
+  },
+  {
+   "code": "PERS6006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001",
+    "PERS1002",
+    "PERS2003",
+    "PERS2004",
+    "PERS3005",
+    "PERS3006"
+   ]
+  },
+  {
+   "code": "PERS6007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001",
+    "PERS1002",
+    "PERS2003",
+    "PERS2004",
+    "PERS3005",
+    "PERS3006"
+   ]
+  },
+  {
+   "code": "PHIL2080",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP2620",
+    "COMP6262",
+    "PHIL2150"
+   ]
+  },
+  {
+   "code": "PHIL2116",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PPEI2001"
+   ]
+  },
+  {
+   "code": "PHYS1013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN4548",
+    "ENGN4810",
+    "ENGN4820"
+   ]
+  },
+  {
+   "code": "PHYS2017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS2201"
+   ]
+  },
+  {
+   "code": "PHYS3001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS2201",
+    "PHYS3101"
+   ]
+  },
+  {
+   "code": "PHYS3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS3201"
+   ]
+  },
+  {
+   "code": "PHYS3029",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC2021"
+   ]
+  },
+  {
+   "code": "PHYS3031",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS3105",
+    "PHYS6105"
+   ]
+  },
+  {
+   "code": "PHYS3033",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS3105",
+    "PHYS6105"
+   ]
+  },
+  {
+   "code": "PHYS3034",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS2201"
+   ]
+  },
+  {
+   "code": "PHYS4100",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS3101",
+    "PHYS6013",
+    "PHYS6101"
+   ]
+  },
+  {
+   "code": "PHYS8016",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4011",
+    "ASTR8016"
+   ]
+  },
+  {
+   "code": "POLS1006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS2132"
+   ]
+  },
+  {
+   "code": "POLS1008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PPEI1001",
+    "PPEI2001"
+   ]
+  },
+  {
+   "code": "POLS2009",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3009"
+   ]
+  },
+  {
+   "code": "POLS2043",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3043"
+   ]
+  },
+  {
+   "code": "POLS2095",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3095"
+   ]
+  },
+  {
+   "code": "POLS2113",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3113"
+   ]
+  },
+  {
+   "code": "POLS2125",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3125"
+   ]
+  },
+  {
+   "code": "POLS2127",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3127"
+   ]
+  },
+  {
+   "code": "POLS2134",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3134"
+   ]
+  },
+  {
+   "code": "POLS2136",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3136"
+   ]
+  },
+  {
+   "code": "POLS3017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS2017"
+   ]
+  },
+  {
+   "code": "POPS2002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DEMO8008"
+   ]
+  },
+  {
+   "code": "PORT2001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PORT1001",
+    "PORT1002"
+   ]
+  },
+  {
+   "code": "PORT2002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LANG3007",
+    "PORT1001",
+    "PORT1002"
+   ]
+  },
+  {
+   "code": "PORT6501",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PORT1001"
+   ]
+  },
+  {
+   "code": "PORT6502",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PORT1001",
+    "PORT1002"
+   ]
+  },
+  {
+   "code": "PORT6503",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PORT1001",
+    "PORT1002"
+   ]
+  },
+  {
+   "code": "PORT6504",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PORT1001",
+    "PORT1002"
+   ]
+  },
+  {
+   "code": "PREH2011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN6013"
+   ]
+  },
+  {
+   "code": "PREH2037",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH2037",
+    "ARCH6037"
+   ]
+  },
+  {
+   "code": "PREH2050",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH2050"
+   ]
+  },
+  {
+   "code": "PREH2051",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HUMN2051",
+    "HUMN6051"
+   ]
+  },
+  {
+   "code": "PSYC2004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC3026"
+   ]
+  },
+  {
+   "code": "PSYC3001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC3026"
+   ]
+  },
+  {
+   "code": "PSYC3021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC3026"
+   ]
+  },
+  {
+   "code": "PSYC8012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8102"
+   ]
+  },
+  {
+   "code": "PSYC9011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8101",
+    "PSYC9411"
+   ]
+  },
+  {
+   "code": "PSYC9012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC9412"
+   ]
+  },
+  {
+   "code": "PSYC9013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8103",
+    "PSYC9413",
+    "PSYC9414"
+   ]
+  },
+  {
+   "code": "PSYC9014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8104",
+    "PSYC9414"
+   ]
+  },
+  {
+   "code": "PSYC9022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8202",
+    "PSYC9422"
+   ]
+  },
+  {
+   "code": "PSYC9023",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8203",
+    "PSYC9423"
+   ]
+  },
+  {
+   "code": "PSYC9024",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8204",
+    "PSYC9424"
+   ]
+  },
+  {
+   "code": "PSYC9201",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8201",
+    "PSYC9421"
+   ]
+  },
+  {
+   "code": "RUSS1003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "RUSS1102"
+   ]
+  },
+  {
+   "code": "SCOM2001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCOM2015"
+   ]
+  },
+  {
+   "code": "SCOM3001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCOM2031"
+   ]
+  },
+  {
+   "code": "SCOM3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCOM2016"
+   ]
+  },
+  {
+   "code": "SCOM8007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCOM3007",
+    "SCOM6007"
+   ]
+  },
+  {
+   "code": "SCOM8021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCOM6031"
+   ]
+  },
+  {
+   "code": "SCRN2108",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3108"
+   ]
+  },
+  {
+   "code": "SCRN6107",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCRN2107",
+    "SPAN2107"
+   ]
+  },
+  {
+   "code": "SOCR8007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCR8010"
+   ]
+  },
+  {
+   "code": "SOCY1005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM1001"
+   ]
+  },
+  {
+   "code": "SOCY2010",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GEND2034"
+   ]
+  },
+  {
+   "code": "SOCY2057",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GEND3057",
+    "SOCY3057"
+   ]
+  },
+  {
+   "code": "SOCY2058",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM3010"
+   ]
+  },
+  {
+   "code": "SOCY2063",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2009"
+   ]
+  },
+  {
+   "code": "SOCY2169",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCR4006",
+    "SOCR8006",
+    "SOCY3169"
+   ]
+  },
+  {
+   "code": "SOCY3014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCY2161"
+   ]
+  },
+  {
+   "code": "SOCY3016",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2003"
+   ]
+  },
+  {
+   "code": "SOCY6063",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2009"
+   ]
+  },
+  {
+   "code": "SOCY6065",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GEND2036",
+    "SOCY2026"
+   ]
+  },
+  {
+   "code": "SOCY6170",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCY2170"
+   ]
+  },
+  {
+   "code": "SOCY8004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS8046"
+   ]
+  },
+  {
+   "code": "SPAN2603",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN3603"
+   ]
+  },
+  {
+   "code": "SPAN3022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002",
+    "SPAN3001"
+   ]
+  },
+  {
+   "code": "SPAN3031",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002",
+    "SPAN3001"
+   ]
+  },
+  {
+   "code": "SPAN6022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002",
+    "SPAN3001"
+   ]
+  },
+  {
+   "code": "SPAN6501",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001"
+   ]
+  },
+  {
+   "code": "SPAN6502",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002"
+   ]
+  },
+  {
+   "code": "SPAN6503",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001"
+   ]
+  },
+  {
+   "code": "SPAN6504",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002"
+   ]
+  },
+  {
+   "code": "SPAN6507",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002",
+    "SPAN3001"
+   ]
+  },
+  {
+   "code": "SPAN6508",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002",
+    "SPAN3001",
+    "SPAN3012"
+   ]
+  },
+  {
+   "code": "SPAN6509",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002",
+    "SPAN3001"
+   ]
+  },
+  {
+   "code": "SPAN6510",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002",
+    "SPAN3001",
+    "SPAN3012",
+    "SPAN3030"
+   ]
+  },
+  {
+   "code": "SPAN6515",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN2102"
+   ]
+  },
+  {
+   "code": "SPAN6516",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN3603"
+   ]
+  },
+  {
+   "code": "SPAN6517",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCRN2107",
+    "SPAN2107"
+   ]
+  },
+  {
+   "code": "SRES2014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCY2043"
+   ]
+  },
+  {
+   "code": "STAT3008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "STAT3017"
+   ]
+  },
+  {
+   "code": "STAT3036",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "STAT3038"
+   ]
+  },
+  {
+   "code": "STAT3039",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "STAT8016"
+   ]
+  },
+  {
+   "code": "STAT4038",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "STAT6014",
+    "STAT7038"
+   ]
+  },
+  {
+   "code": "STAT6030",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "STAT3015",
+    "STAT4030"
+   ]
+  },
+  {
+   "code": "STAT6038",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FINM6015",
+    "STAT6014",
+    "STAT6016",
+    "STAT6017",
+    "STAT6029",
+    "STAT6042",
+    "STAT8002",
+    "STAT8130",
+    "STAT8140"
+   ]
+  },
+  {
+   "code": "STAT6039",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP8600",
+    "COMP8880",
+    "COMP8980",
+    "STAT6013",
+    "STAT6016",
+    "STAT6017",
+    "STAT6027",
+    "STAT6029",
+    "STAT6042",
+    "STAT6043",
+    "STAT7004",
+    "STAT8002",
+    "STAT8140"
+   ]
+  },
+  {
+   "code": "STAT6040",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "STAT6050"
+   ]
+  },
+  {
+   "code": "STAT7001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL8002",
+    "STAT6014",
+    "STAT6016",
+    "STAT6017"
+   ]
+  },
+  {
+   "code": "STAT7040",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "STAT3040",
+    "STAT4040",
+    "STAT6050"
+   ]
+  },
+  {
+   "code": "STST2124",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INTR2024"
+   ]
+  },
+  {
+   "code": "THAI6002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "THAI2002"
+   ]
+  },
+  {
+   "code": "THAI6502",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "THAI3002"
+   ]
+  },
+  {
+   "code": "TOKP6101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "TOKP2001"
+   ]
+  },
+  {
+   "code": "TOKP6102",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "TOKP2002"
+   ]
+  },
+  {
+   "code": "TURK6001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "TURK1001"
+   ]
+  },
+  {
+   "code": "TURK6002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "TURK1001",
+    "TURK1002"
+   ]
+  },
+  {
+   "code": "TURK6503",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "TURK1001",
+    "TURK1002",
+    "TURK2001"
+   ]
+  },
+  {
+   "code": "TURK6504",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "TURK1001",
+    "TURK1002",
+    "TURK2001",
+    "TURK2002"
+   ]
+  },
+  {
+   "code": "VCPG6005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4005"
+   ]
+  },
+  {
+   "code": "VCPG8138",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POGO8138"
+   ]
+  },
+  {
+   "code": "VCUG3005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4005"
+   ]
+  },
+  {
+   "code": "VCUG3200",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CBEA3001"
+   ]
+  },
+  {
+   "code": "WARS2003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA3088",
+    "ASIA6087"
+   ]
+  },
+  {
+   "code": "WARS6088",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA3088",
+    "ASIA6087"
+   ]
+  }
+ ],
+ "fellBackTo2025": [
+  "ANTH8038",
+  "ANTH8039",
+  "ARCH8002",
+  "ARCH8032",
+  "ASIA2100",
+  "ASIA2120",
+  "ASIA6026",
+  "ASIA6039",
+  "ASIA6040",
+  "ASIA6072",
+  "ASIA6074",
+  "ASIA6106",
+  "ASIA6116",
+  "ASIA6133",
+  "ASIA6176",
+  "ASIA6270",
+  "ASIA6308",
+  "ASIA6511",
+  "ASIA6516",
+  "BIOL1003",
+  "BIOL1004",
+  "BIOL6035",
+  "BIOL6036",
+  "BUSN6017",
+  "CECS6001",
+  "CECS6002",
+  "CECS8001",
+  "CECS8002",
+  "COMP4560",
+  "COMP7230",
+  "COMP7240",
+  "COMP8910",
+  "COMP8930",
+  "CRWF7000",
+  "ECON2080",
+  "ECON2091",
+  "ECON8013",
+  "ECON8038",
+  "EMSC6024",
+  "EMSC6032",
+  "ENGN8536",
+  "FINM2003",
+  "JPNS3006",
+  "JPNS3007",
+  "JPNS3008",
+  "JPNS3014",
+  "MATH1042",
+  "MGMT8242",
+  "MUSI1501",
+  "MUSI2235",
+  "MUSI7003",
+  "MUSI8005",
+  "PHIL2042",
+  "POLS2126",
+  "REGN8056",
+  "SKRT3003",
+  "SOCR4003",
+  "SOCR8003",
+  "STST1003",
+  "WARS2004",
+  "WARS6006"
+ ],
+ "outOfScopeCodes": [
+  {
+   "code": "BIOL2001",
+   "referencedBy": [
+    "BIOL3178"
+   ]
+  },
+  {
+   "code": "BIOL2114",
+   "referencedBy": [
+    "BIOL3178"
+   ]
+  },
+  {
+   "code": "BIOL2151",
+   "referencedBy": [
+    "BIOL3178"
+   ]
+  },
+  {
+   "code": "BIOL2202",
+   "referencedBy": [
+    "BIOL3178"
+   ]
+  },
+  {
+   "code": "EMSC2021",
+   "referencedBy": [
+    "ENVS3013"
+   ]
+  },
+  {
+   "code": "LAWS1201",
+   "referencedBy": [
+    "BUSN3014"
+   ]
+  },
+  {
+   "code": "LAWS2203",
+   "referencedBy": [
+    "BUSN3002"
+   ]
+  },
+  {
+   "code": "PHYS1001",
+   "referencedBy": [
+    "ENGN2222",
+    "ENGN4548",
+    "ENGN4810",
+    "ENGN4820"
+   ]
+  },
+  {
+   "code": "PHYS1101",
+   "referencedBy": [
+    "ENGN2222",
+    "ENGN4212",
+    "ENGN4548",
+    "ENGN4810",
+    "ENGN4820"
+   ]
+  }
+ ],
+ "deadCodes": [
+  {
+   "code": "COMP1030",
+   "referencedBy": [
+    "COMP3430"
+   ]
+  },
+  {
+   "code": "COMP1040",
+   "referencedBy": [
+    "COMP3430"
+   ]
+  },
+  {
+   "code": "ECON4413",
+   "referencedBy": [
+    "ECON8014"
+   ]
+  },
+  {
+   "code": "ENGN2225",
+   "referencedBy": [
+    "ENGN3410"
+   ]
+  },
+  {
+   "code": "ENGN2226",
+   "referencedBy": [
+    "ENGN3516"
+   ]
+  },
+  {
+   "code": "ENGN3221",
+   "referencedBy": [
+    "ENGN4200"
+   ]
+  },
+  {
+   "code": "FINM7041",
+   "referencedBy": [
+    "FINM6006",
+    "FINM8006"
+   ]
+  },
+  {
+   "code": "FINM8016",
+   "referencedBy": [
+    "FINM8100"
+   ]
+  },
+  {
+   "code": "MATH2405",
+   "referencedBy": [
+    "MATH3133"
+   ]
+  },
+  {
+   "code": "MATH3116",
+   "referencedBy": [
+    "MATH3029"
+   ]
+  },
+  {
+   "code": "PHYS1013",
+   "referencedBy": [
+    "ENGN4548",
+    "ENGN4810",
+    "ENGN4820"
+   ]
+  },
+  {
+   "code": "STAT3008",
+   "referencedBy": [
+    "STAT3017"
+   ]
+  },
+  {
+   "code": "STAT3036",
+   "referencedBy": [
+    "STAT3038"
+   ]
+  },
+  {
+   "code": "STAT6038",
+   "referencedBy": [
+    "FINM6015",
+    "STAT6016",
+    "STAT6017",
+    "STAT6029",
+    "STAT6042",
+    "STAT8002",
+    "STAT8130",
+    "STAT8140"
+   ]
+  },
+  {
+   "code": "STAT6039",
+   "referencedBy": [
+    "COMP8600",
+    "COMP8880",
+    "COMP8980",
+    "STAT6016",
+    "STAT6017",
+    "STAT6027",
+    "STAT6043",
+    "STAT7004",
+    "STAT8140"
+   ]
+  },
+  {
+   "code": "STAT6040",
+   "referencedBy": [
+    "STAT6050"
+   ]
+  },
+  {
+   "code": "STAT7001",
+   "referencedBy": [
+    "STAT6016",
+    "STAT6017"
+   ]
+  },
+  {
+   "code": "STAT7040",
+   "referencedBy": [
+    "STAT6050"
+   ]
+  }
+ ],
+ "droppedOfferings": [
+  {
+   "code": "COMP8999",
+   "raw": "Quarter 1 2026"
+  },
+  {
+   "code": "COMP8999",
+   "raw": "Quarter 2 2026"
+  },
+  {
+   "code": "COMP8999",
+   "raw": "Quarter 3 2026"
+  },
+  {
+   "code": "COMP8999",
+   "raw": "Quarter 4 2026"
+  },
+  {
+   "code": "CYBN8999",
+   "raw": "Quarter 1 2026"
+  },
+  {
+   "code": "CYBN8999",
+   "raw": "Quarter 2 2026"
+  },
+  {
+   "code": "CYBN8999",
+   "raw": "Quarter 3 2026"
+  },
+  {
+   "code": "CYBN8999",
+   "raw": "Quarter 4 2026"
+  },
+  {
+   "code": "ENGN8999",
+   "raw": "Quarter 1 2026"
+  },
+  {
+   "code": "ENGN8999",
+   "raw": "Quarter 2 2026"
+  },
+  {
+   "code": "ENGN8999",
+   "raw": "Quarter 3 2026"
+  },
+  {
+   "code": "ENGN8999",
+   "raw": "Quarter 4 2026"
+  }
+ ],
+ "noDescription": [
+  "CBEA5920",
+  "CBEA5921",
+  "ENGN4520",
+  "ENGN8820",
+  "ENGN9820"
+ ],
+ "parseStatusBySubject": {
+  "ACST": {
+   "none": 0,
+   "parsed": 4,
+   "partial": 4,
+   "unparsed": 2
+  },
+  "BIOL": {
+   "none": 0,
+   "parsed": 0,
+   "partial": 2,
+   "unparsed": 0
+  },
+  "BUSI": {
+   "none": 4,
+   "parsed": 4,
+   "partial": 1,
+   "unparsed": 5
+  },
+  "BUSN": {
+   "none": 4,
+   "parsed": 40,
+   "partial": 9,
+   "unparsed": 2
+  },
+  "CBEA": {
+   "none": 2,
+   "parsed": 0,
+   "partial": 6,
+   "unparsed": 1
+  },
+  "CECS": {
+   "none": 1,
+   "parsed": 3,
+   "partial": 0,
+   "unparsed": 0
+  },
+  "COMP": {
+   "none": 4,
+   "parsed": 85,
+   "partial": 30,
+   "unparsed": 9
+  },
+  "CYBN": {
+   "none": 0,
+   "parsed": 2,
+   "partial": 2,
+   "unparsed": 1
+  },
+  "ECHI": {
+   "none": 1,
+   "parsed": 2,
+   "partial": 0,
+   "unparsed": 0
+  },
+  "ECON": {
+   "none": 6,
+   "parsed": 50,
+   "partial": 12,
+   "unparsed": 25
+  },
+  "EMET": {
+   "none": 7,
+   "parsed": 8,
+   "partial": 7,
+   "unparsed": 3
+  },
+  "EMSC": {
+   "none": 0,
+   "parsed": 2,
+   "partial": 0,
+   "unparsed": 1
+  },
+  "ENGN": {
+   "none": 15,
+   "parsed": 67,
+   "partial": 16,
+   "unparsed": 7
+  },
+  "ENVS": {
+   "none": 9,
+   "parsed": 51,
+   "partial": 4,
+   "unparsed": 16
+  },
+  "EXCH": {
+   "none": 2,
+   "parsed": 0,
+   "partial": 0,
+   "unparsed": 0
+  },
+  "FINM": {
+   "none": 6,
+   "parsed": 17,
+   "partial": 13,
+   "unparsed": 6
+  },
+  "INDG": {
+   "none": 0,
+   "parsed": 1,
+   "partial": 0,
+   "unparsed": 0
+  },
+  "INFS": {
+   "none": 3,
+   "parsed": 9,
+   "partial": 2,
+   "unparsed": 1
+  },
+  "MATH": {
+   "none": 7,
+   "parsed": 27,
+   "partial": 11,
+   "unparsed": 26
+  },
+  "MGMT": {
+   "none": 29,
+   "parsed": 12,
+   "partial": 16,
+   "unparsed": 9
+  },
+  "MKTG": {
+   "none": 2,
+   "parsed": 9,
+   "partial": 5,
+   "unparsed": 3
+  },
+  "MMIB": {
+   "none": 5,
+   "parsed": 0,
+   "partial": 1,
+   "unparsed": 0
+  },
+  "PHIL": {
+   "none": 0,
+   "parsed": 1,
+   "partial": 0,
+   "unparsed": 0
+  },
+  "POGO": {
+   "none": 0,
+   "parsed": 1,
+   "partial": 0,
+   "unparsed": 0
+  },
+  "PPEI": {
+   "none": 0,
+   "parsed": 0,
+   "partial": 0,
+   "unparsed": 1
+  },
+  "SCNC": {
+   "none": 0,
+   "parsed": 1,
+   "partial": 0,
+   "unparsed": 0
+  },
+  "SCOM": {
+   "none": 4,
+   "parsed": 21,
+   "partial": 7,
+   "unparsed": 9
+  },
+  "STAT": {
+   "none": 3,
+   "parsed": 51,
+   "partial": 8,
+   "unparsed": 3
+  },
+  "WILC": {
+   "none": 0,
+   "parsed": 0,
+   "partial": 1,
+   "unparsed": 0
+  }
+ },
+ "needsReview": [
+  {
+   "code": "ACST4032",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have completed ACST4031and be enrolled in Bachelor of Actuarial Studies (Honours) (HACTS) or Bachelor of Social Sciences (Honours in Actuarial Studies and Economics) (ASSAE).\nIncompatible with ACST8041."
+  },
+  {
+   "code": "ACST4500",
+   "parseStatus": "unparsed",
+   "requisiteText": "Ths course is incompatible with ACST4600."
+  },
+  {
+   "code": "ACST8040",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed STAT6045. Incompatible with ACST4031.\n\nThis course is available to students enrolled in the Bachelor of Actuarial Studies, who have met the following requirements:\nHave completed at least 120 units of study;\nHave completed STAT3038;\nHave met the Actuaries Institute exemption standard for CM1, CS1 and CS2 or equivalent; and,\nHave a GPA of at least 6.\n\nStudents enrolled in the Bachelor of Actuarial Studies who have met these requirements and wish to enrol in this course should contact the program convener of the Bachelor of Actuarial Studies to request a permission code for enrollment."
+  },
+  {
+   "code": "ACST8041",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have completed STAT6045 and ACST8040.\nIncompatible with ACST4032.\n\nThis course is available to students enrolled in the Bachelor of Actuarial Studies who have completed ACST8040. See the details for that course for further information about requisites. Students enrolled in the Bachelor of Actuarial Studies who have met the requisites and wish to enrol in this course should contact the program convener of the Bachelor of Actuarial Studies to request a permission code for enrolment."
+  },
+  {
+   "code": "ACST8050",
+   "parseStatus": "unparsed",
+   "requisiteText": "Students entering this course must have completed at least 48 units of postgraduate study with a GPA of at least 5.0 and have arranged a supervisor for their essay."
+  },
+  {
+   "code": "ACST8500",
+   "parseStatus": "partial",
+   "requisiteText": "Students entering this course must have a GPA of at least 6.5 at time of application and have arranged a supervisor for their thesis.\nStudents who wish to undertake a Masters thesis should contact the course convenor once the above has been arranged to confirm their eligibility.\nImportant note for students: When 48 units remain in your program, you must register your intent to enrol in ACST8500 by contacting the Research School of Finance, Actuarial Studies and Statistics to ensure the correct enrolment in the semester prior to undertaking ACST8500."
+  },
+  {
+   "code": "BIOL3178",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, students must have successfully completed 72 units towards a degree including:\nat least one of: BIOL2131 or BIOL2114 or BIOL2151 or ENVS2001, and\none of: BIOL2001 or BIOL2202 or ENVS1003.\nIncompatible with BIOL6178"
+  },
+  {
+   "code": "BIOL6178",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be active in the Master of Science in Biological Sciences or the Master of Science (Advanced) in Biological Sciences, Master of Environmental Science, Master of Environmental Science (Advanced), Master of Environment, Master of Environment (Advanced).\nIncompatible with BIOL3178"
+  },
+  {
+   "code": "BUSI2023",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have:\n\ncompleted at least 48 units."
+  },
+  {
+   "code": "BUSI2024",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have:\n\ncompleted at least 48 units."
+  },
+  {
+   "code": "BUSI2034",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have:\n\ncompleted at least 48 units."
+  },
+  {
+   "code": "BUSI3024",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have:\n\ncompleted at least 48 units; and,\ncompleted BUSI2025 or MKTG2004 or BUSN2037."
+  },
+  {
+   "code": "BUSI3030",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have:\n\ncompleted at least 48 units."
+  },
+  {
+   "code": "BUSI4500",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in one of the following programs:\nBachelor of Business Administration (Honours) (HBUSA)\nBachelor of International Business (Honours) (HINBS)\nBachelor of Commerce (Honours) (HCOMM)\nand have agreement from a supervisor to supervise the research project and resulting thesis.\n\nYou will need to contact the Research School of Management (enquiries.rsm@anu.edu.au) to request a permission code to enrol in this course."
+  },
+  {
+   "code": "BUSN3002",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed BUSN2015 and must also have completed or currently be studying BUSN2101 or LAWS2203."
+  },
+  {
+   "code": "BUSN3014",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed BUSN1101, or both LAWS1204 and LAWS1201. Incompatible with LAWS2221 or LAWS4221."
+  },
+  {
+   "code": "BUSN6051",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be studying a Master of Accounting, Master of Professional Accounting, Master of Commerce (Advanced) or Graduate Certificate of Accounting, and have completed BUSN7008.\nTo enrol in this course, students in the Master of Applied Accounting must be studying or have completed BUSN7008.\nThis course is incompatible with BUSN3051 and BUSN7051."
+  },
+  {
+   "code": "BUSN7017",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, students in the Master of Applied Accounting must be concurrently enrolled in or have completed BUSN7008. To enrol in this course, students in other programs must have completed 24 units of courses.\n\nThis course is incompatible with BUSN3017 Corporate Social Responsibility, Accountability and Reporting and BUSN6017 Corporate Social Responsibility, Accountability and Reporting."
+  },
+  {
+   "code": "BUSN7031",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, students in the Master of Applied Accounting must be concurrently enrolled in or have completed BUSN7008. To enrol in this course, students in other programs must have completed BUSN7008.\n\nThis course is incompatible with BUSN2011 Management Accounting."
+  },
+  {
+   "code": "BUSN7054",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed BUSN7050 and be studying or have completed BUSN7057. This course is incompatible with BUSN3002."
+  },
+  {
+   "code": "BUSN7066",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, students in the Master of Applied Accounting must be concurrently enrolled or have completed BUSN7008. To enrol in this course, students in other programs must have completed BUSN7008.\n\nIncompatible with BUSN2037 and BUSN8066."
+  },
+  {
+   "code": "BUSN8003",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed BUSN7031.This course is incompatible with BUSN3003 and BUSN6003."
+  },
+  {
+   "code": "BUSN8045",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed 24 units of 6000, 7000 or 8000 level BUSN, ECON, FINM, MGMT or STAT courses. Incompatible with BUSN4045, BUSN7045 and BUSN8145."
+  },
+  {
+   "code": "BUSN8066",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, students in the Master of Accounting must have completed BUSN7008.\n\nTo enrol in this course, students in the Master of Applied Accounting must be concurrently enrolled or have completed BUSN7008."
+  },
+  {
+   "code": "BUSN8100",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have completed BUSN8007 or an equivalent subject taught within an Honours or Advanced Masters Degree."
+  },
+  {
+   "code": "CBEA2000",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in the course, students must have completed a minimum 24 units of their undergraduate studies"
+  },
+  {
+   "code": "CBEA2001",
+   "parseStatus": "partial",
+   "requisiteText": "24 units of study and must be enrolled in a CBE degree.\n\nPlease note if you’re in a Flexible Double Degree with a CBE program, you will need a permission code to enrol into this course, please contact info.cbe@anu.edu.au"
+  },
+  {
+   "code": "CBEA3001",
+   "parseStatus": "partial",
+   "requisiteText": "To be eligible for the Special Industry Project course, a student must be a current undergraduate student enrolled in an ANU academic program (including single or double degrees). The student must have completed a minimum of 72 units of their undergraduate studies. Students must not undertake CBEA3001 and CBEA3070/ANIP3003/ANIP3005/ANIP3007/VCUG3200 concurrently."
+  },
+  {
+   "code": "CBEA3003",
+   "parseStatus": "partial",
+   "requisiteText": "This course is open to all ANU undergraduate students who are currently enrolled in an ANU College of Business and Economics program. Students will be selected to enrol in the course following a competitive application process. Preference will be given to CBE students who have completed at least 96 units of their program at the time of applying. In addition to course tuition fees, a participation fee is required for the industry and community immersion component of the course.\n\nThe course will be incompatible with CBE Global Business Immersion (CBEA3066)."
+  },
+  {
+   "code": "CBEA3066",
+   "parseStatus": "partial",
+   "requisiteText": "This course is open to all ANU undergraduate students who are currently enrolled in an ANU College of Business and Economics program. Students will be selected to enrol in the course following competitive application process. Preference will be given to CBE students who have completed at least 96 units of their program at the time of applying. In addition to course tuition fees, a participation fee is required for the in-country immersion component of the course.\n\nIncompatible with CBEA3002 Social Enterprise Experience and CBEA3002 Australian and First Nations Business Immersion."
+  },
+  {
+   "code": "CBEA3070",
+   "parseStatus": "partial",
+   "requisiteText": "To be eligible for the CBE Internship Program, students must be a current undergraduate student enrolled in a CBE academic program (including single or double degrees).\n\nThe student must have completed a minimum 72 units of their undergraduate studies with GPA of 5.0 for their entire academic career.\n\nA student with a fail grade (N, NCN, WN) in the preceding semester is ineligible to apply. Any unresolved grades will be dealt with on a case-by-case basis. Students must not undertake CBEA3070 and CBEA3001 concurrently.\n\nNon-award and Exchange students are not eligible to apply for this course.\n\nPermission codes to enrol in the course will only be issued to students who are offered an internship placement through a competitive application process. Calls for applications are made approximately 3-4 months before the beginning of the semester. To apply for an internship, each prospective student must meet the eligibility requirements and have sufficient space in their programs of study for this course. To confirm eligibility, please contact the CBE Student Services team on info.cbe@anu.edu.au."
+  },
+  {
+   "code": "CBEA6070",
+   "parseStatus": "partial",
+   "requisiteText": "To be eligible for the CBE Internship Program, students must be a current postgraduate student enrolled in an eligible CBE academic program.\n\nAt the time of application, students must be enrolled in or have completed 24 units of study at the ANU. Students enrolled in an eligible 1 year Master program can only apply for a 6 unit internship.\n\nNon-award and Exchange students are not eligible to apply for this course.\n\nPermission codes to enrol in the course will only be issued to students who are offered an internship placement through a competitive application process. Calls for applications are made approximately 3-4 months before the beginning of the semester. To apply for an internship, each prospective student must meet the eligibility requirements and have sufficient space in their programs of study for this elective. To confirm eligibility, please contact the CBE Student Services team on info.cbe@anu.edu.au."
+  },
+  {
+   "code": "COMP2710",
+   "parseStatus": "partial",
+   "requisiteText": "Pre-requisite courses for the Advanced Topic will be listed on the Special Topics in Computing webpage when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions on the College webpage."
+  },
+  {
+   "code": "COMP3320",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed:\n(COMP2100 or COMP2300 or ENGN2219)\nAND\n(COMP1600 or 6 units of MATH courses (excluding MATH1003))\nIncompatible with COMP6464."
+  },
+  {
+   "code": "COMP3430",
+   "parseStatus": "partial",
+   "requisiteText": "Students are required to have completed introductory courses on databases, programming and algorithms.\nTo enrol in this course you must have completed\n6 units from COMP 1030 or COMP1100 or COMP1130 or COMP1730; AND\n6 units from COMP 1040 or COMP1110 or COMP1140; AND\nCOMP2400\nIncompatible with COMP8430 and COMP8930."
+  },
+  {
+   "code": "COMP3500",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener.\n\nYou must also be studying:\nBachelor of Engineering (Honours) in Software Engineering (AENSE) OR Bachelor of Computing (BCOMP) AND have completed:\nCOMP2100 AND\nCOMP2120\n\nYou are not able to enrol in this course if you have previously completed COMP3100 or if you have previously or are currently enrolled in COMP3820 or COMP4500 or COMP4820."
+  },
+  {
+   "code": "COMP3610",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed:\nCOMP2100 and\n(COMP1600 or 6 units of MATHS excluding MATH1003)\nIncompatible with COMP6361."
+  },
+  {
+   "code": "COMP3740",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree.\n\nStudents will receive a permission code by completing the steps listed on Enrolling in student projects including the Student Project Registration Form.\n\nCoSM students must be studying a CSCI-MAJ to enrol in this course and count 6 units towards their 3000-level COMP course requirement."
+  },
+  {
+   "code": "COMP3770",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol you must:\n\nbe studying Bachelor of Advanced Computing (Research and Development) AND\nhave successfully completed COMP2550 AND\nfind a project/supervisor AND\nhave received a permission code by having completed all the steps required for Enrolling in student projects including completing the Student Project Registration Form.\nFinding a project/supervisor is best done before the start of the semester you are intending to do this course."
+  },
+  {
+   "code": "COMP3820",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have successfully completed COMP2100 and COMP2120.\n\nYou will need to undergo competitive entry to enrol in this course, please see CECC webpage for more information.\n\nYou are not able to enrol in this course if you have previously completed or are currently enrolled in COMP3500."
+  },
+  {
+   "code": "COMP4011",
+   "parseStatus": "partial",
+   "requisiteText": "12 units of 3000 and/or 4000 level COMP courses.\n\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions Enrolling in CECC courses ."
+  },
+  {
+   "code": "COMP4020",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have completed COMP3900.\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the prerequisites can request a permission code from the College."
+  },
+  {
+   "code": "COMP4045",
+   "parseStatus": "partial",
+   "requisiteText": "12 units of 3000 and/or 4000 level COMP coded courses.\n\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions Enrolling in CECC courses."
+  },
+  {
+   "code": "COMP4350",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have either:\ncompleted 12 units of 2000-level COMP courses\nor\nhave completed 12 units of 2000-level MUSI, DESN or ARTV courses and have completed COMP1720\n\nIncompatible with COMP8350."
+  },
+  {
+   "code": "COMP4500",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener.\n\nYou also must be studying:\n\nBachelor of Advanced Computing (AACOM) AND have completed:\n\nCOMP2120 AND 12 units of 3000 and/or 4000 level courses.\n\nOR\n\nBachelor of Engineering (Honours) in Software Engineering (AENSE) AND have completed:\n\nCOMP3500.\n\nIncompatible with COMP4540 and COMP4550 and COMP4810 and COMP4820."
+  },
+  {
+   "code": "COMP4550",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must:\n\nHave completed or be currently enrolled in COMP4450 AND\n\nfind a project/supervisor AND\n\nhave a weighted average mark equivalent to an ANU 70 per cent calculated from the 36 units of courses with the highest marks in cognate disciplines (excluding 1000-level courses) AND\n\nhave received a permission code by having completed all the steps required for Enrolling in student projects including completing the Student Project Registration Form.\n\nIncompatible with COMP4500 and COMP4560 and COMP4810 and COMP4820."
+  },
+  {
+   "code": "COMP4560",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must must be studying a Bachelor of Advanced Computing 4716 or Bachelor of Advanced Computing/Science 4719.\n\nYou are not able to enrol in this course if you have previously completed COMP4500 or COMP4550 or COMP4810.\n\nStudents must complete the steps listed on Enrolling in student projects and complete the Student Project Registration Form to enrol."
+  },
+  {
+   "code": "COMP4620",
+   "parseStatus": "partial",
+   "requisiteText": "12 units of 3000 and/or 4000 level COMP courses.\n\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website (Special Topics in Computing page) when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions for Enrolling in CSS courses .\n\nIncompatible with COMP8620."
+  },
+  {
+   "code": "COMP4650",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed :\n(COMP1600 OR COMP2100)\nAND\n12 units of 3000/4000 level (COMP OR INFS courses).\n\nIncompatible with COMP6490."
+  },
+  {
+   "code": "COMP4680",
+   "parseStatus": "partial",
+   "requisiteText": "12 units of 3000 and/or 4000 level COMP courses.\n\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website (Special Topics in Computing page ) when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions for Enrolling in CECC courses.\n\nIncompatible with COMP8650."
+  },
+  {
+   "code": "COMP4820",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be studying a Bachelor of Advanced Computing AND have successfully completed:\nCOMP2100 AND 12 units of 3000 level COMP courses.\n\nIncompatible with COMP4500, COMP4550, COMP4560 and COMP4810.\n\nCompetitive entry based on application and interviews with Hosts."
+  },
+  {
+   "code": "COMP4880",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed COMP3670, or you must have completed all of the following: COMP1110 or COMP1140 and MATH1014 or MATH1115.\nIncompatible with COMP8880."
+  },
+  {
+   "code": "COMP6300",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nstudying a Master of Computing OR Master of Computing (Advanced)\n\nOR\n\nhave completed\n\nCOMP6710 OR COMP7710 OR COMP1110.\n\nIncompatible with COMP2300, ENGN2219 and COMP6719."
+  },
+  {
+   "code": "COMP6330",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nstudying a Master of Computing (Advanced)\n\nOR\n\nbe enrolled in or have completed COMP6300 or\n\nhave completed COMP2300 or ENGN2219.\n\nIncompatible with COMP3300."
+  },
+  {
+   "code": "COMP6361",
+   "parseStatus": "unparsed",
+   "requisiteText": ".To enrol in this course you must have successfully completed COMP6710 and COMP6260; or be enrolled in Master of Computing (Advanced)"
+  },
+  {
+   "code": "COMP6490",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be enrolled in\n\nVCOMP\n\nOR\n\nhave completed 6 units of: (COMP6240/2400 OR COMP6260/1600 OR COMP6442/2100)\n\nAND\n\nhave completed 6 units of: (COMP6730/1730 OR COMP6710/1110).\n\nIncompatible with COMP4650 and COMP6990."
+  },
+  {
+   "code": "COMP6710",
+   "parseStatus": "unparsed",
+   "requisiteText": "You are not able to enrol in this course if you are enrolled in the Master of Computing (Advanced).\nIncompatible with COMP1110 OR COMP1140 OR COMP7710."
+  },
+  {
+   "code": "COMP6780",
+   "parseStatus": "unparsed",
+   "requisiteText": "Incompatible with COMP1710\n\nTo enroll in this course students must be enrolled in a postgraduate program at ANU."
+  },
+  {
+   "code": "COMP8011",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have successfully completed 12 units of 6000-level COMP courses.\n\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions Enrolling in CECC courses."
+  },
+  {
+   "code": "COMP8020",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have completed COMP6390.\n\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the prerequisites can request a permission code from the College."
+  },
+  {
+   "code": "COMP8045",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have successfully completed 12 units of 6000-level COMP coded courses.\n\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions on Enrolling in CSS courses."
+  },
+  {
+   "code": "COMP8490",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be enrolled in\n\nMaster of Computing (Advanced)\nOR\n\nhave completed 6 units of: (COMP6240/2400 OR COMP6260/1600 OR COMP6442/2100)\nAND\nhave completed 6 units of: (COMP6730/1730 OR COMP6710/1110).\n\nIncompatible with COMP4650 and COMP6490 and COMP6990."
+  },
+  {
+   "code": "COMP8500",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must:\n\nbe enrolled in the Master of Computing AND\nhave successfully completed:\n(COMP6442 or COMP2100)\nAND (COMP8260 or COMP8280)\nAND be concurrently enrolled in or have successfully completed: COMP6120 or COMP2120\n\nOR\nbe enrolled in the Master of Machine Learning and Computer Vision AND\nhave successfully completed:\n(COMP6442 or COMP2100) AND (COMP6250 or COMP8260 or COMP8280)\n\nIncompatible with COMP8755 and COMP8830 and COMP8800 and COMP8715"
+  },
+  {
+   "code": "COMP8536",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be studying Master of Engineering or Master of Machine Learning and Computer Vision or Master of Computing (Advanced).\n\nStudents must have completed either COMP6710 or COMP6730 or equivalent."
+  },
+  {
+   "code": "COMP8620",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed COMP6320 or COMP3620.\n\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website (Special Topics in Computing page ) when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions for Enrolling in CSS courses .\n\nIncompatible with COMP4620."
+  },
+  {
+   "code": "COMP8650",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed COMP6670 Introduction to Machine Learning or COMP8600 Statistical Machine Learning.\n\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website (Special Topics in Computing page ) when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions for Enrolling in CECC courses."
+  },
+  {
+   "code": "COMP8715",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener.\n\nTo enrol in this course you must:\n\nbe enrolled in the Master of Computing AND\nhave successfully completed:\nCOMP6442 or COMP2100 AND\n(COMP8260 or COMP8280)\n\nOR\n\nbe enrolled in the Master of Machine Learning and Computer Vision AND\nhave successfully completed:\n(COMP6442 or COMP2100) AND\n(COMP6250 or COMP8260 or COMP8280)\n\nIncompatible with COMP8755 and COMP8830 and COMP8800"
+  },
+  {
+   "code": "COMP8800",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must:\n\nbe enrolled in the Master of Computing (Advanced) OR Master of Machine Learning and Computer Vision AND\n\nhave completed or be currently enrolled in COMP6445 AND\n\nhave completed (COMP8280 or COMP8260 or COMP6250) AND\n\nhave completed 36 units of COMP courses AND\n\nhave a GPA of 6 out of 7 AND\n\nreceive a permission code by completing the steps listed on Enrolling in student projects and having submitted the Student Project Registration Form.\n\nIncompatible with COMP8715 and COMP8830."
+  },
+  {
+   "code": "COMP8830",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must:\n\nBe enrolled in the Master of Computing (MCOMP)\nand have successfully completed:\nCOMP8260 and COMP6442\n\nOR\n\nBe enrolled in the Master of Machine Learning and Computer Vision (MMLCV)\nand have successfully completed:\nCOMP6710 and (COMP6250 OR COMP8260 )\n\nIncompatible with COMP8715 and COMP8755 and COMP8800.\n\nYou will need to undergo competitive entry to enrol in this course."
+  },
+  {
+   "code": "COMP8880",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed\nCOMP6670; OR\n(6 units of either COMP6710 or COMP6730 or COMP7230) and (either COMP8410 or COMP8910) and STAT6039.\nIncompatible with COMP4880 and COMP8980."
+  },
+  {
+   "code": "COMP8999",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be enrolled in a PhD or MPhil program offered by the College of Engineering, Computing and Cybernetics and meet the eligibility criteria for internship placements, which include an agreement with the host institution that has also been approved by the relevant College Authorities. You will need to seek permission prior to enroling in this course. Please refer to the link in the \"Other Information\" section for details."
+  },
+  {
+   "code": "CYBN8001",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be enrolled in the Master of Applied Cybernetics or Master of Applied Cybernetics (Advanced).\n\nSuccessful completion of CYBN8001 Building CPS Part I and CYBN6001 are required for enrolment in CYBN8001 Building CPS Part II.\n\nIncompatible with CECS8001."
+  },
+  {
+   "code": "CYBN8002",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be enrolled in the Masters of Applied Cybernetics program and have successfully completed CECS6001 or CYBN6001. Incompatible with CECS8002."
+  },
+  {
+   "code": "CYBN8999",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be enrolled in a PhD or MPhil program offered by the College of Engineering, Computing and Cybernetics and meet the eligibility criteria for internship placements, which include an agreement with the host institution that has also been approved by the relevant College Authorities. You will need to seek permission prior to enrolling in this course. Please refer to the link in the \"Other Information\" section for details."
+  },
+  {
+   "code": "ECON2013",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed 24 units of any courses."
+  },
+  {
+   "code": "ECON2026",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed 24 units of any courses."
+  },
+  {
+   "code": "ECON2091",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed or concurrent enrolment in ECON2101/2111 Microeconomics 2 (P or H) or equivalent."
+  },
+  {
+   "code": "ECON2102",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have completed ECON1102 (or ECON1100). You must also either have completed, or be currently enrolled in, ECON2101.\n\nIncompatible with ECON2016."
+  },
+  {
+   "code": "ECON2125",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have completed ECON1101 and ECON1102 (or ECON1100).\n\nTo enrol in this course you must also have completed at least one of EMET1001, MATH1014, MATH1113, or MATH1116.\n\nIncompatible with ECON6012 and ECON8013."
+  },
+  {
+   "code": "ECON2141",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed 24 units of any courses."
+  },
+  {
+   "code": "ECON3004",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have completed or are in concurrent enrolment of ECON2101 Microeconomics 2."
+  },
+  {
+   "code": "ECON3020",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have completed ECON2101 Microeconomics 2 (P) (or ECON2111 Microeconomics 2 (H) ) and ECON2102 Macroeconomics 2 (P) (or ECON2112 Macroeconomics 2 (H) or ECON2016 Economics II (H) )."
+  },
+  {
+   "code": "ECON3056",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must:\n- be enrolled in Bachelor of Politics, Philosophy and Economics\n- have completed 48 units of 1000 level courses\n- have completed ECON2101"
+  },
+  {
+   "code": "ECON3100",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have completed ECON2101 Microeconomics 2 (P) (or ECON2111 Microeconomics 2 (H) ) and ECON2102 Macroeconomics 2 (P) (or ECON2112 Macroeconomics 2 (H) or ECON2016 Economics II (H) )."
+  },
+  {
+   "code": "ECON3127",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have previously completed ECON2125 or equivalent. Incompatible with ECON4414 and ECON8014"
+  },
+  {
+   "code": "ECON3181",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have completed EMET1001 and ECON2101 (ECON2101 can be replaced by ECON2141 or ECON3152).\nThis course is incompatible with ECON6181 and ECON8055."
+  },
+  {
+   "code": "ECON4040",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be enrolled in HECON program."
+  },
+  {
+   "code": "ECON4414",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have previously completed ECON2125 or ECON4413 or equivalent. Incompatible with ECON3127 and ECON8014."
+  },
+  {
+   "code": "ECON4434",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must be studying a Bachelor of Economics (Honours) (HECON) or Bachelor of Politics, Philosophy and Economics (Honours) (HPPE) or Bachelor of Philosophy (Honours)—Humanities and Social Sciences (PhB)."
+  },
+  {
+   "code": "ECON4441",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be enrolled in Bachelor of Economics (Honours) (HECON) program. Incompatible with ECON8041."
+  },
+  {
+   "code": "ECON4492",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, students must have completed ECON2101, and have either completed or be concurrently enrolled in ECON2125."
+  },
+  {
+   "code": "ECON6012",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have previously completed ECON7073, ECON7074 and EMET7001.\n\nStudents enrolled in the Master of Statistics who have completed 48 units are considered to have met the pre-requisites for this course.\n\nIncompatible with ECON2125 and ECON8013."
+  },
+  {
+   "code": "ECON6034",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have completed or have concurrent enrollment in ECON8025 and either ECON8013 or ECON6012. This course is incompatible with ECON2131, ECON4434, and ECON8034."
+  },
+  {
+   "code": "ECON6037",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have completed the equivalent of or have concurrent enrolment in ECON8025 and ECON6012.\n\nIncompatible with ECON3006, ECON4437, and ECON8037."
+  },
+  {
+   "code": "ECON6041",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in ECON8025.\n\nIncompatible with ECON2009 , ECON4441, and ECON8041"
+  },
+  {
+   "code": "ECON6053",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed the equivalent of ECON6012. Incompatible with ECON3152, ECON3153, ECON4453, and ECON8053."
+  },
+  {
+   "code": "ECON6901",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in or both EMET8005 and ECON8025.\n\nThis course is incompatible with ECON2900 and ECON8901."
+  },
+  {
+   "code": "ECON8001",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enroll in this course, you must have completed ECON6012, ECON8025, ECON8026, and EMET8005, and you must be enrolled in the Master of Economics (MECON) program.\n\nIncompatible with ECON4493."
+  },
+  {
+   "code": "ECON8003",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in ECON8026 or ECON8025. Incompatible with ECON4403."
+  },
+  {
+   "code": "ECON8011",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have a 70% weighted average mark in ECON6012, ECON8025, ECON8026, and EMET8005 and be enrolled in the Master of Economics (MECON) program.\n\nMaster of Applied Economics (MAPEC) students with a 70% weighted average mark in the above four courses can apply for permission to enrol.\n\nIncompatible with ECON4411."
+  },
+  {
+   "code": "ECON8014",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have previously completed ECON2125 or ECON4413 or ECON8013 or equivalent. Incompatible with ECON3127 or ECON4414."
+  },
+  {
+   "code": "ECON8015",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in ECON8025 and either ECON8013 or ECON6012. Incompatible with ECON4437."
+  },
+  {
+   "code": "ECON8022",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have a 70% weighted average mark in ECON6012, ECON8025, ECON8026, and EMET8005 and be enrolled in the Master of Economics (MECON) program.\n\nMaster of Applied Economics (MAPEC) students with a 70% weighted average mark in the above four courses can apply for permission to enrol.\n\nIncompatible with ECON4422."
+  },
+  {
+   "code": "ECON8034",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed or have concurrent enrolment in ECON8025, and either of ECON8013 or ECON6012."
+  },
+  {
+   "code": "ECON8037",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in ECON8025 and either ECON8013 or ECON6012. Incompatible with ECON4437."
+  },
+  {
+   "code": "ECON8041",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in ECON8025. Incompatible with ECON4441."
+  },
+  {
+   "code": "ECON8050",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed or have concurrent enrolment in ECON8025 and ECON8026."
+  },
+  {
+   "code": "ECON8053",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed the equivalent of ECON8013. Incompatible with ECON3152 and ECON3153 and ECON4453."
+  },
+  {
+   "code": "ECON8091",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed, or have concurrent enrolment in ECON8025. Incompatible with ECON4491."
+  },
+  {
+   "code": "ECON8887",
+   "parseStatus": "unparsed",
+   "requisiteText": "To be eligible to enrol in this course students must attain an average grade of 80% across ECON8025, ECON8026, ECON8013 and EMET8005, and must secure an academic supervisor before the start of the semester."
+  },
+  {
+   "code": "ECON8901",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in either EMET2007 or EMET6007, or both EMET8005 and ECON8025."
+  },
+  {
+   "code": "EMET3004",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed ECON1101 Microeconomics 1; and have completed STAT2008 Regression Modelling or STAT2014 Regression Modelling for Actuaries or EMET2007 Econometrics I: Econometrics Methods. Incompatible with EMET6008."
+  },
+  {
+   "code": "EMET3007",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed EMET2007 Econometrics I: Econometric Methods or STAT2008 Regression Modelling or STAT2014 Regression Modelling for Actuaries. Incompatible with EMET8012."
+  },
+  {
+   "code": "EMET4301",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must be enrolled in one of the following programs:\n\nBachelor of Commerce (Honours)\nBachelor of Economics (Honours)\n\nTo enrol in this course, you will need to contact the Research School of Economics (enquiries.rse@anu.edu.au) to request a permission code.\n\nIncompatible with EMET3006, EMET6001 and EMET8001."
+  },
+  {
+   "code": "EMET6010",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have previously completed the equivalent of EMET8005. Incompatible with EMET3008, EMET4310, and EMET8010."
+  },
+  {
+   "code": "EMET6012",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed or have concurrent enrolment in EMET8005, or EMET6007. Incompatible with EMET3007 and EMET8012."
+  },
+  {
+   "code": "EMET8002",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed or have concurrent enrolment in EMET8005, and ECON8025 and ECON8026."
+  },
+  {
+   "code": "EMET8005",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed or have concurrent enrolment in EMET7001 and STAT7055.\n\nStudents enrolled in the Master of Statistics, or the Master of Actuarial Studies, who have completed at least 48 units are considered to have met the pre-requisites."
+  },
+  {
+   "code": "EMET8010",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have previously completed the equivalent of EMET8005. Incompatible with EMET3008."
+  },
+  {
+   "code": "EMET8012",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in EMET8005, or either EMET2007 or EMET6007 or STAT2008 or STAT2014. Incompatible with EMET3007."
+  },
+  {
+   "code": "EMET8014",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed or have concurrent enrolment in EMET8005 and ECON8013.."
+  },
+  {
+   "code": "EMSC2010",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, students must have completed 24 units of prior tertiary study."
+  },
+  {
+   "code": "ENGN2706",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must must be enrolled in the Bachelor of Engineering (Research and Development) program."
+  },
+  {
+   "code": "ENGN2707",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed ENGN2706 and be enrolled in the Bachelor of Engineering (Research and Development) program."
+  },
+  {
+   "code": "ENGN3200",
+   "parseStatus": "partial",
+   "requisiteText": "Internships are highly competitive. As intern positions become available, they will be advertised via the CSS website . Unless stated otherwise, students will need to demonstrate that they have completed a minimum of 96 units of Engineering program courses and have a minimum GPA of 5.0 in their studies. Other specific requirements may also apply, at the discretion of the Internship Host Organisation."
+  },
+  {
+   "code": "ENGN3350",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed a minimum of 72 units of tertiary study which must include MATH1005 or MATH1013 or MATH1113 or MATH1115.\n\nIncompatible with ENGN6350, ENGN3226, ENGN6626, COMP2610 and COMP6261."
+  },
+  {
+   "code": "ENGN3415",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have completed a minimum of 72 units of tertiary study which must include MATH1005 or MATH1013 or MATH1115.\nIncompatible with ENGN6415."
+  },
+  {
+   "code": "ENGN3706",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed ENGN2706 and be enrolled in the Bachelor of Engineering (Research and Development) program."
+  },
+  {
+   "code": "ENGN3712",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed ENGN2706 and be enrolled in the Bachelor of Engineering (Research and Development) program."
+  },
+  {
+   "code": "ENGN3820",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed 72 units of study, which must include either BIOL1004 or ENGN2217 or ENGN2218.\n\nIncompatible with MEDN3820 and MEDN6820."
+  },
+  {
+   "code": "ENGN3903",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed a minimum of 72 units of tertiary study, which must include:\n\nPHYS1001 or PHYS1101, and\nMATH1013 or MATH1115 or MATH1014 or MATH1116\nIncompatible with ENVS3903"
+  },
+  {
+   "code": "ENGN4300",
+   "parseStatus": "partial",
+   "requisiteText": "You must enrol in this course over two consecutive semesters.\nTo enrol in this course, you must have completed ENGN3300 and at least a further 18 units of ENGN3000/4000 courses.\nIncompatible with ENGN4221."
+  },
+  {
+   "code": "ENGN4350",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must\n• have a current minimum average mark (simple average of actual mark of all ANU courses completed at the time of enrolling in ENGN4350) of 70%; AND\n• at the commencement of the project, have completed ENGN3300 and at least a further 18 units of ENGN3000/4000 courses.\n\nIncompatible with ENGN4712.\n\nWe recommend all students to do ENGN4300 as it is the industry-relevant option, while ENGN4350 is the research-impact option. All ENGN4350 students must be engaged in a suitable project under the supervision of a competent supervisor. This requisite is evaluated through a project registration early in the commencement semester. Students who are unable to register a viable project may be unable to enrol in the course or may be excluded from the course. It is therefore strongly encouraged that students seek out a project and supervisor well ahead of their proposed commencement semester, to avoid disappointment."
+  },
+  {
+   "code": "ENGN4430",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have completed a minimum of 72 units of tertiary study including MATH1013 or MATH1115 or MATH1005. Incompatible with ENGN8430."
+  },
+  {
+   "code": "ENGN4528",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed\n\nENGN2228 AND (COMP1100 OR COMP1130 OR COMP1730))\n\nOR COMP2120\n\nOR COMP3600\n\nIncompatible with ENGN6528 and COMP4528 and COMP6528."
+  },
+  {
+   "code": "ENGN4549",
+   "parseStatus": "unparsed",
+   "requisiteText": "To take this course, students must successfully complete all of the following courses:\nPHYS1001 (Foundations of Physics) or PHYS1101 (Physics 1)\nMATH1013 (Mathematics and Applications 1) or MATH1115 (Advanced Maths and Applications 1)\nMATH1014 (Mathematics and Applications 2) or MATH1116 (Advanced Maths and Applications 2)\nENGN2222 (Engineering Thermodynamics)\nENGN2228 (Signals and Systems)"
+  },
+  {
+   "code": "ENGN4706",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed ENGN2706 and be enrolled in the Bachelor of Engineering (Research and Development) program."
+  },
+  {
+   "code": "ENGN4712",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed ENGN2706 and be enrolled in the Bachelor of Engineering (Research and Development) program. Incompatible with ENGN4350."
+  },
+  {
+   "code": "ENGN4718",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed ENGN2706 and be enrolled in the Bachelor of Engineering (Research and Development) program."
+  },
+  {
+   "code": "ENGN6200",
+   "parseStatus": "partial",
+   "requisiteText": "Permission to enrol must be obtained from the student's program convenor and the ENGN6200 course convenor, see above. Students must have completed a minimum of 48 units of postgraduate coursework, including ENGN6250 or ENGN8260 and have a minimum GPA of 5.0 in their studies. Other specific requirements may also apply, at the discretion of the Internship Host Organisation. You will need to contact the School of Engineering to request a permission code to enrol in this course."
+  },
+  {
+   "code": "ENGN8224",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be studying a Master of Engineering, and have completed ENGN3223 or ENGN6223 or an equivalent course in control systems."
+  },
+  {
+   "code": "ENGN8535",
+   "parseStatus": "unparsed",
+   "requisiteText": "Prerequisites - To enrol in this course you must be studying Master of Engineering."
+  },
+  {
+   "code": "ENGN8536",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be studying Master of Engineering in Robotics, Automation, and Control, Master of Engineering in Electrical Engineering, or Master of Machine Learning and Computer Vision."
+  },
+  {
+   "code": "ENGN8601",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you\n• must have a supervisor (affiliated with CECC) willing to supervise your project,\n• must obtain permission from the Master of Engineering program convenor.\n\nThis requisite is evaluated through a project registration early in the commencement semester. Students who are unable to register a viable project may be unable to enrol in the course or may be excluded from the course. It is therefore strongly encouraged that students seek out a project and supervisor well ahead of their proposed commencement semester, to avoid disappointment.\n\nIncompatible with ENGN8170 and ENGN8602"
+  },
+  {
+   "code": "ENGN8999",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be enrolled in a PhD or MPhil program offered by the College of Engineering, Computing and Cybernetics and meet the eligibility criteria for internship placements, which include an agreement with the host institution that has also been approved by the relevant College Authorities. You will need to seek permission prior to enroling in this course. Please refer to the link in the \"Other Information\" section for details."
+  },
+  {
+   "code": "ENVS1008",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be active in the Bachelor of Environment and Sustainability"
+  },
+  {
+   "code": "ENVS2002",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed 24 units including ENVS1003.\n\nIncompatible with ENVS6202."
+  },
+  {
+   "code": "ENVS2004",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed 24 units towards a degree which must include 12 units of courses from the subject area ASTR, BIOL, CHEM, PSYC, PHYS, EMSC, ENVS, MEDN, NEUR, SCOM, MATH, POPH.\n\nIncompatible with ENVS6204."
+  },
+  {
+   "code": "ENVS2018",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed 24 units towards a degree including (ENVS1003 or STAT1003).\n\nIncompatible with ENVS6218."
+  },
+  {
+   "code": "ENVS2020",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed 24 units towards a degree which must include 12 units of courses from the Science courses list (from the subject area ASTR, BIOL, CHEM, PSYC, PHYS, EMSC, ENVS, SCOM, MATH, POPH). Incompatible with ENVS6022."
+  },
+  {
+   "code": "ENVS2023",
+   "parseStatus": "unparsed",
+   "requisiteText": "Completion of 48 units towards a degree.\n\nIncompatible with ENVS6223."
+  },
+  {
+   "code": "ENVS3003",
+   "parseStatus": "unparsed",
+   "requisiteText": ".To enrol in this course you must have completed 72 units of tertiary study."
+  },
+  {
+   "code": "ENVS3007",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree which must include a minimum of 6 units from ENVS or SOCY coded courses.\n\nIncompatible with ENVS6021."
+  },
+  {
+   "code": "ENVS3013",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree including ENVS2004 or EMSC2021.\nIncompatible with ENVS6303."
+  },
+  {
+   "code": "ENVS3015",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree.\n\nIncompatible with ENVS6315. Incompatible with LAWS2101 Foundations of Australian Law or equivalent.\n\nNot available to students enrolled in, or holding an LLB, JD or other law degree program"
+  },
+  {
+   "code": "ENVS3029",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree including 12 units of 2000 or 3000 level ARCH, BIOL, EMSC or ENVS courses.\nIncompatible with ENVS6529."
+  },
+  {
+   "code": "ENVS3042",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree which must include ENVS2023 or ENVS2024.\nIncompatible with ENVS6342."
+  },
+  {
+   "code": "ENVS3045",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed 72 units towards a degree including ENVS2015.\nIncompatible with ENVS3019 and ENVS6319."
+  },
+  {
+   "code": "ENVS3100",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed 96 units towards an undergraduate degree which must include:\n\n30 units of courses at 2000 and/or 3000 level, with Credit average performance in 2000 and 3000 level ENVS courses; and\nDistinction level performance in courses related to the proposed research project."
+  },
+  {
+   "code": "ENVS3903",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed a minimum of 72 units of tertiary study, which must include:\nPHYS1001 or PHYS1101, and\nMATH1013 or MATH1115 or MATH1014 or MATH1116\n\nIncompatible with ENGN3903"
+  },
+  {
+   "code": "ENVS4000",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be active in the Environment Honours Specialisation"
+  },
+  {
+   "code": "ENVS6202",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed ENVS6103 or equivalent.\n\nIncompatible with ENVS2002"
+  },
+  {
+   "code": "ENVS6315",
+   "parseStatus": "unparsed",
+   "requisiteText": "Not available to students enrolled in, or holding an LLB, JD or other law degree program.\nIncompatible with ENVS3015 and LAWS2101 or equivalent."
+  },
+  {
+   "code": "ENVS6342",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course students should have either completed ENVS6223 or ENVS6224.\n\nIncompatible ENVS3042."
+  },
+  {
+   "code": "ENVS8013",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course must have completed ENVS8003.\n\nSuccessfully completion of the theory course ENVS8003 is a prerequisite for this ENVS8013 research course, unless the course convener in exceptional circumstances is prepared to wave this requirement based on a student demonstrating requisite knowledge and experience."
+  },
+  {
+   "code": "FINM3006",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have completed:\n\nFINM2001;\n\nFINM2002; and,\n\nFINM2003 or FINM3011."
+  },
+  {
+   "code": "FINM3008",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have completed:\n\nFINM2001; and,\n\nFINM2003 or FINM3011.\n\nIncompatible with FINM6016."
+  },
+  {
+   "code": "FINM3015",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have completed:\n\nSTAT2008; and,\n\nFINM2003 or FINM3011."
+  },
+  {
+   "code": "FINM3045",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have completed:\n\nFINM1001;\n\nFINM2001;\n\nFINM2002; and,\n\nFINM2003 or FINM3011.\n\nIncompatible with FINM6045."
+  },
+  {
+   "code": "FINM4015",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be completing the Finance honours specialisation."
+  },
+  {
+   "code": "FINM4017",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be completing the Finance honours specialisation."
+  },
+  {
+   "code": "FINM4106",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be enrolled in the honours Finance specialisation or a Bachelor of Actuarial Studies (Honours)."
+  },
+  {
+   "code": "FINM6005",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed STAT7055, FINM7006, FINM7007 and either BUSN8181 or BUSN7008.You are not able to enrol in this course if you have previously completed FINM3005 or FINM7044."
+  },
+  {
+   "code": "FINM6016",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have completed FINM7006, FINM7007, FINM7008. Incompatible with FINM3008 and FINM8016."
+  },
+  {
+   "code": "FINM6041",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed STAT7055, FINM7006, and either BUSN8181 or BUSN7008. Students of M. Actuarial Studies, M. Actuarial Practice and M. Statistics only need to complete FINM7006 and BUSN7008 to enrol in this course. Students of M. Financial Economics only need to complete FINM7006 and STAT7055 to enrol in this course. Incompatible with FINM2002."
+  },
+  {
+   "code": "FINM7007",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed or be enrolled in STAT7055 and completed FINM7006 and completed BUSN7008 or BUSN8181.\n\nStudents of M. Actuarial Studies, M. Actuarial Practice and M. Statistics only need to complete FINM7006 and BUSN7008 to enrol in this course.\n\nStudents of M. Financial Economics only need to complete FINM7006 and STAT7055 to enrol in this course.\n\nYou are not able to enrol in this course if you have completed FINM2001."
+  },
+  {
+   "code": "FINM7008",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have completed FINM7006, STAT7055 and BUSN7008.\n\nStudents of M. Actuarial Studies, M. Actuarial Practice and M. Statistics only need to complete FINM7006 and BUSN7008.\n\nStudents of M. Financial Economics only need to complete FINM7006 and STAT7055 to enrol in this course.\n\nYou are not able to enrol in this course if you have completed FINM2003 or FINM3011."
+  },
+  {
+   "code": "FINM8006",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have completed FINM7007, FINM7008 and FINM7041/ FINM6041 or be a student of the Master of Financial Economics who has completed FINM7007 and FINM7008. Incompatible with FINM4106."
+  },
+  {
+   "code": "FINM8018",
+   "parseStatus": "partial",
+   "requisiteText": "To be eligible to enroll in the course, students must be enrolled in an RSFAS or RSE PhD program and have successfully completed undergraduate studies in Investments or its equivalent at a recognized academic institution. Masters students in Finance with a GPA of 6.5 who have completed FINM7008, FINM7007 and FINM7041 may also apply to enroll in the course. This course will be a departmental consent enrollment course."
+  },
+  {
+   "code": "FINM8019",
+   "parseStatus": "partial",
+   "requisiteText": "To be eligible to enroll in the course, students must be enrolled in an RSFAS or RSE PhD program and have successfully completed undergraduate studies in Investments or its equivalent at a recognized academic institution. Masters students in Finance with a GPA of 6.5 who have completed FINM7008, FINM7007 and FINM7041 may also apply to enroll in the course. This course will be a departmental consent enrollment course."
+  },
+  {
+   "code": "FINM8020",
+   "parseStatus": "partial",
+   "requisiteText": "To be eligible to enroll in the course, students must be enrolled in an RSFAS or RSE PhD program and have successfully completed undergraduate studies in Corporate Finance or its equivalent at a recognised academic institution. Masters students in Finance with a GPA of 6.5 who have completed FINM7008, FINM7007 and FINM7041 may also apply to enroll in the course."
+  },
+  {
+   "code": "FINM8021",
+   "parseStatus": "partial",
+   "requisiteText": "To be eligible to enroll in the course, students must be enrolled in an RSFAS or RSE PhD program and have successfully completed undergraduate studies in Corporate Finance or its equivalent at a recognised academic institution. Masters students in Finance with a GPA of 6.5 who have completed FINM7008, FINM7007 and FINM7041 may also apply to enroll in the course."
+  },
+  {
+   "code": "FINM8100",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must be a student of Master of Finance who has completed either FINM6016 or FINM8016, or a student of Master of Financial Economics who has completed FINM7007 and FINM7008."
+  },
+  {
+   "code": "FINM8500",
+   "parseStatus": "partial",
+   "requisiteText": "Students entering this course must have a GPA of at least 6.5 at time of application and have arranged a supervisor for their thesis.\nStudents who wish to undertake a Masters thesis should contact the course convenor once the above has been arranged to confirm their eligibility.\nImportant note for students: When 48 units remain in your program, you must register your intent to enrol in FINM8500 by contacting the Research School of Finance, Actuarial Studies and Statistics to ensure the correct enrolment in the semester prior to undertaking FINM8500."
+  },
+  {
+   "code": "INFS4500",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in one of the following programs:\nBachelor of Business Administration (Honours) (HBUSA)\nBachelor of Commerce (Honours) (HCOMM)\nand have agreement from a supervisor to supervise the research project and resulting thesis.\n\nYou will need to contact the Research School of Management (enquiries.rsm@anu.edu.au) to request a permission code to enrol in this course."
+  },
+  {
+   "code": "INFS8202",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in one of the following programs:\nMaster of Business Information system (MBINS)\n\nPermission to enrol in this course will only be by invitation of the Course Convenor.\n\nMBINS students who have a GPA of 6.0 or higher and have completed at least 48 units of study, are welcome to submit an expression of interest to the Course Convenor for consideration."
+  },
+  {
+   "code": "INFS8211",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be enrolled in the MDTE - Master of Digital Transformation & Entrepreneurship program.\nYou are not able to enrol in this course if you previously completed INFS8210 - Business Analytics."
+  },
+  {
+   "code": "MATH1116",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed MATH1115 with a mark of 60 or above or MATH1113 with a mark of 80 or above. You may not enrol in MATH1116 if you have previously completed, or are attempting to concurrently enrol in, MATH1014.\n\nYou may not enrol in MATH1116 if you have previously completed MATH1014."
+  },
+  {
+   "code": "MATH2222",
+   "parseStatus": "partial",
+   "requisiteText": "Students with excellent results in either the ACT Specialist Mathematics double major, NSW HSC Mathematics Extension 2 or equivalent may take this course together with MATH1115 in the first year. For many students taking MATH1115 in their first year, MATH1005 would be a more appropriate companion choice. If you are not sure which courses to take in your first year, please consult the MSI First-year Coordinator.\n\nAll other students may enrol in this course if they have completed MATH1116 with a mark of at least 50, or MATH1113 with a mark of at least 60, or MATH1005 with a mark of at least 70, or MATH1013 or MATH1014 with a mark of at least 80.\n\nIncompatible: MATH2322, MATH3104, MATH2320, MATH3116 or MATH6222."
+  },
+  {
+   "code": "MATH2305",
+   "parseStatus": "partial",
+   "requisiteText": "If you have successfully completed MATH1113 with a mark of at least 80 and are currently enrolled in MATH1014, then you may enrol in this course. Otherwise to enrol in this course you must have successfully completed either MATH1116 or MATH1014. Students who have achieved a mark of over 80 in MATH1013 may enrol in this course with a concurrent enrolment in MATH1014.\n\nIncompatible: MATH6405"
+  },
+  {
+   "code": "MATH2307",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have successfully completed 12 units of 1000 levels Mathematics (MATH) courses including either MATH1014 or MATH1116. You are not able to enrol in this course if you have completed MATH6100."
+  },
+  {
+   "code": "MATH2320",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed MATH1116 with a mark of 60 or above. You are not able to enrol in this course if you have previously completed MATH3116."
+  },
+  {
+   "code": "MATH2322",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed MATH1116 with a mark of at least 60.\n\nStudents who are concurrently enrolled in MATH1116 and have completed at least one of MATH1115 with a mark of at least 90 or MATH2222 with a mark of at least 90, can contact the course convener to request a permission code.\n\nIncompatible: MATH3104 and MATH6118"
+  },
+  {
+   "code": "MATH3062",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed any 2000 or 3000 level Mathematics (MATH) course with a mark of 60 or greater or MATH1116 with a mark of 80 or greater. Incompatible with MATH6116."
+  },
+  {
+   "code": "MATH3228",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed MATH2320 with a mark of 60 and above."
+  },
+  {
+   "code": "MATH3301",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed:\n\n*MATH1014 with a mark of at least 80 and 72 units of tertiary study, which must include a minimum of 24 units of MATH coded courses, or\n*MATH1116 with a mark of at least 60 and 72 units of tertiary study, which must include a minimum of 24 units of MATH coded courses, or\nAt least 1x 2000- or 3000- level MATH course\n\nIncompatible: MATH6114."
+  },
+  {
+   "code": "MATH3320",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed MATH2320 with a mark of 60 or above.\n\nIncompatible: MATH6212"
+  },
+  {
+   "code": "MATH3325",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed MATH3320 with a mark of 60 or above. Incompatible with MATH6214."
+  },
+  {
+   "code": "MATH3342",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed MATH2320 with a mark of 60 and above.\n\nIncompatible: MATH6212"
+  },
+  {
+   "code": "MATH3345",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed either MATH2322 or MATH3104 with a mark of 60 and above."
+  },
+  {
+   "code": "MATH3351",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed:\nMATH2306 (Applied Mathematics II) with a mark of 60 or above\nAND either\nMATH2322 (Advanced Algebra 1)\nMATH2320 (Advanced Analysis 1)\nIncompatible with MATH6211."
+  },
+  {
+   "code": "MATH3353",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed MATH2305, MATH2307, and either STAT1003 or STAT1008. Incompatible with MATH6208."
+  },
+  {
+   "code": "MATH3501",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have successfully completed either 12 units of other 2000-level Mathematics (MATH) courses with a mark of 60 or above, or MATH2305. Incompatible with MATH6103."
+  },
+  {
+   "code": "MATH3512",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed either MATH2305, MATH 2405, MATH2320, MATH3116 or MATH3511 with a mark of 60 and above. Incompatible with MATH6112."
+  },
+  {
+   "code": "MATH3514",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed either MATH2305, MATH 2405, MATH2320, MATH3116 or MATH3511 with a mark of 60 and above. You are not able to enrol in this course if you have completed MATH6119."
+  },
+  {
+   "code": "MATH4201",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you need to be undertaking the MATH-HSPC Honours specialisation.\nIncompatible with MATH6201 and MATH8201."
+  },
+  {
+   "code": "MATH4202",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you need to be undertaking the MATH-HSPC Honours specialisation.\nTo enrol in this course you must have successfully completed MATH3320 with a mark of 60 or above.\nIncompatible with MATH6202 and MATH8202."
+  },
+  {
+   "code": "MATH4204",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you need to be undertaking the MATH-HSPC Honours specialisation.\nTo enrol in this course you must have successfully completed MATH2322 or MATH3104 and completion of one of MATH3345, MATH3320 or MATH3342.\nIncompatible with MATH6204 and MATH8204."
+  },
+  {
+   "code": "MATH4343",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you need to be undertaking the MATH-HSPC Honours specialisation.\nIncompatible with MATH3343, MATH6203 and MATH8343."
+  },
+  {
+   "code": "MATH6005",
+   "parseStatus": "unparsed",
+   "requisiteText": "CECS students must be enrolled in a Graduate Diploma of Computing or a Master of Computing to enrol in this course.\n\nIncompatible: MATH1005"
+  },
+  {
+   "code": "MATH6103",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed either MATH2305 or equivalent, or 12 units of 2000-8000-level Mathematics (MATH) courses.\n\nIncompatible with MATH3501"
+  },
+  {
+   "code": "MATH6110",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, students should have tertiary knowledge of mathematics equivalent to MATH1116."
+  },
+  {
+   "code": "MATH6115",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you should have completed the equivalent of MATH6109/3029 or MATH6212/3320. You are not able to enrol in this course if you have completed MATH3015."
+  },
+  {
+   "code": "MATH6118",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you should have an earned mark of 60+ in a course equivalent to MATH1116.\n\nA permission code is required to enrol in this course."
+  },
+  {
+   "code": "MATH6208",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed MATH2305/6405, MATH2307/6100 or equivalent, and either STAT1003 or STAT1008 or BIOL2202/6202 or equivalent\n\nIncompatible with MATH3353"
+  },
+  {
+   "code": "MATH6211",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have obtained a mark of 60 or above in MATH6406 (Applied Mathematics II) and in at least one of MATH6118 (Advanced Algebra 1) and MATH6110 (Advanced Analysis 1).\nIncompatible with MATH3351."
+  },
+  {
+   "code": "MATH6212",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you should have an earned mark of 60+ in a course equivalent to MATH2320/MATH6110 or equivalent.\n\nIncompatible: MATH3320"
+  },
+  {
+   "code": "MATH6213",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you should have an earned mark of 60+ in a course equivalent to MATH2320/MATH6110. Students with a mark of 50-59 in a course equivalent to MATH2320/MATH6110 should consult with the convener regarding the suitability of this course."
+  },
+  {
+   "code": "MATH6214",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have successfully completed the equivalent of MATH6212/3320 with a mark of 60 or above. Incompatible with MATH3325."
+  },
+  {
+   "code": "MATH6405",
+   "parseStatus": "unparsed",
+   "requisiteText": "Pre-requisite: to enrol in this course you must have completed undergraduate mathematics courses equivalent to MATH1013 and MATH1014, as determined by the Mathematics Masters Convenor.\n\nIncompatible: MATH2305, MATH2405"
+  },
+  {
+   "code": "MATH8201",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you need to be active in one of the following programs: the Master of Science in Mathematical Sciences, the Master of Mathematical Sciences (Advanced), the Master of Science in Astronomy and Astrophysics, or the Master of Science in Astronomy and Astrophysics (Advanced).\n\nIncompatible with MATH6201 and MATH4201."
+  },
+  {
+   "code": "MATH8202",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you need to be enroled in the Master of Science in Mathematical Sciences, Master of Mathematical Sciences (Advanced), the Master of Science in Astronomy and Astrophysics, or the Master of Science in Astronomy and Astrophysics (Advanced) and must have completed either MATH3320 with a mark of 60 or above or MATH6212 with a mark of 60 or above (or their equivalent).\n\nIncompatible with MATH6202 and MATH4202."
+  },
+  {
+   "code": "MATH8204",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you need to be enrolled in the Master of Science in Mathematical Sciences or the Master of Mathematical Sciences (Advanced).\nTo enrol in this course you must have successfully completed MATH6118 and of one of (MATH6215, MATH6212or MATH6205) or equivalent.\nIncompatible with MATH6204 and MATH4204."
+  },
+  {
+   "code": "MATH8343",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you need to be active in the Master of Mathematical Sciences (Advanced) or Master of Science in Mathematical Sciences.\nIncompatible with MATH3343, MATH4343 and MATH6203."
+  },
+  {
+   "code": "MGMT3002",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have:\n\ncompleted at least 72 units."
+  },
+  {
+   "code": "MGMT3021",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have:\n\ncompleted at least 72 units."
+  },
+  {
+   "code": "MGMT3025",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have:\ncompleted at least 48 units; and,\ncompleted BUSI2025 or MGMT2030.\nYou are not able to enrol in this course if you have previously completed BUSN3025."
+  },
+  {
+   "code": "MGMT3102",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have:\ncompleted MGMT2001; or,\ncompleted at least 48 units."
+  },
+  {
+   "code": "MGMT4019",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in one of the following programs:\nBachelor of Business Administration (Honours) (HBUSA)\nBachelor of International Business (Honours) (HINBS)\nBachelor of Commerce (Honours) (HCOMM)\nand have successfully completed STAT1008 or MGMT2003 (or equivalent)\n\nYou will need to contact the Research School of Management (enquiries.rsm@anu.edu.au) to request a permission code to enrol in this course.\n\nYou are not able to enrol in this course if you have previously completed MGMT8019."
+  },
+  {
+   "code": "MGMT4500",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in one of the following programs:\nBachelor of Business Administration (Honours) (HBUSA)\nBachelor of Commerce (Honours) (HCOMM)\nand have agreement from a supervisor to supervise the research project and resulting thesis.\n\nYou will need to contact the Research School of Management (enquiries.rsm@anu.edu.au) to request a permission code to enrol in this course."
+  },
+  {
+   "code": "MGMT7008",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be enrolled in the MDTE - Master of Digital Transformation & Entrepreneurship program.\nYou are not able to enrol in this course if you previously completed BUSI7280 - Managing in a Global Context."
+  },
+  {
+   "code": "MGMT8007",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be enrolled in and have completed at least 48 units (including MGMT7250) towards one of the following Research School of Management postgraduate programs, or by permission from the Research School of Management:\n\nMaster of Business Administration - MBADM\nMaster of Business Administration (Advanced) – VBADM"
+  },
+  {
+   "code": "MGMT8008",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be enrolled in the MDTE - Master of Digital Transformation & Entrepreneurship program.\nYou are not able to enrol in this course if you previously completed MGMT8242 - Business Growth Strategies."
+  },
+  {
+   "code": "MGMT8009",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be enrolled in the MDTE - Master of Digital Transformation & Entrepreneurship program.\nYou are not able to enrol in this course if you previously completed MGMT8022 - Strategic Management."
+  },
+  {
+   "code": "MGMT8010",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be enrolled in the MDTE - Master of Digital Transformation & Entrepreneurship program.\nYou are not able to enrol in this course if you previously completed MGMT8003 - Organisational Behaviour."
+  },
+  {
+   "code": "MGMT8019",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in one of the following programs:\nDoctor of Philosophy (PhD) within a Research School of Management discipline area\nMaster of Philosophy (MPhil) within a Research School of Management discipline area\nMaster of Management (Advanced)\nand have successfully completed STAT7055 (or equivalent)\n\nYou will need to contact the Research School of Management (enquiries.rsm@anu.edu.au) to request a permission code to enrol in this course.\n\nYou are not able to enrol in this course if you have previously completed MGMT4019."
+  },
+  {
+   "code": "MGMT8101",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in the Master of Business Administration (MBUSA)\nand have successfully completed MGMT8101.\n\nIf you have questions about enrolling, please contact the RSM School Office at mba@anu.edu.au."
+  },
+  {
+   "code": "MGMT8102",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in the Master of Business Administration (MBUSA)\nand have successfully completed MGMT8101.\n\nIf you have questions about enrolling, please contact the RSM School Office at mba@anu.edu.au."
+  },
+  {
+   "code": "MGMT8103",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in the Master of Business Administration (MBUSA)\nand have successfully completed MGMT8102.\n\nPermission to enrol in this course will be provided by the Research School of Management (RSM). If you have questions about enrolling, please contact the RSM School Office at mba@anu.edu.au."
+  },
+  {
+   "code": "MGMT8104",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in the Master of Business Administration (MBUSA)\nand have successfully completed MGMT8103.\n\nPermission to enrol in this course will be provided by the Research School of Management (RSM). If you have questions about enrolling, please contact the RSM School Office at mba@anu.edu.au."
+  },
+  {
+   "code": "MGMT8105",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in the Master of Business Administration (MBUSA)\nand have successfully completed MGMT8103.\n\nPermission to enrol in this course will be provided by the Research School of Management (RSM). If you have questions about enrolling, please contact the RSM School Office at mba@anu.edu.au."
+  },
+  {
+   "code": "MGMT8106",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in the Master of Business Administration (MBUSA)\nand have successfully completed MGMT8103.\n\nPermission to enrol in this course will be provided by the Research School of Management (RSM). If you have questions about enrolling, please contact the RSM School Office at mba@anu.edu.au."
+  },
+  {
+   "code": "MGMT8107",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in the Master of Business Administration (MBUSA)\nand have successfully completed MGMT8103.\n\nPermission to enrol in this course will be provided by the Research School of Management (RSM). If you have questions about enrolling, please contact the RSM School Office at mba@anu.edu.au."
+  },
+  {
+   "code": "MGMT8108",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in the Master of Business Administration (MBUSA)\nand have successfully completed MGMT8103.\n\nPermission to enrol in this course will be provided by the Research School of Management (RSM). If you have questions about enrolling, please contact the RSM School Office at mba@anu.edu.au."
+  },
+  {
+   "code": "MGMT8109",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in the Master of Business Administration (MBUSA)\nand have successfully completed MGMT8103.\n\nPermission to enrol in this course will be provided by the Research School of Management (RSM). If you have questions about enrolling, please contact the RSM School Office at mba@anu.edu.au."
+  },
+  {
+   "code": "MGMT8110",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in the Master of Business Administration (MBUSA)\nand have successfully completed MGMT8103.\n\nPermission to enrol in this course will be provided by the Research School of Management (RSM). If you have questions about enrolling, please contact the RSM School Office at mba@anu.edu.au."
+  },
+  {
+   "code": "MGMT8111",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in the Master of Business Administration (MBUSA)\nand have successfully completed MGMT8103.\n\nPermission to enrol in this course will be provided by the Research School of Management (RSM). If you have questions about enrolling, please contact the RSM School Office at mba@anu.edu.au."
+  },
+  {
+   "code": "MGMT8112",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in the Master of Business Administration (MBUSA)\nand have successfully completed MGMT8103.\n\nPermission to enrol in this course will be provided by the Research School of Management (RSM). If you have questions about enrolling, please contact the RSM School Office at mba@anu.edu.au."
+  },
+  {
+   "code": "MGMT8113",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in the Master of Business Administration (MBUSA)\nand have successfully completed MGMT8103.\n\nPermission to enrol in this course will be provided by the Research School of Management (RSM). If you have questions about enrolling, please contact the RSM School Office at mba@anu.edu.au."
+  },
+  {
+   "code": "MKTG2002",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed 48 units in program"
+  },
+  {
+   "code": "MKTG3001",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have:\n\ncompleted at least 72 units; and\ncompleted MKTG2004 or MKTG2031.\nYou are not able to enrol in this course if you have previously completed MKTG2001."
+  },
+  {
+   "code": "MKTG3023",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have:\ncompleted at least 72 units, and\ncompleted MKTG2004 and MKTG2031."
+  },
+  {
+   "code": "MKTG3033",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have:\n\ncompleted at least 72 units; and\ncompleted MKTG2004.\nYou are not able to enrol in this course if you have previously completed MKTG2033."
+  },
+  {
+   "code": "MKTG4500",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be:\n\nenrolled in one of the following programs:\nBachelor of Business Administration (Honours) (HBUSA)\nBachelor of Commerce (Honours) (HCOMM)\nand have agreement from a supervisor to supervise the research project and resulting thesis.\n\nYou will need to contact the Research School of Management (enquiries.rsm@anu.edu.au) to request a permission code to enrol in this course."
+  },
+  {
+   "code": "MKTG7001",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be studying one of the following postgraduate programs, or by permission from the Research School of Management:\nMaster of Business Administration - MBADM\nMaster of Business Administration (Advanced) – VBADM"
+  },
+  {
+   "code": "MKTG7028",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have:\n\ncompleted MKTG7001 or MKTG7260 or MKTG2004; or\nenrolled in the Master of Public Policy - MPUPP; or\nthe permission of the Course Convenor."
+  },
+  {
+   "code": "MKTG7029",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be enrolled in the MDTE - Master of Digital Transformation & Entrepreneurship program.\nYou are not able to enrol in this course if you previously completed MKTG7028 - Digital Marketing."
+  },
+  {
+   "code": "MMIB8006",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must:\n\nbe enrolled in VMGNT - Master of Management (Advanced); and,\nhave approval from an ANU academic to supervise the MMIB8006 research thesis; and,\ncompleted MGMT8006; and,\ncompleted MGMT8018 or MGMT8019 or MKTG8060.\nOR have the permission of the VMGNT - Master of Management (Advanced) Program Convenor."
+  },
+  {
+   "code": "PPEI3001",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must:\n\nbe enrolled in Bachelor of Politics, Philosophy and Economics\nhave completed 48 units of 1000 level courses\nhave completed ECON1102 (or ECON1100) and ECON2101"
+  },
+  {
+   "code": "SCOM2003",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed 24 units of any courses.\n\nIncompatible with SCOM6003."
+  },
+  {
+   "code": "SCOM2016",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed a minimum of 24 units of undergraduate courses.\nIncompatible with SCOM3002 and SCOM6016."
+  },
+  {
+   "code": "SCOM3003",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have completed a minimum of 72 units of tertiary study, of which 12 units need to be SCOM-coded courses.\n\nStudents will need to contact the Centre for the Public Awareness of Science to discuss project ideas and supervisors with the convener and to request a permission code to enrol in this course."
+  },
+  {
+   "code": "SCOM3004",
+   "parseStatus": "unparsed",
+   "requisiteText": "You are not able to enrol in this course if you have completed SCOM6004. At a minimum students will be required to have completed at least two SCOM-coded courses at the 2000 or 3000 level."
+  },
+  {
+   "code": "SCOM3005",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have completed a minimum of 72 units of tertiary study, which must include a minimum of 12 units of SCOM-coded courses."
+  },
+  {
+   "code": "SCOM3007",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must have 24 units of science communication (SCOM) or STEM/community engagement courses, 72 units of tertiary courses, or have permission from the convener.\n\nThis course is incompatible with SCOM8007 and SCOM6007."
+  },
+  {
+   "code": "SCOM4005",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must be undertaking the Science Communication Honours specialisation (SCOM-HSPC)"
+  },
+  {
+   "code": "SCOM4014",
+   "parseStatus": "partial",
+   "requisiteText": "Ordinarily, to be eligible to enrol in this course you would be undertaking the Science Communication Honours specialisation (SCOM-HSPC). However, advanced undergraduates in other disciplines may be considered by the convener for approval to enrol.\n\nIncompatible with SCOM8014."
+  },
+  {
+   "code": "SCOM4019",
+   "parseStatus": "partial",
+   "requisiteText": "Ordinarily, to be eligible to enrol in this course you would be undertaking the Science Communication Honours specialisation (SCOM-HSPC). However, advanced undergraduates in other disciplines may be considered by the convener for approval to enrol.\n\nIncompatible with SCOM8019."
+  },
+  {
+   "code": "SCOM6004",
+   "parseStatus": "unparsed",
+   "requisiteText": "You are not able to enrol in this course if you have completed SCOM3004. At a minimum students will be required to have completed 12 units of SCOM-coded courses at the 6000 or 8000 level."
+  },
+  {
+   "code": "SCOM6005",
+   "parseStatus": "partial",
+   "requisiteText": "Students must have completed at least 12 units of SCOM coded courses in order to enrol in this course.\n\nTo enrol in this course you must be active in the Master of Science Communication."
+  },
+  {
+   "code": "SCOM6006",
+   "parseStatus": "unparsed",
+   "requisiteText": "In compatible: SCOM2006."
+  },
+  {
+   "code": "SCOM8000",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course you must be enrolled in the Master of Science Communication program."
+  },
+  {
+   "code": "SCOM8004",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must be enrolled in the Master of Science Communication program.\n\nThis course must be taken twice in consecutive semesters (12+12, or 12+6) within the same calendar year and with the same fieldwork host.\n\nStudents must be concurrently enrolled in or have completed SCOM8014, which provides deeper conceptual background to enhance the fieldwork placement. This course is incompatible with SCOM8004A and SCOM8004B."
+  },
+  {
+   "code": "SCOM8014",
+   "parseStatus": "partial",
+   "requisiteText": "This course is meant to be for those undertaking the Master of Science Communication program (MSCOM). However, other postgraduate students may be considered by the convener for approval to enrol.\n\nIncompatible with SCOM4014."
+  },
+  {
+   "code": "SCOM8019",
+   "parseStatus": "partial",
+   "requisiteText": "Ordinarily, to be eligible to enrol in this course you would be undertaking the Master of Science Communication program (MSCOM) or the Graduate Certificate of Science Communication program (GCSCM). However, other postgraduate students may be considered by the convener for approval to enrol.\n\nIncompatible with SCOM4019."
+  },
+  {
+   "code": "STAT2005",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course you must have met the following requirements:\nCompleted STAT2001 or STAT2013; and\nCompleted MATH1113 or MATH1014 or have completed or be concurrently enrolled in MATH1116.\nIncompatible with STAT7004."
+  },
+  {
+   "code": "STAT3038",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have:\n\ncompleted or be concurrently enrolled in STAT2005 and STAT3037; and\ncompleted or be concurrently enrolled in STAT3036 or STAT3058."
+  },
+  {
+   "code": "STAT4040",
+   "parseStatus": "unparsed",
+   "requisiteText": "To enrol in this course, you must have completed STAT2001 or STAT2013; and have completed STAT2008 or STAT2014, or be enrolled in the Bachelor of Finance, Economics and Statistics Honours and have completed STAT2001 or STAT2013 and EMET2007. Incompatible with STAT3040, STAT7040 and STAT8140."
+  },
+  {
+   "code": "STAT6029",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have:\n\ncompleted STAT6039 or STAT7039 or STAT6013; and\ncompleted STAT6038 or STAT7038 or STAT6014.\n\nIncompatible with STAT3012 and STAT4029."
+  },
+  {
+   "code": "STAT6042",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have:\n\ncompleted STAT6039 or STAT7039 or STAT6013; and\ncompleted STAT6038 or STAT7038 or STAT6014.\n\nIncompatible with STAT3032 and STAT4072."
+  },
+  {
+   "code": "STAT7038",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, students must have completed STAT7055 (or STAT1003 or STAT1008) or be enrolled in the M. Statistical Data Analytics, M. Actuarial Studies, M. Actuarial Practice, M. Statistics, MSc in Quantitative Biology and Bioinformatics, or MSc in Quantitative Biology and Bioinformatics (Advanced). Incompatible with STAT2008, STAT2014, STAT4038 and STAT6014."
+  },
+  {
+   "code": "STAT7039",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must be enrolled in the M. Statistical Data Analytics, M. Actuarial Studies, M. Actuarial Practice, M. Statistics, MSc in Quantitative Biology and Bioinformatics, or MSc in Quantitative Biology and Bioinformatics (Advanced). Students enrolled in M. Applied Data Analytics must have completed STAT7055. Incompatible with STAT2001, STAT2013 and STAT6013."
+  },
+  {
+   "code": "STAT7055",
+   "parseStatus": "unparsed",
+   "requisiteText": "Students can’t enroll in this course if enrolled in the Master of Statistics, Master of Actuarial Studies or Master of Actuarial Practice. Incompatible with STAT1003 and STAT1008."
+  },
+  {
+   "code": "STAT8002",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in this course, you must have:\n\ncompleted STAT6039 or STAT7039 or STAT6013; and\ncompleted STAT6038 or STAT7038 or STAT6014 or EMET6007.\n\nIncompatible with STAT4102."
+  },
+  {
+   "code": "STAT8053",
+   "parseStatus": "unparsed",
+   "requisiteText": "Students entering this course must have completed at least 48 units of postgraduate study with a GPA of at least 5.0 and have arranged a supervisor for their essay."
+  },
+  {
+   "code": "STAT8500",
+   "parseStatus": "partial",
+   "requisiteText": "Students entering this course must have a GPA of at least 6.5 at time of application and have arranged a supervisor for their thesis.\nStudents who wish to undertake a Masters thesis should contact the course convenor once the above has been arranged to confirm their eligibility.\nImportant note for students: When 48 units remain in your program, you must register your intent to enrol in STAT8500 by contacting the Research School of Finance, Actuarial Studies and Statistics to ensure the correct enrolment in the semester prior to undertaking STAT8500."
+  },
+  {
+   "code": "WILC6001",
+   "parseStatus": "partial",
+   "requisiteText": "To enrol in the Special Industry Project course, a student must be a current postgraduate student enrolled in an eligible ANU academic program. The student should check with their Colleges for their eligibility to enrol in this course. The student must have completed a minimum of 24 units of their postgraduate studies. Students must not undertake this course concurrently with any of the following courses: CBEA6070, ANIP6503 and ANIP6505."
+  }
+ ]
+}
