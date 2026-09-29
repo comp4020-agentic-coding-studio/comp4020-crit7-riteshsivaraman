@@ -1,0 +1,732 @@
+[
+ {
+  "code": "CHEM1101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM1101",
+  "title": "Chemistry 1",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The following syllabus provides a general guide to the topics to be discussed:\n\nAtomic structure and bonding: electronic structure of atoms, quantum numbers, orbitals and energy levels, filling sequence, periodicity of atomic properties, octet ‘rule’, chemical bonds - ionic, covalent - energetics, H-bonds, Lewis structures, shapes of molecules, VSEPR theory, valence bond theory, hybridisation, resonance, molecular orbital theory of simple homonuclear diatomic molecules.\n\nEquilibrium: Haber process as example of the Law of mass action, equilibrium constants, Kc and Kp, Le Chatelier’s principle, reaction quotient, endo- and exo-thermic reactions.\n\nAcids/bases and aqueous equilibria: classical, Lowry-Brønsted, and Lewis definitions, pH of aqueous solutions, strengths of acids and bases - Ka and Kb, titration curves, buffers, extent of hydrolysis - weak acids/bases, solubility products.\n\nIntroductory thermodynamics: Energy - different forms, kinetic and potential, heat and work, the First Law of Thermodynamics, conservation of energy, internal energy and enthalpy, Hess’ Law, state functions, standard states, calorimetry.\n\nElectrochemistry: redox reactions, half-cell reactions and balancing equations, oxidation states, Voltaic cells, electrodes, electrode potentials, electromotive force and the free energy of cell reactions.\n\nAdvanced thermodynamics: entropy, Second and Third Laws of Thermodynamics, free energy, equilibrium, spontaneous processes, equilibrium constants - calculations, extent of reaction.\n\nOrganic structure, isomerism & reactivity: carbon hybridization, functional groups, nomenclature, 3D chemistry, conformations, isomerism, biological and synthetic polymers – for example, polyamides and polysaccharides.\n\nLaboratory: Exercises illustrating the simpler principles of analytical, inorganic, organic and physical chemistry. The apparatus used in the course is supplied by the Research School of Chemistry. Attendance at laboratory classes is compulsory.\n\nHonours Pathway Option (HPO)\n\nStudents who take this option will undertake 9 additional lectures at a more advanced level. The HPO is designed for students with a strong interest in chemistry from school, Science Summer School, Olympiad or equivalent. It is expected that all students in the PhB, or Honours degree programs enrolled in CHEM1101 will complete the HPO.",
+  "requisiteText": null
+ },
+ {
+  "code": "CHEM1201",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM1201",
+  "title": "Chemistry 2",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The following syllabus provides a general guide to the topics to be discussed:\n\nChemistry of the elements: periodicity exemplified, descriptive chemistry of non-metallic groups VII, VI and V, silicates - structural variety, close packing geometries, transition metals, coordination chemistry - ligands, isomerism, stability, biological examples.\n\nIntermolecular forces, states of matter, liquefaction, vapour pressure, molar heat capacity, phase diagrams (one component), melting, boiling, critical phenomena and lattice energies.\n\nSolutions: solubility, phase diagrams of multicomponent systems, colligative properties, Raoult’s law, deviations from ideality, mp depression/bp elevation, osmosis.\n\nIntroductory kinetics: reaction rates - 1st, 2nd and 3rd order; molecularity, Arrhenius equation.\n\nAdvanced Kinetics: activation energies, elementary steps in reaction mechanisms, catalysis, Michaelis-Menten kinetics, radioactive decay (as an example of exponential decay).\n\nSpectroscopy: absorption and emission of electromagnetic radiation, applications of spectroscopy, especially UV-Vis, AAS, IR & NMR, Beer-Lambert law, colorimetry. Biologically active compounds, chemical communication, drugs, synthesis and spectroscopy: drugs, pharmaceuticals and synthesis, reaction mechanisms, alcohols, ethers and carbonyl compounds, structural determination by spectroscopy.\n\nLaboratory: Exercises illustrating the simpler principles of analytical, inorganic, organic and physical chemistry. The apparatus used in the course is supplied by the RSC. Attendance at all laboratory classes is compulsory.\n\nHonours Pathway Option (HPO)\n\nStudents who take this option will undertake 9 additional lectures at a more advanced level as well as completing an infographic based on the 3 lectures on Green Chemistry. The HPO is designed for students with a strong interest in chemistry from school, Science Summer School, Olympiad or equivalent. It is expected that all students in the PhB or Honours degree programs enrolled in CHEM1201 will complete the HPO. Students opt in to the HPO by registering on the LMS.\n\nProposed Assessment Honours Pathway Option: The standard course will count 90% towards the final grade and the HPO 10%.",
+  "requisiteText": "To enrol in this course you must have completed CHEM1101 or the equivalent from another university."
+ },
+ {
+  "code": "CHEM2202",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM2202",
+  "title": "Chemical Structure and Reactivity 1",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course will provide students with a well-rounded, integrated background in chemistry at the second year level covering key concepts in chemistry with a particular emphasis on the structure and function of molecules. The course is divided into three components: organic chemistry (~40%), physical chemistry (~20%) and inorganic chemistry (~40%).\n\nThe organic chemistry component will focus on an in-depth analysis of several types of organic reactions from a mechanistic and stereochemical viewpoint with particular reference to natural products and the synthesis of compounds of biological and commercial importance. The physical chemistry component will focus on understanding the rates of reactions, and the contribution of enthalpy and entropy to reaction favourability. The inorganic chemistry component focuses con coordination complexes and their stability, bonding, properties and reactivity, as well as their importance in biological systems. The laboratory component focuses on key laboratory techniques in synthetic organic and inorganic chemistry and their applications in separation, synthesis, and analysis of organic and coordination compounds.\n\nHonours pathway option (HPO):\n\nEntry to this option is subject to the approval of the course convener. Students who take this option will undertake 6-8 lectures at a more advanced level in place of 6-8 hours of tutorials/lab. All students in the PhB (Hons) or direct entry Honours degree programs enrolled in this course are encouraged to complete the HPO.\n\nProposed Assessment Honours Pathway Option: The standard course will count 90% towards the final grade and the HPO 10%.",
+  "requisiteText": "To enrol in this course you must have completed CHEM1201."
+ },
+ {
+  "code": "CHEM2203",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM2203",
+  "title": "Chemical Structure and Reactivity 2",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course will provide students with a well-rounded, integrated background in chemistry at the second year level covering key concepts in chemistry with a particular emphasis on the structure and function of molecules. The course is divided into three components: organic chemistry (~40%), physical chemistry (~20%) and inorganic chemistry (~40%).\n\nThe organic chemistry component will focus on an in-depth analysis of several types of organic reactions from a mechanistic and stereochemical viewpoint with particular reference to natural products and the synthesis of compounds of biological and commercial importance. The physical chemistry component will focus on understanding the rates of reactions, and the contribution of enthalpy and entropy to reaction favourability. The inorganic chemistry component focuses con coordination complexes and their stability, bonding, properties and reactivity, as well as their importance in biological systems. The laboratory component focuses on key laboratory techniques in synthetic organic and inorganic chemistry and their applications in separation, synthesis, and analysis of organic and coordination compounds.\n\nHonours pathway option (HPO):\n\nEntry to this option is subject to the approval of the course convener. Students who take this option will undertake 6-8 lectures at a more advanced level in place of 6-8 hours of tutorials/lab. All students in the PhB (Hons) or direct entry Honours degree programs enrolled in this course are encouraged to complete the HPO.\n\nProposed Assessment Honours Pathway Option: The standard course will count 90% towards the final grade and the HPO 10%.",
+  "requisiteText": "To enrol in this course you must have completed CHEM2202.\nIncompatible with CHEM6203."
+ },
+ {
+  "code": "CHEM2208",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM2208",
+  "title": "Chemical Biology 2",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Many applications in modern chemistry and biochemistry depend on the ability to make, change and analyze proteins. After completion of the course, students will be familiar with all of the steps required for the production of proteins in bacteria, protein structural features and techniques for making, modifying (including the site-specific introduction of non-natural amino acids), and analyzing proteins. There is an emphasis on biophysical techniques to characterize biomolecules (e.g., SDS-PAGE, light scattering, circular dichroism spectroscopy, ultracentrifugation, mass spectroscopy, surface plasmon resonance), including discussion of their physical basis. Advanced structural analysis techniques (X-ray crystallograhy, NMR spectroscopy, electron microscopy, solution scattering) are also discussed. An introduction to bioinformatics, i.e. protein sequence alignment, 3D structure analysis and modelling is also included.",
+  "requisiteText": "To enrol in this course you must have completed CHEM1201 and BIOL1004.\n\nIncompatible CHEM6228"
+ },
+ {
+  "code": "CHEM2210",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM2210",
+  "title": "Structure Elucidation in Chemistry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Structure elucidation is essential in all areas of chemistry, from understanding the behaviour of engineered enzymes or functional materials, to the creation of new medicines to treat disease. This course describes the fundamentals of chemical structure and symmetry, and the use of molecular orbital theory and quantum mechanics to understand molecular properties and chemical spectroscopy. It has a major focus on problem solving and acquiring applied skills to deploy concepts of symmetry, spectroscopy, spectrometry and diffraction to define chemical structure across all states of matter. Advanced research-level strategies for elucidating complex structures will be developed by connecting the partial structural information obtained from infra-red spectroscopy (IR), UV-visible spectroscopy, 1D and 2D nuclear magnetic resonance (NMR) spectroscopy, mass spectrometry (MS) and X-ray crystallography.\n\nHonours pathway option (HPO):\n\nEntry to this option is subject to the approval of the course convener. Students who take this option will undertake advanced self-directed learning based on problems presented in the workshops and in place of the workshops. It is expected that all students in the PhB (Hons) or direct entry Honours degree programs enrolled in this course will complete the HPO.\n\nProposed Assessment Honours Pathway Option: The HPO will count for up to 10% of the final course grade and the standard course will count at least 90%.",
+  "requisiteText": "To enrol in this course you must have completed CHEM1201. Incompatible with CHEM6210."
+ },
+ {
+  "code": "CHEM2211",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM2211",
+  "title": "Chemical Biology 1",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Chemistry has changed rapidly over the past decades and techniques that were once exclusively applied to small molecules are now routinely used with larger molecules, such as proteins. This course will be the first introduction of students to the field of chemical biology, which spans chemistry, biology and physics. Biological molecules and systems are analysed and modified using chemical principles and techniques.",
+  "requisiteText": "To enrol in this course you must have completed CHEM1201 and BIOL1004."
+ },
+ {
+  "code": "CHEM2213",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM2213",
+  "title": "Soft Matter",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Soft materials are ubiquitous in our modern daily lives. From the plastic packaging used in the food industry to new lightweight materials for aeronautics, soft matter research is changing the way we live, work and play. The physical principles of soft matter also underpin our understanding of natural materials, such as proteins.\n\nThis course will provide an introduction to soft materials and their structure. Topics covered will include colloids and interfaces, nanoparticles, polymer science, and their applications. Students will be exposed to various methods of soft materials synthesis and have the opportunity to make such materials in the laboratory. An emphasis is played on how synthesis affects the resulting physical and chemical properties of materials such as polymers.\n\nAn important component of this course will cover how such materials are characterised The course will cover the three key methods used to study this class of materials: microscopy, scattering and spectroscopy. The properties of some technologically important functional materials will be highlighted throughout this course.",
+  "requisiteText": "To enrol in this course you must have completed CHEM1201."
+ },
+ {
+  "code": "CHEM2214",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM2214",
+  "title": "Chemical Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course aims to understand the structure, properties and transformations of matter, from bulk behaviour down to mechanisms at the molecular level. It is the role of the chemical physicist /physical chemist to collect, collate and analyse experimental data from all branches of chemistry and to construct predictive models.\n\nIn this course, students will be introduced to the fundamentals of chemical physics/physical chemistry with a strong focus is on developing a skill base necessary for the construction, analysis, and interpretation of experimental data, as well as a practical understanding and use of predictive models. Key topics include thermodynamics, chemical kinetics, quantum mechanics and computational chemistry. This course also serves as an introduction to Materials Science at ANU. Topics covered include chemical bonding in materials and their synthesis. The course will also focus on one essential characterisation technique - X-ray diffraction - and will provide students with a comprehensive understanding of the relationships between syntheses, structure and properties in various technologically important functional materials.\n\nThis course builds on information and concepts from chemistry, physics and mathematics. Students with a background in areas as diverse as medicine, molecular biology, biochemistry, molecular engineering, chemical engineering, and earth sciences are encouraged to enrol.\n\nThis course is delivered using a flipped classroom format, with online lectures, extended weekly workshops centered on problem solving activities, and laboratories that introduce computational tools and experimental techniques used in chemical research.\n\nHonours pathway option (HPO):\n\nEntry to this option is subject to the approval of the course convener. Students who take this option will undertake an additional 6-8 online lectures at a more advanced level. All students in the PhB (Hons) or direct entry Honours degree programs enrolled in this course are encouraged to complete the HPO.\n\nProposed Assessment Honours Pathway Option: The standard course will count 90% towards the final grade and the HPO 10%. The HPO assessment will consist of two additional online worksheets.",
+  "requisiteText": "To enrol in this course you must have completed CHEM1101 and CHEM1201 (or similar).\n\nIncompatible: CHEM2212"
+ },
+ {
+  "code": "CHEM3013",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM3013",
+  "title": "NMR spectroscopy and mass spectrometry of small and large molecules",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course is designed to develop an understanding and appreciation of the analytical techniques inherent in modern organic and biological chemistry. Lectures will be focused on the understanding of modern nuclear magnetic resonance spectroscopy (NMR) in structure determination and cover both theoretical and practical aspects.",
+  "requisiteText": "To enrol in this course you must have completed CHEM2210.\nIncompatible with CHEM6313."
+ },
+ {
+  "code": "CHEM3060",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM3060",
+  "title": "Research Project in Chemistry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "A selection of research projects from within the Discipline of Chemistry will be on offer. Students will undertake their individual project within a research group in the Research School of Chemistry under the supervision of an RSC group leader. This is an Honours Pathway Course. Completion of particular 2000 or 3000 level chemistry courses may be a requirement for certain projects.",
+  "requisiteText": "To enrol in this course you must have completed at least 96 units towards a degree, which must include completion of at least 18 units of 2000 or 3000 level CHEM-coded courses, with an average of at least 70% from all completed 2000 and 3000 level CHEM-coded courses."
+ },
+ {
+  "code": "CHEM3123",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM3123",
+  "title": "Molecular Materials",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Molecular materials — designed assemblies of molecules with tailored electronic, optical, magnetic and mechanical properties — underpin technologies from clean energy and electronics to sensors and pharmaceuticals. Understanding how molecular structure controls bulk behavior enables chemists to create sustainable materials, improve device performance, and address societal challenges such as energy storage, environmental remediation, and targeted drug delivery.\n\nThis course provides foundational principles and hands-on experience in synthesis, characterization, and structure–property relationships to prepare undergraduates for research and careers in materials innovation. Students will explore the design and synthesis of molecules for gas capture and storage, the use of molecules in materials and device fabrication via additive manufacturing (e.g. 3D printing), and the development of molecular systems for next-generation optical and magnetic materials.",
+  "requisiteText": "To enrol in this course you must have completed either CHEM2203, CHEM2213 or CHEM2214, or equivalent courses.\nIncompatible with CHEM6123."
+ },
+ {
+  "code": "CHEM3201",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM3201",
+  "title": "Synthetic Aspects of Medicinal Chemistry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "From designed structures to natural products, medicinal agents to functional materials to biological targets, organic substances are everywhere! The purpose of this course is to teach how to analyse structures and devise ways to make them. The lecture material will focus on the most important structures, reactions and mechanisms, topics and themes of contemporary Organic Chemistry and highlight applications of organic compounds in medicine. Synthesis design and strategy, the latest methods, the most up-to-date biologically active compounds and other fascinating molecules will all be covered.",
+  "requisiteText": "To enrol in this course you must have completed CHEM2203 and CHEM2210."
+ },
+ {
+  "code": "CHEM3202",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM3202",
+  "title": "Hard Matter",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Hard materials power modern society and are at the forefront of efforts to transition away from a fossil fuels based economy to more sustainable energy and manufacturing ecosystem. Mobile phones, solar panels, electric vehicles and medical implants all rely on new materials with designer physical properties. This course covers the chemistry of synthesising and charactering such materials - specifically the discipline of solid state chemistry.\n\nThe course is split into three sections covering chemical bonding in the solid state, the electronic structure of crystalline solids and applications of functional materials. The types of materials which will be examined range from those used in: i) electronics (dielectrics, capacitors, ferroelectrics, piezoelectrics); ii) electrocatalysis and photocatalysis; iii) magnetism; and iv) energy capture (photovoltaics) and storage (batteries). An emphasis will be placed on methods used to characterise hard materials and correlating structure (both local and bulk) to chemical and physical properties.",
+  "requisiteText": "To enrol in this course you must have completed CHEM2210 and CHEM2214 (or equivalent).\nIncompatible with CHEM6202.\n\nStudents from other Schools — such as Engineering, Earth Science, or Physics — who have relevant background or interest are welcome to contact the course convener for approval."
+ },
+ {
+  "code": "CHEM3203",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM3203",
+  "title": "Advanced Inorganic Chemistry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The purpose of this course is to provide a broad perspective on inorganic chemistry. This spans the s, p, d and f blocks of the periodic table, and includes molecular complexes, clusters and materials. This course will cover aspects of synthesis, structure, bonding, properties, reactivity and applications of such compounds. This includes main group organometallics (e.g. Grignard reagents, organolithium reagents, organophosphorus compounds), cluster chemistry, porous materials (e.g. zeolites and metal-organic frameworks), and lanthanoid and actinoid chemistry. The laboratory component of the course will aim to develop skills in the handling of air-sensitive compounds using Schlenk techniques and the purification of compounds using chromatographic techniques. Students will also build on their expertise in both acquisition and data analysis of a range of analytical techniques including NMR, IR and UV/Vis spectroscopies.",
+  "requisiteText": "To enrol in this course you must have completed CHEM2210 and CHEM2203.\nIncompatible with CHEM6323."
+ },
+ {
+  "code": "CHEM3204",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM3204",
+  "title": "Advanced Protein Technologies: Laboratory course",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Winter Session 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Modern chemistry and biochemistry depends on the ability to make, change and analyse proteins and enzymes. In this course, students will practice all of the steps required to modify genetic information in DNA, and to produce proteins in bacterial cells (in vivo) and in a test tube (in vitro). In addition, the course will teach the fundamental biochemical principles of DNA mutagenesis, protein production and purification, and analysis of proteins by bioinformatics and various biophysical techniques.",
+  "requisiteText": "To enrol in this course you must have completed CHEM2208."
+ },
+ {
+  "code": "CHEM3206",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM3206",
+  "title": "Catalysis in Chemistry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Over the last 20-30 years the face of chemical synthesis has changed quite dramatically to a realm where many key reactions intimately rely on the presence of a catalyst. Key advances continue to be made in this area particularly with regards to the use of chiral catalysts in the synthesis of enantiomerically pure compounds. This course will focus on the use of catalysts in small molecule synthesis. Approaches may include organo-based, transition metal and main group catalysis, and the role of chiral catalysts in asymmetric synthesis. The laboratory component of the course will aim to further develop skills in chemical synthesis,particularly with regard to the use of catalysts.",
+  "requisiteText": "To enrol in this course you must have completed CHEM2203 and CHEM2210.\nIncompatible with CHEM6206."
+ },
+ {
+  "code": "CHEM3207",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM3207",
+  "title": "Current Topics in Chemical and Synthetic Biology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Chemical biology is the manipulation of biological systems through the use of tools that have primarily been developed through synthetic chemistry. This advanced course focuses on providing an introduction to chemical biology via the study of papers published within the last five years in scientific journals. Areas that will be covered will include the design and generation of novel enzymes through incorporation of unnatural amino acids, computation design of new enzymes with specific properties, the use of fluorescent chemicals/proteins in biology, combinatorial chemistry and drug design, and glycobiology - the manipulation of sugars that are recognised by cells/proteins.\n\nThere is no laboratory component to the course. Extensive group-based workshop sessions will be run in which various series of papers will be discussed.",
+  "requisiteText": "To enrol into this course you must have completed either CHEM2211 or CHEM2208.\n\nIncompatible: CHEM6327"
+ },
+ {
+  "code": "CHEM3208",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM3208",
+  "title": "Computational Chemistry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course will cover various aspects in computational chemistry, including: density-functional theory, molecular dynamics, multi-configurational wavefunction methods, an introduction to solid-state electronic structure theory, computation of reaction mechanisms, and an introduction to machine learning. A focus will be placed on the underlying chemical theory behind each method and its real world applications. The laboratory sessions provide students with experience in the computational chemistry techniques used to model the structures, properties and chemical reactivity of molecules.",
+  "requisiteText": "To enrol in this course you must have completed CHEM2210, CHEM2214 or equivalent.\nIncompatible with CHEM6208."
+ },
+ {
+  "code": "CHEM4005",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM4005",
+  "title": "Chemistry IV Honours (S)",
+  "unitsText": "12 to 24 units",
+  "units": 12,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "A supervisor, who will guide the candidate in the selection of a suitable program of study and who will direct the research project, will be appointed for each honours candidate. The program of study includes a special schedule of lecture courses, details of which will be made available within the School. Candidates will normally be able to select their general field of investigation.\nAttendance at colloquia held in the School constitutes a part of the program and the candidates will be required to prepare and deliver seminars describing the background to (first seminar) and results from (second seminar) their research project. Candidates must submit a written report (thesis) describing the method and results of their investigation.",
+  "requisiteText": null
+ },
+ {
+  "code": "CHEM6123",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6123",
+  "title": "Molecular Materials",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Molecular materials — designed assemblies of molecules with tailored electronic, optical, magnetic and mechanical properties — underpin technologies from clean energy and electronics to sensors and pharmaceuticals. Understanding how molecular structure controls bulk behavior enables chemists to create sustainable materials, improve device performance, and address societal challenges such as energy storage, environmental remediation, and targeted drug delivery.\n\nThis course provides foundational principles and hands-on experience in synthesis, characterization, and structure–property relationships to prepare undergraduates for research and careers in materials innovation. Students will explore the design and synthesis of molecules for gas capture and storage, the use of molecules in materials and device fabrication via additive manufacturing (e.g. 3D printing), and the development of molecular systems for next-generation optical and magnetic materials.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must be active in a Masters level program in Chemistry, Physics or Biology.\nIncompatible with CHEM3123."
+ },
+ {
+  "code": "CHEM6201",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6201",
+  "title": "Synthetic Aspects of Medicinal Chemistry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "From designed structures to natural products, medicinal agents to functional materials to biological targets, organic substances are everywhere! The purpose of this course is to teach how to analyse structures and devise ways to make them. The lecture material will focus on the most important structures, reactions and mechanisms, topics and themes of contemporary Organic Chemistry and highlight applications of organic compounds in medicine. Synthesis design and strategy, the latest methods, the most up-to-date biologically active compounds and other fascinating molecules will all be covered.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must be active in a Masters level program in Chemistry, Medicine or Biology and have the equivalent of CHEM2202 and CHEM2203 background knowledge and laboratory skills in synthetic organic chemistry.\n\nIncompatible with CHEM3201."
+ },
+ {
+  "code": "CHEM6202",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6202",
+  "title": "Hard Matter",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Hard materials power modern society and are at the forefront of efforts to transition away from a fossil fuels based economy to more sustainable energy and manufacturing ecosystem. Mobile phones, solar panels, electric vehicles and medical implants all rely on new materials with designer physical properties. This course covers the chemistry of synthesisng and charactering such materials - specifically the discipline of solid state chemistry.\n\nThe course is split into three sections covering chemical bonding in the solid state, the electronic structure of crystalline solids and applications of functional materials. The types of materials which will be examined range from those used in: i) electronics (dielectrics, capacitors, ferroelectrics, piezoelectrics); ii) electrocatalysis and photocatalysis; iii) magnetism; and iv) energy capture (photovoltaics) and storage (batteries). An emphasis will be placed on methods used to characterise hard materials and correlating structure (both local and bulk) to chemical and physical properties.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Material Science (NSCMC) or the Master of Science (Advanced) in Materials Science (VSCMC).\n\nThis course is incompatible with CHEM3202"
+ },
+ {
+  "code": "CHEM6203",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6203",
+  "title": "Chemical Structure and Reactivity 2",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course will assume an undergraduate level knowledge and understanding of chemical structure and reactivity and the methods of structural elucidation. The course will continue to develop an integrated approach to chemical education through instruction in theoretical and practical aspects of inorganic and organic chemistry. The organic component of the course will be centred on the important area of carbonyl chemistry and highlight the significance and applications of this area of chemistry. In particular the significance of carbonyl chemistry in biological systems and medicine will be developed. The inorganic chemistry component of the course will provide an introduction to organometallic chemistry from both fundamental (structure and bonding) and applied (reactivity, synthesis , catalysis) perspectives. Topics to be covered will include the wide variety of carbon based ligands, the various processes that allow for their interconversion and the inclusion of such transformations in catalytic processes for the metal mediated synthesis of both fine and bulk chemicals. Laboratory experiments are designed to provide augmentation and/or complementation of the material taught in lectures. Students will be exposed to important techniques in synthetic chemistry and become adept at their implementation whilst further developing their skills in the spectroscopic characterisation of compounds.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Material Science or the Master of Science (Advanced) in Materials Science. Incompatible with CHEM2203."
+ },
+ {
+  "code": "CHEM6204",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6204",
+  "title": "Chemical Structure and Reactivity 1",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course will provide students with a well-rounded, integrated background in chemistry at the second year level covering key concepts in chemistry with a particular emphasis on the structure and function of molecules. The course is divided into two components: organic chemistry (~50%) and inorganic chemistry (~50%) with some physical chemistry included.\n\nThe organic chemistry component will focus on an in-depth analysis of several types of organic reactions from a mechanistic and stereochemical viewpoint with particular reference to natural products and the synthesis of compounds of biological and commercial importance. The inorganic chemistry component focuses con coordination complexes and their stability, bonding, properties and reactivity, as well as their importance in biological systems. The laboratory component focuses on key laboratory techniques in synthetic organic and inorganic chemistry and their applications in separation, synthesis, and analysis of organic and coordination compounds.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must be active in one of the following programs:\nNSCMC - Master of Science in Materials Science\nVSCMC - Master of Science (Advanced) in Materials Science\nMBIOT - Master of Biotechnology\nVBIOT - Master of Biotechnology (Advanced)\n\nIncompatible with CHEM2202."
+ },
+ {
+  "code": "CHEM6206",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6206",
+  "title": "Catalysis in Chemistry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Over the last 20-30 years the face of chemical synthesis has changed quite dramatically to a realm where many key reactions intimately rely on the presence of a catalyst. Key advances continue to be made in this area particularly with regards to the use of chiral catalysts in the synthesis of enantiomerically pure compounds. This course will focus on the use of catalysts in small molecule synthesis. Approaches may include organo-based, transition metal and main group catalysis, and the role of chiral catalysts in asymmetric synthesis. The laboratory component of the course will aim to further develop skills in chemical synthesis,particularly with regard to the use of catalysts.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Material Science or the Master of Science (Advanced) in Materials Science. Incompatible with CHEM3206."
+ },
+ {
+  "code": "CHEM6208",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6208",
+  "title": "Computational Chemistry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course will cover various aspects in computational chemistry, including: density-functional theory, molecular dynamics, multi-configurational wavefunction methods, an introduction to solid-state electronic structure theory, computation of reaction mechanisms, and an introduction to machine learning. A focus will be placed on the underlying chemical theory behind each method and its real world applications. The laboratory sessions provide students with experience in the computational chemistry techniques used to model the structures, properties and chemical reactivity of molecules.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must be active in one of the following programs:\nCNTR – Graduate Certificate of Nuclear Technology Regulation\nMBIOT – Master of Biotechnology\nMENCH – Master of Energy Change\nNSCBS – Master of Science in Biological Sciences\nNSCMC – Master of Science in Materials Science\nNSCNS – Master of Science in Nuclear Science\nNSCPI – Master of Science in Precision Instrumentation and Measurement\nNSCQT – Master of Science in Quantum Technology\nNSCQB – Master of Science in Quantitative Biology and Bioinformatics\nNSCTP – Master of Science in Theoretical Physics\nVBIOT – Master of Biotechnology (Advanced)\nVENCH – Master of Energy Change (Advanced)\nVSCBS – Master of Science (Advanced) in Biological Sciences\nVSCMC – Master of Science (Advanced) in Materials Science\nVSCNS – Master of Science (Advanced) in Nuclear Science\nVSCPI – Master of Science (Advanced) in Precision Instrumentation and Measurement\nVSCQT – Master of Science (Advanced) in Quantum Technology\nVSCQB – Master of Science (Advanced) in Quantitative Biology and Bioinformatics\nVSCTP – Master of Science (Advanced) in Theoretical Physics\nIncompatible with CHEM3208."
+ },
+ {
+  "code": "CHEM6210",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6210",
+  "title": "Structure Elucidation in Chemistry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Structural elucidation is essential in all areas of chemistry, from understanding the behaviour of engineered enzymes or functional materials, to the creation of new medicines to treat disease. This course describes the fundamentals of chemical structure and symmetry, and the use of molecular orbital theory and quantum mechanics to understand molecular properties and chemical spectroscopy. It has a major focus on problem solving and acquiring applied skills to deploy concepts of symmetry, spectroscopy, spectrometry and diffraction to define chemical structure across all states of matter. Advanced research-level strategies for elucidating complex structures will be developed by connecting the partial structural information obtained from infra-red spectroscopy (IR), UV-visible spectroscopy, 1D and 2D nuclear magnetic resonance (NMR) spectroscopy, mass spectrometry (MS) and X-ray crystallography.\n\nThis course is co-taught with undergraduate students but assessed separately",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Material Science or the Master of Science (Advanced) in Materials Science. Incompatible with CHEM2210."
+ },
+ {
+  "code": "CHEM6211",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6211",
+  "title": "Chemical Biology 1",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Chemistry has changed rapidly over the past decades and techniques that were once exclusively applied to small molecules are now routinely used with larger molecules, such as proteins. This course will be the first introduction of students to the field of chemical biology, which spans chemistry, biology and physics. Biological molecules and systems are analysed and modified using chemical principles and techniques.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "This course is incompatible with CHEM2211.\n\nANU student need to have completed CHEM1201 and BIOL1004 i.e. those completing a vertical double degree."
+ },
+ {
+  "code": "CHEM6213",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6213",
+  "title": "Soft Matter",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Soft materials are ubiquitous in our modern daily lives. From the plastic packaging used in the food industry to new lightweight materials for aeronautics, soft matter research is changing the way we live, work and play. The physical principles of soft matter also underpin our understanding of natural materials, such proteins.\n\nThis course will provide an introduction to soft materials and their structure. Topics covered will include colloids and interfaces, nanoparticles, polymer science, and their applications. Students will be exposed to various methods of soft materials synthesis and have the opportunity to make such materials in the laboratory. An emphasis is played on how synthesis affects the resulting physical and chemical properties of materials such as polymers.\n\nAn important component of this course will cover how such materials are characterised The course will cover the three key methods used to study this class of materials: microscopy, scattering and spectroscopy. The properties of some technologically important functional materials will be highlighted throughout this course.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must be active in the Masters of Biotechnology or the Master of Science in Material Science or their advanced versions.\nIncompatible with CHEM2213"
+ },
+ {
+  "code": "CHEM6214",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6214",
+  "title": "Chemical Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course aims to understand the structure, properties and transformations of matter, from bulk behaviour down to mechanisms at the molecular level. It is the role of the chemical physicist/physical chemist to collect, collate and analyse experimental data from all branches of chemistry and to construct predictive models.\n\nIn this course, students will be introduced to the fundamentals of chemical physics/physical chemistry with a strong focus is on developing a skill base necessary for the construction, analysis, and interpretation of experimental data, as well as a practical understanding and use of predictive models. Key topics include thermodynamics, chemical kinetics, quantum mechanics and computational chemistry. This course also serves as an introduction to Materials Science at ANU. Topics covered include chemical bonding in materials and their synthesis. The course will also focus on one essential characterisation technique - X-ray diffraction - and will provide students with a comprehensive understanding of the relationships between syntheses, structure and properties in various technologically important functional materials.\n\nThis course builds on information and concepts from chemistry, physics and mathematics. Students with a background in areas as diverse as medicine, molecular biology, biochemistry, molecular engineering, chemical engineering, and earth sciences are encouraged to enrol.\n\nThis course is delivered using a flipped classroom format, with online lectures, extended weekly workshops centered on problem solving activities, and laboratories that introduce computational tools and experimental techniques used in chemical research.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "This course is incompatible with CHEM2214."
+ },
+ {
+  "code": "CHEM6228",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6228",
+  "title": "Chemical Biology 2",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Many applications in modern chemistry and biochemistry depend on the ability to make, change and analyze proteins. After completion of the course, students will be familiar with all of the steps required for the production of proteins in bacteria, protein structural features and techniques for making, modifying (including the site-specific introduction of non-natural amino acids), and analysing proteins. There is an emphasis on biophysical techniques to characterise biomolecules (e.g., SDS-PAGE, light scattering, circular dichroism spectroscopy, ultracentrifugation, mass spectroscopy, surface plasmon resonance), including discussion of their physical basis. Advanced structural analysis techniques (X-ray crystallography, NMR spectroscopy, electron microscopy, solution scattering) are also discussed. An introduction to bioinformatics, i.e. protein sequence alignment, 3D structure analysis and modelling is also included.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must have completed CHEM1201 and BIOL1004."
+ },
+ {
+  "code": "CHEM6313",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6313",
+  "title": "NMR Spectroscopy and Mass Spectrometry of Small and Large Molecules",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course is designed to develop an understanding and appreciation of the analytical techniques inherent in modern organic and biological chemistry. Lectures will be focused on the understanding of modern nuclear magnetic resonance spectroscopy (NMR) in structure determination and cover both theoretical and practical aspects.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enroll in this course you must be active in the Master of Science in Material Science or the Master of Science (Advanced) in Materials Science. Incompatible with CHEM3013."
+ },
+ {
+  "code": "CHEM6323",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6323",
+  "title": "Advanced Inorganic Chemistry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "The purpose of this course is to provide a broad perspective on inorganic chemistry. This spans the s, p, d and f blocks of the periodic table, and includes molecular complexes, clusters and materials. This course will cover aspects of synthesis, structure, bonding, properties, reactivity and applications of such compounds. This includes main group organometallics (e.g. Grignard reagents, organolithium reagents, organophosphorus compounds), cluster chemistry, porous materials (e.g. zeolites and metal-organic frameworks), and lanthanoid and actinoid chemistry. The laboratory component of the course will aim to develop skills in the handling of air-sensitive compounds using Schlenk techniques and the purification of compounds using chromatographic techniques. Students will also build on their expertise in both acquisition and data analysis of a range of analytical techniques including NMR, IR and UV/Vis spectroscopies.\n\nNote: This course is taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Material Science or the Master of Science (Advanced) in Materials Science, and you must have completed CHEM2210/CHEM6210 and CHEM2203/CHEM6203 or their equivalent.\n\nIncompatible with CHEM3203."
+ },
+ {
+  "code": "CHEM6324",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6324",
+  "title": "Advanced Protein Technologies: Laboratory course",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Winter Session 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Modern chemistry and biochemistry depends on the ability to make, change and analyse proteins and enzymes. In this course, students will practice all of the steps required to modify genetic information in DNA, and to produce proteins in bacterial cells (in vivo) and in a test tube (in vitro). In addition, the course will teach the fundamental biochemical principles of DNA mutagenesis, protein production and purification, and analysis of proteins by bioinformatics and various biophysical techniques.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must have completed CHEM2208/CHEM6208\n\nIncompatible: CHEM3204."
+ },
+ {
+  "code": "CHEM6327",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM6327",
+  "title": "Current Topics in Chemical and Synthetic Biology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Chemical biology is the manipulation of biological systems through the use of tools that have primarily been developed through synthetic chemistry. This advanced course focuses on providing an introduction to chemical biology via the study of papers published within the last five years in scientific journals. Areas that will be covered will include the design and generation of novel enzymes through incorporation of unnatural amino acids, computation design of new enzymes with specific properties, the use of fluorescent chemicals/proteins in biology, combinatorial chemistry and drug design, and glycobiology - the manipulation of sugars that are recognised by cells/proteins.\n\nThere is no laboratory component to the course. Extensive group-based workshop sessions will be run in which various series of papers will be discussed.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol into this course you must have completed either CHEM2211/CHEM6211 or CHEM2208/CHEM6208 or their equivalents.\n\nThis course is incompatible with CHEM3207."
+ },
+ {
+  "code": "CHEM8003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM8003",
+  "title": "Research Project in Chemistry",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Students undertake an individual project within one of the many cutting edge research groups in the discipline of Chemistry, with project areas including synthetic chemistry, biological chemistry, physical and theoretical chemistry, materials chemistry, and medicinal chemistry.",
+  "requisiteText": null
+ },
+ {
+  "code": "CHEM8030",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM8030",
+  "title": "Modern Materials Characterisation",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Materials Science is a highly interdisciplinary field. Chemistry and structure underpin our understanding of the materials synthesis and chemical and physical properties. This course describes current state-of-the-art methods for determining chemical and structural motifs on multiple length scales.\n\nThe course covers the key principles of the characterisation techniques as well as equipment design and operation, sample preparation and data analysis. Techniques covered in the course may include:\n\nX-ray spectroscopies (e.g. XPS, XANES, EXAFS, XES)\n\nDiffraction/scattering techniques (electron, synchrotron and neutron)\n\nMicroscopy/imaging (TEM, SEM and AFM)\n\nThermal analysis (e.g. ITC, TGA,DSC,DTA and TMA)\n\nSolid state NMR and EPR spectroscopy\n\nOptical characterisation (Raman, FTIR, fluorescence, luminescence, non-linear optics (SHG and Z-SCAN))\n\nAnalytical methods : chromatography(LC, GC and IC), mass spectrometry (SIMS, ICP, INMS, LCMS), Ion beam analysis (Rutherford backscattering, Elastic Recoil Detection Analysis (ERDA) and Particle-induced X-ray emission (PIX)",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Material Science or the Master of Science (Advanced) in Materials Science"
+ },
+ {
+  "code": "CHEM8031",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM8031",
+  "title": "Advanced Materials Manufacturing",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This subject introduces the top down and bottom up processes for manufacturing of advanced materials. The course will discuss current techniques in materials manufacturing, including solid/liquid/gaseous-state synthesis and crystal growth, thin film technology, polymer processing and 3D print, additive manufacturing and device fabrication. This course will discuss how to shape the nanomaterials, thin films, bulk materials and flexible materials for different applications. The course will also discuss future developments of technologies and sustainable methods of manufacturing and recycling.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Material Science or the Master of Science (Advanced) in Materials Science"
+ },
+ {
+  "code": "CHEM8032",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM8032",
+  "title": "Modern Materials Applications",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course introduces different properties of advanced materials, which aim to address the key current challenges in science and technology.\n\nSuch materials have applications in the diverse fields of: energy production and storage, the environment (both in terms of its monitoring and remediation), electronic technology and high-speed communication, big data and quantum, health and medicine.\n\nThe course will examine structure-property correlations, device fabrication and real-world applications of next generation materials. Topics covered in the course may include:\n\nEnergy conversion (photo/mechanical/electrical-driven energy conversion and chemical fuels production)\n\nEnergy storage (battery, supercapacitors, hydrogen fuel, and redox flow cells),\n\nGlobal warming mitigation (CO2 reduction to value-added resources),\n\nRadiochemistry and environmental protection (gas/chemical sensing, pollutant decontamination)\n\nElectronic and electrical applications: various intelligent devices for sensing, Al and high-speed communication etc.)\n\nSemiconductor materials, photovoltaics and Optoelectronics (LEDs/lasers, photodetectors, solar cells and quantum devices).\n\nWater treatment and medical applications: i.e. water filtration, diagnostic and therapeutic applications",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Material Science or the Master of Science (Advanced) in Materials Science"
+ },
+ {
+  "code": "CHEM8033",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM8033",
+  "title": "Advanced Research Project in Chemistry",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "A wide range of exciting projects in the field of materials science are offered for students to conduct a small, multidisciplinary research project in chemistry, physics and engineering. The students will undertake their individual project within a research group at the ANU under the supervision of a group leader. Students will experience how to conduct real research in this field by working, training and studying alongside PhD students, together forming a cohort of research students in the chemical sciences.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Material Science (NSCMC) or the Master of Science (Advanced) in Materials Science (VSCMC).\n\nStudents can only enrol in a 6 unit research project if they have achieved a minimum 70% average mark in the first 48 units of coursework."
+ },
+ {
+  "code": "CHEM8034",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM8034",
+  "title": "Introduction to Laboratory Work in Chemistry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This is a laboratory based course which will provide students with well-rounded, hands on experience in the latest methods in organic and inorganic chemistry. The course will develop skills in key laboratory techniques in synthetic, organic and inorganic chemistry, and their applications in separation, synthesis and analysis of organic and coordination compounds. Laboratory experiments are designed to provide augmentation and complementation of the material taught in lectures from other courses on offer. Students will be exposed to important techniques in synthetic chemistry and become adept at their implementation, while also further developing their skills in the spectroscopic characterisation of compounds. Synthesis design and strategy will all be covered in the teaching. This course will also develop students' skills in the research and reporting of laboratory techniques.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Material Science or the Master of Science (Advanced) in Materials Science"
+ },
+ {
+  "code": "CHEM8700",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHEM8700",
+  "title": "Research Proposal",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Chemistry",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course provides students the opportunity to develop an original research proposal. Students will enhance their skills in interpreting, synthesising and critically analysing published literature and subsequently apply their knowledge to new questions in biology. Workshops will consist of discussing research ideas, learning strategies for robust experimental design and analyses, and peer-review activities designed to enhance writing and communication skills.\n\nYour research proposal should demonstrate a thorough understanding of the background and proposed techniques of your project and emphasise the chemical, biochemical and material science applications of your research.",
+  "requisiteText": "To enrol in this course you must have an active enrolment in one of the following programs:\nMBIOT – Master of Biotechnology\nNSCMC – Master of Science in Materials Science\nVBIOT – Master of Biotechnology (Advanced)\nVSCMC – Master of Science (Advanced) in Materials Science"
+ }
+]

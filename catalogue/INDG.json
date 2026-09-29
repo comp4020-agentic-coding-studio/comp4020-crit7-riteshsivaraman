@@ -1,0 +1,29 @@
+[
+ {
+  "code": "INDG2001",
+  "subject": "INDG",
+  "number": 2001,
+  "level": 2000,
+  "title": "Indigenous Cultural and Natural Resource Management",
+  "units": 6,
+  "summary": "This course introduces students to fundamental aspects of Indigenous relationships to lands, waters and cultural sites in Australia and internationally.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have completed 24 units of ANU courses towards a degree. You are not able to enrol in this course if you have previously completed ENVS2025.",
+  "rule": {
+   "kind": "UNITS",
+   "min": 24,
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ENVS2025"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/INDG2001",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces students to fundamental aspects of Indigenous relationships to lands, waters and cultural sites in Australia and internationally. It will provide students with an overview of Indigenous perspectives about the natural environment, knowledge systems and practices, the opportunities and challenges of Indigenous peoples Settlers’ relationships in this space, as well as the settler state legal and policy frameworks which often obstruct Indigenous opportunities to actively engage in cultural and natural resource management. These areas of contestation and collaboration between Indigenous and non-Indigenous natural resources users are explored through a series of land and water management case studies and an examination of a range of theories on the topic. Students will learn from a diversity of indigenous land managers from across Australia. The course will also provide students with an opportunity to strengthen self-reflexive practices that are essential in engaging with Indigenous knowledge in many natural resource management issues."
+ }
+]

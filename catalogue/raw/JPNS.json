@@ -1,0 +1,300 @@
+[
+ {
+  "code": "JPNS1012",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/JPNS1012",
+  "title": "Japanese 1: Spoken",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "This course aims at developing spoken conversation skills in Japanese for those who have never studied previously, or have a little knowledge of, the language. It is designed to provide a comprehensive and systematic approach to the acquisition of the Japanese colloquial language. It begins with the Japanese basic sounds and their scripts, and then expands to basic vocabulary, sentence structures and grammar points, as well as constant practices on how to use those vocabulary and grammar points in actual conversations. In addition, the course includes Japanese cultural aspects and communication strategies that are important for reinforcing conversation skills in Japanese. It covers a variety of daily conversation settings that Australian university students may experience when they host their Japanese friends visiting Australia.",
+  "requisiteText": "You cannot enrol in this course if you are a native speaker of Japanese.\nStudents with previous experience of the language must sit a language proficiency assessment."
+ },
+ {
+  "code": "JPNS1014",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/JPNS1014",
+  "title": "Japanese 1: Written",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Japanese 1: Written aims to develop your knowledge and competence in modern written Japanese. The course will cover basic Japanese grammar and general knowledge about the writing system and you will learn the phonetic scripts of hiragana and katakana and 120 kanji characters. In the initial stage, hiragana, katakana and kanji are introduced as individual characters. However, as the written language is an important means of communication, the second stage will focus on reading skills and on using all three of the systems appropriately in a cohesive text.",
+  "requisiteText": "To enrol in this course you must concurrently be enrolled in or have completed JPNS1012, undertake a language proficiency assessment, or be given permission by the course convener.\nIncompatible with JPNS6114"
+ },
+ {
+  "code": "JPNS2003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/JPNS2003",
+  "title": "Japanese 2: Spoken",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "This course is the second half of the beginner's level and is designed for those learners who have acquired basic knowledge and skills through Japanese 1: Spoken or equivalent and want to further develop their Japanese spoken conversation skills. It provides a comprehensive learning, and covers all key components such as vocabulary, phrases, grammar points, communication strategies, cultural aspects, and listening practice, which are necessary to reinforce conversation skills. It also adopts a step-by-step learning by which learners first focus on constructing and understanding simple sentences, then practicing short dialogues that use those sentences, and further work on longer conversations. It covers a variety of conversation settings in Japan that Australian university students may encounter when visiting Japan.",
+  "requisiteText": "To enrol in this course you must have completed JPNS1012, or undertake a language proficiency assessment, or be given permission by the course convener. You cannot enrol in this course if you are a native speaker of Japanese."
+ },
+ {
+  "code": "JPNS2005",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/JPNS2005",
+  "title": "Japanese 2: Written",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "This course is the second half of the beginner's level and is designed for those learners who have acquired basic knowledge and skills through Japanese 1: Spoken and Japanese 1: Written or equivalent and want to further develop their Japanese skills. The course will focus on reading and writing skills and on using all three of the writing systems appropriately in a cohesive text. In this course, you will learn 180 kanji characters on top of the 120 kanji introduced in JPNS1014 Japanese 1: Written. Throughout the semester, you will be introduced to different types of texts, learn to write compositions of up to 1200 characters in length, and read short passages (approximately 1200 characters) on various topics. You will also learn how to write in a culturally appropriate manner. Through this course, you will gain knowledge of Japanese culture essential in written communication practices.",
+  "requisiteText": "To enrol in this course you must have completed JPNS1014, and be concurrently enrolled in or have completed JPNS2003, undertake a language proficiency assessment, or be given permission by the course convener.\n\nIncompatible with JPNS6115."
+ },
+ {
+  "code": "JPNS2024",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/JPNS2024",
+  "title": "Japanese Grammar and Expressions",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "The course aims to provide a systematic treatment of modern Japanese grammar and vocabulary for intermediate students of the language. It examines various grammatical items and interrelations between Japanese words. It will therefore help students in their acquisition of Japanese language skills. Lectures will be supplemented by regular exercises, with the objective of consolidating and extending students’ knowledge of Japanese grammar and vocabulary/expressions. Some theoretical aspects of the language will also be discussed.",
+  "requisiteText": "To enrol in this course you must have completed JPNS2003 and JPNS2005, undertake a language proficiency assessment, or be given permission by the course convener. You may not enrol in this course if you have completed JPNS3204 or have completed or are concurrently enrolled in any JPNS course higher than JPNS3204."
+ },
+ {
+  "code": "JPNS3005",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/JPNS3005",
+  "title": "Advanced Japanese",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "This advanced Japanese course develops high-level language competence through engagement with authentic materials drawn from diverse sources including media, literature, academic texts, and real-world content spanning the 20th and 21st centuries. Students develop and demonstrate advanced proficiency by working with genuine Japanese materials that address contemporary societal issues, cultural themes, and literary works from multiple disciplinary perspectives including linguistic, anthropological, sociological, and psychological viewpoints. The course emphasises developing advanced literacy skills, critical reading abilities, listening comprehension, and presentation skills while students learn to navigate complex texts independently. Through careful reading, discussion, and analysis of these authentic materials, students gain deeper insights into modern Japanese society, culture, and literature while mastering the language skills necessary to engage with sophisticated, real-world Japanese content across various genres and formats.\n\nStudents can take this course up to four times, where the class topic is different. Individual class topics will focus on the following broad themes as decided by the relevant staff in the Japanese language program. These include\n\nIssues in contemporary Japan\n\nJapanese language in context\n\nReadings in society and culture\n\nReadings in literature\n\nEach class topic will have different delivery formats and assessment selected to best suit the content and support and assess your learning. The indicative assessment given elsewhere on this page should be understood as indicative only, and represents the commonalities between the different topics. Please consult the relevant class summary for specific information or contact the relevant staff member.",
+  "requisiteText": "To enrol in this course, you must have\n- Completed JPNS3002 with a grade of 60 (CR) or above; OR\n- Completed JPNS3204 with a grade of 60 (CR) or above; OR\n- Undertake a language proficiency assessment; OR\n- Completed a different topic of JPNS3005; OR\n- been given permission by the course convener.\n\nYou must not have previously completed, or be concurrently enrolled in JPNS3013, JPNS3023, or JPNS3102 or have undertaken the same topic of JPNS3005 twice."
+ },
+ {
+  "code": "JPNS3006",
+  "origin": "referenced",
+  "catalogueYear": 2025,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/JPNS3006",
+  "title": "Advanced Japanese: Language in Context",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "The course focuses on mainstream theories about Japanese society and major current socio-cultural issues. The course will be based on authentic materials dealing with Japanese society from linguistic, anthropological, sociological and psychological points of view.",
+  "requisiteText": "To enrol in this course, you must have previously completed JPNS3002 with a grade of 60 (CR) or above, or have completed JPNS3005 or JPNS3007 or JPNS3008, or have been permitted entry based on the results of the Japanese language proficiency assessment. You must not have previously completed, or be concurrently enrolled in JPNS3013, JPNS3023, JPNS3024 or JPNS3102."
+ },
+ {
+  "code": "JPNS3007",
+  "origin": "referenced",
+  "catalogueYear": 2025,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/JPNS3007",
+  "title": "Advanced Japanese: Readings in Culture and Society",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2025"
+  ],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "In this course we will read, discuss and write about a range of real world materials on culturally-related themes. Though all elements of Japanese language will be developed in this course, there will be a particular emphasis on developing literacy and the ability to read real-world, general audience materials relatively quickly.\n\nA notable difference that separates this course from intermediate level classes is the absence of a textbook and the lack of vocabulary lists or prepared grammar materials. At the advanced levels, students are expected to be able to—or to learn to be able to—do most of this footwork on their own. Naturally, a substantial portion of class time will be dedicated to textual explication, including grammar-related questions, but students will be assumed to have already made their best attempt before class, with only those issues they were unable to resolve on their own being addressed.",
+  "requisiteText": "To enroll in this course, you must have previously completed JPNS3002 with a grade of 60 (CR) or above, or have completed JPNS3005 or JPNS3006 or JPNS3008, or have been permitted entry based on the results of the Japanese language proficiency assessment. You must not have previously completed, or be concurrently enrolled in JPNS3013, JPNS3023, JPNS3024 or JPNS3102."
+ },
+ {
+  "code": "JPNS3008",
+  "origin": "referenced",
+  "catalogueYear": 2025,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/JPNS3008",
+  "title": "Advanced Japanese: Readings in Literature",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "This course will introduce students to a broad range of 20th and 21st century Japanese literature. Through careful reading and discussion of these texts students will develop their Japanese language proficiency, become familiar with a range of written Japanese styles and conventions, and gain a deeper understanding of modern and contemporary Japanese culture and literature.",
+  "requisiteText": "To enrol in this course, you must have previously completed JPNS3002 with a grade of 60 (CR) or above, or have completed JPNS3005 or JPNS3006 or JPNS3007, or have been permitted entry based on the results of the Japanese language proficiency assessment. You must not have previously completed, or be concurrently enrolled in JPNS3013, JPNS3023, JPNS3024 or JPNS3102."
+ },
+ {
+  "code": "JPNS3012",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/JPNS3012",
+  "title": "Teaching Japanese",
+  "unitsText": "6 to 12 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Teaching Japanese is an advanced Japanese course that develops students’ knowledge and skills for teaching Japanese to English-speaking learners in Australia and beyond. Students critically engage with selected information to determine what to teach, how to teach, or both, as required. The course also enhances Japanese proficiency, enabling students to communicate effectively, understand relevant technical terminology, engage with academic literature, and produce written reports in Japanese—or in English if Japanese is the student’s first language. The course is offered in two complementary strands, Teaching Japanese A (Content) and Teaching Japanese B (Method), which are offered in different academic years.\n\nTeaching Japanese A focuses on what to teach, drawing on insights from linguistic studies. It surveys key content areas in Japanese classes—sound, writing, vocabulary, grammar, sentence, discourse, and culture—while critically analysing selected linguistic topics and common learner errors. Students are required to demonstrate their expertise in Japanese, both orally and in writing. Teaching Japanese B focuses on how to teach, drawing on insights from applied linguistics. It develops students’ skills in course design, lesson delivery, and reflective practice, and includes a teaching practicum in which students act as teachers, teaching Japanese to learners. Students are expected to use Japanese actively—explaining, modelling, and communicating—both orally and in writing, further strengthening their proficiency.",
+  "requisiteText": "To enrol in this course you must have completed JPNS3204 or JPNS3002 or have completed one of the higher level JPNS course (JPNS3005, JPNS3006, JPNS3007, JPNS3008, JPNS3023, JPNS3013, JPNS3014, JPNS3102) with a grade of at least 60 (CR), or undertake a language proficiency assessment, or be a native speaker of Japanese, or be given permission by the course convener."
+ },
+ {
+  "code": "JPNS3013",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/JPNS3013",
+  "title": "Japanese - English Translation",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "This course is designed to give students practical, hands-on experience in Japanese to English translation, with a particular focus on literary translation.\n\nThe class will introduce students to issues and problems central to translation in general and issues specific to literary translation. Classes are conducted in a workshop format, where we read and translate passages of Japanese texts with an eye to developing strategies for some of the thornier issues encountered in translation. As good translation is impossible without good writing in the target language, the class will also spend considerable time and energy on helping students to improve their writing style and to develop a range of styles appropriate to the source language texts.",
+  "requisiteText": "To enrol in this course you must have completed JPNS3023 with a grade of 60 (CR) or above, or undertake a language proficiency assessment, or be a native speaker of Japanese, or be given permission by the course convener."
+ },
+ {
+  "code": "JPNS3014",
+  "origin": "referenced",
+  "catalogueYear": 2025,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/JPNS3014",
+  "title": "Teaching Japanese: Method",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2025"
+  ],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "The course focuses on practical approaches to teaching Japanese as a foreign language, on how to select and present the linguistic and socio-cultural subject matter of Japanese language courses. Topics discussed will include approaches to language teaching, course and task design, materials review, and approaches to applied linguistics research; the course will also include a teaching practice component during the mid-semester break (4 days). This course aims to develop an advanced competence in Japanese language, which is equivalent to JPNS3005, JPNS3006, JPNS3007, and JPNS3008.",
+  "requisiteText": "To enrol in this course you must have previously completed JPNS3204/3005 (Japanese 6) with a grade of at least 60 (CR) or above, or any one of the higher level 3000 level JPNS course (JPNS3005, JPNS3006, JPNS3007, JPNS3008, JPNS3023, JPNS3024, JPNS3012, JPNS3013, JPNS3102), or have been permitted entry based on the results of the Japanese language placement test, or be a native speaker of Japanese."
+ },
+ {
+  "code": "JPNS3023",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/JPNS3023",
+  "title": "Research Topics in Japanese: History & Society",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "This course develops Japanese language skills at a higher advanced level. It is designed for students with advanced Japanese language competency who are interested in applying their language skills to the study of topics in Japanese history and society. The course serves three purposes. First, class meetings during the initial semi-intensive phase (weeks 1-6) provide a venue for students to read and discuss issues relating to Japanese history and society in Japanese at an academic level. Second, during the subsequent research phase (weeks 7-12) the course develops student's ability to conduct research using Japanese language materials (e.g., academic research, primary sources, government materials, media publications, high school textbooks etc.) and to produce original academic research papers in Japanese. Third, the course provides students with opportunities to deliver formal academic-level presentations in Japanese.\n\nThe focus and topics of the course will vary depending on the instructor and students’ interests and needs. Although aimed at advancing Japanese language skills, the course is best understood as a disciplinary course (e.g., history, sociology) taught entirely in Japanese. It is an opportunity for students to move beyond standard language learning (grammar, kanji, quizzes, tests etc.) and to apply their language skills within an academic discipline (e.g., history, sociology). Students will be assessed on their ability to actively formulate research questions, acquire relevant scholarly materials, and produce scholarly writing in Japanese.",
+  "requisiteText": "To enrol in this course you must have completed 12 units of JPNS3005, JPNS3006, JPNS3007, JPNS3008, JPNS3012, or JPNS3014 with a grade of 60 (CR) or above, or undertake a language proficiency assessment, or be given permission by the course convener."
+ },
+ {
+  "code": "JPNS3102",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/JPNS3102",
+  "title": "Debating Japan: Contemporary Intellectual Debates",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "This course aims to develop near-native competence in reading contemporary Japanese texts independently and without a heavy reliance upon translations or a supervisor's assistance. The course will focus on extensive reading in contemporary Japanese texts on social, historical, ethnological, anthropological, and biological themes, amongst others, and discussion of issues raised. The course will enhance the students' ability to read, write, speak and listen in Japanese in a broad range of topics.",
+  "requisiteText": "To enrol in this course you must have completed JPNS3023 with a grade of 60 (CR) or above, or undertake a language proficiency assessment, or receive permission from the course convener.\n\nNative speakers of Japanese are not allowed to enrol in this class."
+ },
+ {
+  "code": "JPNS3201",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/JPNS3201",
+  "title": "Japanese 3",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Japanese 3 is an intermediate Japanese language course designed to enhance students’ proficiency in modern spoken Japanese. The course primarily focuses on developing the oral and aural skills necessary for understanding and participating in everyday conversations, while also incorporating reading and writing skills to support the growth of spoken communication abilities. Through a variety of communication activities and tasks, students are encouraged to develop practical communication skills. Using a textbook and supplementary materials, the course explores themes related to historical and contemporary Japan, alongside key communication strategies to strengthen overall communicative abilities. Furthermore, the course offers opportunities to engage with media resources that showcase contemporary Japan, deepening students' understanding of the country.",
+  "requisiteText": "To enrol in this course, you must have completed JPNS2003 and JPNS2005, undertake a language proficiency assessment, or be given permission by the course convener.\n\nIncompatible with JPNS2012."
+ },
+ {
+  "code": "JPNS3202",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/JPNS3202",
+  "title": "Japanese 4",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Japanese 4 is a higher intermediate Japanese language course that builds on the foundation established in Japanese 3. This course aims to further enhance students' proficiency in modern spoken Japanese while fostering the development of essential linguistic skills at the intermediate level, with a focus on progressing toward a more advanced stage. Reading and writing skills are also addressed to support the improvement of speaking and listening abilities. The course introduces students to authentic Japanese media resources, enabling them to engage more effectively with real-world language use. Through a series of themes related to historical and contemporary Japan, the course promotes practical communicative abilities and introduces key communication strategies essential for public speaking and in-depth conversations, thereby strengthening overall language proficiency. Additionally, the activities and tasks are designed to encourage students to engage critically with the content, further developing their critical thinking skills.",
+  "requisiteText": "To enrol in this course, you must have completed JPNS3201 or JPNS2012, undertake a language proficiency assessment, or be given permission by the course convener.\n\nIncompatible with JPNS2013."
+ },
+ {
+  "code": "JPNS3203",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/JPNS3203",
+  "title": "Japanese 5",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Japanese 5 is an intermediate Japanese language course. During lectures, tutorials, and seminars, students work in small groups reading, discussing, and writing about a broad range of real-world materials. The focus of this course is to help students to transition from the certainty of a textbook to the ambiguity and confusion of real-world Japanese. The language of instruction for this class is Japanese and it is expected that all students will make every effort to use only Japanese in class time and class-related correspondence. By the end of Japanese 5, students will, with the aid of dictionaries, be able to read a wide range of Japanese materials (e.g., social media, novel). Students will be familiar with the various spoken and written registers and will be able to use those registers to write their own short stories.",
+  "requisiteText": "To enrol in this course, you must have completed or be concurrently enrolled in JPNS3201 or JPNS2012, undertake a language proficiency assessment, or be given permission by the course convener.\nIncompatible with JPNS3001."
+ },
+ {
+  "code": "JPNS3204",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/JPNS3204",
+  "title": "Japanese 6",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Japanese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Japanese 6 is a higher intermediate Japanese language course that equips students with the skills to read a range of real-world Japanese texts, such as newspapers and academic articles with the aid of a dictionary. During lectures, tutorials, and seminars, students work in small groups reading, discussing and writing about a broad range of real-world materials. The language of instruction for this class is Japanese and it is expected that all students will make every effort to use only Japanese in class time and class-related correspondence.\n\nBy the end of Japanese 6, students will, with the aid of dictionaries, be able to read a wide range of real-world Japanese materials (e.g., newspaper, academic article). Students will be familiar with the various spoken and written registers and will be able to write academic essays of medium length.",
+  "requisiteText": "To enrol in this course you must have completed JPNS2003 and JPNS2005, undertake a language proficiency assessment, or be given permission by the course convener.\nYou may not enrol in this course if you have completed JPNS3204 or have completed or are concurrently enrolled in any JPNS course higher than JPNS3204/JPNS3002 Japanese 6."
+ }
+]

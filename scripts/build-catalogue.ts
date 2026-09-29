@@ -33,6 +33,17 @@ const RAW = join(OUT, "raw");
 const CODE = /^[A-Z]{4}\d{4}$/;
 const PERIOD_ORDER: Period[] = ["SUMMER", "S1", "AUTUMN", "WINTER", "S2", "SPRING"];
 
+// Scope (Ritesh, 2026-09-30): the committed catalogue holds only these two
+// colleges' courses, matched against the P&C page's verbatim "ANU College"
+// field (never a subject-prefix guess). A joint course ("A / B") is in scope
+// if either college is. Courses outside stay in catalogue/raw/ (the scrape
+// covers every college); requisites naming them keep the plain code, which
+// the engine treats as an unknown course.
+export const COLLEGES = ["ANU College of Systems and Society", "ANU College of Business and Economics"];
+export function inCollegeScope(college: string | null): boolean {
+  return college !== null && college.split(" / ").some((c) => COLLEGES.includes(c.trim()));
+}
+
 /** "First Semester 2026" -> "S1". Quarters (online PG terms) aren't Periods: null. */
 export function mapOffering(raw: string): Period | null {
   const s = raw.toLowerCase();
@@ -194,11 +205,21 @@ async function buildFromRaw(): Promise<void> {
     .flatMap((f) => JSON.parse(readFileSync(join(RAW, f), "utf8")) as RawCourse[]);
   const parse = await loadParser();
 
+  const missingCollege = raws.filter((r) => r.college === undefined || r.college === null).map((r) => r.code);
+  if (raws.length > 0 && missingCollege.length === raws.length) {
+    throw new Error("catalogue/raw has no college field --- re-extract with scripts/scrape-catalogue.ts (cache only)");
+  }
+  const outOfScope = raws.filter((r) => !inCollegeScope(r.college));
+  const outOfScopeCodes = new Set(outOfScope.map((r) => r.code));
+  const inScopeRaws = raws.filter((r) => inCollegeScope(r.college));
+  const collegeCounts: Record<string, number> = {};
+  for (const r of raws) collegeCounts[r.college ?? "(none)"] = (collegeCounts[r.college ?? "(none)"] ?? 0) + 1;
+
   const excluded: { code: string; why: string }[] = [];
   const droppedOfferings: { code: string; raw: string }[] = [];
   const names = new Map<string, Map<string, number>>();
   const courses: FileCourse[] = [];
-  for (const r of raws) {
+  for (const r of inScopeRaws) {
     if (!CODE.test(r.code)) {
       excluded.push({ code: r.code, why: "non-standard code" });
       continue;
@@ -250,15 +271,22 @@ async function buildFromRaw(): Promise<void> {
   );
   const index = writeCatalogue(courses, subjectNames, meta.scrapedAt, meta.source);
 
-  const listedInScope =
-    meta.scope === "all"
-      ? meta.listingTotal
-      : Object.entries(meta.listingTotalBySubject)
-          .filter(([s]) => (meta.scope as string[]).includes(s))
-          .reduce((n, [, k]) => n + k, 0);
+  // the listing total the catalogue answers to: listed courses in the two
+  // colleges (+ any fetch failures, whose college is unknown)
+  const listedInScope = inScopeRaws.filter((r) => r.origin === "catalogue").length + meta.failures.length;
+  const dead = deadCodes(courses);
   const report = {
     mode: meta.scope === "all" ? "full" : "trial",
     scope: meta.scope,
+    collegeFilter: {
+      colleges: COLLEGES,
+      rule: "course page's 'ANU College' field; a joint course is kept if either college matches",
+      rawCourses: raws.length,
+      keptCourses: courses.length,
+      droppedOutsideColleges: outOfScope.length,
+      rawByCollege: collegeCounts,
+      missingCollegeField: missingCollege,
+    },
     version: index.version,
     scrapedAt: meta.scrapedAt,
     listingEndpoint: meta.listingEndpoint,
@@ -272,7 +300,10 @@ async function buildFromRaw(): Promise<void> {
     nonstandardCodesSkipped: meta.nonstandardCodes,
     notFound: meta.notFound,
     fellBackTo2025: meta.fellBackTo2025,
-    deadCodes: deadCodes(courses),
+    // codes a rule names that were scraped but fall outside the two colleges
+    outOfScopeCodes: dead.filter((d) => outOfScopeCodes.has(d.code)),
+    // codes a rule names that exist nowhere in the scrape (404 in 2026 and 2025)
+    deadCodes: dead.filter((d) => !outOfScopeCodes.has(d.code)),
     droppedOfferings,
     noDescription: courses.filter((c) => c.description === "").map((c) => c.code),
     parseStatusBySubject: parseStatusBySubject(courses),
@@ -282,7 +313,7 @@ async function buildFromRaw(): Promise<void> {
   };
   writeFileSync(join(OUT, "report.json"), `${JSON.stringify(report, null, 1)}\n`);
   console.log(
-    `catalogue: ${courses.length} courses (${report.referencedCount} referenced), ${excluded.length} excluded, ${report.deadCodes.length} dead codes, version ${index.version}`,
+    `catalogue: ${courses.length} courses (${report.referencedCount} referenced) of ${raws.length} scraped in CSS + CBE, ${excluded.length} excluded, ${report.outOfScopeCodes.length} out-of-scope + ${report.deadCodes.length} dead codes referenced, version ${index.version}`,
   );
 }
 

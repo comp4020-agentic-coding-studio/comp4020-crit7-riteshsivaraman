@@ -1,0 +1,138 @@
+[
+ {
+  "code": "BAPA1001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BAPA1001",
+  "title": "The Origins of Political Order in Asia",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Spring Session 2026"
+  ],
+  "subjectName": "Asia Pacific Affairs",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "This course traces the historical development of Asia's diverse political systems. It examines underlying geo-political realities and their implications for political structure and focusses on the religious and political systems of thought that have shaped Asian political systems, especially regarding leadership, the family, ethnicity, social class and age. The course commences with the emergence of civilization in Asia, examines political structures as they were influenced by Hinduism, Buddhism, Confucianism, Islam and Christianity, the transformation of ethnic and national identities brought about in the era of western imperialism, and the assertion of new political ideals inspired by communism, liberalism, religions and reinterpretations of the past.",
+  "requisiteText": "To enrol in this course, students must be enrolled in the Bachelor of Asia Pacific Affairs (Commencing in Japan).\n\nIncompatible with ASIA1999"
+ },
+ {
+  "code": "BAPA1002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BAPA1002",
+  "title": "Understanding Peace and Conflict",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Spring Session 2026"
+  ],
+  "subjectName": "Asia Pacific Affairs",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "This course explores core questions about modern armed conflict: What is war? What shapes does it take? What are its main drivers? What consequences does it have? How has it evolved over time? Who plays a role in it? Is it ever legitimate to wage war? Is the use of violence legal? What role does terrorism play? How do we build a sustainable peace? What are some of the challenges involved? How do we address them? How do we avoid war? How can we respond to mass atrocities? To do so, the course draws on various case studies and uses a multidisciplinary lens by building on the fields of International Relations, political science, strategic studies, anthropology, history, law, gender studies and psychology. By doing so, it introduces students to some of the key debates and concepts of the field of peace and conflict studies. Additionally, it gives them a robust foundation for further study, while allowing them to better understand current international affairs.\n\nThis course will be taught in Japan (in English) as part of the Bachelor of Asia Pacific Affairs.",
+  "requisiteText": "To enrol in this course, students must be enrolled in the Bachelor of Asia Pacific Affairs (Commencing in Japan).\n\nIncompatible with INTR1021"
+ },
+ {
+  "code": "BAPA1003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BAPA1003",
+  "title": "Pacific Encounters: An introduction to Pacific Studies",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Autumn Session 2026"
+  ],
+  "subjectName": "Asia Pacific Affairs",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Pacific encounters provides an introduction into the debates about theory and practice that shape how we conceptualise and think about the Pacific region and its peoples. The course is built around three learning modules - the past, present and future. In the past we come to understand the voyages that brought people to the region and the stories they tell about their journeys. We investigate colonisation, the impact it had and still has on the region, and the different ways it can be understood. In the recent present we examine the new voyages that Pacific people have taken into places like Australia, New Zealand and the United States. In doing so we look at how people move within and between these new boundaries and how Pacific cultures and identities have evolved over time and place. Finally, we bring all of these themes together by examining how the past and the present can help us imagine the future.\nThis course will be taught in Japan (in English) as part of the Bachelor of Asia Pacific Affairs.",
+  "requisiteText": "To enrol in this course, students must be enrolled in the Bachelor of Asia Pacific Affairs (Commencing in Japan).\n\nIncompatible with PASI1011"
+ },
+ {
+  "code": "BAPA1004",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BAPA1004",
+  "title": "Introduction to International Security Studies",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Autumn Session 2026"
+  ],
+  "subjectName": "Asia Pacific Affairs",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Is war likely between global powers the United States and China? Could we see a nuclear conflict in the next decade? What is the role of race in international security? Should we see climate change as a security challenge? To answer these questions this course introduces its students to a wide variety of theoretical perspectives on international security and applies these to historical and contemporary cases to illustrate their relevance. By focusing on both traditional and non-traditional security issues, the course seeks to provide students with analytical frameworks and the empirical basis to understand the complexity of contemporary security issues.",
+  "requisiteText": "To enrol in this course, students must be enrolled in the Bachelor of Asia Pacific Affairs (Commencing in Japan).\n\nIncompatible with STST1001"
+ },
+ {
+  "code": "BAPA3001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BAPA3001",
+  "title": "Humanitarianism: Principles, Politics and Practice",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Autumn Session 2026"
+  ],
+  "subjectName": "Asia Pacific Affairs",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "When large-scale human suffering occurs, does the international community have a responsibility to assist? Who exactly should take action? What principles should guide these actors? What is the role of law and politics in humanitarian action? This course examines international responses to human suffering caused by armed conflict, mass atrocities and complex humanitarian disasters to address these questions. We look at the history and development of law and institutions that shape contemporary international humanitarian action. We consider the changing global security context in which humanitarian action takes place, and examine the actors involved in humanitarian action, from non-state, to state and multilateral actors. The course will provide students with an in-depth understanding of the concepts, politics and practice of humanitarianism, and with skills to analyse current trends and developments in this important area of international politics.\nThis course will be taught in Japan (in English) as part of the Bachelor of Asia Pacific Affairs.",
+  "requisiteText": "To enrol in this course, students must be enrolled in the Bachelor of Asia Pacific Affairs (commencing in Japan) and have completed BAPA1002\n\nIncompatible with INTR3001"
+ },
+ {
+  "code": "BAPA3002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BAPA3002",
+  "title": "Global Governance in the Asia-Pacific",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Spring Session 2026"
+  ],
+  "subjectName": "Asia Pacific Affairs",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "The Asia-Pacific region is undergoing rapid changes that present both great opportunities and enormous challenges in a number of areas. The complex interactions across states, institutions, and local communities in the region will determine how the region addresses its major governance challenges, such terrorism, refugees, health, drugs, economic development, and the environment. Using these issues as weekly topical case studies, this course focuses on how the wide range of actors in the Asia-Pacific region attempt to comprehend and resolve governance and policy problems.\nThis course will be taught in Japan (in English) as part of the Bachelor of Asia Pacific Affairs.",
+  "requisiteText": "To enrol in this course, students must be enrolled in the Bachelor of Asia Pacific Affairs (Commencing in Japan).\n\nIncompatible with INTR3002."
+ },
+ {
+  "code": "BAPA3003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BAPA3003",
+  "title": "Politics and Development in the Contemporary Pacific",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Autumn Session 2026"
+  ],
+  "subjectName": "Asia Pacific Affairs",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "The Pacific is a region of diverse and complex island states and territories. While made up of mostly small islands, collectively it spans one-third of the planet’s surface and almost a quarter of the world’s languages are spoken in the Pacific Islands. The region is on the frontlines of climate change, encompassing the countries most vulnerable to sea level rise and natural disasters in the world, yet it is also a site of pioneering forms of climate adaptability and resilience.\n\nThe Pacific is, and has always been, an important area for Australia’s interests. The Australian Constitution sets out the special relationship, specifically mentioning relations with the islands of the Pacific as part of parliament’s mandate. Today, with a fast-growing Pacific population in Australia and a renewed interest in the region as a site of geopolitical importance, this relationship remains significant.\n\nThe course examines the domestic and regional politics of the contemporary Pacific, and the important developmental challenges facing the region. It is based on case studies from cutting-edge research conducted by Pacific experts at the ANU. The lectures, seminars and assessments are designed to help students gain a better understanding of how research can be translated into evidence-based policy.",
+  "requisiteText": "To enrol in this course, students must be enrolled in the Bachelor of Asia Pacific Affairs (Commencing in Japan).\nIncompatible with PASI3001."
+ },
+ {
+  "code": "BAPA3004",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/BAPA3004",
+  "title": "Living with Giants: Australia's Security in a Contested Asia",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Spring Session 2026"
+  ],
+  "subjectName": "Asia Pacific Affairs",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "The 2020s have seen the rise of numerous strategic problems for Australia. There are giant states in fierce competition, such as the United States and China, and emerging giants in India and Indonesia. There are also problems from below, such as climate change, artificial intelligence, cyber security, and terrorism. This course examines the security challenges facing Australia and explores how Australia should approach its region. This course is designed with a focus on active and authentic classroom experiences, with a heavy emphasis on simulation exercises that replicate real world problem solving. The course will thus help any students wishing to understand how the Australian government pursues national security, whether they are seeking a future career in government, or to contribute analysis to policy and public debates about how Australia should seek its security in a contested Asia.",
+  "requisiteText": "To enrol in this course, students must be enrolled in the Bachelor of Asia Pacific Affairs (Commencing in Japan)\n\nIncompatible with STST3002."
+ }
+]

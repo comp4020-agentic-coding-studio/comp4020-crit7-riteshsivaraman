@@ -1,0 +1,51 @@
+[
+ {
+  "code": "PNPI1001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PNPI1001",
+  "title": "Introduction to Philosophy, Neuroscience, and Psychology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Philosophy, Neuroscience & Psychology Integrative",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "What is a mind? How do brains give rise to thoughts, feelings, and conscious experiences? And how can different research traditions interact fruitfully to help explore one of the last great mysteries? This course will provide a general introduction to Philsophy, Neuroscience, and Psychology. It will introduce students to the promise and challenges of studying the mind from multiple disciplinary perspectives, giving students access to the basic vocabulary, methods, and constructs of the three component fields. It will also expose students to different views about the relationship between the component fields, covering basic topics in scientific inquiry, levels of analysis, and different descriptive perspectives. Through the laboratory component, students will have the opportunity to work on a variety of simulated and practical experiments, connecting their in-class learning to hands-on transdisciplinary experiences.",
+  "requisiteText": "To enrol in this course you must be active in the Bachelor of Philosophy, Neuroscience, and Psychology."
+ },
+ {
+  "code": "PNPI2001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PNPI2001",
+  "title": "Topics in Philosophy, Neuroscience, and Psychology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Philosophy, Neuroscience & Psychology Integrative",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "To understand phenomena like memory, consciousness, bodily sensations, or navigation, we must approach them from multiple disciplinary perspectives. The course will cover a single topic each year from the perspective of philosophy, neuroscience, and psychology, with teaching input from staff and visitors to the three cognate disciplines. The topic and format of the course will depend on the availability and interests of staff in given years. Each year's topic will be the focus of transdisciplinary inquiry, focusing on how methods in one discipline can be used to make progress in the questions of another.",
+  "requisiteText": "To enrol in this course you must be active in the Bachelor of Philosophy, Neuroscience, and Psychology and have completed 48 units towards completion of your program."
+ },
+ {
+  "code": "PNPI3001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PNPI3001",
+  "title": "Research Project in Philosophy, Neuroscience, and Psychology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Philosophy, Neuroscience & Psychology Integrative",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course is specially designed to give students the opportunity to engage with active researchers and engage in substantial research tasks. Students will be integrated in a research team and get direct experience in core components of research activities, including literature review, project design, data collection, or analysis. Students will learn to take a transdisciplinary approach to real research problems, including critical assessment and evaluation in the context of current knowledge and frameworks. Students will take substantial steps from learning about research to becoming active, engaged participants with peers in a research community.\n\nThis course is designed to be flexible and allows for a broad range of research experiences for students. Research topics and groupings will vary year to year; BPNP convenors will make available a list of projects at the start of each semester.",
+  "requisiteText": "To enrol in this course, you must be active in the Bachelor of Philosophy, Neuroscience, and Psychology, and have completed PNPI2001."
+ }
+]

@@ -1,0 +1,128 @@
+[
+ {
+  "code": "CHMD2005",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHMD2005",
+  "title": "Health Humanities",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Culture, Health and Medicine",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course introduces students to the field of health humanities, highlighting the ways humanities can throw light on complex inter-relationships between culture, medicine and health. It focuses on the health humanities in performance, text and visual media and is divided into modules to enable students to practice perspective-taking, observation, embodied learning and creative synthesis:\n\n1) Personal accounts of illness - pathographies\n\n2) Representations of the body and selfhood\n\n3) Embodiment and health\n\n4) Institutions and health care\n\nThese four modules will be linked through three health humanities themes: cultural constructions of health and health care; narrative and visual representations of illness, health and well-being; and performance and health. Expert seminars will be presented by writers, dance artists, visual artists, and game developers. Students will develop a portfolio of work including an analysis of a pathography or a creative reflection on illness; an analysis of a visual work; and an analysis of a media representation of illness, health condition, or health intervention.",
+  "requisiteText": "Students must have completed a minimum of 48 units of tertiary courses.\n\nIncompatible with CHMD6005 and CHMD8005"
+ },
+ {
+  "code": "CHMD6005",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHMD6005",
+  "title": "Health Humanities",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Culture, Health and Medicine",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course introduces students to the field of health humanities, highlighting the ways humanities can throw light on complex inter-relationships between culture, medicine and health. It focuses on the health humanities in performance, text and visual media and is divided into modules to enable students to practice perspective-taking, observation, embodied learning and creative synthesis:\n\n1) Personal accounts of illness - pathographies\n\n2) Representations of the body and selfhood\n\n3) Embodiment and health\n\n4) Institutions and health care\n\nThese four modules will be linked through three health humanities themes: cultural constructions of health and health care; narrative and visual representations of illness, health and well-being; and performance and health. Expert seminars will be presented by writers, dance artists, visual artists, and game developers. Students will develop a portfolio of work including an analysis of a pathography or a creative reflection on illness; an analysis of a visual work; and an analysis of a media representation of illness, health condition, or health intervention.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in the course you must be active in the Master of Culture Health and Medicine, Master of Culture Health and Medicine (Advanced), Master of Public Health or Master of Public Health (Advanced)\n\nIncompatible: CHMD2005, CHMD8005"
+ },
+ {
+  "code": "CHMD8004",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHMD8004",
+  "title": "Qualitative Methodologies for Health Research",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Culture, Health and Medicine",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course provides the student with the principles of qualitative approaches to health research. A core component of this course is training in analytic thinking as it is applied to qualitative methodologies and health research more generally. Students will acquire knowledge in the foundations of qualitative research as well as practical qualitative methods, such as interviews, observation, document analysis and focus groups. Students will be expected to participate in exercises designed to enhance skills and techniques throughout the course.",
+  "requisiteText": null
+ },
+ {
+  "code": "CHMD8006",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHMD8006",
+  "title": "Global Health and Development",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Culture, Health and Medicine",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "This course introduces the student to existing and emerging paradigms for studying the relationship among health, development, and global change, including political economy, political ecology, environmental justice, and human rights perspectives. It will draw, in particular, on critical-interpretive literature in medical anthropology. Selected ethnographies and case studies from Africa, Latin America, Asia and the Pazific will illustrate the various theoretical frameworks, with emphasis on the health effects of development. The final section of the course explores health policy and activism in the context of human rights based approaches to health.",
+  "requisiteText": null
+ },
+ {
+  "code": "CHMD8009",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHMD8009",
+  "title": "Anthropological Approaches to Health Interventions",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Culture, Health and Medicine",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Traditional approaches to health focus on the individual and are limited in that they take little account of context; local, cultural, social, environmental or global. This course gives students a unique opportunity to examine the central individual and structural approaches to public health, and will equip them with the skills to make a reflexive examination of their own presuppositions about approaches to public health issues and the effective translation of health interventions. The course draws on a wide range of case examples from the literature to make explicit the ways in which there are hidden models directing health interventions, most of which ignore context.",
+  "requisiteText": null
+ },
+ {
+  "code": "CHMD8011",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHMD8011",
+  "title": "Refugee Health: From Displacement to Resettlement",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Culture, Health and Medicine",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Over 100 million persons are currently living under conditions of forced displacement. This course focuses on the challenges to health and well-being faced by refugees through the stages of resettlement, with a particular focus on the third durable solution, resettlement in a third country. Students will study the key developments in health and human security for refugees, and the health implications of local integration and voluntary repatriation. Key areas to be addressed include the resources and capabilities of refugees, models of health service provision in temporary settlements, while on the move, and after resettlement, patterns of illness, and determinants of resilience. The course will consider case studies of peole who have been forcibly displaced due to contemporary conflicts in Myanmar, central Africa, Ukraine and Afghanistan.",
+  "requisiteText": null
+ },
+ {
+  "code": "CHMD8014",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHMD8014",
+  "title": "Perspectives on Culture, Health and Medicine",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Culture, Health and Medicine",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "This course is a survey introduction to advanced topics in the social scientific and humanistic study of health and medicine as it relates to culture. It is a discussion-based course focusing on theoretical and methodological questions in medical anthropology research and applied work in the health field. We begin by addressing how to employ ethnographic research to illuminate critical concerns about the social, political, economic, environmental, and historical context of embodiment, health, disease, illness experience, and therapeutic efficacy. Throughout this course, students will be exploring a selection of the wide range of subject matter and geographic regions that encompass medical anthropology. We will begin with the cultural conventions of biomedicine situated in the West and then incorporate some of the healing practices and medical afflictions around the world studied by medical anthropologists. Overall, the thematic topics include: theories of disease causation and healing efficacy; medicalization and the scientific gaze; production of medical knowledge; mental health; public health discourse and risk; the internationalization of pharmaceutical research; the possibilities and perils of new medical technologies; emergent forms of everyday health practices; the ethics of medical tourism; and health inequities. The objective is to provide an overview of theoretical and applied social scientific approaches to the study of culture, health, and medicine.",
+  "requisiteText": null
+ },
+ {
+  "code": "CHMD8021",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/CHMD8021",
+  "title": "Indigenous Medicines, Health and Healing",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Culture, Health and Medicine",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Postgraduate",
+  "description": "This course introduces cross-cultural comparative perspectives on indigenous medicines, healing and health in colonial and post-colonial contexts. Contemporary condition of indigenous medicines and healing practices in Australia, Hawaii, Africa, India, and Southeast Asian nations, for example, are intertwined with the history of European colonial racial and gendered objectification of “native” bodies, their medicines and healing approaches. We will examine the relationship between medicine as a tool of empire and how indigenous medicines, healthcare practices, and health have been constructed, regulated, and transformed by colonial and post-colonial science, medicine, and social policies. We will also explore how indigenous conceptions of the body, health, and approaches to care persist as distinctive from contemporary biomedical paradigm. We will explore the effects of this distinction on indigenous medicines, healing practices, and health—that today is also manifest in clinical settings worldwide as a cultural tension between the biomedical doctor and the indigenous patient. Part 1 of the course will focus on the relationship between colonial medicine and indigenous medicines. Part 2 will focus on indigenous forms of medicines and conception of health and healing. Part 3 will focus on the contemporary forms of indigenous medicines and the health of indigenous people in light of the re-emergence of molecular biology, genetic science and the rise of cultural competency paradigm in biomedicine. In the process, students will gain a historical understanding of key concepts associated with the construction of indigenous medicines such as ethnomedicine, traditional, alternative, and medical pluralism vis-à-vis the idea of what is modern and the formation of modernity.",
+  "requisiteText": null
+ }
+]

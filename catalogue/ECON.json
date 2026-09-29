@@ -1,0 +1,2817 @@
+[
+ {
+  "code": "ECON1100",
+  "subject": "ECON",
+  "number": 1100,
+  "level": 1000,
+  "title": "Economics I (H)",
+  "units": 6,
+  "summary": "This course will bring in practicing economists from the Australian Public Service and Industry and leading researchers to discuss how economics is used in the formulation of public policy and in finding solutions to a number of interesting real-world problems.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have completed ECON1101 Microeconomics 1. Incompatible with ECON1102.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "ECON1101",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON1102",
+   "ECON2016"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON1100",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course will bring in practicing economists from the Australian Public Service and Industry and leading researchers to discuss how economics is used in the formulation of public policy and in finding solutions to a number of interesting real-world problems. We will explore the boundaries and interactions of economic theory, practical application and the interplay of politics, institutions and differing view points.\n\nEconomics 1(H) is taught alongside ECON1102 Macroeconomics 1 with additional contact hours a week. This extension course is designed for the better performing students who want to extend their exposure to economics beyond that offered in the standard second year theory courses in microeconomics and macroeconomics. As such, students enrolling in this course should have achieved at least a credit (above 60%) for Microeconomics 1 (ECON1101)."
+ },
+ {
+  "code": "ECON1101",
+  "subject": "ECON",
+  "number": 1101,
+  "level": 1000,
+  "title": "Microeconomics 1",
+  "units": 6,
+  "summary": "The course examines how individuals and firms make decisions by weighing up costs and benefits, and how the interaction of their decisions leads to market and social outcomes.",
+  "offered": [
+   "S1",
+   "S2",
+   "SPRING"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [
+   "ECON7073",
+   "ECON8069",
+   "ECON8077"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON1101",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The course examines how individuals and firms make decisions by weighing up costs and benefits, and how the interaction of their decisions leads to market and social outcomes. The model of market supply and demand is employed to examine the effects of taxes, subsidies, and other government interventions in market activity. The implications of different market structures, including perfect competition and monopoly, are examined. Public goods, externalities and common resources are key examples of cases in which private markets may yield socially sub-optimal outcomes. Such cases are examined and the role of government policy in correcting for these is discussed."
+ },
+ {
+  "code": "ECON1102",
+  "subject": "ECON",
+  "number": 1102,
+  "level": 1000,
+  "title": "Macroeconomics 1",
+  "units": 6,
+  "summary": "Macroeconomics is concerned with the operation of the economy as a whole, with attention paid to such things as unemployment, inflation, and interest rates, determination of the level of national income, savings and investment, and the exchange rate and the current account of…",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have completed or concurrent enrolment in ECON1101.\nIncompatible with ECON1100.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "ECON1101",
+   "concurrent": true
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON1100",
+   "ECON7074",
+   "ECON8069",
+   "ECON8077"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON1102",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Macroeconomics is concerned with the operation of the economy as a whole, with attention paid to such things as unemployment, inflation, and interest rates, determination of the level of national income, savings and investment, and the exchange rate and the current account of the balance of payments. The course develops a consistent model of the economy to explore the interactions of key macroeconomic markets and variables and to examine the impacts of different kinds of shocks to the economy and the role of government budgetary and monetary policy in influencing the level of economic activity."
+ },
+ {
+  "code": "ECON2009",
+  "subject": "ECON",
+  "number": 2009,
+  "level": 2000,
+  "title": "Labour Economics and Industrial Relations",
+  "units": 6,
+  "summary": "This course provides a broad introduction to the economic analysis of labour market issues.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have completed or concurrent enrolment in ECON2101.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "ECON2101",
+   "concurrent": true
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON6041"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON2009",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course provides a broad introduction to the economic analysis of labour market issues. The topics to be covered are: labour supply, including determinants of labour market participation and hours of works; labour demand; labour market equilibrium and wage determination; compensating wage differentials; investments in human capital and returns to education; earnings distribution; labour mobility; labour market discrimination; role of unions; incentive pay; and unemployment. Policy applications will be emphasized."
+ },
+ {
+  "code": "ECON2013",
+  "subject": "ECON",
+  "number": 2013,
+  "level": 2000,
+  "title": "Behavioral Economics",
+  "units": 6,
+  "summary": "This course aims to teach students some techniques of behavioural economics, classical economics, and compare the two approaches. It focuses on the principles and basic models of decision-making used by both streams of economists, as well as their consequences.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have successfully completed 24 units of any courses.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed 24 units of any courses"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON2013",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course aims to teach students some techniques of behavioural economics, classical economics, and compare the two approaches. It focuses on the principles and basic models of decision-making used by both streams of economists, as well as their consequences."
+ },
+ {
+  "code": "ECON2014",
+  "subject": "ECON",
+  "number": 2014,
+  "level": 2000,
+  "title": "Managerial Economics",
+  "units": 6,
+  "summary": "ECON2014 Managerial Economics is a practical and applied course in the field of managerial economics.  This course will teach you to analyse key economic problems from a managerial perspective and will focus on three main areas.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have completed ECON1101. Incompatible with ECON6014.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "ECON1101",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON6014"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON2014",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "ECON2014 Managerial Economics is a practical and applied course in the field of managerial economics. This course will teach you to analyse key economic problems from a managerial perspective and will focus on three main areas. The course starts with key economic concepts in Managerial Economics (fundamental microeconomics topics such as demand, supply, production, cost, market structure and pricing from a managerial perspective), the course will move and develop deeper understanding of the key framework of Organisational Architecture (Decision Rights assignment, Reward System and Performance Evaluation mechanisms) and the course concludes with key contemporary applications of Organisational Architecture in dominating areas of executive concerns: Corporate Governance, Vertical Integration, Outsourcing, and we discuss the future of the Gig Economy.\n\nDuring the course we will touch the role of risk management systems, disaster-management systems, and effective decision making under uncertainty."
+ },
+ {
+  "code": "ECON2016",
+  "subject": "ECON",
+  "number": 2016,
+  "level": 2000,
+  "title": "Economics II (H)",
+  "units": 6,
+  "summary": "This course will bring in practicing economists from the Australian Public Service and Industry and leading researchers to discuss how economics is used in the formulation of public policy and in finding solutions to a number of interesting real-world problems.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed ECON2101. You are not able to enrol I this course if you have previously completed ECON2102 or ECON2112 or ECON1100.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "ECON2101",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON1100",
+   "ECON2102",
+   "ECON2112",
+   "ECON7074"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON2016",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course will bring in practicing economists from the Australian Public Service and Industry and leading researchers to discuss how economics is used in the formulation of public policy and in finding solutions to a number of interesting real-world problems. We will explore the boundaries and interactions of economic theory, practical application and the interplay of politics, institutions and differing view points.\n\nEconomics 2(H) is taught alongside ECON2102 Macroeconomics 2 with additional contact hours a week. This extension course is designed for the better performing students who want to extend their exposure to economics beyond that offered in the standard second year theory courses in microeconomics and macroeconomics. As such, students enrolling in this course should have achieved at least a credit (above 60%) for Microeconomics 2 (ECON2101)."
+ },
+ {
+  "code": "ECON2026",
+  "subject": "ECON",
+  "number": 2026,
+  "level": 2000,
+  "title": "Money and Banking",
+  "units": 6,
+  "summary": "This course has two main objectives.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have successfully completed 24 units of any courses.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed 24 units of any courses"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON2026",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course has two main objectives. One is to study the role played by banks in modern monetary economies and financial markets, including issues arising from bank regulation, the role of banks in financial intermediation, and the significance of bank behaviour in monetary policy. This includes analysis of monetary innovations through crypto-currencies such as \"bit-coin\", and the shadow banking systems that played a significant role in the Global Financial Crisis. The second objective is to study the operation of monetary policy generally, in large economies such as the USA, and in small open economies such as Australia."
+ },
+ {
+  "code": "ECON2080",
+  "subject": "ECON",
+  "number": 2080,
+  "level": 2000,
+  "title": "Economic Analysis of the Digital Economy",
+  "units": 6,
+  "summary": "g.  Bitcoin) and user-generated content in online social networks.  This course shows how the tools of economics can further our understanding of online behaviour, and also how economics can contribute to the future development of the Internet.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed ECON1101. Incompatible with ECON8180.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "ECON1101",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON8180"
+  ],
+  "origin": "referenced",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/ECON2080",
+  "catalogueYear": 2025,
+  "retired": false,
+  "description": "The Internet is transforming many aspects of economic life, from the online purchasing and selling of goods and services, to new ways of (peer) producing information goods such as open source software, currencies (e.g. Bitcoin) and user-generated content in online social networks. This course shows how the tools of economics can further our understanding of online behaviour, and also how economics can contribute to the future development of the Internet. The course also demonstrates how data from the Internet are being used to answer important long-standing research questions in economics."
+ },
+ {
+  "code": "ECON2091",
+  "subject": "ECON",
+  "number": 2091,
+  "level": 2000,
+  "title": "The Economy, Politics and the State",
+  "units": 6,
+  "summary": "Currently, in most of the economics that is taught, government decisions are not adequately explained, but are treated as exogenous, or (sometimes), assumed to be determined by considerations of ‘optimality’.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed or concurrent enrolment in ECON2101/2111 Microeconomics 2 (P or H) or equivalent.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed or concurrent enrolment in ECON2101/2111 Microeconomics 2 (P or H) or equivalent"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON4491"
+  ],
+  "origin": "referenced",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/ECON2091",
+  "catalogueYear": 2025,
+  "retired": false,
+  "description": "Currently, in most of the economics that is taught, government decisions are not adequately explained, but are treated as exogenous, or (sometimes), assumed to be determined by considerations of ‘optimality’. The course seeks to develop an understanding of how governments actually use their ‘policy space’ in economic matters, and how they actually respond to expansions (or contractions) in that space."
+ },
+ {
+  "code": "ECON2101",
+  "subject": "ECON",
+  "number": 2101,
+  "level": 2000,
+  "title": "Microeconomics 2",
+  "units": 6,
+  "summary": "Building upon material introduced in Microeconomics 1, this course aims to provide a solid understanding of basic microeconomic theory and the ability to apply those tools and ideas.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have completed ECON1101 Microeconomics 1",
+  "rule": {
+   "kind": "COURSE",
+   "code": "ECON1101",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON7073"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON2101",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Building upon material introduced in Microeconomics 1, this course aims to provide a solid understanding of basic microeconomic theory and the ability to apply those tools and ideas. Models describing the economic behaviour of individual decision-makers and the outcomes of markets are developed and applied to examine the welfare of market participants. Questions addressed include: What influences consumer demand decisions and how? How do firms decide on how much to produce and how much inputs to use? How do prices function to coordinate economic activity? What is meant by economic efficiency? When do markets fail to achieve efficient outcomes? Training in economic analysis is achieved via weekly tutorials that go over problem sets linked to material presented in lecture. Overall, the course takes an analytical approach emphasising rigorous logical reasoning and economic problem solving."
+ },
+ {
+  "code": "ECON2102",
+  "subject": "ECON",
+  "number": 2102,
+  "level": 2000,
+  "title": "Macroeconomics 2",
+  "units": 6,
+  "summary": "This course introduces the student to methods and issues in contemporary macroeconomics.  A good understanding of the various macroeconomic issues and models is vital for any student of economics, business and finance.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you must have completed ECON1102 (or ECON1100). You must also either have completed, or be currently enrolled in, ECON2101.\n\nIncompatible with ECON2016.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "To enrol in this course, you must have completed ECON1102 (or ECON1100)"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "You must also either have completed, or be currently enrolled in, ECON2101"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "ECON2016",
+   "ECON7074"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON2102",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces the student to methods and issues in contemporary macroeconomics. A good understanding of the various macroeconomic issues and models is vital for any student of economics, business and finance. A central theme is the inter-relationship between empirical macroeconomic outcomes and theoretical constructs for explaining or understanding these outcomes. These models can also be used to understand and re-invent macroeconomic policies. In this course we also aim to bring the themes in undergraduate macroeconomic studies closer to what is taught in graduate courses, and also closer to how macroeconomics is done in the best universities and policy institutions such as the U.S. Federal Reserve, the International Monetary Fund, the European Central Bank, Bank of England, the Reserve Banks of New Zealand and Australia."
+ },
+ {
+  "code": "ECON2108",
+  "subject": "ECON",
+  "number": 2108,
+  "level": 2000,
+  "title": "Japanese Economy and Economic Policy",
+  "units": 6,
+  "summary": "This course is designed to introduce students to the operation and management of the Japanese economy and its impact on Australia and the Asia-Pacific region.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have completed ECON1101 and ECON1102 or ECON1100.\nIncompatible with ECON2008.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON1101",
+     "concurrent": false
+    },
+    {
+     "kind": "OR",
+     "children": [
+      {
+       "kind": "COURSE",
+       "code": "ECON1102",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "ECON1100",
+       "concurrent": false
+      }
+     ]
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON2008"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON2108",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course is designed to introduce students to the operation and management of the Japanese economy and its impact on Australia and the Asia-Pacific region. Stress will be given to the analytic and policy interest in the operation and management of an economic system built on different social and institutional foundations from those of our own, and the interaction between the Japanese economy and other economies, particularly the Australian economy."
+ },
+ {
+  "code": "ECON2125",
+  "subject": "ECON",
+  "number": 2125,
+  "level": 2000,
+  "title": "Optimisation for Economics and Financial Economics",
+  "units": 6,
+  "summary": "Modern economic theory is based on mathematical models.  Thus, a thorough understanding of the economic content of such models is not possible without a clear understanding of the mathematical concepts that underpin the modeling.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you must have completed ECON1101 and ECON1102 (or ECON1100).\n\nTo enrol in this course you must also have completed at least one of EMET1001, MATH1014, MATH1113, or MATH1116.\n\nIncompatible with ECON6012 and ECON8013.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON1101",
+     "concurrent": false
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "ECON1102 (or ECON1100)"
+    },
+    {
+     "kind": "OR",
+     "children": [
+      {
+       "kind": "COURSE",
+       "code": "EMET1001",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "MATH1014",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "MATH1113",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "MATH1116",
+       "concurrent": false
+      }
+     ]
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "ECON6012",
+   "ECON8013"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON2125",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Modern economic theory is based on mathematical models. Thus, a thorough understanding of the economic content of such models is not possible without a clear understanding of the mathematical concepts that underpin the modeling. This course introduces students to a range of optimisation concepts and techniques for economics and financial economics that form the basis of advanced economic theory courses. The introduced optimisation concepts and techniques will be derived from basic principles and assumptions as thoroughly as possible, and will be illustrated using standard applications from economics."
+ },
+ {
+  "code": "ECON2131",
+  "subject": "ECON",
+  "number": 2131,
+  "level": 2000,
+  "title": "Public Sector Economics",
+  "units": 6,
+  "summary": "This course uses the basic tools of microeconomics to analyse the role of government and the rationale for and design of taxation and expenditure policy.  Emphasis is placed on attaining a solid grasp of the basic theory of public economics.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have completed or concurrent enrolment in ECON2101 Microeconomics 2.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "ECON2101",
+   "concurrent": true
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON6034"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON2131",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course uses the basic tools of microeconomics to analyse the role of government and the rationale for and design of taxation and expenditure policy. Emphasis is placed on attaining a solid grasp of the basic theory of public economics. The topics to be covered include a review of basic microeconomics, welfare economics, cost-benefit analysis, public goods, externalities, public choice, public expenditure programs (including education, health, pensions and welfare payments), and taxation (including efficiency and equity issues, tax incidence, Australian tax policy, and fiscal federalism)."
+ },
+ {
+  "code": "ECON2141",
+  "subject": "ECON",
+  "number": 2141,
+  "level": 2000,
+  "title": "Strategic Thinking: An introduction to Game Theory",
+  "units": 6,
+  "summary": "” (Schelling, 1960, The Strategy of Conflict).  Recognising and understanding such behavior is an essential part of any analyst’s toolkit and this course is designed to enable just such recognition and understanding.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed 24 units of any courses.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed 24 units of any courses"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON2141",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "In many - perhaps most – economic, political, legal and social interactions, there is potential for strategic behavior, a term, “intended to focus on the interdependence of the adversaries' decisions and on their expectations about each other's behavior.” (Schelling, 1960, The Strategy of Conflict). Recognising and understanding such behavior is an essential part of any analyst’s toolkit and this course is designed to enable just such recognition and understanding. Game theory has successfully been applied in a diverse range of disciplines, such as economics, political science, military analysis, law, biology and computer science.\n\nThe aim of this course is to provide an introduction to strategic thinking and analysis through the basic techniques of game theory and to illustrate the range of its applications in almost all fields of social interaction. While the level of the course will be introductory, and mathematical prerequisites are minimal, the presentation of the material will rely on precise logical arguments. This course should be of interest to students from any part of the University."
+ },
+ {
+  "code": "ECON2900",
+  "subject": "ECON",
+  "number": 2900,
+  "level": 2000,
+  "title": "Development Poverty and Famine",
+  "units": 6,
+  "summary": "Why are some countries richer than others?  Why have some countries experienced growth miracles while others have experienced stagnation or even growth disasters?  Within developing countries, what does it mean to be poor?  How to combat poverty?",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed ECON1101 Microeconomics 1, and ECON1102 Macroeconomics 1 or ECON1100 Economics 1 (H). You are not able to enrol in this course if you have completed ECHI2013 Development, Poverty and Famine ( H) or ECON4409.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON1101",
+     "concurrent": false
+    },
+    {
+     "kind": "OR",
+     "children": [
+      {
+       "kind": "COURSE",
+       "code": "ECON1102",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "ECON1100",
+       "concurrent": false
+      }
+     ]
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECHI2013",
+   "ECON4409",
+   "ECON6901"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON2900",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Why are some countries richer than others? Why have some countries experienced growth miracles while others have experienced stagnation or even growth disasters? Within developing countries, what does it mean to be poor? How to combat poverty? What are the challenges that the poor in developing countries face and what can be done to improve their living standards? This course intends to teach students what we know and what we do not know about these important questions and will focus on teaching students tools in understanding them. The topics covered will include explanations on why countries develop differentially, the effect of geography, institutions, foreign aid, corruption and differential, saving rates on the large disparities across countries. Within countries, we will examine the role of education, health migration and credit markets in the alleviation of poverty. The course will cover both theory and empirical evidence but focusing mainly on how to conduct empirical analysis in understanding these important economic development issues."
+ },
+ {
+  "code": "ECON3004",
+  "subject": "ECON",
+  "number": 3004,
+  "level": 3000,
+  "title": "Health Economics",
+  "units": 6,
+  "summary": "This course aims to introduce economic tools for understanding and analysing the health care sector.  We will use economic tools to analyse the major participants in the healthcare sector—hospitals, physicians, health insurers, and pharmaceutical firms.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you must have completed or are in concurrent enrolment of ECON2101 Microeconomics 2.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course, you must have completed or are in concurrent enrolment of ECON2101 Microeconomics 2"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON6039"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3004",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course aims to introduce economic tools for understanding and analysing the health care sector. We will use economic tools to analyse the major participants in the healthcare sector—hospitals, physicians, health insurers, and pharmaceutical firms. We will also investigate how government policies shape healthcare markets and develop skills to assess the effects of these policies using economic approaches.\n\nTopics that we will investigate in depth include:\n\n1. Distinctive economic characteristics of ' healthcare' as a commodity;\n\n2. Fundamental demand for health: the Grossman's model;\n\n3. Quality and financial incentive of healthcare providers: the Industrial Organisation perspective;\n\n4. Private and public health insurance I: Adverse Selection and the Rothschild-Stiglitz model;\n\n5. Private and public health insurance II: Ex-ante and ex-post Moral Hazard;\n\n6. Health Technology Assessment: Cost-effectiveness analysis and Cost-benefit analysis\n\n7. Healthcare systems around the world and healthcare reforms: Past, present and future"
+ },
+ {
+  "code": "ECON3006",
+  "subject": "ECON",
+  "number": 3006,
+  "level": 3000,
+  "title": "Financial Economics",
+  "units": 6,
+  "summary": "This course examines the economic principles that determine the allocation of resources through time in market economies, with an emphasis on context setting through real-world issues at the intersections of economics, finance, and political science.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you must have completed ECON2101.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "ECON2101",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON6037"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3006",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course examines the economic principles that determine the allocation of resources through time in market economies, with an emphasis on context setting through real-world issues at the intersections of economics, finance, and political science. Topics are introduced via these disciplinary boundaries to highlight diverse perspectives and stakeholder dynamics. It uses supply and demand relationships to value capital assets (or projects more generally). There is a detailed treatment of the effects of risk on capital asset prices. The impact of liquidity on our understanding of financial economics will also be discussed."
+ },
+ {
+  "code": "ECON3020",
+  "subject": "ECON",
+  "number": 3020,
+  "level": 3000,
+  "title": "Special Topics in Economics: Computing and Data Skills",
+  "units": 6,
+  "summary": "This course teaches data and computing skills with applications in economics.  On the economics side, the course will explore a sample of economic problems using data and basic quantative techniques, such as visualization and descriptive statistics.",
+  "offered": [],
+  "requisiteText": "To enrol in this course, you must have completed ECON2101 Microeconomics 2 (P) (or ECON2111 Microeconomics 2 (H) ) and ECON2102 Macroeconomics 2 (P) (or ECON2112 Macroeconomics 2 (H) or ECON2016 Economics II (H) ).",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course, you must have completed ECON2101 Microeconomics 2 (P) (or ECON2111 Microeconomics 2 (H) ) and ECON2102 Macroeconomics 2 (P) (or ECON2112 Macroeconomics 2 (H) or ECON2016 Economics II (H) )"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3020",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course teaches data and computing skills with applications in economics.\nOn the economics side, the course will explore a sample of economic problems using data and basic quantative techniques, such as visualization and descriptive statistics. Possible topics include changes in the distribution of wealth, income inequality, the size of cities, patterns of trade, demographics, asset returns, credit and default risk and so on. On the technical side the course will teach basic programming within a problem solving framework applicable to the economic and business modelling. There will be an emphasis on designing and writing correct code. Modern program language design concepts will also be taught."
+ },
+ {
+  "code": "ECON3021",
+  "subject": "ECON",
+  "number": 3021,
+  "level": 3000,
+  "title": "International Monetary Economics",
+  "units": 6,
+  "summary": "This course will provide students with models that can be used to analyse issues in international monetary economics.",
+  "offered": [],
+  "requisiteText": "To enrol in this course, you must have completed:\nECON2101; and\nECON2102 or ECON2016.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON2101",
+     "concurrent": false
+    },
+    {
+     "kind": "OR",
+     "children": [
+      {
+       "kind": "COURSE",
+       "code": "ECON2102",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "ECON2016",
+       "concurrent": false
+      }
+     ]
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3021",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course will provide students with models that can be used to analyse issues in international monetary economics. The course introduces students to so-called global imbalances and the basic stylized facts about current accounts with cross-section and the time-series of selected countries such as the US and China. Issues of current account sustainability will also be addressed. The underlying intertemporal modelling framework will be applied to the current account and be used to understand the macroeconomic effects of external shocks, such as changes in terms of trade and the world interest rate. Students will also learn about the effects that endowment and productivity shocks have on consumption, saving, investment, the trade balance, and the current account. These effects will be analysed for small and for large open economies. Students will learn about the real exchange rate and use the intertemporal modelling framework to analyse its determinants. Towards the end of the course, students will learn about capital market integration and the effects of capital controls. The last lecture concludes the course with a discussion of the most recent World Economic Outlook that is produced semi-annually by the International Monetary Fund."
+ },
+ {
+  "code": "ECON3023",
+  "subject": "ECON",
+  "number": 3023,
+  "level": 3000,
+  "title": "Economic Policy Issues",
+  "units": 6,
+  "summary": "Where did economics come from and how did it assume its current form?  This is the fundamental question that this course seeks to investigate.",
+  "offered": [],
+  "requisiteText": "To enrol in this course, you must have completed ECON2101 and ECON2102 or ECON2016.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON2101",
+     "concurrent": false
+    },
+    {
+     "kind": "OR",
+     "children": [
+      {
+       "kind": "COURSE",
+       "code": "ECON2102",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "ECON2016",
+       "concurrent": false
+      }
+     ]
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON6003"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3023",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Where did economics come from and how did it assume its current form? This is the fundamental question that this course seeks to investigate. The course presents the development of economics from a branch of moral philosophy, into political economy, and finally into a quasi-scientific and quantitative discipline today. At every stage, the course places developments in the field into political and social context and presents alternative sets of ideas and paths not taken that were once prominent but have since been forgotten."
+ },
+ {
+  "code": "ECON3056",
+  "subject": "ECON",
+  "number": 3056,
+  "level": 3000,
+  "title": "PPE Integration 3: Classic Literature in Politics, Philosophy and Economics",
+  "units": 6,
+  "summary": "Where did economics come from and how did it assume its current form?  This is the fundamental question that this course seeks to investigate by integrating philosophy, politics, and economics through historical analysis.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must:\n- be enrolled in Bachelor of Politics, Philosophy and Economics\n- have completed 48 units of 1000 level courses\n- have completed ECON2101",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must: - be enrolled in Bachelor of Politics, Philosophy and Economics - have completed 48 units of 1000 level courses - have completed ECON2101"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3056",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Where did economics come from and how did it assume its current form? This is the fundamental question that this course seeks to investigate by integrating philosophy, politics, and economics through historical analysis. The course presents the development of economics from a branch of moral philosophy, into political economy, and finally into a quasi-scientific and quantitative discipline today. At every stage, the course places developments in the field into political and social context and presents alternative sets of ideas and paths not taken that were once prominent but have since been forgotten. This course is available to students in the PPE Program."
+ },
+ {
+  "code": "ECON3057",
+  "subject": "ECON",
+  "number": 3057,
+  "level": 3000,
+  "title": "Industrial Organisation",
+  "units": 6,
+  "summary": "Industrial Organisation studies the interdependence of market structures, firms' conduct, and market outcomes. In this course, students will be introduced to the theory of the firm, imperfect competition, oligopoly theory, and other strategic behaviours.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course, you must have completed either ECON2101 or ECON2014.\nIncompatible with ECON6038 and ECON4438.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON2101",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "ECON2014",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON4438",
+   "ECON6038"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3057",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Industrial Organisation studies the interdependence of market structures, firms' conduct, and market outcomes. In this course, students will be introduced to the theory of the firm, imperfect competition, oligopoly theory, and other strategic behaviours."
+ },
+ {
+  "code": "ECON3100",
+  "subject": "ECON",
+  "number": 3100,
+  "level": 3000,
+  "title": "Economics 3 (H)",
+  "units": 6,
+  "summary": "Economics 3 (H) is a prerequisite for entry into the Economics IV honours programme.  It helps determine whether a student is admitted to the programme and helps prepare students for it.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you must have completed ECON2101 Microeconomics 2 (P) (or ECON2111 Microeconomics 2 (H) ) and ECON2102 Macroeconomics 2 (P) (or ECON2112 Macroeconomics 2 (H) or ECON2016 Economics II (H) ).",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course, you must have completed ECON2101 Microeconomics 2 (P) (or ECON2111 Microeconomics 2 (H) ) and ECON2102 Macroeconomics 2 (P) (or ECON2112 Macroeconomics 2 (H) or ECON2016 Economics II (H) )"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3100",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Economics 3 (H) is a prerequisite for entry into the Economics IV honours programme. It helps determine whether a student is admitted to the programme and helps prepare students for it.\n\nThe course provides an introduction to the formal analysis of a variety of topics to help prepare students for their honours year coursework and thesis and broaden their exposure to applications of economics. The course introduces new topics not covered in previous economics courses in the major and also extends and applies some familiar topics. Microeconomic principles will be applied to examine topics from microeconomic theory, public economics, labour economics, welfare economics, general equilibrium, financial economics, law and economics, international trade theory, and industrial organisation. Applications and public policy issues examined include asset pricing, the social discount rate, environmental economics, regulation of natural monopoly, traffic congestion, choice under uncertainty and over time, and taxation"
+ },
+ {
+  "code": "ECON3101",
+  "subject": "ECON",
+  "number": 3101,
+  "level": 3000,
+  "title": "Microeconomics 3",
+  "units": 6,
+  "summary": "Modern economics is a way of thinking that provides important insights into human behaviour and how the world works.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have completed ECON2101.\n\nYou must also have completed at least one of EMET1001, MATH1014, or MATH1116.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON2101",
+     "concurrent": false
+    },
+    {
+     "kind": "OR",
+     "children": [
+      {
+       "kind": "COURSE",
+       "code": "EMET1001",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "MATH1014",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "MATH1116",
+       "concurrent": false
+      }
+     ]
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3101",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Modern economics is a way of thinking that provides important insights into human behaviour and how the world works. The emphasis in Microeconomics 3 is on deepening students' understanding of the basic principles of microeconomics and learning how to use these principles to analyse real world problems and policy issues. The course builds upon the material covered in Microeconomics 1 and 2 by treating some of the concepts introduced in previous microeconomic courses with greater degree of rigour. The course also covers more advanced tools of microeconomic theory and applications of the theory to a range of economic problems. Topics and techniques that may be emphasised include: concepts and measurement of individual and aggregate consumer welfare, partial and general equilibrium efficiency analysis, choice under uncertainty and information economics.\""
+ },
+ {
+  "code": "ECON3102",
+  "subject": "ECON",
+  "number": 3102,
+  "level": 3000,
+  "title": "Macroeconomics 3",
+  "units": 6,
+  "summary": "This course extends and reinforces the material developed in Macroeconomics 2 by analysing a number of policy issues in macroeconomics.  Its objective is to show how practical problems can be structured and analysed using macroeconomic models and appropriate data.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you must have completed:\nECON2101; and\nECON2102 or ECON2016.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON2101",
+     "concurrent": false
+    },
+    {
+     "kind": "OR",
+     "children": [
+      {
+       "kind": "COURSE",
+       "code": "ECON2102",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "ECON2016",
+       "concurrent": false
+      }
+     ]
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3102",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course extends and reinforces the material developed in Macroeconomics 2 by analysing a number of policy issues in macroeconomics. Its objective is to show how practical problems can be structured and analysed using macroeconomic models and appropriate data. Most of the applications will be drawn from contemporary and historical Australian experience. Topics to be discussed include measurement and interpretation of macroeconomic aggregates; impact of the world economy on short-run fluctuations in Australia; determinants of economic growth and foreign debt; assessment of the impact of fiscal policy; inflation targets and monetary policy; and the persistence of unemployment."
+ },
+ {
+  "code": "ECON3103",
+  "subject": "ECON",
+  "number": 3103,
+  "level": 3000,
+  "title": "International Economics",
+  "units": 6,
+  "summary": "This course introduces the theory and policy of international trade, with applications to contemporary global economic issues.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you must have completed ECON2101. Incompatible with ECON6016.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "ECON2101",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON6016"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3103",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces the theory and policy of international trade, with applications to contemporary global economic issues. It considers why countries trade, what determines patterns of trade, who gains and who loses, how trade affects welfare and income distribution, and how trade policy—including tariffs, trade agreements, and trade disputes—can shape outcomes for firms, workers, consumers, and industries. The course typically also examines firm heterogeneity and export decisions, as well as the vulnerabilities associated with globalisation. Selected open-economy macroeconomic topics will also be covered, including exchange rates and the role of monetary and fiscal policy in an open economy."
+ },
+ {
+  "code": "ECON3127",
+  "subject": "ECON",
+  "number": 3127,
+  "level": 3000,
+  "title": "Computational Methods in Economics",
+  "units": 6,
+  "summary": "This course will teach the basics of programming and computational skills for economic analysis and enable the students to take numerical approach to familiar mathematical problems.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have previously completed ECON2125 or equivalent. Incompatible with ECON4414 and ECON8014",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have previously completed ECON2125 or equivalent"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON4414",
+   "ECON8014"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3127",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course will teach the basics of programming and computational skills for economic analysis and enable the students to take numerical approach to familiar mathematical problems. Students will learn to graphically represent familiar ideas such as supply and demand curves, equilibrium prices and consumer choice. They will explore how these choices and equilibria change with shifts in policy instruments, preferences and technologies. In the process they will learn to use common computational solution methods, such as root finding and optimization. Students will also learn how to obtain, manipulate and represent data, using tools such as scatterplots and histograms."
+ },
+ {
+  "code": "ECON3128",
+  "subject": "ECON",
+  "number": 3128,
+  "level": 3000,
+  "title": "Resource and Environmental Economics",
+  "units": 6,
+  "summary": "This course analyses the economic principles underlying the design of efficient environmental policies and the optimal management of natural resources.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have successfully completed ECON2101.\nYou are not able to enrol in this course if you have previously completed ECON2128.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "ECON2101",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON2128",
+   "ECON6040"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3128",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course analyses the economic principles underlying the design of efficient environmental policies and the optimal management of natural resources. It identifies conditions under which market failures lead to environmental degradation or to the overexploitation of natural resources, and discusses economic policies that can counteract such market failures. Such policies include imposing taxes on certain economic activities, or allocating property rights that allow these activities to be undertaken. If property rights—which may take the form of pollution permits, or individual quotas for the harvesting of natural resources—are transferable between agents, the trade of property rights between self-interested agents yields economic efficiency as a market-based outcome."
+ },
+ {
+  "code": "ECON3152",
+  "subject": "ECON",
+  "number": 3152,
+  "level": 3000,
+  "title": "Game Theory",
+  "units": 6,
+  "summary": "Game theory provides a framework that helps to understand and analyse situations where many agents interact in a strategic setting, so that each agent’s well-being depends on the behavior of the other agents.",
+  "offered": [],
+  "requisiteText": "ECON2125 or with the permission of the course convener. Incompatible with ECON8053.",
+  "rule": {
+   "kind": "INFO",
+   "info": "PERMISSION",
+   "text": "ECON2125 or with the permission of the course convener"
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON6053",
+   "ECON8053"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3152",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Game theory provides a framework that helps to understand and analyse situations where many agents interact in a strategic setting, so that each agent’s well-being depends on the behavior of the other agents. Game-theoretic techniques have been widely used in many sciences, and have been successfully applied in almost every field of economics, including macroeconomics, industrial organization, public economics, and many others. In addition, recent applications of game theory have yielded important insights in many other disciplines, such as political science, law, biology, finance, and computer science.\n\nThe aim of this course is to introduce the main ideas of game theory at a level suitable for advanced later-year undergraduate students. The theory will be illustrated by way of examples and applications, which will primarily be drawn from economics and political science. While the level of the course will be introductory, and formal mathematical prerequisites are minimal, the presentation of the material will rely on precise definitions and models, as well as rigorous logical reasoning and analysis."
+ },
+ {
+  "code": "ECON3180",
+  "subject": "ECON",
+  "number": 3180,
+  "level": 3000,
+  "title": "Advanced Behavioral Economics",
+  "units": 6,
+  "summary": "Behavioral economics refers to the research program that attempts to incorporate more realistic psychological foundations into models of economic behavior.",
+  "offered": [],
+  "requisiteText": "Incompatible with ECON8080",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON4480",
+   "ECON8080"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3180",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Behavioral economics refers to the research program that attempts to incorporate more realistic psychological foundations into models of economic behavior. It initially started by drawing experimental evidence and insights from psychology and other social sciences suggesting the standard model of rational decision-making provides an inadequate description of behavior. But, more recently, behavioral economics is finding its way into policy evaluation/normative economic analysis as well. This course explores some of the advances in this field. We will study foundational topics in behavioral economics, with a focus on theories of behavior that aim to incorporate non-standard phenomena into classic economic models, with consideration of intertemporal decision-making, choice under uncertainty, and learning.\n\nThe course will be centered around research paper discussions, allowing students to develop the critical skills necessary to evaluate and put in practice the latest research findings in the field of Behavioral Economics. Students will have the opportunity to shape the structure of the course by choosing specific readings within each topic."
+ },
+ {
+  "code": "ECON3181",
+  "subject": "ECON",
+  "number": 3181,
+  "level": 3000,
+  "title": "Competition Policy and Regulation",
+  "units": 6,
+  "summary": "This course covers competition policy and a brief introduction to the economics of regulation.  We use theoretical industrial organisation models to analyse firms' competitive and anti-competitive behaviour .",
+  "offered": [],
+  "requisiteText": "To enrol in this course, you must have completed EMET1001 and ECON2101 (ECON2101 can be replaced by ECON2141 or ECON3152).\nThis course is incompatible with ECON6181 and ECON8055.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "EMET1001",
+     "concurrent": false
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "ECON2101 (ECON2101 can be replaced by ECON2141 or ECON3152)"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "ECON6181",
+   "ECON8055"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON3181",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course covers competition policy and a brief introduction to the economics of regulation. We use theoretical industrial organisation models to analyse firms' competitive and anti-competitive behaviour . We will study conducts such as collusion, merger, vertical control, predation, and some other non-price monopolization practices. We will also discuss various competition policy guidelines including the ACCC merger guideline and Competition and Consumer Act 2010. In the last part of the course, we briefly introduce the theory of regulation."
+ },
+ {
+  "code": "ECON4040",
+  "subject": "ECON",
+  "number": 4040,
+  "level": 4000,
+  "title": "Applied Welfare Economics",
+  "units": 6,
+  "summary": "An applied economic analysis of a potential policy change will typically incorporate both positive and normative elements.  The positive aspects of such an analysis involve an assessment of the likely impacts of the proposed policy change.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must be enrolled in HECON program.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must be enrolled in HECON program"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON8113"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4040",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "An applied economic analysis of a potential policy change will typically incorporate both positive and normative elements. The positive aspects of such an analysis involve an assessment of the likely impacts of the proposed policy change. The normative aspects of the analysis involve an assessment of the desirability of those impacts. Since a potential policy change might make some individuals better off and other individuals worse off, any assessment of the desirability of such a policy change will require both the measurement of the changes in the welfare of individuals in society that might result from the proposed policy change, and the aggregation of those impacts into some measure of the resulting change in social welfare. This course will consider various approaches to the measurement of changes in individual welfare and the aggregation of those changes into a measure of the change in social welfare. These techniques will then be applied to a number of important topics in applied economics. Such topics might include one or more of shadow pricing, taxation, public utility pricing, cost-effectiveness analysis, and cost-benefit analysis."
+ },
+ {
+  "code": "ECON4403",
+  "subject": "ECON",
+  "number": 4403,
+  "level": 4000,
+  "title": "Economic Policy Issues",
+  "units": 6,
+  "summary": "This course analyses, discusses and critiques recent and important applied empirical research papers directed towards contemporary economic policy issues.  Topics and papers discussed vary from year to year.",
+  "offered": [],
+  "requisiteText": "Incompatible with ECON6003.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON6003",
+   "ECON8003"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4403",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course analyses, discusses and critiques recent and important applied empirical research papers directed towards contemporary economic policy issues. Topics and papers discussed vary from year to year. Recent topics have focused on COVID fiscal and monetary responses, welfare, labour market outcomes, the rise of China, women’s move towards equality in the labour market and the effectiveness of private and public provision of education for disadvantaged groups. The primary emphasis is on the relationships between economic research and economic policy objectives, but discussions also place the research in its social, political and historical environment."
+ },
+ {
+  "code": "ECON4409",
+  "subject": "ECON",
+  "number": 4409,
+  "level": 4000,
+  "title": "Development Poverty & Famine",
+  "units": 6,
+  "summary": "Why are some countries richer than others?  Why have some countries experienced growth miracles while others have experienced stagnation of even growth disasters?  Within developing countries, what does it mean to be poor?  How to combat poverty?",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must be studying a Bachelor of Economics (Honours) (HECON).\nIncompatible with ECON2900 and ECON6901.",
+  "rule": {
+   "kind": "INFO",
+   "info": "PROGRAM",
+   "text": "Bachelor of Economics (Honours) (HECON)",
+   "programs": [
+    "HECON"
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON2900",
+   "ECON6901"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4409",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Why are some countries richer than others? Why have some countries experienced growth miracles while others have experienced stagnation of even growth disasters? Within developing countries, what does it mean to be poor? How to combat poverty? What are the challenges that the poor in developing countries face and what can be done to improve their living standards? This course intends to teach students what we know and what we do not know about these important questions and will focus on teaching students tools in understanding them. The topics covered will include explanations on why countries develop differently, the effect of geography, institutions, foreign aid, corruption and differential savings rates on the large disparities across countries. Within countries we will examine the role of education, health migration and credit markets in poverty alleviation. The course will cover both theory and empirical evidence but focusing mainly on how to conduct empirical analysis in understanding these important economic development issues."
+ },
+ {
+  "code": "ECON4411",
+  "subject": "ECON",
+  "number": 4411,
+  "level": 4000,
+  "title": "Microeconomic Theory",
+  "units": 6,
+  "summary": "The course will focus on Microeconomic theory as an approach to organizing economic ideas through modelling.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Incompatible with ECON8011",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON8011"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4411",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The course will focus on Microeconomic theory as an approach to organizing economic ideas through modelling. This course will examine some basic components of economic theory concerning the allocation of scarce resources:individual non-strategic decision making by consumers and firms, Markets and General Equilibrium, Game Theory for extending the models of consumers and producers to strategic settings (with an emphasis on asymmetric information and mechanism design), and models of how decisions are made in non market settings through political institutions or within firms. Along the way we will consider how to include uncertainty in models and how to establish the existence of equilibria/optima and the comparative static properties of these predicted outcomes."
+ },
+ {
+  "code": "ECON4414",
+  "subject": "ECON",
+  "number": 4414,
+  "level": 4000,
+  "title": "Computational Methods in Economics",
+  "units": 6,
+  "summary": "This course will teach the basics of programming and computational skills for economic analysis and enable the students to take numerical approach to familiar mathematical problems.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have previously completed ECON2125 or ECON4413 or equivalent. Incompatible with ECON3127 and ECON8014.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON2125",
+     "concurrent": false
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "ECON4413 or equivalent"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "ECON3127",
+   "ECON8014"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4414",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course will teach the basics of programming and computational skills for economic analysis and enable the students to take numerical approach to familiar mathematical problems. Students will learn to graphically represent familiar ideas such as supply and demand curves, equilibrium prices and consumer choice. They will explore how these choices and equilibria change with shifts in policy instruments, preferences and technologies. In the process they willlearn to use common computational solution methods, such as root finding and optimization. Students will also learn how to obtain, manipulate and represent data, using tools such as scatterplots and histograms."
+ },
+ {
+  "code": "ECON4415",
+  "subject": "ECON",
+  "number": 4415,
+  "level": 4000,
+  "title": "International Economics",
+  "units": 6,
+  "summary": "Why do countries trade with each other?  How, why and by whom is international trade regulated?  What are the welfare consequences of international trade?  How does international trade affect individual firms, consumers, workers and industries?",
+  "offered": [],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [
+   "ECON6016"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4415",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Why do countries trade with each other? How, why and by whom is international trade regulated? What are the welfare consequences of international trade? How does international trade affect individual firms, consumers, workers and industries? Why do some firms decide to export but not others? What is the impact of government policies on trade and welfare, and what are the best policies? Is a tariff war “easy to win”? What are the welfare effects of preferential trading arrangements between countries? What does the WTO do? What determines currency exchange rates and is a low or high dollar a good thing? Is monetary and fiscal policy more or less effective in an open economy than in a closed one? These are some of the questions we might consider in this class."
+ },
+ {
+  "code": "ECON4421",
+  "subject": "ECON",
+  "number": 4421,
+  "level": 4000,
+  "title": "Topics in Microeconomic Theory",
+  "units": 6,
+  "summary": "This course continues the discussion of microeconomic theory at the graduate level, as started in ECON4411 Microeconomic Theory A.  It will cover topics in microeconomic theory that extend beyond those covered in ECON4411.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "Incompatible with ECON8021",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON8021"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4421",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course continues the discussion of microeconomic theory at the graduate level, as started in ECON4411 Microeconomic Theory A. It will cover topics in microeconomic theory that extend beyond those covered in ECON4411. Topics might include applications of game theory, the economics of information, contract theory, and mechanism design. Students are expected to have the ability to follow rigorous abstract arguments, as used in the construction and analysis of mathematical models in economics."
+ },
+ {
+  "code": "ECON4422",
+  "subject": "ECON",
+  "number": 4422,
+  "level": 4000,
+  "title": "Macroeconomic Theory",
+  "units": 6,
+  "summary": "This course introduces contemporary theory for examining central questions in macroeconomics: growth, unemployment, inflation, and business cycles.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "Incompatible with ECON8022",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON8022"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4422",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces contemporary theory for examining central questions in macroeconomics: growth, unemployment, inflation, and business cycles."
+ },
+ {
+  "code": "ECON4434",
+  "subject": "ECON",
+  "number": 4434,
+  "level": 4000,
+  "title": "Advanced Public Economics",
+  "units": 6,
+  "summary": "This advanced public economics course is designed to reach the highest level of academic rigour.  It is mathematically intensive and builds on the mathematical preparation required for entry into the Economics Honours program.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course, you must be studying a Bachelor of Economics (Honours) (HECON) or Bachelor of Politics, Philosophy and Economics (Honours) (HPPE) or Bachelor of Philosophy (Honours)—Humanities and Social Sciences (PhB).",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "INFO",
+     "info": "PROGRAM",
+     "text": "Bachelor of Economics (Honours) (HECON) or Bachelor of Politics or Philosophy and Economics (Honours) (HPPE)",
+     "programs": [
+      "HECON",
+      "HPPE"
+     ]
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Bachelor of Philosophy (Honours)—Humanities and Social Sciences (PhB)"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "ECON6034"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4434",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This advanced public economics course is designed to reach the highest level of academic rigour. It is mathematically intensive and builds on the mathematical preparation required for entry into the Economics Honours program. The course will also include coding exercises, though no prior programming experience is assumed. We will explore the role governments should play in the economy, with the goal of strengthening your ability to understand, extend, and communicate foundational models and analytical tools. Topics include the philosophical foundations of public economics, welfare analysis, key empirical patterns, labour income and consumption taxation, externalities, social welfare functions, capital taxation, and behavioural public finance."
+ },
+ {
+  "code": "ECON4437",
+  "subject": "ECON",
+  "number": 4437,
+  "level": 4000,
+  "title": "Financial Economics",
+  "units": 6,
+  "summary": "This course examines the economic principles that determine the allocation of resources through time in market economies.  It uses supply and demand relationships to value capital assets (or projects more generally).",
+  "offered": [],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [
+   "ECON6037",
+   "ECON8015",
+   "ECON8037"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4437",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course examines the economic principles that determine the allocation of resources through time in market economies. It uses supply and demand relationships to value capital assets (or projects more generally). There is a detailed treatment of the effects of time, risk and misspecification on capital asset prices. The impact of liquidity on our understanding of financial economics will also be discussed."
+ },
+ {
+  "code": "ECON4438",
+  "subject": "ECON",
+  "number": 4438,
+  "level": 4000,
+  "title": "Industrial Organisation",
+  "units": 6,
+  "summary": "Industrial Organisation studies the interdependence of market structures, firm's conducts, and market outcomes.  We look at how market structures affects firms conduct and market outcomes.",
+  "offered": [],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [
+   "ECON3057"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4438",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Industrial Organisation studies the interdependence of market structures, firm's conducts, and market outcomes. We look at how market structures affects firms conduct and market outcomes. In this course, students will be introduced to the theory of the firms, imperfect competition, oligopoly theory, and other strategic behaviours. Some applications on competition policy and regulation will also be introduced if time permits."
+ },
+ {
+  "code": "ECON4441",
+  "subject": "ECON",
+  "number": 4441,
+  "level": 4000,
+  "title": "Labour Economics & Industrial Relations",
+  "units": 6,
+  "summary": "This course provides advanced discussion of theoretical and empirical models of labour markets.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must be enrolled in Bachelor of Economics (Honours) (HECON) program. Incompatible with ECON8041.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must be enrolled in Bachelor of Economics (Honours) (HECON) program"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON6041",
+   "ECON8041"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4441",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course provides advanced discussion of theoretical and empirical models of labour markets. The topics to be covered are: labour supply, including determinants of labour market participation and hours of works; labour demand; labour market equilibrium and wage determination; compensating wage differentials; investments in human capital and returns to education; earnings distribution; labour mobility; labour market discrimination; role of unions; incentive pay; and unemployment. In each topic, relevant theory and empirical research will be examined."
+ },
+ {
+  "code": "ECON4453",
+  "subject": "ECON",
+  "number": 4453,
+  "level": 4000,
+  "title": "Game Theory",
+  "units": 6,
+  "summary": "In many - perhaps most - economic interactions, there is potential for strategic behaviour, a term, “intended to focus on the interdependence of the adversaries' decisions and on their expectations about each other's behaviour” (Schelling, 1960, The Strategy of Conflict).",
+  "offered": [],
+  "requisiteText": "Incompatible with ECON8053",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON6053",
+   "ECON8053"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4453",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "In many - perhaps most - economic interactions, there is potential for strategic behaviour, a term, “intended to focus on the interdependence of the adversaries' decisions and on their expectations about each other's behaviour” (Schelling, 1960, The Strategy of Conflict). Recognising and understanding such behaviour is an essential part of any economist's toolkit and this course is designed to enable just such recognition and understanding. Game theory has successfully been applied in a diverse range of fields, such as economics, political science, law, biology and computer science. The aim of this course is to provide an introduction to strategic thinking and analysis through the basic techniques of game theory and to illustrate the range of its applications in economics and business and other areas. While the level of the course will be introductory, and mathematical prerequisites are minimal, the presentation of the material will rely on precise logical arguments."
+ },
+ {
+  "code": "ECON4480",
+  "subject": "ECON",
+  "number": 4480,
+  "level": 4000,
+  "title": "Advanced Behavioral Economics",
+  "units": 6,
+  "summary": "Behavioral economics refers to the research program that attempts to incorporate more realistic psychological foundations into models of economic behavior.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must be studying a Bachelor of Economics (Honours) (HECON).\nIncompatible with ECON3180 and ECON8080.",
+  "rule": {
+   "kind": "INFO",
+   "info": "PROGRAM",
+   "text": "Bachelor of Economics (Honours) (HECON)",
+   "programs": [
+    "HECON"
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON3180",
+   "ECON8080"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4480",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Behavioral economics refers to the research program that attempts to incorporate more realistic psychological foundations into models of economic behavior. It initially started by drawing experimental evidence and insights from psychology and other social sciences suggesting the standard model of rational decision-making provides an inadequate description of behavior. But, more recently, behavioral economics is finding its way into policy evaluation/normative economic analysis as well. This course explores some of the advances in this field. We will study foundational topics in behavioral economics, with a focus on theories of behavior that aim to incorporate non-standard phenomena into classic economic models, with consideration of intertemporal decision-making, choice under uncertainty, and learning.\n\nThe course will be centered around research paper discussions, allowing students to develop the critical skills necessary to evaluate and put in practice the latest research findings in the field of Behavioral Economics. Students will have the opportunity to shape the structure of the course by choosing specific readings within each topic."
+ },
+ {
+  "code": "ECON4488",
+  "subject": "ECON",
+  "number": 4488,
+  "level": 4000,
+  "title": "Economics Honours Research Essay",
+  "units": 6,
+  "summary": "Supervised Research",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4488",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Supervised Research"
+ },
+ {
+  "code": "ECON4491",
+  "subject": "ECON",
+  "number": 4491,
+  "level": 4000,
+  "title": "The Economy, Politics and the State",
+  "units": 6,
+  "summary": "This course explores how political and economic outcomes emerge from the interaction of individual incentives, institutional rules, and social norms.",
+  "offered": [],
+  "requisiteText": "To enrol in this course, you must be studying a Bachelor of Economics (Honours) (HECON) and Bachelor of Politics, Philosophy and Economics (Honours) (HPPE).\nIncompatible with ECON2091 and ECON8091.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "INFO",
+     "info": "PROGRAM",
+     "text": "Bachelor of Economics (Honours) (HECON)",
+     "programs": [
+      "HECON"
+     ]
+    },
+    {
+     "kind": "INFO",
+     "info": "PROGRAM",
+     "text": "Bachelor of Politics"
+    },
+    {
+     "kind": "INFO",
+     "info": "PROGRAM",
+     "text": "Philosophy and Economics (Honours) (HPPE)",
+     "programs": [
+      "HPPE"
+     ]
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON2091",
+   "ECON8091"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4491",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course explores how political and economic outcomes emerge from the interaction of individual incentives, institutional rules, and social norms. Departing from models that treat government decisions as exogenous or normatively optimal, the course adopts a political economy perspective grounded in institutional and organisational economics.\n\nStudents will examine how formal structures — such as property rights, contracts, and bureaucracies — interact with informal institutions, including cultural norms and shared expectations, to shape behaviour in both political and economic domains. Topics may include the analysis of topical policy issues, allocation of authority, institutional persistence and change, the role of beliefs and expectations, and the influence of culture on organisational design and public governance.\n\nThe course emphasises analytical clarity and strategic reasoning while remaining attentive to the empirical complexity of real-world institutions and policy issues. It is designed to equip students with a flexible toolkit to interpret how political and economic systems function — and why they differ across settings."
+ },
+ {
+  "code": "ECON4492",
+  "subject": "ECON",
+  "number": 4492,
+  "level": 4000,
+  "title": "Organisational Economics",
+  "units": 6,
+  "summary": "Organisational Economics studies the design of firms and other economic institutions.  It develops frameworks which are applied to the problems faced by managers and entrepreneurs.  How should incentives be designed in organisations?",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course, students must have completed ECON2101, and have either completed or be concurrently enrolled in ECON2125.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON2101",
+     "concurrent": false
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "have either completed or be concurrently enrolled in ECON2125"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4492",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Organisational Economics studies the design of firms and other economic institutions. It develops frameworks which are applied to the problems faced by managers and entrepreneurs. How should incentives be designed in organisations? How should an organisation optimally choose its staff, allocate individuals to tasks within the organisation and then coordinate their actions? Which tasks should be outsourced? How do the answers to these questions depend on external factors such as market competition and technological developments? Tools from game theory, information economics and behavioural economics are introduced and applied to analyse these (and other) problems."
+ },
+ {
+  "code": "ECON4493",
+  "subject": "ECON",
+  "number": 4493,
+  "level": 4000,
+  "title": "Topics in Macroeconomics",
+  "units": 6,
+  "summary": "The course will cover recent research in macroeconomics.  There will be a particular focus on search-theoretic models and/or heterogeneous agent models and their applications.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course, you must be studying a Bachelor of Economics (Honours) (HECON) and ECON-HSPC.\nIncompatible with ECON8001.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "INFO",
+     "info": "PROGRAM",
+     "text": "Bachelor of Economics (Honours) (HECON)",
+     "programs": [
+      "HECON"
+     ]
+    },
+    {
+     "kind": "INFO",
+     "info": "PROGRAM",
+     "text": "ECON-HSPC",
+     "programs": [
+      "ECON-HSPC"
+     ]
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON8001"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4493",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The course will cover recent research in macroeconomics. There will be a particular focus on search-theoretic models and/or heterogeneous agent models and their applications. We will cover a number of different applications, such as growth, unemployment, inflation, markups, and business cycles. The course will involve studying research papers and aims to bring students to the research frontier in the field."
+ },
+ {
+  "code": "ECON4500",
+  "subject": "ECON",
+  "number": 4500,
+  "level": 4000,
+  "title": "Economic Growth",
+  "units": 6,
+  "summary": "This course explores theoretical developments in the analysis of economic growth and introduces current debates on evidence and policy relevant to the growth performance of both developed and developing economies.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON4500",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course explores theoretical developments in the analysis of economic growth and introduces current debates on evidence and policy relevant to the growth performance of both developed and developing economies. The course is structured around a series of key papers from journals, lecture material and a relevant coursebook. The theoretical material is reinforced by tutorial exercises and assignments that require students to understand and interpret the mathematics and economics of the growth models."
+ },
+ {
+  "code": "ECON6003",
+  "subject": "ECON",
+  "number": 6003,
+  "level": 6000,
+  "title": "Economic Policy Issues",
+  "units": 6,
+  "summary": "Where did economics come from and how did it assume its current form?  This is the fundamental question that this course seeks to investigate.",
+  "offered": [],
+  "requisiteText": "Incompatible with ECON3023 and ECON8003..",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON3023",
+   "ECON4403",
+   "ECON8003"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON6003",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Where did economics come from and how did it assume its current form? This is the fundamental question that this course seeks to investigate. The course presents the development of economics from a branch of moral philosophy, into political economy, and finally into a quasi-scientific and quantitative discipline today. At every stage, the course places developments in the field into political and social context and presents alternative sets of ideas and paths not taken that were once prominent but have since been forgotten.\n\nStudents wishing to take this course should have achieved a credit average in ECON8025 and ECON8026."
+ },
+ {
+  "code": "ECON6012",
+  "subject": "ECON",
+  "number": 6012,
+  "level": 6000,
+  "title": "Optimisation for Economics and Financial Economics",
+  "units": 6,
+  "summary": "Modern economic theory is based on mathematical models.  Thus, a thorough understanding of the economic content of such models is not possible without a clear understanding of the mathematical concepts that underpin the modeling.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have previously completed ECON7073, ECON7074 and EMET7001.\n\nStudents enrolled in the Master of Statistics who have completed 48 units are considered to have met the pre-requisites for this course.\n\nIncompatible with ECON2125 and ECON8013.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON7073",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "ECON7074",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "EMET7001",
+     "concurrent": false
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Students enrolled in the Master of Statistics who have completed 48 units are considered to have met the pre-requisites for this course"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "ECON2125",
+   "ECON8013"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON6012",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Modern economic theory is based on mathematical models. Thus, a thorough understanding of the economic content of such models is not possible without a clear understanding of the mathematical concepts that underpin the modeling. This course introduces students to a range of optimisation concepts and techniques for economics and financial economics that form the basis of advanced economic theory courses. The introduced optimisation concepts and techniques will be derived from basic principles and assumptions as thoroughly as possible, and will be illustrated using standard applications from economics."
+ },
+ {
+  "code": "ECON6014",
+  "subject": "ECON",
+  "number": 6014,
+  "level": 6000,
+  "title": "Managerial Economics",
+  "units": 6,
+  "summary": "ECON6014 Managerial Economics is a practical and applied course in the field of managerial economics.  This course will teach you to analyse key economic problems from a managerial perspective and will focus on three main areas.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Incompatible with ECON2014",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON2014"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON6014",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "ECON6014 Managerial Economics is a practical and applied course in the field of managerial economics. This course will teach you to analyse key economic problems from a managerial perspective and will focus on three main areas. The course starts with key economic concepts in Managerial Economics (fundamental microeconomics topics such as demand, supply, production, cost, market structure and pricing from a managerial perspective), the course will move and develop deeper understanding of the key framework of Organisational Architecture (Decision Rights assignment, Reward System and Performance Evaluation mechanisms) and the course concludes with key contemporary applications of Organisational Architecture in dominating areas of executive concerns: Corporate Governance, Vertical Integration, Outsourcing, and we discuss the future of the Gig Economy.\n\nDuring the course we will touch the role of risk management systems, disaster-management systems, and effective decision making under uncertainty."
+ },
+ {
+  "code": "ECON6016",
+  "subject": "ECON",
+  "number": 6016,
+  "level": 6000,
+  "title": "International Economics",
+  "units": 6,
+  "summary": "This course develops an analytical framework for the theory and policy of international trade, with applications to contemporary global economic issues.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you must have completed ECON7073. This course is incompatible with ECON3103, ECON4415 and ECON8015.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "ECON7073",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON3103",
+   "ECON4415",
+   "ECON8015"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON6016",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course develops an analytical framework for the theory and policy of international trade, with applications to contemporary global economic issues. It examines why countries trade, what determines patterns of trade, and how the gains from trade are distributed across consumers, workers, firms, industries, and countries. The course evaluates the welfare and distributional implications of trade policy—including tariffs, trade agreements, and trade disputes—using formal economic reasoning and empirical evidence. It also examines how globalisation can generate vulnerabilities for particular workers, firms, industries, and countries. The course typically also examines firm heterogeneity and export decisions. The course further examines selected open-economy macroeconomic topics, including exchange rate determination and the role of monetary and fiscal policy in an open economy, with an emphasis on interpreting evidence and assessing policy trade-offs."
+ },
+ {
+  "code": "ECON6034",
+  "subject": "ECON",
+  "number": 6034,
+  "level": 6000,
+  "title": "Public Sector Economics",
+  "units": 6,
+  "summary": "This course uses the basic tools of microeconomics to analyse the role of government and the rationale for and design of taxation and expenditure policy.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course, you must have completed or have concurrent enrollment in ECON8025 and either ECON8013 or ECON6012. This course is incompatible with ECON2131, ECON4434, and ECON8034.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course, you must have completed or have concurrent enrollment in ECON8025 and either ECON8013 or ECON6012"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON2131",
+   "ECON4434",
+   "ECON8034"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON6034",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course uses the basic tools of microeconomics to analyse the role of government and the rationale for and design of taxation and expenditure policy. The topics to be covered include a review of basic microeconomics, welfare economics, cost-benefit analysis, public goods, externalities, public choice, public expenditure programs (including education, health, pensions and welfare payments), and taxation (including efficiency and equity issues, tax incidence, Australian tax policy, and fiscal federalism).\n\nBy the end of the course, students should have an appreciation of the principal forms of market failure that provide a justification for government intervention, be familiar with the main policy instruments used to mitigate market failures and the principles that guide their optimal use, but also understand the limitations of government intervention - for instance, understand how the presence of information problems both explains the forms that policy intervention take and imposes limits on what can be achieved by it.\n\nThe course also covers topics on public choice and provides an alternative, more critical, view of government. The public choice perspective places more emphasis on modelling the political process and argues that this, like the market mechanism, has readily identifiable sources of failure."
+ },
+ {
+  "code": "ECON6037",
+  "subject": "ECON",
+  "number": 6037,
+  "level": 6000,
+  "title": "Financial Economics",
+  "units": 6,
+  "summary": "This course examines the economic principles that determine the allocation of resources through time in market economies.  It uses supply and demand relationships to value capital assets (or projects more generally).",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you must have completed the equivalent of or have concurrent enrolment in ECON8025 and ECON6012.\n\nIncompatible with ECON3006, ECON4437, and ECON8037.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course, you must have completed the equivalent of or have concurrent enrolment in ECON8025 and ECON6012"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON3006",
+   "ECON4437",
+   "ECON8037"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON6037",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course examines the economic principles that determine the allocation of resources through time in market economies. It uses supply and demand relationships to value capital assets (or projects more generally). There is a detailed treatment of time, risk and misspecification effects on capital asset prices. The impact of liquidity on our understanding of financial economics will also be discussed."
+ },
+ {
+  "code": "ECON6038",
+  "subject": "ECON",
+  "number": 6038,
+  "level": 6000,
+  "title": "Industrial Organisation",
+  "units": 6,
+  "summary": "Industrial Organisation studies the interdependence of market structures, firm’s conducts, and market outcomes.  We look at how market structures affect firms conduct and market outcomes.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course, you must have previously completed EMET7001 and ECON8025. Incompatible with ECON3057 and ECON8038.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "EMET7001",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "ECON8025",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON3057",
+   "ECON8038"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON6038",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Industrial Organisation studies the interdependence of market structures, firm’s conducts, and market outcomes. We look at how market structures affect firms conduct and market outcomes. In this course, students will be introduced to the theory of the firms, imperfect competition, oligopoly theory, and other strategic behaviours. Some applications on competition policy and regulation will also be introduced if time permits."
+ },
+ {
+  "code": "ECON6039",
+  "subject": "ECON",
+  "number": 6039,
+  "level": 6000,
+  "title": "Health Economics",
+  "units": 6,
+  "summary": "This course aims at introducing economic tools for understanding and analysing the health care sector.  Topics that we will investigate in depth include: 1.  Distinctive economic characteristics of the commodity ' health care'; 2.  Grossman's model of health capital 3.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "Incompatible with ECON3004",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON3004"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON6039",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course aims at introducing economic tools for understanding and analysing the health care sector. Topics that we will investigate in depth include:\n\n1. Distinctive economic characteristics of the commodity ' health care';\n\n2. Grossman's model of health capital\n\n3. Health and health care production functions\n\n4. Adverse selection and the Rothschild-Stiglitz model\n\n5. Moral hazard in the healthcare sector\n\n6. Cost-effectiveness analysis\n\n7. Cost-benefit analysis\n\nWe will apply the economics tools to study some of the key players of the healthcare sector, including: Hospitals, Physicians, Health Insurance Companies, and Pharmaceutical Companies.\n\nWe will study how government policies help shape the healthcare sector. We will also learn economic methods for evaluating the effects of health care policies.\n\nIn addition, students in this course will participate in graduate seminars, where they study and present literature on selected topics of health economics."
+ },
+ {
+  "code": "ECON6040",
+  "subject": "ECON",
+  "number": 6040,
+  "level": 6000,
+  "title": "Resource and Environmental Economics",
+  "units": 6,
+  "summary": "In many economic situations, the incentives of individual agents are not aligned with the objective of attaining aggregate economic efficiency, or the maximisation of social welfare.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have previously completed ECON8025. Incompatible with ECON3128.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "ECON8025",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON3128"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON6040",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "In many economic situations, the incentives of individual agents are not aligned with the objective of attaining aggregate economic efficiency, or the maximisation of social welfare. Such situations often lead to market failures that are characterised by environmental degradation or the overexploitation of natural resources.\n\nThis course analyses the economic principles underlying the design of efficient environmental policies and the optimal management of natural resources. It identifies conditions under which market failures lead to environmental degradation or to the overexploitation of natural resources, and discusses economic policies that can counteract such market failures. Such policies include imposing taxes on certain economic activities, or allocating property rights that allow these activities to be undertaken. If property rights—which may take the form of pollution permits, or individual quotas for the harvesting of natural resources—are transferable between agents, the trade of property rights between self-interested agents yields economic efficiency as a market-based outcome."
+ },
+ {
+  "code": "ECON6041",
+  "subject": "ECON",
+  "number": 6041,
+  "level": 6000,
+  "title": "Labour Economics and Industrial Relations",
+  "units": 6,
+  "summary": "This course provides advanced discussion of theoretical and empirical models of labour markets.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in ECON8025.\n\nIncompatible with ECON2009 , ECON4441, and ECON8041",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in ECON8025"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON2009",
+   "ECON4441",
+   "ECON8041"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON6041",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course provides advanced discussion of theoretical and empirical models of labour markets. The topics to be covered are: labour supply, including determinants of labour market participation and hours of works; labour demand; labour market equilibrium and wage determination; compensating wage differentials; investments in human capital and returns to education; earnings distribution; labour mobility; labour market discrimination; role of unions; incentive pay; and unemployment. In each topic, relevant theory and empirical research will be examined."
+ },
+ {
+  "code": "ECON6053",
+  "subject": "ECON",
+  "number": 6053,
+  "level": 6000,
+  "title": "Game Theory",
+  "units": 6,
+  "summary": "In many – perhaps most – economic interactions, there is potential for strategic behaviour, a term, “intended to focus on the interdependence of the adversaries’ decisions and on their expectations about each other’s behaviour” (Schelling, 1960, The Strategy of Conflict).",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed the equivalent of ECON6012. Incompatible with ECON3152, ECON3153, ECON4453, and ECON8053.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed the equivalent of ECON6012"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON3152",
+   "ECON3153",
+   "ECON4453",
+   "ECON8053"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON6053",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "In many – perhaps most – economic interactions, there is potential for strategic behaviour, a term, “intended to focus on the interdependence of the adversaries’ decisions and on their expectations about each other’s behaviour” (Schelling, 1960, The Strategy of Conflict). Recognising and understanding such behaviour is an essential part of any economist's toolkit and this course is designed to enable just such recognition and understanding.\n\nGame theory has successfully been applied in a diverse range of fields, such as economics, political science, law, biology and computer science. The aim of this course is to provide an introduction to strategic thinking and analysis through the basic techniques of game theory and to illustrate the range of its applications in economics and business and other areas. While the level of the course will be introductory, and mathematical prerequisites are minimal, the presentation of the material will rely on precise logical arguments."
+ },
+ {
+  "code": "ECON6181",
+  "subject": "ECON",
+  "number": 6181,
+  "level": 6000,
+  "title": "Competition Policy and Regulation",
+  "units": 6,
+  "summary": "This course covers competition policy and a brief introduction to the economics of regulation.  We use theoretical industrial organisation models to analyse firms' competitive and anti-competitive behaviour .",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have previously completed EMET7001 and ECON8025.\nThis course is incompatible with ECON3181 and ECON8055.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "EMET7001",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "ECON8025",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON3181",
+   "ECON8055"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON6181",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course covers competition policy and a brief introduction to the economics of regulation. We use theoretical industrial organisation models to analyse firms' competitive and anti-competitive behaviour . We will study conducts such as collusion, merger, vertical control, predation, and some other non-price monopolization practices. We will also discuss various competition policy guidelines including the ACCC merger guideline and Competition and Consumer Act 2010. In the last part of the course, we briefly introduce the theory of regulation."
+ },
+ {
+  "code": "ECON6901",
+  "subject": "ECON",
+  "number": 6901,
+  "level": 6000,
+  "title": "Advanced Topics in Poverty, Public Policy and Development",
+  "units": 6,
+  "summary": "Why are some countries richer than others?  Why have some countries experienced growth miracles while others have experienced stagnation of even growth disasters?  Within developing countries, what does it mean to be poor?  How to combat poverty?",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in or both EMET8005 and ECON8025.\n\nThis course is incompatible with ECON2900 and ECON8901.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in or both EMET8005 and ECON8025"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON2900",
+   "ECON4409",
+   "ECON8901"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON6901",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Why are some countries richer than others? Why have some countries experienced growth miracles while others have experienced stagnation of even growth disasters? Within developing countries, what does it mean to be poor? How to combat poverty? What are the challenges that the poor in developing countries face and what can be done to improve their living standards? This course intends to teach students what we know and what we do not know about these important questions and will focus on teaching students tools in understanding them. The topics covered will include explanations on why countries develop differently, the effect of geography, institutions, foreign aid, corruption and differential savings rates on the large disparities across countries. Within countries we will examine the role of education, health migration and credit markets in poverty alleviation. The course will cover both theory and empirical evidence but focusing mainly on how to conduct empirical analysis in understanding these important economic development issues."
+ },
+ {
+  "code": "ECON7073",
+  "subject": "ECON",
+  "number": 7073,
+  "level": 7000,
+  "title": "Microeconomic Analysis",
+  "units": 6,
+  "summary": "The course examines how individuals and firms make decisions by weighing up costs and benefits, and how the interaction of their decisions leads to market and social outcomes.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "Incompatible with ECON1101 and ECON2101.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON1101",
+   "ECON2101",
+   "ECON8069",
+   "ECON8077"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON7073",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The course examines how individuals and firms make decisions by weighing up costs and benefits, and how the interaction of their decisions leads to market and social outcomes. The model of market supply and demand is employed to examine the effects of taxes, subsidies, and other government interventions in market activity. The implications of different market structures, including perfect competition and monopoly, are examined. Public goods, externalities and common resources are key examples of cases in which private markets may yield socially sub-optimal outcomes. Such cases are examined and the role of government policy in correcting for these is discussed."
+ },
+ {
+  "code": "ECON7074",
+  "subject": "ECON",
+  "number": 7074,
+  "level": 7000,
+  "title": "Macroeconomic Analysis",
+  "units": 6,
+  "summary": "Macroeconomics is concerned with the operation of the economy as a whole, with attention paid to such things as unemployment, inflation, and interest rates, determination of the level of national income, savings and investment, and the exchange rate and the current account of…",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "Incompatible with ECON1102 and ECON2102 or ECON2016",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON1102",
+   "ECON2016",
+   "ECON2102",
+   "ECON8069",
+   "ECON8077"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON7074",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Macroeconomics is concerned with the operation of the economy as a whole, with attention paid to such things as unemployment, inflation, and interest rates, determination of the level of national income, savings and investment, and the exchange rate and the current account of the balance of payments. The course develops a consistent model of the economy to explore the interactions of key macroeconomic markets and variables and to examine the impacts of different kinds of shocks to the economy and the role of government budgetary and monetary policy in influencing the level of economic activity."
+ },
+ {
+  "code": "ECON8001",
+  "subject": "ECON",
+  "number": 8001,
+  "level": 8000,
+  "title": "Topics in Macroeconomics",
+  "units": 6,
+  "summary": "The course will cover recent research in macroeconomics.  There will be a particular focus on search-theoretic models and/or heterogeneous agent models and their applications.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enroll in this course, you must have completed ECON6012, ECON8025, ECON8026, and EMET8005, and you must be enrolled in the Master of Economics (MECON) program.\n\nIncompatible with ECON4493.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enroll in this course, you must have completed ECON6012, ECON8025, ECON8026, and EMET8005, and you must be enrolled in the Master of Economics (MECON) program"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON4493"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8001",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The course will cover recent research in macroeconomics. There will be a particular focus on search-theoretic models and/or heterogeneous agent models and their applications. We will cover a number of different applications, such as growth, unemployment, inflation, markups, and business cycles. The course will involve studying research papers and aims to bring students to the research frontier in the field."
+ },
+ {
+  "code": "ECON8003",
+  "subject": "ECON",
+  "number": 8003,
+  "level": 8000,
+  "title": "Economic Policy Issues",
+  "units": 6,
+  "summary": "This course will focus on contemporary policy issues in the Australian economy.  The lectures will be delivered by Professor Gregory and experts within the ANU and by visitors drawn from government departments and other universities.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in ECON8026 or ECON8025. Incompatible with ECON4403.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "the equivalent of, or have concurrent enrolment in ECON8026"
+    },
+    {
+     "kind": "COURSE",
+     "code": "ECON8025",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "ECON4403",
+   "ECON6003"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8003",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course will focus on contemporary policy issues in the Australian economy. The lectures will be delivered by Professor Gregory and experts within the ANU and by visitors drawn from government departments and other universities. The more important topics are taken from the following policy areas; the labour market, welfare, immigration, education and economic growth."
+ },
+ {
+  "code": "ECON8009",
+  "subject": "ECON",
+  "number": 8009,
+  "level": 8000,
+  "title": "International Monetary Economics",
+  "units": 6,
+  "summary": "This course will provide students with models that can be used to analyse issues in international monetary economics.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed ECON8025 and ECON8026.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON8025",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "ECON8026",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8009",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course will provide students with models that can be used to analyse issues in international monetary economics. The course introduces students to so-called global imbalances and the basic stylized facts about current accounts with cross-section and the time-series of selected countries such as the US and China. Issues of current account sustainability will also be addressed. The underlying intertemporal modelling framework will be applied to the current account and be used to understand the macroeconomic effects of external shocks, such as changes in terms of trade and the world interest rate. Students will also learn about the effects that endowment and productivity shocks have on consumption, saving, investment, the trade balance, and the current account. These effects will be analysed for small and for large open economies. Students will learn about the real exchange rate and use the intertemporal modelling framework to analyse its determinants. Towards the end of the course, students will learn about capital market integration and the effects of capital controls. The last lecture concludes the course with a discussion of the most recent World Economic Outlook that is produced semi-annually by the International Monetary Fund. In the tutorials: students will learn about stabilisation policies in open economies. Using basic open-economy Keynesian models, where prices are assumed to be sticky, students will analyse the short-run effects of monetary and fiscal policies."
+ },
+ {
+  "code": "ECON8011",
+  "subject": "ECON",
+  "number": 8011,
+  "level": 8000,
+  "title": "Microeconomic Theory",
+  "units": 6,
+  "summary": "The course will focus on Microeconomic theory as an approach to organizing economic ideas through modelling.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you must have a 70% weighted average mark in ECON6012, ECON8025, ECON8026, and EMET8005 and be enrolled in the Master of Economics (MECON) program.\n\nMaster of Applied Economics (MAPEC) students with a 70% weighted average mark in the above four courses can apply for permission to enrol.\n\nIncompatible with ECON4411.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "To enrol in this course, you must have a 70% weighted average mark in ECON6012, ECON8025, ECON8026, and EMET8005 and be enrolled in the Master of Economics (MECON) program"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Master of Applied Economics (MAPEC) students with a 70% weighted average mark in the above four courses can apply for permission to enrol"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "ECON4411"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8011",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The course will focus on Microeconomic theory as an approach to organizing economic ideas through modelling.\n\nThis course will examine some basic components of economic theory concerning the allocation of scarce resources:individual non-strategic decision making by consumers and firms, Markets and General Equilibrium, Game Theory for extending the models of consumers and producers to strategic settings (with an emphasis on asymmetric information and mechanism design), and models of how decisions are made in non market settings through political institutions or within firms.\n\nAlong the way we will consider how to include uncertainty in models and how to establish the existence of equilibria/optima and the comparative static properties of these predicted outcomes."
+ },
+ {
+  "code": "ECON8013",
+  "subject": "ECON",
+  "number": 8013,
+  "level": 8000,
+  "title": "Optimisation for Economics and Financial Economics",
+  "units": 6,
+  "summary": "Modern economic theory is based on mathematical models.  Thus, a thorough understanding of the economic content of such models is not possible without a clear understanding of optimisation techniques that underpin the modeling.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have previously completed EMET7001.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "EMET7001",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON2125",
+   "ECON6012"
+  ],
+  "origin": "referenced",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/ECON8013",
+  "catalogueYear": 2025,
+  "retired": false,
+  "description": "Modern economic theory is based on mathematical models. Thus, a thorough understanding of the economic content of such models is not possible without a clear understanding of optimisation techniques that underpin the modeling. Course introduces students to a range of optimisation concepts and techniques for economics and financial economics that form the basis of advanced economic theory courses. The introduced concepts and techniques will be derived from basic principles and assumptions as thoroughly as possible, and will be illustrated using standard applications from economics."
+ },
+ {
+  "code": "ECON8014",
+  "subject": "ECON",
+  "number": 8014,
+  "level": 8000,
+  "title": "Computational Methods in Economics",
+  "units": 6,
+  "summary": "This course will teach the basics of programming and computational skills for economic analysis and enable the students to take numerical approach to familiar mathematical problems.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have previously completed ECON2125 or ECON4413 or ECON8013 or equivalent. Incompatible with ECON3127 or ECON4414.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON2125",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "ECON4413",
+     "concurrent": false
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "ECON8013 or equivalent"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "ECON3127",
+   "ECON4414"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8014",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course will teach the basics of programming and computational skills for economic analysis and enable the students to take numerical approach to familiar mathematical problems. Students will learn to graphically represent familiar ideas such as supply and demand curves, equilibrium prices and consumer choice. They will explore how these choices and equilibria change with shifts in policy instruments, preferences and technologies. In the process they will learn to use common computational solution methods, such as root finding and optimization. Students will also learn how to obtain, manipulate and represent data, using tools such as scatterplots and histograms."
+ },
+ {
+  "code": "ECON8015",
+  "subject": "ECON",
+  "number": 8015,
+  "level": 8000,
+  "title": "International Economics",
+  "units": 6,
+  "summary": "Why do countries trade with each other?  How, why and by whom is international trade regulated?  What are the welfare consequences of international trade?  How does international trade affect individual firms, consumers, workers and industries?",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in ECON8025 and either ECON8013 or ECON6012. Incompatible with ECON4437.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in ECON8025 and either ECON8013 or ECON6012"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON4437",
+   "ECON6016"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8015",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Why do countries trade with each other? How, why and by whom is international trade regulated? What are the welfare consequences of international trade? How does international trade affect individual firms, consumers, workers and industries? Why do some firms decide to export but not others? What is the impact of government policies on trade and welfare, and what are the best policies? Is a tariff war “easy to win”? What are the welfare effects of preferential trading arrangements between countries? What does the WTO do? What determines currency exchange rates and is a low or high dollar a good thing? Is monetary and fiscal policy more or less effective in an open economy than in a closed one? These are some of the questions we might consider in this class.\n\nWe will also examine the gains from trade, the determinants of patterns of international trade and the effects of trade on income distribution, all in low-dimensional models. We then turn to policy and analyse a number of arguments, both traditional and more recent, for active trade and industrial policies. We will also consider a selection of other topics in international trade."
+ },
+ {
+  "code": "ECON8021",
+  "subject": "ECON",
+  "number": 8021,
+  "level": 8000,
+  "title": "Topics in Microeconomic Theory",
+  "units": 6,
+  "summary": "This course continues the discussion of microeconomic theory at the graduate level, as started in ECON8011 Microeconomic Theory A.  It will cover topics in microeconomic theory that extend beyond those covered in ECON8011.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have completed ECON8011 and ECON8013 or ECON6012. Incompatible with ECON4421.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON8011",
+     "concurrent": false
+    },
+    {
+     "kind": "OR",
+     "children": [
+      {
+       "kind": "COURSE",
+       "code": "ECON8013",
+       "concurrent": false
+      },
+      {
+       "kind": "COURSE",
+       "code": "ECON6012",
+       "concurrent": false
+      }
+     ]
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON4421"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8021",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course continues the discussion of microeconomic theory at the graduate level, as started in ECON8011 Microeconomic Theory A. It will cover topics in microeconomic theory that extend beyond those covered in ECON8011. Topics might include applications of game theory, the economics of information, contract theory, and mechanism design. Students are expected to have the ability to follow rigorous abstract arguments, as used in the construction and analysis of mathematical models in economics."
+ },
+ {
+  "code": "ECON8022",
+  "subject": "ECON",
+  "number": 8022,
+  "level": 8000,
+  "title": "Macroeconomic Theory (Master)",
+  "units": 6,
+  "summary": "This course introduces contemporary theory for examining central questions in macroeconomics: growth, unemployment, inflation, and business cycles.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you must have a 70% weighted average mark in ECON6012, ECON8025, ECON8026, and EMET8005 and be enrolled in the Master of Economics (MECON) program.\n\nMaster of Applied Economics (MAPEC) students with a 70% weighted average mark in the above four courses can apply for permission to enrol.\n\nIncompatible with ECON4422.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "To enrol in this course, you must have a 70% weighted average mark in ECON6012, ECON8025, ECON8026, and EMET8005 and be enrolled in the Master of Economics (MECON) program"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Master of Applied Economics (MAPEC) students with a 70% weighted average mark in the above four courses can apply for permission to enrol"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "ECON4422"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8022",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces contemporary theory for examining central questions in macroeconomics: growth, unemployment, inflation, and business cycles."
+ },
+ {
+  "code": "ECON8025",
+  "subject": "ECON",
+  "number": 8025,
+  "level": 8000,
+  "title": "Advanced Microeconomic Analysis",
+  "units": 6,
+  "summary": "Microeconomics provides the principal modelling tools and frameworks that are used in all fields of economics.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have previously completed ECON7073 and EMET7001. Incompatible with ECON4425.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON7073",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "EMET7001",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON4425"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8025",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Microeconomics provides the principal modelling tools and frameworks that are used in all fields of economics. The corresponding techniques are built on models of decision-making by economic agents, in environments with and without uncertainty, and on the analysis of interacting economic agents, in various settings such as markets or strategic situations. This course introduces the main techniques of microeconomics, at a level that lies between that of typical undergraduate courses, and that of Masters or PhD level courses. The results are presented and analysed using both intuitive graphical and formal mathematical methods. An important aim of the course is to show that the intuition gained from simple graphical models, and the insight derived from formal theoretical analysis are complementary, and that only the interplay between economic intuition and abstract results can lead to a complete understanding of the respective models and the conclusions drawn from their analysis."
+ },
+ {
+  "code": "ECON8026",
+  "subject": "ECON",
+  "number": 8026,
+  "level": 8000,
+  "title": "Advanced Macroeconomic Analysis",
+  "units": 6,
+  "summary": "This course will acquaint students with contemporary modern macroeconomics.  Key questions relating to long-terms prospects for the wealth of nations and the short-terms fluctuations in aggregate economic outcomes will be discussed.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have previously completed ECON7074 and EMET7001. Incompatible with ECON4426.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON7074",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "EMET7001",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON4426"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8026",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course will acquaint students with contemporary modern macroeconomics. Key questions relating to long-terms prospects for the wealth of nations and the short-terms fluctuations in aggregate economic outcomes will be discussed. In addressing these questions, we will need to develop some analytical tools, learn about the modern approaches to macroeconomic modelling, and appreciate the importance of empirical regularities in informing modelling. We will also discuss the relevance of some of these models toward informing macroeconomic policy and business decision making. Students are expected to possess or have the aptitude for some formal mathematical thinking and analysis (at a minimal level of ECON8013 Mathematical Techniques in Economics I)."
+ },
+ {
+  "code": "ECON8034",
+  "subject": "ECON",
+  "number": 8034,
+  "level": 8000,
+  "title": "Public Sector Economics",
+  "units": 6,
+  "summary": "This course uses the basic tools of microeconomics to analyse the role of government and the rationale for and design of taxation and expenditure policy.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed or have concurrent enrolment in ECON8025, and either of ECON8013 or ECON6012.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed or have concurrent enrolment in ECON8025, and either of ECON8013 or ECON6012"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON6034"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8034",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course uses the basic tools of microeconomics to analyse the role of government and the rationale for and design of taxation and expenditure policy. The topics to be covered include a review of basic microeconomics, welfare economics, cost-benefit analysis, public goods, externalities, public choice, public expenditure programs (including education, health, pensions and welfare payments), and taxation (including efficiency and equity issues, tax incidence, Australian tax policy, and fiscal federalism).\n\nBy the end of the course students should have an appreciation of the principal forms of market failure that provide a justification for government intervention, be familiar with the main policy instruments used to mitigate market failures and the principles that guide their optimal use, but also understand the limitations of government intervention - for instance, understand how the presence of information problems both explains the forms that policy intervention take and imposes limits on what can be achieved by it.\n\nThe course also covers topics on public choice and provides an alternative, more critical, view of government. The public choice perspective places more emphasis on modelling the political process and argues that this, like the market mechanism, has readily identifiable sources of failure."
+ },
+ {
+  "code": "ECON8037",
+  "subject": "ECON",
+  "number": 8037,
+  "level": 8000,
+  "title": "Financial Economics",
+  "units": 6,
+  "summary": "This course examines the economic principles that determine the allocation of resources through time in market economies.  It uses supply and demand relationships to value capital assets (or projects more generally).",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in ECON8025 and either ECON8013 or ECON6012. Incompatible with ECON4437.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in ECON8025 and either ECON8013 or ECON6012"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON4437",
+   "ECON6037"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8037",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course examines the economic principles that determine the allocation of resources through time in market economies. It uses supply and demand relationships to value capital assets (or projects more generally). There is a detailed treatment of the effects of time, risk and misspecification on capital asset prices. The impact of liquidity on our understanding of financial economics will also be discussed."
+ },
+ {
+  "code": "ECON8038",
+  "subject": "ECON",
+  "number": 8038,
+  "level": 8000,
+  "title": "Industrial Organisation",
+  "units": 6,
+  "summary": "Industrial Organisation studies the interdependence of market structures, firm’s conducts, and market outcomes.  We look at how market structures affects firms conduct and market outcomes.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have previously completed EMET7001 and ECON8025.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "EMET7001",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "ECON8025",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON6038"
+  ],
+  "origin": "referenced",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/ECON8038",
+  "catalogueYear": 2025,
+  "retired": false,
+  "description": "Industrial Organisation studies the interdependence of market structures, firm’s conducts, and market outcomes. We look at how market structures affects firms conduct and market outcomes. In this course, students will be introduced to the theory of the firms, imperfect competition, oligopoly theory, and other strategic behaviours. Some applications on competition policy and regulation will also be introduced if time permits."
+ },
+ {
+  "code": "ECON8041",
+  "subject": "ECON",
+  "number": 8041,
+  "level": 8000,
+  "title": "Labour Economics and Industrial Relations",
+  "units": 6,
+  "summary": "This course provides advanced discussion of theoretical and empirical models of labour markets.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in ECON8025. Incompatible with ECON4441.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in ECON8025"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON4441",
+   "ECON6041"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8041",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course provides advanced discussion of theoretical and empirical models of labour markets. The topics to be covered are: labour supply, including determinants of labour market participation and hours of works; labour demand; labour market equilibrium and wage determination; compensating wage differentials; investments in human capital and returns to education; earnings distribution; labour mobility; labour market discrimination; role of unions; incentive pay; and unemployment. In each topic, relevant theory and empirical research will be examined."
+ },
+ {
+  "code": "ECON8050",
+  "subject": "ECON",
+  "number": 8050,
+  "level": 8000,
+  "title": "Economic Growth",
+  "units": 6,
+  "summary": "This course explores theoretical developments in the analysis of economic growth and introduces current debates on evidence and policy-relevant to the growth performance of both developed and developing economies.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have completed or have concurrent enrolment in ECON8025 and ECON8026.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "or have concurrent enrolment in ECON8025"
+    },
+    {
+     "kind": "COURSE",
+     "code": "ECON8026",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8050",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course explores theoretical developments in the analysis of economic growth and introduces current debates on evidence and policy-relevant to the growth performance of both developed and developing economies. The course is structured around a series of key papers from journals, lecture material and a relevant coursebook. The theoretical material is reinforced by tutorial exercises and assignments that require students to understand and interpret the mathematics and economics of the growth models."
+ },
+ {
+  "code": "ECON8053",
+  "subject": "ECON",
+  "number": 8053,
+  "level": 8000,
+  "title": "Game Theory",
+  "units": 6,
+  "summary": "In many – perhaps most – economic interactions, there is potential for strategic behaviour, a term, “intended to focus on the interdependence of the adversaries’ decisions and on their expectations about each other’s behaviour” (Schelling, 1960, The Strategy of Conflict).",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed the equivalent of ECON8013. Incompatible with ECON3152 and ECON3153 and ECON4453.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed the equivalent of ECON8013"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON3152",
+   "ECON3153",
+   "ECON4453",
+   "ECON6053"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8053",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "In many – perhaps most – economic interactions, there is potential for strategic behaviour, a term, “intended to focus on the interdependence of the adversaries’ decisions and on their expectations about each other’s behaviour” (Schelling, 1960, The Strategy of Conflict). Recognising and understanding such behaviour is an essential part of any economist's toolkit and this course is designed to enable just such recognition and understanding.\n\nGame theory has successfully been applied in a diverse range of fields, such as economics, political science, law, biology and computer science. The aim of this course is to provide an introduction to strategic thinking and analysis through the basic techniques of game theory and to illustrate the range of its applications in economics and business and other areas. While the level of the course will be introductory, and mathematical prerequisites are minimal, the presentation of the material will rely on precise logical arguments."
+ },
+ {
+  "code": "ECON8069",
+  "subject": "ECON",
+  "number": 8069,
+  "level": 8000,
+  "title": "Business Economics",
+  "units": 6,
+  "summary": "This course introduces economic concepts and principles which are useful in understanding the general economic environment within which businesses and other organisations operate.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "You are not able to enrol in this course if you have completed ECON1101 and ECON1102 or ECON7073 and ECON7074 or ECON8077.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON1101",
+   "ECON1102",
+   "ECON7073",
+   "ECON7074",
+   "ECON8077"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8069",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces economic concepts and principles which are useful in understanding the general economic environment within which businesses and other organisations operate.\n\nMicroeconomics examines how consumers and firms make decisions and how they interact with each other in markets. Topics covered include supply and demand, consumer and firm behaviour, price determination and the operation of markets, situations of market failure, and the impact and role of government on the economy.\n\nMacroeconomics studies the entire economy and its wellbeing. Macroeconomics looks at the effect of factors such as inflation, exchange rates, interest rates and trade on the well being and stability of the economy."
+ },
+ {
+  "code": "ECON8077",
+  "subject": "ECON",
+  "number": 8077,
+  "level": 8000,
+  "title": "Economics for Leaders",
+  "units": 6,
+  "summary": "Economics for Leaders is designed to familiarise Master of Business Administration students with economic concepts and principles which are useful in understanding the general economic environment within which businesses and other organisations operate.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must be studying the Master of Business Administration or Master of Business Administration (Advanced). You are not able to enrol in this course if you previously completed ECON1101 and ECON1102, or ECON7073 and ECON7074, or ECON8069.",
+  "rule": {
+   "kind": "INFO",
+   "info": "PROGRAM",
+   "text": "Master of Business Administration or Master of Business Administration (Advanced)"
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON1101",
+   "ECON1102",
+   "ECON7073",
+   "ECON7074",
+   "ECON8069"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8077",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Economics for Leaders is designed to familiarise Master of Business Administration students with economic concepts and principles which are useful in understanding the general economic environment within which businesses and other organisations operate. It provides students with a solid foundation of economics knowledge for a senior management career.\n\nMicroeconomics examines how consumers and firms make decisions and how they interact with each other in markets. Topics covered include supply and demand, consumer and firm behaviour, price determination and the operation of markets, situations of market failure, and the impact and role of government on the economy.\n\nMacroeconomics examines the entire economy and its wellbeing. Macroeconomics looks at the effect of factors such as inflation, exchange rates, interest rates and trade on the well being and stability of the economy."
+ },
+ {
+  "code": "ECON8078",
+  "subject": "ECON",
+  "number": 8078,
+  "level": 8000,
+  "title": "Organisational Economics",
+  "units": 6,
+  "summary": "Organisational Economics studies the design of firms and other economic institutions.  It develops frameworks which are applied to the problems faced by managers and entrepreneurs.  How should incentives be designed in organisations?",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have previously completed ECON8025 and have completed or be currently enrolled in ECON8013 or ECON6012.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON8025",
+     "concurrent": false
+    },
+    {
+     "kind": "OR",
+     "children": [
+      {
+       "kind": "COURSE",
+       "code": "ECON8013",
+       "concurrent": true
+      },
+      {
+       "kind": "COURSE",
+       "code": "ECON6012",
+       "concurrent": true
+      }
+     ]
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8078",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Organisational Economics studies the design of firms and other economic institutions. It develops frameworks which are applied to the problems faced by managers and entrepreneurs. How should incentives be designed in organisations? How should an organisation optimally choose its staff, allocate individuals to tasks within the organisation and then coordinate their actions? Which tasks should be outsourced? How do the answers to these questions depend on external factors such as market competition and technological developments? Tools from game theory, information economics and behavioural economics are introduced and applied to analyse these (and other) problems."
+ },
+ {
+  "code": "ECON8080",
+  "subject": "ECON",
+  "number": 8080,
+  "level": 8000,
+  "title": "Advanced Behavioral Economics",
+  "units": 6,
+  "summary": "Behavioral economics refers to the research program that attempts to incorporate more realistic psychological foundations into models of economic behavior.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "Incompatible with ECON4480",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON3180",
+   "ECON4480"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8080",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Behavioral economics refers to the research program that attempts to incorporate more realistic psychological foundations into models of economic behavior. It initially started by drawing experimental evidence and insights from psychology and other social sciences suggesting the standard model of rational decision-making provides an inadequate description of behavior. But, more recently, behavioral economics is finding its way into policy evaluation/normative economic analysis as well. This course explores some of the advances in this field. We will study foundational topics in behavioral economics, with a focus on theories of behavior that aim to incorporate non-standard phenomena into classic economic models, with consideration of intertemporal decision-making, choice under uncertainty, and learning.\n\nThe course will be centered around research paper discussions, allowing students to develop the critical skills necessary to evaluate and put in practice the latest research findings in the field of Behavioral Economics. Students will have the opportunity to shape the structure of the course by choosing specific readings within each topic."
+ },
+ {
+  "code": "ECON8091",
+  "subject": "ECON",
+  "number": 8091,
+  "level": 8000,
+  "title": "The Economy, Politics and the State",
+  "units": 6,
+  "summary": "This course explores how political and economic outcomes emerge from the interaction of individual incentives, institutional rules, and social norms.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed, or have concurrent enrolment in ECON8025. Incompatible with ECON4491.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed, or have concurrent enrolment in ECON8025"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON4491"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8091",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course explores how political and economic outcomes emerge from the interaction of individual incentives, institutional rules, and social norms. Departing from models that treat government decisions as exogenous or normatively optimal, the course adopts a political economy perspective grounded in institutional and organizational economics.\n\nStudents will examine how formal structures — such as property rights, contracts, and bureaucracies — interact with informal institutions, including cultural norms and shared expectations, to shape behaviour in both political and economic domains. Topics may include the analysis of topical policy issues, allocation of authority, institutional persistence and change, the role of beliefs and expectations, and the influence of culture on organizational design and public governance.\n\nThe course emphasizes analytical clarity and strategic reasoning while remaining attentive to the empirical complexity of real-world institutions and policy issues. It is designed to equip students with a flexible toolkit to interpret how political and economic systems function — and why they differ across settings."
+ },
+ {
+  "code": "ECON8113",
+  "subject": "ECON",
+  "number": 8113,
+  "level": 8000,
+  "title": "Applied Welfare Economics",
+  "units": 6,
+  "summary": "An applied economic analysis of a potential policy change will typically incorporate both positive and normative elements.  The positive aspects of such an analysis involve an assessment of the likely impacts of the proposed policy change.",
+  "offered": [],
+  "requisiteText": "To enrol in this course, you must have completed ECON8025 and ECON8013.\nIncompatible with ECON4040 Applied Welfare Economics.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "ECON8025",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "ECON8013",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON4040"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8113",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "An applied economic analysis of a potential policy change will typically incorporate both positive and normative elements. The positive aspects of such an analysis involve an assessment of the likely impacts of the proposed policy change. The normative aspects of the analysis involve an assessment of the desirability of those impacts. Since a potential policy change might make some individuals better off and other individuals worse off, any assessment of the desirability of such a policy change will require both the measurement of the changes in the welfare of individuals in society that might result from the proposed policy change, and the aggregation of those impacts into some measure of the resulting change in social welfare. This course will consider various approaches to the measurement of changes in individual welfare and the aggregation of those changes into a measure of the change in social welfare. These techniques will then be applied to a number of important topics in applied economics. Such topics might include one or more of shadow pricing, taxation, public utility pricing, cost-effectiveness analysis, and cost-benefit analysis."
+ },
+ {
+  "code": "ECON8180",
+  "subject": "ECON",
+  "number": 8180,
+  "level": 8000,
+  "title": "Economic Analysis of the Digital Economy",
+  "units": 6,
+  "summary": "g.  Bitcoin) and user-generated content in online social networks.  This course shows how the tools of economics can further our understanding of online behaviour, and also how economics can contribute to the future development of the Internet.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed ECON7073. Incompatible with ECON2080.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "ECON7073",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "ECON2080"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8180",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The Internet is transforming many aspects of economic life, from the online purchasing and selling of goods and services, to new ways of (peer) producing information goods such as open source software, currencies (e.g. Bitcoin) and user-generated content in online social networks. This course shows how the tools of economics can further our understanding of online behaviour, and also how economics can contribute to the future development of the Internet. The course also demonstrates how data from the Internet are being used to answer important long-standing research questions in economics."
+ },
+ {
+  "code": "ECON8887",
+  "subject": "ECON",
+  "number": 8887,
+  "level": 8000,
+  "title": "Advanced Research Essay",
+  "units": 6,
+  "summary": "The Advanced Research Essay (ECON8887) forms a two-semester long course (12 units) with the aim to provide Master of Economics students who have excelled academically in the first year of their masters program, an option to conduct an extended supervised research project.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To be eligible to enrol in this course students must attain an average grade of 80% across ECON8025, ECON8026, ECON8013 and EMET8005, and must secure an academic supervisor before the start of the semester.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To be eligible to enrol in this course students must attain an average grade of 80% across ECON8025, ECON8026, ECON8013 and EMET8005, and must secure an academic supervisor before the start of the semester"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8887",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The Advanced Research Essay (ECON8887) forms a two-semester long course (12 units) with the aim to provide Master of Economics students who have excelled academically in the first year of their masters program, an option to conduct an extended supervised research project. Students will conduct independent study on a particular topic chosen in agreement with their supervisor, write a literature review on this topic, prepare a proposal for an extended research essay, and carry out the extended research essay."
+ },
+ {
+  "code": "ECON8901",
+  "subject": "ECON",
+  "number": 8901,
+  "level": 8000,
+  "title": "Advanced Topics in Poverty, Public Policy and Development",
+  "units": 6,
+  "summary": "Why are some countries richer than others?  Why have some countries experienced growth miracles while others have experienced stagnation of even growth disasters?  Within developing countries, what does it mean to be poor?  How to combat poverty?",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in either EMET2007 or EMET6007, or both EMET8005 and ECON8025.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed the equivalent of, or have concurrent enrolment in either EMET2007 or EMET6007, or both EMET8005 and ECON8025"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "ECON6901"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ECON8901",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Why are some countries richer than others? Why have some countries experienced growth miracles while others have experienced stagnation of even growth disasters? Within developing countries, what does it mean to be poor? How to combat poverty? What are the challenges that the poor in developing countries face and what can be done to improve their living standards? This course intends to teach students what we know and what we do not know about these important questions and will focus on teaching students tools in understanding them. The topics covered will include explanations on why countries develop differently, the effect of geography, institutions, foreign aid, corruption and differential savings rates on the large disparities across countries. Within countries we will examine the role of education, health migration and credit markets in poverty alleviation. The course will cover both theory and empirical evidence but focusing mainly on how to conduct empirical analysis in understanding these important economic development issues."
+ }
+]

@@ -53,6 +53,7 @@ export interface RawCourse {
   units: number | null; // first number in unitsText
   offeredRaw: string[]; // verbatim "First Semester 2026" lines from "Offered in"
   subjectName: string | null; // "Course subject"
+  college: string | null; // "ANU College", verbatim; joint courses read "A / B"
   career: string | null; // from the listing, or the page's intro line
   description: string;
   requisiteText: string | null; // verbatim "Requisite and Incompatibility" block
@@ -284,6 +285,8 @@ function extractFromDocument(
 
   const subjectLi = summaryField(summary, "Course subject");
   const subjectName = subjectLi?.querySelector(".degree-summary__code-text")?.textContent?.trim() ?? null;
+  const collegeLi = summaryField(summary, "ANU College");
+  const college = collegeLi?.querySelector(".degree-summary__code-text")?.textContent?.replace(/\s+/g, " ").trim() ?? null;
 
   const introText = doc.querySelector(".intro__degree-description__text")?.textContent ?? "";
   const career =
@@ -304,6 +307,7 @@ function extractFromDocument(
     units: unitsMatch ? Number(unitsMatch[1]) : null,
     offeredRaw,
     subjectName,
+    college,
     career,
     description: intro ? blockText(intro) : "",
     requisiteText: requisiteText.length > 0 ? requisiteText : null,

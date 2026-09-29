@@ -1,0 +1,1103 @@
+[
+ {
+  "code": "PHYS1001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS1001",
+  "title": "Foundations of Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Nationally recognised with two teaching awards, Foundations of Physics aims to teach you to think like a physicist!\n\nA course for anyone who wants to get a solid foundation in basic-physics concepts, or needs to catch up before entering into a major. It will also teach you skills and an approach to problem solving that you will take forward in your life.\n\nThe course offers a unique hands-on approach to learning physics. You will get the background material for each week in a short one hour theory lecture, and then have the opportunity, over the course of an afternoon, to put that theory into practice. You will work in small teams to build, test and analyse physics experiments directly relevant to the material you are learning. Lab manuals and instructions are forbidden! Just like a real researcher.\n\nWe introduce students to the key concepts in physics in the areas of mechanics, electricity and magnetism. It is an algebra-based course suitable for those who wish to undertake some physics but do not have a strong mathematical background, and great for those keen on entering graduate medicine via the GAMSAT.\n\nIf you have ever wanted to get a real taste of what physics is all about, this is the course for you.\n\nThe course is taught by young, enthusiastic and experienced teachers with research interests in nuclear and environmental physics, advanced materials engineering, laser science, and more!",
+  "requisiteText": "You are not able to enrol in this course if you have successfully completed or are currently undertaking either PHYS1101 or PHYS1201."
+ },
+ {
+  "code": "PHYS1004",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS1004",
+  "title": "Life Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The concepts of physics can be used to help understand many systems and processes in living organisms and the environment. For example, the physics of momentum and energy help us to understand the effects of collisions and impacts; the physics of heat and energy helps us to understand how changes in temperature affect both our bodies and the world around us; the physics of sound and light helps us understand how we hear and see. In addition, physics has provided us with ideas and technologies which have revolutionised medicine and studies of biology and the environment, including techniques such as carbon dating, ultrasound, PET scans and more.\n\nThis course is intended to provide non-physics students in the College of Science and College of Health & Medicine (particularly those interested in biology and medical science) and students in the other Colleges with an introduction to the fundamental concepts of physics in the context of biological, medical and environmental examples. Topics covered may include: the relationship between force and energy, the physics of impact and stress, the physics of blood flow and breathing, hearing and seeing, radiation, medical imaging and nuclear power.",
+  "requisiteText": null
+ },
+ {
+  "code": "PHYS1101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS1101",
+  "title": "Physics I",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Physics 1 introduces the fundamentals of university physics, and should be taken by all students planning to major or minor in physics.\n\nThe course focuses on using modelling and estimation to figure out the physics of complex real-world situations, on applying the mathematical concepts of vectors and vector fields, and on experimental skills. It is taught in small-group hands-on workshops and laboratories.\n\nSyllabus: Mechanics, point-particle models, contact forces, rigid body models and rotation. Theory and practice of DC circuits and simple AC circuits. Thermal physics and heat transfer. Writing computer programs to numerically model dynamical situations, and to plot and fit data. Measuring and calculating uncertainties, interpreting uncertain data. Vectors and vector fields. Electrostatics, magnetostatics and induction.\n\nHonours Pathway Option (HPO)\n\nMore advanced options are available in this course. Please see other information section for details.",
+  "requisiteText": "To enrol in this course you must have successfully completed or be currently studying MATH1013 or MATH1115."
+ },
+ {
+  "code": "PHYS1201",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS1201",
+  "title": "Physics 2",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Physics 2 builds on Physics 1, PHYS1101, with a greater emphasis on mathematical techniques. It is an essential course for any student intending to study physics in later years as it introduces foundational knowledge in the areas of waves and optics, mathematical physics, stationary action principles, and special relativity. The course develops experimental and mathematical methods as part of an integrated approach to physics.\n\nThis course, together with Physics 1, provides the basis for further study of physics. They underpin the study at second year level of the core physics areas of: quantum mechanics, statistical and thermal physics, electromagnetism, and classical physics.\n\nThis course offers an Honours Pathway Option (HPO) and an Advanced Study Extension (ASE for PhB students). This is an opportunity to do advanced work. The HPO is noted on your academic transcript. If you complete the HPO/ASE requirements, the course marking scheme is modified to the following: the project mark counts for 25%, added to the course mark that is scaled down to 75%, so your final mark is — course mark * 0.75 + project mark* 0.25.",
+  "requisiteText": "To enrol in this course you must have completed PHYS1101 or be doing it concurrently. You should have completed either MATH1013 or MATH1115 or be doing them concurrently"
+ },
+ {
+  "code": "PHYS2013",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS2013",
+  "title": "Quantum Mechanics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Quantum mechanics (along with General Relativity) is one of the two foundational theories on which modern physics rests. PHYS2013 introduces the basic theoretical concepts and formalism, including the wave mechanics developed by Schroedinger and others and some aspects of the matrix formalism first developed by Heisenberg.\n\nThe course starts with an overview of the historical evidence that led to the development of a quantum theory of matter and light. This is followed by an introduction to the key elements of quantum mechanics, including the statistical interpretation of wave functions, the role of operators and their connection with observables, and uncertainty. These concepts are initially introduced and reinforced through relatively simple problems with analytic solutions, but computational solutions are also examined where appropriate.\n\nPHYS2013 provides the foundations for further studies of, for example, atomic and nuclear spectroscopy, elementary particle physics and solid state physics as well as more advanced quantum mechanics. It is thus a core course in that it provides the background needed for several courses offered at third year. There is a small laboratory component (shared with PHYS2020).\n\nHonours Pathway Option\n\nThis course is offered as an advanced option. The HPO/ASE for this course is a research assignment in the rapidly evolving area of non-Hermitian physics. You will be working on a familiar quantum system of a particle in an infinite square well but with gain or loss. In addition to analytical work, you will also learn a few numerical techniques in MATLAB to solve the problems. The HPO/ASE will count toward 25% of your mark, the rest of the assessment will be weighted at 75%. To opt in to the HPO, students should sign up via the course Wattle page. Students who do not submit the assignment will be considered as opting out of the HPO.",
+  "requisiteText": "To enrol in this course you must have completed PHYS1101 and PHYS1201 and either MATH1013 or MATH1014 or MATH1115 or MATH1116."
+ },
+ {
+  "code": "PHYS2016",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS2016",
+  "title": "Electromagnetism",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This core physics course deals with classical electromagnetism. This course includes considerations of: electrostatic fields in free space and in dielectrics; magnetic fields due to steady and varying currents; electromagnetic induction; magnetic materials and Maxwell's equations. The course includes a lab component as part of the combined second year lab program; designed to introduce lab techniques, data analysis and learn physics that is not covered in the course workshops.\n\nHonours Pathway Option\n\nThis is an extension-type option. Students in this option will be required to complete a higher-level question in each assignment comprising 15% of the total assessment. The HPO students do not need to fill in any forms, but do need to inform the convenor that they are opting in. If the questions are not completed, then the student will be considered as opting out of the HPO.",
+  "requisiteText": "To enrol in this course you must have completed PHYS1201 and MATH2305."
+ },
+ {
+  "code": "PHYS2020",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS2020",
+  "title": "Thermal and Statistical Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "All physical systems that are more than a few nanometres in size – and not at absolute zero temperature – are composed of many particles in constant random motion; their macroscopic behaviours emerge as statistical averages. In this course we learn the universal statistical and thermodynamic principles that describe these systems, covering phenomena as diverse as the greenhouse effect, heat flow, the nature of molecular interactions and the relic radiation from the Big Bang.\n\nThe course begins with classical thermodynamics to introduce the fundamental concepts of temperature, energy, and heat. It then moves to statistical mechanics in which the laws of statistics are used to predict the behaviour of ensembles of particles through the concept of entropy and probability. These concepts are then used within thermodynamics to explore free energies, and understand heat engines, refrigerators and phase transformations and fuel cells. The course then returns to statistical physics to where Boltzmann and Gibbs factors and partition functions are applied to both classical and quantum systems, including blackbody radiation and Fermi gases.\n\nHPO is available for this course and will be worth 15% of the overall mark. Students can opt in to the HPO via the course Learning Management system by Friday week 2. Students who do not submit HPO assessment or score lower in the HPO assessment, are considered to have opted out. See \"other information section\" for details.",
+  "requisiteText": "To enrol in this course you must have completed PHYS1101 and PHYS1201 and either MATH1013 or MATH1014 or MATH1115 or MATH1116."
+ },
+ {
+  "code": "PHYS2101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS2101",
+  "title": "Nuclear and Radiation Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Over 3,000 different kinds of atomic nuclei have been discovered in elements that span the Periodic Table, yet each one has unique properties. Some may exist forever; others transform within a fraction of a second. Some can power satellites as they travel to the outer reaches of the solar system; others have special properties that allow them to treat different forms of cancer.\n\nThis course will introduce you to the physics of atomic nuclei and radioactive decay. You will develop understanding of basic nuclear properties, such as the organisation of their constituent particles and the forces that bind them together. You will then apply this knowledge to understand the origins of nuclear stability and instability, and the different kinds of radioactive decay and nuclear reactions that can occur. You will also learn about radiation-matter interactions, radiation detection and measurement techniques, and applications of nuclear science and technology relevant to energy security and human health.",
+  "requisiteText": "To enrol in this course you must have successfully completed:\nEither PHYS1101, PHYS1001 or PHYS1004 and\nEither MATHS1013 or MATHS1115.\n\nThis course in incompatible with PHYS6601."
+ },
+ {
+  "code": "PHYS2201",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS2201",
+  "title": "Classical Mechanics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This core second year physics course develops classical mechanics. The least action formulation of classical mechanics is developed and related to quantum mechanics. Hamiltonian mechanics is also introduced, as are the tensor properties of materials. The course examines wave phenomena in continuous media, including diffraction and Fourier theory, and continuum mechanics in fluids. The course material is supported throughout by examples taken from recent research on mechanical systems, nano-optics, atomic physics, biological systems, fluid mechanics and laser physics. Computer models provide an opportunity to explore various concepts presented in lectures, including coupled linear oscillators and chaotic dynamics in driven non-linear oscillators. Complementing the lectures, this course contains a laboratory component. Some experiments are essentially qualitative and support lecture material, while others allow development of important skills in quantitative experimental physics. This course is a prerequisite for PHYS3101 and PHYS3102. It is required for the physics major.\n\nHPO: This course offers an Honours Pathway Option. See \"other information\" for details.",
+  "requisiteText": "To enrol in this course you must have completed PHYS1201 and have successfully completed or be studying MATH2306.\nIncompatible with PHYS2017, PHYS3001 and PHYS3034"
+ },
+ {
+  "code": "PHYS2205",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS2205",
+  "title": "Physics for Future Leaders",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course is aimed at two groups of students:\n\nNon-physics students: to teach them about how physics can help them make the world a better place.\n\nPhysics students: to teach them about how their physics knowledge can be applied to make the world a better place.\n\nThe course will cover topics such as global warming, energy change, bushfires and nuclear power, and show how an understanding of physics can help future leaders make better decisions. It will also cover the social, economic and political context in which physics is used, and how scientists can most effectively deal with these big-picture issues.\n\nThere is a particular focus on working with complex multidisciplinary problems, and on how science can harm or benefit indigenous communities.",
+  "requisiteText": "To enrol in this course you must have completed 24 units towards a degree.\n\nIncompatible with PHYS6205"
+ },
+ {
+  "code": "PHYS3032",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3032",
+  "title": "Solid State Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "New materials enable new technologies and many practicing physicists in academia and industry work in this fundamental area of physics. This course aims to establish fundamental concepts in solid-state physics, and applies the physics learned previously (in particular quantum mechanics, classical mechanics, electromagnetism, and statistical mechanics) to macroscopic 'real-world' materials. The structure and properties of solids including thermal, electrical and magnetic properties are described and the electron theory of solids is developed and applied to explain the physical properties of metals, semiconductors, dielectrics and superconductors. Students will practice solving theoretical problems in condensed matter physics in tutorials and further develop their understanding of the topics by completing the assignments and quizzes. Students will also perform practical laboratory sessions to learn some of the key analytical techniques in solid-state physics. The results from these laboratory sessions will be analysed and written up in laboratory reports to practice critical analysis and communication of experimental investigations.\n\nHPO: Students can opt-in to the HPO through sign-up in Wattle by Friday Week 3. The HPO is 15% of your final grade, and will amount to be around an extra 15 hours of work across the teaching period, the remaining assessment will be weighted at 85%. Refer to 'Other information' for more detail.",
+  "requisiteText": "To enrol in this course you must have completed PHYS2020 or PHYS2013.\n\nIncompatible: PHYS6032"
+ },
+ {
+  "code": "PHYS3039",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3039",
+  "title": "Climate Dynamics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Understanding the weather and climate - and how it is now changing - is of vital importance to the Australian industry and society. The goal of this course is to provide students with a quantitative understanding of the ocean and atmosphere processes that underpin weather and climate. The course content begins with the fundamentals of fluid flow and how air/ocean flows are modelled (e.g., weather and climate prediction) using equations solved by computers; and as part of the course, students will learn to run and analyse their own climate system model. We will then investigate key dynamical processes in the ocean and atmosphere including planetary waves, weather fronts, convection, ocean boundary currents, swell, and ocean eddies, with student learning supported by hands-on fluid dynamics experiments in the world-class Geophysical Fluid Dynamics Laboratory at the Research School of Earth Sciences. In the final part of the course, we will develop quantitative understanding of the coupled ocean-atmosphere dynamics that regulate Australian weather and rainfall, including the El Nino Southern Oscillation, Southern Annular Mode, Tropical Cyclones and the Monsoon.\n\nKey components of the course will be informed using insights from ongoing research within the ARC Centre of Excellence in Climate Extremes (CLEx) and the ARC Centre of Excellence for Weather of the 21st Century (W21C).",
+  "requisiteText": "To enrol in this course you must have successfully completed PHYS2201.\n\nIncompatible: EMSC3039"
+ },
+ {
+  "code": "PHYS3042",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3042",
+  "title": "Research Topics Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The \"Research Topics Physics\" course is designed to give students the opportunity to individually connect to active researchers/research groups at the ANU to participate in cutting edge physics activities through appropriately designed projects with a commitment at a level equivalent to that required for a 6 unit course. The students will learn approaches to 'real' physics problems, how to communicate results to their peers and develop an understanding how physics research works in an academic environment. Students are advised to contact the Academic Contact for information on available projects.\n\nThe Research Topics Physics course is offered as an Honours Pathway Course. It will enhance students research skills and prepare students well for the research component of the honours year.",
+  "requisiteText": "To enrol in this course you must have completed two of PHYS2013 or PHYS2016 or PHYS2020 and be be currently studying one 3000 level Physics (PHYS) course."
+ },
+ {
+  "code": "PHYS3051",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3051",
+  "title": "Applied Optics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course will cover the use of optics and photonics to develop environmental, industrial and commercial sensors. It includes fundamental knowledge of a wide range of optical and photonic measurement techniques and covers the process of designing and optimising optical sensors for real-world use. It is an application-driven course, including topics such as LiDAR, navigation systems, environmental gas sensing and intrusion/vibration detection. Laboratory work involves hands-on, project focused fibre-based and free-space experiments. Assignments promote creative design-based questions supported by computer simulation to justify reasoning and prove out sensing solutions.",
+  "requisiteText": "To enrol in this course you must have successfully completed PHYS2201 or both PHYS1201 and ENGN2228\n\nIncompatible: PHYS6502, ENGN4613, ENGN6613"
+ },
+ {
+  "code": "PHYS3057",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3057",
+  "title": "Optical Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Optics continues to play a central role in answering the most profound scientific questions of our time. Optics is at the heart of many of the world's most powerful scientific instruments, enabling modern telescopes to achieve previously unimaginable resolution, and probing general relativity with a global network of gravitational wave detectors. This course includes fundamentals of laser, semiconductor lasers, quantum confined structures, Fourier optics, telescopic imaging, adaptive optics, nonlinear optics and quantum entangled sources. Expert guest lecturers will describe the application of these techniques to fields such as astronomy, gravitational wave detection and nanophotonics. The course will also provide critical experimental skills with optical instrumentation needed for many areas of research.",
+  "requisiteText": "To enrol in this course you must have completed PHYS2201 or both PHYS1201 and ENGN2228.\n\nIncompatible with PHYS6500, ENGN3512 and ENGN6512"
+ },
+ {
+  "code": "PHYS3070",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3070",
+  "title": "Physics of the Earth",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The course is an introduction to physics of the solid Earth intended for students with substantial background in physics and mathematics including calculus. The course will provide an overview of the structure and evolution of the Earth as a dynamic planet within our solar system. Physical principles will be applied to the following topics: theory of elasticity and elastic wave propagation; modern global seismology as a probe of the Earth's internal structure; earthquakes and the description of seismic sources; a simple but fundamental theory of thermal convection; the distinctive rheological behaviour of the upper mantle and its top layer, controlled by significant changes in the mechanical properties of the material, will then be explored to arrive at a comprehensive description of what forces drive and resist global plate motions.\nHonours Pathway Option\nStudents taking the HP advanced option will undertake an individual project on a topic of interest from the course syllabus. Such project shall develop in consultation with the course lecturers, and may be in the form of a reading project or a laboratory/numerical experiment accompanied by a final report. The assessment of the project will be agreed upon and undertaken in a manner appropriate to the project itself (e.g. a written report or essay, a short talk etc.). Students taking the HP option may elect to substitute their project mark either with up to two (out of four) individual assignments or with one of the experiments and accompanying report normally undertaken during the course (this amounts to a total of 10-20% of the final grade). The assessment weight towards the exam will remain the same.",
+  "requisiteText": "To enrol in this course you must have successfully completed PHYS2016 and PHYS2201."
+ },
+ {
+  "code": "PHYS3101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3101",
+  "title": "Advanced Quantum Mechanics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This core third year physics course develops quantum mechanics. Quantum mechanics will be generalised to a broad range of systems, from matter to photons. Topics covered will include foundations, symmetries, angular momentum, and the Lagrangian formulation of quantum mechanics. It also gives an introduction to many-body quantum mechanics, entanglement, bosons and fermions, occupation number notation, theory of open quantum systems, density matrices and master equations, dynamical calculations and approximations in quantum field theories, non-locality and reality and quantum measurement. This course is required for the physics major, the theoretical physics major, and is recommended for those intending to do the honours year in Physics.\n\nAdvanced Quantum Mechanics is offered as an Honours Pathway Course.",
+  "requisiteText": "To enrol in this course you must have completed PHYS2201 and PHYS2013.\nIncompatible with PHYS3001, PHYS4100 and PHYS6101"
+ },
+ {
+  "code": "PHYS3102",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3102",
+  "title": "Advanced Electromagnetism",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Content will focus on concepts and practical application of Maxwell's equations aiming to develop understanding of fundamental effects of electromagnetism and optics. This includes guiding, radiation and scattering of electromagnetic waves, and particle dynamics in electromagnetic fields. Content will also include the relativistic formulation of Maxwell's equations and application of the relativistic formulation of Maxwell's equations. This course is one of the 3rd year options for the physics major, and is recommended for those intending to do honours in Physics.",
+  "requisiteText": "To enrol in this course you must have previously completed PHYS2201 and PHYS2016."
+ },
+ {
+  "code": "PHYS3103",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3103",
+  "title": "Advanced Statistical Mechanics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This core third year physics course develops statistical mechanics and condensed matter physics. It is based on textbooks Introduction to Statistical Physics by Kerson Huang and Statistical Physics by David Tong and will cover thermodynamics and the various ensembles in statistical physics. We then move onto phase transitions, noise, the Langevin equation, and quantum systems such as Bose and Fermi gases. To conclude we examine order parameters, superconductivity and superfluidity. It is a course of essential importance for all students wishing to understand condensed matter and many-body systems.\n\nThis course is one of the 3rd year options for the physics major and is recommended for those intending to do honours in Physics.",
+  "requisiteText": "To enrol in this course you must have previously completed PHYS2020 and PHYS2013\n\nIncompatible: PHYS6103"
+ },
+ {
+  "code": "PHYS3104",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3104",
+  "title": "Physics Advanced Laboratory",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Physics is concerned with the nature, properties and understanding of matter and energy in the universe. The primary method of testing whether physical theories are correct is through comparison of theoretical predictions with measurements of physical properties. Indeed, it could be said that the pursuit of ever more accurate and precise measurements is the bedrock of modern physics. The Physics Advanced Laboratory course will consist of lectures, smaller laboratory experiments, computational exercises, and, most importantly, the design and performance of complex, open-ended experiments using high-end equipment in real research laboratories, such as high precision lasers and a 15MV electrostatic tandem accelerator. The course is designed to develop the essential scientific and laboratory techniques required by experimental physicists, as well as oral and written communication skills, self-reliance, trouble-shooting abilities and a sophisticated understanding of measurement uncertainty.\n\nThis course can be taken twice, for students who wish to gain additional practice and experience in a laboratory environment. See \"Other Information\" for details.",
+  "requisiteText": "Completion of a minimum of 18 units from PHYS2013, PHYS2020, PHYS2201, PHYS2016."
+ },
+ {
+  "code": "PHYS3105",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3105",
+  "title": "Physics of Matter",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course introduces students to the microscopic theory of matter and radiation that spans elementary particles to atoms. Building upon prior learning in quantum mechanics and electromagnetism, students will develop understanding of the standard model of particle physics, and the formation and structure of nuclei and atoms. As a result, students will be able to interpret the universe that surrounds them in terms of its most fundamental constituents and apply this knowledge to advances in fundamental physics, radiation safety and medical science, nuclear power, atomic technologies (eg. lasers, atomic clocks, MRI) and quantum chemistry.",
+  "requisiteText": "To enrol in this course you must have completed PHYS2013 and PHYS2016.\n\nIncompatible with PHYS3031 and PHYS3033 and PHYS6105"
+ },
+ {
+  "code": "PHYS3106",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3106",
+  "title": "Nuclear Technologies and Applications",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Nuclear technologies and nuclear-science techniques have a diverse range of applications from power generation to cancer therapy. This course will introduce you to current and emerging nuclear technologies of relevance to Australia and the Asia-Pacific region, including the nuclear fuel cycle, nuclear-based energy generation, safeguards and non-proliferation measures, and nuclear medicine. You will also learn about particle accelerators and their application in science and industry. In doing so, you will be able to assess nuclear technologies and applications in terms of the underlying science, and use that knowledge to create relevant simulations with suitable computational tools.",
+  "requisiteText": "To enrol in this course you must have successfully completed PHYS2101"
+ },
+ {
+  "code": "PHYS3201",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3201",
+  "title": "Quantum Field Theory",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This advanced third year physics course provides an introduction to the concepts and tools of quantum field theory (QFT) and to its applications in various fields, such as particle physics and condensed matter. QFT is arguably the most far-reaching attempt to combine special relativity and quantum physics in a unique framework. This course builds on the content of previous courses on Classical and Quantum Mechanics, Electromagnetism, and Statistical Physics, providing an elegant synthesis of these key areas of modern Physics. We explain in this course the origin of particles (why are all electrons identical?), forces (why same charge repel while gravitation is attractive?) and antiparticles. The Feynman path integral formalism is used, leading to Klein-Gordon, Maxwell and Dirac equations. Feynman diagrams to describe interacting fields are also introduced. The concepts of Gauge Invariance, spontaneous symmetry breaking, as well as the Goldstone and Higgs mechanisms are introduced in a general context, and applied, e.g., to describe superfluidity, superconductivity and ferromagnetism.\n\nThis course is offered as an Honours Pathway Course (HPC). It builds upon skills and knowledge from standard undergraduate studies to introduce students to modern theoretical physics concepts. In particular, major elements required to study graduate courses on the Standard Model of particle physics as well as on quantum many-body systems are introduced in this course.",
+  "requisiteText": "To enrol in this course you must have completed PHYS3101 and PHYS3102.\nIncompatible with PHYS3002 and PHYS6201."
+ },
+ {
+  "code": "PHYS3203",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3203",
+  "title": "General Relativity",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "With the spectacular first direct detection of gravitational waves in 2015, GR is now arguably the most successful theory of modern physics. This third year physics course provides an introduction to the concepts and tools of general relativity theory (GR) and to its applications in cosmology, gravitational wave theory and gravitational wave detection.\nThe full geometric structure underpinning the theory will be developed, leading to the Einstein Field equation and an in-depth study of the Schwarzschild black hole. We will study the application of GR theory to cosmology as well as its prediction of the existence of gravitational waves and the principles of how these waves can be detected on Earth.",
+  "requisiteText": "To enrol in this course you must have previously completed PHYS3102.\n\nIncompatible with PHYS6203"
+ },
+ {
+  "code": "PHYS3711",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS3711",
+  "title": "Fundamentals of Noise and Measurement",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "How do we know what we know, and how well do we know it? Measurement underpins our understanding of the physical world, and great care must be taken in the design, operation, and analysis of measurement systems to avoid hoodwinking ourselves. In this course, taught by experts, you will learn crucial techniques in the design and operation of measurement systems and apparatuses. Along the way, you’ll learn how to avoid common pitfalls that confound many experiments. Topics covered will include: feedback control, statistical analysis and limit theorems, types of noise and mitigation strategies, types of measurements and sensors, signal conditioning and processing, measurement limits. Key concepts and systems-level considerations will be illustrated with case-studies of sophisticated instrumentation and measurement systems.",
+  "requisiteText": "This course is incompatible with PHYS6711."
+ },
+ {
+  "code": "PHYS4110",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS4110",
+  "title": "Honours Research Project",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course will be taken over two consecutive semesters. Students will learn basic research preparation skills, including compilation of background research, thesis writing and oral presentation skills. They will pursue a research project under the supervision of an academic supervisor. The research will be original, and will be chosen from among the appropriate projects offered in Physics or a suitable cognate area.",
+  "requisiteText": "Students must be active in the Physics Honours specialisation PHYS-HSPC"
+ },
+ {
+  "code": "PHYS4301",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS4301",
+  "title": "Applied Mathematical Methods in Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The purpose of this course is to give an in-depth introduction to mathematical methods used in modern physics. This course concentrates on different approaches and techniques which help to solve a variety of problems in theoretical and applied areas of physics. It will review and develop methods of Complex Analysis and applications to calculation of integrals, finding and analysing solutions of differential equations which appear in physical problems. It will give a basic introduction to groups and their representations which appear in physical problems including rotation group, Lorentz group and simple unitary groups. Asymptotic methods used in modern quantum theory will also be explored. The course will provide strong integration of conceptual and applied elements from the physicists' point of view. Some methods will be illustrated by working computational examples in Mathematica, so that students could get practical experience of application of mathematical methods to various problems in physics.",
+  "requisiteText": "Students must be active in the PHYS-HSPC Physics Honours specialisation.\n\nIncompatible with PHYS8301"
+ },
+ {
+  "code": "PHYS4303",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS4303",
+  "title": "Nonlinear Dynamics in Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course is intended for advanced study of the theory of nonlinear dynamics and its application. The course covers theory of bifurcations, deterministic chaos, and complex spatio-temporal behaviour in a diverse range of physical systems. The theory is developed in a systematic manner and incorporates analytical methods, qualitative and quantitative analysis, numerical calculations, and various “real-life” examples, ranging from mechanical and biological systems to semiconductor physics and optics. The course therefore has a distinct inter- and intra-disciplinary flavour, allowing the students to tie together and contextualise a number of concepts that they have learned throughout their undergraduate studies.",
+  "requisiteText": "To enrol in this course you must be active in the PHYS-HSPC Physics Honours Specialisation\n\nIncompatible with PHYS8303"
+ },
+ {
+  "code": "PHYS4304",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS4304",
+  "title": "Quantum Scattering",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course will explore scattering of quantum particles with both classical and quantum approaches, using examples from atomic, molecular and nuclear physics. Quantum effects will be explored through prototypical examples such as the Born approximation, Rutherford scattering and fusion processes. Descriptions will then be expanded to incorporate inelastic effects to mimic real scattering processes including the role of excited states and resonant processes. Semiclassical descriptions will be developed for high energy scattering, as well as approximation methods for lower energy processes, such as close-coupling and static exchange models. The course will also explore applications of scattering in various fields, such as atmospheric science and astrophysics.",
+  "requisiteText": "To enrol in this course you must be active in the Physics Honours specialisation"
+ },
+ {
+  "code": "PHYS6013",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6013",
+  "title": "Quantum Mechanics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Quantum mechanics (along with General Relativity) is one of the two foundational theories on which modern physics rests. This course introduces the basic theoretical concepts and formalism, including the wave mechanics developed by Schroedinger and others and some aspects of the matrix formalism first developed by Heisenberg.\nThe course starts with an overview of the historical evidence that led to the development of a quantum theory of matter and light. This is followed by an introduction to the key elements of quantum mechanics, including the statistical interpretation of wave functions, the role of operators and their connection with observables, and uncertainty. These concepts are initially introduced and reinforced through relatively simple problems with analytic solutions, but computational solutions are also examined where appropriate.\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must have been admitted into the Master of Science (Quantum\nTechnology) program. This course is incompatible with PHYS2013, PHYS3101 and PHYS4100."
+ },
+ {
+  "code": "PHYS6020",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6020",
+  "title": "Thermal and Statistical Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Thermal physics deals with large numbers of particles, anything big enough to see with a conventional microscope. From understanding the greenhouse effect to the blackbody radiation left over from the Big Bang, no other physical theory is used more widely throughout science.\n\nThis course provides an introduction to classical thermodynamics, with applications in materials science & engineering and earth science, as well as statistical thermodynamics, with applications in solid state physics and astrophysics.\n\nThe course begins with classical thermodynamics to introduce the fundamental concepts of temperature, energy, and heat, then moves to statistical mechanics, in which the laws of statistics are used to predict the behaviour of ensembles of particles, through the concept of entropy. These concepts are then used within thermodynamics to explore free energies, and understand heat engines, refrigerators and phase transformations and fuel cells, before the course returns to statistical physics to where Boltzmann and Gibbs factors and partition functions are applied to both classical and quantum systems, including blackbody radiation and Fermi gases.\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Materials Science, Master of Science (Advanced) in Materials Science, Master of Science in Precision Instrumentation, Master of Science (Advanced) in Precision Instrumentation, Master of Science in Quantum Technology, Master of Science (Advanced) in Quantum Technology, Master of Science in Theoretical Physics, Master of Science (Advanced) in Theoretical Physics\n\nIncompatible with PHYS2020"
+ },
+ {
+  "code": "PHYS6032",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6032",
+  "title": "Solid State Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "New materials enable new technologies and many practicing physicists in academia and industry work in this fundamental area of physics. This course aims to establish fundamental concepts in solid-state physics, and applies the physics learned previously (in particular quantum mechanics, classical mechanics, electromagnetism, and statistical mechanics) to macroscopic 'real-world' materials. The structure and properties of solids including thermal, electrical and magnetic properties are described and the electron theory of solids is developed and applied to explain the physical properties of metals, semiconductors, dielectrics and superconductors. Students will practice solving theoretical problems in condensed matter physics in tutorials and further develop their understanding of the topics by completing the assignments and quizzes. Students will also perform practical laboratory sessions to learn some of the key analytical techniques in solid-state physics. The results from these laboratory sessions will be analysed and written up in laboratory reports to practice critical analysis and communication of experimental investigations.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must have completed PHYS2020 Thermal and Statistical Physics or PHYS2013 - Quantum Mechanics or equivalent.\n\nIncompatible: PHYS3032"
+ },
+ {
+  "code": "PHYS6101",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6101",
+  "title": "Advanced Quantum Mechanics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This core physics course develops quantum mechanics. Quantum mechanics will be generalised to a broad range of systems, from matter to photons. Topics covered will include foundations, symmetries, angular momentum, and the Lagrangian formulation of quantum mechanics. It also gives an introduction to manybody quantum mechanics, entanglement, bosons and fermions, occupation number notation, theory of open quantum systems, density matrices and master equations, dynamical calculations and approximations in quantum field theories, non-locality and reality and quantum measurement.\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must have completed PHYS6013 or an equivalent approved by the convenor. This course is incompatible with PHYS3101 and PHYS4100.."
+ },
+ {
+  "code": "PHYS6102",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6102",
+  "title": "Advanced Electromagnetism",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Content will focus on concepts and practical application of Maxwell's equations aiming to develop understanding of fundamental effects of electromagnetism and optics. This includes guiding, radiation and scattering of electromagnetic waves, and particle dynamics in electromagnetic fields. Content will also include the relativistic formulation of Maxwell's equations and application of the relativistic formulation of Maxwell's equations.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Theoretical Physics or Mather of Science (Advanced) in Theoretical Physics\n\nIncompatible with PHYS3102"
+ },
+ {
+  "code": "PHYS6103",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6103",
+  "title": "Advanced Statistical Mechanics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This core physics course develops statistical mechanics and condensed matter physics. It is based on textbooks Introduction to Statistical Physics by Kerson Huang and Statistical Physics by David Tong and will cover thermodynamics and the various ensembles in statistical physics. We then move on to phase transitions, noise, the Langevin equation, and quantum systems such as Bose and Fermi gases. To conclude we examine order parameters, superconductivity, and superfluidity. It is a course of essential importance for all students wishing to understand condensed matter and many-body systems.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Theoretical Physics or Master of Science (Advanced) in Theoretical Physics\n\nIncompatible with PHYS3103"
+ },
+ {
+  "code": "PHYS6105",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6105",
+  "title": "Physics of Matter",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course introduces students to the microscopic theory of matter and radiation that spans elementary particles to atoms. Building upon prior learning in quantum mechanics and electromagnetism, students will develop understanding of the standard model of particle physics, and the formation and structure of nuclei and atoms. As a result, students will be able to interpret the universe that surrounds them in terms of its most fundamental constituents and apply this knowledge to advances in fundamental physics, radiation safety and medical science, nuclear power, atomic technologies (eg. lasers, atomic clocks, MRI) and quantum chemistry.\n\nThis course is co-taught with undergraduate students but assessed separately.\n\nCompared to its undergraduate version, this course significantly expands the material learnt by the students through additional texts and also exercises students in higher-level problem-solving and communication skills through a major project.",
+  "requisiteText": "This course is incompatible with PHYS3031, PHYS3033 and PHYS3105."
+ },
+ {
+  "code": "PHYS6201",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6201",
+  "title": "Quantum Field Theory",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course provides an introduction to the concepts and tools of quantum field theory (QFT) and to its applications in various fields, such as particle physics and condensed matter. QFT is arguably the most far-reaching attempt to combine special relativity and quantum physics in a unique framework. This course builds on the content of previous courses on Classical and Quantum Mechanics, Electromagnetism, and Statistical Physics, providing an elegant synthesis of these key areas of modern Physics. We explain in this course the origin of particles (why are all electrons identical?), forces (why same charge repel while gravitation is attractive?) and antiparticles. The Feynman path integral formalism is used, leading to Klein-Gordon, Maxwell and Dirac equations. Feynman diagrams to describe interacting fields are also introduced. The concepts of Gauge Invariance, spontaneous symmetry breaking, as well as the Goldstone and Higgs mechanisms are introduced in a general context, and applied, e.g., to describe superfluidity, superconductivity and ferromagnetism.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enroll in this course you must be active the Master of Science in Theoretical Physics or the Master of Science (Adv) in Theoretical Physics programs.\n\nIncompatible with PHYS3201."
+ },
+ {
+  "code": "PHYS6203",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6203",
+  "title": "General Relativity",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "With the spectacular first direct detection of gravitational waves in 2015, General Relativity theory is now arguably the most successful theory of modern physics. This course provides an introduction to the concepts and tools of GR and to its applications in cosmology, gravitational wave theory and gravitational wave detection.\n\nThe full geometric structure underpinning the theory will be developed, leading to the Einstein Field equation and an in-depth study of the Schwarzschild black hole. We will study the application of GR theory to cosmology as well as its prediction of the existence of gravitational waves and the principles of how these waves can be detected on Earth.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must have previously completed PHYS6102\n\nIncompatible with PHYS3203"
+ },
+ {
+  "code": "PHYS6205",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6205",
+  "title": "Physics for Future Leaders",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course is aimed at two groups of students:\n\nNon-physics students: to teach them about how physics can help them make the world a better place.\n\nPhysics students: to teach them about how their physics knowledge can be applied to make the world a better place.\n\nThe course will cover topics such as global warming, energy change, bushfires and nuclear power, and show how an understanding of physics can help future leaders make better decisions. It will also cover the social, economic and political context in which physics is used, and how scientists can most effectively deal with these big-picture issues.\n\nThere is a particular focus on working with complex multidisciplinary problems, and on how science can harm or benefit indigenous communities.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "This course is incompatible with PHYS2205."
+ },
+ {
+  "code": "PHYS6500",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6500",
+  "title": "Optical Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Optics continues to play a central role in answering the most profound scientific questions of our time. Optics is at the heart of many of the world's most powerful scientific instruments, enabling modern telescopes to achieve previously unimaginable resolution, and probing general relativity with a global network of gravitational wave detectors. This course includes fundamentals of laser, semiconductor lasers, quantum confined structures, Fourier optics, telescopic imaging, adaptive optics, nonlinear optics and quantum entangled sources. Expert guest lecturers will describe the application of these techniques to fields such as astronomy, gravitational wave detection and nanophotonics. The course will also provide critical experimental skills with optical instrumentation needed for many areas of research.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in this course you must be active in one of the following programs:\n\nMaster of Science in Theoretical Physics, Master of Science (Adv) in Theoretical Physics, Master of Science in Precision Instrumentation and Measurement, Master of Science (Adv) in Precision Instrumentation and Measurement, Master of Science in Quantum Technology, Master of Science (Adv) in Quantum Technology\n\nIncompatible with PHYS3057, ENGN3512 and ENGN6512"
+ },
+ {
+  "code": "PHYS6502",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6502",
+  "title": "Applied Optics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course will cover the use of optics and photonics to develop environmental, industrial and commercial sensors. It includes fundamental knowledge of a wide range of optical and photonic measurement techniques and covers the process of designing and optimising optical sensors for real-world use. It is an application-driven course, including topics such as LiDAR, navigation systems, environmental gas sensing and intrusion/vibration detection. Laboratory work involves hands-on, project focused fibre-based and free-space experiments. Assignments promote creative design-based questions supported by computer simulation to justify reasoning and prove out sensing solutions.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "Incompatible: PHYS3051, ENGN4613, ENGN6613"
+ },
+ {
+  "code": "PHYS6601",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6601",
+  "title": "Nuclear and Radiation Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Over 3,000 different kinds of atomic nuclei have been discovered in elements that span the Periodic Table, yet each one has unique properties. Some may exist forever; others transform within a fraction of a second. Some can power satellites as they travel to the outer reaches of the solar system; others have special properties that allow them to treat different forms of cancer.\n\nThis course will introduce you to the physics of atomic nuclei and radioactive decay. You will develop understanding of basic nuclear properties, such as the organisation of their constituent particles and the forces that bind them together. You will then apply this knowledge to understand the origins of nuclear stability and instability, and the different kinds of radioactive decay and nuclear reactions that can occur. You will also learn about radiation-matter interactions, radiation detection and measurement techniques, and applications of nuclear science and technology relevant to energy security and human health.\n\nThis course is taught with undergraduate students but assessed separately.",
+  "requisiteText": "Incompatible with PHYS2101"
+ },
+ {
+  "code": "PHYS6701",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6701",
+  "title": "Rapid Prototyping",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Ever wanted to build something but didn’t know how? Thought you couldn’t master the skills needed? Want to take an idea or solution to a problem and bring it into reality? This course will give you the confidence to design, prototype, and build solutions to real world problems. You’ll have the opportunity to pick up new skills, or expand and grow existing ones in CAD, Digital Fabrication, Circuit Design and Fabrication, Programing, and even the good old hammer. You’ll begin the year with “deep-dives”, building simple projects that grow your confidence in a range of these skills. As the semester progresses, you’ll have the opportunity in small teams to either propose your own projects/ideas, or service a client’s needs with an innovative solution. You’ll come out of this experience with transferable skills, and the tenacity to do anything from repairing a smartphone, through to designing your own sensor system to interface with it!",
+  "requisiteText": "To enrol in this course students must be active in the Master of Science in Precision Instrumentation and Measurement (NSCPI), Master of Science (Advanced) in Precision Instrumentation and Measurement (VSCPI), Master of Science in Quantum Technology (NSCQT) or Master of Science (Advanced) in Quantum Technology (VSCQT).\nOtherwise, permission from the course Convenor must be sought."
+ },
+ {
+  "code": "PHYS6711",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS6711",
+  "title": "Fundamentals of Noise and Measurement",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "How do we know what we know, and how well do we know it? Measurement underpins our understanding of the physical world, and great care must be taken in the design, operation, and analysis of measurement systems to avoid hoodwinking ourselves. In this course, taught by experts, you will learn crucial techniques in the design and operation of measurement systems and apparatuses. Along the way, you’ll learn how to avoid common pitfalls that confound many experiments. Topics covered will include: feedback control, statistical analysis and limit theorems, types of noise and mitigation strategies, types of measurements and sensors, signal conditioning and processing, measurement limits. Key concepts and systems-level considerations will be illustrated with case-studies of sophisticated instrumentation and measurement systems.\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "This course is incompatible with PHYS3711."
+ },
+ {
+  "code": "PHYS8000",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8000",
+  "title": "Masters Research Project",
+  "unitsText": "12 to 24 units",
+  "units": 12,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "The course is designed for students in the Master of Science (Advanced) programs offered by the Research School of Physics and the research topic will be commensurate with the specific augmentation being studied. This course is designed to connect students, on an individual basis, to active researchers at the ANU. The student will be expected to participate in a substantial project at a postgraduate level. Students are advised to contact the Academic Contact for information on available projects.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science (Advanced) in Quantum Technology (VSCQT) or Master of Science (Advanced) in Theoretical Physics (VSCTP) or Master of Science (Advanced) in Precision Instrumentation and Measurement (VSCPI) or Master of Science (Advanced) in Nuclear Science (VSCNS), or Master of Energy Change (Advanced) (VENCH)."
+ },
+ {
+  "code": "PHYS8013",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8013",
+  "title": "Principles of Energy Generation and Transformation",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "In a world with ever increasing energy demands and the limitations now being felt through society due to our dependence on a limited range of energy sources, the necessity for a greater diversity of energy sources is mounting. The aim of this course is to provide the students with a strong understanding of the underlying science behind the generation, transformation and utilisation of energy resources. It will start with topics at a very basic, yet fundamental, level and build upon this knowledge base in an attempt to reinforce basic concepts that are often misunderstood within the wider community. Topics to be covered include: elementary scientific mathematics, the concept of energy, conservation rules, basic thermodynamics and the various forms of energy (Chemical, Heat etc) and their transformation into more usable forms such as electricity.\n\nExperts from within the CPMS/CECS/CMBE will teach the course. After completion of this course students will have sufficient fundamental knowledge of the basic underlying science behind energy systems to make assessments of differing energy options and therefore have an intuitive feel for the accuracy of the scientific details.",
+  "requisiteText": null
+ },
+ {
+  "code": "PHYS8017",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8017",
+  "title": "Optoelectronics and Integrated Optics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course builds on the basic knowledge of both fundamental physics and state-of-the-art technologies for optoelectronic components and fibre optics, in order to understand their important applications in optical communications and energy conversions that influence our society and everyday life. The course will include the introductions to various physical processes for optical transitions, operation principles of key optoelectronic devices including lasers, photodetectors, modulators and solar cells, functionalities of optical interconnect and signal transmission as well as the basic design consideration for on-chip optical processor and optoelectronic integrated circuits.",
+  "requisiteText": null
+ },
+ {
+  "code": "PHYS8201",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8201",
+  "title": "Fundamentals of Nuclear Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "In the context of the wide application of nuclear techniques, this course aims to introduce students to the key concepts in nuclear physics. These include:\n\nFundamental nuclear properties\n\nNuclear binding energy\n\nNuclear transmutation and decay\n\nExponential decay law and secular equilibrium\n\nNuclear reactions, fission and fusion\n\nBasic nuclear models (shell model, vibrational model, rotational model)",
+  "requisiteText": null
+ },
+ {
+  "code": "PHYS8202",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8202",
+  "title": "Reactor Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course introduces students to the key concepts in Reactor Physics, including:\n\nBasic nuclear principles (Fission, Neutron moderation)\n\nNuclear Fuel options\n\nReactor types (Boiling water, Pressurized water, Heavy water, Thorium, Fast breeder, Gas-cooled)\n\nReactor operation and control\n\nSafety and accidents\n\nNew generation reactors\n\nReactor economics.",
+  "requisiteText": null
+ },
+ {
+  "code": "PHYS8203",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8203",
+  "title": "Accelerators and their Application",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Accelerators and their applications in diverse fields will be described along with the generic features of accelerator technology. This course discusses the design, operation and applications of particle accelerators.\n\nThe course will cover:\n\nElectrostatic and linear accelerators\n\nCyclotrons\n\nSynchrotrons\n\nParticular emphasis will be placed on the use of accelerators for mass spectrometry (AMS)\n\nEmerging applications such as nuclear waste transmutation and accelerator driven energy systems will be discussed.",
+  "requisiteText": null
+ },
+ {
+  "code": "PHYS8204",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8204",
+  "title": "Fundamentals of Nuclear Radiation",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course introduces the physical processes by which nuclear radiation interacts with matter, including with biological systems.\n\nFollowing on from this background, students will engage in experimental and simulation-based activities designed to develop their expertise in:\n\nThe absorption of, and shielding from, nuclear radiation, including charged particle, neutron and gamma radiation\n\nRadiation dosimetry\n\nRadiation detection and measurement\n\nIndustrial and medical applications of nuclear radiation",
+  "requisiteText": "Incompatible with ENGN4204"
+ },
+ {
+  "code": "PHYS8205",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8205",
+  "title": "Nuclear Fuel Cycle",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "In this course, students will learn about the nuclear fuel cycle, starting from how Uranium and Thorium elements are formed via nucleosynthesis and ending in how spent fuel from nuclear reactors is managed with safety and security in mind. Students will learn about proliferation concerns of relevance to the nuclear fuel cycle, engage in hands-on work of relevance to non-proliferation and safeguards work, and engage with some of the policy and regulatory considerations shaping safe, secure, and responsible handling of all aspects of the nuclear fuel cycle. Students will also become aware of the national and international regulatory bodies involved in carrying out this work.",
+  "requisiteText": "Incompatible with ENGN4205"
+ },
+ {
+  "code": "PHYS8206",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8206",
+  "title": "Nuclear Measurement",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course provides a practical introduction to the measurement techniques used in nuclear science. It will cover the principles of operation of nuclear detectors and radiation counting techniques.\n\nStudents will use gamma-ray and particle detectors to complete an experimental project using the ANU's Heavy-Ion Accelerator facility.",
+  "requisiteText": null
+ },
+ {
+  "code": "PHYS8207",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8207",
+  "title": "Master of Nuclear Science Research Project",
+  "unitsText": "6 to 18 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Autumn Session 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course provides an opportunity to explore in depth any topic that has a connection to nuclear science or technology. This may take the form of a research essay, a critical literature review, or a practical investigation, using for example the ANU's Heavy-Ion Accelerator facility. The topic must be agreed between the student and a supervisor, and approved by the convenor.",
+  "requisiteText": null
+ },
+ {
+  "code": "PHYS8212",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8212",
+  "title": "Advanced Reactor Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Nuclear reactors provide 10% of global electricity generation and are used in a wide range of applications from defence to medical radioisotope production. A detailed understanding of reactor physics and an ability to simulate nuclear reactors is key to their reliable and safe operation. This course explores advanced topics relating to the physics, design and operation of nuclear reactors, and will introduce methods of simulating their properties and performance, including:\n\nAnalytic models for neutron transport in reactors\n\nMultigroup transport theory\n\nTime dependent reactors – startup and transient response\n\nNuclear data for reactor simulation\n\nResonance escape probabilities\n\nMonte Carlo methods for neutron transport\n\nSimulation of nuclear reactors and their components",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Nuclear Science or the Master of Science (Adv) in Nuclear Science and have successfully completed:\n\nPHYS8201 Fundamentals of Nuclear Science and PHYS8202 Reactor Science"
+ },
+ {
+  "code": "PHYS8301",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8301",
+  "title": "Applied Mathematical Methods in Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "The purpose of this course is to give an in-depth introduction to mathematical methods used in modern physics. This course concentrates on different approaches and techniques which help to solve a variety of problems in theoretical and applied areas of physics. It will review and develop methods of Complex Analysis and their applications to calculation of integrals, finding and analysing solutions of differential equations which appear in physical problems. It will give a basic introduction to groups and their representations which appear in physical problems including rotation group, Lorentz group and simple unitary groups. Asymptotic methods used in modern quantum theory will also be explored. The course will provide strong integration of conceptual and applied elements from the physicists' point of view. Some methods will be illustrated by working computational examples in Mathematica, so that students could get practical experience of application of mathematical methods to various problems in physics.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "Students must be active in the Master of Science in Theoretical Physics or Master of Science (Adv) in Theoretical Physics programs.\n\nIncompatible with PHYS4301"
+ },
+ {
+  "code": "PHYS8302",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8302",
+  "title": "Quantum Field Theory II",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course is a core component of a Master degree in Theoretical Physics. It is intended for an advanced study of the theory of quantum fields, including quantization of scalar, vector and spinor fields, renormalized perturbation theory, Feynman diagrams, and spontaneous symmetry breaking. The course also contains basics of the theory of non-abelian gauge fields, which describe strong and electroweak interactions within the Standard Model of particle physics. The theory is developed in a systematic manner, incorporates methods of quantum mechanics, relativity and provides various examples in the context of elementary particle physics. The course therefore allows students to tie together and contextualise a number of concepts that they have learned throughout their undergraduate studies.",
+  "requisiteText": "To enrol in this course you must be active the Master of Science in Theoretical Physics or the Master of Science (Adv) in Theoretical Physics programs.\n\nTo enrol in this course you must have successfully completed PHYS6201 Quantum Field Theory (or PHYS3201 if taken in an VDD)"
+ },
+ {
+  "code": "PHYS8303",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8303",
+  "title": "Nonlinear Dynamics in Physics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course is intended for the advanced study of the theory of nonlinear dynamics and its application. The course covers theory of bifurcations, deterministic chaos, and complex spatio-temporal behaviour in a diverse range of physical systems. The theory is developed in a systematic manner and incorporates analytical methods, qualitative and quantitative analysis, numerical calculations, and various “real-life” examples, ranging from mechanical and biological systems to semiconductor physics and optics. The course therefore has a distinct inter- and intra-disciplinary flavour, allowing the students to tie together and contextualise a number of concepts that they have learned throughout their undergraduate studies.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Theoretical Physics or Master of Science (Adv) in Theoretical Physics programs.\n\nIncompatible with PHYS4303"
+ },
+ {
+  "code": "PHYS8304",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8304",
+  "title": "Quantum Scattering",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course will explore scattering of quantum particles with both classical and quantum approaches, using examples from atomic, molecular and nuclear physics. Quantum effects will be explored through prototypical examples such as the Born approximation, Rutherford scattering and fusion processes. Descriptions will then be expanded to incorporate inelastic effects to mimic real scattering processes including the role of excited states and resonant processes. Semiclassical descriptions will be developed for high energy scattering, as well as approximation methods for lower energy processes, such as close-coupling and static exchange models. The course will also explore applications of scattering in various fields, such as atmospheric science and astrophysics.",
+  "requisiteText": "To enrol in this program you must be active in a Master of Science in Theoretical Physics, Quantum Mechanics or Precision Instrumentation.\n\nIncompatible with PHYS4304."
+ },
+ {
+  "code": "PHYS8702",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8702",
+  "title": "Prototyping and Systems Integration",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Ever wanted to build something but didn’t know how? Thought you couldn’t master the skills needed? Want to take an idea or solution to a problem and bring it into reality? This course will give you the confidence to design, prototype, and build solutions to real world problems. You’ll have the opportunity to pick up new skills, or expand and grow existing ones in CAD, Digital Fabrication, Circuit Design and Fabrication, Programing, and even the good old hammer. You’ll begin the year with “deep-dives”, building simple projects that grow your confidence in a range of these skills. As the year progresses, you’ll have the opportunity in small teams to either propose your own projects/ideas, or service a client’s needs with an innovative solution. You’ll come out of this experience with transferable skills, and the tenacity to do anything from repairing a smartphone, through to designing your own sensor system to interface with it!\n\nThis course builds on the skills developed in PHYS6701.",
+  "requisiteText": "To enrol in this course students must be active in the Master of Science in Precision Instrumentation and Measurement (NSCPI), Master of Science (Advanced) in Precision Instrumentation and Measurement (VSCPI), Master of Science in Quantum Technology (NSCQT) or Master of Science (Advanced) in Quantum Technology (VSCQT), and have successfully completed PHYS6701.\n\nOtherwise permission must be sought from the course Convenor."
+ },
+ {
+  "code": "PHYS8721",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8721",
+  "title": "Advanced Imaging Methods and Systems",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Imaging is one of the most important tools in scientific discovery; as they say, \"seeing is believing.\" It can give conclusive evidence of certain properties, structures, composition and even processes providing invaluable insight into objects of interest. There are many ways to image matter; the right choice depends on the scale, time-frame, and property of interest. Objects can be imaged in 2D or 3D with various probes including electromagnetic radiation, particles, and acoustic waves. Advanced imaging is becoming increasingly important, producing imaging systems with significantly enhanced capabilities such as in ground-penetrating radar, magnetic resonance imaging, synthetic aperture radar, hyperspectral imaging, and computed tomography.\nWhile this unique course will cover conventional imaging techniques, the focus will be more on advanced imaging for specific applications. It will include case-studies of some of the state-of-the-art instruments and techniques used by world-class scientists in Astronomy, Geophysics, and Physics researchers here at ANU. The imaging material covered includes optical, hyper-spectral, scanning probe, interferometric, and tomographic (both emission and transmission modes).",
+  "requisiteText": "To enrol in this course, you must be currently enrolled in the Master of Science in Precision Instrumentation and Measurement, or with prior approval from the course convenor. You must have previously completed PHYS6711."
+ },
+ {
+  "code": "PHYS8750",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8750",
+  "title": "Masters Special Topics in Physics",
+  "unitsText": "6 to 12 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Winter Session 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "In this course, the students focus on one aspect of the topic specialisations and gain specialist knowledge and skills under the supervision of a research or industry expert. For example, students may learn how to analyse, design, simulate, operate and/ or characterise a chosen theory, problem or solution. Alternatively, students may investigate economic, security and/or public policy implications of a chosen question or solution. This problem may be either theoretical or experimental. The course will typically involve a series of readings, technical instruction and problem solving tasks specified by a supervisor. Student learning will be assessed via a major report, learning logbook and performance, and a presentation. Students are to identify and engage a supervisor to tailor a learning plan to their interests and future research or industry aspirations. Students may complete this course multiple times as long as each instance is on a different aspect of the topic specialisation.",
+  "requisiteText": null
+ },
+ {
+  "code": "PHYS8751",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8751",
+  "title": "Quantum Technology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course introduces students to the principles, concepts and applications of quantum technology. Building upon prior learning in quantum mechanics, students will first develop an understanding of the ‘qubit’ as the model quantum system used in quantum technologies. Students will then explore the archetypal physical realisations of qubits (eg superconducting circuits, photons, trapped atoms etc) before being introduced to each of the major types of quantum technology: computing/ simulation, communications and sensing/ microscopy. During this learning, an emphasis will be placed on critically comparing the different realisations of qubits and quantum technologies as well as quantum and classical technologies so that students readily appreciate the advantages and disadvantages of each. Assessments will be designed to advance computational skills as well as written and verbal communication skills necessary for the quantum industry.",
+  "requisiteText": "To enrol in this course you must have previously completed either PHYS6013 or PHYS6101, or an equivalent approved by the course convenor."
+ },
+ {
+  "code": "PHYS8752",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/PHYS8752",
+  "title": "Quantum Industry",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Physics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course will introduce students to the quantum industry. Through a series of workshop discussions with representatives for quantum research and industry, and related areas, students will explore the current and future landscape of quantum research and industry, survey innovation and business practices, identify business and employment opportunities, appreciate the broader implications of quantum technologies and establish a professional network. Students will perform an in-depth case study of one aspect of the industry. For example, a quantum technology company or a major consumer of quantum technologies or the security/ economic implications of quantum technologies. When possible, the course will culminate with students presenting the findings of their case studies to a forum of research and industry representatives as part of a networking function.",
+  "requisiteText": "To enrol in this course, students must have completed PHYS6013 or PHYS6101 or an equivalent approved by the program convenor, and MGMT7165 Innovation. Students must also have either completed PHYS8751 or are undertaking it as a co-requisite."
+ }
+]

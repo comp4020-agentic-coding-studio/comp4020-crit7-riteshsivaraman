@@ -1,0 +1,107 @@
+[
+ {
+  "code": "ARTS5912",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ARTS5912",
+  "title": "Exchange Program for Arts Students (Band 12)",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Arts",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "N/A",
+  "requisiteText": null
+ },
+ {
+  "code": "ARTS5920",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ARTS5920",
+  "title": "Exchange Program for Arts Students",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Arts",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "",
+  "requisiteText": null
+ },
+ {
+  "code": "ARTS5921",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ARTS5921",
+  "title": "Exchange Program for Arts Students (Band 1)",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Arts",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "N/A",
+  "requisiteText": null
+ },
+ {
+  "code": "ARTS5922",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ARTS5922",
+  "title": "Exchange Program for Arts Students (Band 2)",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Arts",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "N/A",
+  "requisiteText": null
+ },
+ {
+  "code": "ARTS5924",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ARTS5924",
+  "title": "Exchange Program for Arts Students (Band 14)",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Arts",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Undergraduate",
+  "description": "N/A",
+  "requisiteText": null
+ },
+ {
+  "code": "ARTS8001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ARTS8001",
+  "title": "CASS Higher Degree by Research Internship",
+  "unitsText": "3 to 24 units",
+  "units": 3,
+  "offeredRaw": [],
+  "subjectName": "Arts",
+  "college": "ANU College of Arts and Social Sciences",
+  "career": "Research",
+  "description": "This course provides an opportunity for HDR students to apply and develop professional skills and attributes in an area of their choice. This course offers opportunities to network with professional organisations such as local and national government and industry, and to acquire skills, knowledge and professional attributes which will facilitate future employment and career outcomes. The internship will be under the mentorship of a workplace professional, with access to an appropriate academic within the ANU Colleges. Students are expected to undertake an internship that is broadly relevant to their research field. Placements are organised by the student in collaboration with their Primary Supervisor and Chair of Panel.",
+  "requisiteText": "To enrol in this course you must be enrolled in an MPhil or PhD program offered by the College of Arts and Social Sciences and meet the eligibility criteria for internship placements, which include an agreement with the host institution that has also been approved by the relevant College Authorities. You will need to seek permission prior to enroling in this course. Please refer to the link in the \"Other Information\" section for details."
+ }
+]

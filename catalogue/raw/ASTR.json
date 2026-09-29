@@ -1,0 +1,495 @@
+[
+ {
+  "code": "ASTR1001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR1001",
+  "title": "Astrophysics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course is designed for students who learn about modern astrophysics. It covers the greatest unsolved mysteries of the universe, including dark matter, dark energy, the origin and fate of the universe, black holes, and life in space.\n\nYou do not need any prior knowledge of astronomy to take this course.\n\nThe course will assume that you have a maths and science background equivalent to school year 10, because this course is designed to take you well beyond the level of popular science books, TV shows and web pages.\n\nThe Semester 1 run of this course is taught in-person on the Acton campus. The Summer and Semester 2 sessions are taught purely online and can be taken from anywhere in the world.",
+  "requisiteText": "Incompatible with the ANU Extension astrophysics program."
+ },
+ {
+  "code": "ASTR1003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR1003",
+  "title": "Astronomy and Space",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Winter Session 2026",
+   "Second Semester 2026",
+   "Spring Session 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course is an introduction to astronomy and space. It will introduce you to cutting-edge knowledge about our universe and modern space exploration. No previous knowledge of astronomy, physics or maths is required. The course is purely online and self-paced and can be done from anywhere in the world.\n\nTopics covered are:\n\nIndigenous Astronomy.\n\nThe Sun and Stars.\n\nPlanets in our solar system.\n\nSpaceflight, space economics, space engineering, space law and space medicine",
+  "requisiteText": null
+ },
+ {
+  "code": "ASTR2013",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR2013",
+  "title": "Foundations of Astrophysics",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The goal of this course is to provide students with the knowledge of the most essential physical processes in astrophysics, and the way in which we can make key inferences about these processes by astronomical observations. Students will develop an understanding of the thermodynamical, nuclear and radiative processes that govern the evolution of stars and stellar systems, and how stellar and planetary masses, distances, luminosities, temperature and radii are inferred from observations. They will learn about the key components of galaxies – dark matter, stars and gas, and how their masses and other properties are measured. Students will also gain practical experience with astronomical observations with a field trip to the Siding Spring Observatory.\n\nThis course can be taken as an HPO, as an extension to the scientific report on 2.3m observations. Please discuss with course convener if you request this option.",
+  "requisiteText": "To enrol in this course you must have previously completed PHYS1201 and either MATH1014 or MATH1116.\n\nStudents who are currently enrolled in these subjects with a Distinction or higher in MATH1013 or MATH1115 and PHYS1101 may be given permission to enrol."
+ },
+ {
+  "code": "ASTR3002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR3002",
+  "title": "Galaxies and Cosmology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The goal of this course is to provide students with an overview of extragalactic astronomy and the astrophysics that describes galaxies and the universe. We will study the properties of galaxies and galactic nuclei, stellar and gas dynamics, clusters of galaxies, the large scale distribution of galaxies and galaxy clusters and their use as cosmological tools. The students will further get an overview of cosmology with emphasis on the cosmic microwave background, galaxies and related phenomena at high redshift, and cosmic structure formation. Additional topics include nucleosynthesis, quasar absorption lines, and gammaray bursts.\nThis course can be taken as an HPO, please discuss with course convener.",
+  "requisiteText": "To enrol in this course you must have completed ASTR2013, PHYS2013, and MATH2305 or MATH2405.\nIncompatible with MATH3329 and ASTR6002."
+ },
+ {
+  "code": "ASTR3005",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR3005",
+  "title": "Astrophysics Research Topic",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Summer Session 2026",
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "A research project in any area of astrophysics. This course can be taken in second year or later, and can be taken (for credit) multiple times if desired.\n\nThis is an Honours Pathway Course. Entry is by invitation only. Students typically need a >70% average in cognate disciplines (ASTR, MATH, PHYS) in order to be considered for a project. The convener provides a list of potential research projects. Students need to find a researcher who is prepared to supervise a project.",
+  "requisiteText": "In order to enrol in this course you must have completed a minimum of 72 units towards a degree which must include a minimum of 36 units ASTR, MATH or PHYS coded courses of which a minimum of 12 units must be at 2000-level."
+ },
+ {
+  "code": "ASTR3007",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR3007",
+  "title": "Stars",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course provides an introduction to stellar structure, evolution, and atmospheres. It covers the basic physical processes that govern the behaviour of stars, including hydrostatic equilibrium, thermal balance, nuclear energy generation, and radiation transport, the application of these principles to modeling the life cycle of stars from birth to the main sequence to death, and the development of tools to deduce stars' physical properties from the light they emit.\nThis course can be taken as an HPO, please discuss with course convener.",
+  "requisiteText": "To enrol in this course you must have completed PHYS1201, ASTR2013, and either MATH2405 or MATH2305.\nIncompatible with ASTR6007."
+ },
+ {
+  "code": "ASTR3013",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR3013",
+  "title": "Astrophysical Processes",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course provides an introduction to the physical processes that underlie almost all astrophysical phenomena: radiation and fluid dynamics. The course is split evenly between those two topics, with an emphasis on basic physical processes rather than astrophysical applications. The radiation portion of the class covers the statistical mechanics of radiation fields, radiative transfer, plasma emission processes (free and synchotron radiation), and line formation. The fluid dynamics portion includes derivation of the theory of fluids from gas kinetics, calculation of flows in simple geometry, stability analysis, and supersonic flows and shocks. The overall goal is to provide a grounding in physics suitable for continuing research in astrophysics in more specialised classes at the undergraduate and post-graduate level.\n\nHonours pathway option (HPO)\n\nStudents in the HPO should have a WAM of at least 80%. Students who take this option will be offered an extension style HPO and required to critically assess scientific literature on topics related to radiative transfer or fluid dynamics. Students should inform course convener and opt-in to the HPO by submitting the relevant assessment. Once it has been submitted, it is not possible to opt-out. The HPO assessment will count toward 20% of the mark, with the weighting of problem sets reduced to 30%.",
+  "requisiteText": "To enrol in this course you must have previously completed PHYS2013, PHYS2020 and MATH2305.\nIncompatible with ASTR6013."
+ },
+ {
+  "code": "ASTR4004",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR4004",
+  "title": "Astronomical Computing",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course covers the fundamentals of the use of computing in theoretical and observational astrophysics research. Students will acquire the skills necessary to write computer programs to handle and process astronomical data. They will learn techniques to model astronomical processes and solve numerical problems related to them, including fundamental tools of numerical analysis such as numerical solution of differential equations and Fourier analysis. They will learn to use a range of statistical and machine learning tools to analyse astronomical data and draw inferences from it.",
+  "requisiteText": "Incompatible with ASTR8004"
+ },
+ {
+  "code": "ASTR4005",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR4005",
+  "title": "Astronomy and Astrophysics IV Honours Research Project",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The research project forms a major component (50-75%) of the assessment in the A&A honours program. Students will have a choice of a wide variety of projects offered by academic staff at the Research School of Astronomy and Astrophysics every year. The remaining 25-50% will be in the form of coursework.",
+  "requisiteText": null
+ },
+ {
+  "code": "ASTR4006",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR4006",
+  "title": "Galaxies",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The course provides an overview of galaxies from the emergence of the first galaxies and their halos, the evolution of galaxies over cosmic time, and the local Universe. The course goes deeper into the properties of disk and elliptical galaxies, including the Milky Way, large scale structure, multiphase components of galaxies, and the baryon cycle. Recent results from observations and simulations are integrated into established analytic models of galaxy formation and evolution. Lectorials introduce the basic tools for studying galaxy data and simulations as well as scientific writing and communication.",
+  "requisiteText": "To enrol in this course you need to be undertaking the ASTR-HSPC Honours specialisation\nIncompatible with ASTR8006"
+ },
+ {
+  "code": "ASTR4011",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR4011",
+  "title": "Observational Techniques",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course is designed to introduce students to the concept of astronomical observations. Through this course, they will gain familiarity with many of the key techniques involved in planning observations and analysing the resulting data. This course aims to provide useful reference information in a lecture format but to reinforce practical skills with both group and individual activities.",
+  "requisiteText": "To enrol in this course you need to be undertaking the ASTR-HSPC Honours specialisation\n\nIncompatible with ASTR8011, PHYS8016 and ASTR8016"
+ },
+ {
+  "code": "ASTR4020",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR4020",
+  "title": "Diffuse Matter and Star Formation",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course covers the physics of diffuse matter in the universe, and the processes by which that diffuse matter collapses to produce new stars. The first part of the course surveys the physical processes that govern diffuse matter, with particular emphasis on the non-equilibrium thermodynamics and statistical mechanics of low-density matter, the mechanisms by which such matter radiates, and the interpretation of observed radation from diffuse material. The second part covers the major phases of diffuse matter in the Universe and their properties. The final part covers the circumstances under which diffuse matter can collapse to form new stars, the dynamics of such collapses, and the relationship between collapse and the properties of the resulting stellar population.",
+  "requisiteText": "To enrol in this course you need to be undertaking the ASTR-HSPC Honours specialisation.\n\nPrerequisites: ASTR3013 or ASTR6013\n\nIncompatible: ASTR4008, ASTR8008, ASTR4017, ASTR8007 and ASTR8020"
+ },
+ {
+  "code": "ASTR4021",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR4021",
+  "title": "Astrophysical Processes II",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course provides a survey of physical processes occuring in astrophysical environments, including astrophysical fluid dynamics and magnetohydrodynamics, dynamics of relativistic particles, and mechanisms of radiation production. Topics in fluid dynamics include Eulerian and Lagrangian formulations of fluid mechanics, flow characteristics and shock formation in both magnetised and non-magnetised flows, and mechanisms of non-ideal magnetohydrodynamics. The relativistic particles portion of the course includes particle acceleration, transport, and interaction with magnetic fields. The radiation portion of the course includes radiation by relativistic particles and hadronic and leptonic radiation mechanisms.",
+  "requisiteText": "To enrol in this course you need to be undertaking the ASTR-HSPC Honours specialisation.\n\nPrerequisites: ASTR3013 or ASTR6013.\n\nIncompatible: ASTR4003, ASTR8003, ASTR4012, ASTR8002 and ASTR8021"
+ },
+ {
+  "code": "ASTR4022",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR4022",
+  "title": "Stars II and Exoplanets",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "The first two thirds of this course covers stellar and exoplanetary atmospheres and spectroscopy, including the physics of line formation, equlibrium versus non-equilibrium statistical mechanics in stellar and planetary atmospheres, and the interpretation of spectra. The last third provides a broad survey of exoplanets, including formation mechanisms, exoplanetary evolution and cooling, and observational techniques used to discover and characterise exoplanets.",
+  "requisiteText": "To enrol in this course you need to be undertaking the ASTR-HSPC Honours specialisation.\nPrerequisite: ASTR3007 or ASTR6007.\nIncompatible: ASTR8022."
+ },
+ {
+  "code": "ASTR6002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR6002",
+  "title": "Galaxies and Cosmology",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "The goal of this course is to provide students with an overview of extragalactic astronomy and the astrophysics that describes galaxies and the universe. We will study the properties of galaxies and galactic nuclei, stellar and gas dynamics, clusters of galaxies, the large scale distribution of galaxies and galaxy clusters and their use as cosmological tools. The students will further get an overview of cosmology with emphasis on the cosmic microwave background, galaxies and related phenomena at high redshift, and cosmic structure formation. Additional topics include nucleosynthesis, quasar absorption lines, and gammaray bursts.\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in the course you must be currently enrolled in the Master of Astronomy & Astrophysics (Advanced), the Master of Science in Astronomy & Astrophysics or the Master of Science (Advanced) in Astronomy & Astrophysics.\n\nIncompatible with ASTR3002."
+ },
+ {
+  "code": "ASTR6007",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR6007",
+  "title": "Stars",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course provides an introduction to stellar structure, evolution, and atmospheres. It covers the basic physical processes that govern the behaviour of stars, including hydrostatic equilibrium, thermal balance, nuclear energy generation, and radiation transport, the application of these principles to modeling the life cycle of stars from birth to the main sequence to death, and the development of tools to deduce stars' physical properties from the light they emit.\n\nThis course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in the course you must be currently enrolled in the Master of Astronomy & Astrophysics (Advanced), the Master of Science in Astronomy & Astrophysics or the Master of Science (Advanced) in Astronomy & Astrophysics.\n\nIncompatible with ASTR3007."
+ },
+ {
+  "code": "ASTR6013",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR6013",
+  "title": "Astrophysical Processes",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course provides an introduction to the physical processes that underlie almost all astrophysical phenomena: radiation and fluid dynamics. The course is split evenly between those two topics, with an emphasis on basic physical processes rather than astrophysical applications. The radiation portion of the class covers the statistical mechanics of radiation fields, radiative transfer, plasma emission processes (free and synchrotron radiation), and line formation. The fluid dynamics portion includes derivation of the theory of fluids from gas kinetics, calculation of flows in simple geometry, stability analysis, and supersonic flows and shocks. The overall goal is to provide a grounding in physics suitable for continuing research in astrophysics in more specialised classes.\n\nThis course is taught with undergraduate students but assessed separately.",
+  "requisiteText": "To enrol in the course you must be currently enrolled in the Master of Science in Astronomy & Astrophysics or the Master of Science (Advanced) in Astronomy & Astrophysics.\nIncompatible with ASTR3013."
+ },
+ {
+  "code": "ASTR8001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR8001",
+  "title": "Astronomy and Astrophysics Research Project",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "A selection of research projects from within the Research School of Astronomy and Astrophysics (RSAA) will be on offer. Students will undertake an individual project within one of the many cutting edge research groups in the Research School. Project areas range from planetary science to cosmology, instrumentation to theory. More detail is available from http://www.mso.anu.edu.au/education/honours/projects.php",
+  "requisiteText": "To enrol in this course you must have completed ASTR8030 with a grade of 75 or above, or have previously completed a first or second class honours degree in Astrophysics, Physics or Mathematics."
+ },
+ {
+  "code": "ASTR8004",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR8004",
+  "title": "Astronomical Computing",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course provides students with the skills necessary to write computer programs for the construction of models of astronomical processes, for the analysis of data and for multi-dimensional simulations. The skills acquired in this course are essential for every research area in astronomy and astrophysics.",
+  "requisiteText": "To enrol in the course you must be currently enrolled in the Master of Astronomy & Astrophysics (Advanced), the Master of Science in Astronomy & Astrophysics or the Master of Science (Advanced) in Astronomy & Astrophysics.\n\nIncompatible with ASTR4004."
+ },
+ {
+  "code": "ASTR8006",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR8006",
+  "title": "Galaxies",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "The course provides an overview of galaxies from the emergence of the first galaxies and their halos, the evolution of galaxies over cosmic time, and the local Universe. The course goes deeper into the properties of disk and elliptical galaxies, including the Milky Way, large scale structure, multiphase components of galaxies, and the baryon cycle. Recent results from observations and simulations are integrated into established analytic models of galaxy formation and evolution. Lectorials introduce the basic tools for studying galaxy data and simulations as well as scientific writing and communication.",
+  "requisiteText": "To enrol in the course you must be currently enrolled in the Master of Astronomy & Astrophysics (Advanced), the Master of Science in Astronomy & Astrophysics or the Master of Science (Advanced) in Astronomy & Astrophysics.\n\nIncompatible with ASTR4006."
+ },
+ {
+  "code": "ASTR8010",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR8010",
+  "title": "Astrophysics Research Project",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Students will undertake an individual project within one of the many cutting edge research groups in Astronomy and Astrophysics. Project areas include black hole phenomena, galactic archaeology, astronomical instrumentation, stellar and planetary astronomy, and the structure and evolution of the cosmos.",
+  "requisiteText": "To enrol in the course you must be currently enrolled in the Master of Science (Advanced) in Astronomy & Astrophysics (VSCAA), and have completed ASTR8001 with a mark of at least 75."
+ },
+ {
+  "code": "ASTR8011",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR8011",
+  "title": "Observational Techniques",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course is designed to introduce students to the concept of astronomical observations. Through this course, they will gain familiarity with many of the key techniques involved in planning observations and analysing the resulting data. This course aims to provide useful reference information in a lecture format but to reinforce practical skills with both group and individual activities.",
+  "requisiteText": "To enrol in the course you must be currently enrolled in the Master of Astronomy & Astrophysics (Advanced), the Master of Science in Astronomy & Astrophysics or the Master of Science (Advanced) in Astronomy & Astrophysics.\n\nIncompatible with ASTR4011"
+ },
+ {
+  "code": "ASTR8016",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR8016",
+  "title": "Optical Instrumentation",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course covers topics related to active areas of optical and infrared instrumentation research. The course spans a variety of subjects to introduce a global understanding of optical scientific instrumentation, covering areas including optics, detectors, signal and noise. It uses examples from astronomical instrumentation but the principles covered can also be applied to other types of optical scientific instrumentation, including those used in medical, environmental, physics, and other applications.",
+  "requisiteText": "To enrol in the course you must be currently enrolled in the Master of Astronomy & Astrophysics (Advanced), the Master of Science in Astronomy & Astrophysics, the Master of Science (Advanced) in Astronomy & Astrophysics, Master of Science in Quantum Technology, Master of Science (Advanced) in Quantum Technology, Master of Science in Precision Instrumentation and Measurement, Master of Science (Advanced) in Precision Instrumentation and Measurement, Master of Science in Theoretical Physics or Master of Science (Advanced) in Theoretical Physics.\n\nIncompatible with PHYS8016."
+ },
+ {
+  "code": "ASTR8020",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR8020",
+  "title": "Diffuse Matter and Star Formation",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course covers the physics of diffuse matter in the universe, and the processes by which that diffuse matter collapses to produce new stars. The first part of the course surveys the physical processes that govern diffuse matter, with particular emphasis on the non-equilibrium thermodynamics and statistical mechanics of low-density matter, the mechanisms by which such matter radiates, and the interpretation of observed radation from diffuse material. The second part covers the major phases of diffuse matter in the Universe and their properties. The final part covers the circumstances under which diffuse matter can collapse to form new stars, the dynamics of such collapses, and the relationship between collapse and the properties of the resulting stellar population.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Astronomy and Astrophysics or the Master of Science (Advanced) in Astronomy and Astrophysics\n\nPrerequisites: ASTR3013 or ASTR6013\n\nIncompatible: ASTR4008, ASTR8008, ASTR4017, ASTR8007 and ASTR4020."
+ },
+ {
+  "code": "ASTR8021",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR8021",
+  "title": "Astrophysical Processes II",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course provides a survey of physical processes occuring in astrophysical environments, including astrophysical fluid dynamics and magnetohydrodynamics, dynamics of relativistic particles, and mechanisms of radiation production. Topics in fluid dynamics include Eulerian and Lagrangian formulations of fluid mechanics, flow characteristics and shock formation in both magnetised and non-magnetised flows, and mechanisms of non-ideal magnetohydrodynamics. The relativistic particles portion of the course includes particle acceleration, transport, and interaction with magnetic fields. The radiation portion of the course includes radiation by relativistic particles and hadronic and leptonic radiation mechanisms.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Astronomy and Astrophysics or the Master of Science (Advanced) in Astronomy and Astrophysics\n\nPrerequisites: ASTR3013 or ASTR6013.\n\nIncompatible: ASTR4003, ASTR8003, ASTR4012, ASTR8002 and ASTR4021"
+ },
+ {
+  "code": "ASTR8022",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR8022",
+  "title": "Stars II and Exoplanets",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "The first two thirds of this course covers stellar and exoplanetary atmospheres and spectroscopy, including the physics of line formation, equlibrium versus non-equilibrium statistical mechanics in stellar and planetary atmospheres, and the interpretation of spectra. The last third provides a broad survey of exoplanets, including formation mechanisms, exoplanetary evolution and cooling, and observational techniques used to discover and characterise exoplanets.",
+  "requisiteText": "To enrol in this course you must be active in the Master of Science in Astronomy & Astrophysics or the Master of Science (Advanced) in Astronomy & Astrophysics.\nPrerequisite: ASTR3007 or ASTR6007.\nIncompatible: ASTR4022."
+ },
+ {
+  "code": "ASTR8023",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR8023",
+  "title": "Special Topics in Astronomy and Astrophysics",
+  "unitsText": "6 to 12 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "This course allows students to pursue a special topic of individual or small-group study in order to gain particular or additional knowledge in an astronomy and astrophysics topic, usually not covered in courses taught elsewhere in the University. Depending on the topic, students may be required to develop and implement a research plan under the supervision of an academic member of staff; to pursue a guided reading program; to develop and implement a project with external stakeholders and/or practitioners under the supervision of an academic member of staff; and/or to take part in selected lectures, workshops, tutorials, seminars, discussion groups, field trips, training and other activities.\n\nThe details of the topic will be negotiated between the student and the supervisor/s and be approved by the relevant Associate Director (Education).",
+  "requisiteText": "To enrol in this course, you must be active in the Master of Science in Astronomy and Astrophysics (NSCAA) or Master of Science in (Advanced) in Astronomy and Astrophysics (VSCAA)."
+ },
+ {
+  "code": "ASTR8030",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR8030",
+  "title": "Astronomy and Astrophysics Research Skills",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Students will learn about the process of designing a research project within the broad context of existing astronomy and astrophysics knowledge. A selection of research projects from within the Research School of Astronomy and Astrophysics (RSAA) will be on offer for students to base their research proposal on. Students will design an individual project within one of the many cutting edge research groups in the Research School. Project areas range from planetary science to cosmology, instrumentation to theory. More detail is available from https://rsaa.anu.edu.au/research/research-projects",
+  "requisiteText": "To enrol in this course, you must be active in the Master of Science in Astronomy and Astrophysics (NSCAA) or Master of Science in (Advanced) in Astronomy and Astrophysics (VSCAA)."
+ },
+ {
+  "code": "ASTR8031",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/ASTR8031",
+  "title": "Astrophysics Literature Research Project",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [],
+  "subjectName": "Astronomy and Astrophysics",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "In this course, you will critically read the astrophysical literature to better understand how to effectively present scientific findings, primarily within your chosen topic. You will learn to evaluate arguments, methods and lines of evidence. You will assess how well the conclusions drawn from studies are justified. Strong emphasis will be placed on improving your scientific writing and oral communication skills.",
+  "requisiteText": "To enrol in this course, you must have an active enrolment in the Master of Science in Astronomy and Astrophysics (NSCAA), and have previous completed ASTR8030."
+ }
+]

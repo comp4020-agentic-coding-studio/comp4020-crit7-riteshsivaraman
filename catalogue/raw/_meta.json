@@ -1,0 +1,6869 @@
+{
+ "year": 2026,
+ "scrapedAt": "2026-09-29T16:48:11.797Z",
+ "source": "https://programsandcourses.anu.edu.au/2026",
+ "scope": "all",
+ "listingEndpoint": "https://programsandcourses.anu.edu.au/data/CourseSearch/GetCourses?ShowAll=true&PageIndex=0&MaxPageSize=10&PageSize=10&SelectedYear=2026&SearchText=&CollegeName=All+Colleges&ModeOfDelivery=All+Modes",
+ "listingTotal": 2833,
+ "listingTotalBySubject": {
+  "ARCH": 45,
+  "COMP": 123,
+  "MGMT": 65,
+  "DIPL": 12,
+  "CBEA": 9,
+  "BIOL": 97,
+  "HLTH": 9,
+  "HIST": 36,
+  "PHYS": 64,
+  "BUSN": 54,
+  "INFS": 15,
+  "ACST": 10,
+  "STAT": 65,
+  "ENGL": 30,
+  "LAWS": 224,
+  "MATH": 70,
+  "GREK": 4,
+  "PSYC": 62,
+  "IDEC": 34,
+  "ARAB": 11,
+  "ECON": 89,
+  "ENGN": 110,
+  "FINM": 41,
+  "CRIM": 23,
+  "EMET": 25,
+  "FREN": 13,
+  "PERS": 7,
+  "GERM": 11,
+  "CHEM": 43,
+  "ITAL": 8,
+  "JPNS": 14,
+  "KORE": 8,
+  "LATN": 4,
+  "CHIN": 18,
+  "MUSI": 42,
+  "PHIL": 31,
+  "LING": 72,
+  "EMDV": 26,
+  "SPAN": 11,
+  "SCNC": 19,
+  "BPHB": 3,
+  "SOCR": 20,
+  "BIAN": 24,
+  "ENVS": 80,
+  "ASIA": 109,
+  "CLAS": 14,
+  "POPH": 24,
+  "MEDN": 14,
+  "CHMD": 8,
+  "ANTH": 40,
+  "CYBN": 6,
+  "EMSC": 50,
+  "MKTG": 19,
+  "CRWF": 6,
+  "MMIB": 6,
+  "ARTH": 28,
+  "ARTV": 34,
+  "BUSI": 14,
+  "STST": 21,
+  "ASTR": 29,
+  "INTR": 33,
+  "PASI": 21,
+  "INDG": 21,
+  "ANIP": 6,
+  "NSPO": 27,
+  "POLS": 67,
+  "MEAS": 41,
+  "DESN": 24,
+  "POGO": 61,
+  "BURM": 4,
+  "PAAS": 2,
+  "ARTS": 6,
+  "NEUR": 8,
+  "SOCY": 33,
+  "HUMN": 19,
+  "MUSC": 10,
+  "WILC": 1,
+  "RSCH": 2,
+  "SCOM": 41,
+  "REGN": 23,
+  "HCAI": 3,
+  "THES": 11,
+  "DEMO": 20,
+  "TURK": 4,
+  "GEND": 16,
+  "EXCH": 2,
+  "HLMD": 15,
+  "SCRN": 5,
+  "HONS": 4,
+  "BAPA": 8,
+  "HIND": 6,
+  "SOCS": 4,
+  "INDN": 7,
+  "PNPI": 3,
+  "PORT": 2,
+  "RUSS": 2,
+  "MEDI": 16,
+  "MNGL": 4,
+  "PPEI": 4,
+  "CHST": 2,
+  "POPM": 1,
+  "LANG": 4,
+  "SKRT": 6,
+  "AATD": 4,
+  "TETM": 4,
+  "THAI": 6,
+  "ECHI": 3,
+  "TIBN": 4,
+  "TOKP": 4,
+  "VIET": 6
+ },
+ "nonstandardCodes": [
+  "ASIA8900F",
+  "ASIA8900P",
+  "ASIA9000F",
+  "ASIA9000P",
+  "ASTR8950F",
+  "ASTR8950P",
+  "ASTR9550F",
+  "ASTR9550P",
+  "BIOL8900F",
+  "BIOL8900P",
+  "BIOL8901F",
+  "BIOL8901P",
+  "BIOL8902F",
+  "BIOL8902P",
+  "BIOL9000F",
+  "BIOL9000P",
+  "BIOL9001F",
+  "BIOL9001P",
+  "BIOL9002F",
+  "BIOL9002P",
+  "CHEM8950F",
+  "CHEM8950P",
+  "CHEM9550F",
+  "CHEM9550P",
+  "COMM8900F",
+  "COMM8900P",
+  "COMM9000F",
+  "COMM9000P",
+  "COMP8900F",
+  "COMP8900P",
+  "COMP8901F",
+  "COMP9000F",
+  "COMP9000P",
+  "COMP9001F",
+  "CYBN8900F",
+  "CYBN9001F",
+  "DIPL8500F",
+  "DIPL8500P",
+  "DIPL9500F",
+  "DIPL9500P",
+  "ECON8900F",
+  "ECON8900P",
+  "ECON9000F",
+  "ECON9000P",
+  "EMDV8550F",
+  "EMDV9550F",
+  "EMDV9550P",
+  "EMSC8901F",
+  "EMSC8901P",
+  "EMSC9001F",
+  "EMSC9001P",
+  "ENGN8900F",
+  "ENGN8900P",
+  "ENGN8901F",
+  "ENGN8904F",
+  "ENGN9000F",
+  "ENGN9000P",
+  "ENGN9001F",
+  "ENGN9004F",
+  "ENVS8900F",
+  "ENVS8900P",
+  "ENVS8908F",
+  "ENVS8908P",
+  "ENVS9000F",
+  "ENVS9000P",
+  "ENVS9008F",
+  "ENVS9008P",
+  "FINM8900F",
+  "FINM8900P",
+  "FINM9000F",
+  "FINM9000P",
+  "GMTH8950F",
+  "GMTH8950P",
+  "GMTH9550F",
+  "GMTH9550P",
+  "HCAI8901F",
+  "HCAI9001F",
+  "IDEC8550F",
+  "IDEC9550F",
+  "IDEC9550P",
+  "LAWS8900F",
+  "LAWS8900P",
+  "LAWS9000F",
+  "LAWS9000P",
+  "LAWS9001F",
+  "LAWS9001P",
+  "MATH8900F",
+  "MATH8900P",
+  "MATH9000F",
+  "MATH9000P",
+  "MEDI8950F",
+  "MEDI8950P",
+  "MEDI9950F",
+  "MEDI9950P",
+  "MEDN8550F",
+  "MEDN8550P",
+  "MEDN9550F",
+  "MEDN9550P",
+  "MMIB8900F",
+  "MMIB8900P",
+  "MMIB9000F",
+  "MMIB9000P",
+  "NSPO8950F",
+  "NSPO8950P",
+  "NSPO9050F",
+  "NSPO9050P",
+  "PAAS8530F",
+  "PAAS8569F",
+  "PAAS8570F",
+  "PAAS8900F",
+  "PAAS8900P",
+  "PAAS8950F",
+  "PAAS8950P",
+  "PAAS8951F",
+  "PAAS8951P",
+  "PAAS8952F",
+  "PAAS8952P",
+  "PAAS8953F",
+  "PAAS8953P",
+  "PAAS8957F",
+  "PAAS8957P",
+  "PAAS8958F",
+  "PAAS8958P",
+  "PAAS8960F",
+  "PAAS8960P",
+  "PAAS8962F",
+  "PAAS8962P",
+  "PAAS9000F",
+  "PAAS9000P",
+  "PAAS9530F",
+  "PAAS9551F",
+  "PAAS9551P",
+  "PAAS9552F",
+  "PAAS9552P",
+  "PAAS9555F",
+  "PAAS9555P",
+  "PAAS9557F",
+  "PAAS9557P",
+  "PAAS9558F",
+  "PAAS9558P",
+  "PAAS9559F",
+  "PAAS9559P",
+  "PAAS9560F",
+  "PAAS9560P",
+  "PAAS9568F",
+  "PAAS9568P",
+  "PAAS9569F",
+  "PAAS9569P",
+  "PAAS9570F",
+  "PAAS9570P",
+  "PHIL8900F",
+  "PHIL8900P",
+  "PHYS8009F",
+  "PHYS9009F",
+  "POGO8950F",
+  "POGO8950P",
+  "POGO9550F",
+  "POGO9550P",
+  "POPH8920F",
+  "POPH8950F",
+  "POPH8950P",
+  "POPH9550F",
+  "POPH9550P",
+  "PSYC8900F",
+  "PSYC8900P",
+  "PSYC9000F",
+  "PSYC9000P",
+  "PSYC9002F",
+  "PSYC9002P",
+  "SCOM8900F",
+  "SCOM8900P",
+  "SCOM9000F",
+  "SCOM9000P",
+  "SOCS8901F",
+  "SOCS9001F",
+  "STAT8900F",
+  "STAT8900P",
+  "STAT9000F",
+  "STAT9000P"
+ ],
+ "notFound": [
+  {
+   "code": "ACST4600",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ACST4500"
+   ]
+  },
+  {
+   "code": "ANCH1013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CLAS1006"
+   ]
+  },
+  {
+   "code": "ANCH6103",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CLAS1006"
+   ]
+  },
+  {
+   "code": "ANIP4001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANIP6503"
+   ]
+  },
+  {
+   "code": "ANIP6003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS8430"
+   ]
+  },
+  {
+   "code": "ANTH2067",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANTH8059"
+   ]
+  },
+  {
+   "code": "ANTH6068",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANTH8059"
+   ]
+  },
+  {
+   "code": "ANTH8017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANTH4011"
+   ]
+  },
+  {
+   "code": "ANTH8035",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANTH4011"
+   ]
+  },
+  {
+   "code": "ANTH8045",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INDG8001",
+    "INDG8002"
+   ]
+  },
+  {
+   "code": "ANTH8046",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INDG8001",
+    "INDG8002"
+   ]
+  },
+  {
+   "code": "ANTH8102",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANTH9112"
+   ]
+  },
+  {
+   "code": "ANTH8901",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANTH9901"
+   ]
+  },
+  {
+   "code": "ANTH9102",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ANTH9902"
+   ]
+  },
+  {
+   "code": "ANUC1109",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL1100"
+   ]
+  },
+  {
+   "code": "ANUC1111",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI1101"
+   ]
+  },
+  {
+   "code": "ANUC1112",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI1101",
+    "MUSI1102"
+   ]
+  },
+  {
+   "code": "ANUC1120",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH1007"
+   ]
+  },
+  {
+   "code": "ANUC1121",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN1002"
+   ]
+  },
+  {
+   "code": "ANUC1122",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN1005"
+   ]
+  },
+  {
+   "code": "ANUC1123",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV1020"
+   ]
+  },
+  {
+   "code": "ANUC1137",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI1501"
+   ]
+  },
+  {
+   "code": "ANUC1138",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI1501"
+   ]
+  },
+  {
+   "code": "ARAB2005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB2011"
+   ]
+  },
+  {
+   "code": "ARAB6102",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB1002"
+   ]
+  },
+  {
+   "code": "ARAB6103",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB1003",
+    "ARAB2011",
+    "ARAB2012",
+    "ARAB3001",
+    "ARAB3002"
+   ]
+  },
+  {
+   "code": "ARAB6501",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB2011",
+    "ARAB2012",
+    "ARAB3001",
+    "ARAB3002"
+   ]
+  },
+  {
+   "code": "ARAB6502",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB2011",
+    "ARAB2012",
+    "ARAB3001",
+    "ARAB3002"
+   ]
+  },
+  {
+   "code": "ARAB6503",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB2011",
+    "ARAB2012",
+    "ARAB3001",
+    "ARAB3002"
+   ]
+  },
+  {
+   "code": "ARAB6504",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB2011",
+    "ARAB2012",
+    "ARAB3001",
+    "ARAB3002"
+   ]
+  },
+  {
+   "code": "ARAB6510",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARAB3008"
+   ]
+  },
+  {
+   "code": "ARCH1111",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH1001",
+    "ARCH2007",
+    "ARCH2061"
+   ]
+  },
+  {
+   "code": "ARCH1112",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH1001",
+    "ARCH2007",
+    "ARCH2061"
+   ]
+  },
+  {
+   "code": "ARCH2006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH3026"
+   ]
+  },
+  {
+   "code": "ARCH2108",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH3108",
+    "ARCH6108"
+   ]
+  },
+  {
+   "code": "ARCH2126",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN3014"
+   ]
+  },
+  {
+   "code": "ARCH3000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN3014",
+    "BIAN6019"
+   ]
+  },
+  {
+   "code": "ARCH6126",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN6019"
+   ]
+  },
+  {
+   "code": "ARCH8043",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH8042"
+   ]
+  },
+  {
+   "code": "ARCH8102",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN6019"
+   ]
+  },
+  {
+   "code": "ARCH8104",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HUMN6051"
+   ]
+  },
+  {
+   "code": "ARTH2057",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH3057"
+   ]
+  },
+  {
+   "code": "ARTH6050",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2050"
+   ]
+  },
+  {
+   "code": "ARTH6052",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2052"
+   ]
+  },
+  {
+   "code": "ARTH6057",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH3057"
+   ]
+  },
+  {
+   "code": "ARTH6169",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2169"
+   ]
+  },
+  {
+   "code": "ARTH6170",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2170"
+   ]
+  },
+  {
+   "code": "ARTH6176",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2176"
+   ]
+  },
+  {
+   "code": "ARTH6598",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2098"
+   ]
+  },
+  {
+   "code": "ARTH8014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH4030"
+   ]
+  },
+  {
+   "code": "ARTV1000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3033"
+   ]
+  },
+  {
+   "code": "ARTV1101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2150"
+   ]
+  },
+  {
+   "code": "ARTV1102",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2150"
+   ]
+  },
+  {
+   "code": "ARTV1202",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2015"
+   ]
+  },
+  {
+   "code": "ARTV1301",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2350"
+   ]
+  },
+  {
+   "code": "ARTV1302",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2350"
+   ]
+  },
+  {
+   "code": "ARTV1501",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2550"
+   ]
+  },
+  {
+   "code": "ARTV1502",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2550"
+   ]
+  },
+  {
+   "code": "ARTV1601",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2650"
+   ]
+  },
+  {
+   "code": "ARTV1610",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2650"
+   ]
+  },
+  {
+   "code": "ARTV1611",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2650"
+   ]
+  },
+  {
+   "code": "ARTV1612",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2651"
+   ]
+  },
+  {
+   "code": "ARTV1614",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2650"
+   ]
+  },
+  {
+   "code": "ARTV1703",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2750"
+   ]
+  },
+  {
+   "code": "ARTV1704",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2751"
+   ]
+  },
+  {
+   "code": "ARTV1705",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2750"
+   ]
+  },
+  {
+   "code": "ARTV1902",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2950"
+   ]
+  },
+  {
+   "code": "ARTV2000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3033"
+   ]
+  },
+  {
+   "code": "ARTV2052",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2169"
+   ]
+  },
+  {
+   "code": "ARTV2053",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2170"
+   ]
+  },
+  {
+   "code": "ARTV2059",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2651"
+   ]
+  },
+  {
+   "code": "ARTV2100",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2921"
+   ]
+  },
+  {
+   "code": "ARTV2117",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2150"
+   ]
+  },
+  {
+   "code": "ARTV2119",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2150"
+   ]
+  },
+  {
+   "code": "ARTV2120",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2150"
+   ]
+  },
+  {
+   "code": "ARTV2124",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2150"
+   ]
+  },
+  {
+   "code": "ARTV2125",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2150"
+   ]
+  },
+  {
+   "code": "ARTV2207",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2015"
+   ]
+  },
+  {
+   "code": "ARTV2723",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2751"
+   ]
+  },
+  {
+   "code": "ARTV2727",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2751"
+   ]
+  },
+  {
+   "code": "ARTV2805",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV2908",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2950"
+   ]
+  },
+  {
+   "code": "ARTV3026",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3029",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3502",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3505",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3602",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3605",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3616",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3702",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3705",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV3802",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "ARTV6020",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV1020"
+   ]
+  },
+  {
+   "code": "ARTV6027",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2027"
+   ]
+  },
+  {
+   "code": "ARTV6053",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2170"
+   ]
+  },
+  {
+   "code": "ARTV6105",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTH2169"
+   ]
+  },
+  {
+   "code": "ARTV6921",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV2921"
+   ]
+  },
+  {
+   "code": "ASIA1021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INTR1021"
+   ]
+  },
+  {
+   "code": "ASIA1022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INTR1022"
+   ]
+  },
+  {
+   "code": "ASIA1066",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA2366"
+   ]
+  },
+  {
+   "code": "ASIA2084",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA3084"
+   ]
+  },
+  {
+   "code": "ASIA2095",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA3040",
+    "ASIA6040"
+   ]
+  },
+  {
+   "code": "ASIA2220",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH8002"
+   ]
+  },
+  {
+   "code": "ASIA2517",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA2088"
+   ]
+  },
+  {
+   "code": "ASIA6203",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA2203"
+   ]
+  },
+  {
+   "code": "ASIA6517",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA2088"
+   ]
+  },
+  {
+   "code": "ASTR4003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4021",
+    "ASTR8021"
+   ]
+  },
+  {
+   "code": "ASTR4008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4020",
+    "ASTR8020"
+   ]
+  },
+  {
+   "code": "ASTR4012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4021",
+    "ASTR8021"
+   ]
+  },
+  {
+   "code": "ASTR4017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4020",
+    "ASTR8020"
+   ]
+  },
+  {
+   "code": "ASTR8002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4021",
+    "ASTR8021"
+   ]
+  },
+  {
+   "code": "ASTR8003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4021",
+    "ASTR8021"
+   ]
+  },
+  {
+   "code": "ASTR8007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4020",
+    "ASTR8020"
+   ]
+  },
+  {
+   "code": "ASTR8008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4020",
+    "ASTR8020"
+   ]
+  },
+  {
+   "code": "AUST1001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INDG2003"
+   ]
+  },
+  {
+   "code": "AUST6008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INDG2003"
+   ]
+  },
+  {
+   "code": "BIAN3010",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH3042",
+    "ARCH6042"
+   ]
+  },
+  {
+   "code": "BIAN3011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN2015"
+   ]
+  },
+  {
+   "code": "BIAN3017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN3014"
+   ]
+  },
+  {
+   "code": "BIAN6119",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN2119"
+   ]
+  },
+  {
+   "code": "BIAN6500",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN6019"
+   ]
+  },
+  {
+   "code": "BIAN6510",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH3042",
+    "ARCH6042"
+   ]
+  },
+  {
+   "code": "BIAN6516",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN3014",
+    "BIAN6019",
+    "BIOL6130"
+   ]
+  },
+  {
+   "code": "BIOL2111",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3213",
+    "BIOL6213"
+   ]
+  },
+  {
+   "code": "BIOL2113",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3213",
+    "BIOL6213"
+   ]
+  },
+  {
+   "code": "BIOL2121",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3002",
+    "BIOL6002"
+   ]
+  },
+  {
+   "code": "BIOL2152",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3204",
+    "BIOL6204"
+   ]
+  },
+  {
+   "code": "BIOL2176",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEDN3186"
+   ]
+  },
+  {
+   "code": "BIOL2222",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEDN2222"
+   ]
+  },
+  {
+   "code": "BIOL3006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEDN2001",
+    "MEDN6001"
+   ]
+  },
+  {
+   "code": "BIOL3113",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3213",
+    "BIOL6213"
+   ]
+  },
+  {
+   "code": "BIOL3114",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3213",
+    "BIOL6213"
+   ]
+  },
+  {
+   "code": "BIOL3186",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEDN3186"
+   ]
+  },
+  {
+   "code": "BIOL6001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEDN6001"
+   ]
+  },
+  {
+   "code": "BIOL6111",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3213",
+    "BIOL6213"
+   ]
+  },
+  {
+   "code": "BIOL6113",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3213",
+    "BIOL6213"
+   ]
+  },
+  {
+   "code": "BIOL6210",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL3210"
+   ]
+  },
+  {
+   "code": "BUSN3025",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MGMT3025"
+   ]
+  },
+  {
+   "code": "BUSN4101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BUSN8101"
+   ]
+  },
+  {
+   "code": "BUSN7045",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BUSN4045",
+    "BUSN8045",
+    "BUSN8145",
+    "BUSN8804"
+   ]
+  },
+  {
+   "code": "CBEA3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CBEA3066"
+   ]
+  },
+  {
+   "code": "CHEM2212",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHEM2214"
+   ]
+  },
+  {
+   "code": "CHIN2014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN3017",
+    "CHIN3018"
+   ]
+  },
+  {
+   "code": "CHIN2017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2024",
+    "CHIN3018",
+    "CHIN3022"
+   ]
+  },
+  {
+   "code": "CHIN3021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2024",
+    "CHIN3018"
+   ]
+  },
+  {
+   "code": "CHIN3031",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2021",
+    "CHIN3015"
+   ]
+  },
+  {
+   "code": "CHIN3211",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHST3211"
+   ]
+  },
+  {
+   "code": "CHIN3212",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHST3212"
+   ]
+  },
+  {
+   "code": "CHIN6201",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2025"
+   ]
+  },
+  {
+   "code": "CHIN6202",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2025"
+   ]
+  },
+  {
+   "code": "CHIN6211",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHST3211"
+   ]
+  },
+  {
+   "code": "CHIN6212",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHST3212"
+   ]
+  },
+  {
+   "code": "CHIN6521",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2024"
+   ]
+  },
+  {
+   "code": "CHIN6526",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA3525"
+   ]
+  },
+  {
+   "code": "CHIN6531",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2021"
+   ]
+  },
+  {
+   "code": "CHMD8001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HLTH3004",
+    "HLTH6004"
+   ]
+  },
+  {
+   "code": "CHMD8005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHMD2005",
+    "CHMD6005"
+   ]
+  },
+  {
+   "code": "CHST6211",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHST3211"
+   ]
+  },
+  {
+   "code": "CHST6212",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHST3212"
+   ]
+  },
+  {
+   "code": "CLAS2002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CLAS1003"
+   ]
+  },
+  {
+   "code": "CLAS6002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CLAS1003"
+   ]
+  },
+  {
+   "code": "COMM3015",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MGMT3015"
+   ]
+  },
+  {
+   "code": "COMM3016",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MGMT3016"
+   ]
+  },
+  {
+   "code": "COMP1040",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP7230"
+   ]
+  },
+  {
+   "code": "COMP2000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP3310"
+   ]
+  },
+  {
+   "code": "COMP2130",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP2120"
+   ]
+  },
+  {
+   "code": "COMP3100",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP3500"
+   ]
+  },
+  {
+   "code": "COMP3420",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP3425",
+    "COMP8410",
+    "COMP8910"
+   ]
+  },
+  {
+   "code": "COMP4540",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP4500"
+   ]
+  },
+  {
+   "code": "COMP4690",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP8691"
+   ]
+  },
+  {
+   "code": "COMP4810",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP4500",
+    "COMP4550",
+    "COMP4560",
+    "COMP4820"
+   ]
+  },
+  {
+   "code": "COMP6311",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP2120"
+   ]
+  },
+  {
+   "code": "COMP6461",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP4610",
+    "COMP8610"
+   ]
+  },
+  {
+   "code": "COMP6719",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP2300",
+    "COMP6300",
+    "ENGN2219"
+   ]
+  },
+  {
+   "code": "COMP6990",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP6490",
+    "COMP8490"
+   ]
+  },
+  {
+   "code": "COMP8400",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP3425",
+    "COMP4425",
+    "COMP8410",
+    "COMP8910"
+   ]
+  },
+  {
+   "code": "COMP8755",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP8500",
+    "COMP8715",
+    "COMP8830"
+   ]
+  },
+  {
+   "code": "COMP8960",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP4670",
+    "COMP8600"
+   ]
+  },
+  {
+   "code": "CRIM2001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2002",
+    "CRIM3010"
+   ]
+  },
+  {
+   "code": "CRIM3004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM3003"
+   ]
+  },
+  {
+   "code": "CRIM6002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2002"
+   ]
+  },
+  {
+   "code": "CRIM6003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2003"
+   ]
+  },
+  {
+   "code": "CRIM6005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2005"
+   ]
+  },
+  {
+   "code": "CRIM6006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2006"
+   ]
+  },
+  {
+   "code": "CRIM6007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM3010"
+   ]
+  },
+  {
+   "code": "CRIM6008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2007"
+   ]
+  },
+  {
+   "code": "CRIM6009",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2009"
+   ]
+  },
+  {
+   "code": "CRIM6013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2013"
+   ]
+  },
+  {
+   "code": "CRIM6014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2014"
+   ]
+  },
+  {
+   "code": "CRIM8001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM4001"
+   ]
+  },
+  {
+   "code": "CRIM8003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2002"
+   ]
+  },
+  {
+   "code": "CRWF8000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "IDEC8000"
+   ]
+  },
+  {
+   "code": "DART3100",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "DART3101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "DEMO6001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DEMO8024"
+   ]
+  },
+  {
+   "code": "DEMO8007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCR8010"
+   ]
+  },
+  {
+   "code": "DEMO8014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCR8010"
+   ]
+  },
+  {
+   "code": "DEMO8082",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCR8082",
+    "SOCS9082"
+   ]
+  },
+  {
+   "code": "DESA2011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2001",
+    "DESN6001"
+   ]
+  },
+  {
+   "code": "DESA2017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2012"
+   ]
+  },
+  {
+   "code": "DESA2207",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2015"
+   ]
+  },
+  {
+   "code": "DESA2805",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "DESA3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "DESA3802",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3034"
+   ]
+  },
+  {
+   "code": "DESA6017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2012"
+   ]
+  },
+  {
+   "code": "DESA6100",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2001",
+    "DESN6001"
+   ]
+  },
+  {
+   "code": "DESN1000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARTV3033"
+   ]
+  },
+  {
+   "code": "DESN6004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2004"
+   ]
+  },
+  {
+   "code": "DESN6010",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN3010"
+   ]
+  },
+  {
+   "code": "DESN6011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN3011"
+   ]
+  },
+  {
+   "code": "DESN6012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DESN2012"
+   ]
+  },
+  {
+   "code": "DIPL2001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DIPL8016"
+   ]
+  },
+  {
+   "code": "ECHI1001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECHI1006"
+   ]
+  },
+  {
+   "code": "ECHI1003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECHI1006"
+   ]
+  },
+  {
+   "code": "ECHI1004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECHI1006"
+   ]
+  },
+  {
+   "code": "ECHI2006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECHI3009"
+   ]
+  },
+  {
+   "code": "ECHI2013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON2900"
+   ]
+  },
+  {
+   "code": "ECHI2016",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECHI3009"
+   ]
+  },
+  {
+   "code": "ECHI3019",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECHI3009"
+   ]
+  },
+  {
+   "code": "ECON2008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON2108"
+   ]
+  },
+  {
+   "code": "ECON2111",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON3020",
+    "ECON3100"
+   ]
+  },
+  {
+   "code": "ECON2112",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON2016",
+    "ECON3020",
+    "ECON3100"
+   ]
+  },
+  {
+   "code": "ECON2128",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON3128"
+   ]
+  },
+  {
+   "code": "ECON3153",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON6053",
+    "ECON8053"
+   ]
+  },
+  {
+   "code": "ECON4413",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON4414",
+    "ECON8014"
+   ]
+  },
+  {
+   "code": "ECON4425",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON8025"
+   ]
+  },
+  {
+   "code": "ECON4426",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON8026"
+   ]
+  },
+  {
+   "code": "ECON8055",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ECON3181",
+    "ECON6181"
+   ]
+  },
+  {
+   "code": "EMSC2012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3002",
+    "EMSC3034",
+    "EMSC6030"
+   ]
+  },
+  {
+   "code": "EMSC2017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3007",
+    "EMSC3024"
+   ]
+  },
+  {
+   "code": "EMSC2018",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC6122"
+   ]
+  },
+  {
+   "code": "EMSC2019",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3020",
+    "EMSC6019"
+   ]
+  },
+  {
+   "code": "EMSC2020",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3007"
+   ]
+  },
+  {
+   "code": "EMSC3029",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC2021"
+   ]
+  },
+  {
+   "code": "EMSC4019",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3020",
+    "EMSC6019"
+   ]
+  },
+  {
+   "code": "EMSC4020",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC4123"
+   ]
+  },
+  {
+   "code": "EMSC6017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC6007"
+   ]
+  },
+  {
+   "code": "EMSC6031",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC6030"
+   ]
+  },
+  {
+   "code": "EMSC8024",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC4123"
+   ]
+  },
+  {
+   "code": "EMSC8033",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC8023"
+   ]
+  },
+  {
+   "code": "ENGL1009",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2230"
+   ]
+  },
+  {
+   "code": "ENGL1013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL1200"
+   ]
+  },
+  {
+   "code": "ENGL1014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL1100"
+   ]
+  },
+  {
+   "code": "ENGL2008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3022"
+   ]
+  },
+  {
+   "code": "ENGL2009",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3008"
+   ]
+  },
+  {
+   "code": "ENGL2012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2027"
+   ]
+  },
+  {
+   "code": "ENGL2061",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3036"
+   ]
+  },
+  {
+   "code": "ENGL2074",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2022",
+    "GEND2022"
+   ]
+  },
+  {
+   "code": "ENGL2078",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3078"
+   ]
+  },
+  {
+   "code": "ENGL2082",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3037"
+   ]
+  },
+  {
+   "code": "ENGL2084",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2230"
+   ]
+  },
+  {
+   "code": "ENGL2108",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2085"
+   ]
+  },
+  {
+   "code": "ENGL2117",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3005"
+   ]
+  },
+  {
+   "code": "ENGL6008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3008"
+   ]
+  },
+  {
+   "code": "ENGL6020",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3005"
+   ]
+  },
+  {
+   "code": "ENGL6022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3022"
+   ]
+  },
+  {
+   "code": "ENGL6023",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2022",
+    "GEND2022"
+   ]
+  },
+  {
+   "code": "ENGL6026",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3078"
+   ]
+  },
+  {
+   "code": "ENGL6027",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2068"
+   ]
+  },
+  {
+   "code": "ENGL6028",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3037"
+   ]
+  },
+  {
+   "code": "ENGL6032",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2230"
+   ]
+  },
+  {
+   "code": "ENGL6034",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2027"
+   ]
+  },
+  {
+   "code": "ENGL6036",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3036"
+   ]
+  },
+  {
+   "code": "ENGL6040",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2040"
+   ]
+  },
+  {
+   "code": "ENGL6067",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2067"
+   ]
+  },
+  {
+   "code": "ENGL6084",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2230"
+   ]
+  },
+  {
+   "code": "ENGL6085",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2085"
+   ]
+  },
+  {
+   "code": "ENGL6116",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2116"
+   ]
+  },
+  {
+   "code": "ENGL6117",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL3005"
+   ]
+  },
+  {
+   "code": "ENGL6222",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2222"
+   ]
+  },
+  {
+   "code": "ENGL8019",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL4019"
+   ]
+  },
+  {
+   "code": "ENGL8020",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL4020"
+   ]
+  },
+  {
+   "code": "ENGL8021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL4021"
+   ]
+  },
+  {
+   "code": "ENGN2225",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN2300",
+    "ENGN3410"
+   ]
+  },
+  {
+   "code": "ENGN2226",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN2301",
+    "ENGN3516"
+   ]
+  },
+  {
+   "code": "ENGN3000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN4300",
+    "ENGN4350"
+   ]
+  },
+  {
+   "code": "ENGN3211",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BUSN1001"
+   ]
+  },
+  {
+   "code": "ENGN3221",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN3300",
+    "ENGN4200"
+   ]
+  },
+  {
+   "code": "ENGN3230",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN3301"
+   ]
+  },
+  {
+   "code": "ENGN3512",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS3057",
+    "PHYS6500"
+   ]
+  },
+  {
+   "code": "ENGN4221",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN4300"
+   ]
+  },
+  {
+   "code": "ENGN4511",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN3339"
+   ]
+  },
+  {
+   "code": "ENGN6212",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN4212"
+   ]
+  },
+  {
+   "code": "ENGN6512",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS3057",
+    "PHYS6500"
+   ]
+  },
+  {
+   "code": "ENGN8534",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP2610",
+    "COMP6261"
+   ]
+  },
+  {
+   "code": "ENVS2014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCY2043"
+   ]
+  },
+  {
+   "code": "ENVS3019",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENVS3045",
+    "ENVS6345"
+   ]
+  },
+  {
+   "code": "ENVS6005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENVS8605"
+   ]
+  },
+  {
+   "code": "ENVS6319",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENVS3045",
+    "ENVS6345"
+   ]
+  },
+  {
+   "code": "EURO1004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2070",
+    "HIST2110",
+    "HIST3007",
+    "HIST3012",
+    "HIST3110",
+    "HIST3142"
+   ]
+  },
+  {
+   "code": "EURO3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3002"
+   ]
+  },
+  {
+   "code": "FILM2006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCRN2003"
+   ]
+  },
+  {
+   "code": "FILM2013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCRN2107",
+    "SPAN2107"
+   ]
+  },
+  {
+   "code": "FILM2014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3108"
+   ]
+  },
+  {
+   "code": "FILM6013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCRN2107",
+    "SPAN2107"
+   ]
+  },
+  {
+   "code": "FILM6014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3108"
+   ]
+  },
+  {
+   "code": "FINM7041",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FINM6006",
+    "FINM8006",
+    "FINM8018",
+    "FINM8019",
+    "FINM8020",
+    "FINM8021"
+   ]
+  },
+  {
+   "code": "FINM7044",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FINM6005"
+   ]
+  },
+  {
+   "code": "FINM8016",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FINM6016",
+    "FINM8100"
+   ]
+  },
+  {
+   "code": "FREN1003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102"
+   ]
+  },
+  {
+   "code": "FREN1004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101"
+   ]
+  },
+  {
+   "code": "FREN2021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "FREN3102",
+    "FREN3110"
+   ]
+  },
+  {
+   "code": "FREN2024",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102"
+   ]
+  },
+  {
+   "code": "FREN2025",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "LANG3007"
+   ]
+  },
+  {
+   "code": "FREN3006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "FREN3102",
+    "FREN3515"
+   ]
+  },
+  {
+   "code": "FREN3007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "FREN3102",
+    "FREN3103",
+    "FREN3107",
+    "FREN3108",
+    "FREN3109",
+    "FREN3110"
+   ]
+  },
+  {
+   "code": "FREN3008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3104"
+   ]
+  },
+  {
+   "code": "FREN3009",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3103",
+    "FREN3104"
+   ]
+  },
+  {
+   "code": "FREN3010",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "FREN3102",
+    "FREN3103",
+    "FREN3104",
+    "FREN3109"
+   ]
+  },
+  {
+   "code": "FREN3011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "FREN3102",
+    "FREN3103",
+    "FREN3104",
+    "FREN3109"
+   ]
+  },
+  {
+   "code": "FREN3012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "FREN3102",
+    "FREN3109"
+   ]
+  },
+  {
+   "code": "FREN3021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN1101",
+    "FREN1102",
+    "FREN2101",
+    "FREN2102",
+    "FREN3101",
+    "FREN3102",
+    "FREN3110"
+   ]
+  },
+  {
+   "code": "FREN6010",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3102",
+    "FREN3103"
+   ]
+  },
+  {
+   "code": "FREN6011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3102",
+    "FREN3103",
+    "FREN3104"
+   ]
+  },
+  {
+   "code": "FREN6506",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3102"
+   ]
+  },
+  {
+   "code": "FREN6509",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3102",
+    "FREN3103",
+    "FREN3104"
+   ]
+  },
+  {
+   "code": "FREN6510",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3110"
+   ]
+  },
+  {
+   "code": "FREN6514",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3108"
+   ]
+  },
+  {
+   "code": "GEND2024",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3134"
+   ]
+  },
+  {
+   "code": "GEND2026",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GEND6501"
+   ]
+  },
+  {
+   "code": "GEND2057",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GEND3057",
+    "SOCY3057"
+   ]
+  },
+  {
+   "code": "GEND2074",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2022",
+    "GEND2022"
+   ]
+  },
+  {
+   "code": "GEND2107",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS2005"
+   ]
+  },
+  {
+   "code": "GEND3022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS2005"
+   ]
+  },
+  {
+   "code": "GEOL1006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC1006",
+    "EMSC6107"
+   ]
+  },
+  {
+   "code": "GEOL2019",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC6019"
+   ]
+  },
+  {
+   "code": "GEOL3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3002",
+    "EMSC6030"
+   ]
+  },
+  {
+   "code": "GEOL3007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3007"
+   ]
+  },
+  {
+   "code": "GEOL3022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC6022"
+   ]
+  },
+  {
+   "code": "GEOL3023",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3023",
+    "EMSC6023"
+   ]
+  },
+  {
+   "code": "GEOL3024",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3024",
+    "EMSC6024"
+   ]
+  },
+  {
+   "code": "GEOL3025",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC3025",
+    "EMSC6025"
+   ]
+  },
+  {
+   "code": "GERM1021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102"
+   ]
+  },
+  {
+   "code": "GERM1022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102",
+    "GERM2101"
+   ]
+  },
+  {
+   "code": "GERM2103",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102",
+    "GERM2101",
+    "GERM2102"
+   ]
+  },
+  {
+   "code": "GERM2104",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102",
+    "GERM2101",
+    "GERM2102",
+    "GERM3101"
+   ]
+  },
+  {
+   "code": "GERM2105",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102",
+    "GERM2101",
+    "GERM2102",
+    "GERM3101",
+    "GERM3102"
+   ]
+  },
+  {
+   "code": "GERM3007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102",
+    "GERM2101",
+    "GERM2102",
+    "GERM3101",
+    "GERM3102",
+    "GERM3103",
+    "GERM3104"
+   ]
+  },
+  {
+   "code": "GERM3008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102",
+    "GERM2101",
+    "GERM2102",
+    "GERM3101",
+    "GERM3102",
+    "GERM3104"
+   ]
+  },
+  {
+   "code": "GERM3106",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GERM1101",
+    "GERM1102",
+    "GERM2101",
+    "GERM2102",
+    "GERM3101",
+    "GERM3102",
+    "GERM3103"
+   ]
+  },
+  {
+   "code": "HIST1210",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2211"
+   ]
+  },
+  {
+   "code": "HIST2006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGL2022",
+    "GEND2022"
+   ]
+  },
+  {
+   "code": "HIST2139",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST3007"
+   ]
+  },
+  {
+   "code": "HIST2142",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST3142"
+   ]
+  },
+  {
+   "code": "HIST2228",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST8235"
+   ]
+  },
+  {
+   "code": "HIST2234",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST8234"
+   ]
+  },
+  {
+   "code": "HIST6007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST3007"
+   ]
+  },
+  {
+   "code": "HIST6022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2022"
+   ]
+  },
+  {
+   "code": "HIST6110",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2110",
+    "HIST3110"
+   ]
+  },
+  {
+   "code": "HIST6205",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2205"
+   ]
+  },
+  {
+   "code": "HIST6214",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2214"
+   ]
+  },
+  {
+   "code": "HIST6221",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2221"
+   ]
+  },
+  {
+   "code": "HIST6226",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2226"
+   ]
+  },
+  {
+   "code": "HIST6227",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2227"
+   ]
+  },
+  {
+   "code": "HIST6228",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST8235"
+   ]
+  },
+  {
+   "code": "HIST6232",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2232"
+   ]
+  },
+  {
+   "code": "HIST6234",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST8234"
+   ]
+  },
+  {
+   "code": "HIST6235",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2231"
+   ]
+  },
+  {
+   "code": "HIST6240",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2240"
+   ]
+  },
+  {
+   "code": "HIST6242",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2242"
+   ]
+  },
+  {
+   "code": "HIST8027",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST8037"
+   ]
+  },
+  {
+   "code": "HIST8101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST9102",
+    "SOCS9101"
+   ]
+  },
+  {
+   "code": "HIST8102",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST9102",
+    "SOCS9101"
+   ]
+  },
+  {
+   "code": "HSIT6136",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HIST2136"
+   ]
+  },
+  {
+   "code": "HUMN4001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING4013",
+    "LING8032"
+   ]
+  },
+  {
+   "code": "HUMN8003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HUMN6051"
+   ]
+  },
+  {
+   "code": "HUMN8032",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING8032"
+   ]
+  },
+  {
+   "code": "INDG6003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INDG2003"
+   ]
+  },
+  {
+   "code": "INFS4004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INFS8004"
+   ]
+  },
+  {
+   "code": "INFS4205",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INFS8205"
+   ]
+  },
+  {
+   "code": "INFS7007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INFS8008"
+   ]
+  },
+  {
+   "code": "ITAL1002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102"
+   ]
+  },
+  {
+   "code": "ITAL1003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101"
+   ]
+  },
+  {
+   "code": "ITAL2005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102"
+   ]
+  },
+  {
+   "code": "ITAL2006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "LANG3007"
+   ]
+  },
+  {
+   "code": "ITAL2007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101"
+   ]
+  },
+  {
+   "code": "ITAL2008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102"
+   ]
+  },
+  {
+   "code": "ITAL3015",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102"
+   ]
+  },
+  {
+   "code": "ITAL3016",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102"
+   ]
+  },
+  {
+   "code": "ITAL3505",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102"
+   ]
+  },
+  {
+   "code": "ITAL3506",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102",
+    "ITAL3103",
+    "ITAL3104"
+   ]
+  },
+  {
+   "code": "ITAL6501",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101"
+   ]
+  },
+  {
+   "code": "ITAL6502",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102"
+   ]
+  },
+  {
+   "code": "ITAL6503",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101"
+   ]
+  },
+  {
+   "code": "ITAL6504",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102"
+   ]
+  },
+  {
+   "code": "ITAL6505",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102"
+   ]
+  },
+  {
+   "code": "ITAL6506",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102"
+   ]
+  },
+  {
+   "code": "ITAL6509",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102",
+    "ITAL3103"
+   ]
+  },
+  {
+   "code": "ITAL6510",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ITAL1101",
+    "ITAL1102",
+    "ITAL2101",
+    "ITAL2102",
+    "ITAL3101",
+    "ITAL3102",
+    "ITAL3103",
+    "ITAL3104"
+   ]
+  },
+  {
+   "code": "JPNS2012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "JPNS3201",
+    "JPNS3202",
+    "JPNS3203"
+   ]
+  },
+  {
+   "code": "JPNS2013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "JPNS3202"
+   ]
+  },
+  {
+   "code": "JPNS2015",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CHIN2019"
+   ]
+  },
+  {
+   "code": "JPNS3001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "JPNS3203"
+   ]
+  },
+  {
+   "code": "JPNS3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "JPNS3005",
+    "JPNS3006",
+    "JPNS3007",
+    "JPNS3008",
+    "JPNS3012",
+    "JPNS3204"
+   ]
+  },
+  {
+   "code": "JPNS3024",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "JPNS3006",
+    "JPNS3007",
+    "JPNS3008",
+    "JPNS3014"
+   ]
+  },
+  {
+   "code": "JPNS6007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING2028"
+   ]
+  },
+  {
+   "code": "JPNS6114",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "JPNS1014"
+   ]
+  },
+  {
+   "code": "JPNS6115",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "JPNS2005"
+   ]
+  },
+  {
+   "code": "KORE6121",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "KORE1021"
+   ]
+  },
+  {
+   "code": "KORE6512",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "KORE3012"
+   ]
+  },
+  {
+   "code": "KORE6513",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "KORE3013"
+   ]
+  },
+  {
+   "code": "KORE6521",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "KORE2521"
+   ]
+  },
+  {
+   "code": "LANG2015",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING6015"
+   ]
+  },
+  {
+   "code": "LANG3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LANG6002"
+   ]
+  },
+  {
+   "code": "LAWS2101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENVS3015",
+    "ENVS6315"
+   ]
+  },
+  {
+   "code": "LAWS2210",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BUSN1101"
+   ]
+  },
+  {
+   "code": "LAWS2221",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BUSN3014",
+    "BUSN7021"
+   ]
+  },
+  {
+   "code": "LAWS2290",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4231"
+   ]
+  },
+  {
+   "code": "LAWS4248",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4257"
+   ]
+  },
+  {
+   "code": "LAWS4282",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS8584"
+   ]
+  },
+  {
+   "code": "LAWS8000",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS8301"
+   ]
+  },
+  {
+   "code": "LAWS8239",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4279"
+   ]
+  },
+  {
+   "code": "LAWS8337",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS6307"
+   ]
+  },
+  {
+   "code": "LAWS8415",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4215"
+   ]
+  },
+  {
+   "code": "LAWS8451",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4251"
+   ]
+  },
+  {
+   "code": "LAWS8457",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4257"
+   ]
+  },
+  {
+   "code": "LAWS8460",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4260"
+   ]
+  },
+  {
+   "code": "LEGM8001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS8102"
+   ]
+  },
+  {
+   "code": "LEGM8581",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4217",
+    "LAWS8417"
+   ]
+  },
+  {
+   "code": "LING1004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING2010",
+    "LING6010"
+   ]
+  },
+  {
+   "code": "LING1010",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING2010"
+   ]
+  },
+  {
+   "code": "LING1020",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING6020"
+   ]
+  },
+  {
+   "code": "LING1021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING6021"
+   ]
+  },
+  {
+   "code": "LING2001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING1001",
+    "LING2028",
+    "LING2521",
+    "LING8004"
+   ]
+  },
+  {
+   "code": "LING2002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING1002"
+   ]
+  },
+  {
+   "code": "LING2004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING2010",
+    "LING6010"
+   ]
+  },
+  {
+   "code": "LING2026",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING3126",
+    "LING6026"
+   ]
+  },
+  {
+   "code": "LING2101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING3101",
+    "LING6101"
+   ]
+  },
+  {
+   "code": "LING3011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING2106"
+   ]
+  },
+  {
+   "code": "LING6001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING1001",
+    "LING2040",
+    "LING6036",
+    "LING6521",
+    "LING8004"
+   ]
+  },
+  {
+   "code": "LING6002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LING1002",
+    "LING8013"
+   ]
+  },
+  {
+   "code": "MATH2405",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR3002",
+    "ASTR3007",
+    "MATH3133",
+    "MATH6405"
+   ]
+  },
+  {
+   "code": "MATH3104",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MATH2222",
+    "MATH2322",
+    "MATH3345",
+    "MATH4204"
+   ]
+  },
+  {
+   "code": "MATH3116",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MATH2222",
+    "MATH2320",
+    "MATH3029",
+    "MATH3512",
+    "MATH3514"
+   ]
+  },
+  {
+   "code": "MATH3329",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR3002"
+   ]
+  },
+  {
+   "code": "MATH3343",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MATH4343",
+    "MATH8343"
+   ]
+  },
+  {
+   "code": "MATH6201",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MATH4201",
+    "MATH8201"
+   ]
+  },
+  {
+   "code": "MATH6202",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MATH4202",
+    "MATH8202"
+   ]
+  },
+  {
+   "code": "MATH6203",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MATH4343",
+    "MATH8343"
+   ]
+  },
+  {
+   "code": "MATH6204",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MATH4204",
+    "MATH8204"
+   ]
+  },
+  {
+   "code": "MEAS2104",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS1002"
+   ]
+  },
+  {
+   "code": "MEAS2107",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS2005"
+   ]
+  },
+  {
+   "code": "MEAS4001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS8105"
+   ]
+  },
+  {
+   "code": "MEAS4109",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS8109"
+   ]
+  },
+  {
+   "code": "MEAS4111",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS8111"
+   ]
+  },
+  {
+   "code": "MEAS4112",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS8112"
+   ]
+  },
+  {
+   "code": "MEAS4114",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS8114"
+   ]
+  },
+  {
+   "code": "MEAS4115",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS8115"
+   ]
+  },
+  {
+   "code": "MEAS4116",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MEAS8116"
+   ]
+  },
+  {
+   "code": "MGMT7061",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MGMT8061"
+   ]
+  },
+  {
+   "code": "MGMT7062",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MGMT8063"
+   ]
+  },
+  {
+   "code": "MGMT7107",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MGMT8207"
+   ]
+  },
+  {
+   "code": "MKTG2001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MKTG3001",
+    "MKTG8060"
+   ]
+  },
+  {
+   "code": "MKTG2033",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MKTG3033"
+   ]
+  },
+  {
+   "code": "MKTG7027",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MKTG8027"
+   ]
+  },
+  {
+   "code": "MKTG7035",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MKTG8035"
+   ]
+  },
+  {
+   "code": "MKTG7060",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MKTG8060"
+   ]
+  },
+  {
+   "code": "MUSI1113",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI3327"
+   ]
+  },
+  {
+   "code": "MUSI2203",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI1501"
+   ]
+  },
+  {
+   "code": "MUSI2213",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI3327"
+   ]
+  },
+  {
+   "code": "MUSI2216",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI3317",
+    "MUSI6006"
+   ]
+  },
+  {
+   "code": "MUSI2221",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI1102"
+   ]
+  },
+  {
+   "code": "MUSI2223",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI2229"
+   ]
+  },
+  {
+   "code": "MUSI2224",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI2229"
+   ]
+  },
+  {
+   "code": "MUSI2226",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI1114"
+   ]
+  },
+  {
+   "code": "MUSI3310",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI2236",
+    "MUSI6007"
+   ]
+  },
+  {
+   "code": "MUSI3321",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI2230"
+   ]
+  },
+  {
+   "code": "MUSI6302",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI3302"
+   ]
+  },
+  {
+   "code": "MUSI7002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI8005"
+   ]
+  },
+  {
+   "code": "MUSI8001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "MUSI4402"
+   ]
+  },
+  {
+   "code": "NEUR8001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NEUR8010"
+   ]
+  },
+  {
+   "code": "NSPO8001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8006"
+   ]
+  },
+  {
+   "code": "NSPO8003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8006"
+   ]
+  },
+  {
+   "code": "NSPO8004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8012"
+   ]
+  },
+  {
+   "code": "NSPO8010",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8042"
+   ]
+  },
+  {
+   "code": "NSPO8011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8007"
+   ]
+  },
+  {
+   "code": "NSPO8013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8043"
+   ]
+  },
+  {
+   "code": "NSPO8021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8009"
+   ]
+  },
+  {
+   "code": "NSPO8022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8037"
+   ]
+  },
+  {
+   "code": "NSPO8023",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8049"
+   ]
+  },
+  {
+   "code": "NSPO8025",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8046"
+   ]
+  },
+  {
+   "code": "NSPO8026",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8044"
+   ]
+  },
+  {
+   "code": "NSPO8027",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "NSPO8045"
+   ]
+  },
+  {
+   "code": "PASI2006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "WARS2004"
+   ]
+  },
+  {
+   "code": "PASI6005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PASI3005"
+   ]
+  },
+  {
+   "code": "PASI6006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "WARS2004"
+   ]
+  },
+  {
+   "code": "PERS3007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001",
+    "PERS1002",
+    "PERS2003",
+    "PERS2004",
+    "PERS3005",
+    "PERS3006"
+   ]
+  },
+  {
+   "code": "PERS6001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001"
+   ]
+  },
+  {
+   "code": "PERS6002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001",
+    "PERS1002"
+   ]
+  },
+  {
+   "code": "PERS6003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001",
+    "PERS1002",
+    "PERS2003"
+   ]
+  },
+  {
+   "code": "PERS6004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001",
+    "PERS1002",
+    "PERS2003",
+    "PERS2004"
+   ]
+  },
+  {
+   "code": "PERS6005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001",
+    "PERS1002",
+    "PERS2003",
+    "PERS2004",
+    "PERS3005"
+   ]
+  },
+  {
+   "code": "PERS6006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001",
+    "PERS1002",
+    "PERS2003",
+    "PERS2004",
+    "PERS3005",
+    "PERS3006"
+   ]
+  },
+  {
+   "code": "PERS6007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PERS1001",
+    "PERS1002",
+    "PERS2003",
+    "PERS2004",
+    "PERS3005",
+    "PERS3006"
+   ]
+  },
+  {
+   "code": "PHIL2080",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP2620",
+    "COMP6262",
+    "PHIL2150"
+   ]
+  },
+  {
+   "code": "PHIL2116",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PPEI2001"
+   ]
+  },
+  {
+   "code": "PHYS1013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ENGN4548",
+    "ENGN4810",
+    "ENGN4820"
+   ]
+  },
+  {
+   "code": "PHYS2017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS2201"
+   ]
+  },
+  {
+   "code": "PHYS3001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS2201",
+    "PHYS3101"
+   ]
+  },
+  {
+   "code": "PHYS3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS3201"
+   ]
+  },
+  {
+   "code": "PHYS3029",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "EMSC2021"
+   ]
+  },
+  {
+   "code": "PHYS3031",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS3105",
+    "PHYS6105"
+   ]
+  },
+  {
+   "code": "PHYS3033",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS3105",
+    "PHYS6105"
+   ]
+  },
+  {
+   "code": "PHYS3034",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS2201"
+   ]
+  },
+  {
+   "code": "PHYS4100",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PHYS3101",
+    "PHYS6013",
+    "PHYS6101"
+   ]
+  },
+  {
+   "code": "PHYS8016",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASTR4011",
+    "ASTR8016"
+   ]
+  },
+  {
+   "code": "POLS1006",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS2132"
+   ]
+  },
+  {
+   "code": "POLS1008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PPEI1001",
+    "PPEI2001"
+   ]
+  },
+  {
+   "code": "POLS2009",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3009"
+   ]
+  },
+  {
+   "code": "POLS2043",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3043"
+   ]
+  },
+  {
+   "code": "POLS2095",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3095"
+   ]
+  },
+  {
+   "code": "POLS2113",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3113"
+   ]
+  },
+  {
+   "code": "POLS2125",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3125"
+   ]
+  },
+  {
+   "code": "POLS2127",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3127"
+   ]
+  },
+  {
+   "code": "POLS2134",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3134"
+   ]
+  },
+  {
+   "code": "POLS2136",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS3136"
+   ]
+  },
+  {
+   "code": "POLS3017",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS2017"
+   ]
+  },
+  {
+   "code": "POPS2002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "DEMO8008"
+   ]
+  },
+  {
+   "code": "PORT2001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PORT1001",
+    "PORT1002"
+   ]
+  },
+  {
+   "code": "PORT2002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LANG3007",
+    "PORT1001",
+    "PORT1002"
+   ]
+  },
+  {
+   "code": "PORT6501",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PORT1001"
+   ]
+  },
+  {
+   "code": "PORT6502",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PORT1001",
+    "PORT1002"
+   ]
+  },
+  {
+   "code": "PORT6503",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PORT1001",
+    "PORT1002"
+   ]
+  },
+  {
+   "code": "PORT6504",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PORT1001",
+    "PORT1002"
+   ]
+  },
+  {
+   "code": "PREH2011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIAN6013"
+   ]
+  },
+  {
+   "code": "PREH2037",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH2037",
+    "ARCH6037"
+   ]
+  },
+  {
+   "code": "PREH2050",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ARCH2050"
+   ]
+  },
+  {
+   "code": "PREH2051",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "HUMN2051",
+    "HUMN6051"
+   ]
+  },
+  {
+   "code": "PSYC2004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC3026"
+   ]
+  },
+  {
+   "code": "PSYC3001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC3026"
+   ]
+  },
+  {
+   "code": "PSYC3021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC3026"
+   ]
+  },
+  {
+   "code": "PSYC8012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8102"
+   ]
+  },
+  {
+   "code": "PSYC9011",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8101",
+    "PSYC9411"
+   ]
+  },
+  {
+   "code": "PSYC9012",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC9412"
+   ]
+  },
+  {
+   "code": "PSYC9013",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8103",
+    "PSYC9413",
+    "PSYC9414"
+   ]
+  },
+  {
+   "code": "PSYC9014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8104",
+    "PSYC9414"
+   ]
+  },
+  {
+   "code": "PSYC9022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8202",
+    "PSYC9422"
+   ]
+  },
+  {
+   "code": "PSYC9023",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8203",
+    "PSYC9423"
+   ]
+  },
+  {
+   "code": "PSYC9024",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8204",
+    "PSYC9424"
+   ]
+  },
+  {
+   "code": "PSYC9201",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "PSYC8201",
+    "PSYC9421"
+   ]
+  },
+  {
+   "code": "RUSS1003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "RUSS1102"
+   ]
+  },
+  {
+   "code": "SCOM2001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCOM2015"
+   ]
+  },
+  {
+   "code": "SCOM3001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCOM2031"
+   ]
+  },
+  {
+   "code": "SCOM3002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCOM2016"
+   ]
+  },
+  {
+   "code": "SCOM8007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCOM3007",
+    "SCOM6007"
+   ]
+  },
+  {
+   "code": "SCOM8021",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCOM6031"
+   ]
+  },
+  {
+   "code": "SCRN2108",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FREN3108"
+   ]
+  },
+  {
+   "code": "SCRN6107",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCRN2107",
+    "SPAN2107"
+   ]
+  },
+  {
+   "code": "SOCR8007",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCR8010"
+   ]
+  },
+  {
+   "code": "SOCY1005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM1001"
+   ]
+  },
+  {
+   "code": "SOCY2010",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GEND2034"
+   ]
+  },
+  {
+   "code": "SOCY2057",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GEND3057",
+    "SOCY3057"
+   ]
+  },
+  {
+   "code": "SOCY2058",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM3010"
+   ]
+  },
+  {
+   "code": "SOCY2063",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2009"
+   ]
+  },
+  {
+   "code": "SOCY2169",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCR4006",
+    "SOCR8006",
+    "SOCY3169"
+   ]
+  },
+  {
+   "code": "SOCY3014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCY2161"
+   ]
+  },
+  {
+   "code": "SOCY3016",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2003"
+   ]
+  },
+  {
+   "code": "SOCY6063",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CRIM2009"
+   ]
+  },
+  {
+   "code": "SOCY6065",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "GEND2036",
+    "SOCY2026"
+   ]
+  },
+  {
+   "code": "SOCY6170",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCY2170"
+   ]
+  },
+  {
+   "code": "SOCY8004",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POLS8046"
+   ]
+  },
+  {
+   "code": "SPAN2603",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN3603"
+   ]
+  },
+  {
+   "code": "SPAN3022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002",
+    "SPAN3001"
+   ]
+  },
+  {
+   "code": "SPAN3031",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002",
+    "SPAN3001"
+   ]
+  },
+  {
+   "code": "SPAN6022",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002",
+    "SPAN3001"
+   ]
+  },
+  {
+   "code": "SPAN6501",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001"
+   ]
+  },
+  {
+   "code": "SPAN6502",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002"
+   ]
+  },
+  {
+   "code": "SPAN6503",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001"
+   ]
+  },
+  {
+   "code": "SPAN6504",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002"
+   ]
+  },
+  {
+   "code": "SPAN6507",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002",
+    "SPAN3001"
+   ]
+  },
+  {
+   "code": "SPAN6508",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002",
+    "SPAN3001",
+    "SPAN3012"
+   ]
+  },
+  {
+   "code": "SPAN6509",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002",
+    "SPAN3001"
+   ]
+  },
+  {
+   "code": "SPAN6510",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN1001",
+    "SPAN1002",
+    "SPAN2001",
+    "SPAN2002",
+    "SPAN3001",
+    "SPAN3012",
+    "SPAN3030"
+   ]
+  },
+  {
+   "code": "SPAN6515",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN2102"
+   ]
+  },
+  {
+   "code": "SPAN6516",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SPAN3603"
+   ]
+  },
+  {
+   "code": "SPAN6517",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SCRN2107",
+    "SPAN2107"
+   ]
+  },
+  {
+   "code": "SRES2014",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "SOCY2043"
+   ]
+  },
+  {
+   "code": "STAT3008",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "STAT3017"
+   ]
+  },
+  {
+   "code": "STAT3036",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "STAT3038"
+   ]
+  },
+  {
+   "code": "STAT3039",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "STAT8016"
+   ]
+  },
+  {
+   "code": "STAT4038",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "STAT6014",
+    "STAT7038"
+   ]
+  },
+  {
+   "code": "STAT6030",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "STAT3015",
+    "STAT4030"
+   ]
+  },
+  {
+   "code": "STAT6038",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "FINM6015",
+    "STAT6014",
+    "STAT6016",
+    "STAT6017",
+    "STAT6029",
+    "STAT6042",
+    "STAT8002",
+    "STAT8130",
+    "STAT8140"
+   ]
+  },
+  {
+   "code": "STAT6039",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "COMP8600",
+    "COMP8880",
+    "COMP8980",
+    "STAT6013",
+    "STAT6016",
+    "STAT6017",
+    "STAT6027",
+    "STAT6029",
+    "STAT6042",
+    "STAT6043",
+    "STAT7004",
+    "STAT8002",
+    "STAT8140"
+   ]
+  },
+  {
+   "code": "STAT6040",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "STAT6050"
+   ]
+  },
+  {
+   "code": "STAT7001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "BIOL8002",
+    "STAT6014",
+    "STAT6016",
+    "STAT6017"
+   ]
+  },
+  {
+   "code": "STAT7040",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "STAT3040",
+    "STAT4040",
+    "STAT6050"
+   ]
+  },
+  {
+   "code": "STST2124",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "INTR2024"
+   ]
+  },
+  {
+   "code": "THAI6002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "THAI2002"
+   ]
+  },
+  {
+   "code": "THAI6502",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "THAI3002"
+   ]
+  },
+  {
+   "code": "TOKP6101",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "TOKP2001"
+   ]
+  },
+  {
+   "code": "TOKP6102",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "TOKP2002"
+   ]
+  },
+  {
+   "code": "TURK6001",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "TURK1001"
+   ]
+  },
+  {
+   "code": "TURK6002",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "TURK1001",
+    "TURK1002"
+   ]
+  },
+  {
+   "code": "TURK6503",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "TURK1001",
+    "TURK1002",
+    "TURK2001"
+   ]
+  },
+  {
+   "code": "TURK6504",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "TURK1001",
+    "TURK1002",
+    "TURK2001",
+    "TURK2002"
+   ]
+  },
+  {
+   "code": "VCPG6005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4005"
+   ]
+  },
+  {
+   "code": "VCPG8138",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "POGO8138"
+   ]
+  },
+  {
+   "code": "VCUG3005",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "LAWS4005"
+   ]
+  },
+  {
+   "code": "VCUG3200",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "CBEA3001"
+   ]
+  },
+  {
+   "code": "WARS2003",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA3088",
+    "ASIA6087"
+   ]
+  },
+  {
+   "code": "WARS6088",
+   "triedYears": [
+    2026,
+    2025
+   ],
+   "referencedBy": [
+    "ASIA3088",
+    "ASIA6087"
+   ]
+  }
+ ],
+ "failures": [],
+ "fellBackTo2025": [
+  "ANTH8038",
+  "ANTH8039",
+  "ARCH8002",
+  "ARCH8032",
+  "ASIA2100",
+  "ASIA2120",
+  "ASIA6026",
+  "ASIA6039",
+  "ASIA6040",
+  "ASIA6072",
+  "ASIA6074",
+  "ASIA6106",
+  "ASIA6116",
+  "ASIA6133",
+  "ASIA6176",
+  "ASIA6270",
+  "ASIA6308",
+  "ASIA6511",
+  "ASIA6516",
+  "BIOL1003",
+  "BIOL1004",
+  "BIOL6035",
+  "BIOL6036",
+  "BUSN6017",
+  "CECS6001",
+  "CECS6002",
+  "CECS8001",
+  "CECS8002",
+  "COMP4560",
+  "COMP7230",
+  "COMP7240",
+  "COMP8910",
+  "COMP8930",
+  "CRWF7000",
+  "ECON2080",
+  "ECON2091",
+  "ECON8013",
+  "ECON8038",
+  "EMSC6024",
+  "EMSC6032",
+  "ENGN8536",
+  "FINM2003",
+  "JPNS3006",
+  "JPNS3007",
+  "JPNS3008",
+  "JPNS3014",
+  "MATH1042",
+  "MGMT8242",
+  "MUSI1501",
+  "MUSI2235",
+  "MUSI7003",
+  "MUSI8005",
+  "PHIL2042",
+  "POLS2126",
+  "REGN8056",
+  "SKRT3003",
+  "SOCR4003",
+  "SOCR8003",
+  "STST1003",
+  "WARS2004",
+  "WARS6006"
+ ],
+ "requests": 0,
+ "cachedHits": 4162,
+ "durationSec": 50
+}

@@ -1,0 +1,104 @@
+[
+ {
+  "code": "VIET1002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/VIET1002",
+  "title": "Vietnamese 1",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Vietnamese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "This course is an introduction to contemporary spoken and written Vietnamese for complete beginners. This course introduces the tones, vowels and consonants, essential syntax and the writing system of the Vietnamese language. By working through a series of contextualised dialogues the students will begin to develop reading, writing, listening and speaking skills. The context of language use focuses on basic greetings, self-introduction and introducing one’s family and friends, time and date and describing one’s daily habits. Attention is given to the social and cultural context of language use. This course will prepare students to proceed to higher levels of Vietnamese.",
+  "requisiteText": "You cannot enrol in this course if you are a native speaker of Vietnamese.\nStudents with previous experience of the language must complete a language proficiency assessment."
+ },
+ {
+  "code": "VIET1003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/VIET1003",
+  "title": "Vietnamese 2",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Vietnamese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "This course builds on Vietnamese 1. It focuses on practical and essential topics for everyday language use such as asking for directions, planning a trip, traveling, distances, modes of transport, shopping and bargaining, and talking about one’s future plans. The course covers important grammatical aspects such as tenses, conjunctions, and more complex particles. Attention is given to the social and cultural context of language use. As the vocabulary and grammatical repertoire of students expands, learning Vietnamese becomes even more exciting. Students will be surprised to see how much they can already express and understand at this stage.",
+  "requisiteText": "To enrol in this course you must have completed VIET1002, undertake a language proficiency assessment or be given permission by the course convener."
+ },
+ {
+  "code": "VIET2002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/VIET2002",
+  "title": "Vietnamese 3",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Vietnamese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Vietnamese 3 is a dynamic, intermediate level course. Students gain comprehensive and communicative skills involved in real-world scenarios that require complex forms of grammatical constructions. This course consolidates and refines students’ ability to naturally employ their Vietnamese language skills acquired at previous levels of study. Through regular feedback and activities encouraging the development of spoken and written communication, students will learn to confidently navigate issues such as health and illness, housing and renting, travel arrangements, and culturally appropriate self-expression. In addition to increasingly complex grammatical structures, this course introduces the Sino-Vietnamese vocabulary and cultural knowledge to prepare students for formal communication in Vietnam.",
+  "requisiteText": "To enrol in this course you must have completed VIET1003, undertake a language proficiency assessment or be given permission by the course convener."
+ },
+ {
+  "code": "VIET2003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/VIET2003",
+  "title": "Vietnamese 4",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Vietnamese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Vietnamese 4 is specifically designed to assist students in their ongoing development of Vietnamese language skills at an upper-Intermediate level, emphasizing active and contextual language production. Alongside this focus on language acquisition and refinement, students will gain an increased understanding of the Vietnamese language that reflects cultural values, and they will learn about traditional and modern Vietnamese society via textual and visual materials composed in Vietnamese. Through the study of contemporary materials in particular, students will become familiar with the language of news media and popular culture.",
+  "requisiteText": "To enrol in this course you must have completed VIET2002, undertake a language proficiency assessment or be given permission by the course convener."
+ },
+ {
+  "code": "VIET3002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/VIET3002",
+  "title": "Vietnamese 5",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Vietnamese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Building upon the second-year Vietnamese courses, this course reinforces students’ Vietnamese skills and develops language skills at an advanced level with an emphasis on active language production. Besides everyday use of the language, students will develop Vietnamese skills to describe their academic interest in Vietnamese. As part of critical thinking skill development, students will critically engage in text analysis and discussions on topics related to their areas of interest such as cultural and socio-economic issues in today’s world and in Vietnam in particular. In addition, students will start developing specialised Vietnamese relevant to their fields of studies.",
+  "requisiteText": "To enrol in this course you must have completed VIET2003, undertake a language proficiency assessment or be given permission by the course convener."
+ },
+ {
+  "code": "VIET3003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/VIET3003",
+  "title": "Vietnamese 6",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Vietnamese",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "The course focuses on academic Vietnamese at an advanced level on topics related to Vietnamese society, culture and history. The course builds up language skills to enable students to conduct independent research on a Vietnam-related topic of their choice. As part of critical thinking skill development, students will engage with, analyse and discuss real-world materials drawn from contemporary Vietnamese media and academic literature. Students will also utilise their critical thinking, analytical and language skills to write up a final written research report in Vietnamese on an approved topic related to their academic interest. Besides, students are also introduced to Vietnamese literature through excerpts of the most prominent classic works as well as works by contemporary Vietnamese authors.",
+  "requisiteText": "To enrol in this course you must have completed VIET3002, undertake a language proficiency assessment or be given permission by the course convener."
+ }
+]

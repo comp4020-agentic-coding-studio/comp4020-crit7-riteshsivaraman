@@ -1,0 +1,70 @@
+[
+ {
+  "code": "MNGL1002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MNGL1002",
+  "title": "Mongolian 1",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Mongolian Language",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Learn from Mongolian language teachers as they instruct you through the Mongolian language live directly from Mongolia! The language of the Mongolian Empire, Mongolian was once the lingua franca of Northeast Asia and has rich literary and oral traditions as well as a vibrant contemporary culture. In this introductory Mongolian course, students will start learning modern Mongolian and the use of Cyrillic script, as well as basic Mongolian pronunciation and grammar. Through learning the language students will also be introduced to Mongolian culture and tradition. Our e-textbook is available online including weekly vocabulary lists, audio, video files and cultural notes. The combination of weekly real time meetings and online materials provides you with a flexible and inspiring way to start learning Mongolian.",
+  "requisiteText": "You cannot enrol in this course if you are a native speaker of Mongolian.\n\nStudents with previous experience of the language must sit a language proficiency assessment."
+ },
+ {
+  "code": "MNGL1003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MNGL1003",
+  "title": "Mongolian 2",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Mongolian Language",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Building upon the skills developed in Mongolian 1, Mongolian 2 introduces students to more complex grammatical points used in everyday communication and supports them in developing the ability to speak and write about the events of daily life. Join our team of expert Mongolian teachers who will guide you to improve your language proficiency to the next level live from Mongolia! Our course is all online including textbook, weekly vocabulary lists, audio and video files as well as cultural notes. The combination of weekly real time meetings and online materials allows you to continue your language learning in a flexible and dynamic way. In addition, students will be introduced to the basic registers of formal and informal language relevant to Mongolian cultural and social situations.",
+  "requisiteText": "To enrol in this course you must have completed MNGL1002, undertake a language proficiency assessment or be given permission by the course convener."
+ },
+ {
+  "code": "MNGL2002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MNGL2002",
+  "title": "Mongolian 3",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Mongolian Language",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "If you have already passed Mongolian 2 (MNGL1003), then this course is for you. Join our team of expert Mongolian teachers who will guide you to improve your language proficiency to low-intermediate level live from Mongolia! This course aims to improve the learner's command of written and spoken Mongolian with a strong focus on the practical comprehension skills needed to participate in everyday communication. Our course is all online including textbook, weekly vocabulary lists, audio and video files as well as cultural notes. Based on the text and other materials we will talk about a series of themes including ethnic diversity, culture, cultural events, informal employment, holiday and studying abroad. The combination of weekly real time meetings and online materials allows you to continue your language learning in a flexible and dynamic way.",
+  "requisiteText": "To enrol in this course you must have completed MNGL1003, undertake a language proficiency assessment or be given permission by the course convener."
+ },
+ {
+  "code": "MNGL2003",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MNGL2003",
+  "title": "Mongolian 4",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Mongolian Language",
+  "college": "ANU College of Asia and the Pacific",
+  "career": "Undergraduate",
+  "description": "Mongolian 4 is the capstone of the Mongolian Language Minor. Join our team of expert Mongolian teachers who will guide you to improve your language proficiency to the next level live from Mongolia! By undertaking this course, students will deepen their command and comprehension of spoken and written Mongolian through the completion of longer oral and written projects. Students will engage in discussion of a wide range of pressing themes related to contemporary Mongolian society, such as gender roles, films, music, politics, diplomacy, crime, economy, migration, education, and health. Our Course is all online including textbook, weekly vocabulary lists, audio and video files as well as cultural notes. The combination of weekly real time meetings and online materials allows you to continue your language learning in a flexible and dynamic way.",
+  "requisiteText": "To enrol in this course you must have completed MNGL2002, undertake a language proficiency assessment or be given permission by the course convener."
+ }
+]

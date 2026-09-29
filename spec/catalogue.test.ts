@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import type { CatalogueFile, CatalogueIndexFile, Period, Rule } from "../src/lib/contracts";
 
@@ -16,6 +16,8 @@ interface Report {
   excluded?: { code: string }[];
   notFound: { code: string }[];
   deadCodes: { code: string; referencedBy: string[] }[];
+  outOfScopeCodes?: { code: string; referencedBy: string[] }[];
+  collegeFilter?: { colleges: string[]; keptCourses: number };
 }
 
 const read = (p: string) => readFileSync(new URL(`../catalogue/${p}`, import.meta.url), "utf8");
@@ -78,7 +80,7 @@ describe("committed catalogue", () => {
   });
 
   it("every COURSE / from code in a rule is in the catalogue or listed dead in the report", () => {
-    const dead = new Set(report.deadCodes.map((d) => d.code));
+    const dead = new Set([...report.deadCodes, ...(report.outOfScopeCodes ?? [])].map((d) => d.code));
     const missing = courses.flatMap((c) =>
       ruleCodes(c.rule)
         .filter((code) => !byCode.has(code) && !dead.has(code))
@@ -94,6 +96,23 @@ describe("committed catalogue", () => {
         .map((o) => `${c.code} -> ${o}`),
     );
     expect(oneWay).toEqual([]);
+  });
+
+  it("holds exactly the CSS + CBE colleges' courses from the raw scrape (by the page's college field)", () => {
+    if (report.mode === "fixture") return;
+    const raw = readdirSync(new URL("../catalogue/raw/", import.meta.url))
+      .filter((f) => /^[A-Z]{4}\.json$/.test(f))
+      .flatMap((f) => JSON.parse(read(`raw/${f}`)) as { code: string; college: string | null }[]);
+    const colleges = report.collegeFilter?.colleges ?? [];
+    expect(colleges).toEqual(["ANU College of Systems and Society", "ANU College of Business and Economics"]);
+    const inScope = (college: string | null) => (college ?? "").split(" / ").some((c) => colleges.includes(c.trim()));
+    const rawByCode = new Map(raw.map((r) => [r.code, r]));
+    const outside = courses.filter((c) => !inScope(rawByCode.get(c.code)?.college ?? null)).map((c) => c.code);
+    expect(outside).toEqual([]);
+    const excluded = new Set((report.excluded ?? []).map((e) => e.code));
+    const missing = raw.filter((r) => inScope(r.college) && !excluded.has(r.code) && !byCode.has(r.code)).map((r) => r.code);
+    expect(missing).toEqual([]);
+    expect(report.collegeFilter?.keptCourses).toBe(courses.length);
   });
 
   it("holds COMP1100 <-> COMP1130 and MATH1013", () => {

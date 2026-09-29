@@ -1,0 +1,156 @@
+[
+ {
+  "code": "HLTH1001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HLTH1001",
+  "title": "Health in the 21st Century",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Health Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course provides an introduction to the health arena. Students completing the course will learn about the biological, behavioural, social and ecological determinants of health and will develop a capacity to view health issues from scientific, social, cultural and policy perspectives using a transdisciplinary approach. Students will gain insight into current and historical health challenges faced locally and globally. They will be introduced not only to issues raised in relation to health service delivery and public health, but also the intersections between them.",
+  "requisiteText": null
+ },
+ {
+  "code": "HLTH1002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HLTH1002",
+  "title": "Research Methods in the Health Sciences",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Health Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course will introduce students to both the theories and practice of research, with a specific emphasis on research in the health arena. Students will learn techniques for identifying a topic for inquiry, reviewing the literature using systematic search techniques, identifying evidence gaps and formulating an answerable research question. The course is designed to help students learn the practical skills of protocol development, including foundational knowledge of sampling, recruitment, data collection and analysis as well as evaluation. In addition, the role of theory, ethics and rigour in research planning and implementation will be introduced, with a particular focus on data management. Maintenance of ethical standards and rigour throughout the research process will be presented in detail. The value and limitations of research results as evidence will also be examined. Students will be introduced to the ways in which disciplinary knowledge is necessary to produce valued evidence, and how and when some research questions will require a transdisciplinary approach that is beyond disciplinary silos and associated models of research.",
+  "requisiteText": "To enrol in this course, you must be enrolled in, or have completed HLTH1001 Health in the 21st Century.\nStudents wishing to enrol must be active in the Bachelor of Health Science (BHLTH) program, or have the permission of the convenor."
+ },
+ {
+  "code": "HLTH2001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HLTH2001",
+  "title": "Health Systems and Policy: An Introduction",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Health Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course will provide students with an introduction to several health systems, various health policies, the concept of health stewardship and provide an opportunity to carry out a rudimentary analysis of health policy. The World Health Organisation model will be outlined and examined. The Australian health care system will be used as a case study to improve student understandings of health systems, health policy, policy analysis and health stewardship. This will include examination of the structures and layers of the health system, funding arrangements, workforce issues, regulatory/governance arrangements in areas such as therapeutic goods and the policy process. A key component of the course will be the issues related to successful navigation of health policy as it frames the health system. Students will also be introduced to comparative health systems and health policy analysis.",
+  "requisiteText": "To enrol in this course you must have successfully completed 24 units towards a degree."
+ },
+ {
+  "code": "HLTH2002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HLTH2002",
+  "title": "Introduction to Global Health: Issues, Theories and Practices",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Health Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course outlines and examines global health issues, theories and practices. A transdisciplinary approach is drawn upon to analyse the current challenges, actors and forms of health governance. Key stakeholders in global health and their roles, including the World Health Organisation, World Bank, the World Trade Organization, philanthropic and private actors, and public/private partnerships are identified and discussed. Major global health policy and development initiatives - in particular, the Sustainable Development Goals - and the translation of these goals and policies into practice are outlined and critically examined. In addition, the Australian health care system will be used as one of the case studies to highlight student understandings of health systems and compare them with other countries and global structures and processes. This will include examination of the structures and layers of health systems, funding arrangements, workforce issues, regulatory/governance arrangements in areas such as therapeutic goods and policy processes.\n\nFor those students with a view to a role in key health agencies, this course provides an insight into the dynamic changes that face the global community in terms of health. For those interested in policy and international relations, this course offers detailed examination of global health, and global and local health governance. Case studies are presented to highlight the key arenas in which global health issues play out. Students will be introduced to comparative health systems analysis.",
+  "requisiteText": "To enrol in this course you must have completed 48 units towards a degree."
+ },
+ {
+  "code": "HLTH3001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HLTH3001",
+  "title": "Aboriginal and Torres Strait Islander Health",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026"
+  ],
+  "subjectName": "Health Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "In this course students will develop their understanding of the health issues confronting Aboriginal and Torres Strait Islander people in the 21st century, and their basis in Aboriginal and Torres Strait Islander post-colonization history. Students will learn about Aboriginal and Torres Strait Islander history and its impact on community, culture and health.",
+  "requisiteText": "To enrol in this course you must have successfully completed a minimum of 48 units of tertiary study."
+ },
+ {
+  "code": "HLTH3002",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HLTH3002",
+  "title": "Professional Practice in Health Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Health Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "This course will require students to apply their understanding of the principles of health research and health/medical ethics to complex case studies of health issues of the past and current century. This will be complemented with professional development workshops on self-awareness, effective teamwork and leadership, developing an evidence based curriculum vitae, addressing key selection criteria and interview skills. An introduction to career paths in Health Science will be given through a series of invited speakers who will present their career experiences and highlights.",
+  "requisiteText": "To enrol in this course you must have successfully completed a minimum of 48 units of tertiary study"
+ },
+ {
+  "code": "HLTH3004",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HLTH3004",
+  "title": "Wicked Problems in Health Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Health Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "Wicked problems are complex, but not insoluble, problems that address important social and cultural issues. They require intensive cross-boundary collaboration to develop solutions to this problem, in this context, for this population. This course is designed to develop the ability of students to work together in a transdisciplinary fashion to understand the debates and challenges underpinning a selected wicked problem. Examples of wicked problems addressed in this course include antimicrobial resistance, anti-vaccination movements, effects of climate change on health, gender-based violence, and racial health disparities.\n\nStudents will learn to identify a wicked problem, and to articulate together different ways of understanding the wicked problem and possible approaches to solving. Skills developed will include dialogic methods to appreciate different disciplinary perspectives; problem-setting as a problem-solving approach; recognising emergent new wicked and tame problems. While learning about wicked problems, they will also be able to learn from a series of introductory lectures by experts describing exemplar wicked problems. Finally students will work in transdisciplinary groups to develop a contextualised approach to problem-solving for an assigned wicked problem.",
+  "requisiteText": "To enrol in this course you must have completed 96 units towards a degree.\n\nIncompatible with HLTH6004 and CHMD8001"
+ },
+ {
+  "code": "HLTH4001",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HLTH4001",
+  "title": "Health and Medicine Honours",
+  "unitsText": "6 to 24 units",
+  "units": 6,
+  "offeredRaw": [
+   "First Semester 2026",
+   "Second Semester 2026"
+  ],
+  "subjectName": "Health Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Undergraduate",
+  "description": "In the Health and Medicine Honours course, you will apply advanced research methods and work under the supervision of an experienced researcher to propose and justify a research project within the broad areas of health science and/or medical research. You will then conduct novel research using appropriate methodologies and time/project management skills. You will analyse and interpret the collected data within the context of the current literature and justify your conclusions, applying learned skills in scientific writing and the effective presentation of information in tabular, graphical and multimedia and in-person presentations. You will develop the ability to effectively respond to critical appraisal of your research outputs and the ability to develop and give effective feedback to peers. This course will involve online and in-person workshops and masterclasses to develop key skills. You will be expected to maintain communication and attend regular progress meetings with the nominated supervisor.",
+  "requisiteText": "To enrol in this course you must be enrolled in the Health and Medicine Honours Specialisation (HLMD-HSPC)."
+ },
+ {
+  "code": "HLTH6004",
+  "origin": "catalogue",
+  "catalogueYear": 2026,
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/HLTH6004",
+  "title": "Wicked Problems in Health Science",
+  "unitsText": "6 units",
+  "units": 6,
+  "offeredRaw": [
+   "Second Semester 2026"
+  ],
+  "subjectName": "Health Science",
+  "college": "ANU College of Science and Medicine",
+  "career": "Postgraduate",
+  "description": "Wicked problems are complex, but not insoluble, problems that address important social and cultural issues. They require intensive cross-boundary collaboration to develop solutions to this problem, in this context, for this population. This course is designed to develop the ability of students to work together in a transdisciplinary fashion to understand the debates and challenges underpinning a selected wicked problem. Examples of wicked problems addressed in this course include antimicrobial resistance, anti-vaccination movements, effects of climate change on health, gender-based violence, and racial health disparities.\n\nStudents will learn to identify a wicked problem, and to articulate together different ways of understanding the wicked problem and possible approaches to solving. Skills developed will include dialogic methods to appreciate different disciplinary perspectives; problem-setting as a problem-solving approach; recognising emergent new wicked and tame problems. While learning about wicked problems, they will also be able to learn from a series of introductory lectures by experts describing exemplar wicked problems. Finally students will work in transdisciplinary groups to develop a contextualised approach to problem-solving for an assigned wicked problem.\n\nNote: This course is co-taught with undergraduate students but assessed separately.",
+  "requisiteText": "Students must be enrolled in MCHAM, VCHAM, MPUBH or VPUBH.\n\nIncompatible with HLTH3004 and CHMD8001"
+ }
+]
