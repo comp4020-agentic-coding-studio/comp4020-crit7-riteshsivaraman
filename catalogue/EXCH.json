@@ -1,0 +1,44 @@
+[
+ {
+  "code": "EXCH5721",
+  "subject": "EXCH",
+  "number": 5721,
+  "level": 5000,
+  "title": "Exchange Program College of Systems and Society (Band 1)",
+  "units": 6,
+  "summary": "Students enrol in this course when they have been approved to participate in a formal exchange with one of the Australian National University's overseas exchange partners.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EXCH5721",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Students enrol in this course when they have been approved to participate in a formal exchange with one of the Australian National University's overseas exchange partners.\n\nFor information regarding exchanges, selection criteria, etc, please go to the following website: Student exchange | ANU College of Systems & Society\n\nBand 1 courses include Agriculture, Forestry, English, mathematics, education, clinical psychology, languages."
+ },
+ {
+  "code": "EXCH5722",
+  "subject": "EXCH",
+  "number": 5722,
+  "level": 5000,
+  "title": "Exchange Program College of Systems and Society (Band 2)",
+  "units": 6,
+  "summary": "Students enrol in this course when they have been approved to participate in a formal exchange with one of the Australian National University's overseas exchange partners.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EXCH5722",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Students enrol in this course when they have been approved to participate in a formal exchange with one of the Australian National University's overseas exchange partners.\n\nFor information regarding exchanges, selection criteria, etc, please go to the following website: Student exchange | ANU College of Systems & Society\n\nBand 2 courses include Computing and IT, other health, engineering, science, environmental studies"
+ }
+]

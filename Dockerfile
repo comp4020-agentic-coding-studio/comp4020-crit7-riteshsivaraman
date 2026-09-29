@@ -32,10 +32,19 @@ RUN pnpm prune --prod
 # --- runtime stage: just the built server and its production deps ----------
 FROM base
 
+# sqlite3 so `flyctl ssh console -C "sqlite3 /data/app.db ..."` can check
+# state in production directly, not through the app
+RUN apt-get update -qq && \
+    apt-get install --no-install-recommends -y sqlite3 && \
+    rm -rf /var/lib/apt/lists/*
+
 COPY --from=build /app/node_modules /app/node_modules
 COPY --from=build /app/dist /app/dist
 # the committed migrations, applied at boot (see src/lib/db.ts)
 COPY --from=build /app/drizzle /app/drizzle
+# the committed catalogue, read with fs relative to /app and upserted into the
+# courses table at boot (src/lib/catalogue-sync.ts); never bundled
+COPY --from=build /app/catalogue /app/catalogue
 
 ENV HOST=0.0.0.0
 ENV PORT=4321

@@ -1,0 +1,74 @@
+[
+ {
+  "code": "EMSC1006",
+  "subject": "EMSC",
+  "number": 1006,
+  "level": 1000,
+  "title": "The Blue Planet: An Introduction to Earth System Science",
+  "units": 6,
+  "summary": "This course provides an introduction to Earth Systems Science, a field of science that investigates how chemical, physical, and biological processes interact to shape and regulate Earth’s environment.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Incompatible with GEOL1006 and EMSC6107.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "EMSC6107",
+   "GEOL1006"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC1006",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course provides an introduction to Earth Systems Science, a field of science that investigates how chemical, physical, and biological processes interact to shape and regulate Earth’s environment. To understand the science behind climate change or the extent current global environmental change is being forced by natural processes and human activities, one should understand the Earth System. Students from both science and non-science backgrounds are welcome. In addition, this is a foundation course for students interested in or wanting to pursue earth, marine or water sciences.\n\n‘The Blue Planet’ will build your understanding of how each part of the Earth system - the atmosphere, hydrosphere, geosphere and biosphere - works and interacts over time. You will learn how energy and matter are transferred around the Earth system through the water, carbon, oxygen, nutrient, geologic and solar cycles, and you will be introduced to feedback mechanisms that can amplify or dampen change. A tour of global change through Earth's history is used to provide context for understanding the modern Earth, including the scientific evidence for global warming. Methods for predicting the future path of global warming and its detrimental effects will be examined. A field trip and practicals provide opportunities for learning via direct observation."
+ },
+ {
+  "code": "EMSC2010",
+  "subject": "EMSC",
+  "number": 2010,
+  "level": 2000,
+  "title": "Data Science for Earth System Scientists",
+  "units": 6,
+  "summary": "Discover how to ask better questions — and find meaningful answers.  Data science is the most powerful tool we have for separating scientific fact from fiction.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course, students must have completed 24 units of prior tertiary study.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course, students must have completed 24 units of prior tertiary study"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC2010",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Discover how to ask better questions — and find meaningful answers.\n\nData science is the most powerful tool we have for separating scientific fact from fiction. In this course, you'll explore practical and relevant problems in Earth and Environmental Sciences by learning how to interpret data, assess uncertainty, model outcomes and make informed decisions. You'll tackle questions like:\n\n“How can I make predictions of the future?”\n\n\"Where should I expend the most effort to improve my results?”\n\n“What accuracy and how many measurements do I need?”\n\n“Is this result meaningful, or just random chance?”\n\n\"Why is this happening and what's driving the change?\"\n\nUsing real-world examples and hands-on activities, you’ll develop analytical thinking and quantitative problem-solving skills that are highly valued across science and industry. This course provides a foundation in essential tools, including data analysis, modelling and statistics, through engaging, problem-based learning tailored to the challenges Earth and Environmental scientists face today."
+ },
+ {
+  "code": "EMSC6107",
+  "subject": "EMSC",
+  "number": 6107,
+  "level": 6000,
+  "title": "The Blue Planet: an Introduction to Earth System Science",
+  "units": 6,
+  "summary": "This course provides an introduction to Earth Systems Science, a field of science that investigates how chemical, physical, and biological processes interact to shape and regulate Earth’s environment.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Incompatible with EMSC1006 and GEOL1006.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "EMSC1006",
+   "GEOL1006"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/EMSC6107",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course provides an introduction to Earth Systems Science, a field of science that investigates how chemical, physical, and biological processes interact to shape and regulate Earth’s environment. To understand the science behind climate change or the extent current global environmental change is being forced by natural processes and human activities, one should understand the Earth System. Students from both science and non-science backgrounds are welcome. In addition, this is a foundation course for students interested in or wanting to pursue earth, marine or water sciences.\n\n‘The Blue Planet’ will build your understanding of how each part of the Earth system - the atmosphere, hydrosphere, geosphere and biosphere - works and interacts over time. You will learn how energy and matter are transferred around the Earth system through the water, carbon, oxygen, nutrient, geologic and solar cycles, and you will be introduced to feedback mechanisms that can amplify or dampen change. A tour of global change through Earth's history is used to provide context for understanding the modern Earth, including the scientific evidence for global warming. Methods for predicting the future path of global warming and its detrimental effects will be examined. A field trip and practicals provide opportunities for learning via direct observation.\n\nNote: This course is co-taught with undergraduate students but assessed separately."
+ }
+]

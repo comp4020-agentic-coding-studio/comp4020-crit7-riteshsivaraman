@@ -1,0 +1,2014 @@
+[
+ {
+  "code": "MATH1003",
+  "subject": "MATH",
+  "number": 1003,
+  "level": 1000,
+  "title": "Algebra and Calculus Methods",
+  "units": 6,
+  "summary": "This is a course covering the elementary methods necessary for mathematical modelling.  Emphasis will be placed on developing facility, technique and use in applications.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "You are not able to enrol in this course if you have previously studied MATH1013 or MATH1113 or MATH1115",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH1013",
+   "MATH1113",
+   "MATH1115"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH1003",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This is a course covering the elementary methods necessary for mathematical modelling. Emphasis will be placed on developing facility, technique and use in applications. Modelling of processes and phenomena which occur in economics, engineering and the physical, environmental and life sciences will be used as a vehicle throughout. This course also provides a pathway to higher level mathematics courses.\n\nThe course will cover functions, trigonometric identities, vectors, limits, continuity, derivatives and integration."
+ },
+ {
+  "code": "MATH1005",
+  "subject": "MATH",
+  "number": 1005,
+  "level": 1000,
+  "title": "Discrete Mathematical Models",
+  "units": 6,
+  "summary": "Introduction to discrete mathematics and its use in mathematical modelling.  Emphasis will be placed on developing facility, technique and use in applications.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Incompatible: MATH6005",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH6005"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH1005",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Introduction to discrete mathematics and its use in mathematical modelling. Emphasis will be placed on developing facility, technique and use in applications. Modelling of processes and phenomena which occur in the physical, environmental and life sciences, especially computer science, will be used as a vehicle throughout. Topics to be covered include: logic and set theory, mathematical reasoning, combinatorics and counting, probability, mathematical induction and recurrence relations, graph theory and networks, matrix arithmetic and Markov chains."
+ },
+ {
+  "code": "MATH1013",
+  "subject": "MATH",
+  "number": 1013,
+  "level": 1000,
+  "title": "Mathematics and Applications 1",
+  "units": 6,
+  "summary": "This course covers single-variable calculus and introductory linear algebra.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "You are not able to enrol in this course if you have previously completed, or are attempting to concurrently enrol in, MATH1113 or MATH1115.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH1003",
+   "MATH1113",
+   "MATH1115"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH1013",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course covers single-variable calculus and introductory linear algebra. The emphasis is on understanding the material such that it both can be applied across a range of fields including the physical and biological sciences, engineering and information technologies, economics and commerce, and can also serve as a base for future mathematics courses. Many applications and connections with other fields will be discussed although not developed in detail. Not all the material will be developed in a rigorous theorem-proof style, although students will see some examples of this and may work some examples themselves. Students interested in a deeper understanding of mathematics and more mathematical/theoretical aspects of topics (including those students who are interested in the more theoretical aspects from engineering, computing, science, and economics) should enrol in MATH1115.\n\nTopics to be covered include:\n\nCalculus - Limits, including infinite limits and limits at infinity. Continuity and global properties of continuous functions. Differentiation, including mean value theorem, chain rule, implicit differentiation, inverse functions, antiderivatives and basic ideas about differential equations. Transcendental functions: exponential and logarithmic functions and their connection with integration, growth and decay, hyperbolic functions. Local and absolute extrema, concavity and inflection points. L'Hopital's rule. Riemann integration and the Fundamental Theorem of Calculus. Techniques of integration including the method of substitution and integration by parts. Volumes.\n\nLinear Algebra - Solution of linear systems of equations. Matrix algebra including matrix inverses, linear transformations, matrix factorisation and subspaces. Determinants. Example applications including computer graphics, the Leontief Input-Output Model, and various linear models in science and engineering. Complex numbers."
+ },
+ {
+  "code": "MATH1014",
+  "subject": "MATH",
+  "number": 1014,
+  "level": 1000,
+  "title": "Mathematics and Applications 2",
+  "units": 6,
+  "summary": "This course continues on from MATH1013.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have completed MATH1013 or MATH1115 or MATH1113. You are not able to enrol in this course if you have previously completed MATH1116.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "MATH1013",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "MATH1115",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "MATH1113",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH1116"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH1014",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course continues on from MATH1013. It emphasises an understanding of the fundamental results from calculus and linear algebra which both can be applied across a range of fields including the physical and biological sciences, engineering and information technologies, economics and commerce, and can also serve as a base for future mathematics courses. Many applications and connections with other fields will be discussed although not developed in detail.\n\nTopics to be covered include:\n\nCalculus - Integration and techniques of integration, including multiple and iterated integrals. Sequences and series. Functions of several variables - visualisation, continuity, partial derivatives, and directional derivatives. Lagrange multipliers.\n\nLinear Algebra - theory and application of Euclidean vector spaces. Vector spaces: linear independence, bases and dimension; eigenvalues and eigenvectors; orthogonality and least squares."
+ },
+ {
+  "code": "MATH1042",
+  "subject": "MATH",
+  "number": 1042,
+  "level": 1000,
+  "title": "Philosophy of the Cosmos",
+  "units": 6,
+  "summary": "A course for science or non-science students jointly offered by Mathematics and Philosophy that aims to provide a conceptual understanding of some of the many faces of the large-scale universe.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "This course is incompatible with PHIL2042.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "PHIL2042"
+  ],
+  "origin": "referenced",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2025/course/MATH1042",
+  "catalogueYear": 2025,
+  "retired": false,
+  "description": "A course for science or non-science students jointly offered by Mathematics and Philosophy that aims to provide a conceptual understanding of some of the many faces of the large-scale universe. We will discuss general issues relating to the nature of philosophy and science, space and time, and the universe as a whole.\n\nNote: This is an HPO. Students who take this option will complete extra work of a more theoretical nature. Some of the assignment and exam questions will be replaced by questions requiring deeper conceptual understanding."
+ },
+ {
+  "code": "MATH1113",
+  "subject": "MATH",
+  "number": 1113,
+  "level": 1000,
+  "title": "Mathematical Foundations for Actuarial Studies",
+  "units": 6,
+  "summary": "This course provides a study of the fundamental concepts of calculus and linear algebra.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "You are not able to enrol in this course if you have previously completed MATH1013 or MATH1115.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH1003",
+   "MATH1013",
+   "MATH1115"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH1113",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course provides a study of the fundamental concepts of calculus and linear algebra. The use and understanding of proof and abstract ideas, will allow students to develop analytical skills which will form a foundation for further study in the quantitative areas of actuarial studies.\n\nCalculus topics to be covered include: limits, continuity, differentiation, inverse functions, transcendental functions, extrema, concavity and inflections, applications of derivatives, Taylor Polynomials, integration, differential equations, functions of several variables, partial derivatives, optimality, gradient and the second derivative test in two variables, double integrals.\n\nLinear Algebra topics to be covered include: complex numbers, solving linear equations, matrix equations, linear independence, linear transformations, matrix operations, matrix inverses, subspaces, dimension and rank, determinants, Cramer's rule, volumes, eigenvalues, eigenvectors."
+ },
+ {
+  "code": "MATH1115",
+  "subject": "MATH",
+  "number": 1115,
+  "level": 1000,
+  "title": "Advanced Mathematics and Applications 1",
+  "units": 6,
+  "summary": "This course begins an in-depth study of the fundamental concepts of calculus and linear algebra, with a particular emphasis on the underlying foundations of mathematics.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "If you have previously completed MATH1013 or MATH1113 then you can only enrol in MATH1115 with the permission of the course convener.",
+  "rule": {
+   "kind": "INFO",
+   "info": "PERMISSION",
+   "text": "If you have previously completed MATH1013 or MATH1113 then you can only enrol in MATH1115 with the permission of the course convener"
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH1003",
+   "MATH1013",
+   "MATH1113"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH1115",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course begins an in-depth study of the fundamental concepts of calculus and linear algebra, with a particular emphasis on the underlying foundations of mathematics. The use and understanding of proof and abstract ideas will allow students to develop analytical skills which will form a base for further study in fundamental mathematics, as well as providing a foundation for a wide range of quantitative areas such as actuarial studies, computer science, economics, engineering, physics and statistics.\n\nTopics to be covered include:\n\nCalculus/Analysis - suprema and infima of sets of real numbers, completeness, Riemann-Darboux definition of integration, introductory formal logic, axioms for the real numbers, convergence, limits, continuity, existence of extrema, differentiation, applications of derivatives, proof of the fundamental theorem of calculus, Taylor polynomials, l'Hospital's rules, inverse functions;\n\nLinear Algebra - solving linear equations, matrix equations, linear independence, matrix transformations, matrix operations, matrix inverses, abstract vector spaces, subspaces, dimension and rank, determinants, Cramer's rule, complex numbers, eigenvectors and eigenvalues.\n\nNote: This is an Honours Pathway Course (HPC).\n\nIt involves extra material and emphasises the use and understanding of proof and abstract ideas to a deeper conceptual level than MATH1013."
+ },
+ {
+  "code": "MATH1116",
+  "subject": "MATH",
+  "number": 1116,
+  "level": 1000,
+  "title": "Advanced Mathematics and Applications 2",
+  "units": 6,
+  "summary": "This course continues on from MATH1115, providing an in-depth development of fundamental concepts of calculus and linear algebra, with a particular emphasis on the underlying foundations of mathematics.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have completed MATH1115 with a mark of 60 or above or MATH1113 with a mark of 80 or above. You may not enrol in MATH1116 if you have previously completed, or are attempting to concurrently enrol in, MATH1014.\n\nYou may not enrol in MATH1116 if you have previously completed MATH1014.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have completed MATH1115 with a mark of 60 or above or MATH1113 with a mark of 80 or above"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH1014"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH1116",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course continues on from MATH1115, providing an in-depth development of fundamental concepts of calculus and linear algebra, with a particular emphasis on the underlying foundations of mathematics. The use and understanding of proof and abstract ideas will allow students to develop analytical skills which will form a base for further study in fundamental mathematics, as well as providing a foundation for a wide range of quantitative areas such as actuarial studies, computer science, economics, engineering, physics and statistics.\n\nTopics to be covered include:\n\nCalculus/Analysis – sequences and series, convergence tests, power series, Taylor series, a short introduction to metric spaces in the context of the calculus of functions of several variables, generalisation of the real analysis theory studied in MATH1115 to multivariable functions including limits and continuity, double integrals, Fubini's theorem, integrability of continuous functions, partial derivatives, gradients and directional derivatives, differentiation of multivariable functions, extreme values, vector-valued functions.\n\nLinear Algebra – subspaces, span, linear independence, bases and dimension, linear maps, duality, eigenvalues and eigenvectors, inner product spaces, Gram-Schmidt orthogonalisation, operators on inner product spaces, the spectral theorem in finite dimensions, singular value decomposition.\n\nNote: This is an Honours Pathway Course. It involves extra material and emphasises the use and understanding of proof and abstract ideas to a deeper conceptual level than MATH1014."
+ },
+ {
+  "code": "MATH2222",
+  "subject": "MATH",
+  "number": 2222,
+  "level": 2000,
+  "title": "Introduction to Mathematical Thinking: Problem-Solving and Proofs",
+  "units": 6,
+  "summary": "This course focuses on the language of mathematical arguments.  Rather than attacking advanced topics, we will use simple mathematics to develop an understanding of how results are established.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Students with excellent results in either the ACT Specialist Mathematics double major, NSW HSC Mathematics Extension 2 or equivalent may take this course together with MATH1115 in the first year. For many students taking MATH1115 in their first year, MATH1005 would be a more appropriate companion choice. If you are not sure which courses to take in your first year, please consult the MSI First-year Coordinator.\n\nAll other students may enrol in this course if they have completed MATH1116 with a mark of at least 50, or MATH1113 with a mark of at least 60, or MATH1005 with a mark of at least 70, or MATH1013 or MATH1014 with a mark of at least 80.\n\nIncompatible: MATH2322, MATH3104, MATH2320, MATH3116 or MATH6222.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "Students with excellent results in either the ACT Specialist Mathematics double major, NSW HSC Mathematics Extension 2 or equivalent may take this course together with MATH1115 in the first year"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "For many students taking MATH1115 in their first year, MATH1005 would be a more appropriate companion choice"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "If you are not sure which courses to take in your first year, please consult the MSI First-year Coordinator"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "All other students may enrol in this course if they have completed MATH1116 with a mark of at least 50, or MATH1113 with a mark of at least 60, or MATH1005 with a mark of at least 70, or MATH1013 or MATH1014 with a mark of at least 80"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "MATH2320",
+   "MATH2322",
+   "MATH3104",
+   "MATH3116",
+   "MATH6222"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH2222",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course focuses on the language of mathematical arguments. Rather than attacking advanced topics, we will use simple mathematics to develop an understanding of how results are established. We begin with clearly stated and plausible assumptions or axioms and then develop a more and more complex theory from them. The course, and the lecturer, will have succeeded if you finish the course able to construct valid arguments of your own and to criticise those that are presented to you."
+ },
+ {
+  "code": "MATH2301",
+  "subject": "MATH",
+  "number": 2301,
+  "level": 2000,
+  "title": "Games, Graphs and Machines",
+  "units": 6,
+  "summary": "This course is designed to introduce students to abstraction and its role in modeling problems mathematically.  It focuses on discrete mathematics with elements of computer science, and is designed for students with a broad range of backgrounds.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have completed MATH1005, MATH1013, MATH1113, or MATH1115.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "MATH1005",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "MATH1013",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "MATH1113",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "MATH1115",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH2301",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course is designed to introduce students to abstraction and its role in modeling problems mathematically. It focuses on discrete mathematics with elements of computer science, and is designed for students with a broad range of backgrounds.\n\nTopics to be covered include:\n\nFoundations: Relations on sets, including equivalence and partial order relations, properties of functions, arithmetic of integers modulo n.\n\nTopics in graph theory: Applications of the adjacency matrix, graph colouring and the chromatic polynomial.\n\nPartially ordered sets: Incidence algebras and the relationship to the inclusion-exclusion principle.\n\nAutomata and languages: Finite state automata and the equivalence with regular languages, the pumping lemma.\n\nGame Theory: Game graphs, impartial combinatorial games, matrix games."
+ },
+ {
+  "code": "MATH2305",
+  "subject": "MATH",
+  "number": 2305,
+  "level": 2000,
+  "title": "Applied Mathematics I",
+  "units": 6,
+  "summary": "This course shows the modelling process in the context of differential equations and case studies from a number of areas such as population dynamics, economics, electric circuits, mechanical systems, fluid flow, physics and astrophysics.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "If you have successfully completed MATH1113 with a mark of at least 80 and are currently enrolled in MATH1014, then you may enrol in this course. Otherwise to enrol in this course you must have successfully completed either MATH1116 or MATH1014. Students who have achieved a mark of over 80 in MATH1013 may enrol in this course with a concurrent enrolment in MATH1014.\n\nIncompatible: MATH6405",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "If you have successfully completed MATH1113 with a mark of at least 80 and are currently enrolled in MATH1014, then you may enrol in this course"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Otherwise to enrol in this course you must have successfully completed either MATH1116 or MATH1014"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Students who have achieved a mark of over 80 in MATH1013 may enrol in this course with a concurrent enrolment in MATH1014"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "MATH6405"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH2305",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course shows the modelling process in the context of differential equations and case studies from a number of areas such as population dynamics, economics, electric circuits, mechanical systems, fluid flow, physics and astrophysics. Analytic methods from the elementary theory of differential equations and calculus will be provided to allow for the analysis of the various models being investigated. The numerical package MATLAB will be used to study model behaviour and to obtain deeper understanding of the consequences of analytical studies.\n\nTopics to be covered include:\n\nFirst order differential equations; second order linear equations; systems of first order equations; nonlinear differential equations; power series solutions.\n\nAdvanced Vector Calculus - Curves and surfaces in three dimensions; parametric representations; curvilinear coordinate systems; Surface and volume integrals; gradient, divergence and curl; identities involving vector differential operators; Green's theorem, Stokes' theorem and the divergence theorem."
+ },
+ {
+  "code": "MATH2306",
+  "subject": "MATH",
+  "number": 2306,
+  "level": 2000,
+  "title": "Applied Mathematics II",
+  "units": 6,
+  "summary": "In physics, economics and engineering, we frequently encounter quantities (for example energy) that depend on many variables (such as position, velocity, temperature).",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed MATH2305.\n\nIncompatible: MATH6406",
+  "rule": {
+   "kind": "COURSE",
+   "code": "MATH2305",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH6406"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH2306",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "In physics, economics and engineering, we frequently encounter quantities (for example energy) that depend on many variables (such as position, velocity, temperature). Usually, this dependency is expressed through a partial differential equation, and solving these equations is important for understanding these complex relationships.\n\nIn this course, we will study first- and second-order partial differential equations. The solution methods studied in this course will include the method of characteristics, separation of variables, Fourier series and Fourier transforms.\n\nThis course will be useful for majors in economics, mathematical finance, engineering and physics. We will illustrate the theory with examples from these disciplines."
+ },
+ {
+  "code": "MATH2307",
+  "subject": "MATH",
+  "number": 2307,
+  "level": 2000,
+  "title": "Bioinformatics and Biological Modelling",
+  "units": 6,
+  "summary": "The course begins with a detailed discussion of sequence alignment algorithms that are critical for assessing the relatedness of DNA, RNA and amino acid sequences.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed 12 units of 1000 levels Mathematics (MATH) courses including either MATH1014 or MATH1116. You are not able to enrol in this course if you have completed MATH6100.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "12 units of 1000 levels Mathematics (MATH) courses including either MATH1014"
+    },
+    {
+     "kind": "COURSE",
+     "code": "MATH1116",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "MATH6100"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH2307",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The course begins with a detailed discussion of sequence alignment algorithms that are critical for assessing the relatedness of DNA, RNA and amino acid sequences. We then proceed to studying Markov chains and hidden Markov models as important examples of biological models for such sequences. The main algorithms and several applications will be explained. Finally, a broad range of examples of applications of mathematics in biology, both at the molecular and macroscopic level, will be given. The course is accompanied by computer lab sessions to gain practice in R, a language and environment for statistical and mathematical computing and graphics."
+ },
+ {
+  "code": "MATH2320",
+  "subject": "MATH",
+  "number": 2320,
+  "level": 2000,
+  "title": "Advanced Analysis 1: Metric Spaces and Applications",
+  "units": 6,
+  "summary": "Analysis 1 is a foundational course in Mathematics, leading on to other areas of analysis, such as topology and measure theory, complex analysis, functional analysis, and harmonic analysis.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed MATH1116 with a mark of 60 or above. You are not able to enrol in this course if you have previously completed MATH3116.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed MATH1116 with a mark of 60 or above"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH2222",
+   "MATH3116"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH2320",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Analysis 1 is a foundational course in Mathematics, leading on to other areas of analysis, such as topology and measure theory, complex analysis, functional analysis, and harmonic analysis. It also provides important tools for application areas such as theoretical computer science, physics, and engineering.\n\nTopics to be covered include elementary set theory, metric spaces, sequences, uniform convergence, continuity, the contraction mapping principle, integral equations and differential equations, topological spaces.\n\nNote: This is an Honours Pathway Course: It emphasises mathematical rigour and proof and develops the application of the theory to topics such as differential equations."
+ },
+ {
+  "code": "MATH2322",
+  "subject": "MATH",
+  "number": 2322,
+  "level": 2000,
+  "title": "Advanced Algebra 1: Groups, Rings and Linear Algebra",
+  "units": 6,
+  "summary": "Algebra 1 is a foundational course in Mathematics, introducing some of the key concepts of modern algebra.  The course leads on to other areas of algebra such as Galois Theory, Algebraic Topology and Algebraic Geometry.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have completed MATH1116 with a mark of at least 60.\n\nStudents who are concurrently enrolled in MATH1116 and have completed at least one of MATH1115 with a mark of at least 90 or MATH2222 with a mark of at least 90, can contact the course convener to request a permission code.\n\nIncompatible: MATH3104 and MATH6118",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "To enrol in this course you must have completed MATH1116 with a mark of at least 60"
+    },
+    {
+     "kind": "INFO",
+     "info": "PERMISSION",
+     "text": "Students who are concurrently enrolled in MATH1116 and have completed at least one of MATH1115 with a mark of at least 90 or MATH2222 with a mark of at least 90, can contact the course convener to request a permission code"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "MATH2222",
+   "MATH3104",
+   "MATH6118"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH2322",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Algebra 1 is a foundational course in Mathematics, introducing some of the key concepts of modern algebra. The course leads on to other areas of algebra such as Galois Theory, Algebraic Topology and Algebraic Geometry. It also provides important tools for other areas such as theoretical computer science, physics, and engineering.\n\nTopics to be covered include the theory of groups and rings:\n\nGroup Theory - permutation groups; abstract groups, subgroups, cyclic and dihedral groups; homomorphisms; cosets, Lagrange's theorem, quotient groups; group actions; Sylow theory.\n\nRing Theory - rings and fields, polynomial rings, factorisation; homomorphisms, factor rings.\n\nAdditional topics may be selected from the following:\n\nLinear Algebra - unitary matrices, Hermitian matrices, canonical forms.\n\nModules - free modules, presentations, classification of finitely generated abelian groups.\n\nNote: This is an Honours Pathway Course. It emphasises mathematical rigour and proof and develops modern algebra from an abstract viewpoint."
+ },
+ {
+  "code": "MATH3015",
+  "subject": "MATH",
+  "number": 3015,
+  "level": 3000,
+  "title": "Stochastic Analysis with Financial Applications",
+  "units": 6,
+  "summary": "This course gives a rigorous mathematical introduction to stochastic processes and their calculus, stochastic differential equations, and their applications in finance.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed MATH3029 or MATH3320. You are not able to enrol in this course if you have completed MATH6115.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "MATH3029",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "MATH3320",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH6115"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3015",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course gives a rigorous mathematical introduction to stochastic processes and their calculus, stochastic differential equations, and their applications in finance. The first half of the course covers martingales, Brownian motion, Ito integration, stochastic differential equations driven by a Brownian motion, and their applications to pricing European options using the Black-Scholes model. The second half of the course covers a range of more advanced topics to be selected by the students. This includes change of measure theory, its application to pricing complex options, relationship between stochastic analysis and partial differential equations (and its computational uses), basics of Malliavin stochastic calculus of variations and its application in risk management, as well as topics in statistics (such as model fitting), economics (such as interest rates modelling) or other disciplines (such as generative AI in computer science, quantum field theory in physics, or insect behaviour in biology).\n\nThe first part of the course aims to develop a common perspective and language, anchored in mathematical analysis, and building on a large part of the undergraduate curriculum in Mathematics (calculus, differential equations, analysis in metric spaces, measure theory, probability theory).\n\nIn the second part of the course, students develop an ability to use their mathematical knowledge in collaborative transdisciplinary complex problem solving. This is done by working in groups on projects that are too complex to be fully completed in a short period of time, and with collaborators who have some common language, but different backgrounds (typically some collaborators with a primary training in mathematics, and some with a primary training in finance or economics). The projects highlight the different modes of communication and value systems of its potential stakeholders, including academics from different disciplines, as well as practitioners from different industries (e.g. what makes an argument convincing to a mathematician vs an economist, and what kind of solutions need to be achieved in investment banking vs in government).\n\nThe course operates as a flipped classroom, with technical content delivered through videos and lecture notes, and in person activities focusing on discussions. These discussions aim to develop communication skills as well as critical thinking skills. They involve technical discussions of the key parts of proofs and the nature of assumptions in theorems. They also involve historical and societal perspectives on the development of the ideas expressed through the theorems and their proofs, as well as their use in complex problems.\n\nThe course provides a sound foundation for progress to honours and post-graduate courses in probability, analysis, or differential equations. It also provides both technical and communication training for working in a range of professions (such as quantitative analyst or data scientist in government, or in finance, insurance, or information technology industries).\n\nNote: This is an Honours Pathway Course. It continues the development of sophisticated mathematical techniques and their application begun in MATH3029 or MATH3320."
+ },
+ {
+  "code": "MATH3029",
+  "subject": "MATH",
+  "number": 3029,
+  "level": 3000,
+  "title": "Probability Theory with Applications",
+  "units": 6,
+  "summary": "The course introduces probability theory, including probability spaces, random variables, conditional probability and independence, limit theorems, and Markov chains, with an introduction to Brownian motion.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed STAT2001 or MATH2320 or MATH3116 or STAT2005. Incompatible with MATH6109.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "STAT2001",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "MATH2320",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "MATH3116",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "STAT2005",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH6109"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3029",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The course introduces probability theory, including probability spaces, random variables, conditional probability and independence, limit theorems, and Markov chains, with an introduction to Brownian motion. The course will provide students with a solid theoretical foundation for probability theory, as well as describing some practical applications of probability in information theory and option pricing.\n\nThe course will provide a sound foundation to progress to MATH3015 (Stochastic Analysis with Financial Applications), as well as other honours and post-graduate courses emphasizing the theory of mathematical finance and stochastic analysis.\n\nNote: This is an HPC."
+ },
+ {
+  "code": "MATH3062",
+  "subject": "MATH",
+  "number": 3062,
+  "level": 3000,
+  "title": "Fractal Geometry and Chaotic Dynamics",
+  "units": 6,
+  "summary": "This course introduces basic mathematical techniques of fractal geometry and dynamical systems, aimed towards understanding and modeling natural shapes and forms from leaves to coastlines.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed any 2000 or 3000 level Mathematics (MATH) course with a mark of 60 or greater or MATH1116 with a mark of 80 or greater. Incompatible with MATH6116.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed any 2000 or 3000 level Mathematics (MATH) course with a mark of 60 or greater or MATH1116 with a mark of 80 or greater"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH6116"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3062",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces basic mathematical techniques of fractal geometry and dynamical systems, aimed towards understanding and modeling natural shapes and forms from leaves to coastlines. Basic topological and geometrical language to describe and model rough, (\"fractal\") objects is developed. Relationships between fractal geometry and discrete dynamical systems and chaotic dynamics are emphasized, including symbolic dynamics, stability of attractors, bifurcations and routes to chaos.\n\nThe key ideas are introduced in an intuitive way. The key definitions and theorems are stated but few proofs of theorems are given. However, all students are invited to sit in on the HPO special lectures which provide the rigorous mathematical foundations.\n\nIn computer laboratory sessions students learn how the mathematical results can be applied in practice by running and modifying simple Python programs."
+ },
+ {
+  "code": "MATH3133",
+  "subject": "MATH",
+  "number": 3133,
+  "level": 3000,
+  "title": "Environmental Mathematics",
+  "units": 6,
+  "summary": "This is an Honours Pathway Course.  It emphasises a sophisticated and critical analysis of environmental models and offered in association with Fenner School.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed MATH2305 or MATH2405. You are not able to enrol in this course if you have completed MATH6102",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "MATH2305",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "MATH2405",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH6102"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3133",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This is an Honours Pathway Course. It emphasises a sophisticated and critical analysis of environmental models and offered in association with Fenner School.\n\nFocus of the course will be on critical assessment of models used in published papers and one or more models will be coded and analysed to document their performance, limitations and potential improvements. This will include:\n\ncritical reviewing of papers\n\nanalytical exploration of the models described in the papers\n\ncoding models used in the papers and testing against actual or synthetic data\n\ndeveloping potentially improved model structures\n\nThe assessment of the course will be based on written reports on selected papers, as well as a project exploring a particular paper/model in more detail. The key component of the project will be proposing potential improvements in the work done, and doing at least some initial work on evaluating these improvements. This will include components of:\n\nanalytical evaluation of model behaviour\n\ncoding the original and improved versions of the model and conducting sensitivity analysis\n\nexploration of structure of uncertainty in model inputs.\n\nNote: This course will have shared lectures with MATH6102 but will have different tutorials and assessment which will emphasise a more sophisticated approach to the evaluation of the models."
+ },
+ {
+  "code": "MATH3228",
+  "subject": "MATH",
+  "number": 3228,
+  "level": 3000,
+  "title": "Advanced Complex Analysis",
+  "units": 6,
+  "summary": "This course is intended both for mathematics students continuing to honours work and for other students using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed MATH2320 with a mark of 60 and above.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed MATH2320 with a mark of 60 and above"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3228",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course is intended both for mathematics students continuing to honours work and for other students using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics.\n\nTopics to be covered include:\n\nComplex differentiability, conformal mapping; complex integration, Cauchy integral theorems, Taylor series representation, isolated singularities, residue theorem and applications to real integration. Topics chosen from: argument principle, Riemann surfaces, theorems of Picard, Weierstrass and Mittag-Leffler.\n\nNote: This is an HPC. It emphasises mathematical rigour and proof and develops the material from an abstract viewpoint."
+ },
+ {
+  "code": "MATH3301",
+  "subject": "MATH",
+  "number": 3301,
+  "level": 3000,
+  "title": "Number Theory and Cryptography",
+  "units": 6,
+  "summary": "The need to protect information being transmitted electronically, such as the widespread use of electronic payment, has transformed the importance of cryptography.  Most of the modern types of cryptosystems rely on number theory for their theoretical background.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed:\n\n*MATH1014 with a mark of at least 80 and 72 units of tertiary study, which must include a minimum of 24 units of MATH coded courses, or\n*MATH1116 with a mark of at least 60 and 72 units of tertiary study, which must include a minimum of 24 units of MATH coded courses, or\nAt least 1x 2000- or 3000- level MATH course\n\nIncompatible: MATH6114.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed: *MATH1014 with a mark of at least 80 and 72 units of tertiary study, which must include a minimum of 24 units of MATH coded courses, or *MATH1116 with a mark of at least 60 and 72 units of tertiary study, which must include a minimum of 24 units of MATH coded courses, or At least 1x 2000- or 3000- level MATH course"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH6114"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3301",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The need to protect information being transmitted electronically, such as the widespread use of electronic payment, has transformed the importance of cryptography. Most of the modern types of cryptosystems rely on number theory for their theoretical background. This course introduces elementary number theory, with an emphasis on those parts that have applications to cryptography, and shows how the theory can be applied to cryptography.\n\nNumber theory topics will be chosen from: the Euclidean algorithm, greatest common divisor, prime numbers, prime factorisation, primality testing, modular arithmetic, the Chinese remainder theorem, diophantine equations, sums of squares, Euler's function, Fermat's little theorem, primitive roots, quadratic residues, quadratic reciprocity, Pell's equation, continued fractions, Diophantine approximation.\n\nCryptography topics will be chosen from: symmetric key cryptosystems, including classical examples and a brief discussion of modern systems such as DES and AES, public key systems such as RSA and discrete logarithm systems, cryptanalysis (code breaking) using some of the number theory developed.\n\nHonours Pathway Option (HPO):\n\nStudents who take the HPO will complete extra work of a more theoretical nature. The assignments will be replaced by alternative assignments requiring deeper conceptual understanding and/or a project, and the final exam will contain alternative questions requiring deeper conceptual understanding. Students will opt in to the HPO by registering their intent in the course site in the Learning Management System."
+ },
+ {
+  "code": "MATH3320",
+  "subject": "MATH",
+  "number": 3320,
+  "level": 3000,
+  "title": "Advanced Analysis 2: Lebesgue Integration and Hilbert Spaces",
+  "units": 6,
+  "summary": "This course is intended both for mathematics students continuing to honours work and for other students using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed MATH2320 with a mark of 60 or above.\n\nIncompatible: MATH6212",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed MATH2320 with a mark of 60 or above"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH6212"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3320",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course is intended both for mathematics students continuing to honours work and for other students using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics.\n\nTopics to be covered will normally be chosen from the following, with some additions and variations each year:\n\nMeasure and Integration - Lebesgue outer measure, measurable sets and integration, Lebesgue integral and basic properties, convergence theorems, connection with Riemann integration, Fubini's theorem, approximation theorems for measurable sets, Lusin's theorem, Egorov's theorem, Lp spaces, general measure theory, Radon-Nikodym theorem\n\nHilbert Spaces - elementary properties such as Cauchy Schwartz inequality and polarization, nearest point, orthogonal complements, linear operators, Riesz duality, adjoint operator, basic properties or unitary, self adjoint and normal operators, review and discussion of these operators in the complex and real setting, applications to L2 spaces and integral operators, projection operators, orthonormal sets, Bessel's inequality, Fourier expansion, Parseval's equality, applications to Fourier series.\n\nThis is an Honours Pathway Course. It emphasises mathematical rigour and proof and develops modern analysis from an abstract viewpoint."
+ },
+ {
+  "code": "MATH3325",
+  "subject": "MATH",
+  "number": 3325,
+  "level": 3000,
+  "title": "Advanced Functional Analysis, Spectral Theory, and Applications",
+  "units": 6,
+  "summary": "This course is intended both for mathematics students and for those using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed MATH3320 with a mark of 60 or above. Incompatible with MATH6214.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed MATH3320 with a mark of 60 or above"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH6214"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3325",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course is intended both for mathematics students and for those using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics. Selected topics from below will be covered:\n\nHilbert spaces - orthogonality, bounded linear operators, Riesz representation, adjoints, unitary operators, compact operators, the spectral theorem for compact self-adjoint operators with applications.\n\nMeasure theory - abstract measure theory, integration, signed measures, total variation, absolute continuity, the Lebesgue-Radon-Nikodym theorem, Hausdorff measure.\n\nBanach spaces - bounded linear operators, dual spaces, adjoints, the Hahn-Banach theorem, Baire category theorem and its consequences (uniform boundedness principle, closed graph and open mapping theorems), weak convergence, sequential version of Banach-Alaoglu theorem, interpolation.\n\nApplications to harmonic analysis and partial differential equations, such as the Fourier transform, maximal functions, singular integrals, Strichartz estimates.\n\nNote: This is an an Honours Pathway Course (HPC). It emphasises mathematical rigour and proof and continues the development of modern analysis from a theoretical viewpoint."
+ },
+ {
+  "code": "MATH3342",
+  "subject": "MATH",
+  "number": 3342,
+  "level": 3000,
+  "title": "Advanced Differential Geometry",
+  "units": 6,
+  "summary": "This is a special topics course which introduces students to the key concepts and techniques of Differential Geometry.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed MATH2320 with a mark of 60 and above.\n\nIncompatible: MATH6212",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed MATH2320 with a mark of 60 and above"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH6205",
+   "MATH6212"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3342",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This is a special topics course which introduces students to the key concepts and techniques of Differential Geometry. Possible topics include:\n\nSurfaces in Euclidean space, general differentiable manifolds, tangent spaces and vector fields, differential forms, Riemannian manifolds, Gauss-Bonnet theorem.\n\nNote: This is an Honours Pathway course. It emphasises mathematical rigour and proof and develops the fundamental ideas of differential geometry from an abstract viewpoint."
+ },
+ {
+  "code": "MATH3345",
+  "subject": "MATH",
+  "number": 3345,
+  "level": 3000,
+  "title": "Advanced Algebra 2: Field extensions and Galois Theory",
+  "units": 6,
+  "summary": "Just as there is a formula for solving a quadratic equation, there are similar formulae for solving the general cubic and quartic.  Galois theory provides a solution to the corresponding problem for quintics --- there is no such formula in this case!",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed either MATH2322 or MATH3104 with a mark of 60 and above.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed either MATH2322 or MATH3104 with a mark of 60 and above"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3345",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Just as there is a formula for solving a quadratic equation, there are similar formulae for solving the general cubic and quartic. Galois theory provides a solution to the corresponding problem for quintics --- there is no such formula in this case! Galois theory also enables us to prove (despite regular claims to the contrary) that there is no ruler and compass construction for trisecting an angle. More broadly, the purpose of Galois theory is to study polynomials at a deep level by using symmetries between the roots. This is a pervasive theme in modern mathematics, and Galois theory is traditionally where one first encounters it.\n\nTopics to be covered include:\n\nGalois Theory - fields, field extensions, normal extensions, separable extensions. Revision of group theory, abelian and soluble groups.The main theorem of Galois theory.Solubility of equations by radicals. Finite fields. Cyclotomic fields.\n\nNote: This is an HPC. It emphasises mathematical rigour and proof and continues the development of modern analysis from an abstract viewpoint."
+ },
+ {
+  "code": "MATH3349",
+  "subject": "MATH",
+  "number": 3349,
+  "level": 3000,
+  "title": "Special Topics in Mathematics",
+  "units": 6,
+  "summary": "Selected topics, normally fourth year honours and postgraduate courses, may be made available to undergraduate students.  Interested students should consult the year coordinator or attend the honours course meeting on first Monday of each semester.  Note: This is an HPC.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "Incompatible with MATH6209",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH6209"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3349",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Selected topics, normally fourth year honours and postgraduate courses, may be made available to undergraduate students. Interested students should consult the year coordinator or attend the honours course meeting on first Monday of each semester.\n\nNote: This is an HPC. Students wishing to take topics in this course will be expected to have outstanding results in second year Honours Pathway Courses."
+ },
+ {
+  "code": "MATH3351",
+  "subject": "MATH",
+  "number": 3351,
+  "level": 3000,
+  "title": "Advanced Topics in Mathematical Physics",
+  "units": 6,
+  "summary": "This course introduces students to key concepts and techniques in mathematical physics.  Topics will be taken from mathematical areas relevant to contemporary research in mathematical physics, and will typically be either a topic in Algebra or (Differential) Geometry.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed:\nMATH2306 (Applied Mathematics II) with a mark of 60 or above\nAND either\nMATH2322 (Advanced Algebra 1)\nMATH2320 (Advanced Analysis 1)\nIncompatible with MATH6211.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed: MATH2306 (Applied Mathematics II) with a mark of 60 or above AND either MATH2322 (Advanced Algebra 1) MATH2320 (Advanced Analysis 1)"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH6211"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3351",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces students to key concepts and techniques in mathematical physics. Topics will be taken from mathematical areas relevant to contemporary research in mathematical physics, and will typically be either a topic in Algebra or (Differential) Geometry. The course will be mathematical in nature and does not require a background in physics.\n\nNote: This is an Honours Pathway Course (HPC):\n\nIt emphasises mathematical rigour and proof for a range of advanced mathematical physics topics."
+ },
+ {
+  "code": "MATH3353",
+  "subject": "MATH",
+  "number": 3353,
+  "level": 3000,
+  "title": "Advanced Mathematical Bioinformatics",
+  "units": 6,
+  "summary": "This course begins with a brief review of some of the areas of probability and statistics needed for applications to bioinformatics problems.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed MATH2305, MATH2307, and either STAT1003 or STAT1008. Incompatible with MATH6208.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed MATH2305, MATH2307, and either STAT1003 or STAT1008"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH6208"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3353",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course begins with a brief review of some of the areas of probability and statistics needed for applications to bioinformatics problems. Typical problems addressed by bioinformaticians are identifying functionally different parts of a genome, searching DNA or protein databases to find sequences which are functionally similar to a given query sequence, or inferring the relatedness of different species by measuring the similarity of their genomes. The course will cover the mathematical theory behind algorithms commonly used by biologists and also give examples of current research.\n\nNote: This is an Honours Pathway Course. It emphasises mathematical rigour for a range of advanced Bioinformatics topics."
+ },
+ {
+  "code": "MATH3354",
+  "subject": "MATH",
+  "number": 3354,
+  "level": 3000,
+  "title": "Advanced Topics in Algebra",
+  "units": 6,
+  "summary": "This course introduces students to key concepts and techniques in advanced algebra.  Topics will be taken from contemporary research areas in Algebra.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed MATH3345. Incompatible with MATH6216.",
+  "rule": {
+   "kind": "COURSE",
+   "code": "MATH3345",
+   "concurrent": false
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH6216"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3354",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces students to key concepts and techniques in advanced algebra. Topics will be taken from contemporary research areas in Algebra.\n\nPossible topics include:\n\nAlgebraic number theory, Analytic number theory, Algebraic geometry and scheme theory, Sheaf theory, Derived and Triangulated categories, Algebraic curves and Riemann surfaces\n\nNote: This is an HPC. It emphasizes mathematical rigour and proof and continues the development of modern algebra from an abstract viewpoint."
+ },
+ {
+  "code": "MATH3501",
+  "subject": "MATH",
+  "number": 3501,
+  "level": 3000,
+  "title": "Scientific and Industrial Modelling",
+  "units": 6,
+  "summary": "The use of mathematical models has grown rapidly in recent years, owing to the advent of cheap and powerful computers, expanding from applications in the physical and earth sciences to the biological and environmental sciences, and now into industry and commerce.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed either 12 units of other 2000-level Mathematics (MATH) courses with a mark of 60 or above, or MATH2305. Incompatible with MATH6103.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "12 units of other 2000-level Mathematics (MATH) courses with a mark of 60 or above"
+    },
+    {
+     "kind": "COURSE",
+     "code": "MATH2305",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "MATH6103"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3501",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The use of mathematical models has grown rapidly in recent years, owing to the advent of cheap and powerful computers, expanding from applications in the physical and earth sciences to the biological and environmental sciences, and now into industry and commerce.\n\nIn this course we study:\n\nthe process of starting with an initial succinct non-mathematical description of a problem,\n\nformulate associated mathematical models,\n\nintroduce new mathematical techniques and then determine and interpret solutions that are useful in a real life context.\n\nGeneral computational and mathematical techniques and strategies will be introduced by examining specific scientific and industrial problems.\n\nTopics to be covered include\n\nModel type selection and formulation,\n\nData analysis techniques (time/space and frequency domain),\n\nState Space and Transfer Function Models,\n\nModel Structure Identification,\n\nTesting and Sensitivity Analysis.\n\nComputations will be done using modern high level scientific computing environments such as SCILAB or PYTHON."
+ },
+ {
+  "code": "MATH3511",
+  "subject": "MATH",
+  "number": 3511,
+  "level": 3000,
+  "title": "Scientific Computing",
+  "units": 6,
+  "summary": "This course explores elements of scientific computing, focusing on methods for solving or approximating the solution of calculus and linear algebra problems associated with real-world applications.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed one of MATH1116 or MATH2305 or MATH2320.\n\nIncompatible with MATH6111.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "COURSE",
+     "code": "MATH1116",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "MATH2305",
+     "concurrent": false
+    },
+    {
+     "kind": "COURSE",
+     "code": "MATH2320",
+     "concurrent": false
+    }
+   ]
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH6111"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3511",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course explores elements of scientific computing, focusing on methods for solving or approximating the solution of calculus and linear algebra problems associated with real-world applications. By drawing on non-trivial problems from disciplines including physics, engineering and chemistry, and sophisticated scientific computing and visualisation environments, students are introduced to the basic computational concepts of stability, accuracy and efficiency. New numerical methods and techniques are developed to solve progressively more challenging problems.\n\nHonours Pathway Option (HPO):\n\nTo do this option, students must have completed STAT2001 or a mark of 60% or more in either MATH2305 or MATH1116. The HPO expands on the theoretical aspects of the underlying algorithms, and uses alternative assessment to assess these theoretical aspects."
+ },
+ {
+  "code": "MATH3512",
+  "subject": "MATH",
+  "number": 3512,
+  "level": 3000,
+  "title": "Matrix Computations",
+  "units": 6,
+  "summary": "This course introduces important algorithms and techniques of scientific computing, focussing on the areas of linear algebra and matrix computations.  The course will present both theoretical and practical aspects of the algorithms.",
+  "offered": [],
+  "requisiteText": "To enrol in this course you must have successfully completed either MATH2305, MATH 2405, MATH2320, MATH3116 or MATH3511 with a mark of 60 and above. Incompatible with MATH6112.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed either MATH2305, MATH2405, MATH2320, MATH3116 or MATH3511 with a mark of 60 and above"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH6112"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3512",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces important algorithms and techniques of scientific computing, focussing on the areas of linear algebra and matrix computations. The course will present both theoretical and practical aspects of the algorithms. The course is highly relevant to students from disciplines such as science, engineering or economics where skills in numerical computations are important.\n\nThis is an HPC, taught at a level requiring greater conceptual understanding than MATH3511."
+ },
+ {
+  "code": "MATH3514",
+  "subject": "MATH",
+  "number": 3514,
+  "level": 3000,
+  "title": "Numerical Optimisation",
+  "units": 6,
+  "summary": "This course introduces important algorithms and techniques of scientific computing, focussing on the area of numerical optimisation.  The course will present both theoretical and practical aspects of the algorithms.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed either MATH2305, MATH 2405, MATH2320, MATH3116 or MATH3511 with a mark of 60 and above. You are not able to enrol in this course if you have completed MATH6119.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed either MATH2305, MATH2405, MATH2320, MATH3116 or MATH3511 with a mark of 60 and above"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH6119"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH3514",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces important algorithms and techniques of scientific computing, focussing on the area of numerical optimisation. The course will present both theoretical and practical aspects of the algorithms. The course is highly relevant to students from disciplines such as science, engineering or economics where skills in numerical computations are important.\n\nThis is an HPC, taught at a level requiring greater conceptual understanding than MATH3511."
+ },
+ {
+  "code": "MATH4005",
+  "subject": "MATH",
+  "number": 4005,
+  "level": 4000,
+  "title": "Thesis and Presentations in Mathematics",
+  "units": 6,
+  "summary": "Thesis and presentations comprises honours research and two seminar talks.  The thesis contributes 47% to the overall mark and the presentations contribute the remaining 3% of the grade.",
+  "offered": [
+   "SUMMER",
+   "S1",
+   "WINTER",
+   "S2"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH4005",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Thesis and presentations comprises honours research and two seminar talks. The thesis contributes 47% to the overall mark and the presentations contribute the remaining 3% of the grade. Honours students are also required to take four 6-unit courses during the year, and students should check the Department of Mathematics third/fourth year course page for a list of available Honours and special topics courses. MATH4005 is a variable unit course, and students should enrol in a total of 24 units per semester.\n\nResearch Work: Research thesis (60 to 100 pages long). It should normally have the form of an in-depth survey article on a particular topic in pure or applied mathematics."
+ },
+ {
+  "code": "MATH4201",
+  "subject": "MATH",
+  "number": 4201,
+  "level": 4000,
+  "title": "Topics in Computational Maths Honours",
+  "units": 6,
+  "summary": "This course will introduce students to current research trends in an area of computational mathematics.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you need to be undertaking the MATH-HSPC Honours specialisation.\nIncompatible with MATH6201 and MATH8201.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you need to be undertaking the MATH-HSPC Honours specialisation"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH6201",
+   "MATH8201"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH4201",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course will introduce students to current research trends in an area of computational mathematics. Topics covered each year will vary but will cover one or more of those listed below, or even new emerging topics:\n\nData mining algorithms\n\nMultiscale and multilevel techniques\n\nThe numerical solution of PDEs\n\nOptimisation, approximation in particular of high-dimensional functions\n\nAlgorithms for the solution of linear systems of equations including iterative methods."
+ },
+ {
+  "code": "MATH4202",
+  "subject": "MATH",
+  "number": 4202,
+  "level": 4000,
+  "title": "Theory of Partial Differential Equations Honours",
+  "units": 6,
+  "summary": "The course will discuss the three main classes of equations, elliptic, parabolic and hyperbolic.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you need to be undertaking the MATH-HSPC Honours specialisation.\nTo enrol in this course you must have successfully completed MATH3320 with a mark of 60 or above.\nIncompatible with MATH6202 and MATH8202.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "To enrol in this course you need to be undertaking the MATH-HSPC Honours specialisation"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "To enrol in this course you must have successfully completed MATH3320 with a mark of 60 or above"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "MATH6202",
+   "MATH8202"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH4202",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The course will discuss the three main classes of equations, elliptic, parabolic and hyperbolic. It is intended both for mathematics students continuing to honours work and for other students using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics.\n\nTopics to be covered will include fundamental solutions, maximum principles, regularity (smoothness) of solutions, variational problems, Holder and Sobolev spaces."
+ },
+ {
+  "code": "MATH4204",
+  "subject": "MATH",
+  "number": 4204,
+  "level": 4000,
+  "title": "Algebraic Topology Honours",
+  "units": 6,
+  "summary": "Algebraic topology studies properties of topological spaces and maps between them by associating algebraic invariants (fundamental groups, homology groups, cohomology groups) to each space.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you need to be undertaking the MATH-HSPC Honours specialisation.\nTo enrol in this course you must have successfully completed MATH2322 or MATH3104 and completion of one of MATH3345, MATH3320 or MATH3342.\nIncompatible with MATH6204 and MATH8204.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "To enrol in this course you need to be undertaking the MATH-HSPC Honours specialisation"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "To enrol in this course you must have successfully completed MATH2322 or MATH3104 and completion of one of MATH3345, MATH3320 or MATH3342"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "MATH6204",
+   "MATH8204"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH4204",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Algebraic topology studies properties of topological spaces and maps between them by associating algebraic invariants (fundamental groups, homology groups, cohomology groups) to each space. This course gives a solid introduction to fundamental ideas and results that are employed nowadays in most areas of mathematics, theoretical physics and computer science. This course aims to understand some fundamental ideas in algebraic topology; to apply discrete, algebraic methods to solve topological problems; to develop some intuition for how algebraic topology relates to concrete topological problems.\n\nTopics to be covered include:\n\nFundamental group and covering spaces; Brouwer fixed point theorem and Fundamental theorem of algebra; Homology theory and cohomology theory; Jordan-Brouwer separation theorem, Lefschetz fixed theorem; some additional topics (Orientation, Poincare duality, if time permits)"
+ },
+ {
+  "code": "MATH4343",
+  "subject": "MATH",
+  "number": 4343,
+  "level": 4000,
+  "title": "Foundations of Mathematics",
+  "units": 6,
+  "summary": "This course is a critical approach to the foundations of mathematics.  In other mathematics classes, the philosophical concepts at the most basic foundations are usually treated naively.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you need to be undertaking the MATH-HSPC Honours specialisation.\nIncompatible with MATH3343, MATH6203 and MATH8343.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you need to be undertaking the MATH-HSPC Honours specialisation"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH3343",
+   "MATH6203",
+   "MATH8343"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH4343",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course is a critical approach to the foundations of mathematics. In other mathematics classes, the philosophical concepts at the most basic foundations are usually treated naively. The question of what exactly a number is, or what a set or a proof or an algorithm are, is completely ignored. Some evidence that these matters are not insubstantial is that in the early twentieth century, naive attempts to address them by the great logicians of the time led to famous paradoxes and a period known as the Crisis in Foundations of Mathematics.\n\nThis course will address these matters directly and rigorously. It spends a few weeks on each of the following topics:\n\nFirst order logic\n\nAxiomatisation of set theory\n\nModel theory\n\nComputability\n\nGodel's Incompleteness Theorem\n\nOther topics in logic and set theory\n\nTo enrol in this course you need to be undertaking the MATH-HSPC Honours specialisation."
+ },
+ {
+  "code": "MATH4349",
+  "subject": "MATH",
+  "number": 4349,
+  "level": 4000,
+  "title": "Special Topics in Mathematics",
+  "units": 6,
+  "summary": "Selected topics are available each year.  The topics vary from year to year and are advertised on the MSI website in the first few weeks before the semester.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH4349",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Selected topics are available each year. The topics vary from year to year and are advertised on the MSI website in the first few weeks before the semester. Interested students should consult the course convener or attend the honours course meeting on the first Monday of each semester."
+ },
+ {
+  "code": "MATH6005",
+  "subject": "MATH",
+  "number": 6005,
+  "level": 6000,
+  "title": "Discrete Mathematical Models",
+  "units": 6,
+  "summary": "Introduction to discrete mathematics and its use in mathematical modelling.  Emphasis will be placed on developing facility, technique and use in applications.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "CECS students must be enrolled in a Graduate Diploma of Computing or a Master of Computing to enrol in this course.\n\nIncompatible: MATH1005",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "CECS students must be enrolled in a Graduate Diploma of Computing or a Master of Computing to enrol in this course"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH1005"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6005",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Introduction to discrete mathematics and its use in mathematical modelling. Emphasis will be placed on developing facility, technique and use in applications. Modelling of processes and phenomena which occur in the physical, environmental and life sciences, especially computer science, will be used as a vehicle throughout. Topics to be covered include: logic and set theory, combinatorics and counting, probability, induction and recurrence relations, graph theory and networks, matrix arithmetic and Markov chains.\n\nNote: This course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "MATH6100",
+  "subject": "MATH",
+  "number": 6100,
+  "level": 6000,
+  "title": "Bioinformatics and Biological Modelling",
+  "units": 6,
+  "summary": "The course begins with a detailed discussion of sequence alignment algorithms that are critical for assessing the relatedness of DNA, RNA and amino acid sequences.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must be studying a Master of Mathematical Sciences, Master of Biotechnology, Master of Biotechnology (Advanced), Master of Science (Advanced) in Quantitative Biology and Bioinformatics or Master of Science in Quantitative Biology and Bioinformatics.\nYou are not able to enrol in this course if you have completed MATH2307.",
+  "rule": {
+   "kind": "INFO",
+   "info": "PROGRAM",
+   "text": "Master of Mathematical Sciences or Master of Biotechnology or Master of Biotechnology (Advanced) or Master of Science (Advanced) in Quantitative Biology and Bioinformatics or Master of Science in Quantitative Biology and Bioinformatics"
+  },
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH2307"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6100",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The course begins with a detailed discussion of sequence alignment algorithms that are critical for assessing the relatedness of DNA, RNA and amino acid sequences. We then proceed to studying Markov chains and hidden Markov models as important examples of biological models for such sequences. The main algorithms and several applications will be explained. Finally, a broad range of examples of applications of mathematics in biology, both at the molecular and macroscopic level, will be given. These may include current research being done at the ANU and readings published research papers. The course is accompanied by computing exercises which explore the implementation of algorithms and their assessment though analysis of synthetic data.\n\nThis course is co-taught with undergraduate students but assessed separately, with extra assignment questions set at an advanced level."
+ },
+ {
+  "code": "MATH6102",
+  "subject": "MATH",
+  "number": 6102,
+  "level": 6000,
+  "title": "Environmental Modelling and Integrated Assessment",
+  "units": 6,
+  "summary": "Offered in association with Fenner School.  In this course the major model types used to represent environmental systems are studied.  Mathematical emphasis on how they are constructed will use the theory of inverse problems while the practical emphasis uses systems methodology.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "You are not able to enrol in this course if you have completed MATH3133",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH3133"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6102",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Offered in association with Fenner School.\n\nIn this course the major model types used to represent environmental systems are studied. Mathematical emphasis on how they are constructed will use the theory of inverse problems while the practical emphasis uses systems methodology. The focus will be on hydrological systems and their basic processes, combined with the constraints imposed by the limitations of real observational data.\n\nIt will be assumed that students have a reasonable grasp of different model types (time series, PDE/ODE-based models, frequency domain models) as well as understanding of the issue of uncertainty in model inputs, structure and observed outputs.\n\nThe assessment of the course will be based on written reports on selected papers, as well as a project exploring a particular paper/model in more detail. The key component of the project will be proposing potential improvements in the work done, and doing at least some initial work on evaluating these improvements. This will include components of:\n\nanalytical evaluation of model behaviour\n\ncoding the original and improved versions of the model and conducting sensitivity analysis\n\nexploration of structure of uncertainty in model inputs.\n\nPropagating uncertainty in inputs through the model\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately."
+ },
+ {
+  "code": "MATH6103",
+  "subject": "MATH",
+  "number": 6103,
+  "level": 6000,
+  "title": "Scientific and Industrial Modelling",
+  "units": 6,
+  "summary": "The use of mathematical models has grown rapidly in recent years, owing to the advent of cheap and powerful computers, expanding from applications in the physical and earth sciences to the biological and environmental sciences, and now into industry and commerce.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed either MATH2305 or equivalent, or 12 units of 2000-8000-level Mathematics (MATH) courses.\n\nIncompatible with MATH3501",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed either MATH2305 or equivalent, or 12 units of 2000-8000-level Mathematics (MATH) courses"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH3501"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6103",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The use of mathematical models has grown rapidly in recent years, owing to the advent of cheap and powerful computers, expanding from applications in the physical and earth sciences to the biological and environmental sciences, and now into industry and commerce.\n\nIn this course we study:\n\nThe process of starting with an initial succinct non-mathematical description of a problem\nFormulate associated mathematical models.\n\nIntroduce new mathematical techniques and then determine and interpret solutions that are useful in a real life context.\n\nGeneral computational and mathematical techniques and strategies will be introduced by examining specific scientific and industrial problems.\n\nThe topics to be covered in this course include:\n\nModel type selection and formulation\n\nData analysis techniques (time/space and frequency domain)\n\nState Space and Transfer Function Models\n\nModel Structure Identification\n\nTesting and Sensitivity Analysis\n\nComputations will be done using modern high level scientific computing environments such as SCILAB or PYTHON.\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately."
+ },
+ {
+  "code": "MATH6109",
+  "subject": "MATH",
+  "number": 6109,
+  "level": 6000,
+  "title": "Probability Theory with Applications",
+  "units": 6,
+  "summary": "The course introduces probability theory, including probability spaces, random variables, conditional probability and independence, limit theorems, and Markov chains, with an introduction to Brownian motion.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "You are not able to enrol in this course if you have completed MATH3029.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH3029"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6109",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The course introduces probability theory, including probability spaces, random variables, conditional probability and independence, limit theorems, and Markov chains, with an introduction to Brownian motion. The course will provide students with a solid theoretical foundation for probability theory, as well as describing some practical applications of probability in information theory and option pricing.\n\nThe course will provide a sound foundation to progress to MATH6115 Stochastic Analysis with Financial Applications, as well as other post-graduate courses emphasizing the theory of mathematical finance and stochastic analysis."
+ },
+ {
+  "code": "MATH6110",
+  "subject": "MATH",
+  "number": 6110,
+  "level": 6000,
+  "title": "Analysis 1: Metric spaces and Applications",
+  "units": 6,
+  "summary": "This course introduces the key concepts of modern abstract analysis.  The philosophy of this course is that modern analysis plays a fundamental role in mathematics itself and in applications to areas such as physics, computer science, economics and engineering.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course, students should have tertiary knowledge of mathematics equivalent to MATH1116.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course, students should have tertiary knowledge of mathematics equivalent to MATH1116"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6110",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces the key concepts of modern abstract analysis. The philosophy of this course is that modern analysis plays a fundamental role in mathematics itself and in applications to areas such as physics, computer science, economics and engineering.\n\nTopics to be covered include elementary set theory, metric spaces, sequences, uniform convergence, continuity, the contraction mapping principle, integral equations and differential equations, topological spaces. The special topic for MATH6110 students has, for example, previously included an introduction to one or more of the following topics: axiomatic set theory; the construction of the natural numbers, integers, rationals and reals; the p-adic numbers; harmonic analysis; numerical analysis; the prime number theorem.\n\nNote: This course is partially co-taught with the undergraduate course MATH2320 but will be assessed separately. Masters students will have a separate additional class each week on an additional special topic, and additional assessment item(s)."
+ },
+ {
+  "code": "MATH6111",
+  "subject": "MATH",
+  "number": 6111,
+  "level": 6000,
+  "title": "Scientific Computing",
+  "units": 6,
+  "summary": "This course explores elements of scientific computing, focusing on methods for solving or approximating the solution of calculus and linear algebra problems associated with real-world applications.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Incompatible with MATH3511",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH3511"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6111",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course explores elements of scientific computing, focusing on methods for solving or approximating the solution of calculus and linear algebra problems associated with real-world applications. By drawing on non-trivial problems from disciplines including physics, engineering and chemistry, and sophisticated scientific computing and visualisation environments, students are introduced to the basic computational concepts of stability, accuracy and efficiency. New numerical methods and techniques are developed to solve progressively more challenging problems.\n\nNote: Graduate students attend joint classes with undergraduates but will be assessed separately. The assessment will have a greater focus on more theoretical aspects of the material."
+ },
+ {
+  "code": "MATH6112",
+  "subject": "MATH",
+  "number": 6112,
+  "level": 6000,
+  "title": "Matrix Computations",
+  "units": 6,
+  "summary": "This course is aimed at students studying in science, engineering or economics who need to understand both the theoretical and practical aspects of the important algorithms and techniques of scientific computing, focussing on the areas of linear algebra.",
+  "offered": [],
+  "requisiteText": "Incompatible with MATH3512",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH3512"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6112",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course is aimed at students studying in science, engineering or economics who need to understand both the theoretical and practical aspects of the important algorithms and techniques of scientific computing, focussing on the areas of linear algebra. Students are encouraged to apply their learning to a specific research problem of their choosing.\n\nNote: Graduate students attend joint classes with undergraduates but will be assessed separately"
+ },
+ {
+  "code": "MATH6114",
+  "subject": "MATH",
+  "number": 6114,
+  "level": 6000,
+  "title": "Number Theory and Cryptography",
+  "units": 6,
+  "summary": "The need to protect information being transmitted electronically, such as the widespread use of electronic payment, has transformed the importance of cryptography.  Most of the modern types of cryptosystems rely on number theory for their theoretical background.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "Incompatible: MATH3301.",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH3301"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6114",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The need to protect information being transmitted electronically, such as the widespread use of electronic payment, has transformed the importance of cryptography. Most of the modern types of cryptosystems rely on number theory for their theoretical background. This course introduces elementary number theory, with an emphasis on those parts that have applications to cryptography, and shows how the theory can be applied to cryptography.\n\nNumber theory topics will be chosen from: the Euclidean algorithm, greatest common divisor, prime numbers, prime factorisation, primality testing, modular arithmetic, the Chinese remainder theorem, diophantine equations, sums of squares, Euler's function, Fermat's little theorem, primitive roots, quadratic residues, quadratic reciprocity, Pell's equation, continued fractions, Diophantine approximation.\n\nCryptography topics will be chosen from: symmetric key cryptosystems, including classical examples and a brief discussion of modern systems such as DES and AES, public key systems such as RSA and discrete logarithm systems, cryptanalysis (code breaking) using some of the number theory developed.\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately. The additional assessment will consist of assignments requiring deeper conceptual understanding and/or a project, and the final exam will contain alternative questions requiring deeper conceptual understanding."
+ },
+ {
+  "code": "MATH6115",
+  "subject": "MATH",
+  "number": 6115,
+  "level": 6000,
+  "title": "Stochastic Analysis with Financial Applications",
+  "units": 6,
+  "summary": "This course gives a rigorous mathematical introduction to stochastic processes, stochastic differential equations, and their applications in finance.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you should have completed the equivalent of MATH6109/3029 or MATH6212/3320. You are not able to enrol in this course if you have completed MATH3015.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course, you should have completed the equivalent of MATH6109/3029 or MATH6212/3320"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH3015"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6115",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course gives a rigorous mathematical introduction to stochastic processes, stochastic differential equations, and their applications in finance. The first half of the course covers martingales, Poisson processes, Brownian motion, Ito integration, and stochastic differential equations driven by a Brownian motion. The second half of the course covers a range of more advanced topics to be selected by the students. This includes option pricing and investment optimisation, basics of Malliavin's stochastic calculus of variations, Black-Scholes formula and hedging, as well as aspects of the relationship between stochastic analysis and partial differential equations.\n\nStochastic Analysis with Financial Applications provides an accessible but mathematically rigorous introduction to financial mathematics and quantitative finance.\n\nThis course is co-taught with undergraduate students but assessed separately. Assessment will include a research project."
+ },
+ {
+  "code": "MATH6116",
+  "subject": "MATH",
+  "number": 6116,
+  "level": 6000,
+  "title": "Fractal Geometry and Chaotic Dynamics",
+  "units": 6,
+  "summary": "This course introduces basic mathematical techniques of fractal geometry and dynamical systems, aimed towards understanding and modeling natural shapes and forms from leaves to coastlines.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Incompatible with MATH3062",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH3062"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6116",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces basic mathematical techniques of fractal geometry and dynamical systems, aimed towards understanding and modeling natural shapes and forms from leaves to coastlines. Basic topological and geometrical language to describe and model rough, (\"fractal\") objects is developed. Relationships between fractal geometry and discrete dynamical systems and chaotic dynamics are emphasized, including symbolic dynamics, stability of attractors, bifurcations and routes to chaos.\n\nThe key ideas are introduced in an intuitive way. The key definitions and theorems are stated but few proofs of theorems are given. However, graduate students will have to attend additional lectures which will provide rigorous mathematical foundations and will be assessed separately from undergraduate students.\n\nIn computer laboratory sessions students learn how the mathematical results can be applied in practice by running and modifying simple Python programs."
+ },
+ {
+  "code": "MATH6118",
+  "subject": "MATH",
+  "number": 6118,
+  "level": 6000,
+  "title": "Algebra 1: Groups, Rings and Advanced Linear Algebra",
+  "units": 6,
+  "summary": "Algebra 1 is a foundational course in Mathematics, introducing some of the key concepts of modern algebra.  The course leads on to other areas of algebra such as Galois Theory, Algebraic Topology and Algebraic Geometry.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you should have an earned mark of 60+ in a course equivalent to MATH1116.\n\nA permission code is required to enrol in this course.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "To enrol in this course, you should have an earned mark of 60+ in a course equivalent to MATH1116"
+    },
+    {
+     "kind": "INFO",
+     "info": "PERMISSION",
+     "text": "A permission code is required to enrol in this course"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "MATH2322"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6118",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Algebra 1 is a foundational course in Mathematics, introducing some of the key concepts of modern algebra. The course leads on to other areas of algebra such as Galois Theory, Algebraic Topology and Algebraic Geometry. It also provides important tools for other areas such as theoretical computer science, physics, and engineering.\n\nTopics to be covered include the theory of groups and rings:\n\nGroup Theory - permutation groups; abstract groups, subgroups, cyclic and dihedral groups; homomorphisms; cosets, Lagrange's theorem, quotient groups; group actions; Sylow theory.\n\nRing Theory - rings and fields, polynomial rings, factorisation; homomorphisms, factor rings.\n\nAdditional topics may be selected from the following:\n\nLinear Algebra - unitary matrices, Hermitian matrices, canonical forms.\n\nModules - free modules, presentations, classification of finitely generated abelian groups.\n\nNote: Graduate students attend joint classes with undergraduates, but they are assessed separately"
+ },
+ {
+  "code": "MATH6119",
+  "subject": "MATH",
+  "number": 6119,
+  "level": 6000,
+  "title": "Numerical Optimisation",
+  "units": 6,
+  "summary": "This course introduces important algorithms and techniques of scientific computing, focusing on the area of numerical optimisation.  The course will present both theoretical and practical aspects of the algorithms.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "You are not able to enrol in this course if you have completed MATH3514",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH3514"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6119",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces important algorithms and techniques of scientific computing, focusing on the area of numerical optimisation. The course will present both theoretical and practical aspects of the algorithms. The course is highly relevant to students from disciplines such as science, engineering or economics where skills in numerical computations are important.\n\nNote: Graduate students attend joint classes with undergraduates but will be assessed separately."
+ },
+ {
+  "code": "MATH6205",
+  "subject": "MATH",
+  "number": 6205,
+  "level": 6000,
+  "title": "Differential Geometry",
+  "units": 6,
+  "summary": "This course introduces students to the key concepts and techniques of Differential Geometry.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Incompatible: MATH3342",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH3342"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6205",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces students to the key concepts and techniques of Differential Geometry. Possible topics include:\n\nSurfaces in Euclidean space\n\nGeneral differentiable manifolds\n\nTangent spaces and vector fields\n\nDifferential forms\n\nRiemannian manifolds\n\nGauss-Bonnet theorem\n\nNote: Graduate students attend joint classes with undergraduates but are assessed separately."
+ },
+ {
+  "code": "MATH6208",
+  "subject": "MATH",
+  "number": 6208,
+  "level": 6000,
+  "title": "Advanced Mathematical Bioinformatics",
+  "units": 6,
+  "summary": "This course begins with a brief review of some of the areas of probability and statistics needed for applications to bioinformatics problems.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed MATH2305/6405, MATH2307/6100 or equivalent, and either STAT1003 or STAT1008 or BIOL2202/6202 or equivalent\n\nIncompatible with MATH3353",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed MATH2305/6405, MATH2307/6100 or equivalent, and either STAT1003 or STAT1008 or BIOL2202/6202 or equivalent"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH3353"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6208",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course begins with a brief review of some of the areas of probability and statistics needed for applications to bioinformatics problems. Typical problems addressed by bioinformaticians are identifying functionally different parts of a genome, searching DNA or protein databases to find sequences which are functionally similar to a given query sequence, or inferring the relatedness of different species by measuring the similarity of their genomes. The course will cover the mathematical theory behind algorithms commonly used by biologists and also give examples of current research.\n\nFurthermore, in consultation with the course lecturer, students will (i) select a research topic related to this course, and through reading of professional articles, acquire a fundamental knowledge of that topic. (ii) Write a report (2500 word limit) on the selected topic, explaining fundamental concepts and highlight key questions currently researched in the field. (iii) Demonstrate effective oral communication skills by presenting complex concepts to staff and other students in a 20-minute seminar, based on the report, as well as answer 10 minutes of questions.\n\nNote: This course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "MATH6209",
+  "subject": "MATH",
+  "number": 6209,
+  "level": 6000,
+  "title": "Special Topic in Mathematical Sciences",
+  "units": 6,
+  "summary": "This course will introduce students to topics of current interest, taking advantage of the expertise of visitors and staff. Note: Graduate students attend joint classes with undergraduates but will be assessed separately.",
+  "offered": [
+   "SUMMER",
+   "S1",
+   "S2"
+  ],
+  "requisiteText": "Incompatible with MATH3349",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH3349"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6209",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course will introduce students to topics of current interest, taking advantage of the expertise of visitors and staff.\n\nNote: Graduate students attend joint classes with undergraduates but will be assessed separately."
+ },
+ {
+  "code": "MATH6211",
+  "subject": "MATH",
+  "number": 6211,
+  "level": 6000,
+  "title": "Topics in Mathematical Physics",
+  "units": 6,
+  "summary": "This course introduces students to key concepts and techniques in mathematical physics.  Topics will be taken from mathematical areas relevant to contemporary research in mathematical physics, and will typically be either a topic in Algebra or (Differential) Geometry.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have obtained a mark of 60 or above in MATH6406 (Applied Mathematics II) and in at least one of MATH6118 (Advanced Algebra 1) and MATH6110 (Advanced Analysis 1).\nIncompatible with MATH3351.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have obtained a mark of 60 or above in MATH6406 (Applied Mathematics II) and in at least one of MATH6118 (Advanced Algebra 1) and MATH6110 (Advanced Analysis 1)"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH3351"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6211",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces students to key concepts and techniques in mathematical physics. Topics will be taken from mathematical areas relevant to contemporary research in mathematical physics, and will typically be either a topic in Algebra or (Differential) Geometry. The course will be mathematical in nature and does not require a background in physics.\n\nNote: Graduate students attend joint classes with undergraduates but will be assessed separately."
+ },
+ {
+  "code": "MATH6212",
+  "subject": "MATH",
+  "number": 6212,
+  "level": 6000,
+  "title": "Analysis 2: Lebesgue Integration and Hilbert Spaces",
+  "units": 6,
+  "summary": "This course is intended both for continuing mathematics students and for other students using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course, you should have an earned mark of 60+ in a course equivalent to MATH2320/MATH6110 or equivalent.\n\nIncompatible: MATH3320",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course, you should have an earned mark of 60+ in a course equivalent to MATH2320/MATH6110 or equivalent"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH3320",
+   "MATH3342"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6212",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course is intended both for continuing mathematics students and for other students using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics.\n\nTopics to be covered will be selected from the following, with some additions and variations each year:\n\nMeasure and Integration - Lebesgue outer measure, measurable sets and integration, Lebesgue integral and basic properties, convergence theorems, connection with Riemann integration, Fubini's theorem, approximation theorems for measurable sets, Lusin's theorem, Egorov's theorem, Lp spaces, general measure theory, Radon-Nikodym theorem\n\nHilbert Spaces - elementary properties such as Cauchy Schwartz inequality and polarization, nearest point, orthogonal complements, linear operators, Riesz duality, adjoint operator, basic properties or unitary, self adjoint and normal operators, review and discussion of these operators in the complex and real setting, applications to L2 spaces and integral operators, projection operators, orthonormal sets, Bessel's inequality, Fourier expansion, Parseval's equality, applications to Fourier series.\n\nNote: Graduate students attend joint classes with undergraduates but will be assessed separately."
+ },
+ {
+  "code": "MATH6213",
+  "subject": "MATH",
+  "number": 6213,
+  "level": 6000,
+  "title": "Complex Analysis",
+  "units": 6,
+  "summary": "This course is intended both for continuing mathematics students and for other students using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course, you should have an earned mark of 60+ in a course equivalent to MATH2320/MATH6110. Students with a mark of 50-59 in a course equivalent to MATH2320/MATH6110 should consult with the convener regarding the suitability of this course.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "To enrol in this course, you should have an earned mark of 60+ in a course equivalent to MATH2320/MATH6110"
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "Students with a mark of 50-59 in a course equivalent to MATH2320/MATH6110 should consult with the convener regarding the suitability of this course"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6213",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course is intended both for continuing mathematics students and for other students using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics.\n\nTopics to be covered include:\n\nComplex differentiability\n\nConformal mapping\n\nComplex integration\n\nCauchy integral theorems\n\nTaylor series representation\n\nIsolated singularities\n\nResidue theorem and applications to real integration\n\nTopics chosen from:\n\nArgument principle\n\nRiemann surfaces\n\nRiemann Mapping Theorem\n\nTheorems of Picard, Weierstrass and Mittag-Leffler\n\nNote: Graduate students attend joint classes with undergraduates but will be assessed separately."
+ },
+ {
+  "code": "MATH6214",
+  "subject": "MATH",
+  "number": 6214,
+  "level": 6000,
+  "title": "Advanced Functional Analysis, Spectral Theory, and Applications",
+  "units": 6,
+  "summary": "This course is intended both for mathematics students and for those using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you must have successfully completed the equivalent of MATH6212/3320 with a mark of 60 or above. Incompatible with MATH3325.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you must have successfully completed the equivalent of MATH6212/3320 with a mark of 60 or above"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH3325"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6214",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course is intended both for mathematics students and for those using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics. Selected topics from below will be covered:\n\nHilbert spaces - orthogonality, bounded linear operators, Riesz representation, adjoints, unitary operators, compact operators, the spectral theorem for compact self-adjoint operators with applications.\n\nMeasure theory - abstract measure theory, integration, signed measures, total variation, absolute continuity, the Lebesgue-Radon-Nikodym theorem, Hausdorff measure.\n\nBanach spaces - bounded linear operators, dual spaces, adjoints, the Hahn-Banach theorem, Baire category theorem and its consequences (uniform boundedness principle, closed graph and open mapping theorems), weak convergence, sequential version of Banach-Alaoglu theorem, interpolation.\n\nApplications to harmonic analysis and partial differential equations, such as the Fourier transform, maximal functions, singular integrals, Strichartz estimates.\n\nNote: Graduate students attend joint classes with undergraduates enrolled in MATH3325 but will be assessed separately."
+ },
+ {
+  "code": "MATH6215",
+  "subject": "MATH",
+  "number": 6215,
+  "level": 6000,
+  "title": "Algebra 2: Field extensions and Galois Theory",
+  "units": 6,
+  "summary": "Just as there is a formula for solving a quadratic equation, there are similar formulae for solving the general cubic and quartic.  Galois theory provides a solution to the corresponding problem for quintics --- there is no such formula in this case!",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6215",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Just as there is a formula for solving a quadratic equation, there are similar formulae for solving the general cubic and quartic. Galois theory provides a solution to the corresponding problem for quintics --- there is no such formula in this case! Galois theory also enables us to prove (despite regular claims to the contrary) that there is no ruler and compass construction for trisecting an angle.\n\nTopics to be covered include:\n\nGalois Theory - fields\n\nField extensions\n\nNormal extensions\n\nSeparable extensions\n\nRevision of group theory, abelian and soluble groups\n\nGalois' Theorem\n\nSolubility of equations by radicals\n\nFinite fields\n\nCyclotomic fields\n\nNote: Graduate students attend joint classes with undergraduates but will be assessed separately."
+ },
+ {
+  "code": "MATH6216",
+  "subject": "MATH",
+  "number": 6216,
+  "level": 6000,
+  "title": "Advanced Topics in Algebra",
+  "units": 6,
+  "summary": "This course introduces students to key concepts and techniques in advanced algebra.  Topics will be taken from contemporary research areas in Algebra.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "Incompatible with MATH3354",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH3354"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6216",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course introduces students to key concepts and techniques in advanced algebra. Topics will be taken from contemporary research areas in Algebra.\n\nPossible topics include:\n\nAlgebraic number theory, Analytic number theory, Algebraic geometry and scheme theory, Sheaf theory, Derived and Triangulated categories, Algebraic curves and Riemann surfaces"
+ },
+ {
+  "code": "MATH6222",
+  "subject": "MATH",
+  "number": 6222,
+  "level": 6000,
+  "title": "Introduction to Mathematical Thinking: Problem-Solving and Proofs",
+  "units": 6,
+  "summary": "This course focuses on the language of mathematical arguments.  Rather than attacking advanced topics, we will use simple mathematics to develop an understanding of how results are established.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Incompatible with MATH2222",
+  "rule": null,
+  "parseStatus": "parsed",
+  "incompatible": [
+   "MATH2222"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6222",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course focuses on the language of mathematical arguments. Rather than attacking advanced topics, we will use simple mathematics to develop an understanding of how results are established. We begin with clearly stated and plausible assumptions or axioms and then develop a more and more complex theory from them. The course, and the lecturer, will have succeeded if you finish the course able to construct valid arguments of your own and to criticise those that are presented to you.\n\nNote: This course is co-taught with undergraduate students but assessed separately."
+ },
+ {
+  "code": "MATH6405",
+  "subject": "MATH",
+  "number": 6405,
+  "level": 6000,
+  "title": "Applied Mathematics I: Ordinary Differential Equations and Vector Calculus",
+  "units": 6,
+  "summary": "This course shows the modelling process in the context of differential equations and case studies from a number of areas such as population dynamics, economics, electric circuits, mechanical systems, fluid flow, physics and astrophysics.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "Pre-requisite: to enrol in this course you must have completed undergraduate mathematics courses equivalent to MATH1013 and MATH1014, as determined by the Mathematics Masters Convenor.\n\nIncompatible: MATH2305, MATH2405",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "Pre-requisite: to enrol in this course you must have completed undergraduate mathematics courses equivalent to MATH1013 and MATH1014, as determined by the Mathematics Masters Convenor"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH2305",
+   "MATH2405"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6405",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course shows the modelling process in the context of differential equations and case studies from a number of areas such as population dynamics, economics, electric circuits, mechanical systems, fluid flow, physics and astrophysics. Analytic methods from the elementary theory of differential equations and calculus will be provided to allow for the analysis of the various models being investigated. The numerical package MATLAB will be used to study model behaviour and to obtain deeper understanding of the consequences of analytical studies.\n\nTopics to be covered include the following:\n\nFirst order differential equations; second order linear equations; systems of first order equations; nonlinear differential equations; power series solutions.\n\nAdvanced Vector Calculus: curves and surfaces in three dimensions; parametric representations; curvilinear coordinate systems; surface and volume integrals; gradient, divergence and curl; identities involving vector differential operators; Green's theorem, Stokes' theorem and the divergence theorem.\n\nNote: This course is co-taught with MATH2305 but students are assessed separately."
+ },
+ {
+  "code": "MATH6406",
+  "subject": "MATH",
+  "number": 6406,
+  "level": 6000,
+  "title": "Partial Differential Equations, Fourier Analysis and Complex Analysis",
+  "units": 6,
+  "summary": "Many physical processes such as vibrating strings, diffusion of heat and fluid flows are well modelled by partial differential equations and/or integral equations.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [
+   "MATH2306"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH6406",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Many physical processes such as vibrating strings, diffusion of heat and fluid flows are well modelled by partial differential equations and/or integral equations. This course provides an introduction to methods for solving and analysing standard partial differential equations and integral equations, including an introduction to complex analytic techniques."
+ },
+ {
+  "code": "MATH8201",
+  "subject": "MATH",
+  "number": 8201,
+  "level": 8000,
+  "title": "Topics in Computational Maths",
+  "units": 6,
+  "summary": "This course will introduce students to current research trends in an area of computational mathematics.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you need to be active in one of the following programs: the Master of Science in Mathematical Sciences, the Master of Mathematical Sciences (Advanced), the Master of Science in Astronomy and Astrophysics, or the Master of Science in Astronomy and Astrophysics (Advanced).\n\nIncompatible with MATH6201 and MATH4201.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you need to be active in one of the following programs: the Master of Science in Mathematical Sciences, the Master of Mathematical Sciences (Advanced), the Master of Science in Astronomy and Astrophysics, or the Master of Science in Astronomy and Astrophysics (Advanced)"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH4201",
+   "MATH6201"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH8201",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course will introduce students to current research trends in an area of computational mathematics. Topics covered each year will vary but will cover one or more of those listed below, or even new emerging topics:\n\nData mining algorithms\n\nMultiscale and multilevel techniques\n\nThe numerical solution of PDEs\n\nOptimisation, approximation in particular of high-dimensional functions\n\nAlgorithms for the solution of linear systems of equations including iterative methods."
+ },
+ {
+  "code": "MATH8202",
+  "subject": "MATH",
+  "number": 8202,
+  "level": 8000,
+  "title": "Theory of Partial Differential Equations",
+  "units": 6,
+  "summary": "The course will discuss the three main classes of equations, elliptic, parabolic and hyperbolic.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you need to be enroled in the Master of Science in Mathematical Sciences, Master of Mathematical Sciences (Advanced), the Master of Science in Astronomy and Astrophysics, or the Master of Science in Astronomy and Astrophysics (Advanced) and must have completed either MATH3320 with a mark of 60 or above or MATH6212 with a mark of 60 or above (or their equivalent).\n\nIncompatible with MATH6202 and MATH4202.",
+  "rule": {
+   "kind": "UNMODELLED",
+   "text": "To enrol in this course you need to be enroled in the Master of Science in Mathematical Sciences, Master of Mathematical Sciences (Advanced), the Master of Science in Astronomy and Astrophysics, or the Master of Science in Astronomy and Astrophysics (Advanced) and must have completed either MATH3320 with a mark of 60 or above or MATH6212 with a mark of 60 or above (or their equivalent)"
+  },
+  "parseStatus": "unparsed",
+  "incompatible": [
+   "MATH4202",
+   "MATH6202"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH8202",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "The course will discuss the three main classes of equations, elliptic, parabolic and hyperbolic. It is intended both for mathematics students continuing to honours work and for other students using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics.\n\nTopics to be covered will include fundamental solutions, maximum principles, regularity (smoothness) of solutions, variational problems, Holder and Sobolev spaces."
+ },
+ {
+  "code": "MATH8204",
+  "subject": "MATH",
+  "number": 8204,
+  "level": 8000,
+  "title": "Algebraic Topology",
+  "units": 6,
+  "summary": "Algebraic topology studies properties of topological spaces and maps between them by associating algebraic invariants (fundamental groups, homology groups, cohomology groups) to each space.",
+  "offered": [
+   "S2"
+  ],
+  "requisiteText": "To enrol in this course you need to be enrolled in the Master of Science in Mathematical Sciences or the Master of Mathematical Sciences (Advanced).\nTo enrol in this course you must have successfully completed MATH6118 and of one of (MATH6215, MATH6212or MATH6205) or equivalent.\nIncompatible with MATH6204 and MATH4204.",
+  "rule": {
+   "kind": "AND",
+   "children": [
+    {
+     "kind": "INFO",
+     "info": "PROGRAM",
+     "text": "Master of Science in Mathematical Sciences or the Master of Mathematical Sciences (Advanced)"
+    },
+    {
+     "kind": "COURSE",
+     "code": "MATH6118",
+     "concurrent": false
+    },
+    {
+     "kind": "UNMODELLED",
+     "text": "of one of (MATH6215, MATH6212or MATH6205) or equivalent"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "MATH4204",
+   "MATH6204"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH8204",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Algebraic topology studies properties of topological spaces and maps between them by associating algebraic invariants (fundamental groups, homology groups, cohomology groups) to each space. This course gives a solid introduction to fundamental ideas and results that are employed nowadays in most areas of mathematics, theoretical physics and computer science. This course aims to understand some fundamental ideas in algebraic topology; to apply discrete, algebraic methods to solve topological problems; to develop some intuition for how algebraic topology relates to concrete topological problems.\n\nTopics to be covered include:\n\nFundamental group and covering spaces; Brouwer fixed point theorem and Fundamental theorem of algebra; Homology theory and cohomology theory; Jordan-Brouwer separation theorem, Lefschetz fixed theorem; some additional topics (Orientation, Poincare duality, if time permits)"
+ },
+ {
+  "code": "MATH8343",
+  "subject": "MATH",
+  "number": 8343,
+  "level": 8000,
+  "title": "Foundations of Mathematics",
+  "units": 6,
+  "summary": "This course is a critical approach to the foundations of mathematics.  In other mathematics classes, the philosophical concepts at the most basic foundations are usually treated naively.",
+  "offered": [
+   "S1"
+  ],
+  "requisiteText": "To enrol in this course you need to be active in the Master of Mathematical Sciences (Advanced) or Master of Science in Mathematical Sciences.\nIncompatible with MATH3343, MATH4343 and MATH6203.",
+  "rule": {
+   "kind": "OR",
+   "children": [
+    {
+     "kind": "UNMODELLED",
+     "text": "be active in the Master of Mathematical Sciences (Advanced)"
+    },
+    {
+     "kind": "INFO",
+     "info": "PROGRAM",
+     "text": "Master of Science in Mathematical Sciences"
+    }
+   ]
+  },
+  "parseStatus": "partial",
+  "incompatible": [
+   "MATH3343",
+   "MATH4343",
+   "MATH6203"
+  ],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH8343",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "This course is a critical approach to the foundations of mathematics. In other mathematics classes, the philosophical concepts at the most basic foundations are usually treated naively. The question of what exactly a number is, or what a set or a proof or an algorithm are, is completely ignored. Some evidence that these matters are not insubstantial is that in the early twentieth century, naive attempts to address them by the great logicians of the time led to famous paradoxes and a period known as the Crisis in Foundations of Mathematics.\n\nThis course will address these matters directly and rigorously. It spends a few weeks on each of the following topics:\n\nFirst order logic\n\nAxiomatisation of set theory\n\nModel theory\n\nComputability\n\nGodel's Incompleteness Theorem\n\nOther topics in logic and set theory"
+ },
+ {
+  "code": "MATH8701",
+  "subject": "MATH",
+  "number": 8701,
+  "level": 8000,
+  "title": "Mathematics Research Project",
+  "units": 6,
+  "summary": "Students undertake a research project in mathematics under the supervision of a member of staff. Credit value for this course can range between 6 and 24 units.",
+  "offered": [
+   "SUMMER",
+   "S1",
+   "S2"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH8701",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Students undertake a research project in mathematics under the supervision of a member of staff. Credit value for this course can range between 6 and 24 units."
+ },
+ {
+  "code": "MATH8702",
+  "subject": "MATH",
+  "number": 8702,
+  "level": 8000,
+  "title": "Mathematics Reading Course",
+  "units": 6,
+  "summary": "Students undertake a reading course in mathematics under the supervision of a member of staff. The credit value for this course can range between 6 and 24 units.",
+  "offered": [
+   "SUMMER",
+   "S1",
+   "S2"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH8702",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Students undertake a reading course in mathematics under the supervision of a member of staff. The credit value for this course can range between 6 and 24 units."
+ },
+ {
+  "code": "MATH8705",
+  "subject": "MATH",
+  "number": 8705,
+  "level": 8000,
+  "title": "Masters Special Topics in Mathematics",
+  "units": 6,
+  "summary": "Special topics aimed at developing the skills to understand and communicate contemporary mathematics and its applications. Topics vary from semester to semester and will be listed on the Maths Special Topics page by O-week. Please contact the course convener for more details.",
+  "offered": [
+   "S1",
+   "S2"
+  ],
+  "requisiteText": null,
+  "rule": null,
+  "parseStatus": "none",
+  "incompatible": [],
+  "origin": "catalogue",
+  "sourceUrl": "https://programsandcourses.anu.edu.au/2026/course/MATH8705",
+  "catalogueYear": 2026,
+  "retired": false,
+  "description": "Special topics aimed at developing the skills to understand and communicate contemporary mathematics and its applications. Topics vary from semester to semester and will be listed on the Maths Special Topics page by O-week. Please contact the course convener for more details."
+ }
+]
