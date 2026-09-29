@@ -55,7 +55,7 @@ Stop any orphaned dev servers from this repo's worktrees with
 | Track | Branch / worktree | State |
 |---|---|---|
 | W0, B, C, amber | merged to main (`91efea9`) | done |
-| A data | `v2-a-data` / `../crit7-a` | finishing: API, boot sync, catalogue filtered to **CSS + CBE colleges** |
+| A data | `v2-a-data` / `../crit7-a` | merged to main (f4669d1), catalogue 869 courses CSS+CBE, version 84be3f66 |
 | D planner | `v2-d-planner` / `../crit7-d` | running, port 4441, timebox 75 min |
 | E graph | `v2-e-graph` / `../crit7-e` | running, port 4442, timebox 75 min |
 | F integrate | none yet | not started |
